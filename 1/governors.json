@@ -1,6 +1,7 @@
 {
     "0xcAD001c30E96765aC90307669d578219D4fb1DCe": {
         "name": "Euler DAO Multisig",
-        "logo": "https://assets.coingecko.com/coins/images/26149/standard/Coingecko_logo_%281%29.png?1706026067"
+        "logo": "https://assets.coingecko.com/coins/images/26149/standard/Coingecko_logo_%281%29.png?1706026067",
+        "description": "The Euler DAO is the organisation responsible for the creation of the Euler lending/borrowing platform."
     }
 }
