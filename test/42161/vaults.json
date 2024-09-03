@@ -1,0 +1,14 @@
+{
+    "0xC9216A2a8770f639eD6EfD9E068Bbd5De7665754": {
+        "name": "Pyth-powered USDC",
+        "description": "USDC vault powered by Pyth oracle."
+    },
+    "0x58A8229ec60B6C5aE4e5256BBAE39B929dF16fb5": {
+        "name": "Cross-pull-powered WBTC",
+        "description": "WBTC vault powered by Cross adapters using pull oracles."
+    },
+    "0xeacEd9172238dd780E2F71B1aD47eAd903EbbEcb": {
+        "name": "Pull-powered WBTC",
+        "description": "WBTC vault powered by pull oracles."
+    }
+}
