@@ -14,5 +14,37 @@
     "0x313603FA690301b0CaeEf8069c065862f9162162": {
         "name": "EulerDAO Base USDT",
         "description": "A conservative USDT vault collateralized by other vaults in the EulerDAO cluster and escrow vaults."
+    },
+    "0x67e4e4e73947257ca62d118e0fbc56d06f11d96f": {
+        "name": "Re7 Labs Basic WETH",
+        "description": "A WETH vault collateralized by other vaults in the Re7 Labs Basic Cluster."
+    },
+    "0xc41252d4f61d25658cd83cc39942c49776e1b0c5": {
+        "name": "Re7 Labs Basic wstETH",
+        "description": "A wstETH vault collateralized by other vaults in the Re7 Labs Basic Cluster."
+    },
+    "0xee8693c11ace62839bb96beae86696c1e78aba3f": {
+        "name": "Re7 Labs Basic tBTC",
+        "description": "A tBTC vault collateralized by other vaults in the Re7 Labs Basic Cluster."
+    },
+    "0x27052ea5e307b6e8566d9ee560231c6742a6c03c": {
+        "name": "Re7 Labs Basic USDC",
+        "description": "A USDC vault collateralized by other vaults in the Re7 Labs Basic Cluster."
+    },
+    "0x82c710b9b225b43c0c90f097db31f5f10a7f86fa": {
+        "name": "Re7 Labs Renzo ezETH",
+        "description": "A ezETH vault collateralized by other vaults in the Re7 Labs Renzo Cluster."
+    },
+    "0x631d8e808f2c4177a8147eaa39a4f57c47634de8": {
+        "name": "Re7 Labs Renzo pzETH",
+        "description": "A pzETH vault collateralized by other vaults in the Re7 Labs Renzo Cluster."
+    },
+    "0xa992d3777282c44ee980e9b0ca9bd0c0e4f737af": {
+        "name": "Re7 Labs Renzo WETH",
+        "description": "A WETH vault collateralized by other vaults in the Re7 Labs Renzo Cluster."
+    },
+    "0xc40a68b5e536632b6572283f996b830b34607d01": {
+        "name": "Re7 Labs Renzo wstETH",
+        "description": "A wstETH vault collateralized by other vaults in the Re7 Labs Renzo Cluster."
     }
 }
