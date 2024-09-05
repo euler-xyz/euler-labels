@@ -8,5 +8,13 @@
         "name": "Euler DAO Multisig",
         "logo": "euler.svg",
         "description": "The Euler DAO is the organisation responsible for the creation of the Euler lending/borrowing platform."
+    },
+    "0x05591B3aFE2239Ff3669BCfD715815d2ba8A24a4": {
+      "name": "Apostro",
+      "logo": "apostro.png"
+    },
+    "0xf726311F85D45a7fECfFbC94bD8508a0A39958c6": {
+      "name": "Apostro Multisig",
+      "logo": "apostro.png"
     }
 }
