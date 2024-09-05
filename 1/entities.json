@@ -8,5 +8,10 @@
         "name": "Re7 Labs Euler Multisig",
         "logo": "re7labs.svg",
         "description": "Re7 Labs is the innovation arm of digital asset investment firm Re7 Capital, taking the practical experience of DeFi risk management to on-chain vaults."
+    },
+      "0xEe009FAF00CF54C1B4387829aF7A8Dc5f0c8C8C5": {
+        "name": "Euler DAO Multisig",
+        "logo": "euler.svg",
+        "description": "The Euler DAO is the organisation responsible for the creation of the Euler lending/borrowing platform."
     }
 }
