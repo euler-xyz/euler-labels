@@ -1,58 +1,72 @@
 {
     "0xD8b27CF359b7D15710a5BE299AF6e7Bf904984C2": {
         "name": "EulerDAO Base WETH",
-        "description": "A conservative WETH vault collateralized by other vaults in the EulerDAO cluster and escrow vaults."
+        "description": "A conservative WETH vault collateralized by other vaults in the EulerDAO cluster and escrow vaults.",
+        "entity": "0xcAD001c30E96765aC90307669d578219D4fb1DCe"
     },
     "0xbC4B4AC47582c3E38Ce5940B80Da65401F4628f1": {
         "name": "EulerDAO Base wstETH",
-        "description": "A conservative wstETH vault collateralized by other vaults in the EulerDAO cluster and escrow vaults."
+        "description": "A conservative wstETH vault collateralized by other vaults in the EulerDAO cluster and escrow vaults.",
+        "entity": "0xcAD001c30E96765aC90307669d578219D4fb1DCe"
     },
     "0x797DD80692c3b2dAdabCe8e30C07fDE5307D48a9": {
         "name": "EulerDAO Base USDC",
-        "description": "A conservative USDC vault collateralized by other vaults in the EulerDAO cluster and escrow vaults."
+        "description": "A conservative USDC vault collateralized by other vaults in the EulerDAO cluster and escrow vaults.",
+        "entity": "0xcAD001c30E96765aC90307669d578219D4fb1DCe"
     },
     "0x313603FA690301b0CaeEf8069c065862f9162162": {
         "name": "EulerDAO Base USDT",
-        "description": "A conservative USDT vault collateralized by other vaults in the EulerDAO cluster and escrow vaults."
+        "description": "A conservative USDT vault collateralized by other vaults in the EulerDAO cluster and escrow vaults.",
+        "entity": "0xcAD001c30E96765aC90307669d578219D4fb1DCe"
     },
     "0x67e4e4e73947257ca62d118e0fbc56d06f11d96f": {
         "name": "Re7 Labs Basic WETH",
-        "description": "A WETH vault collateralized by other vaults in the Re7 Labs Basic Cluster."
+        "description": "A WETH vault collateralized by other vaults in the Re7 Labs Basic Cluster.",
+        "entity": "0x184d597Be309e11650ca6c935B483DcC05551578"
     },
     "0xc41252d4f61d25658cd83cc39942c49776e1b0c5": {
         "name": "Re7 Labs Basic wstETH",
-        "description": "A wstETH vault collateralized by other vaults in the Re7 Labs Basic Cluster."
+        "description": "A wstETH vault collateralized by other vaults in the Re7 Labs Basic Cluster.",
+        "entity": "0x184d597Be309e11650ca6c935B483DcC05551578"
     },
     "0xee8693c11ace62839bb96beae86696c1e78aba3f": {
         "name": "Re7 Labs Basic tBTC",
-        "description": "A tBTC vault collateralized by other vaults in the Re7 Labs Basic Cluster."
+        "description": "A tBTC vault collateralized by other vaults in the Re7 Labs Basic Cluster.",
+        "entity": "0x184d597Be309e11650ca6c935B483DcC05551578"
     },
     "0x27052ea5e307b6e8566d9ee560231c6742a6c03c": {
         "name": "Re7 Labs Basic USDC",
-        "description": "A USDC vault collateralized by other vaults in the Re7 Labs Basic Cluster."
+        "description": "A USDC vault collateralized by other vaults in the Re7 Labs Basic Cluster.",
+        "entity": "0x184d597Be309e11650ca6c935B483DcC05551578"
     },
     "0x82c710b9b225b43c0c90f097db31f5f10a7f86fa": {
         "name": "Re7 Labs Renzo ezETH",
-        "description": "A ezETH vault collateralized by other vaults in the Re7 Labs Renzo Cluster."
+        "description": "A ezETH vault collateralized by other vaults in the Re7 Labs Renzo Cluster.",
+        "entity": "0x184d597Be309e11650ca6c935B483DcC05551578"
     },
     "0x631d8e808f2c4177a8147eaa39a4f57c47634de8": {
         "name": "Re7 Labs Renzo pzETH",
-        "description": "A pzETH vault collateralized by other vaults in the Re7 Labs Renzo Cluster."
+        "description": "A pzETH vault collateralized by other vaults in the Re7 Labs Renzo Cluster.",
+        "entity": "0x184d597Be309e11650ca6c935B483DcC05551578"
     },
     "0xa992d3777282c44ee980e9b0ca9bd0c0e4f737af": {
         "name": "Re7 Labs Renzo WETH",
-        "description": "A WETH vault collateralized by other vaults in the Re7 Labs Renzo Cluster."
+        "description": "A WETH vault collateralized by other vaults in the Re7 Labs Renzo Cluster.",
+        "entity": "0x184d597Be309e11650ca6c935B483DcC05551578"
     },
     "0xc40a68b5e536632b6572283f996b830b34607d01": {
         "name": "Re7 Labs Renzo wstETH",
-        "description": "A wstETH vault collateralized by other vaults in the Re7 Labs Renzo Cluster."
+        "description": "A wstETH vault collateralized by other vaults in the Re7 Labs Renzo Cluster.",
+        "entity": "0x184d597Be309e11650ca6c935B483DcC05551578"
     },
     "0x315F93a074D0948E4D068e98a34092750ea8A38C": {
         "name": "Apostro Lido Ecosystem USDC",
-        "description": "Part of the Lido ecosystem cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz."
+        "description": "Part of the Lido ecosystem cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
+        "entity": "0x05591B3aFE2239Ff3669BCfD715815d2ba8A24a4"
     },
     "0xf9a23b059858CdD0e3ED0DDE89864BB82B88aa19": {
         "name": "Apostro Lido Ecosystem WETH",
-        "description": "Part of the Lido ecosystem cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz."
+        "description": "Part of the Lido ecosystem cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
+        "entity": "0x05591B3aFE2239Ff3669BCfD715815d2ba8A24a4"
     }
 }
