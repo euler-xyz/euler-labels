@@ -68,5 +68,20 @@
         "name": "Apostro Lido Ecosystem WETH",
         "description": "Part of the Lido ecosystem cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
         "entity": "0x05591B3aFE2239Ff3669BCfD715815d2ba8A24a4"
+    },
+    "0x3f29460AaCdE3d6Ae0156aB1f8685bd21Eb37074": {
+        "name": "Alterscope USDC Genesis",
+        "description": "Part of the Alterscope Genesis Cluster, offering safety and low risk through collateralized vaults—powered by Alterscope’s expertise.",
+        "entity": "0x2e571f334fe06A6a2741dd0E4cb5Bc7C1F8Af808"
+    },
+    "0x0E88544bf60bbc748FA542B79e9aE3Cf18Db7F75": {
+        "name": "Alterscope WETH Genesis",
+        "description": "Part of the Alterscope Genesis Cluster, offering safety and low risk through collateralized vaults—powered by Alterscope’s expertise.",
+        "entity": "0x2e571f334fe06A6a2741dd0E4cb5Bc7C1F8Af808"
+    },
+    "0x1926f5Bb9ed68BA83255fB219828a90Bd9F40771": {
+        "name": "Alterscope wstETH Genesis",
+        "description": "Part of the Alterscope Genesis Cluster, offering safety and low risk through collateralized vaults—powered by Alterscope’s expertise.",
+        "entity": "0x2e571f334fe06A6a2741dd0E4cb5Bc7C1F8Af808"
     }
 }
