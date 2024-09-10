@@ -21,5 +21,10 @@
     "name": "Alterscope Multisig",
     "logo": "alterscope_wb.svg",
     "description": "Alterscope provides the platform for processing and modelling risk in real-time across chains, protocols, and liquidity pools. Whether you're a protocol or an investment firm, we've got you covered."
+  },
+  "0x66301F68E8EdE19C0EcD1AB0b3Ee6FdE9cb143Fb": {
+    "name": "Dinero Protocol Timelock Controller",
+    "logo": "dinero.svg",
+    "description":"The yield baseplate of Ethereum. Providing a suite of products that scale yield for protocols and users."
   }
 }
