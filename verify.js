@@ -5,6 +5,9 @@ const ethers = require("ethers");
 const imageSize = require("image-size");
 
 
+const MAX_VAULT_NAME_SIZE = 40;
+
+
 let logos = {};
 
 fs.readdirSync("logo/").forEach(file => {
@@ -42,6 +45,7 @@ function validateChain(chainId) {
         let entity = entities[entityId];
 
         if (!validSlug(entityId)) throw Error(`entities: invalid slug: ${entityId}`);
+        if (!entity.name) throw Error(`entities: missing name: ${entityId}`);
 
         for (let addr of Object.keys(entity.addresses || {})) {
             if (addr !== ethers.getAddress(addr)) throw Error(`entities: malformed address: ${addr}`);
@@ -52,7 +56,10 @@ function validateChain(chainId) {
 
     for (let vaultId of Object.keys(vaults)) {
         let vault = vaults[vaultId];
+
         if (vaultId !== ethers.getAddress(vaultId)) throw Error(`vaults: malformed vaultId: ${vaultId}`);
+        if (!vault.name) throw Error(`vaults: missing name: ${vaultId}`);
+        if (vault.name.length > MAX_VAULT_NAME_SIZE) throw Error(`vaults: name is too long: ${vault.name}`);
 
         for (let entity of getArray(vault.entity)) {
             if (!entities[entity]) throw Error(`vaults: no such entity ${vault.entity}`);
@@ -63,6 +70,7 @@ function validateChain(chainId) {
         let product = products[productId];
 
         if (!validSlug(productId)) throw Error(`products: invalid slug: ${entityId}`);
+        if (!product.name) throw Error(`products: missing name: ${productId}`);
 
         for (let addr of product.vaults) {
             if (addr !== ethers.getAddress(addr)) throw Error(`products: malformed vault address: ${addr}`);
