@@ -18,7 +18,11 @@ for (const file of Object.keys(logos)) {
 
 	if (info.type !== "svg") {
 		// legacy PNG files: please use SVG instead
-		if (file !== "re7labs.png" && file !== "apostro.png")
+		if (
+			file !== "re7labs.png" &&
+			file !== "apostro.png" &&
+			file !== "mev-capital.png"
+		)
 			throw Error(`logo file ${file} is not SVG`);
 	}
 
