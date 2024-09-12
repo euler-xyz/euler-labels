@@ -1,6 +1,20 @@
 {
-  "dependencies": {
-    "ethers": "^6.13.2",
-    "image-size": "^1.1.1"
-  }
+	"scripts": {
+		"biome:fix": "biome check --write",
+		"prepare": "husky install",
+		"biome": "biome check"
+	},
+	"dependencies": {
+		"ethers": "^6.13.2",
+		"image-size": "^1.1.1"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.0",
+		"husky": "^9.1.6"
+	},
+	"lint-staged": {
+		"*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}": [
+			"biome check --write --no-errors-on-unmatched"
+		]
+	}
 }
