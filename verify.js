@@ -1,131 +1,133 @@
-const child_process = require('child_process');
-const fs = require("fs");
+const child_process = require("node:child_process");
+const fs = require("node:fs");
 
 const ethers = require("ethers");
 const imageSize = require("image-size");
 
-
 const MAX_VAULT_NAME_SIZE = 40;
 
+const logos = {};
 
-let logos = {};
-
-fs.readdirSync("logo/").forEach(file => {
-    logos[file] = true;
-});
-
-for (let file of Object.keys(logos)) {
-    let info = imageSize(`logo/${file}`);
-
-    if (info.type !== 'svg') {
-        // legacy PNG files: please use SVG instead
-        if (file !== 're7labs.png' && file !== 'apostro.png') throw Error(`logo file ${file} is not SVG`);
-    }
-
-    if (info.height !== info.width) throw Error(`logo dimensions not square: ${file} (${info.height} x ${info.width})`);
+for (let i = 0; i < fs.readdirSync("logo/").length; i++) {
+	const file = fs.readdirSync("logo/")[i];
+	logos[file] = true;
 }
 
-fs.readdirSync(".").forEach(file => {
-    if (!/^\d+$/.test(file)) return;
-    validateChain(file);
-});
+for (const file of Object.keys(logos)) {
+	const info = imageSize(`logo/${file}`);
+
+	if (info.type !== "svg") {
+		// legacy PNG files: please use SVG instead
+		if (file !== "re7labs.png" && file !== "apostro.png")
+			throw Error(`logo file ${file} is not SVG`);
+	}
+
+	if (info.height !== info.width)
+		throw Error(
+			`logo dimensions not square: ${file} (${info.height} x ${info.width})`,
+		);
+}
+
+for (const file of fs.readdirSync(".")) {
+	if (!/^\d+$/.test(file)) continue;
+	validateChain(file);
+}
 
 console.log("OK");
-
-
 
 ///////////
 
 function validateChain(chainId) {
-    let entities = loadJsonFile(`${chainId}/entities.json`);
-    let vaults = loadJsonFile(`${chainId}/vaults.json`);
-    let products = loadJsonFile(`${chainId}/products.json`);
-    let points = loadJsonFile(`${chainId}/points.json`);
+	const entities = loadJsonFile(`${chainId}/entities.json`);
+	const vaults = loadJsonFile(`${chainId}/vaults.json`);
+	const products = loadJsonFile(`${chainId}/products.json`);
+	const points = loadJsonFile(`${chainId}/points.json`);
 
-    for (let entityId of Object.keys(entities)) {
-        let entity = entities[entityId];
+	for (const entityId of Object.keys(entities)) {
+		const entity = entities[entityId];
 
-        if (!validSlug(entityId)) throw Error(`entities: invalid slug: ${entityId}`);
-        if (!entity.name) throw Error(`entities: missing name: ${entityId}`);
+		if (!validSlug(entityId))
+			throw Error(`entities: invalid slug: ${entityId}`);
+		if (!entity.name) throw Error(`entities: missing name: ${entityId}`);
 
-        for (let addr of Object.keys(entity.addresses || {})) {
-            if (addr !== ethers.getAddress(addr)) throw Error(`entities: malformed address: ${addr}`);
-        }
+		for (const addr of Object.keys(entity.addresses || {})) {
+			if (addr !== ethers.getAddress(addr))
+				throw Error(`entities: malformed address: ${addr}`);
+		}
 
-        if (entity.logo && !logos[entity.logo]) throw Error(`entities: logo not found: ${entity.logo}`);
-    }
+		if (entity.logo && !logos[entity.logo])
+			throw Error(`entities: logo not found: ${entity.logo}`);
+	}
 
-    for (let vaultId of Object.keys(vaults)) {
-        let vault = vaults[vaultId];
+	for (const vaultId of Object.keys(vaults)) {
+		const vault = vaults[vaultId];
 
-        if (vaultId !== ethers.getAddress(vaultId)) throw Error(`vaults: malformed vaultId: ${vaultId}`);
-        if (!vault.name) throw Error(`vaults: missing name: ${vaultId}`);
-        if (vault.name.length > MAX_VAULT_NAME_SIZE) throw Error(`vaults: name is too long: ${vault.name}`);
+		if (vaultId !== ethers.getAddress(vaultId))
+			throw Error(`vaults: malformed vaultId: ${vaultId}`);
+		if (!vault.name) throw Error(`vaults: missing name: ${vaultId}`);
+		if (vault.name.length > MAX_VAULT_NAME_SIZE)
+			throw Error(`vaults: name is too long: ${vault.name}`);
 
-        for (let entity of getArray(vault.entity)) {
-            if (!entities[entity]) throw Error(`vaults: no such entity ${vault.entity}`);
-        }
-    }
+		for (const entity of getArray(vault.entity)) {
+			if (!entities[entity])
+				throw Error(`vaults: no such entity ${vault.entity}`);
+		}
+	}
 
-    for (let productId of Object.keys(products)) {
-        let product = products[productId];
+	for (const productId of Object.keys(products)) {
+		const product = products[productId];
 
-        if (!validSlug(productId)) throw Error(`products: invalid slug: ${entityId}`);
-        if (!product.name) throw Error(`products: missing name: ${productId}`);
+		if (!validSlug(productId))
+			throw Error(`products: invalid slug: ${entityId}`);
+		if (!product.name) throw Error(`products: missing name: ${productId}`);
 
-        for (let addr of product.vaults) {
-            if (addr !== ethers.getAddress(addr)) throw Error(`products: malformed vault address: ${addr}`);
-            if (!vaults[addr]) throw Error(`products: unknown vault: ${addr}`);
-        }
+		for (const addr of product.vaults) {
+			if (addr !== ethers.getAddress(addr))
+				throw Error(`products: malformed vault address: ${addr}`);
+			if (!vaults[addr]) throw Error(`products: unknown vault: ${addr}`);
+		}
 
-        for (let entity of getArray(product.entity)) {
-            if (!entities[entity]) throw Error(`products: no such entity ${entity}`);
-        }
+		for (const entity of getArray(product.entity)) {
+			if (!entities[entity]) throw Error(`products: no such entity ${entity}`);
+		}
 
-        if (product.logo && !logos[product.logo]) throw Error(`products: logo not found: ${product.logo}`);
-    }
+		if (product.logo && !logos[product.logo])
+			throw Error(`products: logo not found: ${product.logo}`);
+	}
 
-    for(const point of points) {
-        if (point.token !== ethers.getAddress(point.token)) throw Error(`points: malformed token: ${point.token}`);
-        if (!point.name) throw Error(`points: missing name: ${point.name}`);
-        if (point.url && !validUrl(point.url)) throw Error(`points: missing name: ${point.name}`);
-        if (point.logo && !logos[point.logo]) throw Error(`points: logo not found: ${product.logo}`);
-        for (let addr of point.vaults) {
-            if (addr !== ethers.getAddress(addr)) throw Error(`points: malformed vault address: ${addr}`);
-        }
-        for (let entity of getArray(point.entity)) {
-            if (!entities[entity]) throw Error(`points: no such entity ${entity}`);
-        }
-    }
-
-    checkFormatting(`${chainId}/entities.json`);
-    checkFormatting(`${chainId}/vaults.json`);
-    checkFormatting(`${chainId}/products.json`);
-    checkFormatting(`${chainId}/points.json`);
+	for (const point of points) {
+		if (point.token !== ethers.getAddress(point.token))
+			throw Error(`points: malformed token: ${point.token}`);
+		if (!point.name) throw Error(`points: missing name: ${point.name}`);
+		if (point.url && !validUrl(point.url))
+			throw Error(`points: missing name: ${point.name}`);
+		if (point.logo && !logos[point.logo])
+			throw Error(`points: logo not found: ${product.logo}`);
+		for (const addr of point.vaults) {
+			if (addr !== ethers.getAddress(addr))
+				throw Error(`points: malformed vault address: ${addr}`);
+		}
+		for (const entity of getArray(point.entity)) {
+			if (!entities[entity]) throw Error(`points: no such entity ${entity}`);
+		}
+	}
 }
 
 function loadJsonFile(file) {
-    return JSON.parse(fs.readFileSync(file).toString());
+	return JSON.parse(fs.readFileSync(file).toString());
 }
 
 function validSlug(slug) {
-    return /^[a-z0-9-]+$/.test(slug);
+	return /^[a-z0-9-]+$/.test(slug);
 }
 
 function validUrl(url) {
-    return /^(https?:\/\/)?([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,63}(\/[^\s]*)?$/.test(url);
+	return /^(https?:\/\/)?([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,63}(\/[^\s]*)?$/.test(
+		url,
+	);
 }
 
 function getArray(v) {
-    if (Array.isArray(v)) return v;
-    return [v];
-}
-
-function checkFormatting(file) {
-    try {
-        child_process.execSync(`bash -c 'diff -u ${file} <(jq --indent 4 . ${file})'`);
-    } catch (e) {
-        console.error(`Formatting problem in ${file} -- apply this patch to fix:\n\n${e.stdout.toString()}\n\n`);
-        throw Error(`Formatting problem in ${file}`);
-    }
+	if (Array.isArray(v)) return v;
+	return [v];
 }

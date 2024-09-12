@@ -23,3 +23,6 @@ jobs:
 
       - name: Run verify.js
         run: node verify.js
+
+      - name: Lint
+        run: npm run biome
