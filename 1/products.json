@@ -1,5 +1,5 @@
 {
-    "eulerdao-base": {
+    "euler-dao-base": {
         "name": "EulerDAO Base Vaults",
         "description": "A cluster of basic, conservative vaults governed by the EulerDAO, originally for the purpose of hosting a capture-the-flag contest.",
         "entity": "euler-dao",
