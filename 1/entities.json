@@ -1,30 +1,50 @@
 {
-  "0xcAD001c30E96765aC90307669d578219D4fb1DCe": {
-    "name": "Euler DAO Multisig",
-    "logo": "euler.svg",
-    "description": "The Euler DAO is the organisation responsible for the creation of the Euler lending/borrowing platform."
-  },
-  "0x184d597Be309e11650ca6c935B483DcC05551578": {
-    "name": "Re7 Labs Euler Multisig",
-    "logo": "re7labs.png",
-    "description": "Re7 Labs is the innovation arm of digital asset investment firm Re7 Capital, taking the practical experience of DeFi risk management to on-chain vaults."
-  },
-  "0x05591B3aFE2239Ff3669BCfD715815d2ba8A24a4": {
-    "name": "Apostro",
-    "logo": "apostro.png"
-  },
-  "0xf726311F85D45a7fECfFbC94bD8508a0A39958c6": {
-    "name": "Apostro Multisig",
-    "logo": "apostro.png"
-  },
-  "0x2e571f334fe06A6a2741dd0E4cb5Bc7C1F8Af808": {
-    "name": "Alterscope Multisig",
-    "logo": "alterscope_wb.svg",
-    "description": "Alterscope provides the platform for processing and modelling risk in real-time across chains, protocols, and liquidity pools. Whether you're a protocol or an investment firm, we've got you covered."
-  },
-  "0x66301F68E8EdE19C0EcD1AB0b3Ee6FdE9cb143Fb": {
-    "name": "Dinero Protocol Timelock Controller",
-    "logo": "dinero.svg",
-    "description":"The yield baseplate of Ethereum. Providing a suite of products that scale yield for protocols and users."
-  }
+    "euler-dao": {
+        "name": "Euler DAO Multisig",
+        "logo": "euler.svg",
+        "description": "The Euler DAO is the organisation responsible for the creation of the Euler lending/borrowing platform.",
+        "url": "https://euler.finance/",
+        "addresses": {
+            "0xcAD001c30E96765aC90307669d578219D4fb1DCe": "Euler DAO Multisig"
+        },
+        "social": {
+            "twitter": "eulerfinance",
+            "youtube": "EulerFinance",
+            "discord": "https://discord.euler.finance/",
+            "telegram": "eulerfinance_official",
+            "github": "euler-xyz"
+        }
+    },
+    "re7-labs": {
+        "name": "Re7 Labs",
+        "logo": "re7labs.png",
+        "description": "Re7 Labs is the innovation arm of digital asset investment firm Re7 Capital, taking the practical experience of DeFi risk management to on-chain vaults.",
+        "addresses": {
+            "0x184d597Be309e11650ca6c935B483DcC05551578": "Re7 Labs Euler Multisig"
+        }
+    },
+    "apostro": {
+        "name": "Apostro",
+        "logo": "apostro.png",
+        "addresses": {
+            "0x05591B3aFE2239Ff3669BCfD715815d2ba8A24a4": "Apostro Timelock",
+            "0xf726311F85D45a7fECfFbC94bD8508a0A39958c6": "Apostro Multisig"
+        }
+    },
+    "alterscope": {
+        "name": "Alterscope",
+        "logo": "alterscope_wb.svg",
+        "description": "Alterscope provides the platform for processing and modelling risk in real-time across chains, protocols, and liquidity pools. Whether you're a protocol or an investment firm, we've got you covered.",
+        "addresses": {
+            "0x2e571f334fe06A6a2741dd0E4cb5Bc7C1F8Af808": "Alterscope Multisig"
+        }
+    },
+    "dinero": {
+        "name": "Dinero",
+        "logo": "dinero.svg",
+        "description": "The yield baseplate of Ethereum. Providing a suite of products that scale yield for protocols and users.",
+        "addresses": {
+            "0x66301F68E8EdE19C0EcD1AB0b3Ee6FdE9cb143Fb": "Dinero Protocol Timelock Controller"
+        }
+    }
 }
