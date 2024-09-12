@@ -1,0 +1,13 @@
+[
+    {
+        "token": "0xbC4B4AC47582c3E38Ce5940B80Da65401F4628f1",
+        "name": "Euler points",
+        "description": "testing",
+        "logo": "euler.svg",
+        "url": "https://euler.finance",
+        "vaults": [
+            "0xbC4B4AC47582c3E38Ce5940B80Da65401F4628f1"
+        ],
+        "entity": "euler-dao"
+    }
+]
