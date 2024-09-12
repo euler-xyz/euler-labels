@@ -40,6 +40,7 @@ function validateChain(chainId) {
     let entities = loadJsonFile(`${chainId}/entities.json`);
     let vaults = loadJsonFile(`${chainId}/vaults.json`);
     let products = loadJsonFile(`${chainId}/products.json`);
+    let points = loadJsonFile(`${chainId}/points.json`);
 
     for (let entityId of Object.keys(entities)) {
         let entity = entities[entityId];
@@ -84,9 +85,23 @@ function validateChain(chainId) {
         if (product.logo && !logos[product.logo]) throw Error(`products: logo not found: ${product.logo}`);
     }
 
+    for(const point of points) {
+        if (point.token !== ethers.getAddress(point.token)) throw Error(`points: malformed token: ${point.token}`);
+        if (!point.name) throw Error(`points: missing name: ${point.name}`);
+        if (point.url && !validUrl(point.url)) throw Error(`points: missing name: ${point.name}`);
+        if (point.logo && !logos[point.logo]) throw Error(`points: logo not found: ${product.logo}`);
+        for (let addr of point.vaults) {
+            if (addr !== ethers.getAddress(addr)) throw Error(`points: malformed vault address: ${addr}`);
+        }
+        for (let entity of getArray(point.entity)) {
+            if (!entities[entity]) throw Error(`points: no such entity ${entity}`);
+        }
+    }
+
     checkFormatting(`${chainId}/entities.json`);
     checkFormatting(`${chainId}/vaults.json`);
     checkFormatting(`${chainId}/products.json`);
+    checkFormatting(`${chainId}/points.json`);
 }
 
 function loadJsonFile(file) {
@@ -95,6 +110,10 @@ function loadJsonFile(file) {
 
 function validSlug(slug) {
     return /^[a-z0-9-]+$/.test(slug);
+}
+
+function validUrl(url) {
+    return /^(https?:\/\/)?([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,63}(\/[^\s]*)?$/.test(url);
 }
 
 function getArray(v) {
