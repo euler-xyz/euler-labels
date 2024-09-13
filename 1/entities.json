@@ -49,10 +49,13 @@
 	},
 	"mev-capital": {
 		"name": "MEV Capital",
-		"logo": "mev-capital.png",
+		"logo": "mev-capital.svg",
 		"description": "MEV Capital is a digital asset manager that focuses on finding and extracting value from the nascent DeFi markets. The strategies are conducted following a stable asset exposure mandate supported by well-defined benchmarks. The operations mainly consist of risk curations and liquidity provisioning to a set of public protocols. These protocols are selected to reflect internal risk management rules, fit regulatory criteria, and answer investor needs. MEV Capital aims to achieve consistent returns for the investors, while operating in a highly liquid environment and battle-tested security framework.",
 		"addresses": {
 			"0x38afC3aA2c76b4cA1F8e1DabA68e998e1F4782DB": "MEV Capital Multisig"
 		}
+	},
+	"k3": {
+		"name": "K3"
 	}
 }
