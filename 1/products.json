@@ -1,6 +1,6 @@
 {
-	"euler-dao-base": {
-		"name": "EulerDAO Base Vaults",
+	"euler-prime": {
+		"name": "Euler Prime",
 		"description": "A cluster of basic, conservative vaults governed by the EulerDAO, originally for the purpose of hosting a capture-the-flag contest.",
 		"entity": "euler-dao",
 		"url": "https://gov.euler.finance/proposal/?id=0x01c571faf0b69cd7714d154013c7a8f8081c7287900c95ce709c9f7c8890bbbc",
