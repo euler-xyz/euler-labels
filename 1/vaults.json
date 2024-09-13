@@ -153,5 +153,30 @@
 		"name": "MEV Capital wstETH Borrowable",
 		"description": "Component of the MEV Capital wETH Cluster",
 		"entity": "mev-capital"
+	},
+	"0xce45ef0414de3516caf1bcf937bf7f2cf67873de": {
+		"name": "Stablecoin Maxi USDC",
+		"description": "The Stablecoin Maxi USDC vault",
+		"entity": ["re7-labs", "mev-capital", "K3"]
+	},
+	"0x8dde384022d4de1d6c67891a8865f551c444dc4c": {
+		"name": "Stablecoin Maxi sUSDe",
+		"description": "The Stablecoin Maxi sUSDe vault",
+		"entity": ["re7-labs", "mev-capital", "K3"]
+	},
+	"0xac73efa7696dc1c1617bbc20aec64422c8b70eda": {
+		"name": "Stablecoin Maxi USDe",
+		"description": "The Stablecoin Maxi USDe vault",
+		"entity": ["re7-labs", "mev-capital", "K3"]
+	},
+	"0xe3eb096cd9a87c271567b0134f6de061c112a9e7": {
+		"name": "Stablecoin Maxi USD0",
+		"description": "The Stablecoin Maxi USD0 vault",
+		"entity": ["re7-labs", "mev-capital", "K3"]
+	},
+	"0x586719300c3966130b3ce15f563b1080271193e8": {
+		"name": "Stablecoin Maxi USDY",
+		"description": "The Stablecoin Maxi USDY vault",
+		"entity": ["re7-labs", "mev-capital", "K3"]
 	}
 }
