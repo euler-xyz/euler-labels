@@ -96,7 +96,7 @@ function validateChain(chainId) {
 	}
 
 	for (const point of points) {
-		if (point.token !== ethers.getAddress(point.token))
+		if (point.token && point.token !== ethers.getAddress(point.token))
 			throw Error(`points: malformed token: ${point.token}`);
 		if (!point.name) throw Error(`points: missing name: ${point.name}`);
 		if (point.url && !validUrl(point.url))
