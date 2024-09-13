@@ -44,7 +44,7 @@ Each entry in this object corresponds to a lending product, which is primarily a
 
 Each entry in this array corresponds to points available on deposits in a vault. Each item has the following
 
-* `token`: The token address (in a checksumed hex format) that the points are denominated in. (Required)
+* `token`: The token address (in a checksumed hex format) that the points are denominated in.
 * `name`: The name of the points, for example "Euler Points". (Required)
 * `description`: A long-form description of the points, displayed within points tooltips.
 * `url`: A URL where users can learn more about the points.
