@@ -18,11 +18,7 @@ for (const file of Object.keys(logos)) {
 
 	if (info.type !== "svg") {
 		// legacy PNG files: please use SVG instead
-		if (
-			file !== "re7labs.png" &&
-			file !== "apostro.png" &&
-			file !== "mev-capital.png"
-		)
+		if (file !== "re7labs.png" && file !== "apostro.png")
 			throw Error(`logo file ${file} is not SVG`);
 	}
 
@@ -87,7 +83,9 @@ function validateChain(chainId) {
 
 		for (const addr of product.vaults) {
 			if (addr !== ethers.getAddress(addr))
-				throw Error(`products: malformed vault address: ${addr}`);
+				throw Error(
+					`products: malformed vault address: ${ethers.getAddress(addr)}`,
+				);
 			if (!vaults[addr]) throw Error(`products: unknown vault: ${addr}`);
 		}
 
