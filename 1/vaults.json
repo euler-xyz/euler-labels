@@ -149,6 +149,11 @@
 		"description": "Component of the MEV Capital wETH Cluster",
 		"entity": "mev-capital"
 	},
+	"0x463Af6Add7b5806cF0EA30ec30F2030bF4F05175": {
+		"name": "MEV Capital rstETH Escrow",
+		"description": "Component of the MEV Capital wETH Cluster",
+		"entity": "mev-capital"
+	},
 	"0xe2D6A2a16ff6d3bbc4C90736A7e6F7Cc3C9B8fa9": {
 		"name": "MEV Capital WETH Borrowable",
 		"description": "Component of the MEV Capital wETH Cluster",
