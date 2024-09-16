@@ -1,1 +1,18 @@
-[]
+[
+	{
+		"name": "Pills",
+		"logo": "pills.svg",
+		"url": "https://docs.usual.money/pre-launch-rules/pills-campaign-rules",
+		"vaults": ["0xe3eb096CD9A87c271567b0134f6dE061c112A9E7"],
+		"entity": ["re7-labs", "mev-capital", "k3"]
+	},
+	{
+		"name": "Sats",
+		"logo": "ethena.png",
+		"vaults": [
+			"0xAc73efA7696DC1c1617BbC20aeC64422c8b70EDa",
+			"0x8dDE384022D4dE1D6C67891a8865f551c444dc4C"
+		],
+		"entity": ["re7-labs", "mev-capital", "k3"]
+	}
+]
