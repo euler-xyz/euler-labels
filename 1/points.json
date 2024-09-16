@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Pills",
-		"logo": "usual.png",
+		"logo": "pills.svg",
 		"url": "https://docs.usual.money/pre-launch-rules/pills-campaign-rules",
 		"vaults": ["0xe3eb096CD9A87c271567b0134f6dE061c112A9E7"],
 		"entity": ["re7-labs", "mev-capital", "k3"]
