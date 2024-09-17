@@ -110,9 +110,25 @@ function validateChain(chainId) {
 			throw Error(`points: missing name: ${point.name}`);
 		if (point.logo && !logos[point.logo])
 			throw Error(`points: logo not found: ${product.logo}`);
-		for (const addr of point.vaults) {
-			if (addr !== ethers.getAddress(addr))
-				throw Error(`points: malformed vault address: ${addr}`);
+
+		if (!point.collateralVaults?.length && !point.liabilityVaults?.length) {
+			throw Error(
+				`points: missing collateral or liability vaults for ${point.name}`,
+			);
+		}
+
+		if (point.collateralVaults) {
+			for (const addr of point.collateralVaults) {
+				if (addr !== ethers.getAddress(addr))
+					throw Error(`points: malformed vault address: ${addr}`);
+			}
+		}
+
+		if (point.liabilityVaults) {
+			for (const addr of point.liabilityVaults) {
+				if (addr !== ethers.getAddress(addr))
+					throw Error(`points: malformed vault address: ${addr}`);
+			}
 		}
 		for (const entity of getArray(point.entity)) {
 			if (!entities[entity]) throw Error(`points: no such entity ${entity}`);
