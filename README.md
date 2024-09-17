@@ -42,14 +42,15 @@ Each entry in this object corresponds to a lending product, which is primarily a
 
 ### `points.json`
 
-Each entry in this array corresponds to points available on deposits in a vault. Each item has the following
+Each entry in this array corresponds to points available on deposits in a vault. Either `collateralVaults` or `liabilityVaults` or both are required. Each item has the following
 
 * `token`: The token address (in a checksumed hex format) that the points are denominated in.
 * `name`: The name of the points, for example "Euler Points". (Required)
 * `description`: A long-form description of the points, displayed within points tooltips.
 * `url`: A URL where users can learn more about the points.
 * `logo`: The filename of a logo stored in the `logo/` directory. (Required)
-* `vaults`: An array of the vault addresses (in checksumed hex format) that offer these points. Each vault does not need to exist in the `vaults.json` file. (Required)
+* `collateralVaults`: An array of the vault addresses (in checksumed hex format) that offer these points. Each vault does not need to exist in the `vaults.json` file.
+* `liabilityVaults`: An array of the vault addresses (in checksumed hex format) that offer these points. Each vault does not need to exist in the `vaults.json` file.
 * `entity`: An entity ID that refers to the organisation responsible for governing and/or creating this vault, or a list of entity IDs if the vault is joint-managed.
 
 ## Logos
