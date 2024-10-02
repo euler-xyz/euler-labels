@@ -194,7 +194,7 @@
 		"description": "The Stablecoin Maxi stUSD vault",
 		"entity": ["re7-labs", "mev-capital", "k3"]
 	},
-	"0xbd9a8701b0f56b758bcd4ace08daf097e236e0cb": {
+	"0xBd9A8701B0F56b758bCd4aCe08DAF097e236E0CB": {
 		"name": "Stablecoin Maxi USDS",
 		"description": "The Stablecoin Maxi USDS vault",
 		"entity": ["re7-labs", "mev-capital", "k3"]
