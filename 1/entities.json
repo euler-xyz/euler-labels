@@ -33,7 +33,7 @@
 	},
 	"alterscope": {
 		"name": "Alterscope",
-		"logo": "alterscope_wb.svg",
+		"logo": "alterscope_wb.png",
 		"description": "Alterscope provides the platform for processing and modelling risk in real-time across chains, protocols, and liquidity pools. Whether you're a protocol or an investment firm, we've got you covered.",
 		"addresses": {
 			"0x2e571f334fe06A6a2741dd0E4cb5Bc7C1F8Af808": "Alterscope Multisig"
@@ -41,7 +41,7 @@
 	},
 	"dinero": {
 		"name": "Dinero",
-		"logo": "dinero.svg",
+		"logo": "dinero.png",
 		"description": "The yield baseplate of Ethereum. Providing a suite of products that scale yield for protocols and users.",
 		"addresses": {
 			"0x66301F68E8EdE19C0EcD1AB0b3Ee6FdE9cb143Fb": "Dinero Protocol Timelock Controller"
@@ -56,6 +56,7 @@
 		}
 	},
 	"k3": {
-		"name": "K3"
+		"name": "K3",
+		"logo": "k3.svg"
 	}
 }

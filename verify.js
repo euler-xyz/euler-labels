@@ -22,6 +22,8 @@ for (const file of Object.keys(logos)) {
 			file !== "re7labs.png" &&
 			file !== "apostro.png" &&
 			file !== "usual.png" &&
+			file !== "dinero.png" &&
+			file !== "alterscope_wb.png" &&
 			file !== "ethena.png"
 		)
 			throw Error(`logo file ${file} is not SVG`);
