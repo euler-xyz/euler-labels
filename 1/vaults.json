@@ -208,5 +208,10 @@
 		"name": "Re7 Labs AUSD",
 		"description": "The Re7 Labs AUSD vault",
 		"entity": ["re7-labs"]
+	},
+	"0xcAd0be6e135C3d2859EA0c872cCD510C962765b7": {
+		"name": "BiLira TRYB Vault",
+		"description": "The BiLira TRYB vault curated by Re7 Labs",
+		"entity": ["re7-labs"]
 	}
 }
