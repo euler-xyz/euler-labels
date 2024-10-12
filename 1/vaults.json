@@ -217,7 +217,7 @@
 	"0xea0C048c728578b1510EBDF9b692E8936D6Fbc90": {
 		"name": "Re7 Labs Smart $M",
 		"description": "The wM vault curated by Re7 Labs",
-		"entity": ["re7-labs", "mev-capital"]
+		"entity": ["re7-labs"]
 	},
 	"0xfacad9d934f17930d28b93f3c84a13bfac73347c": {
 		"name": "Reserve USD3 Prime",
