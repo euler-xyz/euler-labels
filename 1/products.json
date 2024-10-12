@@ -61,7 +61,7 @@
 	},
 	"mev-capital-weth": {
 		"name": "MEV Capital wETH Cluster",
-		"entity": "mev-capital",
+		"entity": ["mev-capital"]
 		"vaults": [
 			"0x6b6976aA97CD2473B388fA9b9eEb8Cca4F5a77a4",
 			"0x6C37d34a895456AA29CABe0caCB60FC56309C7ac",
@@ -77,6 +77,17 @@
 			"0x463Af6Add7b5806cF0EA30ec30F2030bF4F05175",
 			"0xe2D6A2a16ff6d3bbc4C90736A7e6F7Cc3C9B8fa9",
 			"0x1334d0E5ca5855A803998fcC78548142BEF36e3B"
+		]
+	},
+	,
+	"reserve-prime": {
+		"name": "Reserve Ecosystem Cluster",
+		"entity": ["re7-labs", "mev-capital"]
+		"vaults": [
+			"0x7e8ba73e62dc430a4fc76e7bb4ea8de62cde5fdc",
+			"0xc58eac02905d34678f552c90de2d4c94bf987b12",
+			"0xb2a8baba27b5d45db0a4e58275caf62debca7aa2",
+			"0xfacad9d934f17930d28b93f3c84a13bfac73347c"
 		]
 	}
 }
