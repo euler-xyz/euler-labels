@@ -81,7 +81,7 @@
 	},
 	,
 	"reserve-prime": {
-		"name": "Reserve Ecosystem Cluster",
+		"name": "Reserve Prime",
 		"entity": ["re7-labs", "mev-capital"]
 		"vaults": [
 			"0x7e8ba73e62dc430a4fc76e7bb4ea8de62cde5fdc",
