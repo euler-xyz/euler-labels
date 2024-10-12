@@ -61,7 +61,7 @@
 	},
 	"mev-capital-weth": {
 		"name": "MEV Capital wETH Cluster",
-		"entity": "mev-capital"
+		"entity": "mev-capital",
 		"vaults": [
 			"0x6b6976aA97CD2473B388fA9b9eEb8Cca4F5a77a4",
 			"0x6C37d34a895456AA29CABe0caCB60FC56309C7ac",
