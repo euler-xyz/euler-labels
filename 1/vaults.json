@@ -219,22 +219,22 @@
 		"description": "The wM vault curated by Re7 Labs",
 		"entity": ["re7-labs"]
 	},
-	"0xfacad9d934f17930d28b93f3c84a13bfac73347c": {
+	"0xfaCaD9D934F17930d28b93F3C84a13BFAc73347C": {
 		"name": "Reserve USD3 Prime",
 		"description": "Reserve Cluster USD3",
 		"entity": ["re7-labs", "mev-capital"]
 	},
-	"0xb2a8baba27b5d45db0a4e58275caf62debca7aa2": {
+	"0xb2A8bAba27B5D45Db0a4E58275cAf62DEBca7AA2": {
 		"name": "Reserve eUSD Prime",
 		"description": "Reserve Cluster eUSD",
 		"entity": ["re7-labs", "mev-capital"]
 	},
-	"0xc58eac02905d34678f552c90de2d4c94bf987b12": {
+	"0xc58Eac02905d34678f552c90De2D4c94bF987B12": {
 		"name": "Reserve WETH Prime",
 		"description": "Reserve Cluster WETH",
 		"entity": ["re7-labs", "mev-capital"]
 	},
-	"0x7e8ba73e62dc430a4fc76e7bb4ea8de62cde5fdc": {
+	"0x7E8Ba73e62dc430A4Fc76E7bb4EA8de62CDe5fDc": {
 		"name": "Reserve ETH+ Prime",
 		"description": "Reserve Cluster ETH+",
 		"entity": ["re7-labs", "mev-capital"]
