@@ -16,17 +16,8 @@ for (let i = 0; i < fs.readdirSync("logo/").length; i++) {
 for (const file of Object.keys(logos)) {
 	const info = imageSize(`logo/${file}`);
 
-	if (info.type !== "svg") {
-		// legacy PNG files: please use SVG instead
-		if (
-			file !== "re7labs.png" &&
-			file !== "apostro.png" &&
-			file !== "usual.png" &&
-			file !== "dinero.png" &&
-			file !== "alterscope_wb.png" &&
-			file !== "ethena.png"
-		)
-			throw Error(`logo file ${file} is not SVG`);
+	if (info.type !== "svg" && info.type !== "png") {
+		throw Error(`logo file ${file} is not SVG/PNG`);
 	}
 
 	if (info.height !== info.width)
@@ -81,6 +72,8 @@ function validateChain(chainId) {
 		}
 	}
 
+	const vaultsSeenInProducts = {};
+
 	for (const productId of Object.keys(products)) {
 		const product = products[productId];
 
@@ -94,6 +87,9 @@ function validateChain(chainId) {
 					`products: malformed vault address: ${ethers.getAddress(addr)}`,
 				);
 			if (!vaults[addr]) throw Error(`products: unknown vault: ${addr}`);
+			if (vaultsSeenInProducts[addr])
+				throw Error(`products: vault in multiple products: ${addr}`);
+			vaultsSeenInProducts[addr] = true;
 		}
 
 		for (const entity of getArray(product.entity)) {
@@ -102,6 +98,11 @@ function validateChain(chainId) {
 
 		if (product.logo && !logos[product.logo])
 			throw Error(`products: logo not found: ${product.logo}`);
+	}
+
+	for (const vaultId of Object.keys(vaults)) {
+		if (!vaultsSeenInProducts[vaultId])
+			console.error(`vault does not exist in product: ${vaultId}`);
 	}
 
 	for (const point of points) {
