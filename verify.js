@@ -102,7 +102,7 @@ function validateChain(chainId) {
 
 	for (const vaultId of Object.keys(vaults)) {
 		if (!vaultsSeenInProducts[vaultId])
-			console.error(`vault does not exist in product: ${vaultId}`);
+			throw Error(`vault does not exist in product: ${vaultId}`);
 	}
 
 	for (const point of points) {
