@@ -98,5 +98,10 @@
 			"0xb2A8bAba27B5D45Db0a4E58275cAf62DEBca7AA2",
 			"0xfaCaD9D934F17930d28b93F3C84a13BFAc73347C"
 		]
+	},
+	"dinero-protocol": {
+		"name": "Dinero Protocol",
+		"entity": ["dinero"],
+		"vaults": ["0xBe4089616039eC3F7361B7058d92a90246ee86e0"]
 	}
 }
