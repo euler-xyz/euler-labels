@@ -14,5 +14,23 @@
 			"0x8dDE384022D4dE1D6C67891a8865f551c444dc4C"
 		],
 		"entity": ["re7-labs", "mev-capital", "k3"]
+	},
+	{
+		"name": "Ether.FI",
+		"logo": "ethfi.png",
+		"collateralVaults": ["0xe846ca062aB869b66aE8DcD811973f628BA82eAf"],
+		"entity": ["euler-dao"]
+	},
+	{
+		"name": "2x Lombard Lux",
+		"logo": "lombard.svg",
+		"collateralVaults": ["0x056f3a2E41d2778D3a0c0714439c53af2987718E"],
+		"entity": ["euler-dao"]
+	},
+	{
+		"name": "3x Lombard Lux",
+		"logo": "lombard.svg",
+		"collateralVaults": ["0xbC35161043EE2D74816d421EfD6a45fDa73B050A"],
+		"entity": ["euler-dao"]
 	}
 ]
