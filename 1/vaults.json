@@ -119,6 +119,111 @@
 		"description": "Part of the Lido ecosystem cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
 		"entity": "apostro"
 	},
+	"0x9167Ff08C18Ea05d70D5CBf0c576A33DCeE6de06": {
+		"name": "Alterscope Bedrock UNI",
+		"description": "Part of the Alterscope Bedrock ecosystem. Ideal for those seeking secure, reliable growth.",
+		"entity": "alterscope"
+	},
+	"0x25C538cc5c5B4cDdf9a9A656f90d2d8129E841B2": {
+		"name": "Alterscope Bedrock LINK",
+		"description": "Part of the Alterscope Bedrock ecosystem. Ideal for those seeking secure, reliable growth.",
+		"entity": "alterscope"
+	},
+	"0xD1552d878FE4869539ba4D03D207B54913a5C273": {
+		"name": "Alterscope Bedrock AAVE",
+		"description": "Part of the Alterscope Bedrock ecosystem. Ideal for those seeking secure, reliable growth.",
+		"entity": "alterscope"
+	},
+	"0xFc323C1727853872A85098EA89a6882853B708dd": {
+		"name": "Alterscope Bedrock GRT",
+		"description": "Part of the Alterscope Bedrock ecosystem. Ideal for those seeking secure, reliable growth.",
+		"entity": "alterscope"
+	},
+	"0xfC67343ac17B158deb69de67Ba8A2eD7C47F0C74": {
+		"name": "Alterscope Bedrock SKY",
+		"description": "Part of the Alterscope Bedrock ecosystem. Ideal for those seeking secure, reliable growth.",
+		"entity": "alterscope"
+	},
+	"0xd6506dB835B465d5d823add8667362d7b86cFe5F": {
+		"name": "Alterscope Bedrock ONDO",
+		"description": "Part of the Alterscope Bedrock ecosystem. Ideal for those seeking secure, reliable growth.",
+		"entity": "alterscope"
+	},
+	"0x5a0064007ddDEa2C8d6547A7B1E862c619500994": {
+		"name": "Alterscope Bedrock LDO",
+		"description": "Part of the Alterscope Bedrock ecosystem. Ideal for those seeking secure, reliable growth.",
+		"entity": "alterscope"
+	},
+	"0x41722452C0348501825C494ec6C1579e9c32D277": {
+		"name": "Alterscope Bedrock USDC",
+		"description": "Part of the Alterscope Bedrock ecosystem. Ideal for those seeking secure, reliable growth.",
+		"entity": "alterscope"
+	},
+	"0xF69FF7901E199AE4Fc354048DA09C23c7699716c": {
+		"name": "Alterscope Bedrock USDT",
+		"description": "Part of the Alterscope Bedrock ecosystem. Ideal for those seeking secure, reliable growth.",
+		"entity": "alterscope"
+	},
+	"0xEd667E0DE292C040CF2183302c8DBDe1C06447d7": {
+		"name": "Alterscope Bedrock PYUSDE",
+		"description": "Part of the Alterscope Bedrock ecosystem. Ideal for those seeking secure, reliable growth.",
+		"entity": "alterscope"
+	},
+	"0xB77e25555C2b3e6BCe5329D83eFD248534A907Aa": {
+		"name": "Alterscope Bedrock AUSD",
+		"description": "Part of the Alterscope Bedrock ecosystem. Ideal for those seeking secure, reliable growth.",
+		"entity": "alterscope"
+	},
+	"0x1987c2DCf5674Cf90bEceBAd502714c357ce126a": {
+		"name": "Alterscope Bedrock EURC",
+		"description": "Part of the Alterscope Bedrock ecosystem. Ideal for those seeking secure, reliable growth.",
+		"entity": "alterscope"
+	},
+	"0x28c6F8D44179ac93a5EBAe24189d887eeEF38cea": {
+		"name": "Alterscope Bedrock USDS",
+		"description": "Part of the Alterscope Bedrock ecosystem. Ideal for those seeking secure, reliable growth.",
+		"entity": "alterscope"
+	},
+	"0x6fc6BeCAe0fFAA08f699ec072f31983821a4D7ce": {
+		"name": "Alterscope Bedrock USDE",
+		"description": "Part of the Alterscope Bedrock ecosystem. Ideal for those seeking secure, reliable growth.",
+		"entity": "alterscope"
+	},
+	"0xaE4D563FC348e0FC3697Ed940b23a86779e095C8": {
+		"name": "Alterscope Bedrock GHO",
+		"description": "Part of the Alterscope Bedrock ecosystem. Ideal for those seeking secure, reliable growth.",
+		"entity": "alterscope"
+	},
+	"0xb4f7761C459D09f414e1190df275be3E24535750": {
+		"name": "Alterscope Bedrock WETH",
+		"description": "Part of the Alterscope Bedrock ecosystem. Ideal for those seeking secure, reliable growth.",
+		"entity": "alterscope"
+	},
+	"0xd005125E525664feC9394CEE5466Da15262fFe01": {
+		"name": "Alterscope Bedrock WBTC",
+		"description": "Part of the Alterscope Bedrock ecosystem. Ideal for those seeking secure, reliable growth.",
+		"entity": "alterscope"
+	},
+	"0xa2f045eC60C624c46F1075FC589Df0f936F822C2": {
+		"name": "Alterscope Bedrock PAXG",
+		"description": "Part of the Alterscope Bedrock ecosystem. Ideal for those seeking secure, reliable growth.",
+		"entity": "alterscope"
+	},
+	"0x99ba39845C4A12341C4B8cCEba1F11F4f6f84046": {
+		"name": "Alterscope Ascend USDC",
+		"description": "Part of the Alterscope Ascend ecosystem. Built for those looking to diversify their investment options and achieve higher returns.",
+		"entity": "alterscope"
+	},
+	"0xE5b9686c0cc4Be8a47eb4ed265d4203EA8232f94": {
+		"name": "Alterscope Ascend USDT",
+		"description": "Part of the Alterscope Ascend ecosystem. Built for those looking to diversify their investment options and achieve higher returns.",
+		"entity": "alterscope"
+	},
+	"0xdFD25B2304f4F08031b4125ee49ea2Df6aB8B19b": {
+		"name": "Alterscope Ascend WETH",
+		"description": "Part of the Alterscope Ascend ecosystem. Built for those looking to diversify their investment options and achieve higher returns.",
+		"entity": "alterscope"
+	},
 	"0x3f29460AaCdE3d6Ae0156aB1f8685bd21Eb37074": {
 		"name": "Alterscope USDC Genesis",
 		"description": "Part of the Alterscope Genesis Cluster, offering safety and low risk through collateralized vaults—powered by Alterscope’s expertise.",
@@ -212,76 +317,126 @@
 	"0xce45EF0414dE3516cAF1BCf937bF7F2Cf67873De": {
 		"name": "Stablecoin Maxi USDC",
 		"description": "The Stablecoin Maxi USDC vault",
-		"entity": ["re7-labs", "mev-capital", "k3"]
+		"entity": [
+			"re7-labs",
+			"mev-capital",
+			"k3"
+		]
 	},
 	"0x8dDE384022D4dE1D6C67891a8865f551c444dc4C": {
 		"name": "Stablecoin Maxi sUSDe",
 		"description": "The Stablecoin Maxi sUSDe vault",
-		"entity": ["re7-labs", "mev-capital", "k3"]
+		"entity": [
+			"re7-labs",
+			"mev-capital",
+			"k3"
+		]
 	},
 	"0xAc73efA7696DC1c1617BbC20aeC64422c8b70EDa": {
 		"name": "Stablecoin Maxi USDe",
 		"description": "The Stablecoin Maxi USDe vault",
-		"entity": ["re7-labs", "mev-capital", "k3"]
+		"entity": [
+			"re7-labs",
+			"mev-capital",
+			"k3"
+		]
 	},
 	"0xe3eb096CD9A87c271567b0134f6dE061c112A9E7": {
 		"name": "Stablecoin Maxi USD0",
 		"description": "The Stablecoin Maxi USD0 vault",
-		"entity": ["re7-labs", "mev-capital", "k3"]
+		"entity": [
+			"re7-labs",
+			"mev-capital",
+			"k3"
+		]
 	},
 	"0x586719300c3966130B3Ce15F563b1080271193E8": {
 		"name": "Stablecoin Maxi USDY",
 		"description": "The Stablecoin Maxi USDY vault",
-		"entity": ["re7-labs", "mev-capital", "k3"]
+		"entity": [
+			"re7-labs",
+			"mev-capital",
+			"k3"
+		]
 	},
 	"0x117576B8854a03aB7C3dF1Cf1cd8E04767BfA866": {
 		"name": "Stablecoin Maxi stUSD",
 		"description": "The Stablecoin Maxi stUSD vault",
-		"entity": ["re7-labs", "mev-capital", "k3"]
+		"entity": [
+			"re7-labs",
+			"mev-capital",
+			"k3"
+		]
 	},
 	"0xBd9A8701B0F56b758bCd4aCe08DAF097e236E0CB": {
 		"name": "Stablecoin Maxi USDS",
 		"description": "The Stablecoin Maxi USDS vault",
-		"entity": ["re7-labs", "mev-capital", "k3"]
+		"entity": [
+			"re7-labs",
+			"mev-capital",
+			"k3"
+		]
 	},
 	"0xe3b66cA897B4B844d5a8ee7A30982FAc0d126760": {
 		"name": "Stablecoin Maxi sUSDS",
 		"description": "The Stablecoin Maxi sUSDS vault",
-		"entity": ["re7-labs", "mev-capital", "k3"]
+		"entity": [
+			"re7-labs",
+			"mev-capital",
+			"k3"
+		]
 	},
 	"0xAb254591B63138247eCcDF82170Eb64890d36b1B": {
 		"name": "Re7 Labs AUSD",
 		"description": "The Re7 Labs AUSD vault",
-		"entity": ["re7-labs"]
+		"entity": [
+			"re7-labs"
+		]
 	},
 	"0xcAd0be6e135C3d2859EA0c872cCD510C962765b7": {
 		"name": "BiLira TRYB Vault",
 		"description": "The BiLira TRYB vault curated by Re7 Labs",
-		"entity": ["re7-labs"]
+		"entity": [
+			"re7-labs"
+		]
 	},
 	"0xea0C048c728578b1510EBDF9b692E8936D6Fbc90": {
 		"name": "Re7 Labs Smart $M",
 		"description": "The wM vault curated by Re7 Labs",
-		"entity": ["re7-labs"]
+		"entity": [
+			"re7-labs"
+		]
 	},
 	"0xfaCaD9D934F17930d28b93F3C84a13BFAc73347C": {
 		"name": "Reserve USD3 Prime",
 		"description": "Reserve Cluster USD3",
-		"entity": ["re7-labs", "mev-capital"]
+		"entity": [
+			"re7-labs",
+			"mev-capital"
+		]
 	},
 	"0xb2A8bAba27B5D45Db0a4E58275cAf62DEBca7AA2": {
 		"name": "Reserve eUSD Prime",
 		"description": "Reserve Cluster eUSD",
-		"entity": ["re7-labs", "mev-capital"]
+		"entity": [
+			"re7-labs",
+			"mev-capital"
+		]
 	},
 	"0xc58Eac02905d34678f552c90De2D4c94bF987B12": {
 		"name": "Reserve WETH Prime",
 		"description": "Reserve Cluster WETH",
-		"entity": ["re7-labs", "mev-capital"]
+		"entity": [
+			"re7-labs",
+			"mev-capital"
+		]
 	},
 	"0x7E8Ba73e62dc430A4Fc76E7bb4EA8de62CDe5fDc": {
 		"name": "Reserve ETH+ Prime",
 		"description": "Reserve Cluster ETH+",
-		"entity": ["re7-labs", "mev-capital"]
+		"entity": [
+			"re7-labs",
+			"mev-capital"
+		]
 	}
 }
