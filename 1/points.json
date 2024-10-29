@@ -23,13 +23,13 @@
 	},
 	{
 		"name": "2x Lombard Lux",
-		"logo": "lombard.png",
+		"logo": "lombard.svg",
 		"collateralVaults": ["0x056f3a2E41d2778D3a0c0714439c53af2987718E"],
 		"entity": ["euler-dao"]
 	},
 	{
 		"name": "3x Lombard Lux",
-		"logo": "lombard.png",
+		"logo": "lombard.svg",
 		"collateralVaults": ["0xbC35161043EE2D74816d421EfD6a45fDa73B050A"],
 		"entity": ["euler-dao"]
 	}
