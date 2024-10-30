@@ -23,11 +23,7 @@
 	},
 	"stablecoin-maxi": {
 		"name": "Stablecoin Maxi",
-		"entity": [
-			"mev-capital",
-			"re7-labs",
-			"k3"
-		],
+		"entity": ["mev-capital", "re7-labs", "k3"],
 		"vaults": [
 			"0xce45EF0414dE3516cAF1BCf937bF7F2Cf67873De",
 			"0x8dDE384022D4dE1D6C67891a8865f551c444dc4C",
@@ -130,10 +126,7 @@
 	},
 	"reserve-prime": {
 		"name": "Reserve Prime",
-		"entity": [
-			"re7-labs",
-			"mev-capital"
-		],
+		"entity": ["re7-labs", "mev-capital"],
 		"vaults": [
 			"0x7E8Ba73e62dc430A4Fc76E7bb4EA8de62CDe5fDc",
 			"0xc58Eac02905d34678f552c90De2D4c94bF987B12",
@@ -143,11 +136,7 @@
 	},
 	"dinero-protocol": {
 		"name": "Dinero Protocol",
-		"entity": [
-			"dinero"
-		],
-		"vaults": [
-			"0xBe4089616039eC3F7361B7058d92a90246ee86e0"
-		]
+		"entity": ["dinero"],
+		"vaults": ["0xBe4089616039eC3F7361B7058d92a90246ee86e0"]
 	}
 }
