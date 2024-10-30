@@ -75,7 +75,7 @@
 	},
 	"alterscope-bedrock": {
 		"name": "Alterscope Bedrock",
-		"description": "The foundational vaults of the Alterscope, designed for stability.",
+		"description": "The foundational vaults, designed for maximium market stability.",
 		"entity": "alterscope",
 		"vaults": [
 			"0x9167Ff08C18Ea05d70D5CBf0c576A33DCeE6de06",
@@ -100,7 +100,7 @@
 	},
 	"alterscope-ascend": {
 		"name": "Alterscope Ascend",
-		"description": "The Ascend vaults diversify collateralization options and achieve higher returns while ensuring maximum stability.",
+		"description": "The Ascend vaults diversify collateralization options and achieve higher returns while ensuring high market stability.",
 		"entity": "alterscope",
 		"vaults": [
 			"0x99ba39845C4A12341C4B8cCEba1F11F4f6f84046",
