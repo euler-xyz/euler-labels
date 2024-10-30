@@ -34,7 +34,7 @@
 	"alterscope": {
 		"name": "Alterscope",
 		"logo": "alterscope_wb.png",
-		"description": "Alterscope provides the platform for processing and modelling risk in real-time across chains, protocols, and liquidity pools. Whether you're a protocol or an investment firm, we've got you covered.",
+		"description": "Alterscope provides the platform for processing and modelling risk in real-time across chains, protocols, and liquidity pools.",
 		"addresses": {
 			"0x2e571f334fe06A6a2741dd0E4cb5Bc7C1F8Af808": "Alterscope Multisig"
 		}
