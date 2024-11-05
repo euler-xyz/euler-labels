@@ -141,12 +141,12 @@
 	},
 	"swaap-labs": {
 		"name": "Swaap Lend",
-		"entity": ["swaap"],
+		"entity": ["swaap-labs"],
 		"vaults": [
-			"0x716bf454066a84f39a2f78b5707e79a9d64f1225",
-			"0xf2f826c190d020a6d1ec422bf2269e63b8b315e0",
-			"0x19756be2473a9c3351a426568ff9630c9d67f300",
-			"0x57995a00ba1e3e17bcf08ba775bf225ca1f5f25e"
+			"0x716bF454066a84F39A2F78b5707e79a9d64f1225",
+			"0xf2f826c190D020A6D1EC422bF2269E63b8b315E0",
+			"0x19756be2473A9C3351A426568FF9630c9D67f300",
+			"0x57995a00bA1e3E17BCF08BA775BF225cA1f5F25e"
 		]
 	}
 }
