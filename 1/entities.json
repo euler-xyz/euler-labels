@@ -58,5 +58,12 @@
 	"k3": {
 		"name": "K3",
 		"logo": "k3.svg"
+	},
+	"swaap": {
+		"name": "Swaap labs",
+		"logo": "swaap.png",
+		"addresses": {
+			"0xD6Ff6aBb93EF058A474769f0d05C7fEF440920F8": "Swaap Multisig"
+		}
 	}
 }
