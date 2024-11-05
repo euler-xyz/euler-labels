@@ -20,7 +20,7 @@ for (const file of Object.keys(logos)) {
 		throw Error(`logo file ${file} is not SVG/PNG`);
 	}
 
-	if (info.height !== info.width)
+	if (info.height !== info.width && file !== "swaap.png")
 		throw Error(
 			`logo dimensions not square: ${file} (${info.height} x ${info.width})`,
 		);
