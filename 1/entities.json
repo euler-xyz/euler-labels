@@ -62,8 +62,13 @@
 	"swaap-labs": {
 		"name": "Swaap labs",
 		"logo": "swaap.png",
+		"description": "Swaap Labs builds and operates onchain financial primitives, with a special focus on risk management and onchain market making",
+		"url": "https://www.swaap.finance/",
 		"addresses": {
 			"0xD6Ff6aBb93EF058A474769f0d05C7fEF440920F8": "Swaap Multisig"
+		},
+		"social": {
+			"twitter": "@SwaapFinance"
 		}
 	}
 }
