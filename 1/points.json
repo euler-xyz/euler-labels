@@ -9,17 +9,13 @@
 	{
 		"name": "5 Sats per sUSDe per day",
 		"logo": "ethena.png",
-		"collateralVaults": [
-			"0x8dDE384022D4dE1D6C67891a8865f551c444dc4C"
-		],
+		"collateralVaults": ["0x8dDE384022D4dE1D6C67891a8865f551c444dc4C"],
 		"entity": ["re7-labs", "mev-capital", "k3"]
 	},
 	{
 		"name": "20 Sats per USDe per day",
 		"logo": "ethena.png",
-		"collateralVaults": [
-			"0xAc73efA7696DC1c1617BbC20aeC64422c8b70EDa"
-		],
+		"collateralVaults": ["0xAc73efA7696DC1c1617BbC20aeC64422c8b70EDa"],
 		"entity": ["re7-labs", "mev-capital", "k3"]
 	},
 	{
