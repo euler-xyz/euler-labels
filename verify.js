@@ -4,8 +4,6 @@ const fs = require("node:fs");
 const ethers = require("ethers");
 const imageSize = require("image-size");
 
-const MAX_VAULT_NAME_SIZE = 40;
-
 const logos = {};
 
 for (let i = 0; i < fs.readdirSync("logo/").length; i++) {
@@ -63,8 +61,6 @@ function validateChain(chainId) {
 		if (vaultId !== ethers.getAddress(vaultId))
 			throw Error(`vaults: malformed vaultId: ${vaultId}`);
 		if (!vault.name) throw Error(`vaults: missing name: ${vaultId}`);
-		if (vault.name.length > MAX_VAULT_NAME_SIZE)
-			throw Error(`vaults: name is too long: ${vault.name}`);
 
 		for (const entity of getArray(vault.entity)) {
 			if (!entities[entity])
