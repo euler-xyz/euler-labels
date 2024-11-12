@@ -7,16 +7,19 @@
 		"entity": ["re7-labs", "mev-capital", "k3"]
 	},
 	{
-		"name": "Sats",
+		"name": "5 Sats per sUSDe per day",
 		"logo": "ethena.png",
-		"collateralVaults": [
-			"0xAc73efA7696DC1c1617BbC20aeC64422c8b70EDa",
-			"0x8dDE384022D4dE1D6C67891a8865f551c444dc4C"
-		],
+		"collateralVaults": ["0x8dDE384022D4dE1D6C67891a8865f551c444dc4C"],
 		"entity": ["re7-labs", "mev-capital", "k3"]
 	},
 	{
-		"name": "Ether.FI",
+		"name": "20 Sats per USDe per day",
+		"logo": "ethena.png",
+		"collateralVaults": ["0xAc73efA7696DC1c1617BbC20aeC64422c8b70EDa"],
+		"entity": ["re7-labs", "mev-capital", "k3"]
+	},
+	{
+		"name": "Ether.FI points",
 		"logo": "ethfi.png",
 		"collateralVaults": ["0xe846ca062aB869b66aE8DcD811973f628BA82eAf"],
 		"entity": ["euler-dao"]
