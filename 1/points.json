@@ -35,5 +35,23 @@
 		"logo": "lombard.svg",
 		"collateralVaults": ["0xbC35161043EE2D74816d421EfD6a45fDa73B050A"],
 		"entity": ["euler-dao"]
+	},
+	{
+		"name": "Ether.FI points",
+		"logo": "ethfi.png",
+		"collateralVaults": ["0xC605471aE09e0b7daA9e8813707d0DDbf9429Ad2"],
+		"entity": ["apostro"]
+	},
+	{
+		"name": "2x Lombard Lux",
+		"logo": "lombard.svg",
+		"collateralVaults": ["0x82D2CE1f71cbe391c05E21132811e5172d51A6EE"],
+		"entity": ["apostro"]
+	},
+	{
+		"name": "3x Lombard Lux",
+		"logo": "lombard.svg",
+		"collateralVaults": ["0xA2038a5B7Ce1C195F0C52b77134c5369CCfe0148"],
+		"entity": ["apostro"]
 	}
 ]
