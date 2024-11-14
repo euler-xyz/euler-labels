@@ -37,6 +37,12 @@
 		"entity": ["euler-dao"]
 	},
 	{
+		"name": "Babylon Points",
+		"logo": "babylon.png",
+		"collateralVaults": ["0xbC35161043EE2D74816d421EfD6a45fDa73B050A"],
+		"entity": ["euler-dao"]
+	},
+	{
 		"name": "Ether.FI points",
 		"logo": "ethfi.png",
 		"collateralVaults": ["0xC605471aE09e0b7daA9e8813707d0DDbf9429Ad2"],
@@ -51,6 +57,12 @@
 	{
 		"name": "3x Lombard Lux",
 		"logo": "lombard.svg",
+		"collateralVaults": ["0xA2038a5B7Ce1C195F0C52b77134c5369CCfe0148"],
+		"entity": ["apostro"]
+	},
+	{
+		"name": "Babylon Points",
+		"logo": "babylon.png",
 		"collateralVaults": ["0xA2038a5B7Ce1C195F0C52b77134c5369CCfe0148"],
 		"entity": ["apostro"]
 	}
