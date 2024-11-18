@@ -55,6 +55,12 @@
 		"entity": ["apostro"]
 	},
 	{
+		"name": "2x Lombard Lux",
+		"logo": "lombard.svg",
+		"collateralVaults": ["0x29A9E5A004002Ff9E960bb8BB536E076F53cbDF1"],
+		"entity": ["apostro"]
+	},
+	{
 		"name": "3x Lombard Lux",
 		"logo": "lombard.svg",
 		"collateralVaults": ["0xA2038a5B7Ce1C195F0C52b77134c5369CCfe0148"],
