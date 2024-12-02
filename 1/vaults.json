@@ -409,6 +409,16 @@
 		"description": "WETH-USDT escrow vault of Swaap Lend cluster",
 		"entity": ["swaap-labs"]
 	},
+	"0xd45a56f5b67eba836295b4c95fd6ea48d1334938": {
+		"name": "Swaap Lend wstETH-WETH escrow vault",
+		"description": "wstETH-WETH escrow vault of Swaap Lend cluster",
+		"entity": ["swaap-labs"]
+	},
+	"0x49aec2e6137615f0cf1cae334b5f3211953144be": {
+		"name": "Swaap Lend USDC-USDT escrow vault",
+		"description": "USDC-USDT escrow vault of Swaap Lend cluster",
+		"entity": ["swaap-labs"]
+	},
 	"0xE0c1bdab9A7d487c4fEcd402cb9b4f8B347e73c3": {
 		"name": "Apostro BTC cluster USDC vault",
 		"description": "Part of the BTC cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
