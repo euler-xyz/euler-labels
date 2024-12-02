@@ -409,12 +409,12 @@
 		"description": "WETH-USDT escrow vault of Swaap Lend cluster",
 		"entity": ["swaap-labs"]
 	},
-	"0xd45a56f5b67eba836295b4c95fd6ea48d1334938": {
+	"0xd45a56F5b67eBA836295B4c95fd6EA48D1334938": {
 		"name": "Swaap Lend wstETH-WETH escrow vault",
 		"description": "wstETH-WETH escrow vault of Swaap Lend cluster",
 		"entity": ["swaap-labs"]
 	},
-	"0x49aec2e6137615f0cf1cae334b5f3211953144be": {
+	"0x49aEC2e6137615f0cf1CAE334B5f3211953144bE": {
 		"name": "Swaap Lend USDC-USDT escrow vault",
 		"description": "USDC-USDT escrow vault of Swaap Lend cluster",
 		"entity": ["swaap-labs"]
