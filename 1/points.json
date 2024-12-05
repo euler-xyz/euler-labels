@@ -25,6 +25,12 @@
     "entity": ["euler-dao"]
   },
   {
+    "name": "2x Ether.FI points",
+    "logo": "ethfi.png",
+    "collateralVaults": ["0x8848Ba55025ad17333F953D61fCeA0F7dF8a207E"],
+    "entity": ["euler-dao"]
+  },
+  {
     "name": "2x Lombard Lux",
     "logo": "lombard.svg",
     "collateralVaults": [
