@@ -25,40 +25,21 @@
 		"entity": ["euler-dao"]
 	},
 	{
-		"name": "2x Ether.FI points",
-		"logo": "ethfi.png",
-		"collateralVaults": ["0x8848Ba55025ad17333F953D61fCeA0F7dF8a207E"],
-		"entity": ["euler-dao"]
-	},
-	{
 		"name": "2x Lombard Lux",
 		"logo": "lombard.svg",
-		"collateralVaults": [
-			"0x056f3a2E41d2778D3a0c0714439c53af2987718E",
-			"0xd5695d1c3c02dBcD8b004343459f1c9D699ff95B",
-			"0x8F26f6cd81A401B88f8061ae8Cef842a28a9bb1b"
-		],
+		"collateralVaults": ["0x056f3a2E41d2778D3a0c0714439c53af2987718E"],
 		"entity": ["euler-dao"]
 	},
 	{
 		"name": "3x Lombard Lux",
 		"logo": "lombard.svg",
-		"collateralVaults": [
-			"0xbC35161043EE2D74816d421EfD6a45fDa73B050A",
-			"0x6E579C300533984F15184162C8de22a1174F9755"
-		],
+		"collateralVaults": ["0xbC35161043EE2D74816d421EfD6a45fDa73B050A"],
 		"entity": ["euler-dao"]
 	},
 	{
 		"name": "Babylon Points",
 		"logo": "babylon.png",
 		"collateralVaults": ["0xbC35161043EE2D74816d421EfD6a45fDa73B050A"],
-		"entity": ["euler-dao"]
-	},
-	{
-		"name": "2x PumpBTC Points",
-		"logo": "pumpbtc.png",
-		"collateralVaults": ["0x94Dc4b34948a8196Bf4fcF55c8496b11501669d2"],
 		"entity": ["euler-dao"]
 	},
 	{
@@ -117,7 +98,7 @@
 			"0xbC4B4AC47582c3E38Ce5940B80Da65401F4628f1",
 			"0x998D761eC1BAdaCeb064624cc3A1d37A46C88bA4",
 			"0x8dDE384022D4dE1D6C67891a8865f551c444dc4C"
-		],
+		  ],
 		"entity": ["euler-dao"]
 	}
 ]
