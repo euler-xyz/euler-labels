@@ -548,5 +548,25 @@
 		"name": "Apostro BTC cluster PT-EBTC-26DEC2024 vault",
 		"description": "Part of the BTC cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
 		"entity": ["apostro"]
+	},
+	"0xcBC9B61177444A793B85442D3a953B90f6170b7D": {
+		"name": "Resolv USDC vault",
+		"description": "Part of the Resolv cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
+		"entity": ["apostro"]
+	},
+	"0x9f12d29c7CC72bb3d237E2D042A6D890421f9899": {
+		"name": "Resolv wstUSR vault",
+		"description": "Part of the Resolv cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
+		"entity": ["apostro"]
+	},
+	"0x3A8992754E2EF51D8F90620d2766278af5C59b90": {
+		"name": "Resolv USR vault",
+		"description": "Part of the Resolv cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
+		"entity": ["apostro"]
+	},
+	"0xe11a462235A39C90921C4a59D4E8B2707330BCf2": {
+		"name": "Resolv wstETH vault",
+		"description": "Part of the Resolv cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
+		"entity": ["apostro"]
 	}
 }
