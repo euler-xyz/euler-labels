@@ -100,5 +100,23 @@
 			"0x8dDE384022D4dE1D6C67891a8865f551c444dc4C"
 		],
 		"entity": ["euler-dao"]
+	},
+	{
+		"name": "30x Resolv Points",
+		"logo": "resolv.svg",
+		"collateralVaults": [
+			"0x3A8992754E2EF51D8F90620d2766278af5C59b90",
+			"0xc60400289B32E840909795a063aeccFb093E0b47"
+		],
+		"entity": ["apostro"]
+	},
+	{
+		"name": "5x Resolv Points",
+		"logo": "resolv.svg",
+		"collateralVaults": [
+			"0x9f12d29c7CC72bb3d237E2D042A6D890421f9899",
+			"0xcBC9B61177444A793B85442D3a953B90f6170b7D"
+		],
+		"entity": ["apostro"]
 	}
 ]
