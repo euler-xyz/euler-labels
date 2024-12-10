@@ -132,6 +132,14 @@
 			"0xdFD25B2304f4F08031b4125ee49ea2Df6aB8B19b"
 		]
 	},
+	"idle-credit-vaults": {
+		"name": "Idle DAO Credit Vaults",
+		"entity": "idle",
+		"vaults": [
+			"0xd820C8129a853a04dC7e42C64aE62509f531eE5A",
+			"0x166d8b62e1748d04edf39d0078f1fe4aa01d475e"
+		]
+	},
 	"mev-capital-weth": {
 		"name": "MEV Capital wETH Cluster",
 		"entity": "mev-capital",

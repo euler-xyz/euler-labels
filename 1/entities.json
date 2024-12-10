@@ -60,6 +60,19 @@
 			"0x66301F68E8EdE19C0EcD1AB0b3Ee6FdE9cb143Fb": "Dinero Protocol Timelock Controller"
 		}
 	},
+	"idle": {
+		"name": "Idle DAO",
+		"logo": "idle.png",
+		"description": "Idle DAO empowers the DeFi market with robust yield automation and hedging instruments, facilitating its expansion and establishing the foundation for a sustainable credit financial ecosystem via a more efficient and risk-adjusted capital allocation.",
+		"url": "https://idle.finance/",
+		"addresses": {
+			"0xFb3bD022D5DAcF95eE28a6B07825D4Ff9C5b3814": "Idle DAO Multisig",
+			"0xF02Faf7CFEe786111eaE6747a0c344b48C1eD5E5": "Idle DAO Limited Governor"
+		},
+		"social": {
+			"twitter": "idlefinance"
+		}
+	},
 	"mev-capital": {
 		"name": "MEV Capital",
 		"logo": "mev-capital.svg",
