@@ -414,7 +414,7 @@
 		"description": "Component of the Idle DAO USDC Vault backed by credit vaults",
 		"entity": "idle"
 	},
-	"0x166d8b62e1748d04edf39d0078f1fe4aa01d475e": {
+	"0x166d8B62E1748D04eDf39d0078F1Fe4aA01D475E": {
 		"name": "Idle DAO USDC Vault",
 		"description": "The Idle DAO USDC Vault for Credit Vault",
 		"entity": "idle"
