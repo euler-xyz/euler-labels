@@ -137,7 +137,7 @@
 		"entity": "idle",
 		"vaults": [
 			"0xd820C8129a853a04dC7e42C64aE62509f531eE5A",
-			"0x166d8b62e1748d04edf39d0078f1fe4aa01d475e"
+			"0x166d8B62E1748D04eDf39d0078F1Fe4aA01D475E"
 		]
 	},
 	"mev-capital-weth": {
