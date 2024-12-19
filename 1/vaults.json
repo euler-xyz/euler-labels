@@ -594,6 +594,11 @@
 		"description": "Part of the BTC cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
 		"entity": ["apostro"]
 	},
+	"0xD7B67cF0e7EDA8268b0f42de82dF87DfCC9a8537": {
+		"name": "Apostro BTC cluster mBTC vault",
+		"description": "Part of the BTC cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
+		"entity": ["apostro"]
+	},
 	"0xcBC9B61177444A793B85442D3a953B90f6170b7D": {
 		"name": "Resolv USDC vault",
 		"description": "Part of the Resolv cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
