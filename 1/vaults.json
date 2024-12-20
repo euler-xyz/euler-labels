@@ -149,16 +149,6 @@
 		"descriptsion": "A sUSDe vault collateralized by other vaults in the Euler Yield and Euler Prime cluster.",
 		"entity": "euler-dao"
 	},
-	"0x2384f34B2AFE978BAa71C6bDcD0C5cF04008db2f": {
-		"name": "Euler Yield deUSD",
-		"descriptsion": "A deUSD vault collateralized by other vaults in the Euler Yield and Euler Prime cluster.",
-		"entity": "euler-dao"
-	},
-	"0x25FE36dDA249c819b78D16dE0Ca39C4C4eC339cd": {
-		"name": "Euler Yield sdeUSD",
-		"descriptsion": "A sdeUSD vault collateralized by other vaults in the Euler Yield and Euler Prime cluster.",
-		"entity": "euler-dao"
-	},
 	"0x8E35E3aa6eFBC8D11Eb4F3b743f180257C80e517": {
 		"name": "Euler Yield mBASIS",
 		"descriptsion": "A mBASIS vault collateralized by other vaults in the Euler Yield and Euler Prime cluster.",
