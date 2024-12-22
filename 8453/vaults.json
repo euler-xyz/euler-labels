@@ -1,0 +1,57 @@
+{
+	"0x859160DB5841E5cfB8D3f144C6b3381A85A4b410": {
+		"name": "Euler Base WETH",
+		"description": "A conservative WETH vault collateralized by other vaults in the Euler Base cluster.",
+		"entity": "euler-dao"
+	},
+	"0x7b181d6509DEabfbd1A23aF1E65fD46E89572609": {
+		"name": "Euler Base wstETH",
+		"description": "A conservative wstETH vault collateralized by other vaults in the Euler Base cluster.",
+		"entity": "euler-dao"
+	},
+	"0x358f25F82644eaBb441d0df4AF8746614fb9ea49": {
+		"name": "Euler Base cbETH",
+		"description": "A conservative cbETH vault collateralized by other vaults in the Euler Base cluster.",
+		"entity": "euler-dao"
+	},
+	"0xd4A805261B28f375fc9c3d89EcD2C952Cd130d14": {
+		"name": "Euler Base weETH",
+		"description": "A conservative weETH vault collateralized by other vaults in the Euler Base cluster.",
+		"entity": "euler-dao"
+	},
+	"0xa487f940D6f40D7304CD4e62751220f97124BeC9": {
+		"name": "Euler Base ezETH",
+		"description": "A conservative ezETH vault collateralized by other vaults in the Euler Base cluster.",
+		"entity": "euler-dao"
+	},
+	"0x8b70a855B057cA85F38Ebb2a7399D9FE0BDC1046": {
+		"name": "Euler Base RETH",
+		"description": "A conservative RETH vault collateralized by other vaults in the Euler Base cluster.",
+		"entity": "euler-dao"
+	},
+	"0x0A1a3b5f2041F33522C4efc754a7D096f880eE16": {
+		"name": "Euler Base USDC",
+		"description": "A conservative USDC vault collateralized by other vaults in the Euler Base cluster.",
+		"entity": "euler-dao"
+	},
+	"0x9ECD9fbbdA32b81dee51AdAed28c5C5039c87117": {
+		"name": "Euler Base EURC",
+		"description": "A conservative EURC vault collateralized by other vaults in the Euler Base cluster.",
+		"entity": "euler-dao"
+	},
+	"0x882018411Bc4A020A879CEE183441fC9fa5D7f8B": {
+		"name": "Euler Base cbBTC",
+		"description": "A conservative cbBTC vault collateralized by other vaults in the Euler Base cluster.",
+		"entity": "euler-dao"
+	},
+	"0x3f0d3Fd87A42BDaa3dfCC13ADA42eA922e638a7A": {
+		"name": "Euler Base LBTC",
+		"description": "A conservative LBTC vault collateralized by other vaults in the Euler Base cluster.",
+		"entity": "euler-dao"
+	},
+	"0x5Fe2DE3E565a6a501a4Ec44AAB8664b1D674ac25": {
+		"name": "Euler Base AERO",
+		"description": "A conservative AERO vault collateralized by other vaults in the Euler Base cluster.",
+		"entity": "euler-dao"
+	}
+}
