@@ -110,5 +110,17 @@
 			"0xcBC9B61177444A793B85442D3a953B90f6170b7D"
 		],
 		"entity": ["apostro"]
+	},
+	{
+		"name": "5 Sats per sUSDe per day",
+		"logo": "ethena.png",
+		"collateralVaults": ["0x498c014dE23f19700F51e85a384AB1B059F0672e"],
+		"entity": ["euler-dao"]
+	},
+	{
+		"name": "20 Sats per USDe per day",
+		"logo": "ethena.png",
+		"collateralVaults": ["0x2daCa71Cb58285212Dc05D65Cfd4f59A82BC4cF6"],
+		"entity": ["euler-dao"]
 	}
 ]
