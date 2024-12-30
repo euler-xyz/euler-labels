@@ -112,6 +112,14 @@
 		"entity": ["apostro"]
 	},
 	{
+		"name": "10x Resolv Points",
+		"logo": "resolv.svg",
+		"collateralVaults": [
+			"0x7f1d29e70C644c387ded640B28E106e29E349074"
+		],
+		"entity": ["apostro"]
+	},
+	{
 		"name": "5 Sats per sUSDe per day",
 		"logo": "ethena.png",
 		"collateralVaults": ["0x498c014dE23f19700F51e85a384AB1B059F0672e"],
