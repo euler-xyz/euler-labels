@@ -653,5 +653,10 @@
 		"name": "Resolv RLP vault",
 		"description": "Part of the Resolv cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
 		"entity": ["apostro"]
+	},
+	"0x81fa50cBe6C7Ed61961fE601B7c5AC334c2c84bB": {
+		"name": "Resolv PT-wstUSR-27MAR2025 vault",
+		"description": "Part of the Resolv cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
+		"entity": ["apostro"]
 	}
 }
