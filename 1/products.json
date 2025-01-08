@@ -227,6 +227,7 @@
 	},
 	"tulipa-resolv": {
 		"name": "Tulipa Resolv",
+		"description": "A market tailored to borrowing stablecoins against the Resolv ecosystem. Governed by Tulipa Capital.",
 		"entity": "tulipa-capital",
 		"vaults": [
 			"0x3b028b4b6c567eF5f8Ca1144Da4FbaA0D973F228",
