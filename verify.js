@@ -110,6 +110,8 @@ function validateChain(chainId) {
 		if (point.logo && !logos[point.logo])
 			throw Error(`points: logo not found: ${product.logo}`);
 
+		if (point.skipValidation) continue;
+
 		if (!point.collateralVaults?.length && !point.liabilityVaults?.length) {
 			throw Error(
 				`points: missing collateral or liability vaults for ${point.name}`,
