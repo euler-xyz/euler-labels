@@ -1,1 +1,38 @@
-[]
+[
+	{
+		"name": "Ether.FI points",
+		"logo": "ethfi.png",
+		"collateralVaults": ["0xd4A805261B28f375fc9c3d89EcD2C952Cd130d14"],
+		"entity": ["euler-dao"]
+	},
+	{
+		"name": "2x Lombard Lux",
+		"logo": "lombard.svg",
+		"collateralVaults": ["0x882018411Bc4A020A879CEE183441fC9fa5D7f8B"],
+		"entity": ["euler-dao"]
+	},
+	{
+		"name": "3x Lombard Lux",
+		"logo": "lombard.svg",
+		"collateralVaults": ["0x3f0d3Fd87A42BDaa3dfCC13ADA42eA922e638a7A"],
+		"entity": ["euler-dao"]
+	},
+	{
+		"name": "Babylon Points",
+		"logo": "babylon.png",
+		"collateralVaults": ["0x3f0d3Fd87A42BDaa3dfCC13ADA42eA922e638a7A"],
+		"entity": ["euler-dao"]
+	},
+	{
+		"name": "boosted rEUL if they are part of [turtle.club](https://turtle.club)",
+		"logo": "turtle.png",
+		"isTurtleClub": true,
+		"skipValidation": true
+	},
+	{
+		"name": "2x Renzo Points",
+		"logo": "renzo.svg",
+		"collateralVaults": ["0xa487f940D6f40D7304CD4e62751220f97124BeC9"],
+		"entity": ["euler-dao"]
+	}
+]
