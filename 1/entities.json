@@ -107,7 +107,7 @@
 		"description": "At Tulipa Capital, we leverage cutting-edge technology and innovative financial strategies to maximize yields while implementing rigorous risk management practices.",
 		"url": "https://www.tulipa.capital/",
 		"addresses": {
-			"0xF53eAeB7e6f15CBb6dB990eaf2A26702e1D986d8": "Tulipa Capital Multisig"
+			"0x2D10ae93c6BF868556aE9577aD0e8b24004aB816": "Tulipa Capital Timelock"
 		},
 		"social": {
 			"twitter": "tulipacapital"
