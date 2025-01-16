@@ -53,5 +53,36 @@
 		"name": "Euler Base AERO",
 		"description": "A conservative AERO vault collateralized by other vaults in the Euler Base cluster.",
 		"entity": "euler-dao"
+	},
+	"0xC063C3b3625DF5F362F60f35B0bcd98e0fa650fb": {
+		"name": "Apostro Resolv USDC vault",
+		"description": "Part of the Apostro Resolv cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
+		"entity": ["apostro"]
+	},
+	"0x29Dbce367F5157B924Af5093617bb128477D7A5C": {
+		"name": "Apostro Resolv USR vault",
+		"description": "Part of the Apostro Resolv cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
+		"entity": ["apostro"]
+	},
+	"0x1E2F1e8A97E96a2FDD6A8Da427603Ed1c8b3847F": {
+		"name": "Apostro Resolv cbBTC vault",
+		"description": "Part of the Apostro Resolv cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
+		"entity": ["apostro"]
+	},
+	"0x3F131Ac9D408926a8B36C1e03ce105f44DCD26Af": {
+		"name": "Apostro Resolv LBTC vault",
+		"description": "Part of the Apostro Resolv cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
+		"entity": ["apostro"]
+	},
+	"0x5ce15fC058E762A6F9722fC6521A0c0F5eECD9BA": {
+		"name": "Apostro Resolv PT-LBTC-29MAY2025 vault",
+		"description": "Part of the Apostro Resolv cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
+		"entity": ["apostro"]
+	},
+	"0x34ABB4501419b1E5f836567C58300c861164101A": {
+		"name": "Apostro Resolv cbETH vault",
+		"description": "Part of the Apostro Resolv cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
+		"entity": ["apostro"]
 	}
+	
 }
