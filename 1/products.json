@@ -200,7 +200,7 @@
 		]
 	},
 	"apostro-btc-cluster": {
-		"name": "Apostro BTC Cluster",
+		"name": "Apostro BTCfi",
 		"entity": "apostro",
 		"vaults": [
 			"0xE0c1bdab9A7d487c4fEcd402cb9b4f8B347e73c3",
@@ -209,8 +209,8 @@
 			"0xC605471aE09e0b7daA9e8813707d0DDbf9429Ad2",
 			"0xA2038a5B7Ce1C195F0C52b77134c5369CCfe0148",
 			"0xBc99605074737d36266f45E0d192dDe6CFDFd72a",
-			"0x43C5c4E62F64b5Ea44871604727870ab93B5F663",
-			"0xD7B67cF0e7EDA8268b0f42de82dF87DfCC9a8537"
+			"0xD7B67cF0e7EDA8268b0f42de82dF87DfCC9a8537",
+			"0x396fd980c0463ccb285d3ec6830978d5d97976ec"
 		]
 	},
 	"resolv": {
