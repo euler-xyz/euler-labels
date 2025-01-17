@@ -144,6 +144,15 @@
 			"0xdFD25B2304f4F08031b4125ee49ea2Df6aB8B19b"
 		]
 	},
+	"alterscope-lrt": {
+		"name": "Alterscope LRT",
+		"description": "LRT vaults are designed to seamlessly integrate with the Alterscope ecosystem vaults.",
+		"entity": "alterscope",
+		"vaults": [
+			"0x29D824d54Fd5118543E81637b8f865d045191F30",
+			"0x6d18F74AAD8494B789aE34b5455816F79664d209"
+		]
+	},
 	"idle-credit-vaults": {
 		"name": "Idle DAO Credit Vaults",
 		"entity": "idle",

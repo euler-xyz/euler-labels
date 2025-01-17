@@ -379,6 +379,16 @@
 		"description": "The vault with diverse collateralization options.",
 		"entity": "alterscope"
 	},
+	"0x29D824d54Fd5118543E81637b8f865d045191F30": {
+		"name": "Alterscope LRT ynETH",
+		"description": "LRT vault.",
+		"entity": "alterscope"
+	},
+	"0x6d18F74AAD8494B789aE34b5455816F79664d209": {
+		"name": "Alterscope LRT ynETHx",
+		"description": "LRT vault.",
+		"entity": "alterscope"
+	},
 	"0x3f29460AaCdE3d6Ae0156aB1f8685bd21Eb37074": {
 		"name": "Alterscope USDC Genesis",
 		"description": "Part of the Alterscope Genesis Cluster, offering safety and low risk through collateralized vaults—powered by Alterscope’s expertise.",
