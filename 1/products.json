@@ -111,7 +111,7 @@
 	},
 	"alterscope-bedrock": {
 		"name": "Alterscope Bedrock",
-		"description": "The foundational vaults, designed for maximium market stability.",
+		"description": "Foundational vaults designed for maximium market stability.",
 		"entity": "alterscope",
 		"vaults": [
 			"0x9167Ff08C18Ea05d70D5CBf0c576A33DCeE6de06",
@@ -146,7 +146,7 @@
 	},
 	"alterscope-lrt": {
 		"name": "Alterscope LRT",
-		"description": "LRT vaults are designed to seamlessly integrate with the Alterscope ecosystem vaults.",
+		"description": "Vaults designed for advanced liquid restaking strategies.",
 		"entity": "alterscope",
 		"vaults": [
 			"0x29D824d54Fd5118543E81637b8f865d045191F30",
