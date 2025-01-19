@@ -389,6 +389,11 @@
 		"description": "Vaults designed for advanced liquid restaking strategies.",
 		"entity": "alterscope"
 	},
+	"0x45c3B59d53e2e148Aaa6a857521059676D5c0489": {
+		"name": "Alterscope LRT YieldNest WETH",
+		"description": "Vaults designed for advanced liquid restaking strategies for YieldNest products.",
+		"entity": "alterscope"
+	},
 	"0x3f29460AaCdE3d6Ae0156aB1f8685bd21Eb37074": {
 		"name": "Alterscope USDC Genesis",
 		"description": "Part of the Alterscope Genesis Cluster, offering safety and low risk through collateralized vaults—powered by Alterscope’s expertise.",
