@@ -634,11 +634,6 @@
 		"description": "Part of the Apostro BTCfi. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
 		"entity": ["apostro"]
 	},
-	"0x43C5c4E62F64b5Ea44871604727870ab93B5F663": {
-		"name": "Apostro BTCfi PT-EBTC-26DEC2024 vault",
-		"description": "Part of the Apostro BTCfi. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
-		"entity": ["apostro"]
-	},
 	"0x396fD980c0463Ccb285d3ec6830978D5D97976EC": {
 		"name": "Apostro BTCfi PT-corn-eBTC-27MAR2025 vault",
 		"description": "Part of the Apostro BTCfi. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
