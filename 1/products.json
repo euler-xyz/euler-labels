@@ -111,7 +111,7 @@
 	},
 	"alterscope-bedrock": {
 		"name": "Alterscope Bedrock",
-		"description": "The foundational vaults, designed for maximium market stability.",
+		"description": "Foundational vaults designed for maximium market stability.",
 		"entity": "alterscope",
 		"vaults": [
 			"0x9167Ff08C18Ea05d70D5CBf0c576A33DCeE6de06",
@@ -142,6 +142,16 @@
 			"0x99ba39845C4A12341C4B8cCEba1F11F4f6f84046",
 			"0xE5b9686c0cc4Be8a47eb4ed265d4203EA8232f94",
 			"0xdFD25B2304f4F08031b4125ee49ea2Df6aB8B19b"
+		]
+	},
+	"alterscope-lrt": {
+		"name": "Alterscope LRT",
+		"description": "Vaults designed for advanced liquid restaking strategies.",
+		"entity": "alterscope",
+		"vaults": [
+			"0x29D824d54Fd5118543E81637b8f865d045191F30",
+			"0x6d18F74AAD8494B789aE34b5455816F79664d209",
+			"0x45c3B59d53e2e148Aaa6a857521059676D5c0489"
 		]
 	},
 	"idle-credit-vaults": {
@@ -200,7 +210,7 @@
 		]
 	},
 	"apostro-btc-cluster": {
-		"name": "Apostro BTC Cluster",
+		"name": "Apostro BTCfi",
 		"entity": "apostro",
 		"vaults": [
 			"0xE0c1bdab9A7d487c4fEcd402cb9b4f8B347e73c3",
@@ -209,8 +219,8 @@
 			"0xC605471aE09e0b7daA9e8813707d0DDbf9429Ad2",
 			"0xA2038a5B7Ce1C195F0C52b77134c5369CCfe0148",
 			"0xBc99605074737d36266f45E0d192dDe6CFDFd72a",
-			"0x43C5c4E62F64b5Ea44871604727870ab93B5F663",
-			"0xD7B67cF0e7EDA8268b0f42de82dF87DfCC9a8537"
+			"0xD7B67cF0e7EDA8268b0f42de82dF87DfCC9a8537",
+			"0x396fD980c0463Ccb285d3ec6830978D5D97976EC"
 		]
 	},
 	"resolv": {
@@ -222,7 +232,8 @@
 			"0x3A8992754E2EF51D8F90620d2766278af5C59b90",
 			"0xe11a462235A39C90921C4a59D4E8B2707330BCf2",
 			"0x7f1d29e70C644c387ded640B28E106e29E349074",
-			"0x81fa50cBe6C7Ed61961fE601B7c5AC334c2c84bB"
+			"0x81fa50cBe6C7Ed61961fE601B7c5AC334c2c84bB",
+			"0xc60400289B32E840909795a063aeccFb093E0b47"
 		]
 	},
 	"tulipa-resolv": {
