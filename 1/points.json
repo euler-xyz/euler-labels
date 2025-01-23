@@ -106,5 +106,11 @@
 		"logo": "ethena.png",
 		"collateralVaults": ["0x2daCa71Cb58285212Dc05D65Cfd4f59A82BC4cF6"],
 		"entity": ["euler-dao"]
+	},
+	{
+		"name": "5x Resolv Points",
+		"logo": "resolv.svg",
+		"collateralVaults": ["0x3b028b4b6c567eF5f8Ca1144Da4FbaA0D973F228"],
+		"entity": ["tulipa-capital"]
 	}
 ]
