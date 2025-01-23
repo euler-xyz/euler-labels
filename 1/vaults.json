@@ -414,6 +414,11 @@
 		"description": "A WETH vault collateralized by apxETH by Dinero Protocol.",
 		"entity": "dinero"
 	},
+	"0xc4984bB39465465432321519839c489F4275B164": {
+		"name": "MEV Capital Berastone Escrow",
+		"description": "Component of the MEV Capital wETH Cluster",
+		"entity": "mev-capital"
+	},
 	"0x6b6976aA97CD2473B388fA9b9eEb8Cca4F5a77a4": {
 		"name": "MEV Capital wstETH Escrow",
 		"description": "Component of the MEV Capital wETH Cluster",

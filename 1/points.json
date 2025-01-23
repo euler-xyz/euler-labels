@@ -112,5 +112,11 @@
 		"logo": "resolv.svg",
 		"collateralVaults": ["0x3b028b4b6c567eF5f8Ca1144Da4FbaA0D973F228"],
 		"entity": ["tulipa-capital"]
+	},
+	{
+		"name": "2x Bera-Wave Points",
+		"logo": "berastone.svg",
+		"collateralVaults": ["0xc4984bB39465465432321519839c489F4275B164"],
+		"entity": ["mev-capital"]
 	}
 ]
