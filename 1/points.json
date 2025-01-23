@@ -114,7 +114,7 @@
 		"entity": ["tulipa-capital"]
 	},
 	{
-		"name": "Berastone Points",
+		"name": "2x Bera-Wave Points",
 		"logo": "berastone.svg",
 		"collateralVaults": ["0xc4984bB39465465432321519839c489F4275B164"],
 		"entity": ["mev-capital"]
