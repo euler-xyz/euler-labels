@@ -128,5 +128,5 @@
 		"name": "Re7 Labs PT-LBTC-29MAY2025",
 		"description": "A PT-LBTC-29MAY2025 vault collateralized by other vaults in the Re7 Labs Cluster.",
 		"entity": "re7-labs"
-	},
+	}
 }
