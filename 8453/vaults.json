@@ -84,6 +84,11 @@
 		"description": "Part of the Apostro Resolv cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
 		"entity": ["apostro"]
 	},
+	"0xEdCc195Ca09c9FCC1DD30b152C0b82045Ff2F91f": {
+		"name": "Apostro Resolv PT-USR-24APR2025 vault",
+		"description": "Part of the Apostro Resolv cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
+		"entity": ["apostro"]
+	},
 	"0xaa40BD076d80F3bA18F7E09ddb1E9962c00C1047": {
 		"name": "Re7 Labs USDC",
 		"description": "A USDC vault collateralized by other vaults in the Re7 Labs Cluster.",
