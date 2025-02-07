@@ -693,5 +693,15 @@
 		"name": "Tulipa Resolv PT",
 		"description": "Resolv PT wstUSR",
 		"entity": ["tulipa-capital"]
+	},
+	"0xd001f0a15D272542687b2677BA627f48A4333b5d": {
+		"name": "USL USD0 vault",
+		"description": "The Usual Stability Loan enables users to leverage their USD0++ to arbitrage when it depegs, by borrowing USD0 at a fixed interest rate.",
+		"entity": ["usual"]
+	},
+	"0xF037eeEBA7729c39114B9711c75FbccCa4A343C8": {
+		"name": "USL USD0++ vault",
+		"description": "The Usual Stability Loan enables users to leverage their USD0++ to arbitrage when it depegs, by borrowing USD0 at a fixed interest rate.",
+		"entity": ["usual"]
 	}
 }
