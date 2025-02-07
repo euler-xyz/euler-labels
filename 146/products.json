@@ -1,0 +1,13 @@
+{
+	"re7-labs-sonic": {
+		"name": "Re7 Labs Clusters",
+		"entity": "re7-labs",
+		"vaults": [
+			"0x4c0af5d6bcb10b3c05fb5f3a846999a3d87534c7",
+			"0x2de851e60e428106fc98fe94017466f8d71793d1",
+			"0x3d9e5462a940684073eed7e4a13d19ae0dcd13bc",
+			"0xeeb1dc1ca7ffc5b54ad1cc4c1088db4e5657cb6c",
+			"0xeeb63d2d370c5318ef174d366a41507f9380f093"
+		]
+	}
+}
