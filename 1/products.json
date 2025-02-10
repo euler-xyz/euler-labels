@@ -245,5 +245,15 @@
 			"0x3b028b4b6c567eF5f8Ca1144Da4FbaA0D973F228",
 			"0x6707Fe1A8a2F9B8a10441778ac6F6Be2Ed991aE7"
 		]
+	},
+	"usual-stability-loan": {
+		"name": "Usual Stability Loan",
+		"description": "The Usual Stability Loan enables users to leverage their USD0++ to arbitrage when it depegs, by borrowing USD0 at a fixed interest rate.",
+		"entity": "usual",
+		"url": "https://snapshot.box/#/s:usualmoney.eth/proposal/0x1b081d3b3dd611094e96b690dc5d981d86bb724cce5ef562d9eecbe580b535c2",
+		"vaults": [
+			"0xd001f0a15D272542687b2677BA627f48A4333b5d",
+			"0xF037eeEBA7729c39114B9711c75FbccCa4A343C8"
+		]
 	}
 }
