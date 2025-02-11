@@ -2,6 +2,7 @@
 	"mev-capital-sonic": {
 		"name": "MEV Capital Sonic Cluster",
 		"entity": "mev-capital",
+		"description":"The MEV Capital Sonic Cluster provides a set of liquid collateral markets with an optimized risk-adjusted return",
 		"vaults": [
 			"0xa5cd24d9792F4F131f5976Af935A505D19c8Db2b",
 			"0x196F3C7443E940911EE2Bb88e019Fd71400349D9",
