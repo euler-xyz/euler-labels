@@ -54,6 +54,16 @@
 		"description": "A conservative AERO vault collateralized by other vaults in the Euler Base cluster.",
 		"entity": "euler-dao"
 	},
+	"0x556d518FDFDCC4027A3A1388699c5E11AC201D8b": {
+		"name": "Euler Base USDS",
+		"description": "A conservative USDS vault collateralized by other vaults in the Euler Base cluster.",
+		"entity": "euler-dao"
+	},
+	"0x65cFEF3Efbc5586f0c05299343b8BeFb3fF5d81a": {
+		"name": "Euler Base sUSDS",
+		"description": "A conservative sUSDS vault collateralized by other vaults in the Euler Base cluster.",
+		"entity": "euler-dao"
+	},
 	"0xC063C3b3625DF5F362F60f35B0bcd98e0fa650fb": {
 		"name": "Apostro Resolv USDC vault",
 		"description": "Part of the Apostro Resolv cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
