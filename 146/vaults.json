@@ -1,4 +1,29 @@
 {
+	"0x4c0af5d6bcb10b3c05fb5f3a846999a3d87534c7": {
+		"name": "Re7 Labs wS",
+		"description": "Component of the Re7 Labs Sonic Cluster",
+		"entity": "re7-labs"
+	},
+	"0x2de851e60e428106fc98fe94017466f8d71793d1": {
+		"name": "Re7 Labs stS",
+		"description": "Component of the Re7 Labs Sonic Cluster",
+		"entity": "re7-labs"
+	},
+	"0x3d9e5462a940684073eed7e4a13d19ae0dcd13bc": {
+		"name": "Re7 Labs USDC.e",
+		"description": "Component of the Re7 Labs Sonic Cluster",
+		"entity": "re7-labs"
+	},
+	"0xeeb1dc1ca7ffc5b54ad1cc4c1088db4e5657cb6c": {
+		"name": "Re7 Labs scUSD",
+		"description": "Component of the Re7 Labs Sonic Cluster",
+		"entity": "re7-labs"
+	},
+	"0xeeb63d2d370c5318ef174d366a41507f9380f093": {
+		"name": "Re7 Labs scETH",
+		"description": "Component of the Re7 Labs Sonic Cluster",
+		"entity": "re7-labs"
+	},
 	"0xa5cd24d9792F4F131f5976Af935A505D19c8Db2b": {
 		"name": "MEV Capital WETH",
 		"description": "Component of the MEV Capital Sonic Cluster",
