@@ -703,5 +703,20 @@
 		"name": "USL USD0++ vault",
 		"description": "The Usual Stability Loan enables users to leverage their USD0++ to arbitrage when it depegs, by borrowing USD0 at a fixed interest rate.",
 		"entity": ["usual"]
+	},
+	"0xE27A96f4c9528e3d32E6f31c6aCa9281EbEA0338": {
+		"name": "OpenEden USDC",
+		"description": "USDC",
+		"entity": ["ouroboros-capital"]
+	},
+	"0x738bC1e2F68F5ec58ea456fb4269B4b3f51714b5": {
+		"name": "OpenEden cUSDO",
+		"description": "cUSDO",
+		"entity": ["ouroboros-capital"]
+	},
+	"0x75f66ed34c274eaD52CFA25De9388E98e12Edb33": {
+		"name": "OpenEden cUSDOUSDC Curve LP",
+		"description": "cUSDOUSDC Curve LP",
+		"entity": ["ouroboros-capital"]
 	}
 }
