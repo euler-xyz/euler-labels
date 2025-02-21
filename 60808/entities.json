@@ -1,0 +1,14 @@
+{
+	"k3-capital": {
+		"name": "K3 Capital",
+		"logo": "k3.png",
+		"description": "K3 Capital provide leading institutional asset and risk management in decentralized finance.",
+		"url": "https://k3.capital/",
+		"addresses": {
+			"0x7cdF271e0117b50405fe10CB2A21dB8b79Fbe905": "K3 multisig"
+		},
+		"social": {
+			"twitter": "k3_capital"
+		}
+	}
+}

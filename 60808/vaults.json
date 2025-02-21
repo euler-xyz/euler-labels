@@ -1,0 +1,17 @@
+{
+	"0x038E69472852703d409AFB1DaF984E8A6cF7e245": {
+		"name": "K3 Capital LBTC",
+		"description": "Component of the K3 Capital Cluster",
+		"entity": "k3-capital"
+	},
+	"0xf98F2CbA28F66E8248b916554fe77Ee9F00a68fa": {
+		"name": "K3 Capital WBTC",
+		"description": "Component of the K3 Capital Cluster",
+		"entity": "k3-capital"
+	},
+	"0xC3024653C4D45982905b38f196229c05fDAa095f": {
+		"name": "K3 Capital HybridBTC.pendle",
+		"description": "Component of the K3 Capital Cluster",
+		"entity": "k3-capital"
+	}
+}
