@@ -120,7 +120,7 @@
 		"entity": ["mev-capital"]
 	},
 	{
-		"name": "Deposits earns 40% Yieldnest points boost if they are part of [Liquidity.land](https://liquidity.land)",
+		"name": "40% Yieldnest points boost if they are part of [Liquidity.land](https://liquidity.land)",
 		"logo": "liquidity.png",
 		"collateralVaults": [
 			"0x6d18F74AAD8494B789aE34b5455816F79664d209",
