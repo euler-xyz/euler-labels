@@ -7,5 +7,14 @@
 			"0xf98F2CbA28F66E8248b916554fe77Ee9F00a68fa",
 			"0xC3024653C4D45982905b38f196229c05fDAa095f"
 		]
+	},
+	"re7-labs-bob": {
+		"name": "Re7 Labs Clusters",
+		"entity": "re7-labs",
+		"vaults": [
+			"0xb615d3123410ee89542b027dc71e87b4fc05ea80",
+			"0x33cc3800574c4bee6d7428e707db82d1543d639d",
+			"0x11da346d3fdb62641bdbfebfd54b81caa871aef6"
+		]
 	}
 }
