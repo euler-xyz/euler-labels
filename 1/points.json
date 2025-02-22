@@ -118,5 +118,14 @@
 		"logo": "berastone.svg",
 		"collateralVaults": ["0xc4984bB39465465432321519839c489F4275B164"],
 		"entity": ["mev-capital"]
+	},
+	{
+		"name": "Deposits earns 40% Yieldnest points boost if they are part of [Liquidity.land](https://liquidity.land)",
+		"logo": "liquidity.png",
+		"collateralVaults": [
+			"0x6d18F74AAD8494B789aE34b5455816F79664d209",
+			"0x29D824d54Fd5118543E81637b8f865d045191F30"
+		],
+		"entity": ["alterscope"]
 	}
 ]
