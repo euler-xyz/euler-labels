@@ -12,9 +12,9 @@
 		"name": "Re7 Labs Clusters",
 		"entity": "re7-labs",
 		"vaults": [
-			"0xb615d3123410ee89542b027dc71e87b4fc05ea80",
-			"0x33cc3800574c4bee6d7428e707db82d1543d639d",
-			"0x11da346d3fdb62641bdbfebfd54b81caa871aef6"
+			"0xB615D3123410EE89542b027DC71e87b4Fc05EA80",
+			"0x33Cc3800574c4bEe6D7428e707Db82d1543d639D",
+			"0x11DA346d3Fdb62641BDbfebfd54b81CAA871aEf6"
 		]
 	}
 }
