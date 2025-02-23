@@ -13,5 +13,20 @@
 		"name": "K3 Capital HybridBTC.pendle",
 		"description": "Component of the K3 Capital Cluster",
 		"entity": "k3-capital"
+	},
+	"0xb615d3123410ee89542b027dc71e87b4fc05ea80": {
+		"name": "Re7 Labs SolvBTC.BBN",
+		"description": "Component of the Re7 Labs BOB Cluster",
+		"entity": "re7-labs"
+	},
+	"0x33cc3800574c4bee6d7428e707db82d1543d639d": {
+		"name": "Re7 Labs SolvBTC",
+		"description": "Component of the Re7 Labs BOB Cluster",
+		"entity": "re7-labs"
+	},
+	"0x11da346d3fdb62641bdbfebfd54b81caa871aef6": {
+		"name": "Re7 Labs WBTC",
+		"description": "Component of the Re7 Labs BOB Cluster",
+		"entity": "re7-labs"
 	}
 }
