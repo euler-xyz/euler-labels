@@ -28,5 +28,20 @@
 		"name": "Re7 Labs WBTC",
 		"description": "Component of the Re7 Labs BOB Cluster",
 		"entity": "re7-labs"
+	},
+	"0xced95f4cF51dE12F0a0af62F1b53828491d21Ca9": {
+		"name": "Saffron LBTC",
+		"description": "Saffron LBTC",
+		"entity": ["tulipa-capital"]
+	},
+	"0xa61837d6745De6198456165191298075Eca0b9a0": {
+		"name": "Saffron Hybrid BTC",
+		"description": "Saffron Hybrid BTC",
+		"entity": ["tulipa-capital"]
+	},
+	"0x1A681ED31eA68455A73D187929973e7095c31932": {
+		"name": "Saffron WBTC",
+		"description": "Saffron WBTC",
+		"entity": ["tulipa-capital"]
 	}
 }

@@ -22,5 +22,17 @@
 		"social": {
 			"twitter": "Re7Labs"
 		}
+	},
+	"tulipa-capital": {
+		"name": "Tulipa Capital",
+		"logo": "tulipacapital.png",
+		"description": "At Tulipa Capital, we leverage cutting-edge technology and innovative financial strategies to maximize yields while implementing rigorous risk management practices.",
+		"url": "https://www.tulipa.capital/",
+		"addresses": {
+			"0xF53eAeB7e6f15CBb6dB990eaf2A26702e1D986d8": "Tulipa Capital Multisig"
+		},
+		"social": {
+			"twitter": "tulipacapital"
+		}
 	}
 }
