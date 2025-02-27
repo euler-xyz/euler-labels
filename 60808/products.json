@@ -16,5 +16,15 @@
 			"0x33Cc3800574c4bEe6D7428e707Db82d1543d639D",
 			"0x11DA346d3Fdb62641BDbfebfd54b81CAA871aEf6"
 		]
+	},
+	"tulipa-saffron": {
+		"name": "Tulipa Saffron",
+		"description": "A market tailored to lending and borrowing BTC assets such as WBTC and LBTC on the BOB chain. Governed by Tulipa.",
+		"entity": "tulipa-capital",
+		"vaults": [
+			"0xced95f4cF51dE12F0a0af62F1b53828491d21Ca9",
+			"0xa61837d6745De6198456165191298075Eca0b9a0",
+			"0x1A681ED31eA68455A73D187929973e7095c31932"
+		]
 	}
 }
