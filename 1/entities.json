@@ -135,8 +135,7 @@
 		"description": "Ouroboros Capital curates yield strategies through rigorous risk management and in-depth market analysis to optimize risk-adjusted returns.",
 		"url": "https://www.ourocap.io/",
 		"addresses": {
-			"0x8B5EB629Dc1d56B101cD340CA87Ea2506c551379": "Ouroboros Capital Multisig",
-			"0x2D10ae93c6BF868556aE9577aD0e8b24004aB816": "Ouroboros Capital Timelock"
+			"0x8B5EB629Dc1d56B101cD340CA87Ea2506c551379": "Ouroboros Capital Multisig"
 		},
 		"social": {
 			"twitter": "OuroborosCap8"
