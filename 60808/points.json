@@ -21,7 +21,7 @@
 		"name": "2x Lombard Lux",
 		"logo": "lombard.svg",
 		"collateralVaults": ["0x1A681ED31eA68455A73D187929973e7095c31932"],
-		"entity": ["k3-capital"]
+		"entity": ["tulipa-capital"]
 	},
 	{
 		"name": "3x Lombard Lux",
