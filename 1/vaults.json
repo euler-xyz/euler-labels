@@ -224,6 +224,16 @@
 		"descriptsion": "A PT-USDe-27MAR2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
 		"entity": "euler-dao"
 	},
+	"0xEF1d264dDcF1ebc0485d31daEbE5C5698942F55F": {
+		"name": "Euler Yield mEDGE",
+		"descriptsion": "A mEDGE escrowed collateral vault used by other vaults in the Euler Yield cluster.",
+		"entity": "euler-dao"
+	},
+	"0x0F81E34a5AD7929eB863F97F4217A182923FCEfb": {
+		"name": "Euler Yield mMEV",
+		"descriptsion": "A mMEV escrowed collateral vault used by other vaults in the Euler Yield cluster.",
+		"entity": "euler-dao"
+	},
 	"0x67e4e4e73947257Ca62D118E0FBC56D06f11d96F": {
 		"name": "Re7 Labs Basic WETH",
 		"description": "A WETH vault collateralized by other vaults in the Re7 Labs Basic Cluster.",
