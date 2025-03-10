@@ -143,5 +143,15 @@
 		"name": "Re7 Labs PT-LBTC-29MAY2025",
 		"description": "A PT-LBTC-29MAY2025 vault collateralized by other vaults in the Re7 Labs Cluster.",
 		"entity": "re7-labs"
+	},
+	"0x9817F789C9de74fBbb17874c518C90b659250Df3": {
+		"name": "Vici Network VCNT",
+		"description": "A VCNT vault collateralized by other vaults in the Vici Network Cluster.",
+		"entity": "vici-network"
+	},
+	"0x7f54bd7bAeA25D5Ef410fea27DBd7fdfBb8F9fDA": {
+		"name": "Vici Network USDC",
+		"description": "A USDC vault collateralized by other vaults in the Vici Network Cluster.",
+		"entity": "vici-network"
 	}
 }
