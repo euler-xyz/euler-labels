@@ -40,5 +40,23 @@
 		"social": {
 			"twitter": "Re7Capital"
 		}
+	},
+	"vici-network": {
+		"name": "Vici Network",
+		"logo": "ViciNetwork.svg",
+		"description": "Enterprise Blockchain Solutions for Creators and Communities",
+		"url": "https://vici.network/",
+		"addresses": {
+			"0xdCf5130274753c8050aB061B1a1DCbf583f5bFd0": "VCNT on Base",
+			"0xfD507F2D5eF4D87A526c1731a4B7A423C11ce237": "Vici Network Multisig"
+		},
+		"social": {
+			"twitter": "ViciNFT5",
+			"facebook": "ViciNFT",
+			"instagram": "vicinft",
+			"linkedin": "vicinft",
+			"discord": "https://discord.com/invite/UYjtSTzYTE",
+			"github": "ViciNFT"
+		}
 	}
 }
