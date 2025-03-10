@@ -39,6 +39,8 @@ function validateChain(chainId) {
 	const products = loadJsonFile(`${chainId}/products.json`);
 	const points = loadJsonFile(`${chainId}/points.json`);
 
+	validateUniqueEntityAddresses(entities);
+
 	for (const entityId of Object.keys(entities)) {
 		const entity = entities[entityId];
 
@@ -133,6 +135,32 @@ function validateChain(chainId) {
 		}
 		for (const entity of getArray(point.entity)) {
 			if (!entities[entity]) throw Error(`points: no such entity ${entity}`);
+		}
+	}
+}
+
+/**
+ * Validates that each Ethereum address is only referenced once across all entities
+ */
+function validateUniqueEntityAddresses(entities) {
+	const addressMap = new Map();
+
+	for (const entityId of Object.keys(entities)) {
+		const entity = entities[entityId];
+
+		if (!entity.addresses) continue;
+
+		for (const address of Object.keys(entity.addresses)) {
+			const normalizedAddress = ethers.getAddress(address);
+
+			if (addressMap.has(normalizedAddress)) {
+				const previousEntity = addressMap.get(normalizedAddress);
+				throw Error(
+					`Duplicate address ${normalizedAddress} found in entities: ${previousEntity} and ${entityId}`,
+				);
+			}
+
+			addressMap.set(normalizedAddress, entityId);
 		}
 	}
 }
