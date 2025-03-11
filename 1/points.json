@@ -12,15 +12,27 @@
 		"entity": ["re7-labs", "mev-capital", "k3"]
 	},
 	{
-		"name": "Ether.FI points",
+		"name": "2x Ether.fi points",
 		"logo": "ethfi.png",
 		"collateralVaults": ["0xe846ca062aB869b66aE8DcD811973f628BA82eAf"],
+		"entity": ["euler-dao"]
+	},
+	{
+		"name": "2x Ether.fi points",
+		"logo": "ethfi.png",
+		"collateralVaults": ["0x34716B7026D9e6247D21e37Da1f1b157b62a16e0"],
 		"entity": ["euler-dao"]
 	},
 	{
 		"name": "2x Lombard Lux",
 		"logo": "lombard.svg",
 		"collateralVaults": ["0x056f3a2E41d2778D3a0c0714439c53af2987718E"],
+		"entity": ["euler-dao"]
+	},
+	{
+		"name": "2x Lombard Lux",
+		"logo": "lombard.svg",
+		"collateralVaults": ["0x998D761eC1BAdaCeb064624cc3A1d37A46C88bA4"],
 		"entity": ["euler-dao"]
 	},
 	{
@@ -36,7 +48,13 @@
 		"entity": ["euler-dao"]
 	},
 	{
-		"name": "Ether.FI points",
+		"name": "2x Renzo Points",
+		"logo": "renzo.svg",
+		"collateralVaults": ["0xE88e44C2C7dfc9bcb86e380d29375ccD6cd85406"],
+		"entity": ["euler-dao"]
+	},
+	{
+		"name": "2x Ether.fi points",
 		"logo": "ethfi.png",
 		"collateralVaults": ["0xC605471aE09e0b7daA9e8813707d0DDbf9429Ad2"],
 		"entity": ["apostro"]
@@ -127,5 +145,17 @@
 			"0x29D824d54Fd5118543E81637b8f865d045191F30"
 		],
 		"entity": ["alterscope"]
+	},
+	{
+		"name": "2x Renzo Points",
+		"logo": "renzo.svg",
+		"collateralVaults": ["0x82c710B9B225B43C0c90f097DB31f5f10a7F86FA"],
+		"entity": ["re7-labs"]
+	},
+	{
+		"name": "2x Renzo Points",
+		"logo": "renzo.svg",
+		"collateralVaults": ["0x631D8E808f2c4177a8147Eaa39a4F57C47634dE8"],
+		"entity": ["re7-labs"]
 	}
 ]

@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Ether.FI points",
+		"name": "2x Ether.fi points",
 		"logo": "ethfi.png",
 		"collateralVaults": ["0xd4A805261B28f375fc9c3d89EcD2C952Cd130d14"],
 		"entity": ["euler-dao"]
