@@ -12,15 +12,27 @@
 		"entity": ["re7-labs", "mev-capital", "k3"]
 	},
 	{
-		"name": "Ether.FI points",
+		"name": "2x Ether.fi points",
 		"logo": "ethfi.png",
 		"collateralVaults": ["0xe846ca062aB869b66aE8DcD811973f628BA82eAf"],
+		"entity": ["euler-dao"]
+	},
+	{
+		"name": "2x Ether.fi points",
+		"logo": "ethfi.png",
+		"collateralVaults": ["0x34716B7026D9e6247D21e37Da1f1b157b62a16e0"],
 		"entity": ["euler-dao"]
 	},
 	{
 		"name": "2x Lombard Lux",
 		"logo": "lombard.svg",
 		"collateralVaults": ["0x056f3a2E41d2778D3a0c0714439c53af2987718E"],
+		"entity": ["euler-dao"]
+	},
+	{
+		"name": "2x Lombard Lux",
+		"logo": "lombard.svg",
+		"collateralVaults": ["0x998D761eC1BAdaCeb064624cc3A1d37A46C88bA4"],
 		"entity": ["euler-dao"]
 	},
 	{
@@ -36,7 +48,7 @@
 		"entity": ["euler-dao"]
 	},
 	{
-		"name": "Ether.FI points",
+		"name": "2x Ether.fi points",
 		"logo": "ethfi.png",
 		"collateralVaults": ["0xC605471aE09e0b7daA9e8813707d0DDbf9429Ad2"],
 		"entity": ["apostro"]
