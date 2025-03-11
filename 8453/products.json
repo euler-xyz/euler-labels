@@ -47,5 +47,16 @@
 			"0x4790BCbF34e2be50475364DACa01908eBa35e0ca",
 			"0xbc02160f3AfdBb2fA77154b552504d7D01Bfdc2F"
 		]
+	},
+	"vici-network-base": {
+		"name": "Vici Network Base",
+		"description": "Component of the Vici Network VCNT Cluster",
+		"entity": "vici-network",
+		"url": "https://vici.network/",
+		"logo": "ViciNetwork.svg",
+		"vaults": [
+			"0x9817F789C9de74fBbb17874c518C90b659250Df3",
+			"0x7f54bd7bAeA25D5Ef410fea27DBd7fdfBb8F9fDA"
+		]
 	}
 }
