@@ -73,5 +73,15 @@
 		"name": "MEV Capital wOS",
 		"description": "Component of the MEV Capital Sonic Cluster",
 		"entity": "mev-capital"
+	},
+	"0xF6E2ddf7a149C171E591C8d58449e371E6dc7570": {
+		"name": "MEV Capital PT-wstkscUSD",
+		"description": "Component of the MEV Capital Sonic Cluster",
+		"entity": "mev-capital"
+	},
+	"0xFFFC9d22304CF49784e9B31dDBEB066344b2B856": {
+		"name": "MEV Capital PT-wstkscETH",
+		"description": "Component of the MEV Capital Sonic Cluster",
+		"entity": "mev-capital"
 	}
 }
