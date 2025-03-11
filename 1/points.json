@@ -48,12 +48,6 @@
 		"entity": ["euler-dao"]
 	},
 	{
-		"name": "2x Renzo Points",
-		"logo": "renzo.svg",
-		"collateralVaults": ["0xE88e44C2C7dfc9bcb86e380d29375ccD6cd85406"],
-		"entity": ["euler-dao"]
-	},
-	{
 		"name": "2x Ether.fi points",
 		"logo": "ethfi.png",
 		"collateralVaults": ["0xC605471aE09e0b7daA9e8813707d0DDbf9429Ad2"],
@@ -145,17 +139,5 @@
 			"0x29D824d54Fd5118543E81637b8f865d045191F30"
 		],
 		"entity": ["alterscope"]
-	},
-	{
-		"name": "2x Renzo Points",
-		"logo": "renzo.svg",
-		"collateralVaults": ["0x82c710B9B225B43C0c90f097DB31f5f10a7F86FA"],
-		"entity": ["re7-labs"]
-	},
-	{
-		"name": "2x Renzo Points",
-		"logo": "renzo.svg",
-		"collateralVaults": ["0x631D8E808f2c4177a8147Eaa39a4F57C47634dE8"],
-		"entity": ["re7-labs"]
 	}
 ]
