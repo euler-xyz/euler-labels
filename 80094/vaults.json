@@ -1,0 +1,37 @@
+{
+	"0xad9e5E2647EFb9137B6B8D688d4906fa51476870": {
+		"name": "MEV Capital wBERA",
+		"description": "Component of the MEV Capital Berachain Cluster",
+		"entity": "mev-capital"
+	},
+	"0x6D976915bD9DE43De1A60C39e128e320dadda000": {
+		"name": "MEV Capital wETH",
+		"description": "Component of the MEV Capital Berachain Cluster",
+		"entity": "mev-capital"
+	},
+	"0xb758d6eC8111FEB9b0EC758A61B7874e5821dfFd": {
+		"name": "MEV Capital WBTC",
+		"description": "Component of the MEV Capital Berachain Cluster",
+		"entity": "mev-capital"
+	},
+	"0xd538b6aeF78E4bDDe4FD4576E9E3A403704602bc": {
+		"name": "MEV Capital HONEY",
+		"description": "Component of the MEV Capital Berachain Cluster",
+		"entity": "mev-capital"
+	},
+	"0x1371dD58ce95eCD624340F072f97212A2661A280": {
+		"name": "MEV Capital USDC.e",
+		"description": "Component of the MEV Capital Berachain Cluster",
+		"entity": "mev-capital"
+	},
+	"0x826244d9Db2A0f438C3190a0f393c13d41AD7a2E": {
+		"name": "MEV Capital STONE",
+		"description": "Component of the MEV Capital Berachain Cluster",
+		"entity": "mev-capital"
+	},
+	"0x91e1Ec1e948F635c127dad41eaE1aF899399F15a": {
+		"name": "MEV Capital BYUSD",
+		"description": "Component of the MEV Capital Berachain Cluster",
+		"entity": "mev-capital"
+	}
+}
