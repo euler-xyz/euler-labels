@@ -33,5 +33,30 @@
 		"name": "MEV Capital BYUSD",
 		"description": "Component of the MEV Capital Berachain Cluster",
 		"entity": "mev-capital"
+	},
+	"0x027DcAfB223f69d41Bd413C50854017718419585": {
+		"name": "Tulipa Hive HONEY",
+		"description": "Component of the Tulipa Hive market",
+		"entity": "tulipa-capital"
+	},
+	"0xE932da5A4d00536c224f8153f299cDcD8054c444": {
+		"name": "Tulipa Hive USDC",
+		"description": "Component of the Tulipa Hive market",
+		"entity": "tulipa-capital"
+	},
+	"0x542B1ffd33C239C7AFc6511FB8855390Aa9c8aC2": {
+		"name": "Tulipa Hive Bera",
+		"description": "Component of the Tulipa Hive market",
+		"entity": "tulipa-capital"
+	},
+	"0x16C7169421CfB2C78b2D447b9274c61B8b2E846a": {
+		"name": "Tulipa Hive WBTC",
+		"description": "Component of the Tulipa Hive market",
+		"entity": "tulipa-capital"
+	},
+	"0x4f652B92a8CD9e251Db4d43b2073F689E94B4Dba": {
+		"name": "Tulipa Hive LBTC",
+		"description": "Component of the Tulipa Hive market",
+		"entity": "tulipa-capital"
 	}
 }
