@@ -24,5 +24,15 @@
 			"0x16C7169421CfB2C78b2D447b9274c61B8b2E846a",
 			"0x4f652B92a8CD9e251Db4d43b2073F689E94B4Dba"
 		]
+	},
+	"re7-labs-bera": {
+		"name": "Re7 Labs Cluster",
+		"entity": "re7-labs",
+		"vaults": [
+			"0x89fd57175eceec45992e07c206e5a864fa6af433",
+			"0x66f233ac844c3948a516857ca769872e5941f91c",
+			"0xe318d262290abab80fc6e217c514801e2c0ef999",
+			"0x109d6d1799f62216b4a7b0c6e245844abd4dd281"
+		]
 	}
 }
