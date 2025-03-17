@@ -59,22 +59,22 @@
 		"description": "Component of the Tulipa Hive market",
 		"entity": "tulipa-capital"
 	},
-	"0x89fd57175eceec45992e07c206e5a864fa6af433": {
+	"0x89FD57175EcEEC45992e07c206e5A864Fa6aF433": {
 		"name": "Re7 Labs Honey",
 		"description": "Re7 Labs Honey Vault",
 		"entity": "re7-labs"
 	},
-	"0x66f233ac844c3948a516857ca769872e5941f91c": {
+	"0x66f233ac844C3948A516857CA769872E5941f91c": {
 		"name": "Re7 Labs USDC.e",
 		"description": "Re7 Labs USDC.e Vault",
 		"entity": "re7-labs"
 	},
-	"0xe318d262290abab80fc6e217c514801e2c0ef999": {
+	"0xe318d262290ABab80FC6e217c514801e2c0EF999": {
 		"name": "Re7 Labs BERA",
 		"description": "Re7 Labs wBERA Vault",
 		"entity": "re7-labs"
 	},
-	"0x109d6d1799f62216b4a7b0c6e245844abd4dd281": {
+	"0x109D6D1799f62216B4a7b0c6e245844AbD4DD281": {
 		"name": "Re7 Labs rUSD",
 		"description": "Re7 Labs rUSD Vault",
 		"entity": "re7-labs"
