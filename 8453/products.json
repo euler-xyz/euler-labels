@@ -34,7 +34,7 @@
 		]
 	},
 	"re7-labs-basic": {
-		"name": "Re7 Labs Clusters",
+		"name": "Re7 Labs Cluster",
 		"entity": "re7-labs",
 		"vaults": [
 			"0xaa40BD076d80F3bA18F7E09ddb1E9962c00C1047",

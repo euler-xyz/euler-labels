@@ -1,6 +1,6 @@
 {
 	"re7-labs-sonic": {
-		"name": "Re7 Labs Clusters",
+		"name": "Re7 Labs Cluster",
 		"entity": "re7-labs",
 		"vaults": [
 			"0x4c0AF5d6Bcb10B3C05FB5F3a846999a3d87534C7",

@@ -109,6 +109,11 @@
 		"description": "A conservative solvBTC vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
 		"entity": "euler-dao"
 	},
+	"0xA28C23a459fF8773EB4dBe0e7250d93F79F1Fe2B": {
+		"name": "Euler Prime tETH",
+		"description": "A conservative tETH vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
+		"entity": "euler-dao"
+	},
 	"0xe0a80d35bB6618CBA260120b279d357978c42BCE": {
 		"name": "Euler Yield USDC",
 		"descriptsion": "A USDC vault collateralized by other vaults in the Euler Yield and Euler Prime cluster.",
@@ -232,6 +237,11 @@
 	"0x0F81E34a5AD7929eB863F97F4217A182923FCEfb": {
 		"name": "Euler Yield mMEV",
 		"descriptsion": "A mMEV escrowed collateral vault used by other vaults in the Euler Yield cluster.",
+		"entity": "euler-dao"
+	},
+	"0x61aAC438453d6e3513C0c8dbb69F13860E2B5028": {
+		"name": "Euler Yield eUSDe",
+		"descriptsion": "A eUSDe escrowed collateral vault used by other vaults in the Euler Yield cluster.",
 		"entity": "euler-dao"
 	},
 	"0x67e4e4e73947257Ca62D118E0FBC56D06f11d96F": {

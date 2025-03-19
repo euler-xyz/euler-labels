@@ -1,21 +1,4 @@
 {
-	"euler-dao": {
-		"name": "Euler DAO",
-		"logo": "euler.svg",
-		"description": "The Euler DAO is the organisation responsible for the creation of the Euler lending/borrowing platform.",
-		"url": "https://euler.finance/",
-		"addresses": {
-			"0x1e13B0847808045854Ddd908F2d770Dc902Dcfb8": "Euler DAO Multisig",
-			"0x223c87de4e41448adfDe6F4F93D9bD4DEA9d88d1": "Euler Vault Access Control Governor"
-		},
-		"social": {
-			"twitter": "eulerfinance",
-			"youtube": "EulerFinance",
-			"discord": "https://discord.euler.finance/",
-			"telegram": "eulerfinance_official",
-			"github": "euler-xyz"
-		}
-	},
 	"mev-capital": {
 		"name": "MEV Capital",
 		"logo": "mev-capital.svg",
@@ -26,6 +9,30 @@
 		},
 		"social": {
 			"twitter": "mevcapital"
+		}
+	},
+	"tulipa-capital": {
+		"name": "Tulipa Capital",
+		"logo": "tulipacapital.png",
+		"description": "At Tulipa Capital, we leverage cutting-edge technology and innovative financial strategies to maximize yields while implementing rigorous risk management practices.",
+		"url": "https://www.tulipa.capital/",
+		"addresses": {
+			"0xF53eAeB7e6f15CBb6dB990eaf2A26702e1D986d8": "Tulipa Capital Multisig"
+		},
+		"social": {
+			"twitter": "tulipacapital"
+		}
+	},
+	"re7-labs": {
+		"name": "Re7 Labs",
+		"logo": "re7labs.png",
+		"description": "Re7 Labs is the innovation arm of digital asset investment firm Re7 Capital, taking the practical experience of DeFi risk management to on-chain vaults.",
+		"url": "https://www.re7labs.xyz/",
+		"addresses": {
+			"0x3BA1566ED39F865bAf4c1Eb9acE53F3D2062bE65": "Re7 Labs Euler Berachain Multisig"
+		},
+		"social": {
+			"twitter": "Re7Labs"
 		}
 	}
 }

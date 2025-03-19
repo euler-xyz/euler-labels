@@ -1,9 +1,38 @@
 {
-	"mev-capital-sonic": {
+	"mev-capital-bera": {
 		"name": "MEV Capital Berachain Cluster",
 		"entity": "mev-capital",
 		"description": "The MEV Capital Berachain Cluster provides a set of liquid collateral markets with an optimized risk-adjusted return",
 		"vaults": [
+			"0xad9e5E2647EFb9137B6B8D688d4906fa51476870",
+			"0x6D976915bD9DE43De1A60C39e128e320dadda000",
+			"0xb758d6eC8111FEB9b0EC758A61B7874e5821dfFd",
+			"0xd538b6aeF78E4bDDe4FD4576E9E3A403704602bc",
+			"0x1371dD58ce95eCD624340F072f97212A2661A280",
+			"0x826244d9Db2A0f438C3190a0f393c13d41AD7a2E",
+			"0x91e1Ec1e948F635c127dad41eaE1aF899399F15a"
+		]
+	},
+	"tulipa-hive": {
+		"name": "Tulipa Hive",
+		"description": "A market tailored to lending and borrowing assets such as WBTC, LBTC, Honey, USDC and BERA on the Bera chain. Governed by Tulipa.",
+		"entity": "tulipa-capital",
+		"vaults": [
+			"0x027DcAfB223f69d41Bd413C50854017718419585",
+			"0xE932da5A4d00536c224f8153f299cDcD8054c444",
+			"0x542B1ffd33C239C7AFc6511FB8855390Aa9c8aC2",
+			"0x16C7169421CfB2C78b2D447b9274c61B8b2E846a",
+			"0x4f652B92a8CD9e251Db4d43b2073F689E94B4Dba"
+		]
+	},
+	"re7-labs-bera": {
+		"name": "Re7 Labs Cluster",
+		"entity": "re7-labs",
+		"vaults": [
+			"0x89FD57175EcEEC45992e07c206e5A864Fa6aF433",
+			"0x66f233ac844C3948A516857CA769872E5941f91c",
+			"0xe318d262290ABab80FC6e217c514801e2c0EF999",
+			"0x109D6D1799f62216B4a7b0c6e245844AbD4DD281"
 		]
 	}
 }
