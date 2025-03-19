@@ -499,6 +499,11 @@
 		"description": "Component of the MEV Capital wETH Cluster",
 		"entity": "mev-capital"
 	},
+	"0x2306e17c7198282985a95b1ce0f63820846d0290": {
+		"name": "MEV Capital inwsteths Escrow",
+		"description": "Component of the MEV Capital wETH Cluster",
+		"entity": "mev-capital"
+	},
 	"0xd820C8129a853a04dC7e42C64aE62509f531eE5A": {
 		"name": "Idle DAO Fasanara USDC Credit Vault Escrow",
 		"description": "Component of the Idle DAO USDC Vault backed by credit vaults",
