@@ -509,7 +509,7 @@
 		"description": "Component of the MEV Capital wETH Cluster",
 		"entity": "mev-capital"
 	},
-	"0x2306e17c7198282985a95b1ce0f63820846d0290": {
+	"0x2306e17C7198282985a95b1cE0f63820846d0290": {
 		"name": "MEV Capital inwsteths Escrow",
 		"description": "Component of the MEV Capital wETH Cluster",
 		"entity": "mev-capital"
