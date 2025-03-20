@@ -6,7 +6,7 @@
 		"url": "https://euler.finance/",
 		"addresses": {
 			"0x1e13B0847808045854Ddd908F2d770Dc902Dcfb8": "Euler DAO Multisig",
-			"0x223c87de4e41448adfDe6F4F93D9bD4DEA9d88d1": "Euler Vault Access Control Governor"
+			"0xfe959D7A49EAE5Aaa821b71de315Fb3Adc7a52Ad": "Euler Vault Access Control Governor"
 		},
 		"social": {
 			"twitter": "eulerfinance",
