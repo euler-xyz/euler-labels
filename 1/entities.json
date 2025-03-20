@@ -16,13 +16,26 @@
 			"github": "euler-xyz"
 		}
 	},
+	"gauntlet": {
+		"name": "Gauntlet",
+		"logo": "gauntlet.svg",
+		"description": "Gauntlet's applied research and optimization teams model market risk, economic incentives, and drive sustainable growth for crypto's top protocols, chains, and onchain treasuries.",
+		"url": "https://www.gauntlet.xyz/",
+		"addresses": {
+			"0x35400831044167E9E2DE613d26515eeE37e30a1b": "Euler Vault Access Control Governor"
+		},
+		"social": {
+			"twitter": "gauntlet_xyz"
+		}
+	},
 	"re7-labs": {
 		"name": "Re7 Labs",
 		"logo": "re7labs.png",
 		"description": "Re7 Labs is the innovation arm of digital asset investment firm Re7 Capital, taking the practical experience of DeFi risk management to on-chain vaults.",
 		"url": "https://re7.capital/",
 		"addresses": {
-			"0x184d597Be309e11650ca6c935B483DcC05551578": "Re7 Labs Euler Multisig"
+			"0x184d597Be309e11650ca6c935B483DcC05551578": "Re7 Labs Euler Multisig",
+			"0x8378f03722Ca0b9939Be4bEaEf0BF64c0062f232": "Re7 Labs Euler Multisig"
 		},
 		"social": {
 			"twitter": "Re7Capital"

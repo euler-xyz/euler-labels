@@ -414,26 +414,6 @@
 		"description": "Vaults designed for advanced liquid restaking strategies for YieldNest products.",
 		"entity": "alterscope"
 	},
-	"0x3f29460AaCdE3d6Ae0156aB1f8685bd21Eb37074": {
-		"name": "Alterscope USDC Genesis",
-		"description": "Part of the Alterscope Genesis Cluster, offering safety and low risk through collateralized vaults—powered by Alterscope’s expertise.",
-		"entity": "alterscope"
-	},
-	"0x0E88544bf60bbc748FA542B79e9aE3Cf18Db7F75": {
-		"name": "Alterscope WETH Genesis",
-		"description": "Part of the Alterscope Genesis Cluster, offering safety and low risk through collateralized vaults—powered by Alterscope’s expertise.",
-		"entity": "alterscope"
-	},
-	"0x1926f5Bb9ed68BA83255fB219828a90Bd9F40771": {
-		"name": "Alterscope wstETH Genesis",
-		"description": "Part of the Alterscope Genesis Cluster, offering safety and low risk through collateralized vaults—powered by Alterscope’s expertise.",
-		"entity": "alterscope"
-	},
-	"0xBe4089616039eC3F7361B7058d92a90246ee86e0": {
-		"name": "Dinero Protocol WETH",
-		"description": "A WETH vault collateralized by apxETH by Dinero Protocol.",
-		"entity": "dinero"
-	},
 	"0xc4984bB39465465432321519839c489F4275B164": {
 		"name": "MEV Capital Berastone Escrow",
 		"description": "Component of the MEV Capital wETH Cluster",
@@ -583,26 +563,6 @@
 		"name": "Re7 Labs Smart $M",
 		"description": "The wM vault curated by Re7 Labs",
 		"entity": ["re7-labs"]
-	},
-	"0xfaCaD9D934F17930d28b93F3C84a13BFAc73347C": {
-		"name": "Reserve USD3 Prime",
-		"description": "Reserve Cluster USD3",
-		"entity": ["re7-labs", "mev-capital"]
-	},
-	"0xb2A8bAba27B5D45Db0a4E58275cAf62DEBca7AA2": {
-		"name": "Reserve eUSD Prime",
-		"description": "Reserve Cluster eUSD",
-		"entity": ["re7-labs", "mev-capital"]
-	},
-	"0xc58Eac02905d34678f552c90De2D4c94bF987B12": {
-		"name": "Reserve WETH Prime",
-		"description": "Reserve Cluster WETH",
-		"entity": ["re7-labs", "mev-capital"]
-	},
-	"0x7E8Ba73e62dc430A4Fc76E7bb4EA8de62CDe5fDc": {
-		"name": "Reserve ETH+ Prime",
-		"description": "Reserve Cluster ETH+",
-		"entity": ["re7-labs", "mev-capital"]
 	},
 	"0x716bF454066a84F39A2F78b5707e79a9d64f1225": {
 		"name": "Swaap Lend ETH ",

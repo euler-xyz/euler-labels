@@ -2,7 +2,7 @@
 	"euler-prime": {
 		"name": "Euler Prime",
 		"description": "A market tailored to borrowing stable assets against blue chip crypto assets. Governed by Euler DAO.",
-		"entity": "euler-dao",
+		"entity": ["euler-dao", "gauntlet"],
 		"url": "https://forum.euler.finance/t/expanding-euler-prime/1137",
 		"vaults": [
 			"0xD8b27CF359b7D15710a5BE299AF6e7Bf904984C2",
@@ -33,7 +33,7 @@
 	"euler-yield": {
 		"name": "Euler Yield",
 		"description": "A market tailored to borrowing stablecoins against tokenised yield strategies. Governed by Euler DAO.",
-		"entity": "euler-dao",
+		"entity": ["euler-dao", "gauntlet"],
 		"url": "https://forum.euler.finance/t/creation-of-euler-yield-market/1163",
 		"vaults": [
 			"0xe0a80d35bB6618CBA260120b279d357978c42BCE",
@@ -66,7 +66,7 @@
 	},
 	"stablecoin-maxi": {
 		"name": "Stablecoin Maxi",
-		"entity": ["mev-capital", "re7-labs", "k3"],
+		"entity": "re7-labs",
 		"vaults": [
 			"0xce45EF0414dE3516cAF1BCf937bF7F2Cf67873De",
 			"0x8dDE384022D4dE1D6C67891a8865f551c444dc4C",
@@ -187,21 +187,6 @@
 			"0x1334d0E5ca5855A803998fcC78548142BEF36e3B",
 			"0x2306e17C7198282985a95b1cE0f63820846d0290"
 		]
-	},
-	"reserve-prime": {
-		"name": "Reserve Prime",
-		"entity": ["re7-labs", "mev-capital"],
-		"vaults": [
-			"0x7E8Ba73e62dc430A4Fc76E7bb4EA8de62CDe5fDc",
-			"0xc58Eac02905d34678f552c90De2D4c94bF987B12",
-			"0xb2A8bAba27B5D45Db0a4E58275cAf62DEBca7AA2",
-			"0xfaCaD9D934F17930d28b93F3C84a13BFAc73347C"
-		]
-	},
-	"dinero-protocol": {
-		"name": "Dinero Protocol",
-		"entity": ["dinero"],
-		"vaults": ["0xBe4089616039eC3F7361B7058d92a90246ee86e0"]
 	},
 	"swaap-labs": {
 		"name": "Swaap Lend",
