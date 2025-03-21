@@ -104,15 +104,6 @@
 			"0xf9a23b059858CdD0e3ED0DDE89864BB82B88aa19"
 		]
 	},
-	"alterscope-genesis": {
-		"name": "Alterscope Genesis",
-		"entity": "alterscope",
-		"vaults": [
-			"0x3f29460AaCdE3d6Ae0156aB1f8685bd21Eb37074",
-			"0x0E88544bf60bbc748FA542B79e9aE3Cf18Db7F75",
-			"0x1926f5Bb9ed68BA83255fB219828a90Bd9F40771"
-		]
-	},
 	"alterscope-bedrock": {
 		"name": "Alterscope Bedrock",
 		"description": "Foundational vaults designed for maximium market stability.",
