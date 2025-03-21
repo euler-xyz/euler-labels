@@ -16,6 +16,18 @@
 			"github": "euler-xyz"
 		}
 	},
+	"gauntlet": {
+		"name": "Gauntlet",
+		"logo": "gauntlet.svg",
+		"description": "Gauntlet's applied research and optimization teams model market risk, economic incentives, and drive sustainable growth for crypto's top protocols, chains, and onchain treasuries.",
+		"url": "https://www.gauntlet.xyz/",
+		"addresses": {
+			"0xfe959D7A49EAE5Aaa821b71de315Fb3Adc7a52Ad": "Euler Vault Access Control Governor"
+		},
+		"social": {
+			"twitter": "gauntlet_xyz"
+		}
+	},
 	"apostro": {
 		"name": "Apostro",
 		"logo": "apostro.png",
