@@ -165,7 +165,7 @@
 		"entity": ["euler-dao"]
 	},
 	{
-		"name": "Ethereal points",
+		"name": "1.5x Ethereal points",
 		"logo": "ethereal.svg",
 		"collateralVaults": ["0x61aAC438453d6e3513C0c8dbb69F13860E2B5028"],
 		"entity": ["euler-dao"]
