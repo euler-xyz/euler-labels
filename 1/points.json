@@ -159,12 +159,6 @@
 		"entity": ["euler-dao"]
 	},
 	{
-		"name": "10 Treehouse Nuts per tETH",
-		"logo": "nuts.png",
-		"collateralVaults": ["0xA28C23a459fF8773EB4dBe0e7250d93F79F1Fe2B"],
-		"entity": ["euler-dao"]
-	},
-	{
 		"name": "30 Sats per eUSDe per day",
 		"logo": "ethena.png",
 		"collateralVaults": ["0x61aAC438453d6e3513C0c8dbb69F13860E2B5028"],
