@@ -15,14 +15,15 @@
 	},
 	"tulipa-hive": {
 		"name": "Tulipa Hive",
-		"description": "A market tailored to lending and borrowing assets such as WBTC, LBTC, Honey, USDC and BERA on the Bera chain. Governed by Tulipa.",
+		"description": "A market tailored to lending and borrowing assets such as WBTC, LBTC, Honey, USDC, BERA and NECT on the Bera chain. Governed by Tulipa.",
 		"entity": "tulipa-capital",
 		"vaults": [
 			"0x027DcAfB223f69d41Bd413C50854017718419585",
 			"0xE932da5A4d00536c224f8153f299cDcD8054c444",
 			"0x542B1ffd33C239C7AFc6511FB8855390Aa9c8aC2",
 			"0x16C7169421CfB2C78b2D447b9274c61B8b2E846a",
-			"0x4f652B92a8CD9e251Db4d43b2073F689E94B4Dba"
+			"0x4f652B92a8CD9e251Db4d43b2073F689E94B4Dba",
+			"0x07346aE3245E04C96E33E8d8e02a638AaA08E719"
 		]
 	},
 	"re7-labs-bera": {
