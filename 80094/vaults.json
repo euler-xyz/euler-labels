@@ -64,6 +64,16 @@
 		"description": "Tulipa Hive NECT",
 		"entity": "tulipa-capital"
 	},
+	"0xac0476A04c567EBcd49Db0A5b8b294A119d7849D": {
+		"name": "Folding Hive oriBGT",
+		"description": "Folding Hive oriBGT",
+		"entity": ["tulipa-capital"]
+	},
+	"0xCaa70d2aa873Ef057980844e18D9a9560bdfFcC0": {
+		"name": "Folding Hive WBERA",
+		"description": "Folding Hive WBERA",
+		"entity": ["tulipa-capital"]
+	},
 	"0x89FD57175EcEEC45992e07c206e5A864Fa6aF433": {
 		"name": "Re7 Labs Honey",
 		"description": "Re7 Labs Honey Vault",

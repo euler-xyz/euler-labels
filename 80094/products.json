@@ -36,5 +36,14 @@
 			"0x109D6D1799f62216B4a7b0c6e245844AbD4DD281",
 			"0x5ba8763891D6a4F934B197B9817757d887B78fec"
 		]
+	},
+	"tulipa-folding-hive": {
+		"name": "Tulipa Folding Hive",
+		"description": "A collaboration between Origami Finance and Tulipa Capital on folding oriBGT. Governed by Tulipa.",
+		"entity": "tulipa-capital",
+		"vaults": [
+			"0xac0476A04c567EBcd49Db0A5b8b294A119d7849D",
+			"0xCaa70d2aa873Ef057980844e18D9a9560bdfFcC0"
+		]
 	}
 }
