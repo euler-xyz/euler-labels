@@ -59,6 +59,11 @@
 		"description": "Component of the Tulipa Hive market",
 		"entity": "tulipa-capital"
 	},
+  	"0x07346aE3245E04C96E33E8d8e02a638AaA08E719": {
+		"name": "Tulipa Hive NECT",
+		"description": "Tulipa Hive NECT",
+		"entity": "tulipa-capital"
+	},
 	"0x89FD57175EcEEC45992e07c206e5A864Fa6aF433": {
 		"name": "Re7 Labs Honey",
 		"description": "Re7 Labs Honey Vault",
@@ -79,9 +84,9 @@
 		"description": "Re7 Labs rUSD Vault",
 		"entity": "re7-labs"
 	},
-	"0x07346aE3245E04C96E33E8d8e02a638AaA08E719": {
-		"name": "Tulipa Hive NECT",
-		"description": "Tulipa Hive NECT",
-		"entity": "tulipa-capital"
+	"0x5ba8763891D6a4F934B197B9817757d887B78fec": {
+		"name": "Re7 Labs srUSD",
+		"description": "Re7 Labs srUSD Vault",
+		"entity": "re7-labs"
 	}
 }
