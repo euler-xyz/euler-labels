@@ -2,7 +2,7 @@
 	"euler-base": {
 		"name": "Euler Base",
 		"description": "A market tailored to borrowing stable assets against blue chip crypto assets. Governed by Euler DAO.",
-		"entity": "euler-dao",
+		"entity": ["euler-dao", "gauntlet"],
 		"url": "",
 		"vaults": [
 			"0x859160DB5841E5cfB8D3f144C6b3381A85A4b410",

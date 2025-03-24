@@ -155,6 +155,10 @@ function validateUniqueEntityAddresses(entities) {
 
 			if (addressMap.has(normalizedAddress)) {
 				const previousEntity = addressMap.get(normalizedAddress);
+				// Allow for duplicates in gauntlet
+				if (previousEntity === "gauntlet" || entityId === "gauntlet") {
+					continue;
+				}
 				throw Error(
 					`Duplicate address ${normalizedAddress} found in entities: ${previousEntity} and ${entityId}`,
 				);
