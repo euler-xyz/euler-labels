@@ -159,19 +159,13 @@
 		"entity": ["euler-dao"]
 	},
 	{
-		"name": "10 Treehouse Nuts per tETH",
-		"logo": "nuts.png",
-		"collateralVaults": ["0xA28C23a459fF8773EB4dBe0e7250d93F79F1Fe2B"],
-		"entity": ["euler-dao"]
-	},
-	{
 		"name": "30 Sats per eUSDe per day",
 		"logo": "ethena.png",
 		"collateralVaults": ["0x61aAC438453d6e3513C0c8dbb69F13860E2B5028"],
 		"entity": ["euler-dao"]
 	},
 	{
-		"name": "Ethereal points",
+		"name": "1.5x Ethereal points",
 		"logo": "ethereal.svg",
 		"collateralVaults": ["0x61aAC438453d6e3513C0c8dbb69F13860E2B5028"],
 		"entity": ["euler-dao"]
@@ -181,5 +175,23 @@
 		"logo": "solv.png",
 		"collateralVaults": ["0xd27159604ae512c056cf282933B838A4d38B1D17"],
 		"entity": ["euler-dao"]
+	},
+	{
+		"name": "3x Inception Totems",
+		"logo": "inception.svg",
+		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"],
+		"entity": ["mev-capital"]
+	},
+	{
+		"name": "1x Mellow Points",
+		"logo": "mellow.svg",
+		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"],
+		"entity": ["mev-capital"]
+	},
+	{
+		"name": "1x Symbiotic Points",
+		"logo": "symbiotic.png",
+		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"],
+		"entity": ["mev-capital"]
 	}
 ]
