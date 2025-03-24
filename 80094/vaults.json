@@ -78,5 +78,10 @@
 		"name": "Re7 Labs rUSD",
 		"description": "Re7 Labs rUSD Vault",
 		"entity": "re7-labs"
+	},
+	"0x07346aE3245E04C96E33E8d8e02a638AaA08E719": {
+		"name": "Tulipa Hive NECT",
+		"description": "Tulipa Hive NECT",
+		"entity": "tulipa-capital"
 	}
 }
