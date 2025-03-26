@@ -1,0 +1,62 @@
+{
+	"0x6c718a70239fA548c0bD268fE88F37EBE8b6E2ea": {
+		"name": "Re7 Labs WAVAX",
+		"description": "Component of the Re7 Labs Avalanche Cluster",
+		"entity": "re7-labs"
+	},
+	"0xABA9d2D4b6B93C3dc8976D8eb0690CCA56431FE4": {
+		"name": "Re7 Labs USDT",
+		"description": "Component of the Re7 Labs Avalanche Cluster",
+		"entity": "re7-labs"
+	},
+	"0x39dE0f00189306062D79eDEC6DcA5bb6bFd108f9": {
+		"name": "Re7 Labs USDC",
+		"description": "Component of the Re7 Labs Avalanche Cluster",
+		"entity": "re7-labs"
+	},
+	"0x4eC5B9a4d4FD9E35d4f881D35AAB9877bfdA5803": {
+		"name": "Re7 Labs BTC.b",
+		"description": "Component of the Re7 Labs Avalanche Cluster",
+		"entity": "re7-labs"
+	},
+	"0xB1Ec13C66fdb12205C6C82c392a5A3b393207388": {
+		"name": "Re7 Labs SolvBTC.BBN",
+		"description": "Component of the Re7 Labs Avalanche Cluster",
+		"entity": "re7-labs"
+	},
+	"0x7485484Dab196C615AE21453C3ABd732977562f2": {
+		"name": "Re7 Labs WETH.e",
+		"description": "Component of the Re7 Labs Avalanche Cluster",
+		"entity": "re7-labs"
+	},
+	"0x38a559c2b6eF3fF7Cdc40a800D6351a2B70b2243": {
+		"name": "Re7 Labs sAVAX",
+		"description": "Component of the Re7 Labs Avalanche Cluster",
+		"entity": "re7-labs"
+	},
+	"0xb52a9c3aea75939a78287F81b53A9e965e058eec": {
+		"name": "Re7 Labs ggAVAX",
+		"description": "Component of the Re7 Labs Avalanche Cluster",
+		"entity": "re7-labs"
+	},
+	"0x2137568666f12fc5A026f5430Ae7194F1C1362aB": {
+		"name": "Re7 Labs AUSD",
+		"description": "Component of the Re7 Labs Avalanche Cluster",
+		"entity": "re7-labs"
+	},
+	"0x27807C61F6b376754b7ce208AA8b17D2DA56d582": {
+		"name": "Re7 Labs avUSD",
+		"description": "Component of the Re7 Labs Avalanche Cluster",
+		"entity": "re7-labs"
+	},
+	"0x72F92a966f1874f74e1b601BEe7CF57031B53A03": {
+		"name": "Re7 Labs savUSD",
+		"description": "Component of the Re7 Labs Avalanche Cluster",
+		"entity": "re7-labs"
+	},
+	"0xA06e66646292b2C2042495B955fe07c4036f6635": {
+		"name": "Re7 Labs sBUIDL",
+		"description": "Component of the Re7 Labs Avalanche Cluster",
+		"entity": "re7-labs"
+	}
+}
