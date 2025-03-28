@@ -224,7 +224,8 @@
 		"entity": "tulipa-capital",
 		"vaults": [
 			"0x3b028b4b6c567eF5f8Ca1144Da4FbaA0D973F228",
-			"0x6707Fe1A8a2F9B8a10441778ac6F6Be2Ed991aE7"
+			"0x6707Fe1A8a2F9B8a10441778ac6F6Be2Ed991aE7",
+			"0xDe60b6090570C87d9ED0eF164C381469184758eB"
 		]
 	},
 	"usual-stability-loan": {
