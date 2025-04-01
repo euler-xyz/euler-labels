@@ -64,6 +64,16 @@
 		"description": "Component of the MEV Capital Berachain Cluster",
 		"entity": "mev-capital"
 	},
+	"0xBaBF4ce18FBab547Ad5939dEFf825f3E2f8d9402": {
+		"name": "MEV Capital PT-sUSDE",
+		"description": "Component of the MEV Capital Berachain Cluster",
+		"entity": "mev-capital"
+	},
+	"0x1dfB669DF5E70D4238F2Cc0a9EE3b1a21FF91bC0": {
+		"name": "MEV Capital iBERA",
+		"description": "Component of the MEV Capital Berachain Cluster",
+		"entity": "mev-capital"
+	},
 	"0x027DcAfB223f69d41Bd413C50854017718419585": {
 		"name": "Tulipa Hive HONEY",
 		"description": "Component of the Tulipa Hive market",
