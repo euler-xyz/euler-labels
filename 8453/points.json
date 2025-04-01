@@ -6,12 +6,6 @@
 		"entity": ["euler-dao"]
 	},
 	{
-		"name": "2x Lombard Lux",
-		"logo": "lombard.svg",
-		"collateralVaults": ["0x882018411Bc4A020A879CEE183441fC9fa5D7f8B"],
-		"entity": ["euler-dao"]
-	},
-	{
 		"name": "3x Lombard Lux",
 		"logo": "lombard.svg",
 		"collateralVaults": ["0x3f0d3Fd87A42BDaa3dfCC13ADA42eA922e638a7A"],

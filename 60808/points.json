@@ -1,11 +1,5 @@
 [
 	{
-		"name": "2x Lombard Lux",
-		"logo": "lombard.svg",
-		"collateralVaults": ["0xf168679179AA9b6E7772C8eCa4F8afB0B75ED346"],
-		"entity": ["k3-capital"]
-	},
-	{
 		"name": "3x Lombard Lux",
 		"logo": "lombard.svg",
 		"collateralVaults": ["0x80E0d452da8eb37c8db9C8E89103DC92aD477773"],
@@ -16,12 +10,6 @@
 		"logo": "babylon.png",
 		"collateralVaults": ["0x80E0d452da8eb37c8db9C8E89103DC92aD477773"],
 		"entity": ["k3-capital"]
-	},
-	{
-		"name": "2x Lombard Lux",
-		"logo": "lombard.svg",
-		"collateralVaults": ["0x1A681ED31eA68455A73D187929973e7095c31932"],
-		"entity": ["tulipa-capital"]
 	},
 	{
 		"name": "3x Lombard Lux",
