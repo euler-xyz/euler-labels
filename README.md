@@ -57,7 +57,7 @@ Each entry in this array corresponds to points available on deposits in a vault.
 
 Logos exist in the `logo/` directory, and should satisfy the following properties:
 
-* SVG format
+* SVG/PNG (preferred) or JPG format
 * Square-shaped
 
 
