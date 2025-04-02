@@ -1,5 +1,9 @@
 {
+	"name": "euler-labels",
+	"version": "1.0.0",
 	"scripts": {
+		"verify": "node verify.js",
+		"fix": "node fix.js && npm run biome:fix",
 		"biome:fix": "biome check --write",
 		"prepare": "husky install",
 		"biome": "biome check"
@@ -10,7 +14,8 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.0",
-		"husky": "^9.1.6"
+		"husky": "^9.1.6",
+		"viem": "^2.7.9"
 	},
 	"lint-staged": {
 		"*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}": [

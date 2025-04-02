@@ -60,7 +60,12 @@ Logos exist in the `logo/` directory, and should satisfy the following propertie
 * SVG format
 * Square-shaped
 
+## Scripts
 
+The repository includes several npm scripts to help maintain the data:
+
+* `npm run verify`: Validates all JSON files against their schemas and ensures all Ethereum addresses are properly checksummed.
+* `npm run fix`: Normalizes all Ethereum addresses to their proper checksummed format and fixes Biome formatting issues (like trailing commas) across all chain files.
 
 ## Verification
 
