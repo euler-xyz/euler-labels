@@ -14,8 +14,8 @@ for (let i = 0; i < fs.readdirSync("logo/").length; i++) {
 for (const file of Object.keys(logos)) {
 	const info = imageSize(`logo/${file}`);
 
-	if (info.type !== "svg" && info.type !== "png") {
-		throw Error(`logo file ${file} is not SVG/PNG`);
+	if (info.type !== "svg" && info.type !== "png" && info.type !== "jpg") {
+		throw Error(`logo file ${file} is not SVG/PNG/JPG`);
 	}
 
 	if (info.height !== info.width && file !== "swaap.png")

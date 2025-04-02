@@ -53,5 +53,17 @@
 			"0xac0476A04c567EBcd49Db0A5b8b294A119d7849D",
 			"0xCaa70d2aa873Ef057980844e18D9a9560bdfFcC0"
 		]
+	},
+	"zerolend-bera-party": {
+		"name": "ZeroLend LP Looping",
+		"description": "The first Berachain LP looping market in collaboration with ZeroLend, BeraBorrow, BurrBear and eOracle.",
+		"entity": "zerolend",
+		"vaults": [
+			"0x28C96C7028451454729750171BD3Bb95D7261B5a",
+			"0x112B77A77753b092306b1c04Bd70215FeD4e00a1",
+			"0x1B33D24C4C78a61DA80Cfa2d0dB72ca0851d5fb1",
+			"0x2247B618251b8d913F3fD10B749e7bfa3E3a28db",
+			"0x401c4633dCa173bf75ac85F2D270d98c063F54CF"
+		]
 	}
 }
