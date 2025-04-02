@@ -1,0 +1,16 @@
+{
+	"mev-capital-bob": {
+		"name": "MEV Capital BNB Cluster",
+		"description": "The MEV Capital BNB Cluster provides a set of liquid collateral markets with an optimized risk-adjusted return.",
+		"entity": "mev-capital",
+		"vaults": [
+			"0x107a441C473517a37b03dcd8024C5B63E3Cc13DF",
+			"0x168F8a67276f1Af048C60b784896Fda0c429B327",
+			"0x216f6D6C2ca15f83B656f3E9a8FcDf615DBC1710",
+			"0xe54DFfd36177975938A3873e522dEE535ADebe01",
+			"0x0dD93eb321A768A274d21062067B52527aBd4506",
+			"0xD98125a23fAeb48180e33cA6Eef8F128E07418d1",
+			"0x777C95b204E2Ed3906885eF09f4531882587B52C"
+		]
+	}
+}
