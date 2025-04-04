@@ -53,5 +53,16 @@
 			"0xac0476A04c567EBcd49Db0A5b8b294A119d7849D",
 			"0xCaa70d2aa873Ef057980844e18D9a9560bdfFcC0"
 		]
+	},
+	"mev-capital-red": {
+		"name": "MEV Capital Berachain Red Cluster",
+		"entity": "mev-capital",
+		"description": "The MEV Capital Berachain Red Cluster provides a set of native collateral markets with an optimized risk-adjusted return",
+		"vaults": [
+		    "0x028b1F7a949a7a862C3f93987296be30d71f7F97",
+   			"0x7C7717F9bbd6126A013215796da04201d6A78d6b",
+   			"0x746d425Dd3Cf924fC7a0f37EBED10E35fF589342"
+		]
 	}
+
 }
