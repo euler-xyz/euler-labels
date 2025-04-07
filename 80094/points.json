@@ -1,1 +1,14 @@
-[]
+[
+	{
+		"name": "5 Sats per sUSDe per day",
+		"logo": "ethena.png",
+		"collateralVaults": ["0x3de0CA4AF11108c94c9066a935ee67e53b7f9447"],
+		"entity": ["mev-capital"]
+	},
+	{
+		"name": "20 Sats per USDe per day",
+		"logo": "ethena.png",
+		"collateralVaults": ["0x558B16E07b8558b2a54946cA973b7b20B86A8b87"],
+		"entity": ["mev-capital"]
+	}
+]
