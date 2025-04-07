@@ -41,7 +41,7 @@
 		"description": "ZeroLend is a decentralized lending market curating vaults for LRTs, Real World Assets (RWAs), BTCFi, and promising tokens.",
 		"url": "https://zerolend.xyz/",
 		"addresses": {
-			"0x54061E18cd88D2de9af3D3D7FDF05472253B29E0": "ZeroLend Multisig"
+			"0x1f906603A027E686b43Fab7f395C11228EbE8ff4": "ZeroLend Multisig"
 		},
 		"social": {
 			"twitter": "zerolendxyz"
