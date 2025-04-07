@@ -193,5 +193,11 @@
 		"logo": "symbiotic.png",
 		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"],
 		"entity": ["mev-capital"]
+	},
+	{
+		"name": "10 Treehouse Nuts per ETH worth of tETH",
+		"logo": "nuts.png",
+		"collateralVaults": ["0xA28C23a459fF8773EB4dBe0e7250d93F79F1Fe2B"],
+		"entity": ["euler-dao"]
 	}
 ]
