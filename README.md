@@ -57,10 +57,15 @@ Each entry in this array corresponds to points available on deposits in a vault.
 
 Logos exist in the `logo/` directory, and should satisfy the following properties:
 
-* SVG format
+* SVG/PNG (preferred) or JPG format
 * Square-shaped
 
+## Scripts
 
+The repository includes several npm scripts to help maintain the data:
+
+* `npm run verify`: Validates all JSON files against their schemas and ensures all Ethereum addresses are properly checksummed.
+* `npm run fix`: Normalizes all Ethereum addresses to their proper checksummed format and fixes Biome formatting issues (like trailing commas) across all chain files.
 
 ## Verification
 

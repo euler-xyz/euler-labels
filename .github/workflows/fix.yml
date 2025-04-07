@@ -1,0 +1,47 @@
+name: Fix Ethereum Addresses and Formatting
+
+on:
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Fix addresses and formatting
+        run: npm run fix
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: 'fix: normalize ethereum addresses and fix biome formatting'
+          title: 'fix: normalize ethereum addresses and fix biome formatting'
+          body: |
+            This PR normalizes Ethereum addresses and fixes Biome formatting issues across all chain files.
+            
+            Changes made:
+            - Normalized checksum addresses in entities.json
+            - Normalized checksum addresses in vaults.json
+            - Normalized checksum addresses in products.json
+            - Normalized checksum addresses in points.json
+            - Fixed Biome formatting issues (trailing commas, spacing)
+            
+            This is an automated PR created by the fix workflow.
+          branch: fix/addresses-and-formatting
+          delete-branch: true
+          labels: |
+            automated

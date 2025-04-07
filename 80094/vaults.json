@@ -153,5 +153,30 @@
 		"name": "Re7 Labs srUSD",
 		"description": "Re7 Labs srUSD Vault",
 		"entity": "re7-labs"
+	},
+	"0x28C96C7028451454729750171BD3Bb95D7261B5a": {
+		"name": "ZeroLend NECT/USDC/HONEY BurrBear LP",
+		"description": "BurrBear LP tokens for the NECT/USDC/HONEY pool",
+		"entity": "zerolend"
+	},
+	"0x112B77A77753b092306b1c04Bd70215FeD4e00a1": {
+		"name": "ZeroLend NECT",
+		"description": "NECT vault for the BeraBorrow ecosystem",
+		"entity": "zerolend"
+	},
+	"0x1B33D24C4C78a61DA80Cfa2d0dB72ca0851d5fb1": {
+		"name": "ZeroLend USDC",
+		"description": "USDC vault for the ZeroLend cluster",
+		"entity": "zerolend"
+	},
+	"0x2247B618251b8d913F3fD10B749e7bfa3E3a28db": {
+		"name": "ZeroLend HONEY",
+		"description": "USDC vault for the ZeroLend cluster",
+		"entity": "zerolend"
+	},
+	"0x401c4633dCa173bf75ac85F2D270d98c063F54CF": {
+		"name": "ZeroLend sNECT",
+		"description": "sNECT vault for the ZeroLend cluster",
+		"entity": "zerolend"
 	}
 }
