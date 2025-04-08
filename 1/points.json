@@ -199,5 +199,17 @@
 		"logo": "nuts.png",
 		"collateralVaults": ["0xA28C23a459fF8773EB4dBe0e7250d93F79F1Fe2B"],
 		"entity": ["euler-dao"]
+	},
+	{
+		"name": "5x OpenEden Bills",
+		"logo": "openeden.png",
+		"collateralVaults": ["0x75f66ed34c274eaD52CFA25De9388E98e12Edb33"],
+		"entity": ["ouroboros-capital"]
+	},
+	{
+		"name": "2x OpenEden Bills",
+		"logo": "openeden.png",
+		"collateralVaults": ["0x738bC1e2F68F5ec58ea456fb4269B4b3f51714b5"],
+		"entity": ["ouroboros-capital"]
 	}
 ]
