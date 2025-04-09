@@ -12,5 +12,17 @@
 			"0xD98125a23fAeb48180e33cA6Eef8F128E07418d1",
 			"0x777C95b204E2Ed3906885eF09f4531882587B52C"
 		]
-	}
+	},
+	"apostro-bsc": {
+		"name": "Apostro BSC",
+		"description": "Money market on Binance Smart Chain (BSC), governed by Apostro, enabling seamless access to blue-chip assets with advanced trading strategies like leverage and carry trades.",
+		"entity": "apostro",
+		"vaults": [
+			"0xC6767dd1fFaA730f6fc90b353d5928E6e9d55C1b",
+			"0xa6282FfCDBC1d23dDAd65e97B9d033C4517Ec05E",
+			"0x6078b5dE9d10587cb466ECbBF55C95898AFe99C2",
+			"0xc27d44A8aEA0CDa482600136c0d0876e807f6C1a",
+			"0xC0C13008711cE250699E3A94dCEED5EFd4e8e02a"
+		]
+	},
 }
