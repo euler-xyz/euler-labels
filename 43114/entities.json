@@ -29,7 +29,7 @@
 		"description": "K3 Capital provide leading institutional asset and risk management in decentralized finance.",
 		"url": "https://k3.capital/",
 		"addresses": {
-			"0xe34A3fb26B3121F4E68bE89Ea553BaC2149F975d": "K3 Fireblocks wallet"
+			"0xdD84A24eeddE63F10Ec3e928f1c8302A47538b6B": "K3 Capital Fireblocks Multisig"
 		},
 		"social": {
 			"twitter": "k3_capital"
