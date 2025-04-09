@@ -65,6 +65,25 @@
 			"0x1f193dB3d813aF14927577817ae4FC3a42f25694"
 		]
 	},
+	"euler-repo": {
+		"name": "Euler Repo",
+		"description": "A market tailored to ... Governed by Euler DAO.",
+		"entity": ["euler-dao", "gauntlet"],
+		"url": "https://forum.euler.finance/t/creation-of-euler-t-bill-market-on-ethereum/1348",
+		"vaults": [
+			"0x959Ae4dD74fD525b33Ff0ff776B4b352abd48322",
+			"0xDF78489C3cFC738194afE34fb3F379c0A3E0c5Db",
+			"0xc943c1CDD7b3Fbb6A77f571698406b418C902f0c",
+			"0x17d4Fb15a85eC7042c23490A9D69F3D1e69Dd2A1",
+			"0xb85782faD5c5C5f88DbD1A69e2dCf8BF0c303bFb",
+			"0x140AAE127acAcb5A54E4249c0ba879c39E33541c",
+			"0x47ea329b1331f35515948120d0Ce32AA580e2bAD",
+			"0x863c32f64F0d6e23fb0d0e76b884c7a08638157A",
+			"0x59FbeBFA008b718234438548C9eF8D32706b5cE5",
+			"0x8B69725A01Ea305b3240680d16bB8561373A96F3",
+			"0x1F39EDcEf393b0A8883772CDA202EEdeEc99d9c4"
+		]
+	},
 	"stablecoin-maxi": {
 		"name": "Stablecoin Maxi",
 		"entity": "re7-labs",
