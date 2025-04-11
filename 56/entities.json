@@ -10,5 +10,18 @@
 		"social": {
 			"twitter": "mevcapital"
 		}
+	},
+	"apostro": {
+		"name": "Apostro",
+		"logo": "apostro.png",
+		"description": "Building a better way to self-regulate markets to avoid oracle attacks.",
+		"url": "https://www.apostro.xyz/",
+		"addresses": {
+			"0x434D82854920664a02084d415936Dd7368C413f7": "Apostro Timelock",
+			"0xf726311F85D45a7fECfFbC94bD8508a0A39958c6": "Apostro Multisig"
+		},
+		"social": {
+			"twitter": "apostroxyz"
+		}
 	}
 }
