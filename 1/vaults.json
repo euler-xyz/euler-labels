@@ -778,5 +778,40 @@
 		"name": "Tulipa Resolv PT-USR-29MAY2025",
 		"description": "Tulipa Resolv PT-USR-29MAY2025",
 		"entity": ["tulipa-capital"]
+	},
+	"0x056575e43A440D49B14E94022Be9FAD85679D138": {
+		"name": "Tulipa TAC tacBTC",
+		"description": "Tulipa TAC tacBTC",
+		"entity": ["tulipa-capital"]
+	},
+	"0xf6066FAFd24880879448867CFD683337146F4335": {
+		"name": "Tulipa TAC cbBTC",
+		"description": "Tulipa TAC cbBTC",
+		"entity": ["tulipa-capital"]
+	},
+	"0x41d2d958fE1eBd8b19078E8B52A32C427C91BBca": {
+		"name": "Tulipa TAC tacETH",
+		"description": "Tulipa TAC tacETH",
+		"entity": ["tulipa-capital"]
+	},
+	"0x7C6eeE35BE1f1f25CEf65E01D1a63c994c7b6978": {
+		"name": "Tulipa TAC WETH",
+		"description": "Tulipa TAC WETH",
+		"entity": ["tulipa-capital"]
+	},
+	"0x303AD748D7981e10F362eF5721890BCB449b3ec6": {
+		"name": "Tulipa TAC tacUSDC",
+		"description": "Tulipa TAC tacUSDC",
+		"entity": ["tulipa-capital"]
+	},
+	"0xCC029aE7dFF547fA893F831BB4A0E99B6BCb6aE0": {
+		"name": "Tulipa TAC USDC",
+		"description": "Tulipa TAC USDC",
+		"entity": ["tulipa-capital"]
+	},
+	"0x9D1c3A8A70c1f586256117399304e6a48f657838": {
+		"name": "Tulipa TAC USDT",
+		"description": "Tulipa TAC USDT",
+		"entity": ["tulipa-capital"]
 	}
 }

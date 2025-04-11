@@ -269,5 +269,19 @@
 			"0x738bC1e2F68F5ec58ea456fb4269B4b3f51714b5",
 			"0x75f66ed34c274eaD52CFA25De9388E98e12Edb33"
 		]
+	},
+	"tulipa-tac": {
+		"name": "Tulipa TAC",
+		"description": "A market tailored to lending and borrowing against the TAC Summoning Assets. Governed by Tulipa Capital.",
+		"entity": "tulipa-capital",
+		"vaults": [
+			"0x056575e43A440D49B14E94022Be9FAD85679D138",
+			"0xf6066FAFd24880879448867CFD683337146F4335",
+			"0x41d2d958fE1eBd8b19078E8B52A32C427C91BBca",
+			"0x7C6eeE35BE1f1f25CEf65E01D1a63c994c7b6978",
+			"0x303AD748D7981e10F362eF5721890BCB449b3ec6",
+			"0xCC029aE7dFF547fA893F831BB4A0E99B6BCb6aE0",
+			"0x9D1c3A8A70c1f586256117399304e6a48f657838"
+		]
 	}
 }
