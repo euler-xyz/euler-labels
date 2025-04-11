@@ -778,5 +778,20 @@
 		"name": "Tulipa Resolv PT-USR-29MAY2025",
 		"description": "Tulipa Resolv PT-USR-29MAY2025",
 		"entity": ["tulipa-capital"]
+	},
+	"0x53208e965EB66841598fB8f983a41936EeE6d774": {
+		"name": "Noon USDC",
+		"description": "Noon USDC",
+		"entity": ["tulipa-capital"]
+	},
+	"0xc7d526eFefa2e3073531f9e054F5c8cD1d0eC636": {
+		"name": "Noon USDT",
+		"description": "Noon USDT",
+		"entity": ["tulipa-capital"]
+	},
+	"0xc1fF5490651B9B8d0400B0146E7fb174B90E315B": {
+		"name": "Noon USN",
+		"description": "Noon USN",
+		"entity": ["tulipa-capital"]
 	}
 }
