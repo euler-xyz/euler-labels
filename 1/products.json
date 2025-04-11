@@ -269,5 +269,15 @@
 			"0x738bC1e2F68F5ec58ea456fb4269B4b3f51714b5",
 			"0x75f66ed34c274eaD52CFA25De9388E98e12Edb33"
 		]
+	},
+	"tulipa-noon": {
+		"name": "Noon",
+		"description": "A market tailored to lending and borrowing against the Noon ecosystem. Governed by Tulipa Capital.",
+		"entity": "tulipa-capital",
+		"vaults": [
+			"0x53208e965EB66841598fB8f983a41936EeE6d774",
+			"0xc7d526eFefa2e3073531f9e054F5c8cD1d0eC636",
+			"0xc1fF5490651B9B8d0400B0146E7fb174B90E315B"
+		]
 	}
 }
