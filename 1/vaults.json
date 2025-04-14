@@ -778,5 +778,20 @@
 		"name": "Tulipa Resolv PT-USR-29MAY2025",
 		"description": "Tulipa Resolv PT-USR-29MAY2025",
 		"entity": ["tulipa-capital"]
+	},
+	"0x940FCa4Be8e0d43Be75Acc8136342f936f2179E8": {
+		"name": "Stablecoin Maxi mRe7YIELD vault",
+		"description": "The Stablecoin Maxi mRe7YIELD vault",
+		"entity": "re7-labs"
+	},
+	"0x6173b0709dEA144CC3662894870B57C53564cfA2": {
+		"name": "Stablecoin Maxi PT-sUSDE-29MAY2025 vault",
+		"description": "The Stablecoin Maxi PT-sUSDE-29MAY2025 vault",
+		"entity": "re7-labs"
+	},
+	"0xa8CC68e15D50c1c586b5B0D6e1D4D0Ef620fdd10": {
+		"name": "Stablecoin Maxi PT-eUSDE-29MAY2025 vault",
+		"description": "The Stablecoin Maxi PT-eUSDE-29MAY2025 vault",
+		"entity": "re7-labs"
 	}
 }
