@@ -2,10 +2,7 @@
 	"euler-prime": {
 		"name": "Euler Prime",
 		"description": "A market tailored to borrowing stable assets against blue chip crypto assets. Governed by Euler DAO.",
-		"entity": [
-			"euler-dao",
-			"gauntlet"
-		],
+		"entity": ["euler-dao", "gauntlet"],
 		"url": "https://forum.euler.finance/t/expanding-euler-prime/1137",
 		"vaults": [
 			"0xD8b27CF359b7D15710a5BE299AF6e7Bf904984C2",
@@ -36,10 +33,7 @@
 	"euler-yield": {
 		"name": "Euler Yield",
 		"description": "A market tailored to borrowing stablecoins against tokenised yield strategies. Governed by Euler DAO.",
-		"entity": [
-			"euler-dao",
-			"gauntlet"
-		],
+		"entity": ["euler-dao", "gauntlet"],
 		"url": "https://forum.euler.finance/t/creation-of-euler-yield-market/1163",
 		"vaults": [
 			"0xe0a80d35bB6618CBA260120b279d357978c42BCE",
@@ -74,10 +68,7 @@
 	"euler-repo": {
 		"name": "Euler Repo",
 		"description": "A market tailored to low-risk borrowing against tokenized US treasuries. Governed by Euler DAO.",
-		"entity": [
-			"euler-dao",
-			"gauntlet"
-		],
+		"entity": ["euler-dao", "gauntlet"],
 		"url": "https://forum.euler.finance/t/creation-of-euler-t-bill-market-on-ethereum/1348",
 		"vaults": [
 			"0x959Ae4dD74fD525b33Ff0ff776B4b352abd48322",
@@ -213,9 +204,7 @@
 	},
 	"swaap-labs": {
 		"name": "Swaap Lend",
-		"entity": [
-			"swaap-labs"
-		],
+		"entity": ["swaap-labs"],
 		"vaults": [
 			"0x716bF454066a84F39A2F78b5707e79a9d64f1225",
 			"0xf2f826c190D020A6D1EC422bF2269E63b8b315E0",

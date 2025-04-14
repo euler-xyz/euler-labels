@@ -58,5 +58,40 @@
 		"name": "Apostro BSC BTCB",
 		"description": "Part of Apostro BSC market",
 		"entity": "apostro"
+	},
+	"0x5fd02479F938929F6b9fE1b7Af6430cfD4afa6Aa": {
+		"name": "Tulipa BNB USDT",
+		"description": "Component of the Tulipa BNB market",
+		"entity": "tulipa-capital"
+	},
+	"0xA9cA5c4bfF689afcFB249AE81565422fa78F82b4": {
+		"name": "Tulipa BNB USDC",
+		"description": "Component of the Tulipa BNB market",
+		"entity": "tulipa-capital"
+	},
+	"0xEcD1F58B9DC4bbC3A32409961B8520B0A8fcd483": {
+		"name": "Tulipa BNB USDE",
+		"description": "Component of the Tulipa BNB market",
+		"entity": "tulipa-capital"
+	},
+	"0x932FE4797d681a7a82262BC385B534ba069249E1": {
+		"name": "Tulipa BNB SUSDE",
+		"description": "Component of the Tulipa BNB market",
+		"entity": "tulipa-capital"
+	},
+	"0xa6439FD63C19Cc4893EAcaD20320D11cfd0Ad12C": {
+		"name": "Tulipa BNB WBNB",
+		"description": "Component of the Tulipa BNB market",
+		"entity": "tulipa-capital"
+	},
+	"0xfd30377A3173f709d8224Fee7718E312A0868A34": {
+		"name": "Tulipa BNB BTCB",
+		"description": "Component of the Tulipa BNB market",
+		"entity": "tulipa-capital"
+	},
+	"0xc33c2A5f3c27bcB5559f17ff97A04F281f898f04": {
+		"name": "Tulipa BNB ETH",
+		"description": "Component of the Tulipa BNB market",
+		"entity": "tulipa-capital"
 	}
 }
