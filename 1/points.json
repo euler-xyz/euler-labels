@@ -211,5 +211,23 @@
 		"logo": "openeden.png",
 		"collateralVaults": ["0x738bC1e2F68F5ec58ea456fb4269B4b3f51714b5"],
 		"entity": ["ouroboros-capital"]
+	},
+	{
+		"name": "140x for USN",
+		"logo": "noon-points.svg",
+		"collateralVaults": ["0xc1fF5490651B9B8d0400B0146E7fb174B90E315B"],
+		"entity": ["tulipa-capital"]
+	},
+	{
+		"name": "20x for USDT",
+		"logo": "noon-points.svg",
+		"collateralVaults": ["0xc7d526eFefa2e3073531f9e054F5c8cD1d0eC636"],
+		"entity": ["tulipa-capital"]
+	},
+	{
+		"name": "20x for USDC",
+		"logo": "noon-points.svg",
+		"collateralVaults": ["0x53208e965EB66841598fB8f983a41936EeE6d774"],
+		"entity": ["tulipa-capital"]
 	}
 ]
