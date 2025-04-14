@@ -24,5 +24,19 @@
 			"0xc27d44A8aEA0CDa482600136c0d0876e807f6C1a",
 			"0xC0C13008711cE250699E3A94dCEED5EFd4e8e02a"
 		]
+	},
+	"tulipa-bnb": {
+		"name": "Tulipa",
+		"description": "A market tailored to lending and borrowing assets on the BNB chain. Governed by Tulipa.",
+		"entity": "tulipa-capital",
+		"vaults": [
+			"0x5fd02479F938929F6b9fE1b7Af6430cfD4afa6Aa",
+			"0xA9cA5c4bfF689afcFB249AE81565422fa78F82b4",
+			"0xEcD1F58B9DC4bbC3A32409961B8520B0A8fcd483",
+			"0x932FE4797d681a7a82262BC385B534ba069249E1",
+			"0xa6439FD63C19Cc4893EAcaD20320D11cfd0Ad12C",
+			"0xfd30377A3173f709d8224Fee7718E312A0868A34",
+			"0xc33c2A5f3c27bcB5559f17ff97A04F281f898f04"
+		]
 	}
 }
