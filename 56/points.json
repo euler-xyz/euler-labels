@@ -1,1 +1,44 @@
-[]
+[
+	{
+		"name": "5 Sats per sUSDe per day",
+		"logo": "ethena.png",
+		"collateralVaults": ["0x1E55a40c9C7ca76a8671D8366bEC8c5f8754a336"],
+		"entity": ["k3-capital"]
+	},
+	{
+		"name": "20 Sats per USDe per day",
+		"logo": "ethena.png",
+		"collateralVaults": ["0x07167e620612069830fdB5289406bB7A1Ddf781c"],
+		"entity": ["k3-capital"]
+	},
+	{
+		"name": "30x Resolv Points",
+		"logo": "resolv.svg",
+		"collateralVaults": ["0x88A81184243c561026973d25384651E6cc0796A4"],
+		"entity": ["k3-capital"]
+	},
+	{
+		"name": "5x Resolv Points",
+		"logo": "resolv.svg",
+		"collateralVaults": ["0xca522ECab584b5430ADb946edEE4224A63628362"],
+		"entity": ["k3-capital"]
+	},
+	{
+		"name": "45 points per YUSD per day",
+		"logo": "aegis.png",
+		"collateralVaults": ["0x10888BD509aC3e1f423D171008288462988827d5"],
+		"entity": ["k3-capital"]
+	},
+	{
+		"name": "5 Sats per sUSDe per day",
+		"logo": "ethena.png",
+		"collateralVaults": ["0x932FE4797d681a7a82262BC385B534ba069249E1"],
+		"entity": ["tulipa-capital"]
+	},
+	{
+		"name": "20 Sats per USDe per day",
+		"logo": "ethena.png",
+		"collateralVaults": ["0xEcD1F58B9DC4bbC3A32409961B8520B0A8fcd483"],
+		"entity": ["tulipa-capital"]
+	}
+]
