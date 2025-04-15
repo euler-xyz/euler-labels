@@ -93,5 +93,35 @@
 		"name": "Tulipa BNB ETH",
 		"description": "Component of the Tulipa BNB market",
 		"entity": "tulipa-capital"
+	},
+	"0xca522ECab584b5430ADb946edEE4224A63628362": {
+		"name": "K3 Capital USDT",
+		"description": "Component of the K3 Capital Cluster",
+		"entity": "k3-capital"
+	},
+	"0x8CE379f1e092f0afCef665529F0d86acf92E8Cd4": {
+		"name": "K3 Capital USDC",
+		"description": "Component of the K3 Capital Cluster",
+		"entity": "k3-capital"
+	},
+	"0x1E55a40c9C7ca76a8671D8366bEC8c5f8754a336": {
+		"name": "K3 Capital sUSDe",
+		"description": "Component of the K3 Capital Cluster",
+		"entity": "k3-capital"
+	},
+	"0x07167e620612069830fdB5289406bB7A1Ddf781c": {
+		"name": "K3 Capital USDe",
+		"description": "Component of the K3 Capital Cluster",
+		"entity": "k3-capital"
+	},
+	"0x88A81184243c561026973d25384651E6cc0796A4": {
+		"name": "K3 Capital USR",
+		"description": "Component of the K3 Capital Cluster",
+		"entity": "k3-capital"
+	},
+	"0x10888BD509aC3e1f423D171008288462988827d5": {
+		"name": "K3 Capital YUSD",
+		"description": "Component of the K3 Capital Cluster",
+		"entity": "k3-capital"
 	}
 }
