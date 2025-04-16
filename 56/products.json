@@ -40,7 +40,7 @@
 		]
 	},
 	"k3-bsc": {
-		"name": "K3 Capital Cluster",
+		"name": "K3 Capital Stablecoin Cluster",
 		"entity": "k3-capital",
 		"vaults": [
 			"0xca522ECab584b5430ADb946edEE4224A63628362",
