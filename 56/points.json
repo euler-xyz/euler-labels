@@ -40,5 +40,11 @@
 		"logo": "ethena.png",
 		"collateralVaults": ["0xEcD1F58B9DC4bbC3A32409961B8520B0A8fcd483"],
 		"entity": ["tulipa-capital"]
+	},
+	{
+		"name": "45 points per yUSD per day",
+		"logo": "aegis.png",
+		"collateralVaults": ["0xc4dB46B082B415c16C54c91c5750Df8e2f90EF36"],
+		"entity": ["re7-labs"]
 	}
 ]
