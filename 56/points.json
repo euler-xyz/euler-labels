@@ -18,7 +18,7 @@
 		"entity": ["k3-capital"]
 	},
 	{
-		"name": "5x Resolv Points",
+		"name": "Up to 5x Resolv Points",
 		"logo": "resolv.svg",
 		"collateralVaults": ["0xca522ECab584b5430ADb946edEE4224A63628362"],
 		"entity": ["k3-capital"]
