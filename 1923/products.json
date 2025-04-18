@@ -14,5 +14,16 @@
 			"0x1773002742A2bCc7666e38454F761CE8fe613DE5",
 			"0x29c85c752e854b0Cf2372e6B6c56f260755f5120"
 		]
-	}
+	},
+
+	"relend-network": {
+		"name": "Relend Network Swell",
+		"description": "A market to borrow stablecoin on Swell. Governed by Relend Network.",
+		"entity": "relend-network",
+		"url": "",
+		"vaults": [
+			"0xc5976e0356f0A3Ce8307fF08C88bB05933F88761"
+		]
+	},	
+	
 }
