@@ -38,5 +38,10 @@
 		"name": "Euler Swell pzETH",
 		"description": "A pzETH vault collateralized by other vaults in the Euler Swell ETH cluster.",
 		"entity": "euler-dao"
+	},
+	"0xc5976e0356f0A3Ce8307fF08C88bB05933F88761" : {
+		"name": "Relend Network rUSDC",
+		"description": A rUSDC vault collateralized by other vaults in the Euler Swell ETH cluster.",
+		"entity": "relend-network"
 	}
 }
