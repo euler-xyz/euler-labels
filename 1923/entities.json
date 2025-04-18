@@ -16,10 +16,10 @@
 			"github": "euler-xyz"
 		}
 	},
-	
+
 	"relend-network": {
 		"name": "Relend Network",
-		"logo": "relendnetwork.svg",
+		"logo": "relend.png",
 		"description": "Relend Network relends money market liquidity to L1s and L2s.",
 		"url": "https://relend.network/",
 		"addresses": {
@@ -32,5 +32,4 @@
 			"github": "relend-network"
 		}
 	}
-	
 }
