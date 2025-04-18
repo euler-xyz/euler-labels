@@ -46,5 +46,30 @@
 		"logo": "aegis.png",
 		"collateralVaults": ["0xc4dB46B082B415c16C54c91c5750Df8e2f90EF36"],
 		"entity": ["re7-labs"]
+	},
+	{
+		"name": "5 Sats per sUSDe per day",
+		"logo": "ethena.png",
+		"collateralVaults": ["0x9AE0Da6ACc874119470b52f4f5647B74D042b18B"],
+		"entity": ["apostro"]
+	},
+	{
+		"name": "20 Sats per USDe per day",
+		"logo": "ethena.png",
+		"collateralVaults": ["0xeEC4561f621C3629F2b36a07B207A7E06377e0D5"],
+		"entity": ["apostro"]
+	},
+	{
+		"name": "30x Resolv Points",
+		"logo": "resolv.svg",
+		"collateralVaults": ["0x3135551ce7945c03C18df7985E089DDBC763cEE8"],
+		"entity": ["apostro"]
+	},
+	{
+		"name": "Up to 5x Resolv Points",
+		"logo": "resolv.svg",
+		"collateralVaults": ["0x6078b5dE9d10587cb466ECbBF55C95898AFe99C2",
+				     "0xc27d44A8aEA0CDa482600136c0d0876e807f6C1a"],
+		"entity": ["apostro"]
 	}
 ]
