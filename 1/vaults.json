@@ -234,6 +234,11 @@
 		"descriptsion": "A PT-eUSDe-29MAY2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
 		"entity": "euler-dao"
 	},
+	"0xA2f92e2db62c13409E3B8Aa9f5660Fa2C7E909FA": {
+		"name": "Euler Yield PT-cUSDO-19JUN2025",
+		"descriptsion": "A PT-cUSDO-19JUN2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
+		"entity": "euler-dao"
+	},
 	"0xEF1d264dDcF1ebc0485d31daEbE5C5698942F55F": {
 		"name": "Euler Yield mEDGE",
 		"descriptsion": "A mEDGE escrowed collateral vault used by other vaults in the Euler Yield cluster.",
