@@ -20,7 +20,7 @@
 	"relend-network": {
 		"name": "Relend Network",
 		"logo": "relendnetwork.svg",
-		"description": "The Euler DAO is the organisation responsible for the creation of the Euler lending/borrowing platform.",
+		"description": "Relend Network relends money market liquidity to L1s and L2s.",
 		"url": "https://relend.network/",
 		"addresses": {
 			"0xbC15B3DB21311707b5e315e22A6F139f6205d2Ed": "Relend Network Multisig on Swell",
