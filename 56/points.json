@@ -68,8 +68,10 @@
 	{
 		"name": "Up to 5x Resolv Points",
 		"logo": "resolv.svg",
-		"collateralVaults": ["0x6078b5dE9d10587cb466ECbBF55C95898AFe99C2",
-				     "0xc27d44A8aEA0CDa482600136c0d0876e807f6C1a"],
+		"collateralVaults": [
+			"0x6078b5dE9d10587cb466ECbBF55C95898AFe99C2",
+			"0xc27d44A8aEA0CDa482600136c0d0876e807f6C1a"
+		],
 		"entity": ["apostro"]
 	}
 ]
