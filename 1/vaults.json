@@ -49,6 +49,11 @@
 		"description": "A conservative wM vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
 		"entity": "euler-dao"
 	},
+	"0x328646cdfBaD730432620d845B8F5A2f7D786C01": {
+		"name": "Euler Prime USDtb",
+		"description": "A conservative USDtb vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
+		"entity": "euler-dao"
+	},
 	"0x9e714434A1c94B842b75631a70E07d13f2575368": {
 		"name": "Euler Prime tBTC",
 		"description": "A conservative tBTC vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
@@ -192,6 +197,11 @@
 	"0x498c014dE23f19700F51e85a384AB1B059F0672e": {
 		"name": "Euler Yield sUSDe",
 		"descriptsion": "A sUSDe vault collateralized by other vaults in the Euler Yield and Euler Prime cluster.",
+		"entity": "euler-dao"
+	},
+	"0x8d1A625517eD9120a8bA66d22db66ddf7fBC6c52": {
+		"name": "Euler Yield USDtb",
+		"descriptsion": "A USDtb vault collateralized by other vaults in the Euler Yield and Euler Prime cluster.",
 		"entity": "euler-dao"
 	},
 	"0x8E35E3aa6eFBC8D11Eb4F3b743f180257C80e517": {
