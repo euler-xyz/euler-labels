@@ -93,5 +93,20 @@
 		"name": "MEV Capital PT-stS",
 		"description": "Component of the MEV Capital Sonic Cluster",
 		"entity": "mev-capital"
+	},
+	"0x90a804D316A06E00755444D56b9eF52e5C4F4D73": {
+		"name": "MEV Capital wS",
+		"description": "Component of the MEV Capital Beets Cluster",
+		"entity": "mev-capital"
+	},
+	"0x6832F3090867449c058e1e3088E552E12AB18F9E": {
+		"name": "MEV Capital stS",
+		"description": "Component of the MEV Capital Beets Cluster",
+		"entity": "mev-capital"
+	},
+	"0xb936137169D777fcB8B7Cf02329620B78FCcEC0A": {
+		"name": "MEV Capital PT-stS",
+		"description": "Component of the MEV Capital Beets Cluster",
+		"entity": "mev-capital"
 	}
 }

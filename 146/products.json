@@ -30,5 +30,14 @@
 			"0xD506F1E4AdFCf1196B7C5D2EbF4e858E33d7A93E",
 			"0xdBc46ff39Cae7f37c39363B0CA474497dAD1d3cf"
 		]
-	}
+	},
+	"mev-capital-beets": {
+		"name": "MEV Capital Beets Cluster",
+		"entity": "mev-capital",
+		"description": "The MEV Capital Beets Cluster provides a set of liquid collateral markets with an optimized stS looping",
+		"vaults": [
+			"0x90a804D316A06E00755444D56b9eF52e5C4F4D73",
+			"0x6832F3090867449c058e1e3088E552E12AB18F9E",
+			"0xb936137169D777fcB8B7Cf02329620B78FCcEC0A"
+		]}
 }
