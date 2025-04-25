@@ -29,12 +29,12 @@
 		"description": "Component of the Re7 Labs Sonic Cluster",
 		"entity": "re7-labs"
 	},
-	"0x2ad7546a19eb5d5edb37ec88a4775995078d1cad": {
+	"0x2ad7546A19eb5D5eDb37EC88A4775995078d1CAd": {
 		"name": "Re7 Labs WETH",
 		"description": "Component of the Re7 Labs Sonic Cluster",
 		"entity": "re7-labs"
 	},
-	"0x8537a336fc74ea742527e8300175a7b07a108c9e": {
+	"0x8537a336fC74EA742527E8300175A7b07a108c9E": {
 		"name": "Re7 Labs PT-wstkscUSD-29MAY2025",
 		"description": "Component of the Re7 Labs Sonic Cluster",
 		"entity": "re7-labs"
