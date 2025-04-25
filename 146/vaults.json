@@ -29,6 +29,16 @@
 		"description": "Component of the Re7 Labs Sonic Cluster",
 		"entity": "re7-labs"
 	},
+	"0x2ad7546A19eb5D5eDb37EC88A4775995078d1CAd": {
+		"name": "Re7 Labs WETH",
+		"description": "Component of the Re7 Labs Sonic Cluster",
+		"entity": "re7-labs"
+	},
+	"0x8537a336fC74EA742527E8300175A7b07a108c9E": {
+		"name": "Re7 Labs PT-wstkscUSD-29MAY2025",
+		"description": "Component of the Re7 Labs Sonic Cluster",
+		"entity": "re7-labs"
+	},
 	"0xa5cd24d9792F4F131f5976Af935A505D19c8Db2b": {
 		"name": "MEV Capital WETH",
 		"description": "Component of the MEV Capital Sonic Cluster",
