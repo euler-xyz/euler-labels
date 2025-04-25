@@ -34,6 +34,16 @@
 		"description": "Component of the MEV Capital BNB Cluster",
 		"entity": "mev-capital"
 	},
+	"0xd6F4Ee21c946071Cf13D773E2ab1e31d44a27a54": {
+		"name": "MEV Capital USDe",
+		"description": "Component of the MEV Capital BNB Cluster",
+		"entity": "mev-capital"
+	},
+	"0x088241d1C5c951C59Fb66083b291b69E3cC27E8C": {
+		"name": "MEV Capital sUSDe",
+		"description": "Component of the MEV Capital BNB Cluster",
+		"entity": "mev-capital"
+	},
 	"0xC6767dd1fFaA730f6fc90b353d5928E6e9d55C1b": {
 		"name": "Apostro BSC BNB",
 		"description": "Part of Apostro BSC market",

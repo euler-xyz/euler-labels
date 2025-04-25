@@ -73,5 +73,17 @@
 			"0xc27d44A8aEA0CDa482600136c0d0876e807f6C1a"
 		],
 		"entity": ["apostro"]
+	},
+	{
+		"name": "5 Sats per sUSDe per day",
+		"logo": "ethena.png",
+		"collateralVaults": ["0x088241d1C5c951C59Fb66083b291b69E3cC27E8C"],
+		"entity": ["mev-capital"]
+	},
+	{
+		"name": "20 Sats per USDe per day",
+		"logo": "ethena.png",
+		"collateralVaults": ["0xd6F4Ee21c946071Cf13D773E2ab1e31d44a27a54"],
+		"entity": ["mev-capital"]
 	}
 ]
