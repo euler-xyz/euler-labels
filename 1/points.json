@@ -229,5 +229,11 @@
 		"logo": "noon-points.svg",
 		"collateralVaults": ["0x53208e965EB66841598fB8f983a41936EeE6d774"],
 		"entity": ["tulipa-capital"]
+	},
+	{
+		"name": "10x for USN",
+		"logo": "noon-points.svg",
+		"collateralVaults": ["0x89963076d2aBCf6b3C449A8f0f69439C47C0464d"],
+		"entity": ["tulipa-capital"]
 	}
 ]
