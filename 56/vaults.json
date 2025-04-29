@@ -154,6 +154,11 @@
 		"description": "Component of the K3 Capital Cluster",
 		"entity": "k3-capital"
 	},
+	"0x470379C4416300068E9Afb938b7A0cfF7735d42f": {
+		"name": "K3 Capital USD1",
+		"description": "Component of the K3 Capital Cluster",
+		"entity": "k3-capital"
+	},
 	"0x7a455f66FD2D2d5C69ae403a971ED513C852F9D7": {
 		"name": "Re7 Labs BTCB",
 		"description": "Component of the Re7 Labs BSC Cluster",
