@@ -229,5 +229,23 @@
 		"logo": "noon-points.svg",
 		"collateralVaults": ["0x53208e965EB66841598fB8f983a41936EeE6d774"],
 		"entity": ["tulipa-capital"]
+	},
+	{
+		"name": "1x Turtle Inception Points",
+		"logo": "turtle-inception.png",
+		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"],
+		"entity": ["mev-capital"]
+	},
+	{
+		"name": "1x Ditto Points",
+		"logo": "ditto.png",
+		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"],
+		"entity": ["mev-capital"]
+	},
+	{
+		"name": "1x mev-commit points",
+		"logo": "mev-commit.png",
+		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"],
+		"entity": ["mev-capital"]
 	}
 ]
