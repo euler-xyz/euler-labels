@@ -809,6 +809,11 @@
 		"description": "Noon USN",
 		"entity": ["tulipa-capital"]
 	},
+	"0x89963076d2aBCf6b3C449A8f0f69439C47C0464d": {
+		"name": "Noon sUSN",
+		"description": "Noon sUSN",
+		"entity": ["tulipa-capital"]
+	},
 	"0x940FCa4Be8e0d43Be75Acc8136342f936f2179E8": {
 		"name": "Stablecoin Maxi mRe7YIELD vault",
 		"description": "The Stablecoin Maxi mRe7YIELD vault",

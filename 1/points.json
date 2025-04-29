@@ -231,6 +231,12 @@
 		"entity": ["tulipa-capital"]
 	},
 	{
+		"name": "10x for USN",
+		"logo": "noon-points.svg",
+		"collateralVaults": ["0x89963076d2aBCf6b3C449A8f0f69439C47C0464d"],
+		"entity": ["tulipa-capital"]
+	},
+	{
 		"name": "1x Turtle Inception Points",
 		"logo": "turtle-inception.png",
 		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"],
