@@ -178,5 +178,10 @@
 		"name": "ZeroLend sNECT",
 		"description": "sNECT vault for the ZeroLend cluster",
 		"entity": "zerolend"
+	},
+	"0x2Bf927248f86Bd78ce300d00C7c8A175e3e0B38a": {
+		"name": "ZeroLend BB.sNECT",
+		"description": "BB.sNECT vault for the ZeroLend cluster",
+		"entity": "zerolend"
 	}
 }
