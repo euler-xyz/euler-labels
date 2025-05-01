@@ -13,7 +13,7 @@
 	},
 	{
 		"name": "LBGT rewards, visit [BeraPaw](https://www.berapaw.com/vaults) to claim and mint",
-		"logo": "turtle.png",
+		"logo": "lbgt.svg",
 		"collateralVaults": ["0xd538b6aeF78E4bDDe4FD4576E9E3A403704602bc"],
 		"entity": ["mev-capital"]
 	}
