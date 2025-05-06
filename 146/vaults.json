@@ -104,6 +104,11 @@
 		"description": "Component of the MEV Capital Sonic Cluster",
 		"entity": "mev-capital"
 	},
+	"0x08f04A3db30B0cd7E42E61b4e412b1123C52e8a1": {
+		"name": "MEV Capital PT-aUSDC",
+		"description": "Component of the MEV Capital Sonic Cluster",
+		"entity": "mev-capital"
+	},
 	"0x90a804D316A06E00755444D56b9eF52e5C4F4D73": {
 		"name": "MEV Capital wS",
 		"description": "Component of the MEV Capital Beets Cluster",
