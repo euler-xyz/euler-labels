@@ -89,6 +89,26 @@
 		"description": "Component of the MEV Capital Berachain Red Cluster",
 		"entity": "mev-capital"
 	},
+	"0xB127DbA67C3f83c1aCcBB9a124E1b6f6bC3E93f3": {
+		"name": "MEV Capital Red oriBGT",
+		"description": "Component of the MEV Capital Berachain Red Cluster",
+		"entity": "mev-capital"
+	},
+	"0x34018ac9DC4B114036Ca148Aa18C8f75594E5e95": {
+		"name": "MEV Capital Blue wBERA",
+		"description": "Component of the MEV Capital Berachain Blue Cluster",
+		"entity": "mev-capital"
+	},
+	"0x4eB3351066494852a03ffBBDE40a9776380Ce20D": {
+		"name": "MEV Capital Blue LBGT",
+		"description": "Component of the MEV Capital Berachain Blue Cluster",
+		"entity": "mev-capital"
+	},
+	"0xE3ecE76A7D1B07BcB0B5B6D38091E47C45994043": {
+		"name": "MEV Capital Blue stLBGT",
+		"description": "Component of the MEV Capital Berachain Blue Cluster",
+		"entity": "mev-capital"
+	},
 	"0x027DcAfB223f69d41Bd413C50854017718419585": {
 		"name": "Tulipa Hive HONEY",
 		"description": "Component of the Tulipa Hive market",
