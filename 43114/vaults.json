@@ -59,6 +59,16 @@
 		"description": "Component of the Re7 Labs Avalanche Cluster",
 		"entity": "re7-labs"
 	},
+	"0xA45189636c04388ADBb4D865100DD155e55682EC": {
+		"name": "Re7 Labs deUSD",
+		"description": "Component of the Re7 Labs Avalanche Cluster",
+		"entity": "re7-labs"
+	},
+	"0xFECebF56f150A68dDd197c3a6101da35C46693Ac": {
+		"name": "Re7 Labs sdeUSD",
+		"description": "Component of the Re7 Labs Avalanche Cluster",
+		"entity": "re7-labs"
+	},
 	"0xA429273b892c2c90b1d90778f4786e6470F402eC": {
 		"name": "MEV Capital WAVAX",
 		"description": "Component of the MEV Capital Avalanche Cluster",
