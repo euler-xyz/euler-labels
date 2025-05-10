@@ -24,13 +24,6 @@
 		"skipValidation": true
 	},
 	{
-		"name": "2x Renzo Points",
-		"logo": "renzo.svg",
-		"collateralVaults": ["0xa487f940D6f40D7304CD4e62751220f97124BeC9"],
-		"entity": ["euler-dao"]
-	},
-
-	{
 		"name": "30x Resolv Points",
 		"logo": "resolv.svg",
 		"collateralVaults": ["0x29Dbce367F5157B924Af5093617bb128477D7A5C"],
