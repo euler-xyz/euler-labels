@@ -235,5 +235,11 @@
 		"logo": "mev-commit.png",
 		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"],
 		"entity": ["mev-capital"]
+	},
+	{
+		"name": "1x Human Network points",
+		"logo": "human-network.jpg",
+		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"],
+		"entity": ["mev-capital"]
 	}
 ]
