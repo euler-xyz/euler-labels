@@ -86,10 +86,13 @@
 	{
 		"name": "30x Resolv Points",
 		"logo": "resolv.svg",
-		"collateralVaults": [
-			"0x3A8992754E2EF51D8F90620d2766278af5C59b90",
-			"0xc60400289B32E840909795a063aeccFb093E0b47"
-		],
+		"collateralVaults": ["0xc60400289B32E840909795a063aeccFb093E0b47"],
+		"entity": ["apostro"]
+	},
+	{
+		"name": "20x Resolv Points",
+		"logo": "resolv.svg",
+		"collateralVaults": ["0x3A8992754E2EF51D8F90620d2766278af5C59b90"],
 		"entity": ["apostro"]
 	},
 	{
@@ -102,7 +105,7 @@
 		"entity": ["apostro"]
 	},
 	{
-		"name": "10x Resolv Points",
+		"name": "20x Resolv Points",
 		"logo": "resolv.svg",
 		"collateralVaults": ["0x7f1d29e70C644c387ded640B28E106e29E349074"],
 		"entity": ["apostro"]

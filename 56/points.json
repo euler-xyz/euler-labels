@@ -12,7 +12,7 @@
 		"entity": ["k3-capital"]
 	},
 	{
-		"name": "30x Resolv Points",
+		"name": "20x Resolv Points",
 		"logo": "resolv.svg",
 		"collateralVaults": ["0x88A81184243c561026973d25384651E6cc0796A4"],
 		"entity": ["k3-capital"]
@@ -60,7 +60,7 @@
 		"entity": ["apostro"]
 	},
 	{
-		"name": "30x Resolv Points",
+		"name": "20x Resolv Points",
 		"logo": "resolv.svg",
 		"collateralVaults": ["0x3135551ce7945c03C18df7985E089DDBC763cEE8"],
 		"entity": ["apostro"]
