@@ -10,7 +10,7 @@
 		"entity": "re7-labs"
 	},
 	"0x3D9e5462A940684073EED7e4a13d19AE0Dcd13bc": {
-		"name": "Re7 Labs USDC.e",
+		"name": "Re7 Labs USDC",
 		"description": "Component of the Re7 Labs Sonic Cluster",
 		"entity": "re7-labs"
 	},
@@ -119,7 +119,7 @@
 		"description": "Component of the MEV Capital Sonic Cluster",
 		"entity": "mev-capital"
 	},
-		"0x12ac805F4596C3E55bb100B4593A1B8025CD2056": {
+	"0x12ac805F4596C3E55bb100B4593A1B8025CD2056": {
 		"name": "MEV Capital yUSD",
 		"description": "Component of the MEV Capital Sonic Cluster",
 		"entity": "mev-capital"

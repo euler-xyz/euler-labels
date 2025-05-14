@@ -1,1 +1,14 @@
-[]
+[
+	{
+		"name": "10x Potions",
+		"logo": "potions.png",
+		"collateralVaults": ["0xA45189636c04388ADBb4D865100DD155e55682EC"],
+		"entity": ["re7-labs"]
+	},
+	{
+		"name": "3x Potions",
+		"logo": "potions.png",
+		"collateralVaults": ["0xFECebF56f150A68dDd197c3a6101da35C46693Ac"],
+		"entity": ["re7-labs"]
+	}
+]
