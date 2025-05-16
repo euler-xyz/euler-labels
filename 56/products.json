@@ -30,9 +30,9 @@
 			"0x3135551ce7945c03C18df7985E089DDBC763cEE8"
 		]
 	},
-	"tulipa-bnb": {
+	"tulipa-bsc": {
 		"name": "Tulipa",
-		"description": "A market tailored to lending and borrowing assets on the BNB chain. Governed by Tulipa.",
+		"description": "A market tailored to lending and borrowing assets on the BSC chain. Governed by Tulipa.",
 		"entity": "tulipa-capital",
 		"vaults": [
 			"0x5fd02479F938929F6b9fE1b7Af6430cfD4afa6Aa",
