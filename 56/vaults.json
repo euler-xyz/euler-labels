@@ -169,22 +169,22 @@
 		"description": "Component of the K3 Capital Stablecoin Cluster",
 		"entity": "k3-capital"
 	},
-	"0x8e01db38a409d6e6b8a81fd21d84e05912e8730a": {
+	"0x8E01DB38a409D6E6B8A81fd21d84E05912e8730A": {
 		"name": "K3 Capital WBNB",
 		"description": "Component of the K3 Capital Cluster",
 		"entity": "k3-capital"
 	},
-	"0x554a419891bd825e47bc132011821de1070c35c0": {
+	"0x554a419891bD825e47bC132011821dE1070c35C0": {
 		"name": "K3 Capital BTCB",
 		"description": "Component of the K3 Capital Cluster",
 		"entity": "k3-capital"
 	},
-	"0xa3031755f95e57e1ac9bb01dbfeb135d40b6da96": {
+	"0xA3031755F95E57E1AC9Bb01dBfEb135d40b6DA96": {
 		"name": "K3 Capital slisBNB",
 		"description": "Component of the K3 Capital Cluster",
 		"entity": "k3-capital"
 	},
-	"0x78f5d9909163695dfb064d55a222e398918e00a3": {
+	"0x78F5d9909163695dfB064d55A222E398918e00a3": {
 		"name": "K3 Capital ynBNBx",
 		"description": "Component of the K3 Capital Cluster",
 		"entity": "k3-capital"
