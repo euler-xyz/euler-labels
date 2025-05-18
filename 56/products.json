@@ -32,9 +32,9 @@
 			"0x3135551ce7945c03C18df7985E089DDBC763cEE8"
 		]
 	},
-	"tulipa-bnb": {
+	"tulipa-bsc": {
 		"name": "Tulipa",
-		"description": "A market tailored to lending and borrowing assets on the BNB chain. Governed by Tulipa.",
+		"description": "A market tailored to lending and borrowing assets on the BSC chain. Governed by Tulipa.",
 		"entity": "tulipa-capital",
 		"vaults": [
 			"0x5fd02479F938929F6b9fE1b7Af6430cfD4afa6Aa",
@@ -46,7 +46,7 @@
 			"0xc33c2A5f3c27bcB5559f17ff97A04F281f898f04"
 		]
 	},
-	"k3-bsc": {
+	"k3-bsc-stable": {
 		"name": "K3 Capital Stablecoin Cluster",
 		"entity": "k3-capital",
 		"vaults": [
@@ -58,6 +58,16 @@
 			"0x10888BD509aC3e1f423D171008288462988827d5",
 			"0x9D30f4226D9aBE940F05acAfD456153BD49ba6D9",
 			"0x470379C4416300068E9Afb938b7A0cfF7735d42f"
+		]
+	},
+	"k3-bsc": {
+		"name": "K3 Capital Cluster",
+		"entity": "k3-capital",
+		"vaults": [
+			"0x8E01DB38a409D6E6B8A81fd21d84E05912e8730A",
+			"0x554a419891bD825e47bC132011821dE1070c35C0",
+			"0xA3031755F95E57E1AC9Bb01dBfEb135d40b6DA96",
+			"0x78F5d9909163695dfB064d55A222E398918e00a3"
 		]
 	},
 	"re7-labs-bsc": {
