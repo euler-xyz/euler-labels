@@ -6,7 +6,7 @@
 		"url": "https://euler.finance/",
 		"addresses": {
 			"0x8c2EceEe32359af9eec2326f841d187FaA8A5Ce2": "Euler DAO Multisig",
-			"0x24b9F5D9298234F22A3AD31859Ea17d4C3bA7788": "Euler Vault Access Control Governor"
+			"0x6044f37a9a0af9307AEb455ec44ba2c5A33eEa3f": "Euler Vault Access Control Governor"
 		},
 		"social": {
 			"twitter": "eulerfinance",
@@ -14,6 +14,22 @@
 			"discord": "https://discord.euler.finance/",
 			"telegram": "eulerfinance_official",
 			"github": "euler-xyz"
+		}
+	},
+
+	"relend-network": {
+		"name": "Relend Network",
+		"logo": "relend.png",
+		"description": "Relend Network relends money market liquidity to L1s and L2s.",
+		"url": "https://relend.network/",
+		"addresses": {
+			"0xbC15B3DB21311707b5e315e22A6F139f6205d2Ed": "Relend Network Multisig on Swell",
+			"0x0c4e99cB4bAD1Fbe2707eaf98756a4b624E6fE30": "Relend Network Vault Access Control Governor"
+		},
+		"social": {
+			"twitter": "relend_network",
+			"telegram": "relend_network",
+			"github": "relend-network"
 		}
 	}
 }

@@ -1,0 +1,89 @@
+[
+	{
+		"name": "5 Sats per sUSDe per day",
+		"logo": "ethena.png",
+		"collateralVaults": ["0x1E55a40c9C7ca76a8671D8366bEC8c5f8754a336"],
+		"entity": ["k3-capital"]
+	},
+	{
+		"name": "20 Sats per USDe per day",
+		"logo": "ethena.png",
+		"collateralVaults": ["0x07167e620612069830fdB5289406bB7A1Ddf781c"],
+		"entity": ["k3-capital"]
+	},
+	{
+		"name": "20x Resolv Points",
+		"logo": "resolv.svg",
+		"collateralVaults": ["0x88A81184243c561026973d25384651E6cc0796A4"],
+		"entity": ["k3-capital"]
+	},
+	{
+		"name": "Up to 5x Resolv Points",
+		"logo": "resolv.svg",
+		"collateralVaults": ["0xca522ECab584b5430ADb946edEE4224A63628362"],
+		"entity": ["k3-capital"]
+	},
+	{
+		"name": "45 points per YUSD per day",
+		"logo": "aegis.png",
+		"collateralVaults": ["0x10888BD509aC3e1f423D171008288462988827d5"],
+		"entity": ["k3-capital"]
+	},
+	{
+		"name": "5 Sats per sUSDe per day",
+		"logo": "ethena.png",
+		"collateralVaults": ["0x932FE4797d681a7a82262BC385B534ba069249E1"],
+		"entity": ["tulipa-capital"]
+	},
+	{
+		"name": "20 Sats per USDe per day",
+		"logo": "ethena.png",
+		"collateralVaults": ["0xEcD1F58B9DC4bbC3A32409961B8520B0A8fcd483"],
+		"entity": ["tulipa-capital"]
+	},
+	{
+		"name": "45 points per yUSD per day",
+		"logo": "aegis.png",
+		"collateralVaults": ["0xc4dB46B082B415c16C54c91c5750Df8e2f90EF36"],
+		"entity": ["re7-labs"]
+	},
+	{
+		"name": "5 Sats per sUSDe per day",
+		"logo": "ethena.png",
+		"collateralVaults": ["0x9AE0Da6ACc874119470b52f4f5647B74D042b18B"],
+		"entity": ["apostro"]
+	},
+	{
+		"name": "20 Sats per USDe per day",
+		"logo": "ethena.png",
+		"collateralVaults": ["0xeEC4561f621C3629F2b36a07B207A7E06377e0D5"],
+		"entity": ["apostro"]
+	},
+	{
+		"name": "20x Resolv Points",
+		"logo": "resolv.svg",
+		"collateralVaults": ["0x3135551ce7945c03C18df7985E089DDBC763cEE8"],
+		"entity": ["apostro"]
+	},
+	{
+		"name": "Up to 5x Resolv Points",
+		"logo": "resolv.svg",
+		"collateralVaults": [
+			"0x6078b5dE9d10587cb466ECbBF55C95898AFe99C2",
+			"0xc27d44A8aEA0CDa482600136c0d0876e807f6C1a"
+		],
+		"entity": ["apostro"]
+	},
+	{
+		"name": "5 Sats per sUSDe per day",
+		"logo": "ethena.png",
+		"collateralVaults": ["0x088241d1C5c951C59Fb66083b291b69E3cC27E8C"],
+		"entity": ["mev-capital"]
+	},
+	{
+		"name": "20 Sats per USDe per day",
+		"logo": "ethena.png",
+		"collateralVaults": ["0xd6F4Ee21c946071Cf13D773E2ab1e31d44a27a54"],
+		"entity": ["mev-capital"]
+	}
+]

@@ -54,16 +54,38 @@
 			"0xCaa70d2aa873Ef057980844e18D9a9560bdfFcC0"
 		]
 	},
+	"mev-capital-red": {
+		"name": "MEV Capital Berachain Red Cluster",
+		"entity": "mev-capital",
+		"description": "The MEV Capital Berachain Red Cluster provides a set of native collateral markets with an optimized risk-adjusted return",
+		"vaults": [
+			"0x028b1F7a949a7a862C3f93987296be30d71f7F97",
+			"0x7C7717F9bbd6126A013215796da04201d6A78d6b",
+			"0x746d425Dd3Cf924fC7a0f37EBED10E35fF589342",
+			"0xB127DbA67C3f83c1aCcBB9a124E1b6f6bC3E93f3"
+		]
+	},
 	"zerolend-bera-party": {
-		"name": "ZeroLend LP Looping",
-		"description": "The first Berachain LP looping market in collaboration with ZeroLend, BeraBorrow, BurrBear and eOracle.",
+		"name": "ZeroLend Prime Market",
+		"description": "A Berachain-focused market curated by ZeroLend.",
 		"entity": "zerolend",
 		"vaults": [
 			"0x28C96C7028451454729750171BD3Bb95D7261B5a",
 			"0x112B77A77753b092306b1c04Bd70215FeD4e00a1",
 			"0x1B33D24C4C78a61DA80Cfa2d0dB72ca0851d5fb1",
 			"0x2247B618251b8d913F3fD10B749e7bfa3E3a28db",
-			"0x401c4633dCa173bf75ac85F2D270d98c063F54CF"
+			"0x401c4633dCa173bf75ac85F2D270d98c063F54CF",
+			"0x2Bf927248f86Bd78ce300d00C7c8A175e3e0B38a"
+		]
+	},
+	"mev-capital-blue": {
+		"name": "MEV Capital Berachain Blue Cluster",
+		"entity": "mev-capital",
+		"description": "The MEV Capital Berachain Blue Cluster provides a set of native collateral markets with an optimized risk-adjusted return",
+		"vaults": [
+			"0x34018ac9DC4B114036Ca148Aa18C8f75594E5e95",
+			"0x4eB3351066494852a03ffBBDE40a9776380Ce20D",
+			"0xE3ecE76A7D1B07BcB0B5B6D38091E47C45994043"
 		]
 	}
 }

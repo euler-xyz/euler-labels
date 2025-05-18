@@ -22,5 +22,17 @@
 		"social": {
 			"twitter": "mevcapital"
 		}
+	},
+	"k3-capital": {
+		"name": "K3 Capital",
+		"logo": "k3.svg",
+		"description": "K3 Capital provide leading institutional asset and risk management in decentralized finance.",
+		"url": "https://k3.capital/",
+		"addresses": {
+			"0xdD84A24eeddE63F10Ec3e928f1c8302A47538b6B": "K3 Capital Fireblocks Multisig"
+		},
+		"social": {
+			"twitter": "k3_capital"
+		}
 	}
 }

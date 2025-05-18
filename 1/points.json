@@ -86,10 +86,13 @@
 	{
 		"name": "30x Resolv Points",
 		"logo": "resolv.svg",
-		"collateralVaults": [
-			"0x3A8992754E2EF51D8F90620d2766278af5C59b90",
-			"0xc60400289B32E840909795a063aeccFb093E0b47"
-		],
+		"collateralVaults": ["0xc60400289B32E840909795a063aeccFb093E0b47"],
+		"entity": ["apostro"]
+	},
+	{
+		"name": "20x Resolv Points",
+		"logo": "resolv.svg",
+		"collateralVaults": ["0x3A8992754E2EF51D8F90620d2766278af5C59b90"],
 		"entity": ["apostro"]
 	},
 	{
@@ -102,7 +105,7 @@
 		"entity": ["apostro"]
 	},
 	{
-		"name": "10x Resolv Points",
+		"name": "20x Resolv Points",
 		"logo": "resolv.svg",
 		"collateralVaults": ["0x7f1d29e70C644c387ded640B28E106e29E349074"],
 		"entity": ["apostro"]
@@ -141,31 +144,13 @@
 		"entity": ["alterscope"]
 	},
 	{
-		"name": "2x Renzo Points",
-		"logo": "renzo.svg",
-		"collateralVaults": ["0xE88e44C2C7dfc9bcb86e380d29375ccD6cd85406"],
-		"entity": ["euler-dao"]
-	},
-	{
-		"name": "2x Renzo Points",
-		"logo": "renzo.svg",
-		"collateralVaults": ["0x82c710B9B225B43C0c90f097DB31f5f10a7F86FA"],
-		"entity": ["euler-dao"]
-	},
-	{
-		"name": "2x Renzo Points",
-		"logo": "renzo.svg",
-		"collateralVaults": ["0xE3ea69f8661FFac04E269f99C14ba73e2Bb10633"],
-		"entity": ["euler-dao"]
-	},
-	{
 		"name": "30 Sats per eUSDe per day",
 		"logo": "ethena.png",
 		"collateralVaults": ["0x61aAC438453d6e3513C0c8dbb69F13860E2B5028"],
 		"entity": ["euler-dao"]
 	},
 	{
-		"name": "1.5x Ethereal points",
+		"name": "1x Ethereal points",
 		"logo": "ethereal.svg",
 		"collateralVaults": ["0x61aAC438453d6e3513C0c8dbb69F13860E2B5028"],
 		"entity": ["euler-dao"]
@@ -195,9 +180,69 @@
 		"entity": ["mev-capital"]
 	},
 	{
-		"name": "10 Treehouse Nuts per tETH",
+		"name": "10 Treehouse Nuts per ETH worth of tETH",
 		"logo": "nuts.png",
 		"collateralVaults": ["0xA28C23a459fF8773EB4dBe0e7250d93F79F1Fe2B"],
 		"entity": ["euler-dao"]
+	},
+	{
+		"name": "5x OpenEden Bills",
+		"logo": "openeden.png",
+		"collateralVaults": ["0x75f66ed34c274eaD52CFA25De9388E98e12Edb33"],
+		"entity": ["ouroboros-capital"]
+	},
+	{
+		"name": "2x OpenEden Bills",
+		"logo": "openeden.png",
+		"collateralVaults": ["0x738bC1e2F68F5ec58ea456fb4269B4b3f51714b5"],
+		"entity": ["ouroboros-capital"]
+	},
+	{
+		"name": "140x for USN",
+		"logo": "noon-points.svg",
+		"collateralVaults": ["0xc1fF5490651B9B8d0400B0146E7fb174B90E315B"],
+		"entity": ["tulipa-capital"]
+	},
+	{
+		"name": "20x for USDT",
+		"logo": "noon-points.svg",
+		"collateralVaults": ["0xc7d526eFefa2e3073531f9e054F5c8cD1d0eC636"],
+		"entity": ["tulipa-capital"]
+	},
+	{
+		"name": "20x for USDC",
+		"logo": "noon-points.svg",
+		"collateralVaults": ["0x53208e965EB66841598fB8f983a41936EeE6d774"],
+		"entity": ["tulipa-capital"]
+	},
+	{
+		"name": "10x for USN",
+		"logo": "noon-points.svg",
+		"collateralVaults": ["0x89963076d2aBCf6b3C449A8f0f69439C47C0464d"],
+		"entity": ["tulipa-capital"]
+	},
+	{
+		"name": "1x Turtle Inception Points",
+		"logo": "turtle-inception.png",
+		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"],
+		"entity": ["mev-capital"]
+	},
+	{
+		"name": "1x Ditto Points",
+		"logo": "ditto.png",
+		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"],
+		"entity": ["mev-capital"]
+	},
+	{
+		"name": "1x mev-commit points",
+		"logo": "mev-commit.png",
+		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"],
+		"entity": ["mev-capital"]
+	},
+	{
+		"name": "1x Human Network points",
+		"logo": "human-network.jpg",
+		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"],
+		"entity": ["mev-capital"]
 	}
 ]

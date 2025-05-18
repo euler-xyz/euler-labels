@@ -49,6 +49,11 @@
 		"description": "A conservative wM vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
 		"entity": "euler-dao"
 	},
+	"0x328646cdfBaD730432620d845B8F5A2f7D786C01": {
+		"name": "Euler Prime USDtb",
+		"description": "A conservative USDtb vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
+		"entity": "euler-dao"
+	},
 	"0x9e714434A1c94B842b75631a70E07d13f2575368": {
 		"name": "Euler Prime tBTC",
 		"description": "A conservative tBTC vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
@@ -194,9 +199,29 @@
 		"descriptsion": "A sUSDe vault collateralized by other vaults in the Euler Yield and Euler Prime cluster.",
 		"entity": "euler-dao"
 	},
+	"0x8d1A625517eD9120a8bA66d22db66ddf7fBC6c52": {
+		"name": "Euler Yield USDtb",
+		"descriptsion": "A USDtb vault collateralized by other vaults in the Euler Yield and Euler Prime cluster.",
+		"entity": "euler-dao"
+	},
 	"0x8E35E3aa6eFBC8D11Eb4F3b743f180257C80e517": {
 		"name": "Euler Yield mBASIS",
 		"descriptsion": "A mBASIS vault collateralized by other vaults in the Euler Yield and Euler Prime cluster.",
+		"entity": "euler-dao"
+	},
+	"0x6DFC8ae855FA8Ab7bAbB81aB7c8a6DA7794f60fB": {
+		"name": "Euler Yield rUSD",
+		"descriptsion": "A rUSD vault collateralized by other vaults in the Euler Yield and Euler Prime cluster.",
+		"entity": "euler-dao"
+	},
+	"0x16d84F98765Ed86501a052D47E76BFefb2D36206": {
+		"name": "Euler Yield srUSD",
+		"descriptsion": "A srUSD escrowed collateral vault used by other vaults in the Euler Yield cluster.",
+		"entity": "euler-dao"
+	},
+	"0xe0f8c07282bDc7831bAea448c2F6bFEc8eeBDcA7": {
+		"name": "Euler Yield syrupUSDC",
+		"descriptsion": "A syrupUSDC vault collateralized by other vaults in the Euler Yield and Euler Prime cluster.",
 		"entity": "euler-dao"
 	},
 	"0x2Ac5eB886859231280c08b3BD66ef80eD618fbc7": {
@@ -224,6 +249,11 @@
 		"descriptsion": "A PT-sUSDe-29MAY2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
 		"entity": "euler-dao"
 	},
+	"0xCa452aFF8729c9125EE448e60E8099FF6F4C3cf3": {
+		"name": "Euler Yield PT-sUSDe-31JUL2025",
+		"descriptsion": "A PT-sUSDe-31JUL2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
+		"entity": "euler-dao"
+	},
 	"0xCC3f4c0Aa2867be66551b1c01CdCA393A3B01d88": {
 		"name": "Euler Yield PT-USDe-27MAR2025",
 		"descriptsion": "A PT-USDe-27MAR2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
@@ -234,9 +264,19 @@
 		"descriptsion": "A PT-eUSDe-29MAY2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
 		"entity": "euler-dao"
 	},
+	"0xA2f92e2db62c13409E3B8Aa9f5660Fa2C7E909FA": {
+		"name": "Euler Yield PT-cUSDO-19JUN2025",
+		"descriptsion": "A PT-cUSDO-19JUN2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
+		"entity": "euler-dao"
+	},
 	"0xEF1d264dDcF1ebc0485d31daEbE5C5698942F55F": {
 		"name": "Euler Yield mEDGE",
 		"descriptsion": "A mEDGE escrowed collateral vault used by other vaults in the Euler Yield cluster.",
+		"entity": "euler-dao"
+	},
+	"0xa626c933E9fc8d37Cf2d8217F49309FDb0AA21c5": {
+		"name": "Euler Yield syrupUSDC",
+		"descriptsion": "A syrupUSDC escrowed collateral vault used by other vaults in the Euler Yield cluster.",
 		"entity": "euler-dao"
 	},
 	"0x0F81E34a5AD7929eB863F97F4217A182923FCEfb": {
@@ -247,6 +287,61 @@
 	"0x61aAC438453d6e3513C0c8dbb69F13860E2B5028": {
 		"name": "Euler Yield eUSDe",
 		"descriptsion": "A eUSDe escrowed collateral vault used by other vaults in the Euler Yield cluster.",
+		"entity": "euler-dao"
+	},
+	"0x959Ae4dD74fD525b33Ff0ff776B4b352abd48322": {
+		"name": "Euler Repo USDC",
+		"description": " A USDC vault collateralized by other vaults in the Euler Repo cluster.",
+		"entity": "euler-dao"
+	},
+	"0xDF78489C3cFC738194afE34fb3F379c0A3E0c5Db": {
+		"name": "Euler Repo USDT",
+		"description": " A USDT vault collateralized by other vaults in the Euler Repo cluster.",
+		"entity": "euler-dao"
+	},
+	"0xc943c1CDD7b3Fbb6A77f571698406b418C902f0c": {
+		"name": "Euler Repo USDtb",
+		"description": " A USDtb vault collateralized by other vaults in the Euler Repo cluster.",
+		"entity": "euler-dao"
+	},
+	"0x17d4Fb15a85eC7042c23490A9D69F3D1e69Dd2A1": {
+		"name": "Euler Repo RLUSD",
+		"description": " A RLUSD vault collateralized by other vaults in the Euler Repo cluster.",
+		"entity": "euler-dao"
+	},
+	"0xb85782faD5c5C5f88DbD1A69e2dCf8BF0c303bFb": {
+		"name": "Euler Repo wM",
+		"description": " A wM vault collateralized by other vaults in the Euler Repo cluster.",
+		"entity": "euler-dao"
+	},
+	"0x140AAE127acAcb5A54E4249c0ba879c39E33541c": {
+		"name": "Euler Repo sBUIDL",
+		"description": " A sBUIDL escrowed collateral vault used by other vaults in the Euler Repo cluster.",
+		"entity": "euler-dao"
+	},
+	"0x47ea329b1331f35515948120d0Ce32AA580e2bAD": {
+		"name": "Euler Repo USYC",
+		"description": " A USYC escrowed collateral vault used by other vaults in the Euler Repo cluster.",
+		"entity": "euler-dao"
+	},
+	"0x863c32f64F0d6e23fb0d0e76b884c7a08638157A": {
+		"name": "Euler Repo USDY",
+		"description": " A USDY escrowed collateral vault used by other vaults in the Euler Repo cluster.",
+		"entity": "euler-dao"
+	},
+	"0x59FbeBFA008b718234438548C9eF8D32706b5cE5": {
+		"name": "Euler Repo wUSDM",
+		"description": " A wUSDM escrowed collateral vault used by other vaults in the Euler Repo cluster.",
+		"entity": "euler-dao"
+	},
+	"0x8B69725A01Ea305b3240680d16bB8561373A96F3": {
+		"name": "Euler Repo wUSDL",
+		"description": " A wUSDL escrowed collateral vault used by other vaults in the Euler Repo cluster.",
+		"entity": "euler-dao"
+	},
+	"0x1F39EDcEf393b0A8883772CDA202EEdeEc99d9c4": {
+		"name": "Euler Repo mTBILL",
+		"description": " A mTBILL escrowed collateral vault used by other vaults in the Euler Repo cluster.",
 		"entity": "euler-dao"
 	},
 	"0x67e4e4e73947257Ca62D118E0FBC56D06f11d96F": {
@@ -758,5 +853,40 @@
 		"name": "Tulipa TAC USDT",
 		"description": "Tulipa TAC USDT",
 		"entity": ["tulipa-capital"]
+	},
+	"0x53208e965EB66841598fB8f983a41936EeE6d774": {
+		"name": "Noon USDC",
+		"description": "Noon USDC",
+		"entity": ["tulipa-capital"]
+	},
+	"0xc7d526eFefa2e3073531f9e054F5c8cD1d0eC636": {
+		"name": "Noon USDT",
+		"description": "Noon USDT",
+		"entity": ["tulipa-capital"]
+	},
+	"0xc1fF5490651B9B8d0400B0146E7fb174B90E315B": {
+		"name": "Noon USN",
+		"description": "Noon USN",
+		"entity": ["tulipa-capital"]
+	},
+	"0x89963076d2aBCf6b3C449A8f0f69439C47C0464d": {
+		"name": "Noon sUSN",
+		"description": "Noon sUSN",
+		"entity": ["tulipa-capital"]
+	},
+	"0x940FCa4Be8e0d43Be75Acc8136342f936f2179E8": {
+		"name": "Stablecoin Maxi mRe7YIELD vault",
+		"description": "The Stablecoin Maxi mRe7YIELD vault",
+		"entity": "re7-labs"
+	},
+	"0x6173b0709dEA144CC3662894870B57C53564cfA2": {
+		"name": "Stablecoin Maxi PT-sUSDE-29MAY2025 vault",
+		"description": "The Stablecoin Maxi PT-sUSDE-29MAY2025 vault",
+		"entity": "re7-labs"
+	},
+	"0xa8CC68e15D50c1c586b5B0D6e1D4D0Ef620fdd10": {
+		"name": "Stablecoin Maxi PT-eUSDE-29MAY2025 vault",
+		"description": "The Stablecoin Maxi PT-eUSDE-29MAY2025 vault",
+		"entity": "re7-labs"
 	}
 }

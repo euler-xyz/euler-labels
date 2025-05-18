@@ -64,6 +64,11 @@
 		"description": "A conservative sUSDS vault collateralized by other vaults in the Euler Base cluster.",
 		"entity": "euler-dao"
 	},
+	"0x841C92bfF53c81cDdb8ad557096B30C93fddb394": {
+		"name": "Euler Base wsuperOETHb",
+		"description": "A conservative wsuperOETHb vault collateralized by other vaults in the Euler Base cluster.",
+		"entity": "euler-dao"
+	},
 	"0xC063C3b3625DF5F362F60f35B0bcd98e0fa650fb": {
 		"name": "Apostro Resolv USDC vault",
 		"description": "Part of the Apostro Resolv cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
@@ -96,6 +101,11 @@
 	},
 	"0xEdCc195Ca09c9FCC1DD30b152C0b82045Ff2F91f": {
 		"name": "Apostro Resolv PT-USR-24APR2025 vault",
+		"description": "Part of the Apostro Resolv cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
+		"entity": ["apostro"]
+	},
+	"0x596dBb33131fa2991cf5651cB57e4b15682C7F93": {
+		"name": "Apostro Resolv PT-USR-25SEP2025 vault",
 		"description": "Part of the Apostro Resolv cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
 		"entity": ["apostro"]
 	},
