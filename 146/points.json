@@ -30,9 +30,15 @@
 		"entity": ["re7-labs"]
 	},
 	{
-		"name": "8xSonic Points",
+		"name": "8x Sonic Points",
 		"logo": "sonic.png",
 		"collateralVaults": ["0xF3c631B979EB59d8333374baA7c58B5Aff5e24D2"],
+		"entity": ["re7-labs"]
+	},
+	{
+		"name": "4x Sonic Points",
+		"logo": "sonic.png",
+		"collateralVaults": ["0x2ad7546A19eb5D5eDb37EC88A4775995078d1CAd"],
 		"entity": ["re7-labs"]
 	},
 	{
@@ -93,6 +99,18 @@
 		"name": "8x Sonic Points",
 		"logo": "sonic.png",
 		"collateralVaults": ["0x1E1482E7Bc32cD085d7aF61F29019Ba372B63277"],
+		"entity": ["mev-capital"]
+	},
+	{
+		"name": "8x Sonic Points",
+		"logo": "sonic.png",
+		"collateralVaults": ["0x90a804D316A06E00755444D56b9eF52e5C4F4D73"],
+		"entity": ["mev-capital"]
+	},
+	{
+		"name": "8x Sonic Points",
+		"logo": "sonic.png",
+		"collateralVaults": ["0x6832F3090867449c058e1e3088E552E12AB18F9E"],
 		"entity": ["mev-capital"]
 	}
 ]

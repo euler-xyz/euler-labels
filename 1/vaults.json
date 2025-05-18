@@ -209,6 +209,21 @@
 		"descriptsion": "A mBASIS vault collateralized by other vaults in the Euler Yield and Euler Prime cluster.",
 		"entity": "euler-dao"
 	},
+	"0x6DFC8ae855FA8Ab7bAbB81aB7c8a6DA7794f60fB": {
+		"name": "Euler Yield rUSD",
+		"descriptsion": "A rUSD vault collateralized by other vaults in the Euler Yield and Euler Prime cluster.",
+		"entity": "euler-dao"
+	},
+	"0x16d84F98765Ed86501a052D47E76BFefb2D36206": {
+		"name": "Euler Yield srUSD",
+		"descriptsion": "A srUSD escrowed collateral vault used by other vaults in the Euler Yield cluster.",
+		"entity": "euler-dao"
+	},
+	"0xe0f8c07282bDc7831bAea448c2F6bFEc8eeBDcA7": {
+		"name": "Euler Yield syrupUSDC",
+		"descriptsion": "A syrupUSDC vault collateralized by other vaults in the Euler Yield and Euler Prime cluster.",
+		"entity": "euler-dao"
+	},
 	"0x2Ac5eB886859231280c08b3BD66ef80eD618fbc7": {
 		"name": "Euler Yield PT-USD0++-30JAN2025",
 		"descriptsion": "A PT-USD0++-30JAN2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
@@ -234,6 +249,11 @@
 		"descriptsion": "A PT-sUSDe-29MAY2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
 		"entity": "euler-dao"
 	},
+	"0xCa452aFF8729c9125EE448e60E8099FF6F4C3cf3": {
+		"name": "Euler Yield PT-sUSDe-31JUL2025",
+		"descriptsion": "A PT-sUSDe-31JUL2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
+		"entity": "euler-dao"
+	},
 	"0xCC3f4c0Aa2867be66551b1c01CdCA393A3B01d88": {
 		"name": "Euler Yield PT-USDe-27MAR2025",
 		"descriptsion": "A PT-USDe-27MAR2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
@@ -252,6 +272,11 @@
 	"0xEF1d264dDcF1ebc0485d31daEbE5C5698942F55F": {
 		"name": "Euler Yield mEDGE",
 		"descriptsion": "A mEDGE escrowed collateral vault used by other vaults in the Euler Yield cluster.",
+		"entity": "euler-dao"
+	},
+	"0xa626c933E9fc8d37Cf2d8217F49309FDb0AA21c5": {
+		"name": "Euler Yield syrupUSDC",
+		"descriptsion": "A syrupUSDC escrowed collateral vault used by other vaults in the Euler Yield cluster.",
 		"entity": "euler-dao"
 	},
 	"0x0F81E34a5AD7929eB863F97F4217A182923FCEfb": {
@@ -794,6 +819,41 @@
 		"description": "Tulipa Resolv PT-USR-29MAY2025",
 		"entity": ["tulipa-capital"]
 	},
+	"0x056575e43A440D49B14E94022Be9FAD85679D138": {
+		"name": "Tulipa TAC tacBTC",
+		"description": "Tulipa TAC tacBTC",
+		"entity": ["tulipa-capital"]
+	},
+	"0xf6066FAFd24880879448867CFD683337146F4335": {
+		"name": "Tulipa TAC cbBTC",
+		"description": "Tulipa TAC cbBTC",
+		"entity": ["tulipa-capital"]
+	},
+	"0x41d2d958fE1eBd8b19078E8B52A32C427C91BBca": {
+		"name": "Tulipa TAC tacETH",
+		"description": "Tulipa TAC tacETH",
+		"entity": ["tulipa-capital"]
+	},
+	"0x7C6eeE35BE1f1f25CEf65E01D1a63c994c7b6978": {
+		"name": "Tulipa TAC WETH",
+		"description": "Tulipa TAC WETH",
+		"entity": ["tulipa-capital"]
+	},
+	"0x303AD748D7981e10F362eF5721890BCB449b3ec6": {
+		"name": "Tulipa TAC tacUSDC",
+		"description": "Tulipa TAC tacUSDC",
+		"entity": ["tulipa-capital"]
+	},
+	"0xCC029aE7dFF547fA893F831BB4A0E99B6BCb6aE0": {
+		"name": "Tulipa TAC USDC",
+		"description": "Tulipa TAC USDC",
+		"entity": ["tulipa-capital"]
+	},
+	"0x9D1c3A8A70c1f586256117399304e6a48f657838": {
+		"name": "Tulipa TAC USDT",
+		"description": "Tulipa TAC USDT",
+		"entity": ["tulipa-capital"]
+	},
 	"0x53208e965EB66841598fB8f983a41936EeE6d774": {
 		"name": "Noon USDC",
 		"description": "Noon USDC",
@@ -807,6 +867,11 @@
 	"0xc1fF5490651B9B8d0400B0146E7fb174B90E315B": {
 		"name": "Noon USN",
 		"description": "Noon USN",
+		"entity": ["tulipa-capital"]
+	},
+	"0x89963076d2aBCf6b3C449A8f0f69439C47C0464d": {
+		"name": "Noon sUSN",
+		"description": "Noon sUSN",
 		"entity": ["tulipa-capital"]
 	},
 	"0x940FCa4Be8e0d43Be75Acc8136342f936f2179E8": {

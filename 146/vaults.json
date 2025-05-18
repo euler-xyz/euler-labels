@@ -10,7 +10,7 @@
 		"entity": "re7-labs"
 	},
 	"0x3D9e5462A940684073EED7e4a13d19AE0Dcd13bc": {
-		"name": "Re7 Labs USDC.e",
+		"name": "Re7 Labs USDC",
 		"description": "Component of the Re7 Labs Sonic Cluster",
 		"entity": "re7-labs"
 	},
@@ -26,6 +26,16 @@
 	},
 	"0xF3c631B979EB59d8333374baA7c58B5Aff5e24D2": {
 		"name": "Re7 Labs wOS",
+		"description": "Component of the Re7 Labs Sonic Cluster",
+		"entity": "re7-labs"
+	},
+	"0x2ad7546A19eb5D5eDb37EC88A4775995078d1CAd": {
+		"name": "Re7 Labs WETH",
+		"description": "Component of the Re7 Labs Sonic Cluster",
+		"entity": "re7-labs"
+	},
+	"0x8537a336fC74EA742527E8300175A7b07a108c9E": {
+		"name": "Re7 Labs PT-wstkscUSD-29MAY2025",
 		"description": "Component of the Re7 Labs Sonic Cluster",
 		"entity": "re7-labs"
 	},
@@ -91,6 +101,26 @@
 	},
 	"0xdBc46ff39Cae7f37c39363B0CA474497dAD1d3cf": {
 		"name": "MEV Capital PT-stS",
+		"description": "Component of the MEV Capital Sonic Cluster",
+		"entity": "mev-capital"
+	},
+	"0x08f04A3db30B0cd7E42E61b4e412b1123C52e8a1": {
+		"name": "MEV Capital PT-aUSDC",
+		"description": "Component of the MEV Capital Sonic Cluster",
+		"entity": "mev-capital"
+	},
+	"0x7aD07B280A17Ac7af489E487eaAf004b69786a0A": {
+		"name": "MEV Capital x33",
+		"description": "Component of the MEV Capital Sonic Cluster",
+		"entity": "mev-capital"
+	},
+	"0xdEBdAB749330bb976fD10dc52f9A452aaF029028": {
+		"name": "MEV Capital XUSD",
+		"description": "Component of the MEV Capital Sonic Cluster",
+		"entity": "mev-capital"
+	},
+	"0x12ac805F4596C3E55bb100B4593A1B8025CD2056": {
+		"name": "MEV Capital yUSD",
 		"description": "Component of the MEV Capital Sonic Cluster",
 		"entity": "mev-capital"
 	},
