@@ -32,7 +32,7 @@
 	{
 		"name": "2.3 Kernel points per ynBNBx per day",
 		"logo": "kernel.png",
-		"collateralVaults": ["0x78f5d9909163695dfb064d55a222e398918e00a3"],
+		"collateralVaults": ["0x78F5d9909163695dfB064d55A222E398918e00a3"],
 		"entity": ["k3-capital"]
 	},
 	{
