@@ -30,6 +30,12 @@
 		"entity": ["k3-capital"]
 	},
 	{
+		"name": "2.3 Kernel points per ynBNBx per day",
+		"logo": "kernel.png",
+		"collateralVaults": ["0x78f5d9909163695dfb064d55a222e398918e00a3"],
+		"entity": ["k3-capital"]
+	},
+	{
 		"name": "5 Sats per sUSDe per day",
 		"logo": "ethena.png",
 		"collateralVaults": ["0x932FE4797d681a7a82262BC385B534ba069249E1"],
