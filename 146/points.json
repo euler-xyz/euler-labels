@@ -112,5 +112,14 @@
 		"logo": "sonic.png",
 		"collateralVaults": ["0x6832F3090867449c058e1e3088E552E12AB18F9E"],
 		"entity": ["mev-capital"]
+	},
+	{
+		"name": "5x Rings points",
+		"logo": "rings.svg",
+		"liquidityVaults": [
+			"0xB38D431e932fEa77d1dF0AE0dFE4400c97e597B8",
+			"0xeEb1DC1Ca7ffC5b54aD1cc4c1088Db4E5657Cb6c"
+		],
+		"entity": ["mev-capital"]
 	}
 ]
