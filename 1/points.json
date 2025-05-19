@@ -246,13 +246,13 @@
 		"entity": ["mev-capital"]
 	},
 	{
-		"name": "1x Reservoir points",
+		"name": "1 reservoir point per rUSD per day",
 		"logo": "reservoir.svg",
 		"collateralVaults": ["0x6DFC8ae855FA8Ab7bAbB81aB7c8a6DA7794f60fB"],
 		"entity": ["euler-dao"]
 	},
 	{
-		"name": "0.5x Reservoir points",
+		"name": "0.5 reservoir point per srUSD per day",
 		"logo": "reservoir.svg",
 		"collateralVaults": ["0x16d84F98765Ed86501a052D47E76BFefb2D36206"],
 		"entity": ["euler-dao"]
