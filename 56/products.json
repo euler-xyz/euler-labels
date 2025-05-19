@@ -47,7 +47,7 @@
 		]
 	},
 	"k3-bsc-stable": {
-		"name": "K3 Capital Stablecoin Cluster",
+		"name": "K3 Stablecoin Cluster",
 		"entity": "k3-capital",
 		"vaults": [
 			"0xca522ECab584b5430ADb946edEE4224A63628362",
@@ -60,8 +60,8 @@
 			"0x470379C4416300068E9Afb938b7A0cfF7735d42f"
 		]
 	},
-	"k3-bsc": {
-		"name": "K3 Capital Cluster",
+	"k3-bsc-yield": {
+		"name": "K3 BNB Yield Hub",
 		"entity": "k3-capital",
 		"vaults": [
 			"0x8E01DB38a409D6E6B8A81fd21d84E05912e8730A",
