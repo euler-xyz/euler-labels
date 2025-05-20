@@ -116,7 +116,7 @@
 	{
 		"name": "up to 5x Rings points",
 		"logo": "rings.svg",
-		"liquidityVaults": [
+		"liabilityVaults": [
 			"0xB38D431e932fEa77d1dF0AE0dFE4400c97e597B8",
 			"0xeEb1DC1Ca7ffC5b54aD1cc4c1088Db4E5657Cb6c"
 		],
