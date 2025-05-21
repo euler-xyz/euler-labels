@@ -16,5 +16,14 @@
 		"logo": "lbgt.svg",
 		"collateralVaults": ["0xd538b6aeF78E4bDDe4FD4576E9E3A403704602bc"],
 		"entity": ["mev-capital"]
+	},
+	{
+		"name": "Deposit directly on [BeraPaw Strategy Vaults](https://www.berapaw.com/strategies) to earn additional yield and pPAW Points. [More information](https://docs.berapaw.com/polStrategyVault)",
+		"logo": "lbgt.svg",
+		"collateralVaults": [
+			"0x34018ac9DC4B114036Ca148Aa18C8f75594E5e95",
+			"0x4eB3351066494852a03ffBBDE40a9776380Ce20D"
+		],
+		"entity": ["mev-capital"]
 	}
 ]
