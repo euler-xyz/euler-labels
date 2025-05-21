@@ -63,6 +63,8 @@ function validateChain(chainId) {
 		if (vaultId !== ethers.getAddress(vaultId))
 			throw Error(`vaults: malformed vaultId: ${vaultId}`);
 		if (!vault.name) throw Error(`vaults: missing name: ${vaultId}`);
+		if (!vault.description)
+			throw Error(`vaults: missing description: ${vaultId}`);
 
 		for (const entity of getArray(vault.entity)) {
 			if (!entities[entity])
