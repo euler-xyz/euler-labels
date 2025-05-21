@@ -36,6 +36,12 @@
 		"entity": ["k3-capital"]
 	},
 	{
+		"name": "6x boost when using ynBNBx as collateral",
+		"logo": "ynSeeds.svg",
+		"collateralVaults": ["0x78F5d9909163695dfB064d55A222E398918e00a3"],
+		"entity": ["k3-capital"]
+	},
+	{
 		"name": "5 Sats per sUSDe per day",
 		"logo": "ethena.png",
 		"collateralVaults": ["0x932FE4797d681a7a82262BC385B534ba069249E1"],
