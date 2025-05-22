@@ -148,14 +148,14 @@ function validateChain(chainId) {
 			throw Error(`opportunities: malformed address: ${vaultId}`);
 
 		if (vaultOpportunity.cozy) {
-			if (!vaultOpportunity.cozy.safteyModule)
+			if (!vaultOpportunity.cozy.safetyModule)
 				throw Error(`opportunities: missing safety module: ${vaultId}`);
 			if (
-				vaultOpportunity.cozy.safteyModule !==
-				ethers.getAddress(vaultOpportunity.cozy.safteyModule)
+				vaultOpportunity.cozy.safetyModule !==
+				ethers.getAddress(vaultOpportunity.cozy.safetyModule)
 			)
 				throw Error(
-					`opportunities: malformed safety module: ${vaultOpportunity.cozy.safteyModule}`,
+					`opportunities: malformed safety module: ${vaultOpportunity.cozy.safetyModule}`,
 				);
 		}
 	}
