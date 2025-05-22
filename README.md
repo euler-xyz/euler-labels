@@ -54,6 +54,13 @@ Each entry in this array corresponds to points available on deposits in a vault.
 * `liabilityVaults`: An array of the vault addresses (in checksumed hex format) that offer these points. Each vault does not need to exist in the `vaults.json` file.
 * `entity`: An entity ID that refers to the organisation responsible for governing and/or creating this vault, or a list of entity IDs if the vault is joint-managed.
 
+### `opportunities.json`
+
+Each entry in this object represents opportunities associated with specific vaults.
+
+* `{opportunityType}`: An object representing a specific opportunity type (e.g., "cozy"). Each opportunity type can contain:
+  * `safetyModule`: The address of the safety module associated with this opportunity, in checksumed hex format.
+
 ## Logos
 
 Logos exist in the `logo/` directory, and should satisfy the following properties:
