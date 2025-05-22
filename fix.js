@@ -67,6 +67,9 @@ function fixChain(chainId) {
 		vaults: JSON.parse(fs.readFileSync(`${chainId}/vaults.json`, "utf8")),
 		points: JSON.parse(fs.readFileSync(`${chainId}/points.json`, "utf8")),
 		products: JSON.parse(fs.readFileSync(`${chainId}/products.json`, "utf8")),
+		opportunities: JSON.parse(
+			fs.readFileSync(`${chainId}/opportunities.json`, "utf8"),
+		),
 	};
 
 	let changes = false;
@@ -145,6 +148,18 @@ function fixChain(chainId) {
 				}
 			}
 		}
+	}
+
+	const {
+		result: fixedOpportunities,
+		changes: opportunitiesChanges,
+		changesList: opportunitiesChangesList,
+	} = fixAddressesInObject(files.opportunities, "opportunities");
+
+	if (opportunitiesChanges) {
+		changes = true;
+		changesList.push(...opportunitiesChangesList);
+		files.opportunities = fixedOpportunities;
 	}
 
 	// Write back changes if any were made

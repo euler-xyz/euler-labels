@@ -38,6 +38,7 @@ function validateChain(chainId) {
 	const vaults = loadJsonFile(`${chainId}/vaults.json`);
 	const products = loadJsonFile(`${chainId}/products.json`);
 	const points = loadJsonFile(`${chainId}/points.json`);
+	const opportunities = loadJsonFile(`${chainId}/opportunities.json`);
 
 	validateUniqueEntityAddresses(entities);
 
@@ -137,6 +138,25 @@ function validateChain(chainId) {
 		}
 		for (const entity of getArray(point.entity)) {
 			if (!entities[entity]) throw Error(`points: no such entity ${entity}`);
+		}
+	}
+
+	for (const vaultId of Object.keys(opportunities)) {
+		const vaultOpportunity = opportunities[vaultId];
+
+		if (vaultId !== ethers.getAddress(vaultId))
+			throw Error(`opportunities: malformed address: ${vaultId}`);
+
+		if (vaultOpportunity.cozy) {
+			if (!vaultOpportunity.cozy.safteyModule)
+				throw Error(`opportunities: missing safety module: ${vaultId}`);
+			if (
+				vaultOpportunity.cozy.safteyModule !==
+				ethers.getAddress(vaultOpportunity.cozy.safteyModule)
+			)
+				throw Error(
+					`opportunities: malformed safety module: ${vaultOpportunity.cozy.safteyModule}`,
+				);
 		}
 	}
 }
