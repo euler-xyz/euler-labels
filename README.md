@@ -47,6 +47,7 @@ Each entry in this array corresponds to points available on deposits in a vault.
 * `token`: The token address (in a checksumed hex format) that the points are denominated in.
 * `name`: The name of the points, for example "Euler Points". (Required)
 * `description`: A long-form description of the points, displayed within points tooltips.
+* `skipTooltipPrefix`: If true, the tooltip text will not be prefixed with "Deposits earns {logo}".
 * `url`: A URL where users can learn more about the points.
 * `logo`: The filename of a logo stored in the `logo/` directory. (Required)
 * `collateralVaults`: An array of the vault addresses (in checksumed hex format) that offer these points. Each vault does not need to exist in the `vaults.json` file.

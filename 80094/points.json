@@ -19,6 +19,7 @@
 	},
 	{
 		"name": "Deposit directly on [BeraPaw Strategy Vaults](https://www.berapaw.com/strategies) to earn additional yield and pPAW Points. [More information](https://docs.berapaw.com/polStrategyVault)",
+		"skipTooltipPrefix": true,
 		"logo": "lbgt.svg",
 		"collateralVaults": [
 			"0x34018ac9DC4B114036Ca148Aa18C8f75594E5e95",
