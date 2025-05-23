@@ -150,12 +150,6 @@
 		"entity": ["euler-dao"]
 	},
 	{
-		"name": "3x Solv Points",
-		"logo": "solv.png",
-		"collateralVaults": ["0xd27159604ae512c056cf282933B838A4d38B1D17"],
-		"entity": ["euler-dao"]
-	},
-	{
 		"name": "3x Inception Totems",
 		"logo": "inception.svg",
 		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"],
