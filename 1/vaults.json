@@ -888,5 +888,10 @@
 		"name": "Stablecoin Maxi PT-eUSDE-29MAY2025 vault",
 		"description": "The Stablecoin Maxi PT-eUSDE-29MAY2025 vault",
 		"entity": "re7-labs"
+	},
+	"0xC6C60104eD3db10074537B30489A0b744AdD9545": {
+		"name": "Noon PT-USN-31JUL2025",
+		"description": "Noon PT-USN-31JUL2025",
+		"entity": ["tulipa-capital"]
 	}
 }
