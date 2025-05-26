@@ -104,6 +104,11 @@
 		"description": "A conservative wUSDM vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
 		"entity": "euler-dao"
 	},
+	"0xc2d36F41841B420937643dcccbEa8163D4F59B6c": {
+		"name": "Euler Prime RLUSD",
+		"description": "A conservative RLUSD vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
+		"entity": "euler-dao"
+	},
 	"0x34716B7026D9e6247D21e37Da1f1b157b62a16e0": {
 		"name": "Euler Prime eBTC",
 		"description": "A conservative eBTC vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
@@ -140,8 +145,8 @@
 		"entity": "euler-dao"
 	},
 	"0xe1Ce9AF672f8854845E5474400B6ddC7AE458a10": {
-		"name": "Euler Yield rlUSD",
-		"description": "A rlUSD vault collateralized by other vaults in the Euler Yield and Euler Prime cluster.",
+		"name": "Euler Yield RLUSD",
+		"description": "A RLUSD vault collateralized by other vaults in the Euler Yield and Euler Prime cluster.",
 		"entity": "euler-dao"
 	},
 	"0x33A1ff36274B603Dd3dA01E266dB6B3fD8e5733D": {
@@ -262,6 +267,11 @@
 	"0x1f193dB3d813aF14927577817ae4FC3a42f25694": {
 		"name": "Euler Yield PT-eUSDe-29MAY2025",
 		"description": "A PT-eUSDe-29MAY2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
+		"entity": "euler-dao"
+	},
+	"0x5e761084c253743268CdbcCc433bDd33C94c82C9": {
+		"name": "Euler Yield PT-eUSDe-14AUG2025",
+		"description": "A PT-eUSDe-14AUG2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
 		"entity": "euler-dao"
 	},
 	"0xA2f92e2db62c13409E3B8Aa9f5660Fa2C7E909FA": {
