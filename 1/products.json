@@ -92,6 +92,51 @@
 			"0x1F39EDcEf393b0A8883772CDA202EEdeEc99d9c4"
 		]
 	},
+	"frontier-renzo": {
+		"name": "Frontier Renzo",
+		"description": "An isolated market dedicated to the Renzo ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao", "gauntlet"],
+		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
+		"vaults": [
+			"0xdc1aeF6cF0F13267281a0D3547D205eA32287e49",
+			"0x0c01F00e419977CF452e78AaE35ffB95C47d9534"
+		]
+	},
+	"frontier-medge": {
+		"name": "Frontier mEDGE",
+		"description": "An isolated market dedicated to the mEDGE ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao", "gauntlet"],
+		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
+		"vaults": [
+			"0x09136DAC538B54994170a6905507a74562A80ed3",
+			"0xD53f83c7CA5189007C09b5D867a8116bC0540724",
+			"0x94EdbB8F7543593FF1B8D2871eC4730B59c97888"
+		]
+	},
+	"frontier-mmev": {
+		"name": "Frontier mMEV",
+		"description": "An isolated market dedicated to the mMEV ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao", "gauntlet"],
+		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
+		"vaults": [
+			"0x98281466aBcF48eAAD8c6E22dEdD18A3426A93b4",
+			"0x3F7CcadEd39Fd9D06Eb0498ABEb7EAAB569E79Ad",
+			"0x819662Ab6Fe32B52100fa32aE3e0e8b36B4C5638"
+		]
+	},
+	"frontier-level": {
+		"name": "Frontier Level",
+		"description": "An isolated market dedicated to the Level ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao", "gauntlet"],
+		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
+		"vaults": [
+			"0xF4Bc4239eDca81ed0d305701CB18A5Fd82cd06Ca",
+			"0xfc6f3A2Badb53973F69449Da690Cfef84dc4a359",
+			"0x1e0b68A83Ef062CDE687351C472cFd0E9300A06d",
+			"0xF2ec2d8fE1351bAFF31643855C0f4D1E63Bd1ce4",
+			"0x889b0ab73A262759e1Da530eA027268Fd9C2B35f"
+		]
+	},
 	"stablecoin-maxi": {
 		"name": "Stablecoin Maxi",
 		"entity": "re7-labs",
