@@ -973,5 +973,20 @@
 		"name": "Noon PT-USN-31JUL2025",
 		"description": "Noon PT-USN-31JUL2025",
 		"entity": ["tulipa-capital"]
+	},
+	"0xc455d77597353264e4ba9bed7ac9daf8e05029c9": {
+		"name": "OpenEden cUSDO",
+		"description": "cUSDO Vault for the OpenEden ZeroLend Market",
+		"entity": "zerolend-openeden"
+	},
+	"0x50588aea583a9df5076ee990329871296618ed58": {
+		"name": "OpenEden cUSDO PT 19JUN2025",
+		"description": "cUSDO Pendle PT Token",
+		"entity": "zerolend-openeden"
+	},
+	"0x2cddf87973007150a7ac3af45f89dc37c7123ec6": {
+		"name": "OpenEden USDC",
+		"description": "USDC Vault for the OpenEden ZeroLend Market",
+		"entity": "zerolend-openeden"
 	}
 }
