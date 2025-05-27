@@ -154,5 +154,17 @@
 		"social": {
 			"twitter": "OuroborosCap8"
 		}
+	},
+	"zerolend": {
+		"name": "ZeroLend",
+		"logo": "zerolend.jpg",
+		"description": "ZeroLend is a decentralized lending market curating vaults for LRTs, Real World Assets (RWAs), BTCFi, and promising tokens.",
+		"url": "https://zerolend.xyz/",
+		"addresses": {
+			"0x1f906603A027E686b43Fab7f395C11228EbE8ff4": "ZeroLend Multisig"
+		},
+		"social": {
+			"twitter": "zerolendxyz"
+		}
 	}
 }
