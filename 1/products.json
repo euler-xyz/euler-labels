@@ -354,5 +354,16 @@
 			"0x89963076d2aBCf6b3C449A8f0f69439C47C0464d",
 			"0xC6C60104eD3db10074537B30489A0b744AdD9545"
 		]
+	},
+	"zerolend-openeden": {
+		"name": "ZeroLend OpenEden",
+		"description": "A market tailored to lending and borrowing with OpenEden Products. Governed by ZeroLend.",
+		"entity": "zerolend-openeden",
+		"vaults": [
+			"0xc455d77597353264e4ba9bed7ac9daf8e05029c9",
+			"0x50588aea583a9df5076ee990329871296618ed58",
+			"0x2cddf87973007150a7ac3af45f89dc37c7123ec6"
+		]
 	}
+	
 }
