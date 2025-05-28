@@ -125,7 +125,7 @@
 		"entity": "mev-capital"
 	},
 	"0xDE604f03E44247b31f71C4Fa055F9F3ea08D1271": {
-		"name": "MEV Capital PT-wstkscETH",
+		"name": "MEV Capital PT-wstkscETH_December",
 		"description": "Component of the MEV Capital Sonic Cluster",
 		"entity": "mev-capital"
 	},
