@@ -47,11 +47,19 @@ Each entry in this array corresponds to points available on deposits in a vault.
 * `token`: The token address (in a checksumed hex format) that the points are denominated in.
 * `name`: The name of the points, for example "Euler Points". (Required)
 * `description`: A long-form description of the points, displayed within points tooltips.
+* `skipTooltipPrefix`: If true, the tooltip text will not be prefixed with "Deposits earns {logo}".
 * `url`: A URL where users can learn more about the points.
 * `logo`: The filename of a logo stored in the `logo/` directory. (Required)
 * `collateralVaults`: An array of the vault addresses (in checksumed hex format) that offer these points. Each vault does not need to exist in the `vaults.json` file.
 * `liabilityVaults`: An array of the vault addresses (in checksumed hex format) that offer these points. Each vault does not need to exist in the `vaults.json` file.
 * `entity`: An entity ID that refers to the organisation responsible for governing and/or creating this vault, or a list of entity IDs if the vault is joint-managed.
+
+### `opportunities.json`
+
+Each entry in this object represents opportunities associated with specific vaults.
+
+* `{opportunityType}`: An object representing a specific opportunity type (e.g., "cozy"). Each opportunity type can contain:
+  * `safetyModule`: The address of the safety module associated with this opportunity, in checksumed hex format.
 
 ## Logos
 

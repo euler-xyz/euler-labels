@@ -23,7 +23,8 @@
 			"0x1924D7fab80d0623f0836Cbf5258a7fa734EE9D9",
 			"0x9Dfe12dBd94eb8294b047Fabe3142C5d7178071b",
 			"0xA28C23a459fF8773EB4dBe0e7250d93F79F1Fe2B",
-			"0x328646cdfBaD730432620d845B8F5A2f7D786C01"
+			"0x328646cdfBaD730432620d845B8F5A2f7D786C01",
+			"0xc2d36F41841B420937643dcccbEa8163D4F59B6c"
 		]
 	},
 	"euler-yield": {
@@ -58,7 +59,8 @@
 			"0x6DFC8ae855FA8Ab7bAbB81aB7c8a6DA7794f60fB",
 			"0x16d84F98765Ed86501a052D47E76BFefb2D36206",
 			"0xe0f8c07282bDc7831bAea448c2F6bFEc8eeBDcA7",
-			"0xa626c933E9fc8d37Cf2d8217F49309FDb0AA21c5"
+			"0xa626c933E9fc8d37Cf2d8217F49309FDb0AA21c5",
+			"0x5e761084c253743268CdbcCc433bDd33C94c82C9"
 		]
 	},
 	"euler-repo": {
@@ -78,6 +80,51 @@
 			"0x59FbeBFA008b718234438548C9eF8D32706b5cE5",
 			"0x8B69725A01Ea305b3240680d16bB8561373A96F3",
 			"0x1F39EDcEf393b0A8883772CDA202EEdeEc99d9c4"
+		]
+	},
+	"frontier-renzo": {
+		"name": "Frontier Renzo",
+		"description": "An isolated market dedicated to the Renzo ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao", "gauntlet"],
+		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
+		"vaults": [
+			"0xdc1aeF6cF0F13267281a0D3547D205eA32287e49",
+			"0x0c01F00e419977CF452e78AaE35ffB95C47d9534"
+		]
+	},
+	"frontier-medge": {
+		"name": "Frontier mEDGE",
+		"description": "An isolated market dedicated to the mEDGE ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao", "gauntlet"],
+		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
+		"vaults": [
+			"0x09136DAC538B54994170a6905507a74562A80ed3",
+			"0xD53f83c7CA5189007C09b5D867a8116bC0540724",
+			"0x94EdbB8F7543593FF1B8D2871eC4730B59c97888"
+		]
+	},
+	"frontier-mmev": {
+		"name": "Frontier mMEV",
+		"description": "An isolated market dedicated to the mMEV ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao", "gauntlet"],
+		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
+		"vaults": [
+			"0x98281466aBcF48eAAD8c6E22dEdD18A3426A93b4",
+			"0x3F7CcadEd39Fd9D06Eb0498ABEb7EAAB569E79Ad",
+			"0x819662Ab6Fe32B52100fa32aE3e0e8b36B4C5638"
+		]
+	},
+	"frontier-level": {
+		"name": "Frontier Level",
+		"description": "An isolated market dedicated to the Level ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao", "gauntlet"],
+		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
+		"vaults": [
+			"0xF4Bc4239eDca81ed0d305701CB18A5Fd82cd06Ca",
+			"0xfc6f3A2Badb53973F69449Da690Cfef84dc4a359",
+			"0x1e0b68A83Ef062CDE687351C472cFd0E9300A06d",
+			"0xF2ec2d8fE1351bAFF31643855C0f4D1E63Bd1ce4",
+			"0x889b0ab73A262759e1Da530eA027268Fd9C2B35f"
 		]
 	},
 	"stablecoin-maxi": {
@@ -236,7 +283,8 @@
 			"0x81fa50cBe6C7Ed61961fE601B7c5AC334c2c84bB",
 			"0xc60400289B32E840909795a063aeccFb093E0b47",
 			"0xc27B9587414f7d725e89b989aA63948a93f8DB71",
-			"0xe3Fd841FE4701bBA147e478CfBc46889116B7d3d"
+			"0xe3Fd841FE4701bBA147e478CfBc46889116B7d3d",
+			"0xd9bf69f6228edDd2BeC11A32ed400F36C794E111"
 		]
 	},
 	"tulipa-resolv": {
@@ -291,7 +339,18 @@
 			"0x53208e965EB66841598fB8f983a41936EeE6d774",
 			"0xc7d526eFefa2e3073531f9e054F5c8cD1d0eC636",
 			"0xc1fF5490651B9B8d0400B0146E7fb174B90E315B",
-			"0x89963076d2aBCf6b3C449A8f0f69439C47C0464d"
+			"0x89963076d2aBCf6b3C449A8f0f69439C47C0464d",
+			"0xC6C60104eD3db10074537B30489A0b744AdD9545"
+		]
+	},
+	"zerolend-openeden": {
+		"name": "ZeroLend OpenEden",
+		"description": "A market tailored to lending and borrowing with OpenEden Products. Governed by ZeroLend.",
+		"entity": "zerolend",
+		"vaults": [
+			"0xc455D77597353264E4BA9BED7Ac9daF8e05029C9",
+			"0x50588aEA583A9dF5076EE990329871296618eD58",
+			"0x2CDdF87973007150A7aC3AF45F89Dc37C7123Ec6"
 		]
 	}
 }
