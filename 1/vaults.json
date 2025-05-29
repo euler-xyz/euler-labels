@@ -928,5 +928,10 @@
 		"name": "OpenEden USDC",
 		"description": "USDC Vault for the OpenEden ZeroLend Market",
 		"entity": "zerolend"
+	},
+	"0x87331E9540175B65184972B59943A9877541903e": {
+		"name": "Noon PT-sUSN-31JUL2025",
+		"description": "Noon PT-sUSN-31JUL2025",
+		"entity": ["tulipa-capital"]
 	}
 }
