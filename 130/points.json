@@ -1,1 +1,11 @@
-[]
+[
+	{
+		"name": "6x SuperStacks XP",
+		"logo": "superstacks.svg",
+		"collateralVaults": [
+			"0xD49181c522eCDB265f0D9C175Cf26FFACE64eAD3",
+			"0xe36DA4Ea4D07E54B1029eF26A896A656A3729f86"
+		],
+		"entity": ["euler-dao"]
+	}
+]
