@@ -125,12 +125,12 @@
 		"entity": "mev-capital"
 	},
 	"0xDE604f03E44247b31f71C4Fa055F9F3ea08D1271": {
-		"name": "MEV Capital PT-wstkscETH_December",
+		"name": "MEV Capital PT-wstkscETH-18DEC2025",
 		"description": "Component of the MEV Capital Sonic Cluster",
 		"entity": "mev-capital"
 	},
 	"0x6e14A20334724a194D2f8B38162522CAD202b986": {
-		"name": "MEV Capital PT-wstkscUSD_December",
+		"name": "MEV Capital PT-wstkscUSD-18DEC2025",
 		"description": "Component of the MEV Capital Sonic Cluster",
 		"entity": "mev-capital"
 	},
