@@ -34,14 +34,9 @@
 		"description": "A conservative USDT0 vault collateralized by other vaults in the Euler Unichain cluster.",
 		"entity": "euler-dao"
 	},
-	"0xeD6A6410b2B7CDCBB786bFA734A33D36b6e78206": {
+	"0x5d2511C1EBc795F4394f7f659f693f8C15796485": {
 		"name": "Euler Unichain WBTC",
 		"description": "A conservative WBTC vault collateralized by other vaults in the Euler Unichain cluster.",
-		"entity": "euler-dao"
-	},
-	"0x5d2511C1EBc795F4394f7f659f693f8C15796485": {
-		"name": "Euler Unichain WBTC (OFT-enabled)",
-		"description": "A conservative WBTC (OFT-enabled) vault collateralized by other vaults in the Euler Unichain cluster.",
 		"entity": "euler-dao"
 	},
 	"0x576f68B0395738AEF01811b8F8EeC25302829F1d": {
