@@ -43,5 +43,10 @@
 		"name": "Euler Unichain UNI",
 		"description": "A conservative UNI vault collateralized by other vaults in the Euler Unichain cluster.",
 		"entity": "euler-dao"
+	},
+	"0x7650D7ae1981f2189d352b0EC743b9099D24086F": {
+		"name": "Euler Unichain sUSDC",
+		"description": "A conservative sUSDC vault collateralized by other vaults in the Euler Unichain cluster.",
+		"entity": "euler-dao"
 	}
 }
