@@ -34,5 +34,12 @@
 		"social": {
 			"twitter": "k3_capital"
 		}
+	},
+	"keyring": {
+		"name": "Keyring",
+		"logo": "euler.svg",
+		"addresses": {
+			"0xC75CD6aeEF7a09BDDe0F61E143fad7Aa9Eb6f6Ee": "Keyring Multisig"
+		}
 	}
 }

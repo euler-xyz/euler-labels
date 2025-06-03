@@ -148,5 +148,15 @@
 		"name": "K3 Capital sdeUSD",
 		"description": "Component of the K3 Capital Cluster",
 		"entity": "k3-capital"
+	},
+	"0x50B2323Ecb8F41c7204099BAb5dF8C2dA520d2A1": {
+		"name": "Keyring USDC",
+		"description": "Component of the Keyring Avalanche Cluster",
+		"entity": "keyring"
+	},
+	"0xd49e5a5af173cD8583240104AfA14B6b51d675CB": {
+		"name": "Keyring xUSDC",
+		"description": "Component of the Keyring Avalanche Cluster",
+		"entity": "keyring"
 	}
 }
