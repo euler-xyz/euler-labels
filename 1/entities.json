@@ -32,13 +32,13 @@
 		"name": "Re7 Labs",
 		"logo": "re7labs.png",
 		"description": "Re7 Labs is the innovation arm of digital asset investment firm Re7 Capital, taking the practical experience of DeFi risk management to on-chain vaults.",
-		"url": "https://re7.capital/",
+		"url": "https://www.re7labs.xyz/",
 		"addresses": {
 			"0x184d597Be309e11650ca6c935B483DcC05551578": "Re7 Labs Euler Multisig",
 			"0x8378f03722Ca0b9939Be4bEaEf0BF64c0062f232": "Re7 Labs Euler Multisig"
 		},
 		"social": {
-			"twitter": "Re7Capital"
+			"twitter": "Re7Labs"
 		}
 	},
 	"apostro": {
