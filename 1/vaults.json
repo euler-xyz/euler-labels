@@ -239,6 +239,11 @@
 		"description": "A eUSDe escrowed collateral vault used by other vaults in the Euler Yield cluster.",
 		"entity": "euler-dao"
 	},
+	"0x0934554feefa7e264C349cDe626933b908166635": {
+		"name": "Euler Yield PT-USDS-14AUG2025",
+		"description": "A PT-USDS-14AUG2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
+		"entity": "euler-dao"
+	},
 	"0x959Ae4dD74fD525b33Ff0ff776B4b352abd48322": {
 		"name": "Euler Repo USDC",
 		"description": " A USDC vault collateralized by other vaults in the Euler Repo cluster.",
