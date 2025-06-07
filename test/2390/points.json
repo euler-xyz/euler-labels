@@ -1,0 +1,8 @@
+[
+	{
+		"name": "2x Test points",
+		"logo": "euler.svg",
+		"collateralVaults": ["0x3D75295f783e56C8D4FCdd06af95C0EEC805b308"],
+		"entity": ["euler-dao"]
+	}
+]

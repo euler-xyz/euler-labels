@@ -1,0 +1,19 @@
+{
+	"euler-dao": {
+		"name": "Euler DAO",
+		"logo": "euler.svg",
+		"description": "The Euler DAO is the organisation responsible for the creation of the Euler lending/borrowing platform.",
+		"url": "https://euler.finance/",
+		"addresses": {
+			"0x0000000000000000000000000000000000000000": "Euler DAO Multisig",
+			"0x4B581F73eE35B68393968dcE215398dEF42e8b8E": "Euler Governor Test EOA"
+		},
+		"social": {
+			"twitter": "eulerfinance",
+			"youtube": "EulerFinance",
+			"discord": "https://discord.euler.finance/",
+			"telegram": "eulerfinance_official",
+			"github": "euler-xyz"
+		}
+	}
+}
