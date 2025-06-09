@@ -244,5 +244,17 @@
 		"logo": "reservoir.svg",
 		"collateralVaults": ["0x16d84F98765Ed86501a052D47E76BFefb2D36206"],
 		"entity": ["euler-dao"]
+	},
+	{
+		"name": "1x Kalypso Points",
+		"logo": "kalypso.png",
+		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"],
+		"entity": ["mev-capital"]
+	},
+	{
+		"name": "1x Radius Points",
+		"logo": "radius.png",
+		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"],
+		"entity": ["mev-capital"]
 	}
 ]
