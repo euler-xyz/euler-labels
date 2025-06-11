@@ -48,5 +48,25 @@
 		"name": "Euler Unichain sUSDC",
 		"description": "A conservative sUSDC vault collateralized by other vaults in the Euler Unichain cluster.",
 		"entity": "euler-dao"
+	},
+	"0x6Bc1f97f96Dd6834A86aCf412B77C9F464419436": {
+		"name": "Euler Unichain LST WETH",
+		"description": "WETH vault collateralized by other vaults in the Euler Unichain LST cluster.",
+		"entity": "euler-dao"
+	},
+	"0xCF28A176021e6906C359d1777041245d9Fda076D": {
+		"name": "Euler Unichain LST wstETH",
+		"description": "wstETH vault collateralized by other vaults in the Euler Unichain LST cluster.",
+		"entity": "euler-dao"
+	},
+	"0xe6806beA4eCDE065bB757c35032f2c625848D8e8": {
+		"name": "Euler Unichain LST rsETH",
+		"description": "rsETH vault collateralized by other vaults in the Euler Unichain LST cluster.",
+		"entity": "euler-dao"
+	},
+	"0x25e2ef0f957B61cdd26BBE954AFD5806A9DaDe49": {
+		"name": "Euler Unichain LST ezETH",
+		"description": "ezETH vault collateralized by other vaults in the Euler Unichain LST cluster.",
+		"entity": "euler-dao"
 	}
 }
