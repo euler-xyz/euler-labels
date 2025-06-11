@@ -943,5 +943,25 @@
 		"name": "Noon PT-sUSN-31JUL2025",
 		"description": "Noon PT-sUSN-31JUL2025",
 		"entity": ["tulipa-capital"]
+	},
+	"0x9ee58f0618d2bf130b73f2d843c45c69548b981b": {
+		"name": "Liquity Hub USDT",
+		"description": "Component of the Liquity Hub Cluster",
+		"entity": "k3"
+	},
+	"0xc6137bc1378c2396051e06417704d31615f77cb9": {
+		"name": "Liquity Hub USDC",
+		"description": "Component of the Liquity Hub Cluster",
+		"entity": "k3"
+	},
+	"0xc1c51c5c9efaf0c485aa1097ae9690b5e102975a": {
+		"name": "Liquity Hub BOLD",
+		"description": "Component of the Liquity Hub Cluster",
+		"entity": "k3"
+	},
+	"0xec91b109817b20d4ebd364a181666327194763f0": {
+		"name": "Liquity Hub sBOLD",
+		"description": "Component of the Liquity Hub Cluster",
+		"entity": "k3"
 	}
 }
