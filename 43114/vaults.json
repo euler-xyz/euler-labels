@@ -24,6 +24,11 @@
 		"description": "Component of the Re7 Labs Avalanche Cluster",
 		"entity": "re7-labs"
 	},
+	"0xADaFfbEBEEAd3D3e042C3e7c146F61FE62728e6c": {
+		"name": "Re7 Labs SolvBTC",
+		"description": "Component of the Re7 Labs Avalanche Cluster",
+		"entity": "re7-labs"
+	},
 	"0x7485484Dab196C615AE21453C3ABd732977562f2": {
 		"name": "Re7 Labs WETH.e",
 		"description": "Component of the Re7 Labs Avalanche Cluster",
