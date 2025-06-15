@@ -178,10 +178,10 @@
 	"keyring": {
 		"name": "Keyring",
 		"logo": "keyring.svg",
-		"description": "The Keyring Avalanche Cluster enhances depositor protection with instant zkVerification to reduce exploit risk.",
+		"description": "Enhanced depositor protection with instant zkVerification.",
 		"url": "https://keyring.network/",
 		"addresses": {
-			"0xC75CD6aeEF7a09BDDe0F61E143fad7Aa9Eb6f6Ee": "Keyring Multisig"
+			"0xC75CD6aeEF7a09BDDe0F61E143fad7Aa9Eb6f6Ee": "Keyring Placeholder Wallet"
 		},
 		"social": {
 			"twitter": "keyringnetwork",
