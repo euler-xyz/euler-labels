@@ -51,7 +51,7 @@
 		]
 	},
 	"keyring-avalanche": {
-		"name": "Keyring Avalanche Cluster",
+		"name": "Keyring zkVerified Cluster",
 		"entity": "keyring",
 		"vaults": [
 			"0x50B2323Ecb8F41c7204099BAb5dF8C2dA520d2A1",
