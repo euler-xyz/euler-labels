@@ -249,59 +249,24 @@
 		"description": "A PT-cUSDO-20NOV2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
 		"entity": "euler-dao"
 	},
-	"0x959Ae4dD74fD525b33Ff0ff776B4b352abd48322": {
-		"name": "Euler Repo USDC",
-		"description": " A USDC vault collateralized by other vaults in the Euler Repo cluster.",
+	"0xEA79E49A076a75A9bF6013505C2B92eED69E4fe1": {
+		"name": "Euler RWA USDC",
+		"description": "A USDC vault collateralized by other vaults in the Euler RWA cluster",
 		"entity": "euler-dao"
 	},
-	"0xDF78489C3cFC738194afE34fb3F379c0A3E0c5Db": {
-		"name": "Euler Repo USDT",
-		"description": " A USDT vault collateralized by other vaults in the Euler Repo cluster.",
+	"0xabBe766f216f689818C3A1f98647cE4E41495325": {
+		"name": "Euler RWA USDT",
+		"description": "A USDT vault collateralized by other vaults in the Euler RWA cluster",
 		"entity": "euler-dao"
 	},
-	"0xc943c1CDD7b3Fbb6A77f571698406b418C902f0c": {
-		"name": "Euler Repo USDtb",
-		"description": " A USDtb vault collateralized by other vaults in the Euler Repo cluster.",
+	"0x155d4A34938dcB27486f5Bbf6a19d19D0ef0DD8A": {
+		"name": "Euler RWA RLUSD",
+		"description": "A RLUSD vault collateralized by other vaults in the Euler RWA cluster",
 		"entity": "euler-dao"
 	},
-	"0x17d4Fb15a85eC7042c23490A9D69F3D1e69Dd2A1": {
-		"name": "Euler Repo RLUSD",
-		"description": " A RLUSD vault collateralized by other vaults in the Euler Repo cluster.",
-		"entity": "euler-dao"
-	},
-	"0xb85782faD5c5C5f88DbD1A69e2dCf8BF0c303bFb": {
-		"name": "Euler Repo wM",
-		"description": " A wM vault collateralized by other vaults in the Euler Repo cluster.",
-		"entity": "euler-dao"
-	},
-	"0x140AAE127acAcb5A54E4249c0ba879c39E33541c": {
-		"name": "Euler Repo sBUIDL",
-		"description": " A sBUIDL escrowed collateral vault used by other vaults in the Euler Repo cluster.",
-		"entity": "euler-dao"
-	},
-	"0x47ea329b1331f35515948120d0Ce32AA580e2bAD": {
-		"name": "Euler Repo USYC",
-		"description": " A USYC escrowed collateral vault used by other vaults in the Euler Repo cluster.",
-		"entity": "euler-dao"
-	},
-	"0x863c32f64F0d6e23fb0d0e76b884c7a08638157A": {
-		"name": "Euler Repo USDY",
-		"description": " A USDY escrowed collateral vault used by other vaults in the Euler Repo cluster.",
-		"entity": "euler-dao"
-	},
-	"0x59FbeBFA008b718234438548C9eF8D32706b5cE5": {
-		"name": "Euler Repo wUSDM",
-		"description": " A wUSDM escrowed collateral vault used by other vaults in the Euler Repo cluster.",
-		"entity": "euler-dao"
-	},
-	"0x8B69725A01Ea305b3240680d16bB8561373A96F3": {
-		"name": "Euler Repo wUSDL",
-		"description": " A wUSDL escrowed collateral vault used by other vaults in the Euler Repo cluster.",
-		"entity": "euler-dao"
-	},
-	"0x1F39EDcEf393b0A8883772CDA202EEdeEc99d9c4": {
-		"name": "Euler Repo mTBILL",
-		"description": " A mTBILL escrowed collateral vault used by other vaults in the Euler Repo cluster.",
+	"0xC51e90b48FD7fBfF316502b85A71e0EBb1ee5238": {
+		"name": "Euler RWA sBUIDL",
+		"description": "A sBUIDL escrowed collateral vault collateralized by other vaults in the Euler RWA cluster",
 		"entity": "euler-dao"
 	},
 	"0xdc1aeF6cF0F13267281a0D3547D205eA32287e49": {
