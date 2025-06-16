@@ -928,5 +928,15 @@
 		"name": "Liquity Hub sBOLD",
 		"description": "Component of the Liquity Hub Cluster",
 		"entity": "k3"
+	},
+	"0x10e0B2B42874ADF8c29D5F900c0D18b61f048ffb": {
+		"name": "Pareto USDC",
+		"description": "Component of the Pareto Keyring Cluster",
+		"entity": "keyring"
+	},
+	"0xb6c9363db7d651106da38c68f34253688fa25cda": {
+		"name": "Pareto sUSP",
+		"description": "Pareto sUSP is the staked savings asset of USP built on Ethereum. Component of the Pareto Keyring Cluster",
+		"entity": "keyring"
 	}
 }
