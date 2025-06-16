@@ -363,7 +363,7 @@
 			"0xEc91B109817b20d4Ebd364A181666327194763F0"
 		]
 	},
-	"keyring-avalanche": {
+	"keyring": {
 		"name": "Keyring zkVerified Cluster",
 		"entity": "keyring",
 		"vaults": [
