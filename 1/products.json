@@ -125,6 +125,43 @@
 		],
 		"isGovernanceLimited": true
 	},
+	"frontier-falcon": {
+		"name": "Frontier Falcon",
+		"description": "An isolated market dedicated to the Falcon ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao", "gauntlet"],
+		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
+		"vaults": [
+			"0x3573A84Bee11D49A1CbCe2b291538dE7a7dD81c6",
+			"0x412D0E31790D77b6e7a7872a9fd6967B6E640229",
+			"0x2F849ba554C1ea2eDe9C240Bbe9d247dd6eC8A6B",
+			"0xE415952f5ee06f8A548F4f7D5bE18FBf144b4E4D"
+		],
+		"isGovernanceLimited": true
+	},
+	"frontier-inverse": {
+		"name": "Frontier Inverse",
+		"description": "An isolated market dedicated to the Inverse ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao", "gauntlet"],
+		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
+		"vaults": [
+			"0x81f8ac1a4756BfE9D7ce138C0C3baD2Cb5E8a582",
+			"0xE668c3F45D126A72cf696Ff46054918Cf1337786",
+			"0x3152EC91ec776f918Cc2090F58319A5a614536e0"
+		],
+		"isGovernanceLimited": true
+	},
+	"frontier-yala": {
+		"name": "Frontier Yala",
+		"description": "An isolated market dedicated to the Yala ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao", "gauntlet"],
+		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
+		"vaults": [
+			"0x481D4909D7ca2eb27c4975f08dCE07DBeF0d3Fa7",
+			"0x1F46186AF85A967416b17380800c69860B7C516F",
+			"0x0F93f35c0664A6a8231ccAe7E22f652c9c075b32"
+		],
+		"isGovernanceLimited": true
+	},
 	"stablecoin-maxi": {
 		"name": "Stablecoin Maxi",
 		"entity": "re7-labs",
