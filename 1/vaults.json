@@ -334,6 +334,56 @@
 		"description": "A PT-slvlUSD-25SEP2025 escrowed collateral vault used to borrow USDC, lvlUSD, and slvlUSD in the Frontier Level market.",
 		"entity": ["euler-dao", "gauntlet"]
 	},
+	"0x3573A84Bee11D49A1CbCe2b291538dE7a7dD81c6": {
+		"name": "Frontier Falcon USDC",
+		"description": "A USDC vault collateralized by Falcon ecosystem vaults in the Frontier Falcon market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x412D0E31790D77b6e7a7872a9fd6967B6E640229": {
+		"name": "Frontier Falcon USDf",
+		"description": "A USDf vault collateralized by Falcon ecosystem vaults in the Frontier Falcon market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x2F849ba554C1ea2eDe9C240Bbe9d247dd6eC8A6B": {
+		"name": "Frontier Falcon sUSDf",
+		"description": "A sUSDf vault collateralized by Falcon ecosystem vaults in the Frontier Falcon market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xE415952f5ee06f8A548F4f7D5bE18FBf144b4E4D": {
+		"name": "Frontier Falcon PT-sUSDf-25SEP2025",
+		"description": "A PT-sUSDf-25SEP2025 escrowed collateral vault used to borrow USDC, USDf, and sUSDf in the Frontier Falcon market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x81f8ac1a4756BfE9D7ce138C0C3baD2Cb5E8a582": {
+		"name": "Frontier Inverse USDC",
+		"description": "A USDC vault collateralized by DOLA and sDOLA in the Frontier Inverse market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xE668c3F45D126A72cf696Ff46054918Cf1337786": {
+		"name": "Frontier Inverse DOLA",
+		"description": "A DOLA vault collateralized by USDC and sDOLA in the Frontier Inverse market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x3152EC91ec776f918Cc2090F58319A5a614536e0": {
+		"name": "Frontier Inverse sDOLA",
+		"description": "A sDOLA escrowed collateral vault used to borrow USDC and DOLA in the Frontier Inverse market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x481D4909D7ca2eb27c4975f08dCE07DBeF0d3Fa7": {
+		"name": "Frontier Yala USDC",
+		"description": "A USDC vault collateralized by Yala ecosystem vaults in the Frontier Yala market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x1F46186AF85A967416b17380800c69860B7C516F": {
+		"name": "Frontier Yala Yu",
+		"description": "A Yu vault collateralized by Yala ecosystem vaults in the Frontier Yala market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x0F93f35c0664A6a8231ccAe7E22f652c9c075b32": {
+		"name": "Frontier Yala PT-Yu-04SEP2025",
+		"description": "A PT-Yu-04SEP2025 escrowed collateral vault used to borrow USDC and Yu in the Frontier Yala market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
 	"0x67e4e4e73947257Ca62D118E0FBC56D06f11d96F": {
 		"name": "Re7 Labs Basic WETH",
 		"description": "A WETH vault collateralized by other vaults in the Re7 Labs Basic Cluster.",
