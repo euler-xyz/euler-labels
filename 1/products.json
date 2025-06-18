@@ -65,23 +65,15 @@
 			"0xaabc07A47D2a63a9b06A7924a0780c2F3cAE7bf9"
 		]
 	},
-	"euler-repo": {
-		"name": "Euler Repo",
-		"description": "A market tailored to low-risk borrowing against tokenized US treasuries. Governed by Euler DAO.",
+	"euler-rwa": {
+		"name": "Euler RWA",
+		"description": "A market tailored to borrowing against real-world assets. Governed by Euler DAO.",
 		"entity": ["euler-dao", "gauntlet"],
-		"url": "https://forum.euler.finance/t/creation-of-euler-t-bill-market-on-ethereum/1348",
 		"vaults": [
-			"0x959Ae4dD74fD525b33Ff0ff776B4b352abd48322",
-			"0xDF78489C3cFC738194afE34fb3F379c0A3E0c5Db",
-			"0xc943c1CDD7b3Fbb6A77f571698406b418C902f0c",
-			"0x17d4Fb15a85eC7042c23490A9D69F3D1e69Dd2A1",
-			"0xb85782faD5c5C5f88DbD1A69e2dCf8BF0c303bFb",
-			"0x140AAE127acAcb5A54E4249c0ba879c39E33541c",
-			"0x47ea329b1331f35515948120d0Ce32AA580e2bAD",
-			"0x863c32f64F0d6e23fb0d0e76b884c7a08638157A",
-			"0x59FbeBFA008b718234438548C9eF8D32706b5cE5",
-			"0x8B69725A01Ea305b3240680d16bB8561373A96F3",
-			"0x1F39EDcEf393b0A8883772CDA202EEdeEc99d9c4"
+			"0xEA79E49A076a75A9bF6013505C2B92eED69E4fe1",
+			"0xabBe766f216f689818C3A1f98647cE4E41495325",
+			"0x155d4A34938dcB27486f5Bbf6a19d19D0ef0DD8A",
+			"0xC51e90b48FD7fBfF316502b85A71e0EBb1ee5238"
 		]
 	},
 	"frontier-renzo": {
@@ -130,6 +122,43 @@
 			"0x1e0b68A83Ef062CDE687351C472cFd0E9300A06d",
 			"0xF2ec2d8fE1351bAFF31643855C0f4D1E63Bd1ce4",
 			"0x889b0ab73A262759e1Da530eA027268Fd9C2B35f"
+		],
+		"isGovernanceLimited": true
+	},
+	"frontier-falcon": {
+		"name": "Frontier Falcon",
+		"description": "An isolated market dedicated to the Falcon ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao", "gauntlet"],
+		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
+		"vaults": [
+			"0x3573A84Bee11D49A1CbCe2b291538dE7a7dD81c6",
+			"0x412D0E31790D77b6e7a7872a9fd6967B6E640229",
+			"0x2F849ba554C1ea2eDe9C240Bbe9d247dd6eC8A6B",
+			"0xE415952f5ee06f8A548F4f7D5bE18FBf144b4E4D"
+		],
+		"isGovernanceLimited": true
+	},
+	"frontier-inverse": {
+		"name": "Frontier Inverse",
+		"description": "An isolated market dedicated to the Inverse ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao", "gauntlet"],
+		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
+		"vaults": [
+			"0x81f8ac1a4756BfE9D7ce138C0C3baD2Cb5E8a582",
+			"0xE668c3F45D126A72cf696Ff46054918Cf1337786",
+			"0x3152EC91ec776f918Cc2090F58319A5a614536e0"
+		],
+		"isGovernanceLimited": true
+	},
+	"frontier-yala": {
+		"name": "Frontier Yala",
+		"description": "An isolated market dedicated to the Yala ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao", "gauntlet"],
+		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
+		"vaults": [
+			"0x481D4909D7ca2eb27c4975f08dCE07DBeF0d3Fa7",
+			"0x1F46186AF85A967416b17380800c69860B7C516F",
+			"0x0F93f35c0664A6a8231ccAe7E22f652c9c075b32"
 		],
 		"isGovernanceLimited": true
 	},
@@ -369,6 +398,14 @@
 			"0xc6137BC1378c2396051e06417704d31615F77Cb9",
 			"0xC1C51C5c9EfaF0c485Aa1097AE9690B5e102975A",
 			"0xEc91B109817b20d4Ebd364A181666327194763F0"
+		]
+	},
+	"keyring": {
+		"name": "Keyring zkVerified Cluster",
+		"entity": "keyring",
+		"vaults": [
+			"0x10e0B2B42874ADF8c29D5F900c0D18b61f048ffb",
+			"0xB6c9363DB7D651106Da38C68F34253688Fa25cda"
 		]
 	}
 }

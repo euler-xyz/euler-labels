@@ -249,59 +249,24 @@
 		"description": "A PT-cUSDO-20NOV2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
 		"entity": "euler-dao"
 	},
-	"0x959Ae4dD74fD525b33Ff0ff776B4b352abd48322": {
-		"name": "Euler Repo USDC",
-		"description": " A USDC vault collateralized by other vaults in the Euler Repo cluster.",
+	"0xEA79E49A076a75A9bF6013505C2B92eED69E4fe1": {
+		"name": "Euler RWA USDC",
+		"description": "A USDC vault collateralized by other vaults in the Euler RWA cluster",
 		"entity": "euler-dao"
 	},
-	"0xDF78489C3cFC738194afE34fb3F379c0A3E0c5Db": {
-		"name": "Euler Repo USDT",
-		"description": " A USDT vault collateralized by other vaults in the Euler Repo cluster.",
+	"0xabBe766f216f689818C3A1f98647cE4E41495325": {
+		"name": "Euler RWA USDT",
+		"description": "A USDT vault collateralized by other vaults in the Euler RWA cluster",
 		"entity": "euler-dao"
 	},
-	"0xc943c1CDD7b3Fbb6A77f571698406b418C902f0c": {
-		"name": "Euler Repo USDtb",
-		"description": " A USDtb vault collateralized by other vaults in the Euler Repo cluster.",
+	"0x155d4A34938dcB27486f5Bbf6a19d19D0ef0DD8A": {
+		"name": "Euler RWA RLUSD",
+		"description": "A RLUSD vault collateralized by other vaults in the Euler RWA cluster",
 		"entity": "euler-dao"
 	},
-	"0x17d4Fb15a85eC7042c23490A9D69F3D1e69Dd2A1": {
-		"name": "Euler Repo RLUSD",
-		"description": " A RLUSD vault collateralized by other vaults in the Euler Repo cluster.",
-		"entity": "euler-dao"
-	},
-	"0xb85782faD5c5C5f88DbD1A69e2dCf8BF0c303bFb": {
-		"name": "Euler Repo wM",
-		"description": " A wM vault collateralized by other vaults in the Euler Repo cluster.",
-		"entity": "euler-dao"
-	},
-	"0x140AAE127acAcb5A54E4249c0ba879c39E33541c": {
-		"name": "Euler Repo sBUIDL",
-		"description": " A sBUIDL escrowed collateral vault used by other vaults in the Euler Repo cluster.",
-		"entity": "euler-dao"
-	},
-	"0x47ea329b1331f35515948120d0Ce32AA580e2bAD": {
-		"name": "Euler Repo USYC",
-		"description": " A USYC escrowed collateral vault used by other vaults in the Euler Repo cluster.",
-		"entity": "euler-dao"
-	},
-	"0x863c32f64F0d6e23fb0d0e76b884c7a08638157A": {
-		"name": "Euler Repo USDY",
-		"description": " A USDY escrowed collateral vault used by other vaults in the Euler Repo cluster.",
-		"entity": "euler-dao"
-	},
-	"0x59FbeBFA008b718234438548C9eF8D32706b5cE5": {
-		"name": "Euler Repo wUSDM",
-		"description": " A wUSDM escrowed collateral vault used by other vaults in the Euler Repo cluster.",
-		"entity": "euler-dao"
-	},
-	"0x8B69725A01Ea305b3240680d16bB8561373A96F3": {
-		"name": "Euler Repo wUSDL",
-		"description": " A wUSDL escrowed collateral vault used by other vaults in the Euler Repo cluster.",
-		"entity": "euler-dao"
-	},
-	"0x1F39EDcEf393b0A8883772CDA202EEdeEc99d9c4": {
-		"name": "Euler Repo mTBILL",
-		"description": " A mTBILL escrowed collateral vault used by other vaults in the Euler Repo cluster.",
+	"0xC51e90b48FD7fBfF316502b85A71e0EBb1ee5238": {
+		"name": "Euler RWA sBUIDL",
+		"description": "A sBUIDL escrowed collateral vault collateralized by other vaults in the Euler RWA cluster",
 		"entity": "euler-dao"
 	},
 	"0xdc1aeF6cF0F13267281a0D3547D205eA32287e49": {
@@ -367,6 +332,56 @@
 	"0x889b0ab73A262759e1Da530eA027268Fd9C2B35f": {
 		"name": "Frontier Level PT-slvlUSD-25SEP2025",
 		"description": "A PT-slvlUSD-25SEP2025 escrowed collateral vault used to borrow USDC, lvlUSD, and slvlUSD in the Frontier Level market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x3573A84Bee11D49A1CbCe2b291538dE7a7dD81c6": {
+		"name": "Frontier Falcon USDC",
+		"description": "A USDC vault collateralized by Falcon ecosystem vaults in the Frontier Falcon market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x412D0E31790D77b6e7a7872a9fd6967B6E640229": {
+		"name": "Frontier Falcon USDf",
+		"description": "A USDf vault collateralized by Falcon ecosystem vaults in the Frontier Falcon market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x2F849ba554C1ea2eDe9C240Bbe9d247dd6eC8A6B": {
+		"name": "Frontier Falcon sUSDf",
+		"description": "A sUSDf vault collateralized by Falcon ecosystem vaults in the Frontier Falcon market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xE415952f5ee06f8A548F4f7D5bE18FBf144b4E4D": {
+		"name": "Frontier Falcon PT-sUSDf-25SEP2025",
+		"description": "A PT-sUSDf-25SEP2025 escrowed collateral vault used to borrow USDC, USDf, and sUSDf in the Frontier Falcon market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x81f8ac1a4756BfE9D7ce138C0C3baD2Cb5E8a582": {
+		"name": "Frontier Inverse USDC",
+		"description": "A USDC vault collateralized by DOLA and sDOLA in the Frontier Inverse market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xE668c3F45D126A72cf696Ff46054918Cf1337786": {
+		"name": "Frontier Inverse DOLA",
+		"description": "A DOLA vault collateralized by USDC and sDOLA in the Frontier Inverse market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x3152EC91ec776f918Cc2090F58319A5a614536e0": {
+		"name": "Frontier Inverse sDOLA",
+		"description": "A sDOLA escrowed collateral vault used to borrow USDC and DOLA in the Frontier Inverse market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x481D4909D7ca2eb27c4975f08dCE07DBeF0d3Fa7": {
+		"name": "Frontier Yala USDC",
+		"description": "A USDC vault collateralized by Yala ecosystem vaults in the Frontier Yala market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x1F46186AF85A967416b17380800c69860B7C516F": {
+		"name": "Frontier Yala Yu",
+		"description": "A Yu vault collateralized by Yala ecosystem vaults in the Frontier Yala market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x0F93f35c0664A6a8231ccAe7E22f652c9c075b32": {
+		"name": "Frontier Yala PT-Yu-04SEP2025",
+		"description": "A PT-Yu-04SEP2025 escrowed collateral vault used to borrow USDC and Yu in the Frontier Yala market.",
 		"entity": ["euler-dao", "gauntlet"]
 	},
 	"0x67e4e4e73947257Ca62D118E0FBC56D06f11d96F": {
@@ -963,5 +978,15 @@
 		"name": "Liquity Hub sBOLD",
 		"description": "Component of the Liquity Hub Cluster",
 		"entity": "k3"
+	},
+	"0x10e0B2B42874ADF8c29D5F900c0D18b61f048ffb": {
+		"name": "Pareto USDC",
+		"description": "Component of the Pareto Keyring Cluster",
+		"entity": "keyring"
+	},
+	"0xB6c9363DB7D651106Da38C68F34253688Fa25cda": {
+		"name": "Pareto sUSP",
+		"description": "Pareto sUSP is the staked savings asset of USP built on Ethereum. Component of the Pareto Keyring Cluster",
+		"entity": "keyring"
 	}
 }
