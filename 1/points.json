@@ -129,15 +129,6 @@
 		"entity": ["mev-capital"]
 	},
 	{
-		"name": "40% Yieldnest points boost if they are part of [Liquidity.land](https://liquidity.land)",
-		"logo": "liquidity.png",
-		"collateralVaults": [
-			"0x6d18F74AAD8494B789aE34b5455816F79664d209",
-			"0x29D824d54Fd5118543E81637b8f865d045191F30"
-		],
-		"entity": ["alterscope"]
-	},
-	{
 		"name": "30 Sats per eUSDe per day",
 		"logo": "ethena.png",
 		"collateralVaults": ["0x61aAC438453d6e3513C0c8dbb69F13860E2B5028"],
