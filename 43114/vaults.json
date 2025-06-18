@@ -159,6 +159,11 @@
 		"description": "Component of the K3 Capital Cluster",
 		"entity": "k3-capital"
 	},
+	"0x51b47B3013863c52CA28D603De3C2d7a5FEf50B9": {
+		"name": "K3 Capital weETH",
+		"description": "Component of the K3 Capital Cluster",
+		"entity": "k3-capital"
+	},
 	"0x50B2323Ecb8F41c7204099BAb5dF8C2dA520d2A1": {
 		"name": "Keyring USDC",
 		"description": "Component of the Keyring Avalanche Cluster",
