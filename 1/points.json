@@ -247,5 +247,17 @@
 		"logo": "radius.png",
 		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"],
 		"entity": ["mev-capital"]
+	},
+	{
+		"name": "5x Berries",
+		"logo": "berry.png",
+		"collateralVaults": ["0x481D4909D7ca2eb27c4975f08dCE07DBeF0d3Fa7"],
+		"entity": ["euler-dao"]
+	},
+	{
+		"name": "3x Berries",
+		"logo": "berry.png",
+		"collateralVaults": ["0x1F46186AF85A967416b17380800c69860B7C516F"],
+		"entity": ["euler-dao"]
 	}
 ]
