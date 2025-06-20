@@ -549,9 +549,19 @@
 		"description": "Vaults designed for advanced liquid restaking strategies.",
 		"entity": "alterscope"
 	},
+	"0x91Fa3167591Fe29071F265d076B64c22A89Ae9AD": {
+		"name": "Alterscope LRT ynUSDx",
+		"description": "Vaults designed for advanced liquid restaking strategies.",
+		"entity": "alterscope"
+	},
 	"0x45c3B59d53e2e148Aaa6a857521059676D5c0489": {
 		"name": "Alterscope LRT YieldNest WETH",
 		"description": "Vaults designed for advanced liquid restaking strategies for YieldNest products.",
+		"entity": "alterscope"
+	},
+	"0x05755D78caD24417c42960b93D3Bf821a92e4d82": {
+		"name": "Alterscope LRT USDC",
+		"description": "Vaults designed for advanced liquid restaking strategies.",
 		"entity": "alterscope"
 	},
 	"0xc4984bB39465465432321519839c489F4275B164": {
