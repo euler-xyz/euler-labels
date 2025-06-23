@@ -243,5 +243,15 @@
 		"name": "Re7 Labs USD1",
 		"description": "Component of the Re7 Labs BSC Cluster",
 		"entity": "re7-labs"
+	},
+	"0x5d3b4bcff6a24A20a98070263D03D474586c9b29": {
+		"name": "Re7 Labs USDX",
+		"description": "Component of the Re7 Labs BSC Cluster",
+		"entity": "re7-labs"
+	},
+	"0xA00C61ad8c560163c3Ee798a5eAA63EF81BA41e0": {
+		"name": "Re7 Labs sUSDX",
+		"description": "Component of the Re7 Labs BSC Cluster",
+		"entity": "re7-labs"
 	}
 }
