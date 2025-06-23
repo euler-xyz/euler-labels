@@ -348,8 +348,8 @@
 		"entity": "Usual",
 		"url": "https://app.pendle.finance/trade/markets/0xf8094570485b124b4f2abe98909a87511489c162/swap?view=pt&chain=ethereum",
 		"vaults": [
-			"0x77633305032b6bdf3ebdb373b3badccb2786ce2f",
-			"0xcc45184138c6de9aa4e15d6f83fc737a363bd739"
+			"0x77633305032b6bDf3eBdB373b3bADcCb2786ce2f",
+			"0xcC45184138c6De9AA4e15d6F83fC737a363Bd739"
 		]
 	},
 	"openeden": {
