@@ -847,12 +847,12 @@
 	"0x77633305032b6bDf3eBdB373b3bADcCb2786ce2f": {
 		"name": "USUAL USD0 vault",
 		"description": "The Usual's PT USD0++ vault lets you borrow USD0 at a fixed rate using Pendle PTs as collateral, unlocking leveraged yield opportunities with stable borrowing costs and minimized rate volatility.",
-		"entity": "Usual"
+		"entity": ["usual"]
 	},
 	"0xcC45184138c6De9AA4e15d6F83fC737a363Bd739": {
 		"name": "USUAL PT USD0++ vault",
 		"description": "The Usual's PT USD0++ vault lets you borrow USD0 at a fixed rate using Pendle PTs as collateral, unlocking leveraged yield opportunities with stable borrowing costs and minimized rate volatility.",
-		"entity": "Usual"
+		"entity": ["usual"]
 	},
 	"0xE27A96f4c9528e3d32E6f31c6aCa9281EbEA0338": {
 		"name": "OpenEden USDC",

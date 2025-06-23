@@ -345,7 +345,7 @@
 	"Usual PT USD0++ vault": {
 		"name": "Usual's PT USD0++ vault",
 		"description": "Usual's PT USD0++ vault lets you borrow USD0 at a fixed rate using Pendle PTs as collateral, unlocking leveraged yield opportunities with stable borrowing costs and minimized rate volatility.",
-		"entity": "Usual",
+		"entity": "usual",
 		"url": "https://app.pendle.finance/trade/markets/0xf8094570485b124b4f2abe98909a87511489c162/swap?view=pt&chain=ethereum",
 		"vaults": [
 			"0x77633305032b6bDf3eBdB373b3bADcCb2786ce2f",
