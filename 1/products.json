@@ -344,7 +344,7 @@
 			"0xF037eeEBA7729c39114B9711c75FbccCa4A343C8"
 		]
 	},
-	"Usual PT USD0++ vault": {
+	"usual-pt-usd0-plus-plus-vault": {
 		"name": "Usual's PT USD0++ vault",
 		"description": "Usual's PT USD0++ vault lets you borrow USD0 at a fixed rate using Pendle PTs as collateral, unlocking leveraged yield opportunities with stable borrowing costs and minimized rate volatility.",
 		"entity": "usual",

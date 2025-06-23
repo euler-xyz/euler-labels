@@ -79,7 +79,7 @@ function validateChain(chainId) {
 		const product = products[productId];
 
 		if (!validSlug(productId))
-			throw Error(`products: invalid slug: ${entityId}`);
+			throw Error(`products: invalid slug: ${productId}`);
 		if (!product.name) throw Error(`products: missing name: ${productId}`);
 
 		for (const addr of product.vaults) {
