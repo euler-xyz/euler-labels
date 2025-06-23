@@ -844,6 +844,16 @@
 		"description": "The Usual Stability Loan enables users to leverage their USD0++ to arbitrage when it depegs, by borrowing USD0 at a fixed interest rate.",
 		"entity": ["usual"]
 	},
+	"0x77633305032b6bdf3ebdb373b3badccb2786ce2f": {
+		"name": "USUAL USD0 vault",
+		"description": "The Usual's PT USD0++ vault lets you borrow USD0 at a fixed rate using Pendle PTs as collateral, unlocking leveraged yield opportunities with stable borrowing costs and minimized rate volatility.",
+		"entity": "Usual"
+	},
+	"0xcc45184138c6de9aa4e15d6f83fc737a363bd739": {
+		"name": "USUAL PT USD0++ vault",
+		"description": "The Usual's PT USD0++ vault lets you borrow USD0 at a fixed rate using Pendle PTs as collateral, unlocking leveraged yield opportunities with stable borrowing costs and minimized rate volatility.",
+		"entity": "Usual"
+	},
 	"0xE27A96f4c9528e3d32E6f31c6aCa9281EbEA0338": {
 		"name": "OpenEden USDC",
 		"description": "USDC",

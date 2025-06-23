@@ -143,7 +143,8 @@
 		"url": "https://www.usual.money/",
 		"addresses": {
 			"0xdd82875f0840AAD58a455A70B88eEd9F59ceC7c7": "Usual Collateral Treasury",
-			"0x81ad394C0Fa87e99Ca46E1aca093BEe020f203f4": "Usual Yield Treasury"
+			"0x81ad394C0Fa87e99Ca46E1aca093BEe020f203f4": "Usual Yield Treasury",
+			"0xF3D913De4B23ddB9CfdFAF955BAC5634CbAE95F4": "Longterm Treasury"
 		},
 		"social": {
 			"twitter": "usualmoney",
