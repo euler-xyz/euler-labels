@@ -1,0 +1,37 @@
+{
+	"0x0a1eCC5Fe8C9be3C809844fcBe615B46A869b899": {
+		"name": "Euler Prime USDC",
+		"description": "A conservative USDC vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
+		"entity": "euler-dao"
+	},
+	"0x37512F45B4ba8808910632323b73783Ca938CD51": {
+		"name": "Euler Prime USDT0",
+		"description": "A conservative USDT0 vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
+		"entity": "euler-dao"
+	},
+	"0x78E3E051D32157AACD550fBB78458762d8f7edFF": {
+		"name": "Euler Prime WETH",
+		"description": "A conservative WETH vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
+		"entity": "euler-dao"
+	},
+	"0xA8616E4D9f3f0aa01aff1d7c3b66249f8a5f1A58": {
+		"name": "Euler Prime wstETH",
+		"description": "A conservative wstETH vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
+		"entity": "euler-dao"
+	},
+	"0x5A8294CE02908B1da68c6c39695c9b0FbaF7675d": {
+		"name": "Euler Prime weETH",
+		"description": "A conservative weETH vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
+		"entity": "euler-dao"
+	},
+	"0x889E1c458B2469b70aCcdfb5B59726dC1668896C": {
+		"name": "Euler Prime WBTC",
+		"description": "A conservative WBTC vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
+		"entity": "euler-dao"
+	},
+	"0x7eD866D2D66c3149FaFE854C30C68a8BA7ceE8B9": {
+		"name": "Euler Prime ARB",
+		"description": "A conservative ARB vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
+		"entity": "euler-dao"
+	}
+}
