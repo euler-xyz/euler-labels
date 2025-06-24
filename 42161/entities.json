@@ -5,7 +5,8 @@
 		"description": "The Euler DAO is the organisation responsible for the creation of the Euler lending/borrowing platform.",
 		"url": "https://euler.finance/",
 		"addresses": {
-			"0xe55798d71193bAA789031415b668A992F2e566EE": "Euler DAO Multisig"
+			"0xe55798d71193bAA789031415b668A992F2e566EE": "Euler DAO Multisig",
+			"0xaB08F1986685A47eA2bDA6C02f74286517Fb615C": "Euler Vault Access Control Governor"
 		},
 		"social": {
 			"twitter": "eulerfinance",
@@ -20,6 +21,9 @@
 		"logo": "gauntlet.svg",
 		"description": "Gauntlet's applied research and optimization teams model market risk, economic incentives, and drive sustainable growth for crypto's top protocols, chains, and onchain treasuries.",
 		"url": "https://www.gauntlet.xyz/",
+		"addresses": {
+			"0xaB08F1986685A47eA2bDA6C02f74286517Fb615C": "Euler Vault Access Control Governor"
+		},
 		"social": {
 			"twitter": "gauntlet_xyz"
 		}
