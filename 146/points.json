@@ -69,12 +69,28 @@
 		"entity": ["mev-capital"]
 	},
 	{
-		"name": "up to 5x Rings points",
-		"logo": "rings.svg",
-		"liabilityVaults": [
+		"name": "up to 10x Trevee points",
+		"logo": "trevee.svg",
+		"collateralVaults": [
 			"0xB38D431e932fEa77d1dF0AE0dFE4400c97e597B8",
-			"0xeEb1DC1Ca7ffC5b54aD1cc4c1088Db4E5657Cb6c"
+			"0xeEb1DC1Ca7ffC5b54aD1cc4c1088Db4E5657Cb6c",
+			"0x05d57366B862022F76Fe93316e81E9f24218bBfC"
 		],
+		"entity": ["mev-capital"]
+	},
+	{
+		"name": "up to 5x Trevee points",
+		"logo": "trevee.svg",
+		"collateralVaults": [
+			"0x0806af1762Bdd85B167825ab1a64E31CF9497038",
+			"0xEeb63D2d370C5318ef174D366A41507F9380f093"
+		],
+		"entity": ["mev-capital"]
+	},
+	{
+		"name": "up to 20x Trevee points",
+		"logo": "trevee.svg",
+		"collateralVaults": ["0x1cDA7E7B2023C3f3c94Aa1999937358fA9D01Aab"],
 		"entity": ["mev-capital"]
 	}
 ]
