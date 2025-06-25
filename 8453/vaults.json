@@ -153,5 +153,35 @@
 		"name": "Re7 Labs PT-LBTC-29MAY2025",
 		"description": "A PT-LBTC-29MAY2025 vault collateralized by other vaults in the Re7 Labs Cluster.",
 		"entity": "re7-labs"
+	},
+	"0xFab9aF50F7A1Cfe201CAE1c15fCFdDaE7705ccD3": {
+		"name": "Frontier YO yoBTC",
+		"description": "A YO yoBTC vault collateralized by other vaults in the Frontier YO yoBTC market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x774C08F8e78C47046d325C0331788954C35DF10a": {
+		"name": "Frontier YO WETH",
+		"description": "A YO WETH vault collateralized by other vaults in the Frontier YO yoETH market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xe72eA97aAF905c5f10040f78887cc8dE8eAec7E4": {
+		"name": "Frontier YO cbBTC",
+		"description": "A YO cbBTC vault collateralized by other vaults in the Frontier YO yoBTC market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xdbDC9c3EdBD401109c83b333c16A0251806b3330": {
+		"name": "Frontier YO yoETH",
+		"description": "A YO yoETH vault collateralized by other vaults in the Frontier YO yoETH market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x085178078796Da17B191f9081b5E2fCCc79A7eE7": {
+		"name": "Frontier YO USDC",
+		"description": "A YO USDC vault collateralized by other vaults in the Frontier YO yoUSD market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x990d616ca6E7192625d1B7C41Fb67b5758DF7CF2": {
+		"name": "Frontier YO yoUSD",
+		"description": "A YO yoUSD vault collateralized by other vaults in the Frontier YO yoUSD market.",
+		"entity": ["euler-dao", "gauntlet"]
 	}
 }

@@ -259,5 +259,17 @@
 		"logo": "berry.png",
 		"collateralVaults": ["0x1F46186AF85A967416b17380800c69860B7C516F"],
 		"entity": ["euler-dao"]
+	},
+	{
+		"name": "2.5x Upshift Points",
+		"logo": "upshift.png",
+		"collateralVaults": ["0x87c414825aB3d1E9bdC773e9B1fD968822c9CF51"],
+		"entity": ["euler-dao"]
+	},
+	{
+		"name": "5x Upshift Points",
+		"logo": "upshift.png",
+		"collateralVaults": ["0x3F714090F7648139043349f599A48904187d76D0"],
+		"entity": ["euler-dao"]
 	}
 ]
