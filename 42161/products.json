@@ -1,6 +1,6 @@
 {
-	"euler-prime": {
-		"name": "Euler Prime",
+	"euler-arbitrum": {
+		"name": "Euler Arbitrum",
 		"description": "A market tailored to facilitate common trades like blue chip lending, stablecoin borrowing, and LST/LRT looping. Governed by Euler DAO.",
 		"entity": ["euler-dao", "gauntlet"],
 		"url": "https://forum.euler.finance/t/creation-of-arbitrum-market/1501",
