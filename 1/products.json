@@ -420,5 +420,29 @@
 			"0x10e0B2B42874ADF8c29D5F900c0D18b61f048ffb",
 			"0xB6c9363DB7D651106Da38C68F34253688Fa25cda"
 		]
+	},
+	"frontier-upshift": {
+		"name": "Frontier Upshift",
+		"description": "An isolated market dedicated to the Upshift ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao", "gauntlet"],
+		"url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/10?u=upshift.fi",
+		"vaults": [
+			"0x87c414825aB3d1E9bdC773e9B1fD968822c9CF51",
+			"0x3F714090F7648139043349f599A48904187d76D0",
+			"0x18337806b02b02099209b05589E6db85acD4345C"
+		],
+		"isGovernanceLimited": true
+	},
+	"frontier-puffer": {
+		"name": "Frontier Puffer",
+		"description": "An isolated market dedicated to the Puffer ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao", "gauntlet"],
+		"url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/11",
+		"vaults": [
+			"0xe20a71f4eaB87dA446Ff8d477637730C6011aD09",
+			"0x990BA045b5f5AB53BB4C52d6AdbF568e4048Bd86",
+			"0x8fF7ba15eCa92d22e189DaE5b59aF82B40Eb34f2"
+		],
+		"isGovernanceLimited": true
 	}
 }
