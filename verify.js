@@ -136,9 +136,6 @@ function validateChain(chainId) {
 					throw Error(`points: malformed vault address: ${addr}`);
 			}
 		}
-		for (const entity of getArray(point.entity)) {
-			if (!entities[entity]) throw Error(`points: no such entity ${entity}`);
-		}
 	}
 
 	for (const vaultId of Object.keys(opportunities)) {

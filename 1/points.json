@@ -2,74 +2,62 @@
 	{
 		"name": "5 Sats per sUSDe per day",
 		"logo": "ethena.png",
-		"collateralVaults": ["0x8dDE384022D4dE1D6C67891a8865f551c444dc4C"],
-		"entity": ["re7-labs", "mev-capital", "k3"]
+		"collateralVaults": ["0x8dDE384022D4dE1D6C67891a8865f551c444dc4C"]
 	},
 	{
 		"name": "20 Sats per USDe per day",
 		"logo": "ethena.png",
-		"collateralVaults": ["0xAc73efA7696DC1c1617BbC20aeC64422c8b70EDa"],
-		"entity": ["re7-labs", "mev-capital", "k3"]
+		"collateralVaults": ["0xAc73efA7696DC1c1617BbC20aeC64422c8b70EDa"]
 	},
 	{
 		"name": "2x Ether.fi points",
 		"logo": "ethfi.png",
-		"collateralVaults": ["0xe846ca062aB869b66aE8DcD811973f628BA82eAf"],
-		"entity": ["euler-dao"]
+		"collateralVaults": ["0xe846ca062aB869b66aE8DcD811973f628BA82eAf"]
 	},
 	{
 		"name": "2x Lombard Lux",
 		"logo": "lombard.svg",
-		"collateralVaults": ["0x056f3a2E41d2778D3a0c0714439c53af2987718E"],
-		"entity": ["euler-dao"]
+		"collateralVaults": ["0x056f3a2E41d2778D3a0c0714439c53af2987718E"]
 	},
 	{
 		"name": "2x Lombard Lux",
 		"logo": "lombard.svg",
-		"collateralVaults": ["0x998D761eC1BAdaCeb064624cc3A1d37A46C88bA4"],
-		"entity": ["euler-dao"]
+		"collateralVaults": ["0x998D761eC1BAdaCeb064624cc3A1d37A46C88bA4"]
 	},
 	{
 		"name": "3x Lombard Lux",
 		"logo": "lombard.svg",
-		"collateralVaults": ["0xbC35161043EE2D74816d421EfD6a45fDa73B050A"],
-		"entity": ["euler-dao"]
+		"collateralVaults": ["0xbC35161043EE2D74816d421EfD6a45fDa73B050A"]
 	},
 	{
 		"name": "Babylon Points",
 		"logo": "babylon.png",
-		"collateralVaults": ["0xbC35161043EE2D74816d421EfD6a45fDa73B050A"],
-		"entity": ["euler-dao"]
+		"collateralVaults": ["0xbC35161043EE2D74816d421EfD6a45fDa73B050A"]
 	},
 	{
 		"name": "2x Ether.fi points",
 		"logo": "ethfi.png",
-		"collateralVaults": ["0xC605471aE09e0b7daA9e8813707d0DDbf9429Ad2"],
-		"entity": ["apostro"]
+		"collateralVaults": ["0xC605471aE09e0b7daA9e8813707d0DDbf9429Ad2"]
 	},
 	{
 		"name": "2x Lombard Lux",
 		"logo": "lombard.svg",
-		"collateralVaults": ["0x82D2CE1f71cbe391c05E21132811e5172d51A6EE"],
-		"entity": ["apostro"]
+		"collateralVaults": ["0x82D2CE1f71cbe391c05E21132811e5172d51A6EE"]
 	},
 	{
 		"name": "2x Lombard Lux",
 		"logo": "lombard.svg",
-		"collateralVaults": ["0x29A9E5A004002Ff9E960bb8BB536E076F53cbDF1"],
-		"entity": ["apostro"]
+		"collateralVaults": ["0x29A9E5A004002Ff9E960bb8BB536E076F53cbDF1"]
 	},
 	{
 		"name": "3x Lombard Lux",
 		"logo": "lombard.svg",
-		"collateralVaults": ["0xA2038a5B7Ce1C195F0C52b77134c5369CCfe0148"],
-		"entity": ["apostro"]
+		"collateralVaults": ["0xA2038a5B7Ce1C195F0C52b77134c5369CCfe0148"]
 	},
 	{
 		"name": "Babylon Points",
 		"logo": "babylon.png",
-		"collateralVaults": ["0xA2038a5B7Ce1C195F0C52b77134c5369CCfe0148"],
-		"entity": ["apostro"]
+		"collateralVaults": ["0xA2038a5B7Ce1C195F0C52b77134c5369CCfe0148"]
 	},
 	{
 		"name": "boosted rEUL if they are part of [turtle.club](https://turtle.club)",
@@ -80,14 +68,12 @@
 	{
 		"name": "30x Resolv Points",
 		"logo": "resolv.svg",
-		"collateralVaults": ["0xc60400289B32E840909795a063aeccFb093E0b47"],
-		"entity": ["apostro"]
+		"collateralVaults": ["0xc60400289B32E840909795a063aeccFb093E0b47"]
 	},
 	{
 		"name": "20x Resolv Points",
 		"logo": "resolv.svg",
-		"collateralVaults": ["0x3A8992754E2EF51D8F90620d2766278af5C59b90"],
-		"entity": ["apostro"]
+		"collateralVaults": ["0x3A8992754E2EF51D8F90620d2766278af5C59b90"]
 	},
 	{
 		"name": "5x Resolv Points",
@@ -95,181 +81,151 @@
 		"collateralVaults": [
 			"0x9f12d29c7CC72bb3d237E2D042A6D890421f9899",
 			"0xcBC9B61177444A793B85442D3a953B90f6170b7D"
-		],
-		"entity": ["apostro"]
+		]
 	},
 	{
 		"name": "20x Resolv Points",
 		"logo": "resolv.svg",
-		"collateralVaults": ["0x7f1d29e70C644c387ded640B28E106e29E349074"],
-		"entity": ["apostro"]
+		"collateralVaults": ["0x7f1d29e70C644c387ded640B28E106e29E349074"]
 	},
 	{
 		"name": "5 Sats per sUSDe per day",
 		"logo": "ethena.png",
-		"collateralVaults": ["0x498c014dE23f19700F51e85a384AB1B059F0672e"],
-		"entity": ["euler-dao"]
+		"collateralVaults": ["0x498c014dE23f19700F51e85a384AB1B059F0672e"]
 	},
 	{
 		"name": "20 Sats per USDe per day",
 		"logo": "ethena.png",
-		"collateralVaults": ["0x2daCa71Cb58285212Dc05D65Cfd4f59A82BC4cF6"],
-		"entity": ["euler-dao"]
+		"collateralVaults": ["0x2daCa71Cb58285212Dc05D65Cfd4f59A82BC4cF6"]
 	},
 	{
 		"name": "5x Resolv Points",
 		"logo": "resolv.svg",
-		"collateralVaults": ["0x3b028b4b6c567eF5f8Ca1144Da4FbaA0D973F228"],
-		"entity": ["tulipa-capital"]
+		"collateralVaults": ["0x3b028b4b6c567eF5f8Ca1144Da4FbaA0D973F228"]
 	},
 	{
 		"name": "2x Bera-Wave Points",
 		"logo": "berastone.svg",
-		"collateralVaults": ["0xc4984bB39465465432321519839c489F4275B164"],
-		"entity": ["mev-capital"]
+		"collateralVaults": ["0xc4984bB39465465432321519839c489F4275B164"]
 	},
 	{
 		"name": "30 Sats per eUSDe per day",
 		"logo": "ethena.png",
-		"collateralVaults": ["0x61aAC438453d6e3513C0c8dbb69F13860E2B5028"],
-		"entity": ["euler-dao"]
+		"collateralVaults": ["0x61aAC438453d6e3513C0c8dbb69F13860E2B5028"]
 	},
 	{
 		"name": "1x Ethereal points",
 		"logo": "ethereal.svg",
-		"collateralVaults": ["0x61aAC438453d6e3513C0c8dbb69F13860E2B5028"],
-		"entity": ["euler-dao"]
+		"collateralVaults": ["0x61aAC438453d6e3513C0c8dbb69F13860E2B5028"]
 	},
 	{
 		"name": "3x Inception Totems",
 		"logo": "inception.svg",
-		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"],
-		"entity": ["mev-capital"]
+		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"]
 	},
 	{
 		"name": "1x Mellow Points",
 		"logo": "mellow.svg",
-		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"],
-		"entity": ["mev-capital"]
+		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"]
 	},
 	{
 		"name": "1x Symbiotic Points",
 		"logo": "symbiotic.png",
-		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"],
-		"entity": ["mev-capital"]
+		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"]
 	},
 	{
 		"name": "10 Treehouse Nuts per ETH worth of tETH",
 		"logo": "nuts.png",
-		"collateralVaults": ["0xA28C23a459fF8773EB4dBe0e7250d93F79F1Fe2B"],
-		"entity": ["euler-dao"]
+		"collateralVaults": ["0xA28C23a459fF8773EB4dBe0e7250d93F79F1Fe2B"]
 	},
 	{
 		"name": "5x OpenEden Bills",
 		"logo": "openeden.png",
-		"collateralVaults": ["0x75f66ed34c274eaD52CFA25De9388E98e12Edb33"],
-		"entity": ["ouroboros-capital"]
+		"collateralVaults": ["0x75f66ed34c274eaD52CFA25De9388E98e12Edb33"]
 	},
 	{
 		"name": "2x OpenEden Bills",
 		"logo": "openeden.png",
-		"collateralVaults": ["0x738bC1e2F68F5ec58ea456fb4269B4b3f51714b5"],
-		"entity": ["ouroboros-capital"]
+		"collateralVaults": ["0x738bC1e2F68F5ec58ea456fb4269B4b3f51714b5"]
 	},
 	{
 		"name": "140x for USN",
 		"logo": "noon-points.svg",
-		"collateralVaults": ["0xc1fF5490651B9B8d0400B0146E7fb174B90E315B"],
-		"entity": ["tulipa-capital"]
+		"collateralVaults": ["0xc1fF5490651B9B8d0400B0146E7fb174B90E315B"]
 	},
 	{
 		"name": "20x for USDT",
 		"logo": "noon-points.svg",
-		"collateralVaults": ["0xc7d526eFefa2e3073531f9e054F5c8cD1d0eC636"],
-		"entity": ["tulipa-capital"]
+		"collateralVaults": ["0xc7d526eFefa2e3073531f9e054F5c8cD1d0eC636"]
 	},
 	{
 		"name": "20x for USDC",
 		"logo": "noon-points.svg",
-		"collateralVaults": ["0x53208e965EB66841598fB8f983a41936EeE6d774"],
-		"entity": ["tulipa-capital"]
+		"collateralVaults": ["0x53208e965EB66841598fB8f983a41936EeE6d774"]
 	},
 	{
 		"name": "10x for USN",
 		"logo": "noon-points.svg",
-		"collateralVaults": ["0x89963076d2aBCf6b3C449A8f0f69439C47C0464d"],
-		"entity": ["tulipa-capital"]
+		"collateralVaults": ["0x89963076d2aBCf6b3C449A8f0f69439C47C0464d"]
 	},
 	{
 		"name": "1x Turtle Inception Points",
 		"logo": "turtle-inception.png",
-		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"],
-		"entity": ["mev-capital"]
+		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"]
 	},
 	{
 		"name": "1x Ditto Points",
 		"logo": "ditto.png",
-		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"],
-		"entity": ["mev-capital"]
+		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"]
 	},
 	{
 		"name": "1x mev-commit points",
 		"logo": "mev-commit.png",
-		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"],
-		"entity": ["mev-capital"]
+		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"]
 	},
 	{
 		"name": "1x Human Network points",
 		"logo": "human-network.jpg",
-		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"],
-		"entity": ["mev-capital"]
+		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"]
 	},
 	{
 		"name": "1 reservoir point per rUSD per day",
 		"logo": "reservoir.svg",
-		"collateralVaults": ["0x6DFC8ae855FA8Ab7bAbB81aB7c8a6DA7794f60fB"],
-		"entity": ["euler-dao"]
+		"collateralVaults": ["0x6DFC8ae855FA8Ab7bAbB81aB7c8a6DA7794f60fB"]
 	},
 	{
 		"name": "0.5 reservoir point per srUSD per day",
 		"logo": "reservoir.svg",
-		"collateralVaults": ["0x16d84F98765Ed86501a052D47E76BFefb2D36206"],
-		"entity": ["euler-dao"]
+		"collateralVaults": ["0x16d84F98765Ed86501a052D47E76BFefb2D36206"]
 	},
 	{
 		"name": "1x Kalypso Points",
 		"logo": "kalypso.png",
-		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"],
-		"entity": ["mev-capital"]
+		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"]
 	},
 	{
 		"name": "1x Radius Points",
 		"logo": "radius.png",
-		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"],
-		"entity": ["mev-capital"]
+		"collateralVaults": ["0x2306e17C7198282985a95b1cE0f63820846d0290"]
 	},
 	{
 		"name": "5x Yala Berries",
 		"logo": "berry.png",
-		"collateralVaults": ["0x481D4909D7ca2eb27c4975f08dCE07DBeF0d3Fa7"],
-		"entity": ["euler-dao"]
+		"collateralVaults": ["0x481D4909D7ca2eb27c4975f08dCE07DBeF0d3Fa7"]
 	},
 	{
 		"name": "3x Yala Berries",
 		"logo": "berry.png",
-		"collateralVaults": ["0x1F46186AF85A967416b17380800c69860B7C516F"],
-		"entity": ["euler-dao"]
+		"collateralVaults": ["0x1F46186AF85A967416b17380800c69860B7C516F"]
 	},
 	{
 		"name": "2.5x Upshift Points",
 		"logo": "upshift.png",
-		"collateralVaults": ["0x87c414825aB3d1E9bdC773e9B1fD968822c9CF51"],
-		"entity": ["euler-dao"]
+		"collateralVaults": ["0x87c414825aB3d1E9bdC773e9B1fD968822c9CF51"]
 	},
 	{
 		"name": "5x Upshift Points",
 		"logo": "upshift.png",
-		"collateralVaults": ["0x3F714090F7648139043349f599A48904187d76D0"],
-		"entity": ["euler-dao"]
+		"collateralVaults": ["0x3F714090F7648139043349f599A48904187d76D0"]
 	}
 ]

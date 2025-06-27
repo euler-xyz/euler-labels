@@ -2,20 +2,17 @@
 	{
 		"name": "3x Ether.fi points",
 		"logo": "ethfi.png",
-		"collateralVaults": ["0xd4A805261B28f375fc9c3d89EcD2C952Cd130d14"],
-		"entity": ["euler-dao"]
+		"collateralVaults": ["0xd4A805261B28f375fc9c3d89EcD2C952Cd130d14"]
 	},
 	{
 		"name": "3x Lombard Lux",
 		"logo": "lombard.svg",
-		"collateralVaults": ["0x3f0d3Fd87A42BDaa3dfCC13ADA42eA922e638a7A"],
-		"entity": ["euler-dao"]
+		"collateralVaults": ["0x3f0d3Fd87A42BDaa3dfCC13ADA42eA922e638a7A"]
 	},
 	{
 		"name": "Babylon Points",
 		"logo": "babylon.png",
-		"collateralVaults": ["0x3f0d3Fd87A42BDaa3dfCC13ADA42eA922e638a7A"],
-		"entity": ["euler-dao"]
+		"collateralVaults": ["0x3f0d3Fd87A42BDaa3dfCC13ADA42eA922e638a7A"]
 	},
 	{
 		"name": "boosted rEUL if they are part of [turtle.club](https://turtle.club)",
@@ -26,14 +23,12 @@
 	{
 		"name": "20x Resolv Points",
 		"logo": "resolv.svg",
-		"collateralVaults": ["0x29Dbce367F5157B924Af5093617bb128477D7A5C"],
-		"entity": ["apostro"]
+		"collateralVaults": ["0x29Dbce367F5157B924Af5093617bb128477D7A5C"]
 	},
 	{
 		"name": "5x Resolv Points",
 		"logo": "resolv.svg",
-		"collateralVaults": ["0xC063C3b3625DF5F362F60f35B0bcd98e0fa650fb"],
-		"entity": ["apostro"]
+		"collateralVaults": ["0xC063C3b3625DF5F362F60f35B0bcd98e0fa650fb"]
 	},
 	{
 		"name": "5x YO Points",
@@ -42,7 +37,6 @@
 			"0xe72eA97aAF905c5f10040f78887cc8dE8eAec7E4",
 			"0x774C08F8e78C47046d325C0331788954C35DF10a",
 			"0x085178078796Da17B191f9081b5E2fCCc79A7eE7"
-		],
-		"entity": ["euler-dao"]
+		]
 	}
 ]
