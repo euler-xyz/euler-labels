@@ -2,20 +2,17 @@
 	{
 		"name": "5 Sats per sUSDe per day",
 		"logo": "ethena.png",
-		"collateralVaults": ["0x3de0CA4AF11108c94c9066a935ee67e53b7f9447"],
-		"entity": ["mev-capital"]
+		"collateralVaults": ["0x3de0CA4AF11108c94c9066a935ee67e53b7f9447"]
 	},
 	{
 		"name": "20 Sats per USDe per day",
 		"logo": "ethena.png",
-		"collateralVaults": ["0x558B16E07b8558b2a54946cA973b7b20B86A8b87"],
-		"entity": ["mev-capital"]
+		"collateralVaults": ["0x558B16E07b8558b2a54946cA973b7b20B86A8b87"]
 	},
 	{
 		"name": "LBGT rewards, visit [BeraPaw](https://www.berapaw.com/vaults) to claim and mint",
 		"logo": "lbgt.svg",
-		"collateralVaults": ["0xd538b6aeF78E4bDDe4FD4576E9E3A403704602bc"],
-		"entity": ["mev-capital"]
+		"collateralVaults": ["0xd538b6aeF78E4bDDe4FD4576E9E3A403704602bc"]
 	},
 	{
 		"name": "Deposit directly on [BeraPaw Strategy Vaults](https://www.berapaw.com/strategies) to earn additional yield and pPAW Points. [More information](https://docs.berapaw.com/polStrategyVault)",
@@ -24,7 +21,6 @@
 		"collateralVaults": [
 			"0x34018ac9DC4B114036Ca148Aa18C8f75594E5e95",
 			"0x4eB3351066494852a03ffBBDE40a9776380Ce20D"
-		],
-		"entity": ["mev-capital"]
+		]
 	}
 ]
