@@ -1029,19 +1029,14 @@
 		"description": "A PT High Growth ETH 25JUN2026 vault in the Frontier Upshift market.",
 		"entity": ["euler-dao", "gauntlet"]
 	},
-	"0xe20a71f4eaB87dA446Ff8d477637730C6011aD09": {
+	"0xc2c4aBae84fbb5b7bAAB52301A924b1F986C66bd": {
 		"name": "Frontier Puffer WETH",
 		"description": "A WETH vault in the Frontier Puffer market.",
 		"entity": ["euler-dao", "gauntlet"]
 	},
-	"0x990BA045b5f5AB53BB4C52d6AdbF568e4048Bd86": {
+	"0x46BC453666BA11b4b08B0804E49A9D797546ee7D": {
 		"name": "Frontier Puffer pufETH",
 		"description": "A pufETH vault in the Frontier Puffer market.",
-		"entity": ["euler-dao", "gauntlet"]
-	},
-	"0x8fF7ba15eCa92d22e189DaE5b59aF82B40Eb34f2": {
-		"name": "Frontier Puffer xpufETH",
-		"description": "A xpufETH vault in the Frontier Puffer market.",
 		"entity": ["euler-dao", "gauntlet"]
 	}
 }
