@@ -134,6 +134,17 @@
 		"description": "Component of the MEV Capital Sonic Cluster",
 		"entity": "mev-capital"
 	},
+	"0x6F11663766bB213003cD74EB09ff4c67145023c5": {
+		"name": "MEV Capital wmetaUSD",
+		"description": "Component of the MEV Capital Sonic Cluster",
+		"entity": "mev-capital"
+	},
+	"0xC37fa1c70D77bdEd373C551a92bAbcee44a9d04E": {
+		"name": "MEV Capital wmetaS",
+		"description": "Component of the MEV Capital Sonic Cluster",
+		"entity": "mev-capital"
+	},
+
 	"0x90a804D316A06E00755444D56b9eF52e5C4F4D73": {
 		"name": "MEV Capital wS",
 		"description": "Component of the MEV Capital Beets Cluster",
@@ -146,6 +157,11 @@
 	},
 	"0xb936137169D777fcB8B7Cf02329620B78FCcEC0A": {
 		"name": "MEV Capital PT-stS-29MAY2025",
+		"description": "Component of the MEV Capital Beets Cluster",
+		"entity": "mev-capital"
+	},
+	"0xF71B17cCF362B6dcC1b6917A05820477cF7802A0": {
+		"name": "MEV Capital PT-stS-18DEC2025",
 		"description": "Component of the MEV Capital Beets Cluster",
 		"entity": "mev-capital"
 	}
