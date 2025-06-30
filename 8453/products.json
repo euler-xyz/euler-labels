@@ -82,5 +82,14 @@
 			"0x990d616ca6E7192625d1B7C41Fb67b5758DF7CF2"
 		],
 		"isGovernanceLimited": true
+	},
+	"alterscope-lrt": {
+		"name": "Alterscope LRT",
+		"description": "Vaults designed for advanced liquid restaking strategies.",
+		"entity": "alterscope",
+		"vaults": [
+			"0xf4480166d66CFb9c5E12C843A8F844F512989289",
+			"0xF3BB6b0a9bEAF9240D7F4a91341d5Df6bF37cAea"
+		]
 	}
 }
