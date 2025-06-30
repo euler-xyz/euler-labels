@@ -71,17 +71,13 @@
 	{
 		"name": "10x Sonic Points",
 		"logo": "sonic.png",
-		"collateralVaults": [
-			"0x6F11663766bB213003cD74EB09ff4c67145023c5"
-		],
+		"collateralVaults": ["0x6F11663766bB213003cD74EB09ff4c67145023c5"],
 		"entity": ["mev-capital"]
 	},
 	{
 		"name": "12x Sonic Points",
 		"logo": "sonic.png",
-		"collateralVaults": [
-			"0xC37fa1c70D77bdEd373C551a92bAbcee44a9d04E"
-		],
+		"collateralVaults": ["0xC37fa1c70D77bdEd373C551a92bAbcee44a9d04E"],
 		"entity": ["mev-capital"]
 	},
 	{
