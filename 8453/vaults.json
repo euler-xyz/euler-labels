@@ -183,5 +183,15 @@
 		"name": "Frontier YO yoUSD",
 		"description": "A YO yoUSD vault collateralized by other vaults in the Frontier YO yoUSD market.",
 		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xF3BB6b0a9bEAF9240D7F4a91341d5Df6bF37cAea": {
+		"name": "Alterscope LRT WETH",
+		"description": "Foundational vaults designed for maximium market stability.",
+		"entity": "alterscope"
+	},
+	"0xF3BB6b0a9bEAF9240D7F4a91341d5Df6bF37cAea": {
+		"name": "Alterscope LRT yoETH",
+		"description": "Vaults designed for advanced liquid restaking strategies. Note: The price for yoETH is updated based on Yo Protocol’s own on-chain price updater.",
+		"entity": "alterscope"
 	}
 }
