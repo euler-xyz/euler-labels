@@ -227,5 +227,10 @@
 		"name": "5x Upshift Points",
 		"logo": "upshift.png",
 		"collateralVaults": ["0x3F714090F7648139043349f599A48904187d76D0"]
+	},
+	{
+		"name": "2x Kernel Points",
+		"logo": "kernel.png",
+		"collateralVaults": ["0x3F714090F7648139043349f599A48904187d76D0"]
 	}
 ]
