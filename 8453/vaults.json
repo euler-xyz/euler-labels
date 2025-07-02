@@ -189,7 +189,7 @@
 		"description": "Foundational vaults designed for maximium market stability.",
 		"entity": "alterscope"
 	},
-	"0xF3BB6b0a9bEAF9240D7F4a91341d5Df6bF37cAea": {
+	"0xf4480166d66CFb9c5E12C843A8F844F512989289": {
 		"name": "Alterscope LRT yoETH",
 		"description": "Vaults designed for advanced liquid restaking strategies. Note: The price for yoETH is updated based on Yo Protocol’s own on-chain price updater.",
 		"entity": "alterscope"
