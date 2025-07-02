@@ -450,5 +450,16 @@
 			"0x46BC453666BA11b4b08B0804E49A9D797546ee7D"
 		],
 		"isGovernanceLimited": true
+	},
+	"frontier-pareto": {
+		"name": "Frontier Pareto",
+		"description": "An isolated market dedicated to the Pareto ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao", "gauntlet"],
+		"url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/2",
+		"vaults": [
+			"0xFbd4F1d0B2AF661bD43ef6577966daa6587f0b7c",
+			"0x834b16f76A950bFCDB517A533709F81E58C5a83E"
+		],
+		"isGovernanceLimited": true
 	}
 }
