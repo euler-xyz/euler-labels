@@ -77,6 +77,13 @@
 			"0xC51e90b48FD7fBfF316502b85A71e0EBb1ee5238"
 		]
 	},
+	"eulswap": {
+		"name": "EUL Swap",
+		"description": "An isolated market dedicated to EUL token swaps. EUL Swap market is not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao"],
+		"vaults": ["0x74034eb8d5B2E480825263A975E4CF82A081c959"],
+		"isGovernanceLimited": true
+	},
 	"frontier-renzo": {
 		"name": "Frontier Renzo",
 		"description": "An isolated market dedicated to the Renzo ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",

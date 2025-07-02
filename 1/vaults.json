@@ -274,6 +274,11 @@
 		"description": "A sBUIDL escrowed collateral vault collateralized by other vaults in the Euler RWA cluster",
 		"entity": "euler-dao"
 	},
+	"0x74034eb8d5B2E480825263A975E4CF82A081c959": {
+		"name": "EUL Swap",
+		"description": "An EUL vault collateralized by an escrowed collateral EUL vault providing self-collateralization capabilities.",
+		"entity": "euler-dao"
+	},
 	"0xdc1aeF6cF0F13267281a0D3547D205eA32287e49": {
 		"name": "Frontier Renzo WETH",
 		"description": "A WETH vault collateralized by ezETH in the Frontier Renzo Cluster.",
