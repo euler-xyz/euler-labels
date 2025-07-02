@@ -1051,7 +1051,7 @@
 	},
 	"0x834b16f76A950bFCDB517A533709F81E58C5a83E": {
 		"name": "Frontier Pareto sUSP",
-		"description": "Pareto sUSP is the staked savings asset of USP built on Ethereum. Component of the Pareto Keyring Cluster",
+		"description": "Pareto sUSP is the staked savings asset of USP built on Ethereum. Component of the Frontier Pareto market.",
 		"entity": ["euler-dao", "gauntlet"]
 	}
 }
