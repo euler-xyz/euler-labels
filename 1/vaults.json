@@ -99,6 +99,16 @@
 		"description": "A conservative tETH vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
 		"entity": "euler-dao"
 	},
+	"0x22eed7C25A35D40255cd80d3B67A2F8742f94443": {
+		"name": "Euler Prime USDe",
+		"description": "A conservative USDe vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
+		"entity": "euler-dao"
+	},
+	"0x6bE9e82B25987Ce66AcD89130fEe494EDd0473AE": {
+		"name": "Euler Prime sUSDe",
+		"description": "A conservative sUSDe vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
+		"entity": "euler-dao"
+	},
 	"0xe0a80d35bB6618CBA260120b279d357978c42BCE": {
 		"name": "Euler Yield USDC",
 		"description": "A USDC vault collateralized by other vaults in the Euler Yield and Euler Prime cluster.",
