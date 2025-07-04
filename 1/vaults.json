@@ -1054,12 +1054,12 @@
 		"description": "A pufETH vault in the Frontier Puffer market.",
 		"entity": ["euler-dao", "gauntlet"]
 	},
-	"0xFbd4F1d0B2AF661bD43ef6577966daa6587f0b7c": {
+	"0xa94F9CE821C7bD57cc12991CB46ca19f5789278F": {
 		"name": "Frontier Pareto USDC",
 		"description": "A USDC vault in the Frontier Pareto market.",
 		"entity": ["euler-dao", "gauntlet"]
 	},
-	"0x834b16f76A950bFCDB517A533709F81E58C5a83E": {
+	"0xa3e0943d0196F76db58d3549C9a7528Ef4ac335F": {
 		"name": "Frontier Pareto sUSP",
 		"description": "Pareto sUSP is the staked savings asset of USP built on Ethereum. Component of the Frontier Pareto market.",
 		"entity": ["euler-dao", "gauntlet"]
