@@ -459,8 +459,8 @@
 		"entity": ["euler-dao", "gauntlet"],
 		"url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/2",
 		"vaults": [
-			"0xFbd4F1d0B2AF661bD43ef6577966daa6587f0b7c",
-			"0x834b16f76A950bFCDB517A533709F81E58C5a83E"
+			"0xa94F9CE821C7bD57cc12991CB46ca19f5789278F",
+			"0xa3e0943d0196F76db58d3549C9a7528Ef4ac335F"
 		],
 		"isGovernanceLimited": true
 	}
