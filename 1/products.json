@@ -104,6 +104,7 @@
 		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
 		"vaults": [
 			"0x09136DAC538B54994170a6905507a74562A80ed3",
+			"0x122e9eA082D8c060Bb1a3476aa18B9E739fBbAAf",
 			"0xD53f83c7CA5189007C09b5D867a8116bC0540724",
 			"0x94EdbB8F7543593FF1B8D2871eC4730B59c97888"
 		],
@@ -116,6 +117,7 @@
 		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
 		"vaults": [
 			"0x98281466aBcF48eAAD8c6E22dEdD18A3426A93b4",
+			"0x75E695C60aF0780F8c9FA79e37946a02f4481c09",
 			"0x3F7CcadEd39Fd9D06Eb0498ABEb7EAAB569E79Ad",
 			"0x819662Ab6Fe32B52100fa32aE3e0e8b36B4C5638"
 		],
@@ -128,6 +130,7 @@
 		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
 		"vaults": [
 			"0xF4Bc4239eDca81ed0d305701CB18A5Fd82cd06Ca",
+			"0x3bFA6657982A9Ada1388CF798F3f211711Daf4E5",
 			"0xfc6f3A2Badb53973F69449Da690Cfef84dc4a359",
 			"0x1e0b68A83Ef062CDE687351C472cFd0E9300A06d",
 			"0xF2ec2d8fE1351bAFF31643855C0f4D1E63Bd1ce4",
@@ -142,6 +145,7 @@
 		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
 		"vaults": [
 			"0x3573A84Bee11D49A1CbCe2b291538dE7a7dD81c6",
+			"0xbFdc482616787b420BC6C710212fE3167E7198e9",
 			"0x412D0E31790D77b6e7a7872a9fd6967B6E640229",
 			"0x2F849ba554C1ea2eDe9C240Bbe9d247dd6eC8A6B",
 			"0xE415952f5ee06f8A548F4f7D5bE18FBf144b4E4D"
@@ -155,6 +159,7 @@
 		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
 		"vaults": [
 			"0x81f8ac1a4756BfE9D7ce138C0C3baD2Cb5E8a582",
+			"0x77710edfeDfB7e9186CBA71b258C75ea2AED5f84",
 			"0xE668c3F45D126A72cf696Ff46054918Cf1337786",
 			"0x3152EC91ec776f918Cc2090F58319A5a614536e0"
 		],
@@ -167,6 +172,7 @@
 		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
 		"vaults": [
 			"0x481D4909D7ca2eb27c4975f08dCE07DBeF0d3Fa7",
+			"0x2dF9753E62f46B299F59E632bd18EdfE4970922e",
 			"0x1F46186AF85A967416b17380800c69860B7C516F",
 			"0x0F93f35c0664A6a8231ccAe7E22f652c9c075b32"
 		],
@@ -460,6 +466,7 @@
 		"url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/2",
 		"vaults": [
 			"0xa94F9CE821C7bD57cc12991CB46ca19f5789278F",
+			"0xF2ef3e32FCF4BfE21266727281B73F95Cd520411",
 			"0xa3e0943d0196F76db58d3549C9a7528Ef4ac335F"
 		],
 		"isGovernanceLimited": true
