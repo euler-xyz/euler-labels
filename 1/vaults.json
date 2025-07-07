@@ -304,6 +304,11 @@
 		"description": "A USDC vault collateralized by mEDGE and its derivatives in the Frontier mEDGE Cluster.",
 		"entity": ["euler-dao", "gauntlet"]
 	},
+	"0x122e9eA082D8c060Bb1a3476aa18B9E739fBbAAf": {
+		"name": "Frontier mEDGE USDT",
+		"description": "A USDT vault collateralized by mEDGE and its derivatives in the Frontier mEDGE Cluster.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
 	"0xD53f83c7CA5189007C09b5D867a8116bC0540724": {
 		"name": "Frontier mEDGE mEDGE",
 		"description": "An mEDGE collateral vault used to borrow USDC in the Frontier mEDGE Cluster.",
@@ -319,6 +324,11 @@
 		"description": "A USDC vault collateralized by mMEV and its derivatives in the Frontier mMEV market.",
 		"entity": ["euler-dao", "gauntlet"]
 	},
+	"0x75E695C60aF0780F8c9FA79e37946a02f4481c09": {
+		"name": "Frontier mMEV USDT",
+		"description": "A USDT vault collateralized by mMEV and its derivatives in the Frontier mMEV market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
 	"0x3F7CcadEd39Fd9D06Eb0498ABEb7EAAB569E79Ad": {
 		"name": "Frontier mMEV mMEV",
 		"description": "An mMEV collateral vault used to borrow USDC in the Frontier mMEV market.",
@@ -332,6 +342,11 @@
 	"0xF4Bc4239eDca81ed0d305701CB18A5Fd82cd06Ca": {
 		"name": "Frontier Level USDC",
 		"description": "A USDC vault collateralized by Level ecosystem vaults in the Frontier Level market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x3bFA6657982A9Ada1388CF798F3f211711Daf4E5": {
+		"name": "Frontier Level USDT",
+		"description": "A USDT vault collateralized by Level ecosystem vaults in the Frontier Level market.",
 		"entity": ["euler-dao", "gauntlet"]
 	},
 	"0xfc6f3A2Badb53973F69449Da690Cfef84dc4a359": {
@@ -359,6 +374,11 @@
 		"description": "A USDC vault collateralized by Falcon ecosystem vaults in the Frontier Falcon market.",
 		"entity": ["euler-dao", "gauntlet"]
 	},
+	"0xbFdc482616787b420BC6C710212fE3167E7198e9": {
+		"name": "Frontier Falcon USDT",
+		"description": "A USDT vault collateralized by Falcon ecosystem vaults in the Frontier Falcon market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
 	"0x412D0E31790D77b6e7a7872a9fd6967B6E640229": {
 		"name": "Frontier Falcon USDf",
 		"description": "A USDf vault collateralized by Falcon ecosystem vaults in the Frontier Falcon market.",
@@ -379,6 +399,11 @@
 		"description": "A USDC vault collateralized by DOLA and sDOLA in the Frontier Inverse market.",
 		"entity": ["euler-dao", "gauntlet"]
 	},
+	"0x77710edfeDfB7e9186CBA71b258C75ea2AED5f84": {
+		"name": "Frontier Inverse USDT",
+		"description": "A USDT vault collateralized by DOLA and sDOLA in the Frontier Inverse market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
 	"0xE668c3F45D126A72cf696Ff46054918Cf1337786": {
 		"name": "Frontier Inverse DOLA",
 		"description": "A DOLA vault collateralized by USDC and sDOLA in the Frontier Inverse market.",
@@ -392,6 +417,11 @@
 	"0x481D4909D7ca2eb27c4975f08dCE07DBeF0d3Fa7": {
 		"name": "Frontier Yala USDC",
 		"description": "A USDC vault collateralized by Yala ecosystem vaults in the Frontier Yala market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x2dF9753E62f46B299F59E632bd18EdfE4970922e": {
+		"name": "Frontier Yala USDT",
+		"description": "A USDT vault collateralized by Yala ecosystem vaults in the Frontier Yala market.",
 		"entity": ["euler-dao", "gauntlet"]
 	},
 	"0x1F46186AF85A967416b17380800c69860B7C516F": {
@@ -1057,6 +1087,11 @@
 	"0xa94F9CE821C7bD57cc12991CB46ca19f5789278F": {
 		"name": "Frontier Pareto USDC",
 		"description": "A USDC vault in the Frontier Pareto market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xF2ef3e32FCF4BfE21266727281B73F95Cd520411": {
+		"name": "Frontier Pareto USDT",
+		"description": "A USDT vault in the Frontier Pareto market.",
 		"entity": ["euler-dao", "gauntlet"]
 	},
 	"0xa3e0943d0196F76db58d3549C9a7528Ef4ac335F": {
