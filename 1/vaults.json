@@ -1098,5 +1098,45 @@
 		"name": "Frontier Pareto sUSP",
 		"description": "Pareto sUSP is the staked savings asset of USP built on Ethereum. Component of the Frontier Pareto market.",
 		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x15A60a5300c1D9179d4c0e2B49bac6146794Ae1F": {
+		"name": "Frontier Reservoir USDC",
+		"description": "A USDC vault in the Frontier Reservoir market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x607589437A3b52f536706642a9b7c70192C37940": {
+		"name": "Frontier Reservoir USDT",
+		"description": "A USDT vault in the Frontier Reservoir market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xACD489AdEC33cd7c46FC448cf77376f1EaF5f3ab": {
+		"name": "Frontier Reservoir rUSD",
+		"description": "A rUSD vault in the Frontier Reservoir market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xb5c0EC2b53b87720f2D99B75c01C6d4Da0e724F8": {
+		"name": "Frontier Reservoir srUSD",
+		"description": "A srUSD vault in the Frontier Reservoir market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x58CD6Ae0Bd452d3219366C7ddD37cA1A12d2ff59": {
+		"name": "Frontier Spark USDC",
+		"description": "A USDC vault in the Frontier Spark market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x7fD46A66b5Ed6dC395603678cf9BE8846e01Fe25": {
+		"name": "Frontier Spark USDT",
+		"description": "A USDT vault in the Frontier Spark market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x13a2322907cea4CE62525476f9dAc191f0B590Db": {
+		"name": "Frontier Spark sUSDS",
+		"description": "A sUSDS vault in the Frontier Spark market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x00011d9A1EB3d7278b8DF2391e2E32f6f9bcF293": {
+		"name": "Frontier Spark PT-USDS-14AUG2025",
+		"description": "A PT-USDS-14AUG2025 vault in the Frontier Spark market.",
+		"entity": ["euler-dao", "gauntlet"]
 	}
 }
