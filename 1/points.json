@@ -232,5 +232,18 @@
 		"name": "2x Kernel Points",
 		"logo": "kernel.png",
 		"collateralVaults": ["0x3F714090F7648139043349f599A48904187d76D0"]
+	},
+	{
+		"name": "30x Falcon Miles",
+		"logo": "falcon.png",
+		"collateralVaults": [
+			"0x3573A84Bee11D49A1CbCe2b291538dE7a7dD81c6",
+			"0x412D0E31790D77b6e7a7872a9fd6967B6E640229"
+		]
+	},
+	{
+		"name": "2x Falcon Miles",
+		"logo": "falcon.png",
+		"collateralVaults": ["0x2F849ba554C1ea2eDe9C240Bbe9d247dd6eC8A6B"]
 	}
 ]
