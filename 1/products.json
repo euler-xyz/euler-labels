@@ -470,5 +470,29 @@
 			"0xa3e0943d0196F76db58d3549C9a7528Ef4ac335F"
 		],
 		"isGovernanceLimited": true
+	},
+	"frontier-reservoir": {
+		"name": "Frontier Reservoir",
+		"description": "An isolated market dedicated to the Reservoir ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao", "gauntlet"],
+		"vaults": [
+			"0x15A60a5300c1D9179d4c0e2B49bac6146794Ae1F",
+			"0x607589437A3b52f536706642a9b7c70192C37940",
+			"0xACD489AdEC33cd7c46FC448cf77376f1EaF5f3ab",
+			"0xb5c0EC2b53b87720f2D99B75c01C6d4Da0e724F8"
+		],
+		"isGovernanceLimited": true
+	},
+	"frontier-spark": {
+		"name": "Frontier Spark",
+		"description": "An isolated market dedicated to the Spark ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao", "gauntlet"],
+		"vaults": [
+			"0x58CD6Ae0Bd452d3219366C7ddD37cA1A12d2ff59",
+			"0x7fD46A66b5Ed6dC395603678cf9BE8846e01Fe25",
+			"0x13a2322907cea4CE62525476f9dAc191f0B590Db",
+			"0x00011d9A1EB3d7278b8DF2391e2E32f6f9bcF293"
+		],
+		"isGovernanceLimited": true
 	}
 }
