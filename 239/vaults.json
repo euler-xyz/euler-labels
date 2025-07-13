@@ -1,0 +1,22 @@
+{
+	"0x27324c0d445f94550b53936dbab7fd168634f192": {
+		"name": "Re7 Labs TON",
+		"description": "Component of the Re7 Labs TAC Cluster",
+		"entity": "re7-labs"
+	},
+	"0x4ac2478eb1ddf574b0fff297a25bb496af1fa207": {
+		"name": "Re7 Labs WETH",
+		"description": "Component of the Re7 Labs TAC Cluster",
+		"entity": "re7-labs"
+	},
+	"0x5ed17d16a0f3d98004acefcd694c1c91c0e9361d": {
+		"name": "Re7 Labs cbBTC",
+		"description": "Component of the Re7 Labs TAC Cluster",
+		"entity": "re7-labs"
+	},
+	"0x0fa94abec53c176f9bf1ae6c871a1214d8aecec8": {
+		"name": "Re7 Labs USDT",
+		"description": "Component of the Re7 Labs TAC Cluster",
+		"entity": "re7-labs"
+	}
+}
