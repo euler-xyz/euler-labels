@@ -50,7 +50,7 @@
 	},
 	"reservoir-labs": {
 		"name": "Reservoir Labs",
-		"logo": "",
+		"logo": "reservoir-labs.svg",
 		"description": "",
 		"url": "https://reservoir.fi",
 		"addresses": {
