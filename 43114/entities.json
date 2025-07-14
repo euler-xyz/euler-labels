@@ -47,5 +47,17 @@
 			"twitter": "keyringnetwork",
 			"github": "keyring-network"
 		}
+	},
+	"reservoir-labs": {
+		"name": "Reservoir Labs",
+		"logo": "",
+		"description": "",
+		"url": "https://reservoir.fi",
+		"addresses": {
+			"0x": "Reservoir Labs Multisig"
+		},
+		"social": {
+			"twitter": ""
+		}
 	}
 }
