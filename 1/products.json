@@ -26,7 +26,8 @@
 			"0x328646cdfBaD730432620d845B8F5A2f7D786C01",
 			"0xc2d36F41841B420937643dcccbEa8163D4F59B6c",
 			"0x22eed7C25A35D40255cd80d3B67A2F8742f94443",
-			"0x6bE9e82B25987Ce66AcD89130fEe494EDd0473AE"
+			"0x6bE9e82B25987Ce66AcD89130fEe494EDd0473AE",
+			"0xee944C7Dd107617550EC11AFCF652e14E7670A37"
 		]
 	},
 	"euler-yield": {
@@ -492,6 +493,18 @@
 			"0x7fD46A66b5Ed6dC395603678cf9BE8846e01Fe25",
 			"0x13a2322907cea4CE62525476f9dAc191f0B590Db",
 			"0x00011d9A1EB3d7278b8DF2391e2E32f6f9bcF293"
+		],
+		"isGovernanceLimited": true
+	},
+	"frontier-yieldfi": {
+		"name": "Frontier YieldFi",
+		"description": "An isolated market dedicated to the YieldFi ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao", "gauntlet"],
+		"vaults": [
+			"0xc727069c0eb261Be642272fe3848518192683fFc",
+			"0xd90f695D98b6E1fAA7BA516A777fF12cc3C111a4",
+			"0x3eD8f77Ca6FD9e5c6DBBcC9696BF93F30C3A2BA5",
+			"0xb76e9E04d4356756c9b8E002Cc4dabFA4e02BD93"
 		],
 		"isGovernanceLimited": true
 	}

@@ -44,6 +44,11 @@
 		"description": "A conservative wM vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
 		"entity": "euler-dao"
 	},
+	"0xee944C7Dd107617550EC11AFCF652e14E7670A37": {
+		"name": "Euler Prime syrupUSDC",
+		"description": "A conservative syrupUSDC vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
+		"entity": "euler-dao"
+	},
 	"0x328646cdfBaD730432620d845B8F5A2f7D786C01": {
 		"name": "Euler Prime USDtb",
 		"description": "A conservative USDtb vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
@@ -1137,6 +1142,26 @@
 	"0x00011d9A1EB3d7278b8DF2391e2E32f6f9bcF293": {
 		"name": "Frontier Spark PT-USDS-14AUG2025",
 		"description": "A PT-USDS-14AUG2025 vault in the Frontier Spark market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xc727069c0eb261Be642272fe3848518192683fFc": {
+		"name": "Frontier YieldFi USDC",
+		"description": "A USDC vault in the Frontier YieldFi market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xd90f695D98b6E1fAA7BA516A777fF12cc3C111a4": {
+		"name": "Frontier YieldFi USDT",
+		"description": "A USDT vault in the Frontier YieldFi market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x3eD8f77Ca6FD9e5c6DBBcC9696BF93F30C3A2BA5": {
+		"name": "Frontier YieldFi yUSD",
+		"description": "A yUSD vault in the Frontier YieldFi market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xb76e9E04d4356756c9b8E002Cc4dabFA4e02BD93": {
+		"name": "Frontier YieldFi PT-yUSD-7AUG2025",
+		"description": "A PT-yUSD-7AUG2025 vault in the Frontier YieldFi market.",
 		"entity": ["euler-dao", "gauntlet"]
 	}
 }

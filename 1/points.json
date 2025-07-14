@@ -245,5 +245,15 @@
 		"name": "2x Falcon Miles",
 		"logo": "falcon.png",
 		"collateralVaults": ["0x2F849ba554C1ea2eDe9C240Bbe9d247dd6eC8A6B"]
+	},
+	{
+		"name": "1x YieldFi Points",
+		"logo": "yieldfi.png",
+		"collateralVaults": ["0x3eD8f77Ca6FD9e5c6DBBcC9696BF93F30C3A2BA5"]
+	},
+	{
+		"name": "2.5x YieldFi Points",
+		"logo": "yieldfi.png",
+		"collateralVaults": ["0xc727069c0eb261Be642272fe3848518192683fFc"]
 	}
 ]
