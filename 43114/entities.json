@@ -51,13 +51,14 @@
 	"reservoir-labs": {
 		"name": "Reservoir Labs",
 		"logo": "reservoir-labs.svg",
-		"description": "",
+		"description": "Simply Efficient Defi",
 		"url": "https://reservoir.fi",
 		"addresses": {
-			"0x": "Reservoir Labs Multisig"
+			"0x483578A3796c6e53aa9EA91A9e4d856F8ab9f39f": "Reservoir Labs Multisig"
 		},
 		"social": {
-			"twitter": ""
+			"twitter": "ReservoirFi",
+			"github": "reservoir-labs"
 		}
 	}
 }
