@@ -1,5 +1,40 @@
 {
-	"0xdD6EaEf38F94d4724124cEc14c819818714537Ff": {
+	"0x27324c0d445f94550b53936dBAB7fD168634f192": {
+		"name": "Re7 Labs TON",
+		"description": "Component of the Re7 Labs TAC Cluster",
+		"entity": "re7-labs"
+	},
+	"0x4ac2478eb1DDf574b0ffF297a25BB496af1fA207": {
+		"name": "Re7 Labs WETH",
+		"description": "Component of the Re7 Labs TAC Cluster",
+		"entity": "re7-labs"
+	},
+	"0x2eF66758705426e7BF598669AEf23eE9b9CC3088": {
+		"name": "Re7 Labs cbBTC",
+		"description": "Component of the Re7 Labs TAC Cluster",
+		"entity": "re7-labs"
+	},
+	"0xc7F25f1c8FDB86DE3d14152034de4EB8B71eEC78": {
+		"name": "Re7 Labs tsTON",
+		"description": "Component of the Re7 Labs TAC Cluster",
+		"entity": "re7-labs"
+	},
+	"0x15794A8e1708511DABeC3d356aDDbE7128E90D8F": {
+		"name": "Re7 Labs LBTC",
+		"description": "Component of the Re7 Labs TAC Cluster",
+		"entity": "re7-labs"
+	},
+	"0xE2E106a9Ec7bc7F5dcDf5a20Ea007b833cCf4f1f": {
+		"name": "Re7 Labs wstETH",
+		"description": "Component of the Re7 Labs TAC Cluster",
+		"entity": "re7-labs"
+	},
+	"0x0Fa94ABEC53c176f9bf1Ae6c871a1214D8aECec8": {
+		"name": "Re7 Labs USDT",
+		"description": "Component of the Re7 Labs TAC Cluster",
+		"entity": "re7-labs"
+	},
+  "0xdD6EaEf38F94d4724124cEc14c819818714537Ff": {
 		"name": "Edge UltraYield USDT",
 		"description": "A USDT vault collateralized by other vaults in the Edge UltraYield Cluster.",
 		"entity": "edge-capital"
@@ -33,5 +68,5 @@
 		"name": "Edge UltraYield wstETH",
 		"description": "A wstETH vault collateralized by other vaults in the Edge UltraYield Cluster.",
 		"entity": "edge-capital"
-	}
+  }
 }

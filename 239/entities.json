@@ -1,5 +1,17 @@
 {
-	"edge-capital": {
+	"re7-labs": {
+		"name": "Re7 Labs",
+		"logo": "re7labs.png",
+		"description": "Re7 Labs is the innovation arm of digital asset investment firm Re7 Capital, taking the practical experience of DeFi risk management to on-chain vaults.",
+		"url": "https://www.re7labs.xyz/",
+		"addresses": {
+			"0x6D3AB84Fb7Fc04961a15663C980feC275b889402": "Re7 Labs Euler Multisig"
+		},
+		"social": {
+			"twitter": "Re7Labs"
+		}
+	},
+  	"edge-capital": {
 		"name": "Edge UltraYield",
 		"logo": "edge.png",
 		"description": "Edge Capital is a leading market-neutral hedge fund that manages capital for largest fund of funds, institutional investors and leading crypto foundations and treasuries since 2020",
@@ -9,6 +21,6 @@
 		},
 		"social": {
 			"twitter": "EdgeCapitalMgmt"
-		}
-	}
+    }
+    }
 }
