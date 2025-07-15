@@ -10,5 +10,17 @@
 		"social": {
 			"twitter": "Re7Labs"
 		}
-	}
+	},
+  	"edge-capital": {
+		"name": "Edge UltraYield",
+		"logo": "edge.png",
+		"description": "Edge Capital is a leading market-neutral hedge fund that manages capital for largest fund of funds, institutional investors and leading crypto foundations and treasuries since 2020",
+		"url": "https://edgecapital.xyz/",
+		"addresses": {
+			"0x1280e86Cd7787FfA55d37759C0342F8CD3c7594a": "Edge Capital Multisig"
+		},
+		"social": {
+			"twitter": "EdgeCapitalMgmt"
+    }
+    }
 }
