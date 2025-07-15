@@ -34,7 +34,7 @@
 		"description": "Component of the Re7 Labs TAC Cluster",
 		"entity": "re7-labs"
 	},
-  "0xdD6EaEf38F94d4724124cEc14c819818714537Ff": {
+	"0xdD6EaEf38F94d4724124cEc14c819818714537Ff": {
 		"name": "Edge UltraYield USDT",
 		"description": "A USDT vault collateralized by other vaults in the Edge UltraYield Cluster.",
 		"entity": "edge-capital"
@@ -68,5 +68,5 @@
 		"name": "Edge UltraYield wstETH",
 		"description": "A wstETH vault collateralized by other vaults in the Edge UltraYield Cluster.",
 		"entity": "edge-capital"
-  }
+	}
 }
