@@ -1,7 +1,7 @@
 {
-	"edgecapital": {
+	"edge-capital-tac": {
 		"name": "Edge UltraYield Cluster",
-		"entity": "edgecapital",
+		"entity": "edge-capital",
 		"vaults": [
 			"0xdD6EaEf38F94d4724124cEc14c819818714537Ff",
 			"0x2c8a93667D8909FA8F0c24F2c571C9163D3fB77A",
