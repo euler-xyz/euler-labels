@@ -4,8 +4,11 @@
 		"entity": "re7-labs",
 		"vaults": [
 			"0x27324c0d445f94550b53936dbab7fd168634f192",
+			"0xc7f25f1c8fdb86de3d14152034de4eb8b71eec78",
 			"0x4ac2478eb1ddf574b0fff297a25bb496af1fa207",
-			"0x5ed17d16a0f3d98004acefcd694c1c91c0e9361d",
+			"0x2ef66758705426e7bf598669aef23ee9b9cc3088",
+			"0x15794a8e1708511dabec3d356addbe7128e90d8f",
+			"0xe2e106a9ec7bc7f5dcdf5a20ea007b833ccf4f1f",
 			"0x0fa94abec53c176f9bf1ae6c871a1214d8aecec8"
 		]
 	}

@@ -9,8 +9,23 @@
 		"description": "Component of the Re7 Labs TAC Cluster",
 		"entity": "re7-labs"
 	},
-	"0x5ed17d16a0f3d98004acefcd694c1c91c0e9361d": {
+	"0x2ef66758705426e7bf598669aef23ee9b9cc3088": {
 		"name": "Re7 Labs cbBTC",
+		"description": "Component of the Re7 Labs TAC Cluster",
+		"entity": "re7-labs"
+	},
+	"0xc7f25f1c8fdb86de3d14152034de4eb8b71eec78": {
+		"name": "Re7 Labs tsTON",
+		"description": "Component of the Re7 Labs TAC Cluster",
+		"entity": "re7-labs"
+	},
+	"0x15794a8e1708511dabec3d356addbe7128e90d8f": {
+		"name": "Re7 Labs LBTC",
+		"description": "Component of the Re7 Labs TAC Cluster",
+		"entity": "re7-labs"
+	},
+	"0xe2e106a9ec7bc7f5dcdf5a20ea007b833ccf4f1f": {
+		"name": "Re7 Labs wstETH",
 		"description": "Component of the Re7 Labs TAC Cluster",
 		"entity": "re7-labs"
 	},
