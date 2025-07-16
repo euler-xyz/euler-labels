@@ -60,7 +60,7 @@
 		"entity": "keyring",
 		"vaults": [
 			"0x8f23Da78e3F31Ab5DEb75dC3282198bed630ffde",
-    		"0x175d85246Fa2232edbc3C32a88DBF88DF0980F6A"
+			"0x175d85246Fa2232edbc3C32a88DBF88DF0980F6A"
 		]
 	}
 }
