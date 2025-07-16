@@ -59,8 +59,8 @@
 		"name": "Keyring zkVerified Cluster",
 		"entity": "keyring",
 		"vaults": [
-			"0x50B2323Ecb8F41c7204099BAb5dF8C2dA520d2A1",
-			"0xd49e5a5af173cD8583240104AfA14B6b51d675CB"
+			"0x5F2e5C0d348B8817f65Fb09a58E7B59492d5B359",
+			"0x8f23Da78e3F31Ab5DEb75dC3282198bed630ffde"
 		]
 	}
 }
