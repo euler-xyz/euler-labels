@@ -1064,6 +1064,16 @@
 		"description": "Component of the Liquity Hub Cluster",
 		"entity": "k3"
 	},
+	"0x5e4CfCe564d741373bD0078CB256E94696354C46": {
+		"name": "Liquity Hub PT-sBOLD-27NOV2025",
+		"description": "Component of the Liquity Hub Cluster",
+		"entity": "k3"
+	},
+	"0x5BcA378719Ad01BB8e490d09e2326EDfEe66b954": {
+		"name": "Liquity Hub PT-sBOLD-1765325646",
+		"description": "Component of the Liquity Hub Cluster",
+		"entity": "k3"
+	},
 	"0x10e0B2B42874ADF8c29D5F900c0D18b61f048ffb": {
 		"name": "Pareto USDC",
 		"description": "Component of the Pareto Keyring Cluster",
