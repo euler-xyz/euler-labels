@@ -94,6 +94,11 @@
 		"description": "Component of the MEV Capital Berachain Red Cluster",
 		"entity": "mev-capital"
 	},
+	"0x8c0d62cEC0920f33c76cC99cfb703De060289D4A": {
+		"name": "MEV Capital Red iBERA",
+		"description": "Component of the MEV Capital Berachain Red Cluster",
+		"entity": "mev-capital"
+	},
 	"0x34018ac9DC4B114036Ca148Aa18C8f75594E5e95": {
 		"name": "MEV Capital Blue wBERA",
 		"description": "Component of the MEV Capital Berachain Blue Cluster",
