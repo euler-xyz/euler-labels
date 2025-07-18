@@ -43,5 +43,15 @@
 		"name": "Euler Arbitrum sUSDC",
 		"description": "A conservative sUSDC vault collateralized by other vaults in the Euler Arbitrum cluster and escrow vaults.",
 		"entity": "euler-dao"
+	},
+	"0xE96e07C16661744836a742Ef2090F11e84a86f4F": {
+		"name": "Euler Arbitrum rsETH",
+		"description": "A conservative rsETH vault collateralized by other vaults in the Euler Arbitrum cluster and escrow vaults.",
+		"entity": "euler-dao"
+	},
+	"0xDBD974Eb5360d053ea0c56B4DaCF4A9D3E894Ee2": {
+		"name": "Euler Arbitrum tETH",
+		"description": "A conservative tETH vault collateralized by other vaults in the Euler Arbitrum cluster and escrow vaults.",
+		"entity": "euler-dao"
 	}
 }
