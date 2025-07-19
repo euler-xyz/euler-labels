@@ -68,5 +68,15 @@
 		"name": "Euler Unichain LST ezETH",
 		"description": "ezETH vault collateralized by other vaults in the Euler Unichain LST cluster.",
 		"entity": "euler-dao"
+	},
+	"0x218c9e961fC5f6c8280bA160365FAbe8A53Ec6E5": {
+		"name": "ReservoirDAO rETH Unichain Vault",
+		"description": "A supply-only rETH vault optimized for Rocket Pool stakers seeking institutional-grade DeFi Ops exposure while maintaining ETH ecosystem connectivity.",
+		"entity": "reservoir-dao"
+	},
+	"0x5ADAde21c703912547BFc8952fe1B52f09437E2A": {
+		"name": "ReservoirDAO WETH Unichain Vault",
+		"description": "A borrowing-enabled WETH vault designed for leveraged strategies using rETH collateral, expanding utility for ETH staking derivatives.",
+		"entity": "reservoir-dao"
 	}
 }
