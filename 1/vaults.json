@@ -279,6 +279,11 @@
 		"description": "A PT-sUSDE-25SEP2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
 		"entity": "euler-dao"
 	},
+	"0xbF34Cf6F1C098231E16D7Be38a2aE13EfE9b92d3": {
+		"name": "Euler Yield PT-tUSDe-25SEP2025",
+		"description": "A PT-tUSDe-25SEP2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
+		"entity": "euler-dao"
+	},
 	"0xEA79E49A076a75A9bF6013505C2B92eED69E4fe1": {
 		"name": "Euler RWA USDC",
 		"description": "A USDC vault collateralized by other vaults in the Euler RWA cluster",
