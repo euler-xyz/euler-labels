@@ -28,14 +28,16 @@
 			"twitter": "gauntlet_xyz"
 		}
 	},
-	"reservoir-dao": {
-		"name": "ReservoirDAO",
-		"logo": "reservoir-dao.svg",
-		"description": "Leaders in DeFi Operations expanding token utility and accessibility across blockchain ecosystems through strategic partnerships and integrations.",
-		"url": "https://reservoirdao.org/",
+	"alphagrowth": {
+		"name": "AlphaGrowth",
+		"logo": "alphagrowth.svg",
+		"description": "Real stewardship, real growth. AlphaGrowth drives the blockchain industry forward by expanding token utility and accessibility through strategic partnerships and integrations.",
+		"url": "https://alphagrowth.io/",
 		"addresses": {
-			"0x4f894Bfc9481110278C356adE1473eBe2127Fd3C": "Reservoir DAO Access Control Governor"
+			"0x4f894Bfc9481110278C356adE1473eBe2127Fd3C": "Reservoir DAO Multisig"
 		},
-		"social": {}
+		"social": {
+			"twitter": "alphagrowth1"
+		}
 	}
 }
