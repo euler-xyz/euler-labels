@@ -47,5 +47,18 @@
 			"twitter": "keyringnetwork",
 			"github": "keyring-network"
 		}
+	},
+	"reservoir-labs": {
+		"name": "Reservoir Labs",
+		"logo": "reservoir-labs.svg",
+		"description": "Simply Efficient Defi",
+		"url": "https://reservoir.fi",
+		"addresses": {
+			"0xAcE9D0c885f1c241C336B63D36CDe44e34e8B391": "Reservoir Labs Multisig"
+		},
+		"social": {
+			"twitter": "ReservoirFi",
+			"github": "reservoir-labs"
+		}
 	}
 }
