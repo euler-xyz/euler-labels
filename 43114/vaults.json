@@ -184,14 +184,24 @@
 		"description": "Component of the K3 Capital Cluster",
 		"entity": "k3-capital"
 	},
-	"0x50B2323Ecb8F41c7204099BAb5dF8C2dA520d2A1": {
+	"0x8f23Da78e3F31Ab5DEb75dC3282198bed630ffde": {
 		"name": "Keyring USDC",
 		"description": "Component of the Keyring Avalanche Cluster",
 		"entity": "keyring"
 	},
-	"0xd49e5a5af173cD8583240104AfA14B6b51d675CB": {
+	"0xea534105c2ccC0582D82B285aA47A6B446383d44": {
 		"name": "Keyring xUSDC",
 		"description": "Component of the Keyring Avalanche Cluster",
 		"entity": "keyring"
+	},
+	"0x04293b180bf9C57eD0923C99c784Cb571f0A9Ae9": {
+		"name": "Reservoir Labs BTC.b",
+		"description": "Component of the Reservoir Labs Avalanche Cluster",
+		"entity": "reservoir-labs"
+	},
+	"0xA321a38b03a7218157668a724E186f3a81CF56c8": {
+		"name": "Reservoir Labs WBTC.e",
+		"description": "Component of the Reservoir Labs Avalanche Cluster",
+		"entity": "reservoir-labs"
 	}
 }

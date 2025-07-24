@@ -28,5 +28,15 @@
 			"0xe6806beA4eCDE065bB757c35032f2c625848D8e8",
 			"0x25e2ef0f957B61cdd26BBE954AFD5806A9DaDe49"
 		]
+	},
+	"reservoir-defi-ops": {
+		"name": "ReservoirDAO DeFi Ops",
+		"description": "Strategic DeFi Ops that amplify utility and expand reach through targeted DeFi platform integration and growth strategies.",
+		"entity": ["reservoir-dao"],
+		"url": "https://reservoirdao.org/",
+		"vaults": [
+			"0x218c9e961fC5f6c8280bA160365FAbe8A53Ec6E5",
+			"0x5ADAde21c703912547BFc8952fe1B52f09437E2A"
+		]
 	}
 }

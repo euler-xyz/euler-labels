@@ -44,6 +44,11 @@
 		"description": "A conservative wM vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
 		"entity": "euler-dao"
 	},
+	"0xee944C7Dd107617550EC11AFCF652e14E7670A37": {
+		"name": "Euler Prime syrupUSDC",
+		"description": "A conservative syrupUSDC vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
+		"entity": "euler-dao"
+	},
 	"0x328646cdfBaD730432620d845B8F5A2f7D786C01": {
 		"name": "Euler Prime USDtb",
 		"description": "A conservative USDtb vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
@@ -262,6 +267,21 @@
 	"0xaabc07A47D2a63a9b06A7924a0780c2F3cAE7bf9": {
 		"name": "Euler Yield PT-cUSDO-20NOV2025",
 		"description": "A PT-cUSDO-20NOV2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
+		"entity": "euler-dao"
+	},
+	"0xb53b4B2590457bE63E1DCdAffa6a18ECd44D96D2": {
+		"name": "Euler Yield PT-USDe-25SEP2025",
+		"description": "A PT-USDe-25SEP2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
+		"entity": "euler-dao"
+	},
+	"0xA9902f9210059171C52b2721424E00f48821dcf3": {
+		"name": "Euler Yield PT-sUSDE-25SEP2025",
+		"description": "A PT-sUSDE-25SEP2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
+		"entity": "euler-dao"
+	},
+	"0xbF34Cf6F1C098231E16D7Be38a2aE13EfE9b92d3": {
+		"name": "Euler Yield PT-tUSDe-25SEP2025",
+		"description": "A PT-tUSDe-25SEP2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
 		"entity": "euler-dao"
 	},
 	"0xEA79E49A076a75A9bF6013505C2B92eED69E4fe1": {
@@ -599,6 +619,11 @@
 		"description": "Vaults designed for advanced liquid restaking strategies.",
 		"entity": "alterscope"
 	},
+	"0x5CD9876B7F0fd134F442F4e6c8A566F290cB7580": {
+		"name": "Alterscope LRT Stream xUSD",
+		"description": "Vaults designed for advanced liquid restaking strategies.",
+		"entity": "alterscope"
+	},
 	"0x45c3B59d53e2e148Aaa6a857521059676D5c0489": {
 		"name": "Alterscope LRT YieldNest WETH",
 		"description": "Vaults designed for advanced liquid restaking strategies for YieldNest products.",
@@ -606,6 +631,11 @@
 	},
 	"0x05755D78caD24417c42960b93D3Bf821a92e4d82": {
 		"name": "Alterscope LRT USDC",
+		"description": "Vaults designed for advanced liquid restaking strategies.",
+		"entity": "alterscope"
+	},
+	"0xfc6600B186d5B8B2fe59667Efc0A479a7AC3f1B4": {
+		"name": "Alterscope LRT Stream USDC",
 		"description": "Vaults designed for advanced liquid restaking strategies.",
 		"entity": "alterscope"
 	},
@@ -1049,6 +1079,16 @@
 		"description": "Component of the Liquity Hub Cluster",
 		"entity": "k3"
 	},
+	"0x5e4CfCe564d741373bD0078CB256E94696354C46": {
+		"name": "Liquity Hub PT-sBOLD-27NOV2025",
+		"description": "Component of the Liquity Hub Cluster",
+		"entity": "k3"
+	},
+	"0x5BcA378719Ad01BB8e490d09e2326EDfEe66b954": {
+		"name": "Liquity Hub PT-sBOLD-1765325646",
+		"description": "Component of the Liquity Hub Cluster",
+		"entity": "k3"
+	},
 	"0x10e0B2B42874ADF8c29D5F900c0D18b61f048ffb": {
 		"name": "Pareto USDC",
 		"description": "Component of the Pareto Keyring Cluster",
@@ -1137,6 +1177,26 @@
 	"0x00011d9A1EB3d7278b8DF2391e2E32f6f9bcF293": {
 		"name": "Frontier Spark PT-USDS-14AUG2025",
 		"description": "A PT-USDS-14AUG2025 vault in the Frontier Spark market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xc727069c0eb261Be642272fe3848518192683fFc": {
+		"name": "Frontier YieldFi USDC",
+		"description": "A USDC vault in the Frontier YieldFi market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xd90f695D98b6E1fAA7BA516A777fF12cc3C111a4": {
+		"name": "Frontier YieldFi USDT",
+		"description": "A USDT vault in the Frontier YieldFi market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x3eD8f77Ca6FD9e5c6DBBcC9696BF93F30C3A2BA5": {
+		"name": "Frontier YieldFi yUSD",
+		"description": "A yUSD vault in the Frontier YieldFi market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xb76e9E04d4356756c9b8E002Cc4dabFA4e02BD93": {
+		"name": "Frontier YieldFi PT-yUSD-7AUG2025",
+		"description": "A PT-yUSD-7AUG2025 vault in the Frontier YieldFi market.",
 		"entity": ["euler-dao", "gauntlet"]
 	}
 }

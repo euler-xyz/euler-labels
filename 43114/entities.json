@@ -41,11 +41,24 @@
 		"description": "Enhanced depositor protection with instant zkVerification.",
 		"url": "https://keyring.network/",
 		"addresses": {
-			"0xC75CD6aeEF7a09BDDe0F61E143fad7Aa9Eb6f6Ee": "Keyring Placeholder Wallet"
+			"0x69cC425B1E5f302e7Db4E5d125ab984EC5186364": "Keyring Multisig"
 		},
 		"social": {
 			"twitter": "keyringnetwork",
 			"github": "keyring-network"
+		}
+	},
+	"reservoir-labs": {
+		"name": "Reservoir Labs",
+		"logo": "reservoir-labs.svg",
+		"description": "Simply Efficient Defi",
+		"url": "https://reservoir.fi",
+		"addresses": {
+			"0xAcE9D0c885f1c241C336B63D36CDe44e34e8B391": "Reservoir Labs Multisig"
+		},
+		"social": {
+			"twitter": "ReservoirFi",
+			"github": "reservoir-labs"
 		}
 	}
 }
