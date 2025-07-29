@@ -53,5 +53,10 @@
 		"name": "Euler Arbitrum tETH",
 		"description": "A conservative tETH vault collateralized by other vaults in the Euler Arbitrum cluster and escrow vaults.",
 		"entity": "euler-dao"
+	},
+	"0xaA525D3142A5BDD3E55E8e983D3789b88F2FEB8f": {
+		"name": "Euler Arbitrum ezETH",
+		"description": "A conservative ezETH vault collateralized by other vaults in the Euler Arbitrum cluster and escrow vaults.",
+		"entity": "euler-dao"
 	}
 }
