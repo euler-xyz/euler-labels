@@ -517,5 +517,17 @@
 			"0xb76e9E04d4356756c9b8E002Cc4dabFA4e02BD93"
 		],
 		"isGovernanceLimited": true
+	},
+	"frontier-hyperwave": {
+		"name": "Frontier Hyperwave",
+		"description": "An isolated market dedicated to the Hyperwave ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao", "gauntlet"],
+		"vaults": [
+			"0x3C75C170671acb394804DfAf63e4F9891C121625",
+			"0x22cC732cbca457F6811295bCE75B01822544bA52",
+			"0x4f36Bebf5dDb4b804F9C72644aEe82BAd165BFfc",
+			"0x9c6bDF412723ADF2798B163638083783506B26e3"
+		],
+		"isGovernanceLimited": true
 	}
 }
