@@ -257,12 +257,12 @@
 		"collateralVaults": ["0xc727069c0eb261Be642272fe3848518192683fFc"]
 	},
 	{
-		"name": "3x Hyperwave Points",
+		"name": "3x Wave Points",
 		"logo": "hyperwave.svg",
 		"collateralVaults": ["0x22cC732cbca457F6811295bCE75B01822544bA52"]
 	},
 	{
-		"name": "3x Hyperwave Points",
+		"name": "3x Wave Points",
 		"logo": "hyperwave.svg",
 		"liabilityVaults": ["0x22cC732cbca457F6811295bCE75B01822544bA52"]
 	}
