@@ -1213,5 +1213,25 @@
 		"name": "Frontier YieldFi PT-yUSD-7AUG2025",
 		"description": "A PT-yUSD-7AUG2025 vault in the Frontier YieldFi market.",
 		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x3C75C170671acb394804DfAf63e4F9891C121625": {
+		"name": "Frontier Hyperwave USDC",
+		"description": "A USDC vault in the Frontier Hyperwave market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x22cC732cbca457F6811295bCE75B01822544bA52": {
+		"name": "Frontier Hyperwave USDT",
+		"description": "A USDT vault in the Frontier Hyperwave market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x4f36Bebf5dDb4b804F9C72644aEe82BAd165BFfc": {
+		"name": "Frontier Hyperwave hwHLP",
+		"description": "A hwHLP vault in the Frontier Hyperwave market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x9c6bDF412723ADF2798B163638083783506B26e3": {
+		"name": "Frontier Hyperwave PT-hwHLP-25SEP2025",
+		"description": "A PT-hwHLP-25SEP2025 vault in the Frontier Hyperwave market.",
+		"entity": ["euler-dao", "gauntlet"]
 	}
 }
