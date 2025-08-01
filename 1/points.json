@@ -270,5 +270,15 @@
 		"name": "5x Pareto Efficiency Points",
 		"logo": "pareto.png",
 		"collateralVaults": ["0xa94F9CE821C7bD57cc12991CB46ca19f5789278F"]
+	},
+	{
+		"name": "3x Wave Points",
+		"logo": "hyperwave.svg",
+		"collateralVaults": ["0x3C75C170671acb394804DfAf63e4F9891C121625"]
+	},
+	{
+		"name": "3x Wave Points",
+		"logo": "hyperwave.svg",
+		"liabilityVaults": ["0x3C75C170671acb394804DfAf63e4F9891C121625"]
 	}
 ]
