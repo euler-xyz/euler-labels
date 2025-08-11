@@ -6,7 +6,7 @@
 		"url": "https://euler.finance/",
 		"addresses": {
 			"0x89Ad331C4B69d7b251C9937DD9A9CEA6E357997a": "Euler DAO Multisig",
-			"0x194B4dbe883B5afB1AbB3CA909b4F5f450c65305": "Euler Vault Access Control Governor"
+			"0x703AB67Cd644165503551Dfbf90727D3Bc47887D": "Euler Vault Access Control Governor"
 		},
 		"social": {
 			"twitter": "eulerfinance",
@@ -21,6 +21,9 @@
 		"logo": "gauntlet.svg",
 		"description": "Gauntlet's applied research and optimization teams model market risk, economic incentives, and drive sustainable growth for crypto's top protocols, chains, and onchain treasuries.",
 		"url": "https://www.gauntlet.xyz/",
+		"addresses": {
+			"0x703AB67Cd644165503551Dfbf90727D3Bc47887D": "Euler Vault Access Control Governor"
+		},
 		"social": {
 			"twitter": "gauntlet_xyz"
 		}
