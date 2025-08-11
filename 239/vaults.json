@@ -88,5 +88,20 @@
 		"name": "Edge UltraYield sUSN",
 		"description": "A sUSN vault collateralized by other vaults in the Edge UltraYield Cluster.",
 		"entity": "edge-capital"
+	},
+	"0xE82A5eD2d6E0423317F2a7FdB3B21215411791e0": {
+		"name": "Edge UltraYield RLP",
+		"description": "A RLP vault collateralized by other vaults in the Edge UltraYield Cluster.",
+		"entity": "edge-capital"
+	},
+	"0xcAA9c74f87D31bC280AF5666BdC868DEe2064fE8": {
+		"name": "Edge UltraYield USR",
+		"description": "A USR vault collateralized by other vaults in the Edge UltraYield Cluster.",
+		"entity": "edge-capital"
+	},
+	"0x921209493da603056De9B9a46eCE14b996a75088": {
+		"name": "Edge UltraYield wstUSR",
+		"description": "A wstUSR vault collateralized by other vaults in the Edge UltraYield Cluster.",
+		"entity": "edge-capital"
 	}
 }
