@@ -1,0 +1,26 @@
+{
+	"euler-linea-wsteth-cluster": {
+		"name": "Euler Linea wstETH Cluster",
+		"entity": ["euler-dao", "gauntlet"],
+		"vaults": [
+			"0xa8A02E6a894a490D04B6cd480857A19477854968",
+			"0x359e363c11fC619BE76EEC8BaAa01e61D521aA18"
+		]
+	},
+	"euler-linea-weeth-cluster": {
+		"name": "Euler Linea weETH Cluster",
+		"entity": ["euler-dao", "gauntlet"],
+		"vaults": [
+			"0xF4712fC5E6483DE9e1Ff661D95DD686664327086",
+			"0x8955d7dCdE9bD9694B64732aD28fF2113eb217B4"
+		]
+	},
+	"euler-linea-ezeth-cluster": {
+		"name": "Euler Linea ezETH Cluster",
+		"entity": ["euler-dao", "gauntlet"],
+		"vaults": [
+			"0x8bf8EdC911Ab3f0ea4a27c51Cb88b57ccE5356f1",
+			"0x873FEA936C29C8a9f3e0D7caCFC1Dc46E2A93e56"
+		]
+	}
+}
