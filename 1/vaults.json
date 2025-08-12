@@ -79,19 +79,9 @@
 		"description": "A conservative RETH vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
 		"entity": "euler-dao"
 	},
-	"0xddd082d01852EFccEc0DB5477F41f530Ecb0C136": {
-		"name": "Euler Prime mETH",
-		"description": "A conservative mETH vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
-		"entity": "euler-dao"
-	},
 	"0x1924D7fab80d0623f0836Cbf5258a7fa734EE9D9": {
 		"name": "Euler Prime rsETH",
 		"description": "A conservative rsETH vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
-		"entity": "euler-dao"
-	},
-	"0x9Dfe12dBd94eb8294b047Fabe3142C5d7178071b": {
-		"name": "Euler Prime ETHx",
-		"description": "A conservative ETHx vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
 		"entity": "euler-dao"
 	},
 	"0xc2d36F41841B420937643dcccbEa8163D4F59B6c": {
