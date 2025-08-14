@@ -54,6 +54,16 @@ Each entry in this array corresponds to points available on deposits in a vault.
 * `liabilityVaults`: An array of the vault addresses (in checksumed hex format) that offer these points. Each vault does not need to exist in the `vaults.json` file.
 * `entity`: An entity ID that refers to the organisation responsible for governing and/or creating this vault, or a list of entity IDs if the vault is joint-managed.
 
+### `earnProducts.json`
+
+Each entry in this object corresponds to earn-specific lending products. The schema is similar to `products.json` but specifically for earn-focused products. Each key is the **product ID** in "URL slug" format. Product IDs must be unique within `earnProducts.json` but can overlap with IDs in `products.json`.
+
+* `name`: Official name of the earn product. (Required)
+* `description`: Long-form description of the earn product.
+* `entity`: An entity ID or list of entity IDs for the organization(s) responsible for the product.
+* `url`: Website for more information about the earn product.
+* `vaults`: An array of vault addresses (in checksumed hex format) that comprise the earn product.
+
 ### `opportunities.json`
 
 Each entry in this object represents opportunities associated with specific vaults.

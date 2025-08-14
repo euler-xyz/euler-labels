@@ -40,6 +40,14 @@ function validateChain(chainId) {
 	const points = loadJsonFile(`${chainId}/points.json`);
 	const opportunities = loadJsonFile(`${chainId}/opportunities.json`);
 
+	// Load earnProducts.json if it exists
+	let earnProducts;
+	try {
+		earnProducts = loadJsonFile(`${chainId}/earnProducts.json`);
+	} catch (e) {
+		earnProducts = {}; // Optional file, default to empty object if not found
+	}
+
 	validateUniqueEntityAddresses(entities);
 
 	for (const entityId of Object.keys(entities)) {
@@ -99,6 +107,37 @@ function validateChain(chainId) {
 
 		if (product.logo && !logos[product.logo])
 			throw Error(`products: logo not found: ${product.logo}`);
+	}
+
+	// Track earn product slugs to ensure uniqueness within earnProducts.json
+	const earnProductSlugs = new Set();
+
+	// Validate earnProducts.json
+	for (const productId of Object.keys(earnProducts)) {
+		const product = earnProducts[productId];
+
+		if (!validSlug(productId))
+			throw Error(`earnProducts: invalid slug: ${productId}`);
+		if (!product.name) throw Error(`earnProducts: missing name: ${productId}`);
+
+		// Check for duplicate slugs within earnProducts.json
+		if (earnProductSlugs.has(productId))
+			throw Error(`earnProducts: duplicate product slug: ${productId}`);
+		earnProductSlugs.add(productId);
+
+		for (const addr of product.vaults || []) {
+			if (addr !== ethers.getAddress(addr))
+				throw Error(
+					`earnProducts: malformed vault address: ${ethers.getAddress(addr)}`,
+				);
+			// Note: We don't require earn product vaults to exist in vaults.json
+			vaultsSeenInProducts[addr] = true; // Mark as seen to avoid validation error
+		}
+
+		for (const entity of getArray(product.entity)) {
+			if (!entities[entity])
+				throw Error(`earnProducts: no such entity ${entity}`);
+		}
 	}
 
 	for (const vaultId of Object.keys(vaults)) {

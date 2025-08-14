@@ -1,0 +1,9 @@
+{
+	"earn-market": {
+		"name": "Earn Market",
+		"description": "Sample earn market description.",
+		"entity": ["euler-dao"],
+		"url": "",
+		"vaults": ["0x00A3798d6897928B8ea3F48336F2126Cbf3259A2"]
+	}
+}
