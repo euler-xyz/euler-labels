@@ -65,8 +65,8 @@
 		"entity": ["euler-dao", "gauntlet"]
 	},
 	"0x482C3E2530FAc8FE2c63AE007AD2695C6d685E98": {
-		"name": "Frontier USDai USDT",
-		"description": "A USDT vault collateralized by other vaults in the Frontier USDai market.",
+		"name": "Frontier USDai USDT0",
+		"description": "A USDT0 vault collateralized by other vaults in the Frontier USDai market.",
 		"entity": ["euler-dao", "gauntlet"]
 	},
 	"0x7D9790403FA53eF3E3a3389c259D244BDc61B785": {
