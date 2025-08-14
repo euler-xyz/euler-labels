@@ -28,5 +28,15 @@
 		"name": "Euler Linea ezETH ezETH",
 		"description": "Component of the Euler Linea ezETH Cluster",
 		"entity": "euler-dao"
+	},
+	"0x179DfD3eCDC6f5B8F8788584F3289D10c6F1afb8": {
+		"name": "Euler Linea wrsETH WETH",
+		"description": "Component of the Euler Linea wrsETH Cluster",
+		"entity": "euler-dao"
+	},
+	"0x5DF4080d8d1a85457d699E6a85255fc4087B8Abf": {
+		"name": "Euler Linea wrsETH wrsETH",
+		"description": "Component of the Euler Linea wrsETH Cluster",
+		"entity": "euler-dao"
 	}
 }
