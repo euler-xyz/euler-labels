@@ -20,8 +20,8 @@
 		]
 	},
 	"frontier-usdai": {
-		"name": "Frontier USDAI",
-		"description": "A market tailored to facilitate common trades like blue chip lending, stablecoin borrowing, and LST/LRT looping. Governed by Euler DAO.",
+		"name": "Frontier USDai",
+		"description": "An isolated market dedicated to the USDai ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
 		"entity": ["euler-dao", "gauntlet"],
 		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
 		"vaults": [
@@ -30,6 +30,7 @@
 			"0x7D9790403FA53eF3E3a3389c259D244BDc61B785",
 			"0xAABb9cbAC15a3D646dCdc6574bCFCfB989E1fDd8",
 			"0x683B777A393BA94F3c903fba2b14A6b6fF80dbE7"
-		]
+		],
+		"isGovernanceLimited": true
 	}
 }
