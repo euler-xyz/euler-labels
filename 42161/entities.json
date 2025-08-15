@@ -27,5 +27,17 @@
 		"social": {
 			"twitter": "gauntlet_xyz"
 		}
+	},
+	"k3-capital": {
+		"name": "K3 Capital",
+		"logo": "k3.svg",
+		"description": "K3 Capital provide leading institutional asset and risk management in decentralized finance.",
+		"url": "https://k3.capital/",
+		"addresses": {
+			"0xaA10A4d3fC764F8d0A7cE9E2Adf54aA4D36251c7": "K3 Fireblocks wallet"
+		},
+		"social": {
+			"twitter": "k3_capital"
+		}
 	}
 }
