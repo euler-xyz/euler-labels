@@ -61,27 +61,27 @@
 	},
 	"0x6aFB8d3F6D4A34e9cB2f217317f4dc8e05Aa673b": {
 		"name": "K3 Capital USDai USDC",
-		"description": "Component of the K3 Capital Cluster",
+		"description": "Component of the K3 Capital USDai Cluster",
 		"entity": "k3-capital"
 	},
 	"0x482C3E2530FAc8FE2c63AE007AD2695C6d685E98": {
 		"name": "K3 Capital USDai USDT0",
-		"description": "Component of the K3 Capital Cluster",
+		"description": "Component of the K3 Capital USDai Cluster",
 		"entity": "k3-capital"
 	},
 	"0x7D9790403FA53eF3E3a3389c259D244BDc61B785": {
 		"name": "K3 Capital USDai USDai",
-		"description": "Component of the K3 Capital Cluster",
+		"description": "Component of the K3 Capital USDai Cluster",
 		"entity": "k3-capital"
 	},
 	"0xAABb9cbAC15a3D646dCdc6574bCFCfB989E1fDd8": {
 		"name": "K3 Capital USDai sUSDai",
-		"description": "Component of the K3 Capital Cluster",
+		"description": "Component of the K3 Capital USDai Cluster",
 		"entity": "k3-capital"
 	},
 	"0x683B777A393BA94F3c903fba2b14A6b6fF80dbE7": {
 		"name": "K3 Capital USDai USDe",
-		"description": "Component of the K3 Capital Cluster",
+		"description": "Component of the K3 Capital USDai Cluster",
 		"entity": "k3-capital"
 	}
 }
