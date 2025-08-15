@@ -1258,5 +1258,20 @@
 		"name": "Frontier Strata PT-pUSDe-16OCT2025",
 		"description": "A PT-pUSDe-16OCT2025 vault in the Frontier Strata market.",
 		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xc42d337861878baa4dc820d9e6b6c667c2b57e8a": {
+		"name": "Rezerve USDC",
+		"description": "A USDC vault used to provide liquidity to RZR/lstRZR borrowers",
+		"entity": "zerolend"
+	},
+	"0x1ab9e92cfde84f38868753d30ffc43f812b803c5": {
+		"name": "Rezerve RZR",
+		"description": "A RZR vault to be used as collateral to borrow USDC",
+		"entity": "zerolend"
+	},
+	"0xc364fd9637fe562a2d5a1cbc7d1ab7f32be900ef": {
+		"name": "Rezerve lstRZR",
+		"description": "A lstRZR vault to be used as collateral to borrow USDC and RZR",
+		"entity": "zerolend"
 	}
 }
