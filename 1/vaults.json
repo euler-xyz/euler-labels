@@ -1233,5 +1233,30 @@
 		"name": "Frontier Hyperwave PT-hwHLP-25SEP2025",
 		"description": "A PT-hwHLP-25SEP2025 vault in the Frontier Hyperwave market.",
 		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x53AfE3343f322c4189Ab69E0D048efd154259419": {
+		"name": "Frontier Strata USDC",
+		"description": "A USDC vault in the Frontier Strata market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x09FcE883cC16894274802c01e3b9cD90EAE4e43d": {
+		"name": "Frontier Strata USDT",
+		"description": "A USDT vault in the Frontier Strata market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x6331D36C27D967c4261D59a8f80d58d03089810A": {
+		"name": "Frontier Strata USDe",
+		"description": "A USDe vault in the Frontier Strata market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xBd360BB80E6CBe86e533B672Df6BFc054602ADBD": {
+		"name": "Frontier Strata pUSDe",
+		"description": "A pUSDe vault in the Frontier Strata market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xCfC6a55Aa72DCF3755A515aE8B82552028b63D2A": {
+		"name": "Frontier Strata PT-pUSDe-16OCT2025",
+		"description": "A PT-pUSDe-16OCT2025 vault in the Frontier Strata market.",
+		"entity": ["euler-dao", "gauntlet"]
 	}
 }
