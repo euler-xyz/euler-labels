@@ -5,8 +5,8 @@
 		"description": "The Euler DAO is the organisation responsible for the creation of the Euler lending/borrowing platform.",
 		"url": "https://euler.finance/",
 		"addresses": {
-			"0xf6d781B96b65495f8b0429f3023Df2194AfCF06F": "Euler DAO Multisig",
-			"0x09d43F5C713239d6E450CD231EA36e9e78a45c68": "Euler Vault Access Control Governor"
+			"0x89Ad331C4B69d7b251C9937DD9A9CEA6E357997a": "Euler DAO Multisig",
+			"0x703AB67Cd644165503551Dfbf90727D3Bc47887D": "Euler Vault Access Control Governor"
 		},
 		"social": {
 			"twitter": "eulerfinance",
@@ -22,22 +22,10 @@
 		"description": "Gauntlet's applied research and optimization teams model market risk, economic incentives, and drive sustainable growth for crypto's top protocols, chains, and onchain treasuries.",
 		"url": "https://www.gauntlet.xyz/",
 		"addresses": {
-			"0x09d43F5C713239d6E450CD231EA36e9e78a45c68": "Euler Vault Access Control Governor"
+			"0x703AB67Cd644165503551Dfbf90727D3Bc47887D": "Euler Vault Access Control Governor"
 		},
 		"social": {
 			"twitter": "gauntlet_xyz"
-		}
-	},
-	"alphagrowth": {
-		"name": "AlphaGrowth",
-		"logo": "alphagrowth.svg",
-		"description": "Real stewardship, real growth. AlphaGrowth drives the blockchain industry forward by expanding token utility and accessibility through strategic partnerships and integrations.",
-		"url": "https://alphagrowth.io/",
-		"addresses": {
-			"0x4f894Bfc9481110278C356adE1473eBe2127Fd3C": "Reservoir DAO Multisig"
-		},
-		"social": {
-			"twitter": "alphagrowth1"
 		}
 	}
 }

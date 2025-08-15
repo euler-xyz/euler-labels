@@ -255,5 +255,56 @@
 		"name": "2.5x YieldFi Points",
 		"logo": "yieldfi.png",
 		"collateralVaults": ["0xc727069c0eb261Be642272fe3848518192683fFc"]
+	},
+	{
+		"name": "3x Wave Points",
+		"logo": "hyperwave.svg",
+		"collateralVaults": ["0x22cC732cbca457F6811295bCE75B01822544bA52"]
+	},
+	{
+		"name": "3x Wave Points",
+		"logo": "hyperwave.svg",
+		"liabilityVaults": ["0x22cC732cbca457F6811295bCE75B01822544bA52"]
+	},
+	{
+		"name": "5x Pareto Efficiency Points",
+		"logo": "pareto.png",
+		"collateralVaults": ["0xa94F9CE821C7bD57cc12991CB46ca19f5789278F"]
+	},
+	{
+		"name": "3x Wave Points",
+		"logo": "hyperwave.svg",
+		"collateralVaults": ["0x3C75C170671acb394804DfAf63e4F9891C121625"]
+	},
+	{
+		"name": "3x Wave Points",
+		"logo": "hyperwave.svg",
+		"liabilityVaults": ["0x3C75C170671acb394804DfAf63e4F9891C121625"]
+	},
+	{
+		"name": "30x Strata Points",
+		"logo": "strata.svg",
+		"collateralVaults": [
+			"0xBd360BB80E6CBe86e533B672Df6BFc054602ADBD",
+			"0x6331D36C27D967c4261D59a8f80d58d03089810A"
+		]
+	},
+	{
+		"name": "30x Ethena Points",
+		"logo": "ethena.png",
+		"collateralVaults": [
+			"0xBd360BB80E6CBe86e533B672Df6BFc054602ADBD",
+			"0x6331D36C27D967c4261D59a8f80d58d03089810A"
+		]
+	},
+	{
+		"name": "1x Ethereal Points",
+		"logo": "ethereal.svg",
+		"collateralVaults": ["0xBd360BB80E6CBe86e533B672Df6BFc054602ADBD"]
+	},
+	{
+		"name": "20x Strata Points",
+		"logo": "strata.svg",
+		"collateralVaults": ["0x53AfE3343f322c4189Ab69E0D048efd154259419"]
 	}
 ]

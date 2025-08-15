@@ -29,11 +29,11 @@
 			"0x25e2ef0f957B61cdd26BBE954AFD5806A9DaDe49"
 		]
 	},
-	"reservoir-defi-ops": {
-		"name": "ReservoirDAO DeFi Ops",
-		"description": "Strategic DeFi Ops that amplify utility and expand reach through targeted DeFi platform integration and growth strategies.",
-		"entity": ["reservoir-dao"],
-		"url": "https://reservoirdao.org/",
+	"alphagrowth-unichain": {
+		"name": "AlphaGrowth Unichain Vaults",
+		"description": "A market tailored to borrowing against blue chip crypto assets. Governed by AlphaGrowth.",
+		"entity": ["alphagrowth"],
+		"url": "https://alphagrowth.io/",
 		"vaults": [
 			"0x218c9e961fC5f6c8280bA160365FAbe8A53Ec6E5",
 			"0x5ADAde21c703912547BFc8952fe1B52f09437E2A"

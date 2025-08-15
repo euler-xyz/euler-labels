@@ -149,6 +149,16 @@
 		"description": "Component of the MEV Capital Sonic Cluster",
 		"entity": "mev-capital"
 	},
+	"0x2A377470DcF0e00F6DEd484DDf82df65F0Fb50af": {
+		"name": "MEV Capital xBTC",
+		"description": "Component of the MEV Capital Sonic Cluster",
+		"entity": "mev-capital"
+	},
+	"0xB6a53021E7A40ea20DF1e1991B0C89432073386E": {
+		"name": "MEV Capital xETH",
+		"description": "Component of the MEV Capital Sonic Cluster",
+		"entity": "mev-capital"
+	},
 	"0x90a804D316A06E00755444D56b9eF52e5C4F4D73": {
 		"name": "MEV Capital wS",
 		"description": "Component of the MEV Capital Beets Cluster",

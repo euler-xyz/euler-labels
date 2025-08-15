@@ -79,19 +79,9 @@
 		"description": "A conservative RETH vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
 		"entity": "euler-dao"
 	},
-	"0xddd082d01852EFccEc0DB5477F41f530Ecb0C136": {
-		"name": "Euler Prime mETH",
-		"description": "A conservative mETH vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
-		"entity": "euler-dao"
-	},
 	"0x1924D7fab80d0623f0836Cbf5258a7fa734EE9D9": {
 		"name": "Euler Prime rsETH",
 		"description": "A conservative rsETH vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
-		"entity": "euler-dao"
-	},
-	"0x9Dfe12dBd94eb8294b047Fabe3142C5d7178071b": {
-		"name": "Euler Prime ETHx",
-		"description": "A conservative ETHx vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
 		"entity": "euler-dao"
 	},
 	"0xc2d36F41841B420937643dcccbEa8163D4F59B6c": {
@@ -112,6 +102,11 @@
 	"0x6bE9e82B25987Ce66AcD89130fEe494EDd0473AE": {
 		"name": "Euler Prime sUSDe",
 		"description": "A conservative sUSDe vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
+		"entity": "euler-dao"
+	},
+	"0x5A96128c18018a2cEf539f46Bbed037DAD3cAAe8": {
+		"name": "Euler Prime XAUt",
+		"description": "A conservative XAUt vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
 		"entity": "euler-dao"
 	},
 	"0xe0a80d35bB6618CBA260120b279d357978c42BCE": {
@@ -284,6 +279,11 @@
 		"description": "A PT-tUSDe-25SEP2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
 		"entity": "euler-dao"
 	},
+	"0x2f94Bbe20ECa1e3f9332aA93A90920a0a5be0728": {
+		"name": "Euler Yield PT-pUSDe-16OCT2025",
+		"description": "A PT-pUSDe-16OCT2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
+		"entity": "euler-dao"
+	},
 	"0xEA79E49A076a75A9bF6013505C2B92eED69E4fe1": {
 		"name": "Euler RWA USDC",
 		"description": "A USDC vault collateralized by other vaults in the Euler RWA cluster",
@@ -339,6 +339,11 @@
 		"description": "An PT-mEDGE-31JUL2025 escrowed collateral vault used to borrow USDC and mEDGE in the Frontier mEDGE Cluster.",
 		"entity": ["euler-dao", "gauntlet"]
 	},
+	"0x561fF99A243868fdf755705b1B83e6C4E8B8B0dF": {
+		"name": "Frontier mEDGE PT-mEDGE-30OCT2025",
+		"description": "An PT-mEDGE-30OCT2025 escrowed collateral vault used to borrow USDC and mEDGE in the Frontier mEDGE market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
 	"0x98281466aBcF48eAAD8c6E22dEdD18A3426A93b4": {
 		"name": "Frontier mMEV USDC",
 		"description": "A USDC vault collateralized by mMEV and its derivatives in the Frontier mMEV market.",
@@ -357,6 +362,11 @@
 	"0x819662Ab6Fe32B52100fa32aE3e0e8b36B4C5638": {
 		"name": "Frontier mMEV PT-mMEV-31JUL2025",
 		"description": "An PT-mMEV-31JUL2025 escrowed collateral vault used to borrow USDC and mMEV in the Frontier mMEV market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xdc685C0b34eDd19f702a8ad4cD4d8279F6452AC8": {
+		"name": "Frontier mMEV PT-mMEV-30OCT2025",
+		"description": "An PT-mMEV-30OCT2025 escrowed collateral vault used to borrow USDC and mMEV in the Frontier mMEV market.",
 		"entity": ["euler-dao", "gauntlet"]
 	},
 	"0xF4Bc4239eDca81ed0d305701CB18A5Fd82cd06Ca": {
@@ -412,6 +422,11 @@
 	"0xE415952f5ee06f8A548F4f7D5bE18FBf144b4E4D": {
 		"name": "Frontier Falcon PT-sUSDf-25SEP2025",
 		"description": "A PT-sUSDf-25SEP2025 escrowed collateral vault used to borrow USDC, USDf, and sUSDf in the Frontier Falcon market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xa7A064f56FbcA60cBeD47eD3e13C4B945DEf7eC3": {
+		"name": "Frontier Falcon PT-USDf-29JAN2026",
+		"description": "An PT-USDf-29JAN2026 escrowed collateral vault used to borrow USDC, USDf, and sUSDf in the Frontier Falcon market.",
 		"entity": ["euler-dao", "gauntlet"]
 	},
 	"0x81f8ac1a4756BfE9D7ce138C0C3baD2Cb5E8a582": {
@@ -1197,6 +1212,51 @@
 	"0xb76e9E04d4356756c9b8E002Cc4dabFA4e02BD93": {
 		"name": "Frontier YieldFi PT-yUSD-7AUG2025",
 		"description": "A PT-yUSD-7AUG2025 vault in the Frontier YieldFi market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x3C75C170671acb394804DfAf63e4F9891C121625": {
+		"name": "Frontier Hyperwave USDC",
+		"description": "A USDC vault in the Frontier Hyperwave market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x22cC732cbca457F6811295bCE75B01822544bA52": {
+		"name": "Frontier Hyperwave USDT",
+		"description": "A USDT vault in the Frontier Hyperwave market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x4f36Bebf5dDb4b804F9C72644aEe82BAd165BFfc": {
+		"name": "Frontier Hyperwave hwHLP",
+		"description": "A hwHLP vault in the Frontier Hyperwave market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x9c6bDF412723ADF2798B163638083783506B26e3": {
+		"name": "Frontier Hyperwave PT-hwHLP-25SEP2025",
+		"description": "A PT-hwHLP-25SEP2025 vault in the Frontier Hyperwave market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x53AfE3343f322c4189Ab69E0D048efd154259419": {
+		"name": "Frontier Strata USDC",
+		"description": "A USDC vault in the Frontier Strata market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x09FcE883cC16894274802c01e3b9cD90EAE4e43d": {
+		"name": "Frontier Strata USDT",
+		"description": "A USDT vault in the Frontier Strata market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x6331D36C27D967c4261D59a8f80d58d03089810A": {
+		"name": "Frontier Strata USDe",
+		"description": "A USDe vault in the Frontier Strata market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xBd360BB80E6CBe86e533B672Df6BFc054602ADBD": {
+		"name": "Frontier Strata pUSDe",
+		"description": "A pUSDe vault in the Frontier Strata market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xCfC6a55Aa72DCF3755A515aE8B82552028b63D2A": {
+		"name": "Frontier Strata PT-pUSDe-16OCT2025",
+		"description": "A PT-pUSDe-16OCT2025 vault in the Frontier Strata market.",
 		"entity": ["euler-dao", "gauntlet"]
 	}
 }

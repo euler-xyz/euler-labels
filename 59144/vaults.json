@@ -1,0 +1,42 @@
+{
+	"0xa8A02E6a894a490D04B6cd480857A19477854968": {
+		"name": "Euler Linea wstETH WETH",
+		"description": "Component of the Euler Linea wstETH Cluster",
+		"entity": "euler-dao"
+	},
+	"0x359e363c11fC619BE76EEC8BaAa01e61D521aA18": {
+		"name": "Euler Linea wstETH wstETH",
+		"description": "Component of the Euler Linea wstETH Cluster",
+		"entity": "euler-dao"
+	},
+	"0xF4712fC5E6483DE9e1Ff661D95DD686664327086": {
+		"name": "Euler Linea weETH WETH",
+		"description": "Component of the Euler Linea weETH Cluster",
+		"entity": "euler-dao"
+	},
+	"0x8955d7dCdE9bD9694B64732aD28fF2113eb217B4": {
+		"name": "Euler Linea weETH weETH",
+		"description": "Component of the Euler Linea weETH Cluster",
+		"entity": "euler-dao"
+	},
+	"0x8bf8EdC911Ab3f0ea4a27c51Cb88b57ccE5356f1": {
+		"name": "Euler Linea ezETH WETH",
+		"description": "Component of the Euler Linea ezETH Cluster",
+		"entity": "euler-dao"
+	},
+	"0x873FEA936C29C8a9f3e0D7caCFC1Dc46E2A93e56": {
+		"name": "Euler Linea ezETH ezETH",
+		"description": "Component of the Euler Linea ezETH Cluster",
+		"entity": "euler-dao"
+	},
+	"0x179DfD3eCDC6f5B8F8788584F3289D10c6F1afb8": {
+		"name": "Euler Linea wrsETH WETH",
+		"description": "Component of the Euler Linea wrsETH Cluster",
+		"entity": "euler-dao"
+	},
+	"0x5DF4080d8d1a85457d699E6a85255fc4087B8Abf": {
+		"name": "Euler Linea wrsETH wrsETH",
+		"description": "Component of the Euler Linea wrsETH Cluster",
+		"entity": "euler-dao"
+	}
+}

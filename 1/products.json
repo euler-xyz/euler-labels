@@ -19,15 +19,14 @@
 			"0xbC35161043EE2D74816d421EfD6a45fDa73B050A",
 			"0xE88e44C2C7dfc9bcb86e380d29375ccD6cd85406",
 			"0x0D1B386187be8e96680bbddBf7Bc05FC737f81b8",
-			"0xddd082d01852EFccEc0DB5477F41f530Ecb0C136",
 			"0x1924D7fab80d0623f0836Cbf5258a7fa734EE9D9",
-			"0x9Dfe12dBd94eb8294b047Fabe3142C5d7178071b",
 			"0xA28C23a459fF8773EB4dBe0e7250d93F79F1Fe2B",
 			"0x328646cdfBaD730432620d845B8F5A2f7D786C01",
 			"0xc2d36F41841B420937643dcccbEa8163D4F59B6c",
 			"0x22eed7C25A35D40255cd80d3B67A2F8742f94443",
 			"0x6bE9e82B25987Ce66AcD89130fEe494EDd0473AE",
-			"0xee944C7Dd107617550EC11AFCF652e14E7670A37"
+			"0xee944C7Dd107617550EC11AFCF652e14E7670A37",
+			"0x5A96128c18018a2cEf539f46Bbed037DAD3cAAe8"
 		]
 	},
 	"euler-yield": {
@@ -69,7 +68,8 @@
 			"0x43356281a62dc8712C7186Ca02BA3aD906B6181D",
 			"0xb53b4B2590457bE63E1DCdAffa6a18ECd44D96D2",
 			"0xA9902f9210059171C52b2721424E00f48821dcf3",
-			"0xbF34Cf6F1C098231E16D7Be38a2aE13EfE9b92d3"
+			"0xbF34Cf6F1C098231E16D7Be38a2aE13EfE9b92d3",
+			"0x2f94Bbe20ECa1e3f9332aA93A90920a0a5be0728"
 		]
 	},
 	"euler-rwa": {
@@ -110,7 +110,8 @@
 			"0x09136DAC538B54994170a6905507a74562A80ed3",
 			"0x122e9eA082D8c060Bb1a3476aa18B9E739fBbAAf",
 			"0xD53f83c7CA5189007C09b5D867a8116bC0540724",
-			"0x94EdbB8F7543593FF1B8D2871eC4730B59c97888"
+			"0x94EdbB8F7543593FF1B8D2871eC4730B59c97888",
+			"0x561fF99A243868fdf755705b1B83e6C4E8B8B0dF"
 		],
 		"isGovernanceLimited": true
 	},
@@ -123,7 +124,8 @@
 			"0x98281466aBcF48eAAD8c6E22dEdD18A3426A93b4",
 			"0x75E695C60aF0780F8c9FA79e37946a02f4481c09",
 			"0x3F7CcadEd39Fd9D06Eb0498ABEb7EAAB569E79Ad",
-			"0x819662Ab6Fe32B52100fa32aE3e0e8b36B4C5638"
+			"0x819662Ab6Fe32B52100fa32aE3e0e8b36B4C5638",
+			"0xdc685C0b34eDd19f702a8ad4cD4d8279F6452AC8"
 		],
 		"isGovernanceLimited": true
 	},
@@ -152,7 +154,8 @@
 			"0xbFdc482616787b420BC6C710212fE3167E7198e9",
 			"0x412D0E31790D77b6e7a7872a9fd6967B6E640229",
 			"0x2F849ba554C1ea2eDe9C240Bbe9d247dd6eC8A6B",
-			"0xE415952f5ee06f8A548F4f7D5bE18FBf144b4E4D"
+			"0xE415952f5ee06f8A548F4f7D5bE18FBf144b4E4D",
+			"0xa7A064f56FbcA60cBeD47eD3e13C4B945DEf7eC3"
 		],
 		"isGovernanceLimited": true
 	},
@@ -512,6 +515,31 @@
 			"0xd90f695D98b6E1fAA7BA516A777fF12cc3C111a4",
 			"0x3eD8f77Ca6FD9e5c6DBBcC9696BF93F30C3A2BA5",
 			"0xb76e9E04d4356756c9b8E002Cc4dabFA4e02BD93"
+		],
+		"isGovernanceLimited": true
+	},
+	"frontier-hyperwave": {
+		"name": "Frontier Hyperwave",
+		"description": "An isolated market dedicated to the Hyperwave ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao", "gauntlet"],
+		"vaults": [
+			"0x3C75C170671acb394804DfAf63e4F9891C121625",
+			"0x22cC732cbca457F6811295bCE75B01822544bA52",
+			"0x4f36Bebf5dDb4b804F9C72644aEe82BAd165BFfc",
+			"0x9c6bDF412723ADF2798B163638083783506B26e3"
+		],
+		"isGovernanceLimited": true
+	},
+	"frontier-strata": {
+		"name": "Frontier Strata",
+		"description": "An isolated market dedicated to the Strata ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao", "gauntlet"],
+		"vaults": [
+			"0x53AfE3343f322c4189Ab69E0D048efd154259419",
+			"0x09FcE883cC16894274802c01e3b9cD90EAE4e43d",
+			"0x6331D36C27D967c4261D59a8f80d58d03089810A",
+			"0xBd360BB80E6CBe86e533B672Df6BFc054602ADBD",
+			"0xCfC6a55Aa72DCF3755A515aE8B82552028b63D2A"
 		],
 		"isGovernanceLimited": true
 	}
