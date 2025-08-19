@@ -30,5 +30,14 @@
 			"0x179DfD3eCDC6f5B8F8788584F3289D10c6F1afb8",
 			"0x5DF4080d8d1a85457d699E6a85255fc4087B8Abf"
 		]
+	},
+	"zerolend-core-cluster": {
+		"name": "ZeroLend Core Cluster",
+		"entity": ["zerolend"],
+		"vaults": [
+			"0x14efcc1ae56e2ff75204ef2fb0de43378d0beada",
+			"0x085f80df643307e04f23281f6fdbfaa13865e852",
+			"0x9ac2f0a564b7396a8692e1558d23a12d5a2abb1f"
+		]
 	}
 }
