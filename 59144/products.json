@@ -39,5 +39,26 @@
 			"0x085f80Df643307e04f23281F6fdbfAA13865E852",
 			"0x9aC2F0A564B7396A8692E1558d23a12d5a2aBb1F"
 		]
+	},
+	"re7-labs-usd-cluster": {
+		"name": "Re7 Labs USD Cluster",
+		"entity": "re7-labs",
+		"vaults": [
+			"0xfB6448B96637d90FcF2E4Ad2c622A487d0496e6f",
+			"0xCBeF9be95738290188B25ca9A6Dd2bEc417a578c",
+			"0xb11FD944Cf5E8678B5Db42305aff03B7942A3CaB"
+		],
+		"externalVaults": ["0xb135dcf653dafb5ddaa93f926d7000aa3222efee"]
+	},
+	"re7-labs-weth-cluster": {
+		"name": "Re7 Labs WETH Cluster",
+		"entity": "re7-labs",
+		"vaults": [
+			"0xb135dcF653DAFB5ddAa93F926D7000Aa3222EFEE",
+			"0xB770dc4be757Ad72BCb7b8FF4958FB5c6Ee5Aa49",
+			"0xb747b627C3b67cDC0Aeaf78FD7174aE5E5Bfa796",
+			"0x9947f3D2aE676bE4612Eb4d80e94f6441E47A2a9",
+			"0x92Ba0dED54184ab00f7EdD1bc5Eba488cC8d9dE0"
+		]
 	}
 }

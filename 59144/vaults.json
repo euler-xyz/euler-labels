@@ -53,5 +53,45 @@
 		"name": "ZeroLend WETH",
 		"description": "Component of the ZeroLend Linea Cluster",
 		"entity": "zerolend"
+	},
+	"0xb135dcF653DAFB5ddAa93F926D7000Aa3222EFEE": {
+		"name": "Re7 Labs WETH Cluster WETH",
+		"description": "Component of the Re7 Labs WETH Cluster",
+		"entity": "re7-labs"
+	},
+	"0xB770dc4be757Ad72BCb7b8FF4958FB5c6Ee5Aa49": {
+		"name": "Re7 Labs WETH Cluster wstETH",
+		"description": "Component of the Re7 Labs WETH Cluster",
+		"entity": "re7-labs"
+	},
+	"0xb747b627C3b67cDC0Aeaf78FD7174aE5E5Bfa796": {
+		"name": "Re7 Labs WETH Cluster wrsETH",
+		"description": "Component of the Re7 Labs WETH Cluster",
+		"entity": "re7-labs"
+	},
+	"0x9947f3D2aE676bE4612Eb4d80e94f6441E47A2a9": {
+		"name": "Re7 Labs WETH Cluster ezETH",
+		"description": "Component of the Re7 Labs WETH Cluster",
+		"entity": "re7-labs"
+	},
+	"0x92Ba0dED54184ab00f7EdD1bc5Eba488cC8d9dE0": {
+		"name": "Re7 Labs WETH Cluster weETH",
+		"description": "Component of the Re7 Labs WETH Cluster",
+		"entity": "re7-labs"
+	},
+	"0xfB6448B96637d90FcF2E4Ad2c622A487d0496e6f": {
+		"name": "Re7 Labs USD Cluster USDC",
+		"description": "Component of the Re7 Labs USD Cluster",
+		"entity": "re7-labs"
+	},
+	"0xb11FD944Cf5E8678B5Db42305aff03B7942A3CaB": {
+		"name": "Re7 Labs USD Cluster WBTC",
+		"description": "Component of the Re7 Labs USD Cluster",
+		"entity": "re7-labs"
+	},
+	"0xCBeF9be95738290188B25ca9A6Dd2bEc417a578c": {
+		"name": "Re7 Labs USD Cluster USDT",
+		"description": "Component of the Re7 Labs USD Cluster",
+		"entity": "re7-labs"
 	}
 }
