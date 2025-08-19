@@ -30,28 +30,18 @@
 			"0x179DfD3eCDC6f5B8F8788584F3289D10c6F1afb8",
 			"0x5DF4080d8d1a85457d699E6a85255fc4087B8Abf"
 		]
-	},	
-	"re7-labs-usdc-cluster": {
-		"name": "Re7 Labs USDC Cluster",
+	},
+	"re7-labs-usd-cluster": {
+		"name": "Re7 Labs USD Cluster",
 		"entity": "re7-labs",
 		"vaults": [
 			"0xfb6448b96637d90fcf2e4ad2c622a487d0496e6f",
-			"0xb135dcf653dafb5ddaa93f926d7000aa3222efee",
-			"0xb11fd944cf5e8678b5db42305aff03b7942a3cab",
-			"0xcbef9be95738290188b25ca9a6dd2bec417a578c"
-		]
-	},
-	"re7-labs-usdt-cluster": {
-		"name": "Re7 Labs USDT Cluster",
-		"entity": "re7-labs",
-		"vaults": [
 			"0xcbef9be95738290188b25ca9a6dd2bec417a578c",
-			"0xb135dcf653dafb5ddaa93f926d7000aa3222efee",
-			"0xb11fd944cf5e8678b5db42305aff03b7942a3cab",
-			"0xfb6448b96637d90fcf2e4ad2c622a487d0496e6f"
-		]
+			"0xb11fd944cf5e8678b5db42305aff03b7942a3cab"
+		],
+		"externalVaults": ["0xb135dcf653dafb5ddaa93f926d7000aa3222efee"]
 	},
-		"re7-labs-weth-cluster": {
+	"re7-labs-weth-cluster": {
 		"name": "Re7 Labs WETH Cluster",
 		"entity": "re7-labs",
 		"vaults": [
@@ -62,5 +52,4 @@
 			"0x92ba0ded54184ab00f7edd1bc5eba488cc8d9de0"
 		]
 	}
-	
 }

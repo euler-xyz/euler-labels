@@ -40,43 +40,43 @@
 		"entity": "euler-dao"
 	},
 	"0xb135dcf653dafb5ddaa93f926d7000aa3222efee": {
-		"name": "Re7 Labs WETH Cluster",
+		"name": "Re7 Labs WETH Cluster WETH",
 		"description": "Component of the Re7 Labs WETH Cluster",
 		"entity": "re7-labs"
 	},
 	"0xb770dc4be757ad72bcb7b8ff4958fb5c6ee5aa49": {
-		"name": "Re7 Labs WETH Cluster",
+		"name": "Re7 Labs WETH Cluster wstETH",
 		"description": "Component of the Re7 Labs WETH Cluster",
 		"entity": "re7-labs"
 	},
 	"0xb747b627c3b67cdc0aeaf78fd7174ae5e5bfa796": {
-		"name": "Re7 Labs WETH Cluster",
+		"name": "Re7 Labs WETH Cluster wrsETH",
 		"description": "Component of the Re7 Labs WETH Cluster",
 		"entity": "re7-labs"
 	},
 	"0x9947f3d2ae676be4612eb4d80e94f6441e47a2a9": {
-		"name": "Re7 Labs WETH Cluster",
+		"name": "Re7 Labs WETH Cluster ezETH",
 		"description": "Component of the Re7 Labs WETH Cluster",
 		"entity": "re7-labs"
 	},
 	"0x92ba0ded54184ab00f7edd1bc5eba488cc8d9de0": {
-		"name": "Re7 Labs WETH Cluster",
+		"name": "Re7 Labs WETH Cluster weETH",
 		"description": "Component of the Re7 Labs WETH Cluster",
 		"entity": "re7-labs"
 	},
 	"0xfb6448b96637d90fcf2e4ad2c622a487d0496e6f": {
-		"name": "Re7 Labs USDC Cluster",
-		"description": "Component of the Re7 Labs USDC Cluster",
+		"name": "Re7 Labs USD Cluster USDC",
+		"description": "Component of the Re7 Labs USD Cluster",
 		"entity": "re7-labs"
 	},
 	"0xb11fd944cf5e8678b5db42305aff03b7942a3cab": {
-		"name": "Re7 Labs USDC Cluster",
-		"description": "Component of the Re7 Labs USDC Cluster",
+		"name": "Re7 Labs USD Cluster WBTC",
+		"description": "Component of the Re7 Labs USD Cluster",
 		"entity": "re7-labs"
 	},
 	"0xcbef9be95738290188b25ca9a6dd2bec417a578c": {
-		"name": "Re7 Labs USDT Cluster",
-		"description": "Component of the Re7 Labs USDT Cluster",
+		"name": "Re7 Labs USD Cluster USDT",
+		"description": "Component of the Re7 Labs USD Cluster",
 		"entity": "re7-labs"
 	}
 }
