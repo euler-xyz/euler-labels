@@ -28,6 +28,18 @@
 			"twitter": "gauntlet_xyz"
 		}
 	},
+	"zerolend": {
+		"name": "ZeroLend",
+		"logo": "zerolend.jpg",
+		"description": "ZeroLend is a decentralized lending market curating vaults for LRTs, Real World Assets (RWAs), BTCFi, and promising tokens.",
+		"url": "https://zerolend.xyz/",
+		"addresses": {
+			"0x54061E18cd88D2de9af3D3D7FDF05472253B29E0": "ZeroLend Governor"
+		},
+		"social": {
+			"twitter": "zerolendxyz"
+		}
+	},
 	"re7-labs": {
 		"name": "Re7 Labs",
 		"logo": "re7labs.png",

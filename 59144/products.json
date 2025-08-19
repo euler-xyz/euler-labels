@@ -31,6 +31,15 @@
 			"0x5DF4080d8d1a85457d699E6a85255fc4087B8Abf"
 		]
 	},
+	"zerolend-core-cluster": {
+		"name": "ZeroLend Core Cluster",
+		"entity": ["zerolend"],
+		"vaults": [
+			"0x14EfcC1Ae56e2fF75204Ef2Fb0DE43378d0beaDA",
+			"0x085f80Df643307e04f23281F6fdbfAA13865E852",
+			"0x9aC2F0A564B7396A8692E1558d23a12d5a2aBb1F"
+		]
+	},
 	"re7-labs-usd-cluster": {
 		"name": "Re7 Labs USD Cluster",
 		"entity": "re7-labs",

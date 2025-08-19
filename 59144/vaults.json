@@ -39,6 +39,21 @@
 		"description": "Component of the Euler Linea wrsETH Cluster",
 		"entity": "euler-dao"
 	},
+	"0x14EfcC1Ae56e2fF75204Ef2Fb0DE43378d0beaDA": {
+		"name": "ZeroLend USDC",
+		"description": "Component of the ZeroLend Linea Cluster",
+		"entity": "zerolend"
+	},
+	"0x085f80Df643307e04f23281F6fdbfAA13865E852": {
+		"name": "ZeroLend USDT",
+		"description": "Component of the ZeroLend Linea Cluster",
+		"entity": "zerolend"
+	},
+	"0x9aC2F0A564B7396A8692E1558d23a12d5a2aBb1F": {
+		"name": "ZeroLend WETH",
+		"description": "Component of the ZeroLend Linea Cluster",
+		"entity": "zerolend"
+	},
 	"0xb135dcF653DAFB5ddAa93F926D7000Aa3222EFEE": {
 		"name": "Re7 Labs WETH Cluster WETH",
 		"description": "Component of the Re7 Labs WETH Cluster",
