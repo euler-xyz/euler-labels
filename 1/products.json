@@ -542,5 +542,15 @@
 			"0xCfC6a55Aa72DCF3755A515aE8B82552028b63D2A"
 		],
 		"isGovernanceLimited": true
+	},
+	"rezerve-vaults": {
+		"name": "Rezerve Markets",
+		"description": "An isolated market dedicated to the Rezerve ecosystem. Risk is curated by ZeroLend.",
+		"entity": "zerolend",
+		"vaults": [
+			"0xC42d337861878baa4dC820D9E6B6C667C2b57e8A",
+			"0x1ab9e92CFdE84f38868753d30fFc43F812B803C5",
+			"0xc364FD9637fe562A2d5a1cbc7d1Ab7F32bE900ef"
+		]
 	}
 }
