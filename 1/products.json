@@ -548,9 +548,9 @@
 		"description": "An isolated market dedicated to the Rezerve ecosystem. Risk is curated by ZeroLend.",
 		"entity": "zerolend",
 		"vaults": [
-			"0xc42d337861878baa4dc820d9e6b6c667c2b57e8a",
-			"0x1ab9e92cfde84f38868753d30ffc43f812b803c5",
-			"0xc364fd9637fe562a2d5a1cbc7d1ab7f32be900ef"
+			"0xC42d337861878baa4dC820D9E6B6C667C2b57e8A",
+			"0x1ab9e92CFdE84f38868753d30fFc43F812B803C5",
+			"0xc364FD9637fe562A2d5a1cbc7d1Ab7F32bE900ef"
 		]
 	}
 }
