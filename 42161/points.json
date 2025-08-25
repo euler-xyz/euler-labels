@@ -1,1 +1,7 @@
-[]
+[
+	{
+		"name": "10x Allo Points",
+		"logo": "allo.png",
+		"collateralVaults": ["0x6aFB8d3F6D4A34e9cB2f217317f4dc8e05Aa673b"]
+	}
+]
