@@ -29,12 +29,13 @@
 	},
 	"mev-capital-bob": {
 		"name": "MEV Capital BOB Cluster",
-		"description": "The MEV Capital Berachain Cluster provides a set of liquid collateral markets with an optimized risk-adjusted return.",
+		"description": "The MEV Capital BOB Cluster provides a set of liquid collateral markets with an optimized risk-adjusted return.",
 		"entity": "mev-capital",
 		"vaults": [
-			"0x31AB3523467f9e1788EFf6df8f4DE301026EdE8f",
-			"0x77CE4B784b494c4b089ACa5fbD7938F9c6f5F37B",
-			"0xc282E68852F52A9cf493b8A85dfF55B871f4757B"
-		]
+		    "0x77CE4B784b494c4b089ACa5fbD7938F9c6f5F37B",
+  	 		"0x615A898Ca1f70B1D15545DadE04b7d04ED856539",
+ 		  	"0xc282E68852F52A9cf493b8A85dfF55B871f4757B",
+ 		    "0x818FA9c2190c12812c609D530017021765c1680c"
+	]
 	}
 }
