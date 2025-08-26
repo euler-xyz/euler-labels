@@ -199,6 +199,21 @@
 		"description": "A syrupUSDC vault collateralized by other vaults in the Euler Yield and Euler Prime cluster.",
 		"entity": "euler-dao"
 	},
+	"0xF21cB5fA9242De8270526F1C9717A9b91dd44F03": {
+		"name": "Euler Yield AUSD",
+		"description": "A AUSD vault collateralized by other vaults in the Euler Yield and Euler Prime cluster.",
+		"entity": "euler-dao"
+	},
+	"0x20622fcD4476fbc9d5Ef36EBd371307a56d9028c": {
+		"name": "Euler Yield frxUSD",
+		"description": "A frxUSD vault collateralized by other vaults in the Euler Yield and Euler Prime cluster.",
+		"entity": "euler-dao"
+	},
+	"0xfB7E8A3BbB8EB242Ce46EAC2a9E8E77F2d423667": {
+		"name": "Euler Yield sfrxUSD",
+		"description": "A sfrxUSD vault collateralized by other vaults in the Euler Yield and Euler Prime cluster.",
+		"entity": "euler-dao"
+	},
 	"0x29847715A8D621BBD34DB7380cE8164F69Be88A7": {
 		"name": "Euler Yield PT-USD0++-26JUN2025",
 		"description": "A PT-USD0++-26JUN2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
