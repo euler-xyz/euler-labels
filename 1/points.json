@@ -306,5 +306,10 @@
 		"name": "20x Strata Points",
 		"logo": "strata.svg",
 		"collateralVaults": ["0x53AfE3343f322c4189Ab69E0D048efd154259419"]
+	},
+	{
+		"name": "Bedrock Diamonds",
+		"logo": "bedrock.png",
+		"collateralVaults": ["0xf4Be316983b70B5fF8dc8C0DDd62156EF2DCa454"]
 	}
 ]
