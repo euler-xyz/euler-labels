@@ -189,5 +189,17 @@
 			"twitter": "keyringnetwork",
 			"github": "keyring-network"
 		}
+	},
+	"telosc": {
+		"name": "TelosC",
+		"logo": "telosc.svg",
+		"description": "Engineered growth for crypto. Incentives, risk frameworks, and GTM for DeFi. Driving real users, TVL & revenue.",
+		"url": "https://telosc.com/",
+		"addresses": {
+			"0x7d07BFdd01422D7b655B333157eB551B9712dCd8": "TelosC Multisig"
+		},
+		"social": {
+			"twitter": "TelosConsilium"
+		}
 	}
 }
