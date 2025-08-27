@@ -44,7 +44,7 @@
 		"description": "Saffron WBTC",
 		"entity": ["tulipa-capital"]
 	},
-	"0x31AB3523467f9e1788EFf6df8f4DE301026EdE8f": {
+	"0x615A898Ca1f70B1D15545DadE04b7d04ED856539": {
 		"name": "MEV Capital WBTC",
 		"description": "Component of the MEV Capital BOB Cluster",
 		"entity": "mev-capital"
@@ -56,6 +56,11 @@
 	},
 	"0xc282E68852F52A9cf493b8A85dfF55B871f4757B": {
 		"name": "MEV Capital Hybrid BTC",
+		"description": "Component of the MEV Capital BOB Cluster",
+		"entity": "mev-capital"
+	},
+	"0x818FA9c2190c12812c609D530017021765c1680c": {
+		"name": "MEV Capital satUSD",
 		"description": "Component of the MEV Capital BOB Cluster",
 		"entity": "mev-capital"
 	}
