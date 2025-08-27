@@ -1144,6 +1144,21 @@
 		"description": "A PT High Growth ETH 25JUN2026 vault in the Frontier Upshift market.",
 		"entity": ["euler-dao", "gauntlet"]
 	},
+	"0xf4Be316983b70B5fF8dc8C0DDd62156EF2DCa454": {
+		"name": "Frontier Bedrock WBTC",
+		"description": "A WBTC vault in the Frontier Bedrock market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x154ED44b252c58e5768f022C5143929329b28Ed9": {
+		"name": "Frontier Bedrock uniBTC",
+		"description": "A uniBTC vault in the Frontier Bedrock market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x759B703efc8932E0d8404583A2e1FeD68A726071": {
+		"name": "Frontier Bedrock PT-uniBTC-18DEC2025",
+		"description": "A PT uniBTC 18DEC2025 vault in the Frontier Bedrock market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
 	"0xc2c4aBae84fbb5b7bAAB52301A924b1F986C66bd": {
 		"name": "Frontier Puffer WETH",
 		"description": "A WETH vault in the Frontier Puffer market.",

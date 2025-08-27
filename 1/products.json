@@ -462,6 +462,18 @@
 		],
 		"isGovernanceLimited": true
 	},
+	"frontier-bedrock": {
+		"name": "Frontier Bedrock",
+		"description": "An isolated market dedicated to the Bedrock ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao", "gauntlet"],
+		"url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/24?u=eulerlabs",
+		"vaults": [
+			"0xf4Be316983b70B5fF8dc8C0DDd62156EF2DCa454",
+			"0x154ED44b252c58e5768f022C5143929329b28Ed9",
+			"0x759B703efc8932E0d8404583A2e1FeD68A726071"
+		],
+		"isGovernanceLimited": true
+	},
 	"frontier-puffer": {
 		"name": "Frontier Puffer",
 		"description": "An isolated market dedicated to the Puffer ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
