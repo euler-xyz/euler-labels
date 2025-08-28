@@ -59,7 +59,7 @@
 		"description": "Component of the MEV Capital BOB Cluster",
 		"entity": "mev-capital"
 	},
-	"0x818FA9c2190c12812c609D530017021765c1680c": {
+	"0xF004756AedD7375E4039E942BAB6CccFd1E165bB": {
 		"name": "MEV Capital satUSD",
 		"description": "Component of the MEV Capital BOB Cluster",
 		"entity": "mev-capital"
