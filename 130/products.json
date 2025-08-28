@@ -17,6 +17,18 @@
 			"0x5d2511C1EBc795F4394f7f659f693f8C15796485"
 		]
 	},
+	"euler-unichain-lst": {
+		"name": "Euler Unichain LST",
+		"description": "A market tailored to borrowing WETH and LST assets. Governed by Euler DAO.",
+		"entity": ["euler-dao", "gauntlet"],
+		"url": "",
+		"vaults": [
+			"0x6Bc1f97f96Dd6834A86aCf412B77C9F464419436",
+			"0xCF28A176021e6906C359d1777041245d9Fda076D",
+			"0xe6806beA4eCDE065bB757c35032f2c625848D8e8",
+			"0x25e2ef0f957B61cdd26BBE954AFD5806A9DaDe49"
+		]
+	},
 	"alphagrowth-unichain": {
 		"name": "AlphaGrowth Unichain Vaults",
 		"description": "A market tailored to borrowing against blue chip crypto assets. Governed by AlphaGrowth.",
