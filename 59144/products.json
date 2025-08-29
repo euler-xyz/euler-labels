@@ -60,5 +60,16 @@
 			"0x9947f3D2aE676bE4612Eb4d80e94f6441E47A2a9",
 			"0x92Ba0dED54184ab00f7EdD1bc5Eba488cC8d9dE0"
 		]
+	},
+	"edge-capital-core-cluster": {
+		"name": "Edge UltraYield Cluster",
+		"entity": "edge-capital",
+		"vaults": [
+			"0xE27C2571F6D1b942bBB438a37b0171C64B469e1F",
+			"0x4789D8066Cac17fd24F24206a49aBC72830604F1",
+			"0x3cc7963fa503fe32053f177c444855a71068A839",
+			"0x140bD9A62Ba84fbF78d9e3dd4A94FdaFC999FAF5",
+			"0x1dA14e692956382804A06Ce38B984f56DE457D7d"
+		]
 	}
 }

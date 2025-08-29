@@ -93,5 +93,30 @@
 		"name": "Re7 Labs USD Cluster USDT",
 		"description": "Component of the Re7 Labs USD Cluster",
 		"entity": "re7-labs"
+	},
+	"0xE27C2571F6D1b942bBB438a37b0171C64B469e1F": {
+		"name": "Edge UltraYield USDC",
+		"description": "A USDC vault collateralized by other vaults in the Edge UltraYield Cluster.",
+		"entity": "edge-capital"
+	},
+	"0x4789D8066Cac17fd24F24206a49aBC72830604F1": {
+		"name": "Edge UltraYield WETH",
+		"description": "A WETH vault collateralized by other vaults in the Edge UltraYield Cluster.",
+		"entity": "edge-capital"
+	},
+	"0x3cc7963fa503fe32053f177c444855a71068A839": {
+		"name": "Edge UltraYield wstETH",
+		"description": "A wstETH vault collateralized by other vaults in the Edge UltraYield Cluster.",
+		"entity": "edge-capital"
+	},
+	"0x140bD9A62Ba84fbF78d9e3dd4A94FdaFC999FAF5": {
+		"name": "Edge UltraYield wrsETH",
+		"description": "A wrsETH vault collateralized by other vaults in the Edge UltraYield Cluster.",
+		"entity": "edge-capital"
+	},
+	"0x1dA14e692956382804A06Ce38B984f56DE457D7d": {
+		"name": "Edge UltraYield weETH",
+		"description": "A weETH vault collateralized by other vaults in the Edge UltraYield Cluster.",
+		"entity": "edge-capital"
 	}
 }
