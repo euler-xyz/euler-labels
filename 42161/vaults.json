@@ -59,6 +59,86 @@
 		"description": "A conservative ezETH vault collateralized by other vaults in the Euler Arbitrum cluster and escrow vaults.",
 		"entity": "euler-dao"
 	},
+	"0x05d28A86E057364F6ad1a88944297E58Fc6160b3": {
+		"name": "Euler Arbitrum Yield USDC",
+		"description": "A USDC vault collateralized by other vaults in the Euler Arbitrum Yield cluster.",
+		"entity": "euler-dao"
+	},
+	"0xF2cf48e4932835c941cCCd27e450c71138df81Ca": {
+		"name": "Euler Arbitrum Yield USDT0",
+		"description": "A USDT0 vault collateralized by other vaults in the Euler Arbitrum Yield cluster.",
+		"entity": "euler-dao"
+	},
+	"0x5059ff3008ffE2b50980330A402ea5c59dA01AD7": {
+		"name": "Euler Arbitrum Yield USDS",
+		"description": "A USDS vault collateralized by other vaults in the Euler Arbitrum Yield cluster.",
+		"entity": "euler-dao"
+	},
+	"0x7007415237e9b1c729404A3363293e0a44EAF585": {
+		"name": "Euler Arbitrum Yield sUSDS",
+		"description": "A sUSDS vault collateralized by other vaults in the Euler Arbitrum Yield cluster.",
+		"entity": "euler-dao"
+	},
+	"0x8E8FA7c73BeF97205552456A7D41E14cAf57404D": {
+		"name": "Euler Arbitrum Yield sUSDC",
+		"description": "A sUSDC vault collateralized by other vaults in the Euler Arbitrum Yield cluster.",
+		"entity": "euler-dao"
+	},
+	"0x815ca5D298d5731a1093BA6E280019E4231465bf": {
+		"name": "Euler Arbitrum Yield USDe",
+		"description": "A USDe vault collateralized by other vaults in the Euler Arbitrum Yield cluster.",
+		"entity": "euler-dao"
+	},
+	"0xA94b187D2E767184027316cA2C6F34E80d5bef1f": {
+		"name": "Euler Arbitrum Yield USR",
+		"description": "A USR vault collateralized by other vaults in the Euler Arbitrum Yield cluster.",
+		"entity": "euler-dao"
+	},
+	"0xAE0610296E15Db0e46840b46072552295D514eCE": {
+		"name": "Euler Arbitrum Yield USDai",
+		"description": "A USDai vault collateralized by other vaults in the Euler Arbitrum Yield cluster.",
+		"entity": "euler-dao"
+	},
+	"0x78eDA68722936f4f8BD480DFbEb9f56af6D231de": {
+		"name": "Euler Arbitrum Yield thBILL",
+		"description": "A thBILL vault collateralized by other vaults in the Euler Arbitrum Yield cluster.",
+		"entity": "euler-dao"
+	},
+	"0x98BeF5BE3df319D4469B3984c21449d309f8D81E": {
+		"name": "Euler Arbitrum Yield sUSDe",
+		"description": "A sUSDe vault collateralized by other vaults in the Euler Arbitrum Yield cluster.",
+		"entity": "euler-dao"
+	},
+	"0xA999f8a38A902f27F278358c4bD20fe1459Ae47C": {
+		"name": "Euler Arbitrum Yield syrupUSDC",
+		"description": "A syrupUSDC vault collateralized by other vaults in the Euler Arbitrum Yield cluster.",
+		"entity": "euler-dao"
+	},
+	"0xa5000c60AecafB2f765344e3eb5918B84F386E94": {
+		"name": "Euler Arbitrum Yield wstUSR",
+		"description": "A wstUSR vault collateralized by other vaults in the Euler Arbitrum Yield cluster.",
+		"entity": "euler-dao"
+	},
+	"0xB63db3D6EE754142cE9558f97958e73618be3acE": {
+		"name": "Euler Arbitrum Yield sUSDai",
+		"description": "A sUSDai vault collateralized by other vaults in the Euler Arbitrum Yield cluster.",
+		"entity": "euler-dao"
+	},
+	"0x46E57D0dE266638C8339689be04B038049Be3812": {
+		"name": "Euler Arbitrum Yield RLP",
+		"description": "A RLP vault collateralized by other vaults in the Euler Arbitrum Yield cluster.",
+		"entity": "euler-dao"
+	},
+	"0xD4ABd30F138a485D6e73f3F6E90974d450598407": {
+		"name": "Euler Arbitrum Yield PT-USDai-20NOV2025",
+		"description": "A PT-USDai-20NOV2025 escrowed collateral vault used by other vaults in the Euler Arbitrum Yield cluster.",
+		"entity": "euler-dao"
+	},
+	"0x167978d5913e958aDe3fCf76c6b4e7D9c2959CA3": {
+		"name": "Euler Arbitrum Yield PT-sUSDai-20NOV2025",
+		"description": "A PT-sUSDai-20NOV2025 escrowed collateral vault used by other vaults in the Euler Arbitrum Yield cluster.",
+		"entity": "euler-dao"
+	},
 	"0x6aFB8d3F6D4A34e9cB2f217317f4dc8e05Aa673b": {
 		"name": "K3 Capital USDai USDC",
 		"description": "Component of the K3 Capital USDai Cluster",
