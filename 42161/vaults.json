@@ -163,5 +163,15 @@
 		"name": "K3 Capital USDai USDe",
 		"description": "Component of the K3 Capital USDai Cluster",
 		"entity": "k3-capital"
+	},
+	"0x22038F6FA20AeacBa681030B2fb7c77155901c3F": {
+		"name": "K3 Capital USDai PT-USDai-20NOV2025",
+		"description": "Component of the K3 Capital USDai Cluster",
+		"entity": "k3-capital"
+	},
+	"0x4d375ed67a83eDbC03685141F551DefE25b4917e": {
+		"name": "K3 Capital USDai PT-sUSDai-20NOV2025",
+		"description": "Component of the K3 Capital USDai Cluster",
+		"entity": "k3-capital"
 	}
 }
