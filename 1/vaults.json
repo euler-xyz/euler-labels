@@ -109,6 +109,11 @@
 		"description": "A conservative XAUt vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
 		"entity": "euler-dao"
 	},
+	"0xa96B72470f4193a4E637dE8BcC6a009d1DD360A2": {
+		"name": "Euler Prime TBILL",
+		"description": "A conservative TBILL vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
+		"entity": "euler-dao"
+	},
 	"0xe0a80d35bB6618CBA260120b279d357978c42BCE": {
 		"name": "Euler Yield USDC",
 		"description": "A USDC vault collateralized by other vaults in the Euler Yield and Euler Prime cluster.",
@@ -267,6 +272,16 @@
 	"0x2f94Bbe20ECa1e3f9332aA93A90920a0a5be0728": {
 		"name": "Euler Yield PT-pUSDe-16OCT2025",
 		"description": "A PT-pUSDe-16OCT2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
+		"entity": "euler-dao"
+	},
+	"0xbFAE1f099e9EBD8481c127dc1D2EaDc7Faf636b3": {
+		"name": "Euler Yield eUSD1",
+		"description": "A eUSD1 vault collateralized by other vaults in the Euler Yield and Euler Prime cluster.",
+		"entity": "euler-dao"
+	},
+	"0x57d74318f938404B2fE1416b9E9ba5D380f505AF": {
+		"name": "Euler Yield TBILL",
+		"description": "A TBILL vault collateralized by other vaults in the Euler Yield and Euler Prime cluster.",
 		"entity": "euler-dao"
 	},
 	"0xEA79E49A076a75A9bF6013505C2B92eED69E4fe1": {
