@@ -59,6 +59,11 @@
 		"description": "A conservative ezETH vault collateralized by other vaults in the Euler Arbitrum cluster and escrow vaults.",
 		"entity": "euler-dao"
 	},
+	"0x1Ed564CFC30b385C9C2B184F25602764dD6A16c9": {
+		"name": "Euler Arbitrum rETH",
+		"description": "A conservative rETH vault collateralized by other vaults in the Euler Arbitrum cluster and escrow vaults.",
+		"entity": "euler-dao"
+	},
 	"0x05d28A86E057364F6ad1a88944297E58Fc6160b3": {
 		"name": "Euler Arbitrum Yield USDC",
 		"description": "A USDC vault collateralized by other vaults in the Euler Arbitrum Yield cluster.",
