@@ -5,6 +5,11 @@
 		"collateralVaults": ["0xd4A805261B28f375fc9c3d89EcD2C952Cd130d14"]
 	},
 	{
+		"name": "Coinbase One boosted USDC APY",
+		"logo": "cb1.jpg",
+		"collateralVaults": ["0x67f062a12f82c3b42d4CA7a35fb26CbAac28008B"]
+	},
+	{
 		"name": "3x Lombard Lux",
 		"logo": "lombard.svg",
 		"collateralVaults": ["0x3f0d3Fd87A42BDaa3dfCC13ADA42eA922e638a7A"]
