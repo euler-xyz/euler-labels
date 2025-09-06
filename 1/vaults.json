@@ -1288,5 +1288,15 @@
 		"name": "Rezerve lstRZR",
 		"description": "A lstRZR vault to be used as collateral to borrow USDC and RZR",
 		"entity": "zerolend"
+	},
+	"0xBAfC1A885e25C6F594e06F12edaeB46858547724": {
+		"name": "Rezerve frxUSD",
+		"description": "A frxUSD vault used to provide liquidity to RZR/lstRZR borrowers",
+		"entity": "zerolend"
+	},
+	"0x3036155a3eD3e7F6FFf1E96e88f1FE51b6D2f3aD": {
+		"name": "Rezerve FRAX",
+		"description": "A FRAX vault used to provide liquidity to RZR/lstRZR borrowers",
+		"entity": "zerolend"
 	}
 }
