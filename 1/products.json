@@ -539,8 +539,7 @@
 			"0x22cC732cbca457F6811295bCE75B01822544bA52",
 			"0x4f36Bebf5dDb4b804F9C72644aEe82BAd165BFfc",
 			"0x9c6bDF412723ADF2798B163638083783506B26e3"
-		],
-		"isGovernanceLimited": true
+		]
 	},
 	"frontier-strata": {
 		"name": "Frontier Strata",
