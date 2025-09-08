@@ -530,10 +530,10 @@
 		],
 		"isGovernanceLimited": true
 	},
-	"frontier-hyperwave": {
-		"name": "Frontier Hyperwave",
-		"description": "An isolated market dedicated to the Hyperwave ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
+	"re7-hyperwave": {
+		"name": "Re7 Hyperwave Market",
+		"description": "An isolated market dedicated to the Hyperwave ecosystem. Risk is curated by Re7 Labs.",
+		"entity": "re7-labs",
 		"vaults": [
 			"0x3C75C170671acb394804DfAf63e4F9891C121625",
 			"0x22cC732cbca457F6811295bCE75B01822544bA52",
