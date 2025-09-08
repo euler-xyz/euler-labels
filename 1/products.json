@@ -531,7 +531,7 @@
 		"isGovernanceLimited": true
 	},
 	"re7-hyperwave": {
-		"name": "Re7 Hyperwave Market",
+		"name": "Re7 Hyperwave",
 		"description": "An isolated market dedicated to the Hyperwave ecosystem. Risk is curated by Re7 Labs.",
 		"entity": "re7-labs",
 		"vaults": [
