@@ -479,6 +479,11 @@
 		"description": "A PT-Yu-04SEP2025 escrowed collateral vault used to borrow USDC and Yu in the Frontier Yala market.",
 		"entity": ["euler-dao", "gauntlet"]
 	},
+	"0xe47BABACfc9Ce5F85126fab7C7E211DA077d820E": {
+		"name": "Frontier Yala PT-YU-4DEC2025",
+		"description": "A PT-YU-4DEC2025 escrowed collateral vault used to borrow USDC and Yu in the Frontier Yala market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
 	"0x67e4e4e73947257Ca62D118E0FBC56D06f11d96F": {
 		"name": "Re7 Labs Basic WETH",
 		"description": "A WETH vault collateralized by other vaults in the Re7 Labs Basic Cluster.",
