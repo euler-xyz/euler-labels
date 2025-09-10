@@ -291,7 +291,7 @@
 	},
 	"0xcA814720257b3C9fd2a446D53f0b6acD7aaa0Be0": {
 		"name": "Euler Yield PT-sUSDe-27NOV2025",
-		"description": "A PT_sUSDe_27NOV2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
+		"description": "A PT-sUSDe-27NOV2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
 		"entity": "euler-dao"
 	},
 	"0xEA79E49A076a75A9bF6013505C2B92eED69E4fe1": {
