@@ -440,7 +440,7 @@
 		"entity": ["euler-dao", "gauntlet"]
 	},
 	"0xFBCc21fedd4C4e9097Ef1Baa65B7Ad386b59512D": {
-		"name": "Frontier Falcon PT_sUSDf_29JAN2026",
+		"name": "Frontier Falcon PT-sUSDf-29JAN2026",
 		"description": "An PT_sUSDf_29JAN2026 escrowed collateral vault used to borrow USDC, USDf, and sUSDf in the Frontier Falcon market.",
 		"entity": ["euler-dao", "gauntlet"]
 	},
