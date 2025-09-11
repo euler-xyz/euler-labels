@@ -439,6 +439,11 @@
 		"description": "An PT-USDf-29JAN2026 escrowed collateral vault used to borrow USDC, USDf, and sUSDf in the Frontier Falcon market.",
 		"entity": ["euler-dao", "gauntlet"]
 	},
+	"0xFBCc21fedd4C4e9097Ef1Baa65B7Ad386b59512D": {
+		"name": "Frontier Falcon PT_sUSDf_29JAN2026",
+		"description": "An PT_sUSDf_29JAN2026 escrowed collateral vault used to borrow USDC, USDf, and sUSDf in the Frontier Falcon market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
 	"0x81f8ac1a4756BfE9D7ce138C0C3baD2Cb5E8a582": {
 		"name": "Frontier Inverse USDC",
 		"description": "A USDC vault collateralized by DOLA and sDOLA in the Frontier Inverse market.",
