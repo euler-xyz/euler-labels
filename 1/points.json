@@ -298,6 +298,14 @@
 		]
 	},
 	{
+		"name": "Cap Points",
+		"logo": "cap.svg",
+		"collateralVaults": [
+			"0x6Fe7Fa90756434645F0b0428fDff78E99Dda0FBc",
+			"0x35d4f830543700B7280084280ae3236f178E88e3"
+		]
+	},
+	{
 		"name": "1x Ethereal Points",
 		"logo": "ethereal.svg",
 		"collateralVaults": ["0xBd360BB80E6CBe86e533B672Df6BFc054602ADBD"]

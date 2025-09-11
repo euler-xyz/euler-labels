@@ -17,5 +17,18 @@
 		"name": "5x Allo Points from [usd.ai](https://usd.ai)",
 		"logo": "allo.png",
 		"collateralVaults": ["0x7D9790403FA53eF3E3a3389c259D244BDc61B785"]
+	},
+	{
+		"name": "0.1x Theo Points",
+		"logo": "theo.svg",
+		"collateralVaults": [
+			"0x44C10DA836d2aBe881b77bbB0b3DCE5f85C0C1Cc",
+			"0xEE074ceB44adA094391B9C71A7Fb8ba6962D492c"
+		]
+	},
+	{
+		"name": "1x Theo Points",
+		"logo": "theo.svg",
+		"collateralVaults": ["0x79e1F4a1Cde92568D58EB823f81D9c0C7C384e6b"]
 	}
 ]
