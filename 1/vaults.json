@@ -1318,5 +1318,35 @@
 		"name": "Rezerve FRAX",
 		"description": "A FRAX vault used to provide liquidity to RZR/lstRZR borrowers",
 		"entity": "zerolend"
+	},
+	"0x6Fe7Fa90756434645F0b0428fDff78E99Dda0FBc": {
+		"name": "Frontier Cap USDC",
+		"description": "A USDC vault in the Frontier Cap market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x35d4f830543700B7280084280ae3236f178E88e3": {
+		"name": "Frontier Cap USDT",
+		"description": "A USDT vault in the Frontier Cap market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x55F9bACE2C864aC0D3392Ea9fa654b605F21A3d3": {
+		"name": "Frontier Cap cUSD",
+		"description": "A cUSD vault in the Frontier Cap market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xb7522C867B8AFae5e89638b59fb38f31B0821795": {
+		"name": "Frontier Cap stcUSD",
+		"description": "A stcUSD vault in the Frontier Cap market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x97C72647be549C6079dC95235271A9a0Fe7ECc21": {
+		"name": "Frontier Cap PT-stcUSD-29JAN2026",
+		"description": "A PT-stcUSD-29JAN2026 vault in the Frontier Cap market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x69a2fAD6AC96DDa502f7d240fB4EC88f85217705": {
+		"name": "Frontier Cap PT-cUSD-29JAN2026",
+		"description": "A PT-cUSD-29JAN2026 vault in the Frontier Cap market",
+		"entity": ["euler-dao", "gauntlet"]
 	}
 }

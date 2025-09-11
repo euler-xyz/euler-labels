@@ -558,6 +558,20 @@
 		],
 		"isGovernanceLimited": true
 	},
+	"frontier-cap": {
+		"name": "Frontier Cap",
+		"description": "An isolated market dedicated to the Cap Money ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao", "gauntlet"],
+		"vaults": [
+			"0x6Fe7Fa90756434645F0b0428fDff78E99Dda0FBc",
+			"0x35d4f830543700B7280084280ae3236f178E88e3",
+			"0x55F9bACE2C864aC0D3392Ea9fa654b605F21A3d3",
+			"0xb7522C867B8AFae5e89638b59fb38f31B0821795",
+			"0x97C72647be549C6079dC95235271A9a0Fe7ECc21",
+			"0x69a2fAD6AC96DDa502f7d240fB4EC88f85217705"
+		],
+		"isGovernanceLimited": true
+	},
 	"rezerve-vaults": {
 		"name": "Rezerve Markets",
 		"description": "An isolated market dedicated to the Rezerve ecosystem. Risk is curated by ZeroLend.",
