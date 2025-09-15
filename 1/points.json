@@ -299,7 +299,7 @@
 	},
 	{
 		"name": "Caps",
-		"logo": "caps_w.svg",
+		"logo": "caps_w_square.svg",
 		"collateralVaults": [
 			"0x6Fe7Fa90756434645F0b0428fDff78E99Dda0FBc",
 			"0x35d4f830543700B7280084280ae3236f178E88e3"
