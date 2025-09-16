@@ -1,16 +1,1 @@
-#!/usr/bin/env sh
-set -e
-
-# Ensure local node binaries take precedence
-export PATH="$(pwd)/node_modules/.bin:$PATH"
-
-# Optional: turn on verbose logs for troubleshooting
-export HUSKY_DEBUG=1
-export LINT_STAGED_DEBUG=1
-
-# Run lint-staged if it exists; otherwise, skip gracefully
-if command -v lint-staged >/dev/null 2>&1; then
-  npm exec --no -- lint-staged
-else
-  npx --no-install lint-staged || true
-fi
+npx lint-staged
