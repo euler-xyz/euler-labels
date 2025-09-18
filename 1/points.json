@@ -319,5 +319,17 @@
 		"name": "Bedrock Diamonds",
 		"logo": "bedrock.png",
 		"collateralVaults": ["0xf4Be316983b70B5fF8dc8C0DDd62156EF2DCa454"]
+	},
+	{
+		"name": "15x Gems",
+		"logo": "asymmetry.png",
+		"collateralVaults": [
+			"0x477d7feE2d9dca0bA8F7CbEAa7da219b5bb2d1a7",
+			"0x51147D1af05AEb441dE62db292f46580084c8380",
+			"0x46DEA62E4D631ce3FaC68ECeC2b1C4bA1500075A",
+			"0x209C28798CD14Dda47F384Df102a24da0e76e0d4",
+			"0x580478CcDB9C001B71E2f08f0eCeA1c8bf62dbF6",
+			"0xb02b07429477ed07a9fE70e24A6E2e2408C2D432"
+		]
 	}
 ]
