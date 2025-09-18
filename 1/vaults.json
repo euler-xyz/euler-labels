@@ -1368,5 +1368,35 @@
 		"name": "Frontier Cap PT-cUSD-29JAN2026",
 		"description": "A PT-cUSD-29JAN2026 vault in the Frontier Cap market",
 		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x477d7feE2d9dca0bA8F7CbEAa7da219b5bb2d1a7": {
+		"name": "Frontier Asymmetry USDC",
+		"description": "A USDC vault in the Frontier Asymmetry market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x51147D1af05AEb441dE62db292f46580084c8380": {
+		"name": "Frontier Asymmetry USDT",
+		"description": "A USDT vault in the Frontier Asymmetry market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x46DEA62E4D631ce3FaC68ECeC2b1C4bA1500075A": {
+		"name": "Frontier Asymmetry USDaf",
+		"description": "A USDaf vault in the Frontier Asymmetry market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x209C28798CD14Dda47F384Df102a24da0e76e0d4": {
+		"name": "Frontier Asymmetry sUSDaf",
+		"description": "A sUSDaf vault in the Frontier Asymmetry market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x580478CcDB9C001B71E2f08f0eCeA1c8bf62dbF6": {
+		"name": "Frontier Asymmetry PT-sUSDaf-13NOV2025",
+		"description": "A PT-sUSDaf-13NOV2025 vault in the Frontier Asymmetry market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xb02b07429477ed07a9fE70e24A6E2e2408C2D432": {
+		"name": "Frontier Asymmetry PT-USDaf-13NOV2025",
+		"description": "A PT-USDaf-13NOV2025 vault in the Frontier Asymmetry market",
+		"entity": ["euler-dao", "gauntlet"]
 	}
 }
