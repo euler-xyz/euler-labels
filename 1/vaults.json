@@ -954,6 +954,21 @@
 		"description": "Part of the Resolv cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
 		"entity": ["apostro"]
 	},
+	"0x87d99f04082f56Ad480889D53ECA913318a1876B": {
+		"name": "Resolv PT-wstUSR-29JAN2026",
+		"description": "Part of the Resolv cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
+		"entity": ["apostro"]
+	},
+	"0xAA341D82e914117b4082d03f11AF05CfD4C4B007": {
+		"name": "Resolv PT-USR-4DEC2025",
+		"description": "Part of the Resolv cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
+		"entity": ["apostro"]
+	},
+	"0x771b3E45383c878bBf0b291268344f9CC0011a04": {
+		"name": "Resolv PT-RLP-4DEC2025",
+		"description": "Part of the Resolv cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
+		"entity": ["apostro"]
+	},
 	"0x3b028b4b6c567eF5f8Ca1144Da4FbaA0D973F228": {
 		"name": "Tulipa Resolv USDC",
 		"description": "Resolv USDC",
