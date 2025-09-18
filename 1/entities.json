@@ -201,5 +201,18 @@
 		"social": {
 			"twitter": "TelosConsilium"
 		}
+	},
+	"clearstar": {
+		"name": "Clearstar",
+		"logo": "clearstar.svg",
+		"description": "Designing and curating institutional-grade strategies across decentralized markets, underpinned by rigorous risk management.",
+		"url": "https://www.clearstar.xyz/",
+		"addresses": {
+			"0x30988479C2E6a03E7fB65138b94762D41a733458": "Curator Wallet 1 (ForDeFi MPC)",
+			"0x72882eb5D27C7088DFA6DDE941DD42e5d184F0ef": "Curator Wallet 2 (ForDeFi MPC)"
+		},
+		"social": {
+			"twitter": "ClearstarLabs"
+		}
 	}
 }
