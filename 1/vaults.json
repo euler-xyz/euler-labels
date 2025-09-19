@@ -1398,5 +1398,25 @@
 		"name": "Frontier Asymmetry PT-USDaf-13NOV2025",
 		"description": "A PT-USDaf-13NOV2025 vault in the Frontier Asymmetry market",
 		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x2a356443FeE07703266066c6Bb1B11b82d8246AD": {
+		"name": "Frontier mAPOLLO USDC",
+		"description": "A USDC vault in the Frontier mAPOLLO market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xC11d6b78D8c609A6cbf66E89DBfea06b011B0AEf": {
+		"name": "Frontier mAPOLLO USDT",
+		"description": "A USDT vault in the Frontier mAPOLLO market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x49d9fd20f1d61648Fa9434a8c0C33174F5614eB8": {
+		"name": "Frontier mAPOLLO mAPOLLO",
+		"description": "A mAPOLLO vault in the Frontier mAPOLLO market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xF75D18F76859764aBe4D13cA2eBaCeFF0b90b262": {
+		"name": "Frontier mAPOLLO PT-mAPOLLO-20NOV2025",
+		"description": "A PT-mAPOLLO-20NOV2025 vault in the Frontier mAPOLLO market",
+		"entity": ["euler-dao", "gauntlet"]
 	}
 }

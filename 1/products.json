@@ -601,5 +601,17 @@
 			"0xBAfC1A885e25C6F594e06F12edaeB46858547724",
 			"0x3036155a3eD3e7F6FFf1E96e88f1FE51b6D2f3aD"
 		]
+	},
+	"frontier-mapollo": {
+		"name": "Frontier mAPOLLO",
+		"description": "An isolated market dedicated to the mAPOLLO ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao", "gauntlet"],
+		"vaults": [
+			"0x2a356443FeE07703266066c6Bb1B11b82d8246AD",
+			"0xC11d6b78D8c609A6cbf66E89DBfea06b011B0AEf",
+			"0x49d9fd20f1d61648Fa9434a8c0C33174F5614eB8",
+			"0xF75D18F76859764aBe4D13cA2eBaCeFF0b90b262"
+		],
+		"isGovernanceLimited": true
 	}
 }
