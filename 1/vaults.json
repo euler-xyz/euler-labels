@@ -1418,5 +1418,25 @@
 		"name": "Frontier mAPOLLO PT-mAPOLLO-20NOV2025",
 		"description": "A PT-mAPOLLO-20NOV2025 vault in the Frontier mAPOLLO market",
 		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x8aFF4fe319c30475D27eC623D7d44bD5eCFe9616": {
+		"name": "Frontier mHYPER USDC",
+		"description": "A USDC vault in the Frontier mHYPER market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xFa827C231062FA549143dF3C1b3584a016642630": {
+		"name": "Frontier mHYPER USDT",
+		"description": "A USDT vault in the Frontier mHYPER market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xf8C84D6A51Cf24c9AC79ABcE2823255FFA871145": {
+		"name": "Frontier mHYPER mHYPER",
+		"description": "A mHYPER vault in the Frontier mHYPER market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xad857E37bCdb3dD0712f5F3267D33ec1085F1a1d": {
+		"name": "Frontier mHYPER PT-mHYPER-20NOV2025",
+		"description": "A PT-mHYPER-20NOV2025 vault in the Frontier mHYPER market",
+		"entity": ["euler-dao", "gauntlet"]
 	}
 }
