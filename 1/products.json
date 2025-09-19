@@ -576,6 +576,20 @@
 		],
 		"isGovernanceLimited": true
 	},
+	"frontier-asymmetry": {
+		"name": "Frontier Asymmetry",
+		"description": "An isolated market dedicated to the Asymmetry Finance ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao", "gauntlet"],
+		"vaults": [
+			"0x477d7feE2d9dca0bA8F7CbEAa7da219b5bb2d1a7",
+			"0x51147D1af05AEb441dE62db292f46580084c8380",
+			"0x46DEA62E4D631ce3FaC68ECeC2b1C4bA1500075A",
+			"0x209C28798CD14Dda47F384Df102a24da0e76e0d4",
+			"0x580478CcDB9C001B71E2f08f0eCeA1c8bf62dbF6",
+			"0xb02b07429477ed07a9fE70e24A6E2e2408C2D432"
+		],
+		"isGovernanceLimited": true
+	},
 	"rezerve-vaults": {
 		"name": "Rezerve Markets",
 		"description": "An isolated market dedicated to the Rezerve ecosystem. Risk is curated by ZeroLend.",
