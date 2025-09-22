@@ -27,6 +27,7 @@
 	{
 		"name": "Deposit with [OKX Wallet](https://web3.okx.com/earn) for boosted rewards",
 		"logo": "okx.png",
+		"skipTooltipPrefix": true,
 		"collateralVaults": [
 			"0xEAF77Df5D03306bCA4EE8b58B6821E6acA76309d",
 			"0xE1A62FDcC6666847d5EA752634E45e134B2F824B",
