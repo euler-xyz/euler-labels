@@ -189,6 +189,11 @@
 		"description": "A YO yoUSD vault collateralized by other vaults in the Frontier YO yoUSD market.",
 		"entity": ["euler-dao", "gauntlet"]
 	},
+	"0x24D633664Aea3F551B2Fa34fA66Dd1BA52a33933": {
+		"name": "Frontier YO PT-yoUSD-26MAR2026",
+		"description": "A PT-yoUSD-26MAR2026 escrowed collateral vault used to borrow USDC and yoUSD in the Frontier YO yoUSD market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
 	"0xF3BB6b0a9bEAF9240D7F4a91341d5Df6bF37cAea": {
 		"name": "Alterscope LRT WETH",
 		"description": "Foundational vaults designed for maximium market stability.",
