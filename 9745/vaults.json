@@ -53,5 +53,15 @@
 		"name": "Euler Plasma USDT0",
 		"description": "Component of the Euler Plasma Market",
 		"entity": "euler-dao"
+	},
+	"0x57c582346B7d49A46Af3745A8278917D1c1311b8": {
+		"name": "Telosc Stream USDT0",
+		"description": "Component of the Telosc Stream Market",
+		"entity": "telosc"
+	},
+	"0x138c289Bb8b855CF271305C8bcf91DC31Ba30194": {
+		"name": "Telosc Stream xUSD",
+		"description": "Component of the Telosc Stream Market",
+		"entity": "telosc"
 	}
 }
