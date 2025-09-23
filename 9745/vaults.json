@@ -64,7 +64,7 @@
 		"description": "Component of the Telosc Stream Market",
 		"entity": "telosc"
 	},
-	"0x7f801a8f69C9D9BA52aF27A8fADde56FC33F9267": {
+	"0x8cd0de6204176600918da79ec70d0d9f4c2588e3": {
 		"name": "Re7 Labs USDT0",
 		"description": "Component of the Re7 Labs USDT0 Market",
 		"entity": "re7-labs"
