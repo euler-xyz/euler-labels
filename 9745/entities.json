@@ -44,7 +44,8 @@
 		"description": "Re7 Labs is the innovation arm of digital asset investment firm Re7 Capital, taking the practical experience of DeFi risk management to on-chain vaults.",
 		"url": "https://www.re7labs.xyz/",
 		"addresses": {
-			"0xddedB1F2d1dd0b0455Fe5277632c84f57f894011": "Re7 Labs Multisig"},
+			"0xddedB1F2d1dd0b0455Fe5277632c84f57f894011": "Re7 Labs Multisig"
+		},
 		"social": {
 			"twitter": "Re7Labs"
 		}
