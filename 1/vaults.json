@@ -1374,6 +1374,71 @@
 		"description": "A PT-cUSD-29JAN2026 vault in the Frontier Cap market",
 		"entity": ["euler-dao", "gauntlet"]
 	},
+	"0x47e2ab1392e04C1d86E696012D0544aedBDA6Ddb": {
+		"name": "Horizon CBBTC",
+		"description": "A CBBTC vault in the Horizon market.",
+		"entity": ["clearstar"]
+	},
+	"0x9f936cD7bC9c7aA90Bbb27Ce1B961655434754cB": {
+		"name": "Horizon USDC",
+		"description": "A USDC vault in the Horizon market.",
+		"entity": ["clearstar"]
+	},
+	"0x43BC56b2E10AcAd2b0dc021F1C9866DB259CEb5B": {
+		"name": "Horizon WBTC",
+		"description": "A WBTC vault in the Horizon market.",
+		"entity": ["clearstar"]
+	},
+	"0x14d777665EA3bb224f222E69c85bcA890557d078": {
+		"name": "Horizon WSTETH",
+		"description": "A WSTETH vault in the Horizon market.",
+		"entity": ["clearstar"]
+	},
+	"0x63f6505E0525e9b91595d997549C5F50e061AD3C": {
+		"name": "Horizon WETH",
+		"description": "A WETH vault in the Horizon market.",
+		"entity": ["clearstar"]
+	},
+	"0xC063BDd3181356f973c3085dB60074262462A8F3": {
+		"name": "Horizon USDT",
+		"description": "A USDT vault in the Horizon market.",
+		"entity": ["clearstar"]
+	},
+	"0x579aD59BB4AF72d732f45F67ef231E9f59EF9E4F": {
+		"name": "Horizon YUSD",
+		"description": "A YUSD vault in the Horizon market.",
+		"entity": ["clearstar"]
+	},
+	"0xa020DeE164D92c48eD064B163cC93B582197346A": {
+		"name": "Horizon RLP",
+		"description": "A RLP vault in the Horizon market.",
+		"entity": ["clearstar"]
+	},
+	"0x66BfA41C915f86AC9Cf63D413d2e2E4f0EbBaB2D": {
+		"name": "Horizon WSTUSR",
+		"description": "A WSTUSR vault in the Horizon market.",
+		"entity": ["clearstar"]
+	},
+	"0xE27dC1Bdc3F47E44DdA0B90901F3ee61E43Ffe77": {
+		"name": "Horizon USR",
+		"description": "A USR vault in the Horizon market.",
+		"entity": ["clearstar"]
+	},
+	"0xeBA46a9219297cFE7cDAbF41172BaD25a8785d96": {
+		"name": "Horizon SUSDE",
+		"description": "A SUSDE vault in the Horizon market.",
+		"entity": ["clearstar"]
+	},
+	"0xC68BC0a9b0544F0B4AA28Ce253f9e1B28038F2cD": {
+		"name": "Horizon USDS",
+		"description": "A USDSlt in the Horizon market.",
+		"entity": ["clearstar"]
+	},
+	"0xe2b187502b655BE77BF04261f879c5cF3fc0639F": {
+		"name": "Horizon USDE",
+		"description": "A USDE vault in the Horizon market.",
+		"entity": ["clearstar"]
+	},
 	"0x477d7feE2d9dca0bA8F7CbEAa7da219b5bb2d1a7": {
 		"name": "Frontier Asymmetry USDC",
 		"description": "A USDC vault in the Frontier Asymmetry market",
