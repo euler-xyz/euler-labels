@@ -646,5 +646,17 @@
 			"0xad857E37bCdb3dD0712f5F3267D33ec1085F1a1d"
 		],
 		"isGovernanceLimited": true
+	},
+	"sentora-rlusd": {
+		"name": "Sentora RLUSD",
+		"description": "A market for supplying and borrowing RLUSD against bluechip assets. Governed by Sentora.",
+		"entity": "sentora",
+		"url": "https://sentora.com/platform/defi-strategies",
+		"vaults": [
+			"0xaF5372792a29dC6b296d6FFD4AA3386aff8f9BB2",
+			"0x9bD52F2805c6aF014132874124686e7b248c2Cbb",
+			"0x56B829e465170c3aCcAd33a3E0512b239b202242",
+			"0x9D4265a05a6A0C7F3EcB179F4BA5C3197CBb8F16"
+		]
 	}
 }
