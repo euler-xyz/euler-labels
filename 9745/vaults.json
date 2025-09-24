@@ -54,6 +54,31 @@
 		"description": "Component of the Plasma Market",
 		"entity": "euler-dao"
 	},
+	"0x5398657d46499D31863A404bbedc738bDa812424": {
+		"name": "Maple syrupUSDT",
+		"description": "Component of the Maple Market",
+		"entity": "euler-dao"
+	},
+	"0xFA00aBfF8E404B4Fe939115409035F708a109842": {
+		"name": "Maple USDT0",
+		"description": "Component of the Maple Market",
+		"entity": "euler-dao"
+	},
+	"0xAc40D41aB11b0eb991a7D34D55DbDbB7849e92EF": {
+		"name": "Resolv wstUSR",
+		"description": "Component of the Resolv Market",
+		"entity": "euler-dao"
+	},
+	"0x2beBDc03D4268247c205ECB6926332221EC612AC": {
+		"name": "Resolv USR",
+		"description": "Component of the Resolv Market",
+		"entity": "euler-dao"
+	},
+	"0x4718484ac9dc07fbbC078561e8f8Ef29e2a369CD": {
+		"name": "Resolv USDT0",
+		"description": "Component of the Resolv Market",
+		"entity": "euler-dao"
+	},
 	"0x57c582346B7d49A46Af3745A8278917D1c1311b8": {
 		"name": "Telosc Stream USDT0",
 		"description": "Component of the Telosc Stream Market",
