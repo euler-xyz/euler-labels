@@ -63,5 +63,35 @@
 		"name": "Telosc Stream xUSD",
 		"description": "Component of the Telosc Stream Market",
 		"entity": "telosc"
+	},
+	"0x8Cd0DE6204176600918dA79eC70d0d9F4c2588e3": {
+		"name": "Re7 Labs USDT0",
+		"description": "Component of the Re7 Labs USDT0 Market",
+		"entity": "re7-labs"
+	},
+	"0x36e62e73DF0fE8e68280a93AD2F2d20CA25D0eF3": {
+		"name": "Re7 Labs USDe",
+		"description": "Component of the Re7 Labs USDe Market",
+		"entity": "re7-labs"
+	},
+	"0xa61dcB570c7C728F992417bf20e8F56f2669A46C": {
+		"name": "Re7 Labs sUSDe",
+		"description": "Component of the Re7 Labs USDe Market",
+		"entity": "re7-labs"
+	},
+	"0x7760dBA44A3b9dC740F8Ac3e49AFb66f1EC46834": {
+		"name": "Re7 Labs WETH",
+		"description": "Component of the Re7 Labs WETH Market",
+		"entity": "re7-labs"
+	},
+	"0x729b92Cfea63CB238199eA61a01eA510D80fa444": {
+		"name": "Re7 Labs XAUt",
+		"description": "Component of the Re7 Labs USDT0 Market",
+		"entity": "re7-labs"
+	},
+	"0xa4a52AF57D8FD82FC827E5E400007ab65CEf271b": {
+		"name": "Re7 Labs weETH",
+		"description": "Component of the Re7 Labs WETH Market",
+		"entity": "re7-labs"
 	}
 }
