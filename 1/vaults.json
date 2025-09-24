@@ -1508,5 +1508,25 @@
 		"name": "Frontier mHYPER PT-mHYPER-20NOV2025",
 		"description": "A PT-mHYPER-20NOV2025 vault in the Frontier mHYPER market",
 		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xaF5372792a29dC6b296d6FFD4AA3386aff8f9BB2": {
+		"name": "Sentora RLUSD RLUSD",
+		"description": "A conservative RLUSD vault collateralized by other vaults in the Sentora RLUSD cluster and escrow vaults.",
+		"entity": "sentora"
+	},
+	"0x9bD52F2805c6aF014132874124686e7b248c2Cbb": {
+		"name": "Sentora RLUSD USDC",
+		"description": "A conservative USDC vault collateralized by other vaults in the Sentora RLUSD cluster and escrow vaults.",
+		"entity": "sentora"
+	},
+	"0x9D4265a05a6A0C7F3EcB179F4BA5C3197CBb8F16": {
+		"name": "Sentora RLUSD PT_SUSDE_27NOV2025",
+		"description": "A conservative PT_SUSDE_27NOV2025 vault collateralized by other vaults in the Sentora RLUSD cluster and escrow vaults.",
+		"entity": "sentora"
+	},
+	"0x56B829e465170c3aCcAd33a3E0512b239b202242": {
+		"name": "Sentora RLUSD sUSDe",
+		"description": "A conservative sUSDe vault collateralized by other vaults in the Sentora RLUSD cluster and escrow vaults.",
+		"entity": "sentora"
 	}
 }

@@ -214,5 +214,17 @@
 		"social": {
 			"twitter": "ClearstarLabs"
 		}
+	},
+	"sentora": {
+		"name": "Sentora",
+		"logo": "sentora.svg",
+		"description": "Sentora provides the institutional-grade foundation for powering the next generation of DeFi solutions. Sentora's vault platform unlocks access to DeFi through sophisticated strategies, robust risk management, and enterprise-grade security.",
+		"url": "https://sentora.com/platform/defi-strategies",
+		"addresses": {
+			"0x9453ee262d7C95955e690AE7aBBD82a08B135685": "Sentora Vault Access Control Governor"
+		},
+		"social": {
+			"twitter": "SentoraHQ"
+		}
 	}
 }
