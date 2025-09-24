@@ -68,6 +68,35 @@
 		],
 		"isGovernanceLimited": true
 	},
+	"frontier-maple": {
+		"name": "Frontier Maple",
+		"entity": ["euler-dao"],
+		"vaults": [
+			"0x5398657d46499D31863A404bbedc738bDa812424",
+			"0xFA00aBfF8E404B4Fe939115409035F708a109842"
+		],
+		"isGovernanceLimited": true
+	},
+	"frontier-resolv-wstusr": {
+		"name": "Frontier Resolv wstUSR",
+		"entity": ["euler-dao"],
+		"vaults": [
+			"0xAc40D41aB11b0eb991a7D34D55DbDbB7849e92EF",
+			"0x2beBDc03D4268247c205ECB6926332221EC612AC",
+			"0x4718484ac9dc07fbbC078561e8f8Ef29e2a369CD"
+		],
+		"isGovernanceLimited": true
+	},
+	"frontier-resolv-rlp": {
+		"name": "Frontier Resolv RLP",
+		"entity": ["euler-dao"],
+		"vaults": [
+			"0x0a39a99f1639a9e26ED9F7c096165A41FDEb5E63",
+			"0xbd2D9A3c34f866387a371035dc94Cbe94759E6d8",
+			"0x538f01e0BA3cf3aB5b3837A0d138a3F67b9b8235"
+		],
+		"isGovernanceLimited": true
+	},
 	"telosc-stream": {
 		"name": "Telosc Stream",
 		"description": "A market tailored to the Stream ecosystem. Governed and curated by Telosc.",
