@@ -78,7 +78,7 @@
 		"isGovernanceLimited": true
 	},
 	"frontier-resolv-wstusr": {
-		"name": "Frontier ResolvwstUSR",
+		"name": "Frontier Resolv wstUSR",
 		"entity": ["euler-dao"],
 		"vaults": [
 			"0xAc40D41aB11b0eb991a7D34D55DbDbB7849e92EF",
@@ -87,7 +87,7 @@
 		],
 		"isGovernanceLimited": true
 	},
-	"frontier-resolv-RLP": {
+	"frontier-resolv-rlp": {
 		"name": "Frontier Resolv RLP",
 		"entity": ["euler-dao"],
 		"vaults": [

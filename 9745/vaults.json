@@ -65,18 +65,33 @@
 		"entity": "euler-dao"
 	},
 	"0xAc40D41aB11b0eb991a7D34D55DbDbB7849e92EF": {
-		"name": "Resolv wstUSR",
-		"description": "Component of the Resolv Market",
+		"name": "Resolv wstUSR wstUSR",
+		"description": "Component of the Resolv wstUSR Market",
 		"entity": "euler-dao"
 	},
 	"0x2beBDc03D4268247c205ECB6926332221EC612AC": {
-		"name": "Resolv USR",
-		"description": "Component of the Resolv Market",
+		"name": "Resolv wstUSR USR",
+		"description": "Component of the Resolv wstUSR Market",
 		"entity": "euler-dao"
 	},
 	"0x4718484ac9dc07fbbC078561e8f8Ef29e2a369CD": {
-		"name": "Resolv USDT0",
-		"description": "Component of the Resolv Market",
+		"name": "Resolv wstUSR USDT0",
+		"description": "Component of the Resolv wstUSR Market",
+		"entity": "euler-dao"
+	},
+	"0x0a39a99f1639a9e26ED9F7c096165A41FDEb5E63": {
+		"name": "Resolv RLP RLP",
+		"description": "Component of the Resolv RLP Market",
+		"entity": "euler-dao"
+	},
+	"0xbd2D9A3c34f866387a371035dc94Cbe94759E6d8": {
+		"name": "Resolv RLP USR",
+		"description": "Component of the Resolv RLP Market",
+		"entity": "euler-dao"
+	},
+	"0x538f01e0BA3cf3aB5b3837A0d138a3F67b9b8235": {
+		"name": "Resolv RLP USDT0",
+		"description": "Component of the Resolv RLP Market",
 		"entity": "euler-dao"
 	},
 	"0x57c582346B7d49A46Af3745A8278917D1c1311b8": {
