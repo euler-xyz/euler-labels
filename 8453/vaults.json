@@ -189,6 +189,11 @@
 		"description": "A YO yoUSD vault collateralized by other vaults in the Frontier YO yoUSD market.",
 		"entity": ["euler-dao", "gauntlet"]
 	},
+	"0x24D633664Aea3F551B2Fa34fA66Dd1BA52a33933": {
+		"name": "Frontier YO PT-yoUSD-26MAR2026",
+		"description": "A PT-yoUSD-26MAR2026 escrowed collateral vault used to borrow USDC and yoUSD in the Frontier YO yoUSD market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
 	"0xF3BB6b0a9bEAF9240D7F4a91341d5Df6bF37cAea": {
 		"name": "Alterscope LRT WETH",
 		"description": "Foundational vaults designed for maximium market stability.",
@@ -198,5 +203,45 @@
 		"name": "Alterscope LRT yoETH",
 		"description": "Vaults designed for advanced liquid restaking strategies. Note: The price for yoETH is updated based on Yo Protocol’s own on-chain price updater.",
 		"entity": "alterscope"
+	},
+	"0x611745c9107d0197f161556691c5129fD9B898D1": {
+		"name": "Edge UltraYield USDC",
+		"description": "USDC vault collateralized by other vaults in the Edge UltraYield Cluster.",
+		"entity": "edge-capital"
+	},
+	"0x614bD506051a8CCfCBc57C34aEdcf6CaffCd5d17": {
+		"name": "Edge UltraYield WETH",
+		"description": "WETH vault collateralized by other vaults in the Edge UltraYield Cluster.",
+		"entity": "edge-capital"
+	},
+	"0x1Fd3A242a549D595431442F898FDbb374F15B885": {
+		"name": "Edge UltraYield wstETH",
+		"description": "wstETH vault collateralized by other vaults in the Edge UltraYield Cluster.",
+		"entity": "edge-capital"
+	},
+	"0xD7c286712bd46aa8acBec4EA99d3018b32Edb190": {
+		"name": "Edge UltraYield wrsETH",
+		"description": "wrsETH vault collateralized by other vaults in the Edge UltraYield Cluster.",
+		"entity": "edge-capital"
+	},
+	"0x85114A78c512872Df273CA12f35FBE4Cf0749616": {
+		"name": "Edge UltraYield weETH",
+		"description": "weETH vault collateralized by other vaults in the Edge UltraYield Cluster.",
+		"entity": "edge-capital"
+	},
+	"0xBC46393223990D024fcb2b0Ff2f5A4cd52602ea2": {
+		"name": "Edge UltraYield ezETH",
+		"description": "ezETH vault collateralized by other vaults in the Edge UltraYield Cluster.",
+		"entity": "edge-capital"
+	},
+	"0x78d6A3BC9d41B7C6Fd52FF2E85a2dF6d1F4F9B3a": {
+		"name": "Edge UltraYield cbBTC",
+		"description": "cbBTC vault collateralized by other vaults in the Edge UltraYield Cluster.",
+		"entity": "edge-capital"
+	},
+	"0xA67A95971b8D010c16de4B33259D1c574d256121": {
+		"name": "Edge UltraYield LBTC",
+		"description": "LBTC vault collateralized by other vaults in the Edge UltraYield Cluster.",
+		"entity": "edge-capital"
 	}
 }
