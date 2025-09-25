@@ -49,6 +49,11 @@
 		"description": "Component of the Plasma Market",
 		"entity": "euler-dao"
 	},
+	"0x969a9d7e07Dd584e5b989FE63ac202c4C2372Fd4": {
+		"name": "Plasma ENA",
+		"description": "Component of the Plasma Market",
+		"entity": "euler-dao"
+	},
 	"0x7f801a8f69C9D9BA52aF27A8fADde56FC33F9267": {
 		"name": "Plasma USDT0",
 		"description": "Component of the Plasma Market",

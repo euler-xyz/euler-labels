@@ -64,6 +64,7 @@
 		"entity": ["euler-dao"],
 		"vaults": [
 			"0x79C86345c5132465DdebB7dC90de0f826Fb905b1",
+			"0x969a9d7e07Dd584e5b989FE63ac202c4C2372Fd4",
 			"0x7f801a8f69C9D9BA52aF27A8fADde56FC33F9267"
 		],
 		"isGovernanceLimited": true
