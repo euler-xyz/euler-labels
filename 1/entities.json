@@ -226,5 +226,18 @@
 		"social": {
 			"twitter": "SentoraHQ"
 		}
+	},
+	"hyperithm": {
+		"name": "Hyperithm",
+		"logo": "hyperithm.png",
+		"description": "Hyperithm maximizes yield by swiftly integrating unique collaterals, providing borrowers with high-return opportunities through active optimization while ensuring effective risk management.",
+		"url": "https://www.hyperithm.com/",
+		"addresses": {
+			"0x75178137D3B4B9A0F771E0e149b00fB8167BA325": "Hyperithm MPC wallet",
+			"0xEe7E9bb21D5589BF657b94083dB2fA349a3918C8": "Hyperithm Multisig"
+		},
+		"social": {
+			"twitter": "hyperithm"
+		}
 	}
 }
