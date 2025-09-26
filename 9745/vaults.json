@@ -138,5 +138,25 @@
 		"name": "Re7 Labs weETH",
 		"description": "Component of the Re7 Labs WETH Market",
 		"entity": "re7-labs"
+	},
+	"0xF510385f5D74256bC677fbBA4e0e3079bE245Bd2": {
+		"name": "Edge UltraYield sUSDe",
+		"description": "sUSDe vault collateralized by other vaults in the Edge UltraYield Cluster.",
+		"entity": "edge-capital"
+	},
+	"0x230FB94b27da4e18f2eB6b66498aB3e9c860FAcD": {
+		"name": "Edge UltraYield syrupUSDT",
+		"description": "syrupUSDT vault collateralized by other vaults in the Edge UltraYield Cluster.",
+		"entity": "edge-capital"
+	},
+	"0xA467Ad3929E8FFdfD955f32756EC8b1522274eF2": {
+		"name": "Edge UltraYield USDe",
+		"description": "USDe vault collateralized by other vaults in the Edge UltraYield Cluster.",
+		"entity": "edge-capital"
+	},
+	"0xd3da8d58De01C99d9bB971cA284B89a2bb60798a": {
+		"name": "Edge UltraYield USDT0",
+		"description": "USDT0 vault collateralized by other vaults in the Edge UltraYield Cluster.",
+		"entity": "edge-capital"
 	}
 }
