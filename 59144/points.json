@@ -25,6 +25,9 @@
 	{
 		"name": "Linea Ignition Rewards - forwarded from eligible allocated vaults",
 		"logo": "linea.svg",
-		"collateralVaults": ["0xe9De3063d282c7C1F34BfEF8E1e67410dCd60597"]
+		"collateralVaults": [
+			"0xe9De3063d282c7C1F34BfEF8E1e67410dCd60597",
+			"0xb25a72791e6B543A84128791cfc849E5f55f7249"
+		]
 	}
 ]
