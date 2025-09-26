@@ -90,7 +90,7 @@
 		]
 	},
 	"k3-bsc-aster": {
-		"name": "K3 BSC ASTER",
+		"name": "K3 Capital ASTERLIQUID",
 		"entity": "k3-capital",
 		"vaults": [
 			"0x93d31b79502265FEBA5ED18e3cAc9ef795a3b0B1",

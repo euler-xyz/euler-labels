@@ -255,13 +255,13 @@
 		"entity": "re7-labs"
 	},
 	"0x93d31b79502265FEBA5ED18e3cAc9ef795a3b0B1": {
-		"name": "K3 BSC ASTER ASTER",
-		"description": "Component of the K3 BSC ASTER Market",
+		"name": "K3 Capital ASTERLIQUID ASTER",
+		"description": "Component of the K3 Capital ASTERLIQUID Market",
 		"entity": "k3-capital"
 	},
 	"0x95C5Fd8618C68D6156A739C1EAb5aA7c807ff148": {
-		"name": "K3 BSC ASTER USDT",
-		"description": "Component of the K3 BSC ASTER Market",
+		"name": "K3 Capital ASTERLIQUID USDT",
+		"description": "Component of the K3 Capital ASTERLIQUID Market",
 		"entity": "k3-capital"
 	}
 }
