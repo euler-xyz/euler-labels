@@ -659,4 +659,13 @@
 			"0x9D4265a05a6A0C7F3EcB179F4BA5C3197CBb8F16"
 		]
 	}
+		"9S-fxUSD": {
+		"name": "9 Summits fxUSD flagship",
+		"description": "A market for supplying and borrowing fxUSD against and Aladdin DAO ecosystem and other bluechip assets. $FXN aligned curation by 9 Summits",
+		"entity": "9summits",
+		"vaults": [
+			"0xb6761fb99062f6dbc09395f6f16df239720017db",
+			"0x85f948273bdc705bacd29bf5a2c87067e8d9d63a"
+		]
+	}
 }
