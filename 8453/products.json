@@ -69,7 +69,8 @@
 		"url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/3",
 		"vaults": [
 			"0x774C08F8e78C47046d325C0331788954C35DF10a",
-			"0xdbDC9c3EdBD401109c83b333c16A0251806b3330"
+			"0xdbDC9c3EdBD401109c83b333c16A0251806b3330",
+			"0x38Df63F1986B80578B7357BCda3D4f71F129AfFf"
 		],
 		"isGovernanceLimited": true
 	},
