@@ -1528,13 +1528,13 @@
 		"name": "Sentora RLUSD sUSDe",
 		"description": "A conservative sUSDe vault collateralized by other vaults in the Sentora RLUSD cluster and escrow vaults.",
 		"entity": "sentora"
-	}
-		"0xb6761fb99062f6dbc09395f6f16df239720017db": {
+	},
+	"0xB6761Fb99062f6dBc09395f6F16dF239720017db": {
 		"name": "9 Summits Aladdin DAO fxUSD",
 		"description": "A fxUSD vault collateralized by other vaults in the Aladdin DAO excosystem",
 		"entity": "9summits"
-	}
-		"0x85f948273bdc705bacd29bf5a2c87067e8d9d63a": {
+	},
+	"0x85F948273BDc705BaCD29BF5A2c87067E8d9d63a": {
 		"name": "9 Summits Aladdin DAO fxSAVE",
 		"description": "A fxSAVE vault in the Aladdin DAO excosystem market",
 		"entity": "9summits"
