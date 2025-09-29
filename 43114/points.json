@@ -23,5 +23,23 @@
 		"name": "earn 10 XSY Points per 1$ per day",
 		"logo": "xsy-points.png",
 		"collateralVaults": ["0x902714C7661697c873C76dEC426b63B2593ecc0a"]
+	},
+	{
+		"name": "Deposit with [OKX Wallet](https://web3.okx.com/earn/product/euler-avalanche-c-re7-usdc-33803#source=activitypage&activitySourcePage=sui) for boosted rewards",
+		"logo": "okx.png",
+		"skipTooltipPrefix": true,
+		"collateralVaults": ["0xEAF77Df5D03306bCA4EE8b58B6821E6acA76309d"]
+	},
+	{
+		"name": "Deposit with [OKX Wallet](https://web3.okx.com/earn/product/euler-avalanche-c-k3-usdt-earn-vault-33804#source=activitypage&activitySourcePage=sui) for boosted rewards",
+		"logo": "okx.png",
+		"skipTooltipPrefix": true,
+		"collateralVaults": ["0xE1A62FDcC6666847d5EA752634E45e134B2F824B"]
+	},
+	{
+		"name": "Deposit with [OKX Wallet](https://web3.okx.com/earn/product/euler-avalanche-c-re7-ausd-33805#source=activitypage&activitySourcePage=sui) for boosted rewards",
+		"logo": "okx.png",
+		"skipTooltipPrefix": true,
+		"collateralVaults": ["0x70c329D6F06b33fa6b75E335B35168B1de84217b"]
 	}
 ]

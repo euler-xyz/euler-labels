@@ -54,6 +54,16 @@
 		"description": "Component of the ZeroLend Linea Cluster",
 		"entity": "zerolend"
 	},
+	"0xf3C6598A9Bc60771dCd4dD448Fb56122B7f8588a": {
+		"name": "ZeroLend LINEA",
+		"description": "Component of the ZeroLend Linea Cluster",
+		"entity": "zerolend"
+	},
+	"0x64623F8617F0019FC155a84c5061b472577d23d0": {
+		"name": "ZeroLend mUSD",
+		"description": "Component of the ZeroLend Linea Cluster",
+		"entity": "zerolend"
+	},
 	"0xb135dcF653DAFB5ddAa93F926D7000Aa3222EFEE": {
 		"name": "Re7 Labs WETH Cluster WETH",
 		"description": "Component of the Re7 Labs WETH Cluster",

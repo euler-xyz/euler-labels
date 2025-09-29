@@ -1,0 +1,79 @@
+{
+	"euler-dao": {
+		"name": "Euler DAO",
+		"logo": "euler.svg",
+		"description": "The Euler DAO is the organisation responsible for the creation of the Euler lending/borrowing platform.",
+		"url": "https://euler.finance/",
+		"addresses": {
+			"0xfD30738fcB5eb5Ba418a84e672007912F991E539": "Euler DAO Multisig",
+			"0x9b3CeB22Cab2F1b9Ace4CD3132C8a123552eDa2c": "Euler Vault Access Control Governor"
+		},
+		"social": {
+			"twitter": "eulerfinance",
+			"youtube": "EulerFinance",
+			"discord": "https://discord.euler.finance/",
+			"telegram": "eulerfinance_official",
+			"github": "euler-xyz"
+		}
+	},
+	"gauntlet": {
+		"name": "Gauntlet",
+		"logo": "gauntlet.svg",
+		"description": "Gauntlet's applied research and optimization teams model market risk, economic incentives, and drive sustainable growth for crypto's top protocols, chains, and onchain treasuries.",
+		"url": "https://www.gauntlet.xyz/",
+		"addresses": {
+			"0x9b3CeB22Cab2F1b9Ace4CD3132C8a123552eDa2c": "Euler Vault Access Control Governor"
+		},
+		"social": {
+			"twitter": "gauntlet_xyz"
+		}
+	},
+	"k3": {
+		"name": "K3 Capital",
+		"logo": "k3.svg",
+		"description": "K3 Capital provide leading institutional asset and risk management in decentralized finance.",
+		"url": "https://k3.capital/",
+		"addresses": {
+			"0x060DB084bF41872861f175d83f3cb1B5566dfEA3": "K3 Capital Multisig"
+		},
+		"social": {
+			"twitter": "k3_capital"
+		}
+	},
+	"re7-labs": {
+		"name": "Re7 Labs",
+		"logo": "re7labs.png",
+		"description": "Re7 Labs is the innovation arm of digital asset investment firm Re7 Capital, taking the practical experience of DeFi risk management to on-chain vaults.",
+		"url": "https://www.re7labs.xyz/",
+		"addresses": {
+			"0xddedB1F2d1dd0b0455Fe5277632c84f57f894011": "Re7 Labs Multisig"
+		},
+		"social": {
+			"twitter": "Re7Labs"
+		}
+	},
+	"telosc": {
+		"name": "TelosC",
+		"logo": "telosc.svg",
+		"description": "Engineered growth for crypto. Incentives, risk frameworks, and GTM for DeFi. Driving real users, TVL & revenue.",
+		"url": "https://telosc.com/",
+		"addresses": {
+			"0x7d07BFdd01422D7b655B333157eB551B9712dCd8": "TelosC Multisig"
+		},
+		"social": {
+			"twitter": "TelosConsilium"
+		}
+	},
+	"edge-capital": {
+		"name": "Edge UltraYield",
+		"logo": "edge.png",
+		"description": "Edge Capital is a leading market-neutral hedge fund that manages capital for largest fund of funds, institutional investors and leading crypto foundations and treasuries since 2020",
+		"url": "https://edgecapital.xyz/",
+		"addresses": {
+			"0x1280e86Cd7787FfA55d37759C0342F8CD3c7594a": "Edge Capital Multisig"
+		},
+		"social": {
+			"twitter": "EdgeCapitalMgmt"
+		}
+	}
+}

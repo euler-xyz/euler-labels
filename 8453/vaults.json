@@ -179,6 +179,11 @@
 		"description": "A YO yoETH vault collateralized by other vaults in the Frontier YO yoETH market.",
 		"entity": ["euler-dao", "gauntlet"]
 	},
+	"0x38Df63F1986B80578B7357BCda3D4f71F129AfFf": {
+		"name": "Frontier YO PT-yoETH-26MAR2026",
+		"description": "A PT-yoETH-26MAR2026 collateral vault used to borrow yoETH in the Frontier YO yoETH market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
 	"0x085178078796Da17B191f9081b5E2fCCc79A7eE7": {
 		"name": "Frontier YO USDC",
 		"description": "A YO USDC vault collateralized by other vaults in the Frontier YO yoUSD market.",
@@ -187,6 +192,11 @@
 	"0x990d616ca6E7192625d1B7C41Fb67b5758DF7CF2": {
 		"name": "Frontier YO yoUSD",
 		"description": "A YO yoUSD vault collateralized by other vaults in the Frontier YO yoUSD market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x24D633664Aea3F551B2Fa34fA66Dd1BA52a33933": {
+		"name": "Frontier YO PT-yoUSD-26MAR2026",
+		"description": "A PT-yoUSD-26MAR2026 escrowed collateral vault used to borrow USDC and yoUSD in the Frontier YO yoUSD market.",
 		"entity": ["euler-dao", "gauntlet"]
 	},
 	"0xF3BB6b0a9bEAF9240D7F4a91341d5Df6bF37cAea": {

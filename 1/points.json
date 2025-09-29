@@ -319,5 +319,32 @@
 		"name": "Bedrock Diamonds",
 		"logo": "bedrock.png",
 		"collateralVaults": ["0xf4Be316983b70B5fF8dc8C0DDd62156EF2DCa454"]
+	},
+	{
+		"name": "30x Gems",
+		"logo": "asf.svg",
+		"collateralVaults": [
+			"0x477d7feE2d9dca0bA8F7CbEAa7da219b5bb2d1a7",
+			"0x51147D1af05AEb441dE62db292f46580084c8380",
+			"0x46DEA62E4D631ce3FaC68ECeC2b1C4bA1500075A"
+		]
+	},
+	{
+		"name": "Deposit with [OKX Wallet](https://web3.okx.com/earn/product/euler-ethereum-euler-earn-usdc-33704#source=activitypage&activitySourcePage=sui) for boosted rewards",
+		"logo": "okx.png",
+		"skipTooltipPrefix": true,
+		"collateralVaults": ["0x3B4802FDb0E5d74aA37d58FD77d63e93d4f9A4AF"]
+	},
+	{
+		"name": "Deposit with [OKX Wallet](https://web3.okx.com/earn/product/euler-ethereum-euler-earn-usdt-33706#source=activitypage&activitySourcePage=sui) for boosted rewards",
+		"logo": "okx.png",
+		"skipTooltipPrefix": true,
+		"collateralVaults": ["0xb072b2779F1EF1A6A9D2d5fAa1766F341B92aB3a"]
+	},
+	{
+		"name": "Deposit with [OKX Wallet](https://web3.okx.com/earn/product/euler-ethereum-euler-earn-weth-33705#source=activitypage&activitySourcePage=sui) for boosted rewards",
+		"logo": "okx.png",
+		"skipTooltipPrefix": true,
+		"collateralVaults": ["0x84fcb0eb9d7ab4EdFd26CCa8AD20AaB4c5aD49CD"]
 	}
 ]

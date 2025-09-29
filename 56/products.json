@@ -88,5 +88,13 @@
 			"0x5d3b4bcff6a24A20a98070263D03D474586c9b29",
 			"0xA00C61ad8c560163c3Ee798a5eAA63EF81BA41e0"
 		]
+	},
+	"k3-bsc-aster": {
+		"name": "K3 Capital ASTERLIQUID",
+		"entity": "k3-capital",
+		"vaults": [
+			"0x93d31b79502265FEBA5ED18e3cAc9ef795a3b0B1",
+			"0x95C5Fd8618C68D6156A739C1EAb5aA7c807ff148"
+		]
 	}
 }

@@ -71,7 +71,9 @@
 			"0xbFAE1f099e9EBD8481c127dc1D2EaDc7Faf636b3",
 			"0x57d74318f938404B2fE1416b9E9ba5D380f505AF",
 			"0x72DAAb3F36D2070718A13FC2e2dc3E3181f0DE10",
-			"0xcA814720257b3C9fd2a446D53f0b6acD7aaa0Be0"
+			"0xcA814720257b3C9fd2a446D53f0b6acD7aaa0Be0",
+			"0x0391d9029713B1E9Ee1e241CB53D6BC89bAf299d",
+			"0xACdee5667866cdDD287E1F49837D1B6D2ba8BD45"
 		]
 	},
 	"euler-rwa": {
@@ -350,7 +352,10 @@
 			"0xc27B9587414f7d725e89b989aA63948a93f8DB71",
 			"0xe3Fd841FE4701bBA147e478CfBc46889116B7d3d",
 			"0xd9bf69f6228edDd2BeC11A32ed400F36C794E111",
-			"0x34BCe3856cF4b614649fb0eA022BfbD393601509"
+			"0x34BCe3856cF4b614649fb0eA022BfbD393601509",
+			"0x87d99f04082f56Ad480889D53ECA913318a1876B",
+			"0xAA341D82e914117b4082d03f11AF05CfD4C4B007",
+			"0x771b3E45383c878bBf0b291268344f9CC0011a04"
 		]
 	},
 	"tulipa-resolv": {
@@ -572,6 +577,20 @@
 		],
 		"isGovernanceLimited": true
 	},
+	"frontier-asymmetry": {
+		"name": "Frontier Asymmetry",
+		"description": "An isolated market dedicated to the Asymmetry Finance ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao", "gauntlet"],
+		"vaults": [
+			"0x477d7feE2d9dca0bA8F7CbEAa7da219b5bb2d1a7",
+			"0x51147D1af05AEb441dE62db292f46580084c8380",
+			"0x46DEA62E4D631ce3FaC68ECeC2b1C4bA1500075A",
+			"0x209C28798CD14Dda47F384Df102a24da0e76e0d4",
+			"0x580478CcDB9C001B71E2f08f0eCeA1c8bf62dbF6",
+			"0xb02b07429477ed07a9fE70e24A6E2e2408C2D432"
+		],
+		"isGovernanceLimited": true
+	},
 	"rezerve-vaults": {
 		"name": "Rezerve Markets",
 		"description": "An isolated market dedicated to the Rezerve ecosystem. Risk is curated by ZeroLend.",
@@ -595,6 +614,62 @@
 			"0x01864aE3c7d5f507cC4c24cA67B4CABbDdA37EcD",
 			"0x211711F277f146fC947D7053B41BB71BB5b5FC2C",
 			"0x038dd0Eb275B7DE3B07884f1Fa106eD6423C45F2"
+		]
+	},
+	"horizon-clearstar": {
+		"name": "Horizon Clearstar",
+		"description": "A market designed to lend against a mix of assets targeting moderate risk exposure and high returns. Risk is curated by Clearstar Labs.",
+		"entity": "clearstar",
+		"vaults": [
+			"0x47e2ab1392e04C1d86E696012D0544aedBDA6Ddb",
+			"0x9f936cD7bC9c7aA90Bbb27Ce1B961655434754cB",
+			"0x43BC56b2E10AcAd2b0dc021F1C9866DB259CEb5B",
+			"0x14d777665EA3bb224f222E69c85bcA890557d078",
+			"0x63f6505E0525e9b91595d997549C5F50e061AD3C",
+			"0xC063BDd3181356f973c3085dB60074262462A8F3",
+			"0x579aD59BB4AF72d732f45F67ef231E9f59EF9E4F",
+			"0xa020DeE164D92c48eD064B163cC93B582197346A",
+			"0x66BfA41C915f86AC9Cf63D413d2e2E4f0EbBaB2D",
+			"0xE27dC1Bdc3F47E44DdA0B90901F3ee61E43Ffe77",
+			"0xeBA46a9219297cFE7cDAbF41172BaD25a8785d96",
+			"0xC68BC0a9b0544F0B4AA28Ce253f9e1B28038F2cD",
+			"0xe2b187502b655BE77BF04261f879c5cF3fc0639F"
+		]
+	},
+	"frontier-mapollo": {
+		"name": "Frontier mAPOLLO",
+		"description": "An isolated market dedicated to the mAPOLLO ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao", "gauntlet"],
+		"vaults": [
+			"0x2a356443FeE07703266066c6Bb1B11b82d8246AD",
+			"0xC11d6b78D8c609A6cbf66E89DBfea06b011B0AEf",
+			"0x49d9fd20f1d61648Fa9434a8c0C33174F5614eB8",
+			"0xF75D18F76859764aBe4D13cA2eBaCeFF0b90b262"
+		],
+		"isGovernanceLimited": true
+	},
+	"frontier-mhyper": {
+		"name": "Frontier mHYPER",
+		"description": "An isolated market dedicated to the mHYPER ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"entity": ["euler-dao", "gauntlet"],
+		"vaults": [
+			"0x8aFF4fe319c30475D27eC623D7d44bD5eCFe9616",
+			"0xFa827C231062FA549143dF3C1b3584a016642630",
+			"0xf8C84D6A51Cf24c9AC79ABcE2823255FFA871145",
+			"0xad857E37bCdb3dD0712f5F3267D33ec1085F1a1d"
+		],
+		"isGovernanceLimited": true
+	},
+	"sentora-rlusd": {
+		"name": "Sentora RLUSD",
+		"description": "A market for supplying and borrowing RLUSD against bluechip assets. Governed by Sentora.",
+		"entity": "sentora",
+		"url": "https://sentora.com/platform/defi-strategies",
+		"vaults": [
+			"0xaF5372792a29dC6b296d6FFD4AA3386aff8f9BB2",
+			"0x9bD52F2805c6aF014132874124686e7b248c2Cbb",
+			"0x56B829e465170c3aCcAd33a3E0512b239b202242",
+			"0x9D4265a05a6A0C7F3EcB179F4BA5C3197CBb8F16"
 		]
 	}
 }

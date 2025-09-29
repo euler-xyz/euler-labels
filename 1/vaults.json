@@ -294,6 +294,16 @@
 		"description": "A PT-sUSDe-27NOV2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
 		"entity": "euler-dao"
 	},
+	"0x0391d9029713B1E9Ee1e241CB53D6BC89bAf299d": {
+		"name": "Euler Yield PT-tUSDe-18DEC2025",
+		"description": "A PT-tUSDe-18DEC2025 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
+		"entity": "euler-dao"
+	},
+	"0xACdee5667866cdDD287E1F49837D1B6D2ba8BD45": {
+		"name": "Euler Yield mUSD",
+		"description": "A mUSD vault collateralized by other vaults in the Euler Yield and Euler Prime cluster.",
+		"entity": "euler-dao"
+	},
 	"0xEA79E49A076a75A9bF6013505C2B92eED69E4fe1": {
 		"name": "Euler RWA USDC",
 		"description": "A USDC vault collateralized by other vaults in the Euler RWA cluster",
@@ -949,6 +959,21 @@
 		"description": "Part of the Resolv cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
 		"entity": ["apostro"]
 	},
+	"0x87d99f04082f56Ad480889D53ECA913318a1876B": {
+		"name": "Resolv PT-wstUSR-29JAN2026",
+		"description": "Part of the Resolv cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
+		"entity": ["apostro"]
+	},
+	"0xAA341D82e914117b4082d03f11AF05CfD4C4B007": {
+		"name": "Resolv PT-USR-4DEC2025",
+		"description": "Part of the Resolv cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
+		"entity": ["apostro"]
+	},
+	"0x771b3E45383c878bBf0b291268344f9CC0011a04": {
+		"name": "Resolv PT-RLP-4DEC2025",
+		"description": "Part of the Resolv cluster. This vault offers A-grade safety with the lowest insolvency risk. Risk manager: apostro.xyz.",
+		"entity": ["apostro"]
+	},
 	"0x3b028b4b6c567eF5f8Ca1144Da4FbaA0D973F228": {
 		"name": "Tulipa Resolv USDC",
 		"description": "Resolv USDC",
@@ -1378,5 +1403,160 @@
 		"name": "TelosC WBTC vault",
 		"description": "A WBTC vault in the TelosC Stream market",
 		"entity": ["telosc"]
+	},
+	"0x47e2ab1392e04C1d86E696012D0544aedBDA6Ddb": {
+		"name": "Horizon CBBTC",
+		"description": "A CBBTC vault in the Horizon market.",
+		"entity": ["clearstar"]
+	},
+	"0x9f936cD7bC9c7aA90Bbb27Ce1B961655434754cB": {
+		"name": "Horizon USDC",
+		"description": "A USDC vault in the Horizon market.",
+		"entity": ["clearstar"]
+	},
+	"0x43BC56b2E10AcAd2b0dc021F1C9866DB259CEb5B": {
+		"name": "Horizon WBTC",
+		"description": "A WBTC vault in the Horizon market.",
+		"entity": ["clearstar"]
+	},
+	"0x14d777665EA3bb224f222E69c85bcA890557d078": {
+		"name": "Horizon WSTETH",
+		"description": "A WSTETH vault in the Horizon market.",
+		"entity": ["clearstar"]
+	},
+	"0x63f6505E0525e9b91595d997549C5F50e061AD3C": {
+		"name": "Horizon WETH",
+		"description": "A WETH vault in the Horizon market.",
+		"entity": ["clearstar"]
+	},
+	"0xC063BDd3181356f973c3085dB60074262462A8F3": {
+		"name": "Horizon USDT",
+		"description": "A USDT vault in the Horizon market.",
+		"entity": ["clearstar"]
+	},
+	"0x579aD59BB4AF72d732f45F67ef231E9f59EF9E4F": {
+		"name": "Horizon YUSD",
+		"description": "A YUSD vault in the Horizon market.",
+		"entity": ["clearstar"]
+	},
+	"0xa020DeE164D92c48eD064B163cC93B582197346A": {
+		"name": "Horizon RLP",
+		"description": "A RLP vault in the Horizon market.",
+		"entity": ["clearstar"]
+	},
+	"0x66BfA41C915f86AC9Cf63D413d2e2E4f0EbBaB2D": {
+		"name": "Horizon WSTUSR",
+		"description": "A WSTUSR vault in the Horizon market.",
+		"entity": ["clearstar"]
+	},
+	"0xE27dC1Bdc3F47E44DdA0B90901F3ee61E43Ffe77": {
+		"name": "Horizon USR",
+		"description": "A USR vault in the Horizon market.",
+		"entity": ["clearstar"]
+	},
+	"0xeBA46a9219297cFE7cDAbF41172BaD25a8785d96": {
+		"name": "Horizon SUSDE",
+		"description": "A SUSDE vault in the Horizon market.",
+		"entity": ["clearstar"]
+	},
+	"0xC68BC0a9b0544F0B4AA28Ce253f9e1B28038F2cD": {
+		"name": "Horizon USDS",
+		"description": "A USDSlt in the Horizon market.",
+		"entity": ["clearstar"]
+	},
+	"0xe2b187502b655BE77BF04261f879c5cF3fc0639F": {
+		"name": "Horizon USDE",
+		"description": "A USDE vault in the Horizon market.",
+		"entity": ["clearstar"]
+	},
+	"0x477d7feE2d9dca0bA8F7CbEAa7da219b5bb2d1a7": {
+		"name": "Frontier Asymmetry USDC",
+		"description": "A USDC vault in the Frontier Asymmetry market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x51147D1af05AEb441dE62db292f46580084c8380": {
+		"name": "Frontier Asymmetry USDT",
+		"description": "A USDT vault in the Frontier Asymmetry market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x46DEA62E4D631ce3FaC68ECeC2b1C4bA1500075A": {
+		"name": "Frontier Asymmetry USDaf",
+		"description": "A USDaf vault in the Frontier Asymmetry market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x209C28798CD14Dda47F384Df102a24da0e76e0d4": {
+		"name": "Frontier Asymmetry sUSDaf",
+		"description": "A sUSDaf vault in the Frontier Asymmetry market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x580478CcDB9C001B71E2f08f0eCeA1c8bf62dbF6": {
+		"name": "Frontier Asymmetry PT-sUSDaf-13NOV2025",
+		"description": "A PT-sUSDaf-13NOV2025 vault in the Frontier Asymmetry market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xb02b07429477ed07a9fE70e24A6E2e2408C2D432": {
+		"name": "Frontier Asymmetry PT-USDaf-13NOV2025",
+		"description": "A PT-USDaf-13NOV2025 vault in the Frontier Asymmetry market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x2a356443FeE07703266066c6Bb1B11b82d8246AD": {
+		"name": "Frontier mAPOLLO USDC",
+		"description": "A USDC vault in the Frontier mAPOLLO market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xC11d6b78D8c609A6cbf66E89DBfea06b011B0AEf": {
+		"name": "Frontier mAPOLLO USDT",
+		"description": "A USDT vault in the Frontier mAPOLLO market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x49d9fd20f1d61648Fa9434a8c0C33174F5614eB8": {
+		"name": "Frontier mAPOLLO mAPOLLO",
+		"description": "A mAPOLLO vault in the Frontier mAPOLLO market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xF75D18F76859764aBe4D13cA2eBaCeFF0b90b262": {
+		"name": "Frontier mAPOLLO PT-mAPOLLO-20NOV2025",
+		"description": "A PT-mAPOLLO-20NOV2025 vault in the Frontier mAPOLLO market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x8aFF4fe319c30475D27eC623D7d44bD5eCFe9616": {
+		"name": "Frontier mHYPER USDC",
+		"description": "A USDC vault in the Frontier mHYPER market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xFa827C231062FA549143dF3C1b3584a016642630": {
+		"name": "Frontier mHYPER USDT",
+		"description": "A USDT vault in the Frontier mHYPER market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xf8C84D6A51Cf24c9AC79ABcE2823255FFA871145": {
+		"name": "Frontier mHYPER mHYPER",
+		"description": "A mHYPER vault in the Frontier mHYPER market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xad857E37bCdb3dD0712f5F3267D33ec1085F1a1d": {
+		"name": "Frontier mHYPER PT-mHYPER-20NOV2025",
+		"description": "A PT-mHYPER-20NOV2025 vault in the Frontier mHYPER market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xaF5372792a29dC6b296d6FFD4AA3386aff8f9BB2": {
+		"name": "Sentora RLUSD RLUSD",
+		"description": "A conservative RLUSD vault collateralized by other vaults in the Sentora RLUSD cluster and escrow vaults.",
+		"entity": "sentora"
+	},
+	"0x9bD52F2805c6aF014132874124686e7b248c2Cbb": {
+		"name": "Sentora RLUSD USDC",
+		"description": "A conservative USDC vault collateralized by other vaults in the Sentora RLUSD cluster and escrow vaults.",
+		"entity": "sentora"
+	},
+	"0x9D4265a05a6A0C7F3EcB179F4BA5C3197CBb8F16": {
+		"name": "Sentora RLUSD PT_SUSDE_27NOV2025",
+		"description": "A conservative PT_SUSDE_27NOV2025 vault collateralized by other vaults in the Sentora RLUSD cluster and escrow vaults.",
+		"entity": "sentora"
+	},
+	"0x56B829e465170c3aCcAd33a3E0512b239b202242": {
+		"name": "Sentora RLUSD sUSDe",
+		"description": "A conservative sUSDe vault collateralized by other vaults in the Sentora RLUSD cluster and escrow vaults.",
+		"entity": "sentora"
 	}
 }

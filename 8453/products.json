@@ -69,7 +69,8 @@
 		"url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/3",
 		"vaults": [
 			"0x774C08F8e78C47046d325C0331788954C35DF10a",
-			"0xdbDC9c3EdBD401109c83b333c16A0251806b3330"
+			"0xdbDC9c3EdBD401109c83b333c16A0251806b3330",
+			"0x38Df63F1986B80578B7357BCda3D4f71F129AfFf"
 		],
 		"isGovernanceLimited": true
 	},
@@ -80,7 +81,8 @@
 		"url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/3",
 		"vaults": [
 			"0x085178078796Da17B191f9081b5E2fCCc79A7eE7",
-			"0x990d616ca6E7192625d1B7C41Fb67b5758DF7CF2"
+			"0x990d616ca6E7192625d1B7C41Fb67b5758DF7CF2",
+			"0x24D633664Aea3F551B2Fa34fA66Dd1BA52a33933"
 		],
 		"isGovernanceLimited": true
 	},
