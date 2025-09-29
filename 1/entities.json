@@ -239,5 +239,17 @@
 		"social": {
 			"twitter": "hyperithm"
 		}
+	},
+	"9summits": {
+		"name": "9 Summits",
+		"logo": "9summits.png",
+		"description": "By curating top-performing vaults, we empower our clients to access the best opportunities in decentralized finance with confidence and precision.",
+		"url": "https://9summits.io/",
+		"addresses": {
+			"0x23E6aecB76675462Ad8f2B31eC7C492060c2fAEF": "9 Summits vault Admin Multisig"
+		},
+		"social": {
+			"twitter": "nine_summits"
+		}
 	}
 }
