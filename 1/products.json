@@ -584,7 +584,7 @@
 			"0x3036155a3eD3e7F6FFf1E96e88f1FE51b6D2f3aD"
 		]
 	},
-	"telosc-stream":{
+	"telosc-stream": {
 		"name": "Telosc Stream",
 		"description": "A market tailored to the Stream ecosystem. Governed and curated by Telosc.",
 		"entity": "telosc",
@@ -594,7 +594,7 @@
 			"0x9B62c8D69AcB1397f585BA63eee2597c5Bd0f644",
 			"0x01864aE3c7d5f507cC4c24cA67B4CABbDdA37EcD",
 			"0x211711F277f146fC947D7053B41BB71BB5b5FC2C",
-			"0x038dd0Eb275B7DE3B07884f1Fa106eD6423C45F2"		
+			"0x038dd0Eb275B7DE3B07884f1Fa106eD6423C45F2"
 		]
 	}
 }
