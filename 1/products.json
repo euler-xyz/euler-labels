@@ -603,6 +603,19 @@
 			"0x3036155a3eD3e7F6FFf1E96e88f1FE51b6D2f3aD"
 		]
 	},
+	"telosc-stream": {
+		"name": "Telosc Stream",
+		"description": "A market tailored to the Stream ecosystem. Governed and curated by Telosc.",
+		"entity": "telosc",
+		"vaults": [
+			"0xf1BA8c5Ca5aB011d06f31e64DaD313d204aCb9Eb",
+			"0xbBc4BC013F1C9Ed674098A6d156C02C0a21a285C",
+			"0x9B62c8D69AcB1397f585BA63eee2597c5Bd0f644",
+			"0x01864aE3c7d5f507cC4c24cA67B4CABbDdA37EcD",
+			"0x211711F277f146fC947D7053B41BB71BB5b5FC2C",
+			"0x038dd0Eb275B7DE3B07884f1Fa106eD6423C45F2"
+		]
+	},
 	"horizon-clearstar": {
 		"name": "Horizon Clearstar",
 		"description": "A market designed to lend against a mix of assets targeting moderate risk exposure and high returns. Risk is curated by Clearstar Labs.",
