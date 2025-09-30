@@ -18,5 +18,23 @@
 		"name": "5x Allo Points from [usd.ai](https://usd.ai)",
 		"logo": "allo.png",
 		"collateralVaults": ["0xAADEA03f6D6F198Bdc9229bD8113aceD19031773"]
+	},
+	{
+		"name": "20x Resolv Points",
+		"logo": "resolv.svg",
+		"collateralVaults": [
+			"0xbd2D9A3c34f866387a371035dc94Cbe94759E6d8",
+			"0x2beBDc03D4268247c205ECB6926332221EC612AC",
+			"0x0a39a99f1639a9e26ED9F7c096165A41FDEb5E63"
+		]
+	},
+	{
+		"name": "5x Resolv Points",
+		"logo": "resolv.svg",
+		"collateralVaults": [
+			"0xAc40D41aB11b0eb991a7D34D55DbDbB7849e92EF",
+			"0x538f01e0BA3cf3aB5b3837A0d138a3F67b9b8235",
+			"0x4718484ac9dc07fbbC078561e8f8Ef29e2a369CD"
+		]
 	}
 ]
