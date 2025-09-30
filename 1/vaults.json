@@ -1404,6 +1404,11 @@
 		"description": "A WBTC vault in the TelosC Stream market",
 		"entity": ["telosc"]
 	},
+	"0xf7047BD0D25ce04AE09D9F03ad37835f8B7315Cb": {
+		"name": "TelosC Stream PT-xUSD-18DEC2025",
+		"description": "A PT-xUSD-18DEC2025 vault in the TelosC Stream market",
+		"entity": ["telosc"]
+	},
 	"0x47e2ab1392e04C1d86E696012D0544aedBDA6Ddb": {
 		"name": "Horizon CBBTC",
 		"description": "A CBBTC vault in the Horizon market.",
