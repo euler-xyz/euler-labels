@@ -604,8 +604,8 @@
 		]
 	},
 	"telosc-stream": {
-		"name": "Telosc Stream",
-		"description": "A market tailored to the Stream ecosystem. Governed and curated by Telosc.",
+		"name": "TelosC Stream",
+		"description": "A market tailored to the Stream ecosystem. Governed and curated by TelosC.",
 		"entity": "telosc",
 		"vaults": [
 			"0xf1BA8c5Ca5aB011d06f31e64DaD313d204aCb9Eb",
