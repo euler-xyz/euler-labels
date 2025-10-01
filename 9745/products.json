@@ -165,5 +165,13 @@
 			"0x66Ab62571Ccd31D911EeEfea85944895e30c0A3a"
 		],
 		"isGovernanceLimited": true
+	},
+	"telosc-fx": {
+		"name": "TelosC f(x)",
+		"entity": ["telosc"],
+		"vaults": [
+			"0xC87097cc3f4633e13DADb2adaee14145cAfB348e",
+			"0x38921efe4eB1dEEe78B615d968D5D66A5142b4Bf"
+		]
 	}
 }
