@@ -325,7 +325,7 @@
 		"entity": "euler-dao"
 	},
 	"0x74034eb8d5B2E480825263A975E4CF82A081c959": {
-		"name": "EUL Swap",
+		"name": "EUL Lending EUL",
 		"description": "An EUL vault collateralized by an escrowed collateral EUL vault providing self-collateralization capabilities.",
 		"entity": "euler-dao"
 	},
