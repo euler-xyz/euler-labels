@@ -329,6 +329,11 @@
 		"description": "An EUL vault collateralized by an escrowed collateral EUL vault providing self-collateralization capabilities.",
 		"entity": "euler-dao"
 	},
+	"0xBEf0c894aB4020DCD533FD753BF427662F3F7ABe": {
+		"name": "EUL Lending USDC",
+		"description": "A USDC vault collateralized by other vaults in the EUL Lending cluster",
+		"entity": "euler-dao"
+	},
 	"0xdc1aeF6cF0F13267281a0D3547D205eA32287e49": {
 		"name": "Frontier Renzo WETH",
 		"description": "A WETH vault collateralized by ezETH in the Frontier Renzo Cluster.",
