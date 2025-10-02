@@ -258,10 +258,5 @@
 		"name": "TelosC msUSD",
 		"description": "Component of the TelosC Stream Market",
 		"entity": "telosc"
-	},
-	"0x0f080Bf8Ba818001EcfB2f461708D8484323D0cE": {
-		"name": "TelosC PT-xUSD-18DEC2025",
-		"description": "Component of the TelosC Stream Market",
-		"entity": "telosc"
 	}
 }
