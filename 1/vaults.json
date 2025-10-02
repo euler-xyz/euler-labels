@@ -1409,7 +1409,7 @@
 		"description": "A WBTC vault in the TelosC Stream market",
 		"entity": ["telosc"]
 	},
-	"0xf7047BD0D25ce04AE09D9F03ad37835f8B7315Cb": {
+	"0x0f080Bf8Ba818001EcfB2f461708D8484323D0cE": {
 		"name": "TelosC Stream PT-xUSD-18DEC2025",
 		"description": "A PT-xUSD-18DEC2025 vault in the TelosC Stream market",
 		"entity": ["telosc"]
