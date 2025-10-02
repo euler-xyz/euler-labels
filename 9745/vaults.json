@@ -253,5 +253,10 @@
 		"name": "K3 Capital Pendlend PT-sUSDai-19MAR2026",
 		"description": "Component of the K3 Pendlend Market",
 		"entity": "k3"
+	},
+	"0x843a5F59EB56126277F786c614bFC5DeB91fe94B": {
+		"name": "TelosC msUSD",
+		"description": "Component of the TelosC Stream Market",
+		"entity": "telosc"
 	}
 }
