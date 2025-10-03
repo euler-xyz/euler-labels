@@ -177,5 +177,15 @@
 			"0x9ABBc903Af7DA20325F0C4f2fE3a77AE4e1694B4",
 			"0x46d2CdcAE9b0369a4b4c17BA2E34e4c7D0B2832a"
 		]
+	},
+	"frontier-elixir": {
+		"name": "Frontier Elixir",
+		"entity": ["euler-dao"],
+		"vaults": [
+			"0x5EFb3B2899a76e013040E85438cbe308870f5F50",
+			"0xD59f6112375D60e45C2BA9dd5745870c1444362F",
+			"0x3799251bD81925cfcCF2992F10Af27A4e62Bf3F7"
+		],
+		"isGovernanceLimited": true
 	}
 }
