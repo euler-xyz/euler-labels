@@ -229,6 +229,16 @@
 		"description": "Component of the Frontier PT-sUSDai Market",
 		"entity": "euler-dao"
 	},
+	"0xC87097cc3f4633e13DADb2adaee14145cAfB348e": {
+		"name": "TelosC pfxSAVE",
+		"description": "Component of the TelosC f(x) Cluster",
+		"entity": "telosc"
+	},
+	"0x38921efe4eB1dEEe78B615d968D5D66A5142b4Bf": {
+		"name": "TelosC USDT0",
+		"description": "Component of the TelosC f(x) Cluster",
+		"entity": "telosc"
+	},
 	"0x8Aec278c2fD4cc07B10A8865AEd33775f93EACe6": {
 		"name": "K3 Capital Pendlend USDT0",
 		"description": "Component of the K3 Pendlend Market",
