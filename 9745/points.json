@@ -49,5 +49,14 @@
 			"0xa5EeD1615cd883dD6883ca3a385F525e3bEB4E79",
 			"0xa9C251F8304b1B3Fc2b9e8fcae78D94Eff82Ac66"
 		]
+	},
+	{
+		"name": "10x Elixir Potions",
+		"logo": "potions.png",
+		"collateralVaults": [
+			"0x5EFb3B2899a76e013040E85438cbe308870f5F50",
+			"0xD59f6112375D60e45C2BA9dd5745870c1444362F",
+			"0x3799251bD81925cfcCF2992F10Af27A4e62Bf3F7"
+		]
 	}
 ]
