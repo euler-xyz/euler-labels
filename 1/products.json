@@ -88,10 +88,13 @@
 		]
 	},
 	"eulswap": {
-		"name": "EUL Swap",
-		"description": "An isolated market dedicated to EUL token swaps. EUL Swap market is not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"name": "EUL Lending",
+		"description": "An isolated market dedicated to EUL token swaps. EUL Lending market is not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
 		"entity": ["euler-dao"],
-		"vaults": ["0x74034eb8d5B2E480825263A975E4CF82A081c959"],
+		"vaults": [
+			"0x74034eb8d5B2E480825263A975E4CF82A081c959",
+			"0xBEf0c894aB4020DCD533FD753BF427662F3F7ABe"
+		],
 		"isGovernanceLimited": true
 	},
 	"frontier-renzo": {
@@ -614,7 +617,7 @@
 			"0x01864aE3c7d5f507cC4c24cA67B4CABbDdA37EcD",
 			"0x211711F277f146fC947D7053B41BB71BB5b5FC2C",
 			"0x038dd0Eb275B7DE3B07884f1Fa106eD6423C45F2",
-			"0xf7047BD0D25ce04AE09D9F03ad37835f8B7315Cb"
+			"0x0f080Bf8Ba818001EcfB2f461708D8484323D0cE"
 		]
 	},
 	"horizon-clearstar": {

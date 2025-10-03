@@ -325,8 +325,13 @@
 		"entity": "euler-dao"
 	},
 	"0x74034eb8d5B2E480825263A975E4CF82A081c959": {
-		"name": "EUL Swap",
+		"name": "EUL Lending EUL",
 		"description": "An EUL vault collateralized by an escrowed collateral EUL vault providing self-collateralization capabilities.",
+		"entity": "euler-dao"
+	},
+	"0xBEf0c894aB4020DCD533FD753BF427662F3F7ABe": {
+		"name": "EUL Lending USDC",
+		"description": "A USDC vault collateralized by other vaults in the EUL Lending cluster",
 		"entity": "euler-dao"
 	},
 	"0xdc1aeF6cF0F13267281a0D3547D205eA32287e49": {
@@ -1404,7 +1409,7 @@
 		"description": "A WBTC vault in the TelosC Stream market",
 		"entity": ["telosc"]
 	},
-	"0xf7047BD0D25ce04AE09D9F03ad37835f8B7315Cb": {
+	"0x0f080Bf8Ba818001EcfB2f461708D8484323D0cE": {
 		"name": "TelosC Stream PT-xUSD-18DEC2025",
 		"description": "A PT-xUSD-18DEC2025 vault in the TelosC Stream market",
 		"entity": ["telosc"]
