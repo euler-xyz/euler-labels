@@ -49,6 +49,14 @@
 			"0xa4a52AF57D8FD82FC827E5E400007ab65CEf271b"
 		]
 	},
+	"re7labs-xusd": {
+		"name": "Re7 Labs xUSD",
+		"entity": ["re7-labs"],
+		"vaults": [
+			"0xF675FBe777E992f5D5D84AdF41161dC0f20104a6",
+			"0x8AdB906421f65C27155f44f1829Ca1E5B024c3F6"
+		]
+	},
 	"frontier-usdai": {
 		"name": "Frontier USD.ai",
 		"entity": ["euler-dao"],
