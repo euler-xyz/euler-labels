@@ -264,6 +264,11 @@
 		"description": "Component of the K3 Pendlend Market",
 		"entity": "k3"
 	},
+	"0x003671b7Ff5CB7F5d9B7E3a0637839D8624ca5AA": {
+		"name": "K3 Capital Pendlend PT-syrupUSDT-29JAN2026",
+		"description": "Component of the K3 Pendlend Market",
+		"entity": "k3"
+	},
 	"0xF90Cf999dE728A582e154F926876b70e93a747B7": {
 		"name": "TelosC msUSD",
 		"description": "Component of the TelosC Stream Market",
