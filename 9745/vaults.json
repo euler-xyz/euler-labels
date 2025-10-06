@@ -283,5 +283,15 @@
 		"name": "Frontier Elixir USDT0",
 		"description": "Component of the Frontier Elixir Market",
 		"entity": "euler-dao"
+	},
+	"0xF675FBe777E992f5D5D84AdF41161dC0f20104a6": {
+		"name": "Re7 Labs xUSD USDT0",
+		"description": "Component of the Re7 Labs xUSD Market",
+		"entity": "re7-labs"
+	},
+	"0x8AdB906421f65C27155f44f1829Ca1E5B024c3F6": {
+		"name": "Re7 Labs xUSD xUSD",
+		"description": "Component of the Re7 Labs xUSD Market",
+		"entity": "re7-labs"
 	}
 }
