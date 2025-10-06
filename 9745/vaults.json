@@ -229,6 +229,16 @@
 		"description": "Component of the Frontier PT-sUSDai Market",
 		"entity": "euler-dao"
 	},
+	"0xC87097cc3f4633e13DADb2adaee14145cAfB348e": {
+		"name": "TelosC pfxSAVE",
+		"description": "Component of the TelosC f(x) Cluster",
+		"entity": "telosc"
+	},
+	"0x38921efe4eB1dEEe78B615d968D5D66A5142b4Bf": {
+		"name": "TelosC USDT0",
+		"description": "Component of the TelosC f(x) Cluster",
+		"entity": "telosc"
+	},
 	"0x8Aec278c2fD4cc07B10A8865AEd33775f93EACe6": {
 		"name": "K3 Capital Pendlend USDT0",
 		"description": "Component of the K3 Pendlend Market",
@@ -253,5 +263,40 @@
 		"name": "K3 Capital Pendlend PT-sUSDai-19MAR2026",
 		"description": "Component of the K3 Pendlend Market",
 		"entity": "k3"
+	},
+	"0x003671b7Ff5CB7F5d9B7E3a0637839D8624ca5AA": {
+		"name": "K3 Capital Pendlend PT-syrupUSDT-29JAN2026",
+		"description": "Component of the K3 Pendlend Market",
+		"entity": "k3"
+	},
+	"0xF90Cf999dE728A582e154F926876b70e93a747B7": {
+		"name": "TelosC msUSD",
+		"description": "Component of the TelosC Stream Market",
+		"entity": "telosc"
+	},
+	"0x5EFb3B2899a76e013040E85438cbe308870f5F50": {
+		"name": "Frontier Elixir sdeUSD",
+		"description": "Component of the Frontier Elixir Market",
+		"entity": "euler-dao"
+	},
+	"0xD59f6112375D60e45C2BA9dd5745870c1444362F": {
+		"name": "Frontier Elixir deUSD",
+		"description": "Component of the Frontier Elixir Market",
+		"entity": "euler-dao"
+	},
+	"0x3799251bD81925cfcCF2992F10Af27A4e62Bf3F7": {
+		"name": "Frontier Elixir USDT0",
+		"description": "Component of the Frontier Elixir Market",
+		"entity": "euler-dao"
+	},
+	"0xF675FBe777E992f5D5D84AdF41161dC0f20104a6": {
+		"name": "Re7 Labs xUSD USDT0",
+		"description": "Component of the Re7 Labs xUSD Market",
+		"entity": "re7-labs"
+	},
+	"0x8AdB906421f65C27155f44f1829Ca1E5B024c3F6": {
+		"name": "Re7 Labs xUSD xUSD",
+		"description": "Component of the Re7 Labs xUSD Market",
+		"entity": "re7-labs"
 	}
 }
