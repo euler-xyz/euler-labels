@@ -298,5 +298,20 @@
 		"name": "Re7 Labs xUSD xUSD",
 		"description": "Component of the Re7 Labs xUSD Market",
 		"entity": "re7-labs"
+	},
+	"0x93827c26602b0573500D2eC80dB19D54EEf76BaB": {
+		"name": "Frontier Trevee splUSD",
+		"description": "Component of the Frontier Trevee Market",
+		"entity": "euler-dao"
+	},
+	"0x1aD2d433b5E95077EB2855EaB854B72eA9ee9d6c": {
+		"name": "Frontier Trevee eplUSD",
+		"description": "Component of the Frontier Trevee Market",
+		"entity": "euler-dao"
+	},
+	"0xb5526491742FEe67E9E0D0D8c619A95D422fd398": {
+		"name": "Frontier Trevee USDT0",
+		"description": "Component of the Frontier Trevee Market",
+		"entity": "euler-dao"
 	}
 }
