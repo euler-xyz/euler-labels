@@ -234,6 +234,11 @@
 		"description": "Component of the Keyring Avalanche Cluster",
 		"entity": "keyring"
 	},
+	"0x6De07D6Cbd0c4e8Fa93Da3d7BdaA1D1505651a1E": {
+		"name": "Keyring sdeUSD",
+		"description": "Component of the Keyring Avalanche Cluster",
+		"entity": "keyring"
+	},
 	"0x04293b180bf9C57eD0923C99c784Cb571f0A9Ae9": {
 		"name": "Reservoir Labs BTC.b",
 		"description": "Component of the Reservoir Labs Avalanche Cluster",
