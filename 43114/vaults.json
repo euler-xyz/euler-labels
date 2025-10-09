@@ -214,6 +214,26 @@
 		"description": "Component of the Keyring Avalanche Cluster",
 		"entity": "keyring"
 	},
+    "0x67E0aC01425FA296169dBB5157349e668f6B4438": {
+		"name": "Keyring WAVAX",
+		"description": "Component of the Keyring Avalanche Cluster",
+		"entity": "keyring"
+	},
+    "0xb032772229B2af29EaA026D1648bB9bC42bB0592": {
+		"name": "Keyring sAVAX",
+		"description": "Component of the Keyring Avalanche Cluster",
+		"entity": "keyring"
+	},
+    "0x5FDb07efb2DafAc9186C8A7902332ce0F4B764C6": {
+		"name": "Keyring wETH.e",
+		"description": "Component of the Keyring Avalanche Cluster",
+		"entity": "keyring"
+	},
+    "0x3050B75382aB718fAD92D83C5f99c7fDA1654529": {
+		"name": "Keyring BTC.b",
+		"description": "Component of the Keyring Avalanche Cluster",
+		"entity": "keyring"
+	},
 	"0x04293b180bf9C57eD0923C99c784Cb571f0A9Ae9": {
 		"name": "Reservoir Labs BTC.b",
 		"description": "Component of the Reservoir Labs Avalanche Cluster",
