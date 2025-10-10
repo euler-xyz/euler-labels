@@ -109,6 +109,16 @@
 		"description": "Component of the Re7 Labs USD Cluster",
 		"entity": "re7-labs"
 	},
+	"0x42267dC26FCece525F04E75dA3fA596f88ceDDe0": {
+		"name": "Re7 Labs USD Cluster wsrUSD",
+		"description": "Component of the Re7 Labs USD Cluster",
+		"entity": "re7-labs"
+	},
+	"0x5464cC940BeFf4301eD21DF535761546F19De2D3": {
+		"name": "Re7 Labs USD Cluster REX33",
+		"description": "Component of the Re7 Labs USD Cluster",
+		"entity": "re7-labs"
+	},
 	"0xE27C2571F6D1b942bBB438a37b0171C64B469e1F": {
 		"name": "Edge UltraYield USDC",
 		"description": "A USDC vault collateralized by other vaults in the Edge UltraYield Cluster.",

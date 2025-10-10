@@ -1155,13 +1155,38 @@
 		"entity": "k3"
 	},
 	"0x10e0B2B42874ADF8c29D5F900c0D18b61f048ffb": {
-		"name": "Pareto USDC",
+		"name": "Keyring USDC",
 		"description": "Component of the Pareto Keyring Cluster",
 		"entity": "keyring"
 	},
 	"0xB6c9363DB7D651106Da38C68F34253688Fa25cda": {
-		"name": "Pareto sUSP",
-		"description": "Pareto sUSP is the staked savings asset of USP built on Ethereum. Component of the Pareto Keyring Cluster",
+		"name": "Keyring sUSP",
+		"description": "Pareto sUSP is the staked savings asset of USP built on Ethereum. Component of the Keyring Cluster",
+		"entity": "keyring"
+	},
+	"0x33e97864E44631e6d31b81051DAABcD4C31bF792": {
+		"name": "Keyring WETH",
+		"description": "Component of the Keyring Cluster",
+		"entity": "keyring"
+	},
+	"0x8B5b205aE1E241974d06695a1f09612069B46d6B": {
+		"name": "Keyring WSTETH",
+		"description": "Component of the Keyring Cluster",
+		"entity": "keyring"
+	},
+	"0x5d0C14A46eBb659dDccd5b8F5e9707a5714857a0": {
+		"name": "Keyring CBBTC",
+		"description": "Component of the Keyring Cluster",
+		"entity": "keyring"
+	},
+	"0xbB118Aa3Ee6eE1941fC33eeb3889d41c639736C6": {
+		"name": "Keyring WEETH",
+		"description": "Component of the Keyring Cluster",
+		"entity": "keyring"
+	},
+	"0x879aEC0aAE98AC89598ae8F765EB9A9ee307d16f": {
+		"name": "Keyring WBTC",
+		"description": "Component of the Keyring Cluster",
 		"entity": "keyring"
 	},
 	"0x87c414825aB3d1E9bdC773e9B1fD968822c9CF51": {
@@ -1578,5 +1603,35 @@
 		"name": "9 Summits Aladdin DAO fxSAVE",
 		"description": "A fxSAVE vault in the Aladdin DAO excosystem market",
 		"entity": "9summits"
+	},
+	"0xbed968285CB7E32463dfc1324c329BA458dc650D": {
+		"name": "Frontier mevBTC WBTC",
+		"description": "A WBTC vault in the Frontier mevBTC market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xe01354f8A8fa44E87d96574D1E5Bcd78D61d6EbE": {
+		"name": "Frontier mevBTC mevBTC",
+		"description": "A mevBTC vault in the Frontier mevBTC market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x6f2598c99722428563F852F49002C6826316c751": {
+		"name": "Frontier mFARM USDC",
+		"description": "A USDC vault in the Frontier mFARM market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x806EeA930A2D5395829275e498c3a90eD56a4E7E": {
+		"name": "Frontier mFARM USDT",
+		"description": "A USDT vault in the Frontier mFARM market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x1A5dd6D0A3B4F47d157f69365068d2e1df868825": {
+		"name": "Frontier mFARM mFARM",
+		"description": "A mFARM vault in the Frontier mFARM market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x5748534ffeBbaf42a8a180f0e745b44f629e85Df": {
+		"name": "Frontier mFARM PT-mFARM-11DEC2025",
+		"description": "A PT-mFARM-11DEC2025 vault in the Frontier mFARM market",
+		"entity": ["euler-dao", "gauntlet"]
 	}
 }
