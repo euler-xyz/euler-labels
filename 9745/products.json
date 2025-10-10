@@ -195,8 +195,8 @@
 			"0x003671b7Ff5CB7F5d9B7E3a0637839D8624ca5AA"
 		]
 	},
-	"k3-capital-xpl": {
-		"name": "K3 Capital XPL Long",
+	"k3-plasma-trading-hub": {
+		"name": "Plasma Trading Hub",
 		"entity": ["k3"],
 		"vaults": [
 			"0x990babf76399a3fd73fbfbdd4149b968cf0c2386",
