@@ -195,6 +195,14 @@
 			"0x003671b7Ff5CB7F5d9B7E3a0637839D8624ca5AA"
 		]
 	},
+	"k3-capital-xpl": {
+		"name": "K3 Capital XPL Long",
+		"entity": ["k3"],
+		"vaults": [
+			"0x990babf76399a3fd73fbfbdd4149b968cf0c2386",
+			"0xf329a0a8548f6fb0ad1190c5ae6eff0ae3959214"
+		]
+	},
 	"frontier-elixir": {
 		"name": "Frontier Elixir",
 		"entity": ["euler-dao"],
