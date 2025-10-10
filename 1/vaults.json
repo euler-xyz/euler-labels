@@ -1155,13 +1155,38 @@
 		"entity": "k3"
 	},
 	"0x10e0B2B42874ADF8c29D5F900c0D18b61f048ffb": {
-		"name": "Pareto USDC",
+		"name": "Keyring USDC",
 		"description": "Component of the Pareto Keyring Cluster",
 		"entity": "keyring"
 	},
 	"0xB6c9363DB7D651106Da38C68F34253688Fa25cda": {
-		"name": "Pareto sUSP",
-		"description": "Pareto sUSP is the staked savings asset of USP built on Ethereum. Component of the Pareto Keyring Cluster",
+		"name": "Keyring sUSP",
+		"description": "Pareto sUSP is the staked savings asset of USP built on Ethereum. Component of the Keyring Cluster",
+		"entity": "keyring"
+	},
+	"0x33e97864E44631e6d31b81051DAABcD4C31bF792": {
+		"name": "Keyring WETH",
+		"description": "Component of the Keyring Cluster",
+		"entity": "keyring"
+	},
+	"0x8B5b205aE1E241974d06695a1f09612069B46d6B": {
+		"name": "Keyring WSTETH",
+		"description": "Component of the Keyring Cluster",
+		"entity": "keyring"
+	},
+	"0x5d0C14A46eBb659dDccd5b8F5e9707a5714857a0": {
+		"name": "Keyring CBBTC",
+		"description": "Component of the Keyring Cluster",
+		"entity": "keyring"
+	},
+	"0xbB118Aa3Ee6eE1941fC33eeb3889d41c639736C6": {
+		"name": "Keyring WEETH",
+		"description": "Component of the Keyring Cluster",
+		"entity": "keyring"
+	},
+	"0x879aEC0aAE98AC89598ae8F765EB9A9ee307d16f": {
+		"name": "Keyring WBTC",
+		"description": "Component of the Keyring Cluster",
 		"entity": "keyring"
 	},
 	"0x87c414825aB3d1E9bdC773e9B1fD968822c9CF51": {
