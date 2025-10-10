@@ -1603,5 +1603,35 @@
 		"name": "9 Summits Aladdin DAO fxSAVE",
 		"description": "A fxSAVE vault in the Aladdin DAO excosystem market",
 		"entity": "9summits"
+	},
+	"0xbed968285CB7E32463dfc1324c329BA458dc650D": {
+		"name": "Frontier mevBTC WBTC",
+		"description": "A WBTC vault in the Frontier mevBTC market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xe01354f8A8fa44E87d96574D1E5Bcd78D61d6EbE": {
+		"name": "Frontier mevBTC mevBTC",
+		"description": "A mevBTC vault in the Frontier mevBTC market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x6f2598c99722428563F852F49002C6826316c751": {
+		"name": "Frontier mFARM USDC",
+		"description": "A USDC vault in the Frontier mFARM market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x806EeA930A2D5395829275e498c3a90eD56a4E7E": {
+		"name": "Frontier mFARM USDT",
+		"description": "A USDT vault in the Frontier mFARM market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x1A5dd6D0A3B4F47d157f69365068d2e1df868825": {
+		"name": "Frontier mFARM mFARM",
+		"description": "A mFARM vault in the Frontier mFARM market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x5748534ffeBbaf42a8a180f0e745b44f629e85Df": {
+		"name": "Frontier mFARM PT-mFARM-11DEC2025",
+		"description": "A PT-mFARM-11DEC2025 vault in the Frontier mFARM market",
+		"entity": ["euler-dao", "gauntlet"]
 	}
 }
