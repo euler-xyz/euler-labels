@@ -30,19 +30,19 @@
 		"entity": "euler-dao"
 	},
 	"0x767d33217e7d2670695FfE2a104548B780f4F5d8": {
-		"name": "USD.ai sUSDai",
-		"description": "Component of the USD.ai Market",
-		"entity": "euler-dao"
+		"name": "K3 Capital USDai sUSDai",
+		"description": "Component of the K3 Capital USDai Market",
+		"entity": "k3"
 	},
 	"0xAADEA03f6D6F198Bdc9229bD8113aceD19031773": {
-		"name": "USD.ai USDai",
-		"description": "Component of the USD.ai Market",
-		"entity": "euler-dao"
+		"name": "K3 Capital USDai USDai",
+		"description": "Component of the K3 Capital USDai Market",
+		"entity": "k3"
 	},
 	"0x141A6f77ca186861BFB323b07012e80Ef4e09041": {
-		"name": "USD.ai USDT0",
-		"description": "Component of the USD.ai Market",
-		"entity": "euler-dao"
+		"name": "K3 Capital USDai USDT0",
+		"description": "Component of the K3 Capital USDai Market",
+		"entity": "k3"
 	},
 	"0x79C86345c5132465DdebB7dC90de0f826Fb905b1": {
 		"name": "Plasma WXPL",

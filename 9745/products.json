@@ -57,15 +57,14 @@
 			"0x8AdB906421f65C27155f44f1829Ca1E5B024c3F6"
 		]
 	},
-	"frontier-usdai": {
-		"name": "Frontier USD.ai",
-		"entity": ["euler-dao"],
+	"k3-capital-usdai": {
+		"name": "K3 Capital USDai Market",
+		"entity": "k3",
 		"vaults": [
 			"0x767d33217e7d2670695FfE2a104548B780f4F5d8",
 			"0xAADEA03f6D6F198Bdc9229bD8113aceD19031773",
 			"0x141A6f77ca186861BFB323b07012e80Ef4e09041"
-		],
-		"isGovernanceLimited": true
+		]
 	},
 	"frontier-plasma": {
 		"name": "Frontier Plasma",
