@@ -313,5 +313,35 @@
 		"name": "Frontier Trevee USDT0",
 		"description": "Component of the Frontier Trevee Market",
 		"entity": "euler-dao"
+	},
+	"0x9d86b4fc23d8438fc4aba58642dc35d5f64fe941":
+	{
+		"name": "K3 USDT0 Yuzu Vault",
+		"description": "Component of the K3 Yuzu Market",
+		"entity": "k3"
+	},
+	"0x2f33b4ae409e86c6bea9e2bbe98361c19f2a1f0c":
+	{
+		"name": "K3 Yuzu syzUSD",
+		"description": "Component of the K3 Yuzu Market",
+		"entity": "k3"
+	},
+	"0xda33ba72a303c26515ede275a2521b469f97d71b":
+	{
+		"name": "K3 Yuzu yzUSD",
+		"description": "Component of the K3 Yuzu Market",
+		"entity": "k3"
+	},
+	"0xfe8d21e64e0c6cfb9abf224e805452acde8e91fa": 
+	{
+		"name": "K3 Yuzu USDT0",
+		"description": "Component of the K3 Yuzu Market",
+		"entity": "k3"
+	},
+	"0xfc5c4e5593a352cedc9e5d7fd4e21b321140c345": 
+	{
+		"name": "K3 Yuzu yzPP",
+		"description": "Component of the K3 Yuzu Market",
+		"entity": "k3"
 	}
 }
