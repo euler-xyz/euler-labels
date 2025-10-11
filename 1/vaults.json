@@ -1374,6 +1374,11 @@
 		"description": "A FRAX vault used to provide liquidity to RZR/lstRZR borrowers",
 		"entity": "zerolend"
 	},
+	"0x0Aa836a55c7C3513D15795E7ec23378Ef511BB9f": {
+		"name": "Rezerve yUSD",
+		"description": "A yUSD vault that can borrow USDC on the Rezerve market",
+		"entity": "zerolend"
+	},
 	"0x6Fe7Fa90756434645F0b0428fDff78E99Dda0FBc": {
 		"name": "Frontier Cap USDC",
 		"description": "A USDC vault in the Frontier Cap market",
