@@ -213,5 +213,14 @@
 			"0xb5526491742FEe67E9E0D0D8c619A95D422fd398"
 		],
 		"isGovernanceLimited": true
+	},
+	"telosc-reservoir": {
+		"name": "TelosC Reservoir",
+		"description": "A market tailored to the Reservoir ecosystem. Governed and curated by TelosC.",
+		"entity": "telosc",
+		"vaults": [
+			"0x26fef890350fbc93fe76705370793c4136dd0aec",
+			"0x20c12fa60945aa1806b5a24be87b1cc5973466ee"
+		]
 	}
 }

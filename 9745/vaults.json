@@ -313,5 +313,15 @@
 		"name": "Frontier Trevee USDT0",
 		"description": "Component of the Frontier Trevee Market",
 		"entity": "euler-dao"
+	},
+	"0x26fef890350fbc93fe76705370793c4136dd0aec": {
+		"name": "TelosC Reservoir USDT0",
+		"description": "Component of the TelosC Reservoir Market",
+		"entity": "telosc"
+	},
+	"0x20c12fa60945aa1806b5a24be87b1cc5973466ee": {
+		"name": "TelosC Reservoir wsrUSD",
+		"description": "Component of the TelosC Reservoir Market",
+		"entity": "telosc"
 	}
 }
