@@ -213,5 +213,16 @@
 			"0xb5526491742FEe67E9E0D0D8c619A95D422fd398"
 		],
 		"isGovernanceLimited": true
+	},
+	"k3-yuzu": {
+		"name": "K3 Yuzu",
+		"entity": ["k3"],
+		"vaults": [
+			"0x9d86B4fc23D8438fC4Aba58642DC35D5F64fE941",
+			"0x2F33b4AE409e86c6BEa9E2Bbe98361c19F2A1f0c",
+			"0xDa33Ba72A303C26515edE275a2521b469F97D71b",
+			"0xFE8d21E64e0c6CFb9abF224e805452acdE8e91Fa",
+			"0xfc5c4e5593A352CEDc9E5D7fD4e21b321140c345"
+		]
 	}
 }
