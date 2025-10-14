@@ -712,5 +712,14 @@
 			"0x5748534ffeBbaf42a8a180f0e745b44f629e85Df"
 		],
 		"isGovernanceLimited": true
+	},
+	"telosc-wormhole": {
+		"name": "TelosC Wormhole",
+		"description": "A market tailored to the Wormhole ecosystem. Governed and curated by TelosC.",
+		"entity": "telosc",
+		"vaults": [
+			"0x783431b152c3e83b0c4dcd602e62a2c55d442f9b",
+			"0x2e6dff8907afda5d62a278e21b2e65c8595d746e",
+		]
 	}
 }
