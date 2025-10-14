@@ -314,6 +314,16 @@
 		"description": "Component of the Frontier Trevee Market",
 		"entity": "euler-dao"
 	},
+	"0x26Fef890350FbC93FE76705370793c4136dD0Aec": {
+		"name": "TelosC Reservoir USDT0",
+		"description": "Component of the TelosC Reservoir Market",
+		"entity": "telosc"
+	},
+	"0x20c12fa60945Aa1806b5a24Be87b1Cc5973466ee": {
+		"name": "TelosC Reservoir wsrUSD",
+		"description": "Component of the TelosC Reservoir Market",
+		"entity": "telosc"
+	},
 	"0x9d86B4fc23D8438fC4Aba58642DC35D5F64fE941": {
 		"name": "K3 USDT0 Yuzu Vault",
 		"description": "Component of the K3 Yuzu Market",
