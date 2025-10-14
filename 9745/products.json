@@ -221,6 +221,8 @@
 		"vaults": [
 			"0x26Fef890350FbC93FE76705370793c4136dD0Aec",
 			"0x20c12fa60945Aa1806b5a24Be87b1Cc5973466ee"
+		]
+	},
 	"k3-yuzu": {
 		"name": "K3 Yuzu",
 		"entity": ["k3"],

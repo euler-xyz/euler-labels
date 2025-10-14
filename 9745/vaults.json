@@ -323,6 +323,7 @@
 		"name": "TelosC Reservoir wsrUSD",
 		"description": "Component of the TelosC Reservoir Market",
 		"entity": "telosc"
+	},
 	"0x9d86B4fc23D8438fC4Aba58642DC35D5F64fE941": {
 		"name": "K3 USDT0 Yuzu Vault",
 		"description": "Component of the K3 Yuzu Market",
