@@ -229,6 +229,16 @@
 		"description": "Component of the Frontier PT-sUSDai Market",
 		"entity": "euler-dao"
 	},
+	"0x1c3073EE0d6890400D2a4c7e5338001F9bf04B3D": {
+		"name": "Frontier YieldFi yUSD",
+		"description": "Component of the Frontier YieldFi Market",
+		"entity": "euler-dao"
+	},
+	"0xa1B911B8F60F87AE04Cdd4E0C4C362522927E06c": {
+		"name": "Frontier YieldFi USDT0",
+		"description": "Component of the Frontier YieldFi Market",
+		"entity": "euler-dao"
+	},
 	"0xC87097cc3f4633e13DADb2adaee14145cAfB348e": {
 		"name": "TelosC pfxSAVE",
 		"description": "Component of the TelosC f(x) Cluster",
