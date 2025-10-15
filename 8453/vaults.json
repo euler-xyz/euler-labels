@@ -248,5 +248,15 @@
 		"name": "Edge UltraYield LBTC",
 		"description": "LBTC vault collateralized by other vaults in the Edge UltraYield Cluster.",
 		"entity": "edge-capital"
+	},
+	"0x81744B5B5527852832F2dd3554C191d3B1342108": {
+		"name": "AlphaGrowth reUSD Base Vault",
+		"description": "A supply-only rUSD vault managed by AlphaGrowth.",
+		"entity": "alphagrowth"
+	},
+	"0x4C1aeda9B43EfcF1da1d1755b18802aAbe90f61E": {
+		"name": "AlphaGrowth USDC Base Vault",
+		"description": "A borrowing-enabled USDC vault managed by AlphaGrowth, enabling leveraged strategies with reUSD collateral.",
+		"entity": "alphagrowth"
 	}
 }
