@@ -174,6 +174,15 @@
 		],
 		"isGovernanceLimited": true
 	},
+	"frontier-yieldfi": {
+		"name": "Frontier YieldFi",
+		"entity": ["euler-dao"],
+		"vaults": [
+			"0x1c3073EE0d6890400D2a4c7e5338001F9bf04B3D",
+			"0xa1B911B8F60F87AE04Cdd4E0C4C362522927E06c"
+		],
+		"isGovernanceLimited": true
+	},
 	"telosc-fx": {
 		"name": "TelosC f(x)",
 		"entity": ["telosc"],
