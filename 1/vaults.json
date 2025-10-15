@@ -1349,6 +1349,26 @@
 		"description": "A PT-pUSDe-16OCT2025 vault in the Frontier Strata market.",
 		"entity": ["euler-dao", "gauntlet"]
 	},
+	"0xF0ee6229CB0c3ed8DA93cA49191c7261566783AF": {
+		"name": "Frontier Strata srUSDe",
+		"description": "An srUSDe vault in the Frontier Strata market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xDa8A66A3BD832B02f331330CCCC94D8e8987E9C7": {
+		"name": "Frontier Strata PT-srUSDe-15JAN2026",
+		"description": "A PT-srUSDe-15JAN2026 vault in the Frontier Strata market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xfa68974D007D755697Cc4D4E1e4057034EA666df": {
+		"name": "Frontier Strata jrUSDe",
+		"description": "A jrUSDe vault in the Frontier Strata market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x32eeB44e99195622290eC1BD229Cd5E766DA251C": {
+		"name": "Frontier Strata PT-jrUSDe-15JAN2026",
+		"description": "A PT-jrUSDe-15JAN2026 vault in the Frontier Strata market.",
+		"entity": ["euler-dao", "gauntlet"]
+	},
 	"0xC42d337861878baa4dC820D9E6B6C667C2b57e8A": {
 		"name": "Rezerve USDC",
 		"description": "A USDC vault used to provide liquidity to RZR/lstRZR borrowers",
