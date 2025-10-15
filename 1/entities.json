@@ -28,6 +28,19 @@
 			"twitter": "gauntlet_xyz"
 		}
 	},
+	"hardcore-labs": {
+		"name": "Hardcore Labs",
+		"logo": "hcl-logo-dark-gray.svg",
+		"description": "Hardcore Labs is a multi-chain risk management and treasury management firm.",
+		"url": "https://hardcorelabs.fund",
+		"addresses": {
+			"0xB5DdE9cEd34134431dDc6485CaafD3cCa1b22396": "Hardcore Labs Governance Multisig"
+		},
+		"social": {
+			"twitter": "hcl_labs",
+			"linkedin": "hardcorelabs"
+		}
+	},
 	"re7-labs": {
 		"name": "Re7 Labs",
 		"logo": "re7labs.png",

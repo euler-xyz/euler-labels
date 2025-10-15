@@ -711,5 +711,15 @@
 			"0x5748534ffeBbaf42a8a180f0e745b44f629e85Df"
 		],
 		"isGovernanceLimited": true
+	},
+	"hardcore-labs-vaults": {
+		"name": "Hardcore Labs Vaults",
+		"description": "A market for supplying and borrowing assets in the Hardcore Labs Cluster. Curated by Hardcore Labs.",
+		"entity": "hardcore-labs",
+		"vaults": [
+			"0xcFF4f40f08E2eAcDBFFA04c672477b62cfcF15a9",
+			"0x8fdd241cECebE8C288688288Eb4baB119A3673F8",
+			"0x29B688A9E9dCe9abb28d46ab2e3Fb3c3F4EeFa90"
+		]
 	}
 }
