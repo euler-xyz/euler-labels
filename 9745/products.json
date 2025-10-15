@@ -194,6 +194,14 @@
 			"0x003671b7Ff5CB7F5d9B7E3a0637839D8624ca5AA"
 		]
 	},
+	"k3-plasma-trading-hub": {
+		"name": "Plasma Trading Hub",
+		"entity": ["k3"],
+		"vaults": [
+			"0x990babF76399A3fd73FBFbdd4149B968CF0C2386",
+			"0xf329a0A8548f6fB0aD1190c5AE6EFF0aE3959214"
+		]
+	},
 	"frontier-elixir": {
 		"name": "Frontier Elixir",
 		"entity": ["euler-dao"],
