@@ -1658,5 +1658,20 @@
 		"name": "Frontier mFARM PT-mFARM-11DEC2025",
 		"description": "A PT-mFARM-11DEC2025 vault in the Frontier mFARM market",
 		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0xcFF4f40f08E2eAcDBFFA04c672477b62cfcF15a9": {
+		"name": "Hardcore Labs USDC",
+		"description": "A USDC vault collateralized by other vaults in the Hardcore Labs Cluster.",
+		"entity": "hardcore-labs"
+	},
+	"0x8fdd241cECebE8C288688288Eb4baB119A3673F8": {
+		"name": "Hardcore Labs cbBTC",
+		"description": "A cbBTC vault collateralized by other vaults in the Hardcore Labs Cluster.",
+		"entity": "hardcore-labs"
+	},
+	"0x29B688A9E9dCe9abb28d46ab2e3Fb3c3F4EeFa90": {
+		"name": "Hardcore Labs wstrBTC",
+		"description": "A wstrBTC collateral vault in the Hardcore Labs Cluster.",
+		"entity": "hardcore-labs"
 	}
 }
