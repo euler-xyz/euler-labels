@@ -108,5 +108,15 @@
 		"name": "Edge UltraYield wstUSR",
 		"description": "A wstUSR vault collateralized by other vaults in the Edge UltraYield Cluster.",
 		"entity": "edge-capital"
+	},
+	"0x5281686dE131F08d66a974F0035778e2362394C7": {
+		"name": "Edge UltraYield WTAC",
+		"description": "A WTAC vault collateralized by other vaults in the Edge UltraYield Cluster.",
+		"entity": "edge-capital"
+	},
+	"0xAe1F929c130E13aCAfbfB27406266E4C6a1075ab": {
+		"name": "Edge UltraYield uniBTC",
+		"description": "A uniBTC vault collateralized by other vaults in the Edge UltraYield Cluster.",
+		"entity": "edge-capital"
 	}
 }
