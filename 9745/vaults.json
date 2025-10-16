@@ -368,5 +368,10 @@
 		"name": "K3 Yuzu yzPP",
 		"description": "Component of the K3 Yuzu Market",
 		"entity": "k3"
+	},
+	"0x27934d4879fc28a74703726eDae15F757E45A48a": {
+		"name": "TelosC plUSD",
+		"description": "Component of the TelosC Stream Market",
+		"entity": "telosc"
 	}
 }
