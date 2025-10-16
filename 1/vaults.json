@@ -1658,5 +1658,15 @@
 		"name": "Frontier mFARM PT-mFARM-11DEC2025",
 		"description": "A PT-mFARM-11DEC2025 vault in the Frontier mFARM market",
 		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x783431B152C3e83B0c4dCD602E62a2C55d442F9B": {
+		"name": "TelosC Wormhole W",
+		"description": "A W vault in the TelosC Wormhole market",
+		"entity": "telosc"
+	},
+	"0x2e6Dff8907aFdA5D62A278e21B2e65c8595D746E": {
+		"name": "TelosC Wormhole WETH",
+		"description": "A WETH vault in the TelosC Wormhole market",
+		"entity": "telosc"
 	}
 }
