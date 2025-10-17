@@ -108,5 +108,15 @@
 			"0x78d6A3BC9d41B7C6Fd52FF2E85a2dF6d1F4F9B3a",
 			"0xA67A95971b8D010c16de4B33259D1c574d256121"
 		]
+	},
+	"alphagrowth-base": {
+		"name": "AlphaGrowth Base Vaults",
+		"description": "A market tailored to borrowing against blue chip crypto assets. Governed by AlphaGrowth.",
+		"entity": ["alphagrowth"],
+		"url": "https://alphagrowth.io/",
+		"vaults": [
+			"0x81744B5B5527852832F2dd3554C191d3B1342108",
+			"0x4C1aeda9B43EfcF1da1d1755b18802aAbe90f61E"
+		]
 	}
 }

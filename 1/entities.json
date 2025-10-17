@@ -215,6 +215,19 @@
 			"twitter": "ClearstarLabs"
 		}
 	},
+
+	"tidcapital": {
+		"name": "TID Capital",
+		"logo": "TIDCapProfile.png",
+		"description": "Research Driven Farming and Trading arm of Today in DeFi",
+		"url": "https://tid.capital",
+		"addresses": {
+			"0x0dc6598fA1D16e6650D4673bf8Aac6b42e72527F": "TID Capital Multisig"
+		},
+		"social": {
+			"twitter": "tidcapital"
+		}
+	},
 	"sentora": {
 		"name": "Sentora",
 		"logo": "sentora.svg",

@@ -258,5 +258,35 @@
 		"name": "Keyring xBTC.b",
 		"description": "Component of the Keyring Cluster",
 		"entity": "keyring"
+	},
+	"0x37ca03aD51B8ff79aAD35FadaCBA4CEDF0C3e74e": {
+		"name": "9Summits USDC",
+		"description": "Component of the 9Summits Avalanche Cluster",
+		"entity": "9summits"
+	},
+	"0x3F96e387eC6462DFBe9F05838943D19307dD2752": {
+		"name": "9Summits sUSDe",
+		"description": "Component of the 9Summits Avalanche Cluster",
+		"entity": "9summits"
+	},
+	"0xF983f92bd962A94EAc85a8c58237C1CC1cDfBBBa": {
+		"name": "9Summits BTC.b",
+		"description": "Component of the 9Summits Avalanche Cluster",
+		"entity": "9summits"
+	},
+	"0xbaC3983342b805E66F8756E265b3B0DdF4B685Fc": {
+		"name": "9Summits savUSD",
+		"description": "Component of the 9Summits Avalanche Cluster",
+		"entity": "9summits"
+	},
+	"0xf3aCc3Fc22E376fa3dD21CF883B60DDE9cf4E34f": {
+		"name": "9Summits sAVAX",
+		"description": "Component of the 9Summits Avalanche Cluster",
+		"entity": "9summits"
+	},
+	"0x6b640afFdE7cFa8322cA5c7F8bB7d276de3d30A3": {
+		"name": "9Summits WETH.e",
+		"description": "Component of the 9Summits Avalanche Cluster",
+		"entity": "9summits"
 	}
 }
