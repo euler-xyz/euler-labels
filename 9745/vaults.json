@@ -373,5 +373,15 @@
 		"name": "TelosC plUSD",
 		"description": "Component of the TelosC Stream Market",
 		"entity": "telosc"
+	},
+	"0x0a660b3cbd7df118501e7bb0f2d6ec5e5e583bf8": {
+		"name": "Hyperithm USDT0",
+		"description": "Component of the Hyperithm USDT0 Market",
+		"entity": "hyperithm"
+	},
+	"0xd833c4c39fdd2296deb2f8fa451e0769909b4171": {
+		"name": "Hyperithm USDT0 mHYPER",
+		"description": "Component of the Hyperithm USDT0 Market",
+		"entity": "hyperithm"
 	}
 }

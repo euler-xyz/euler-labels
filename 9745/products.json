@@ -251,5 +251,13 @@
 			"0xFE8d21E64e0c6CFb9abF224e805452acdE8e91Fa",
 			"0xfc5c4e5593A352CEDc9E5D7fD4e21b321140c345"
 		]
+	},
+	"hyperithm-usdt0": {
+		"name": "Hyperithm USDT0",
+		"entity": ["hyperithm"],
+		"vaults": [
+			"0x0a660b3cbd7df118501e7bb0f2d6ec5e5e583bf8",
+			"0xd833c4c39fdd2296deb2f8fa451e0769909b4171"
+		]
 	}
 }
