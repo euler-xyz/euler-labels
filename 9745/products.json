@@ -242,7 +242,7 @@
 		]
 	},
 	"k3-yuzu": {
-		"name": "K3 Yuzu",
+		"name": "Yuzu Money Cluster",
 		"entity": ["k3"],
 		"vaults": [
 			"0x9d86B4fc23D8438fC4Aba58642DC35D5F64fE941",
