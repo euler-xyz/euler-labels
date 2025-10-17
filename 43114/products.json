@@ -76,8 +76,8 @@
 			"0x04293b180bf9C57eD0923C99c784Cb571f0A9Ae9",
 			"0xA321a38b03a7218157668a724E186f3a81CF56c8"
 		]
-	}
-		"9Summits-avalanche": {
+	},
+	"9summits-avalanche": {
 		"name": "9Summits Cluster",
 		"entity": "9summits",
 		"description": "The 9 Summits Avalanche Cluster delivers the optimal risk adjusted strategies with user centric approach.",
