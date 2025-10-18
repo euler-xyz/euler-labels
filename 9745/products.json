@@ -251,5 +251,15 @@
 			"0xFE8d21E64e0c6CFb9abF224e805452acdE8e91Fa",
 			"0xfc5c4e5593A352CEDc9E5D7fD4e21b321140c345"
 		]
+	},
+	"telosc-trevee": {
+		"name": "TelosC Trevee",
+		"description": "A market tailored to the Trevee ecosystem. Governed and curated by TelosC.",
+		"entity": "telosc",
+		"vaults": [
+			"0xebeeffa6d35eafeabfd60dfb4a5745c7841ba886",
+			"0x9386d50a8e4c836be30e7939a207465ea537babb",
+			"0x7cb7b77414e656c6e46a9f00f0dc0cc2a2ea5c44"
+		]
 	}
 }

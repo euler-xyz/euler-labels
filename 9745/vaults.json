@@ -373,5 +373,20 @@
 		"name": "TelosC plUSD",
 		"description": "Component of the TelosC Stream Market",
 		"entity": "telosc"
+	},
+	"0xebeeffa6d35eafeabfd60dfb4a5745c7841ba886": {
+		"name": "TelosC PT-splUSD-29JAN2026",
+		"description": "Component of the TelosC Trevee Market",
+		"entity": "telosc"
+	},
+	"0x9386d50a8e4c836be30e7939a207465ea537babb": {
+		"name": "TelosC Trevee USDT0",
+		"description": "Component of the TelosC Trevee Market",
+		"entity": "telosc"
+	},
+	"0x7cb7b77414e656c6e46a9f00f0dc0cc2a2ea5c44": {
+		"name": "TelosC Trevee splUSD",
+		"description": "Component of the TelosC Trevee Market",
+		"entity": "telosc"
 	}
 }
