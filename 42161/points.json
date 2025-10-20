@@ -1,17 +1,22 @@
 [
 	{
-		"name": "10x Allo Points from [usd.ai](https://usd.ai)",
+		"name": "Up to 3x Allo Points from [usd.ai](https://usd.ai) pro-rata based on allocation.",
+		"logo": "allo.png",
+		"collateralVaults": ["0xe4783824593a50Bfe9dc873204CEc171ebC62dE0"]
+	},
+	{
+		"name": "15x Allo Points from [usd.ai](https://usd.ai) pro-rata based on allocation.",
+		"logo": "allo.png",
+		"collateralVaults": ["0xFe3320fD1baCf38Bf74B84eF0ef7b34562926DDf"]
+	},
+	{
+		"name": "3x Allo Points from [usd.ai](https://usd.ai)",
 		"logo": "allo.png",
 		"collateralVaults": [
 			"0x6aFB8d3F6D4A34e9cB2f217317f4dc8e05Aa673b",
 			"0x482C3E2530FAc8FE2c63AE007AD2695C6d685E98",
 			"0x683B777A393BA94F3c903fba2b14A6b6fF80dbE7"
 		]
-	},
-	{
-		"name": "10x Allo Points from [usd.ai](https://usd.ai) pro-rata based on allocation.",
-		"logo": "allo.png",
-		"collateralVaults": ["0xe4783824593a50Bfe9dc873204CEc171ebC62dE0"]
 	},
 	{
 		"name": "2x Allo Points from [usd.ai](https://usd.ai)",
