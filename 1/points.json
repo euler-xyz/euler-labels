@@ -286,7 +286,8 @@
 		"logo": "strata.svg",
 		"collateralVaults": [
 			"0xBd360BB80E6CBe86e533B672Df6BFc054602ADBD",
-			"0x6331D36C27D967c4261D59a8f80d58d03089810A"
+			"0x6331D36C27D967c4261D59a8f80d58d03089810A",
+			"0xF0ee6229CB0c3ed8DA93cA49191c7261566783AF"
 		]
 	},
 	{
@@ -294,7 +295,8 @@
 		"logo": "ethena.png",
 		"collateralVaults": [
 			"0xBd360BB80E6CBe86e533B672Df6BFc054602ADBD",
-			"0x6331D36C27D967c4261D59a8f80d58d03089810A"
+			"0x6331D36C27D967c4261D59a8f80d58d03089810A",
+			"0xF0ee6229CB0c3ed8DA93cA49191c7261566783AF"
 		]
 	},
 	{
@@ -346,5 +348,15 @@
 		"logo": "okx.png",
 		"skipTooltipPrefix": true,
 		"collateralVaults": ["0x84fcb0eb9d7ab4EdFd26CCa8AD20AaB4c5aD49CD"]
+	},
+	{
+		"name": "10x Strata Points",
+		"logo": "strata.svg",
+		"collateralVaults": ["0xfa68974D007D755697Cc4D4E1e4057034EA666df"]
+	},
+	{
+		"name": "5x Ethena Points",
+		"logo": "ethena.png",
+		"collateralVaults": ["0xfa68974D007D755697Cc4D4E1e4057034EA666df"]
 	}
 ]
