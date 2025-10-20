@@ -730,5 +730,14 @@
 			"0x783431B152C3e83B0c4dCD602E62a2C55d442F9B",
 			"0x2e6Dff8907aFdA5D62A278e21B2e65c8595D746E"
 		]
+	},
+	"telosc-almanak": {
+		"name": "TelosC Almanak",
+		"description": "A market tailored to the Almanak ecosystem. Governed and curated by TelosC.",
+		"entity": "telosc",
+		"vaults": [
+			"0x6f61cdfef82136f33bf20685caacf83330f35649",
+			"0xb85313155cfaa1bf592bb157b46c3554a7652b1f"
+		]
 	}
 }
