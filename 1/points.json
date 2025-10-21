@@ -285,7 +285,6 @@
 		"name": "30x Strata Points",
 		"logo": "strata.svg",
 		"collateralVaults": [
-			"0xBd360BB80E6CBe86e533B672Df6BFc054602ADBD",
 			"0x6331D36C27D967c4261D59a8f80d58d03089810A",
 			"0xF0ee6229CB0c3ed8DA93cA49191c7261566783AF"
 		]
@@ -294,7 +293,6 @@
 		"name": "30x Ethena Points",
 		"logo": "ethena.png",
 		"collateralVaults": [
-			"0xBd360BB80E6CBe86e533B672Df6BFc054602ADBD",
 			"0x6331D36C27D967c4261D59a8f80d58d03089810A",
 			"0xF0ee6229CB0c3ed8DA93cA49191c7261566783AF"
 		]
@@ -306,11 +304,6 @@
 			"0x6Fe7Fa90756434645F0b0428fDff78E99Dda0FBc",
 			"0x35d4f830543700B7280084280ae3236f178E88e3"
 		]
-	},
-	{
-		"name": "1x Ethereal Points",
-		"logo": "ethereal.svg",
-		"collateralVaults": ["0xBd360BB80E6CBe86e533B672Df6BFc054602ADBD"]
 	},
 	{
 		"name": "20x Strata Points",
