@@ -209,11 +209,6 @@
 		"description": "Component of the K3 Capital Cluster",
 		"entity": "k3-capital"
 	},
-	"0xbd1a95197c2f44badaafbcf0df1729f7f16385d7": {
-		"name": "K3 Capital USDt",
-		"description": "Component of the K3 Capital Cluster",
-		"entity": "k3-capital"
-	},
 	"0x4A6016a5a9312A9c0a4fC9b6E4C861cbeaE120f0": {
 		"name": "K3 Capital EUROP",
 		"description": "Component of the K3 Capital Cluster",
