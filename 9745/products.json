@@ -256,8 +256,8 @@
 		"name": "Hyperithm USDT0",
 		"entity": ["hyperithm"],
 		"vaults": [
-			"0x0a660b3cbd7df118501e7bb0f2d6ec5e5e583bf8",
-			"0xd833c4c39fdd2296deb2f8fa451e0769909b4171"
+			"0x0a660B3Cbd7DF118501E7Bb0f2D6eC5E5e583Bf8",
+			"0xD833C4C39FDd2296DeB2f8fa451e0769909B4171"
 		]
 	}
 }

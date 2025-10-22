@@ -374,12 +374,12 @@
 		"description": "Component of the TelosC Stream Market",
 		"entity": "telosc"
 	},
-	"0x0a660b3cbd7df118501e7bb0f2d6ec5e5e583bf8": {
+	"0x0a660B3Cbd7DF118501E7Bb0f2D6eC5E5e583Bf8": {
 		"name": "Hyperithm USDT0",
 		"description": "Component of the Hyperithm USDT0 Market",
 		"entity": "hyperithm"
 	},
-	"0xd833c4c39fdd2296deb2f8fa451e0769909b4171": {
+	"0xD833C4C39FDd2296DeB2f8fa451e0769909B4171": {
 		"name": "Hyperithm USDT0 mHYPER",
 		"description": "Component of the Hyperithm USDT0 Market",
 		"entity": "hyperithm"
