@@ -1694,12 +1694,12 @@
 		"description": "A WETH vault in the TelosC Wormhole market",
 		"entity": "telosc"
 	},
-	"0x6f61cdfef82136f33bf20685caacf83330f35649": {
+	"0x6f61Cdfef82136F33bF20685CAACF83330F35649": {
 		"name": "TelosC Almanak PT-alUSD-11DEC2025C",
 		"description": "A PT-alUSD-11DEC2025C vault in the TelosC Almanak market",
 		"entity": "telosc"
 	},
-	"0xb85313155cfaa1bf592bb157b46c3554a7652b1f": {
+	"0xB85313155Cfaa1bf592bB157B46c3554A7652b1F": {
 		"name": "TelosC Almanak USDC",
 		"description": "An alUSD vault in the TelosC Almanak market",
 		"entity": "telosc"
