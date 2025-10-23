@@ -413,5 +413,10 @@
 		"name": "Frontier PT-wstUSR USDT0",
 		"description": "Component of the Frontier PT-wstUSR Market",
 		"entity": "euler-dao"
+	},
+	"0x54Ff34EF2503b9636b0EbD31143b9edD124E262f": {
+		"name": "Hyperithm USDT0 PT-mHYPER-29JAN2026",
+		"description": "Component of the Hyperithm USDT0 Market",
+		"entity": "hyperithm"
 	}
 }
