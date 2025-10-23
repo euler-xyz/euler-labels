@@ -259,5 +259,25 @@
 			"0x0a660B3Cbd7DF118501E7Bb0f2D6eC5E5e583Bf8",
 			"0xD833C4C39FDd2296DeB2f8fa451e0769909B4171"
 		]
+	},
+	"frontier-pt-rlp": {
+		"name": "Frontier PT-RLP",
+		"entity": ["euler-dao"],
+		"vaults": [
+			"0x0FBde49D0c6FA71D097C3C6465eCD6FB49ac7efa",
+			"0x9CbADf620185f98dd61241242089Ff5f960aDcB8",
+			"0xb23377af59d4fC95cB8330eE2834Aa8241EEed03"
+		],
+		"isGovernanceLimited": true
+	},
+	"frontier-pt-wstusr": {
+		"name": "Frontier PT-wstUSR",
+		"entity": ["euler-dao"],
+		"vaults": [
+			"0x4982576311a80a3D40ac5b97195F1De6C8c879C8",
+			"0x1b44853e7C3b6acBA72C0B05e08B1F6aa029ff15",
+			"0x6A9E59545169BE88115671D7171967F8FbFfA0CD"
+		],
+		"isGovernanceLimited": true
 	}
 }
