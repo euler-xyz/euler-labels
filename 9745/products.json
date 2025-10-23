@@ -257,7 +257,8 @@
 		"entity": ["hyperithm"],
 		"vaults": [
 			"0x0a660B3Cbd7DF118501E7Bb0f2D6eC5E5e583Bf8",
-			"0xD833C4C39FDd2296DeB2f8fa451e0769909B4171"
+			"0xD833C4C39FDd2296DeB2f8fa451e0769909B4171",
+			"0x54Ff34EF2503b9636b0EbD31143b9edD124E262f"
 		]
 	},
 	"frontier-pt-rlp": {
