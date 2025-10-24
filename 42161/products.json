@@ -64,5 +64,15 @@
 			"0x1e001f95599bC024eF5cd5e3CFC4C9bB52c65732"
 		],
 		"isGovernanceLimited": true
+	},
+	"alphagrowth-base": {
+		"name": "AlphaGrowth Arbitrum Vaults",
+		"description": "A market tailored to borrowing against blue chip crypto assets. Governed by AlphaGrowth.",
+		"entity": ["alphagrowth"],
+		"url": "https://alphagrowth.io/",
+		"vaults": [
+			"0x124BeC4d119bc4B5d250f0b0114f2087f8EeDB57",
+			"0x4aD21eBbB639c21ccd9F1eaF388Cd91D015E02ee"
+		]
 	}
 }

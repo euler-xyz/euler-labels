@@ -183,5 +183,15 @@
 		"name": "Frontier Theo PT-tbBILL-27NOV2025",
 		"description": "Component of the Frontier Theo Cluster",
 		"entity": ["euler-dao", "gauntlet"]
+	},
+	"0x124BeC4d119bc4B5d250f0b0114f2087f8EeDB57": {
+		"name": "AlphaGrowth yUSND Arbitrum Vault",
+		"description": "A supply-only yUSND vault managed by AlphaGrowth.",
+		"entity": "alphagrowth"
+	},
+	"0x4aD21eBbB639c21ccd9F1eaF388Cd91D015E02ee": {
+		"name": "AlphaGrowth USND Arbitrum Vault",
+		"description": "A borrowing-enabled USND vault managed by AlphaGrowth, enabling leveraged strategies with yUSND collateral.",
+		"entity": "alphagrowth"
 	}
 }
