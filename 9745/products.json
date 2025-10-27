@@ -280,5 +280,14 @@
 			"0x6A9E59545169BE88115671D7171967F8FbFfA0CD"
 		],
 		"isGovernanceLimited": true
+	},
+	"frontier-yieldfi-vyusd": {
+		"name": "Frontier YieldFi VYUSD",
+		"entity": ["euler-dao"],
+		"vaults": [
+			"0xbef0b4f89Ee840CE2aC4e96ea37e807aE4F35231",
+			"0x51d03b57f916EAf631892702A32a5378b93a6998"
+		],
+		"isGovernanceLimited": true
 	}
 }

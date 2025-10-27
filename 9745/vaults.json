@@ -423,5 +423,15 @@
 		"name": "Hyperithm USDT0 PT-mHYPER-29JAN2026",
 		"description": "Component of the Hyperithm USDT0 Market",
 		"entity": "hyperithm"
+	},
+	"0xbef0b4f89Ee840CE2aC4e96ea37e807aE4F35231": {
+		"name": "Frontier YieldFi vyUSD",
+		"description": "Component of the Frontier YieldFi VYUSD Market",
+		"entity": "euler-dao"
+	},
+	"0x51d03b57f916EAf631892702A32a5378b93a6998": {
+		"name": "Frontier YieldFi USDT0",
+		"description": "Component of the Frontier YieldFi VYUSD Market",
+		"entity": "euler-dao"
 	}
 }
