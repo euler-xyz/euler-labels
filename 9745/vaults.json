@@ -320,19 +320,19 @@
 		"entity": "re7-labs"
 	},
 	"0x93827c26602b0573500D2eC80dB19D54EEf76BaB": {
-		"name": "Frontier Trevee splUSD",
-		"description": "Component of the Frontier Trevee Market",
-		"entity": "euler-dao"
+		"name": "TelosC Trevee splUSD",
+		"description": "Component of the TelosC Trevee Market",
+		"entity": "telosc"
 	},
 	"0x1aD2d433b5E95077EB2855EaB854B72eA9ee9d6c": {
-		"name": "Frontier Trevee plUSD",
-		"description": "Component of the Frontier Trevee Market",
-		"entity": "euler-dao"
+		"name": "TelosC Trevee plUSD",
+		"description": "Component of the TelosC Trevee Market",
+		"entity": "telosc"
 	},
 	"0xb5526491742FEe67E9E0D0D8c619A95D422fd398": {
-		"name": "Frontier Trevee USDT0",
-		"description": "Component of the Frontier Trevee Market",
-		"entity": "euler-dao"
+		"name": "TelosC Trevee USDT0",
+		"description": "Component of the TelosC Trevee Market",
+		"entity": "telosc"
 	},
 	"0x26Fef890350FbC93FE76705370793c4136dD0Aec": {
 		"name": "TelosC Reservoir USDT0",
