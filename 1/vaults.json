@@ -1594,6 +1594,36 @@
 		"description": "A conservative sUSDe vault collateralized by other vaults in the Sentora RLUSD cluster and escrow vaults.",
 		"entity": "sentora"
 	},
+	"0xba98fC35C9dfd69178AD5dcE9FA29c64554783b5": {
+		"name": "Sentora PYUSD PYUSD",
+		"description": "A conservative PYUSD vault collateralized by other vaults in the Sentora PYUSD cluster and escrow vaults.",
+		"entity": "sentora"
+	},
+	"0xAB2726DAf820Aa9270D14Db9B18c8d187cbF2f30": {
+		"name": "Sentora PYUSD USDC",
+		"description": "A conservative USDC vault collateralized by other vaults in the Sentora PYUSD cluster and escrow vaults.",
+		"entity": "sentora"
+	},
+	"0x660750B98c3a53DD1303f2e43F543eF037d3F625": {
+		"name": "Sentora PYUSD USDe",
+		"description": "A conservative USDe vault collateralized by other vaults in the Sentora PYUSD cluster and escrow vaults.",
+		"entity": "sentora"
+	},
+	"0xdB6165bd1F90cb507F30AbDb42c4596CE4D894f4": {
+		"name": "Sentora PYUSD sUSDe",
+		"description": "A conservative sUSDe vault collateralized by other vaults in the Sentora PYUSD cluster and escrow vaults.",
+		"entity": "sentora"
+	},
+	"0xAe412543A3C78b420E0Fc6b50734e7E7Aeac63BF": {
+		"name": "Sentora PYUSD PT_SUSDE_27NOV2025",
+		"description": "A conservative PT_SUSDE_27NOV2025 vault collateralized by other vaults in the Sentora PYUSD cluster and escrow vaults.",
+		"entity": "sentora"
+	},
+	"0xdc3F589dc09cc120A1cCF359a3fED22b053eCEB7": {
+		"name": "Sentora PYUSD PT_USDE_27NOV2025",
+		"description": "A conservative PT_USDE_27NOV2025 vault collateralized by other vaults in the Sentora PYUSD cluster and escrow vaults.",
+		"entity": "sentora"
+	},
 	"0xB6761Fb99062f6dBc09395f6F16dF239720017db": {
 		"name": "9 Summits Aladdin DAO fxUSD",
 		"description": "A fxUSD vault collateralized by other vaults in the Aladdin DAO excosystem",
