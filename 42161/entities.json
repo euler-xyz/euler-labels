@@ -39,5 +39,17 @@
 		"social": {
 			"twitter": "k3_capital"
 		}
+	},
+	"alphagrowth": {
+		"name": "AlphaGrowth",
+		"logo": "alphagrowth.svg",
+		"description": "Real stewardship, real growth. AlphaGrowth drives the blockchain industry forward by expanding token utility and accessibility through strategic partnerships and integrations.",
+		"url": "https://alphagrowth.io/",
+		"addresses": {
+			"0x4f894Bfc9481110278C356adE1473eBe2127Fd3C": "Reservoir DAO Multisig"
+		},
+		"social": {
+			"twitter": "alphagrowth1"
+		}
 	}
 }
