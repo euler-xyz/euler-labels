@@ -279,6 +279,21 @@
 		"description": "Component of the K3 Pendlend Market",
 		"entity": "k3"
 	},
+	"0xa4e5c5b9c7685f900cf03e26340fe25af5b666c3": {
+		"name": "K3 Capital Pendlend WLP-USDe-15JAN2026",
+		"description": "Component of the K3 Pendlend Market",
+		"entity": "k3"
+	},
+	"0x3665539e0968ae000eb9e761ea89dcd9b40926cc": {
+		"name": "K3 Capital Pendlend WLP-sUSDE-15JAN2026",
+		"description": "Component of the K3 Pendlend Market",
+		"entity": "k3"
+	},
+	"0xb33d091e800a731e8609e0058c67dcbcd5ad5240": {
+		"name": "K3 Capital Pendlend WLP-USDai-19MAR2026",
+		"description": "Component of the K3 Pendlend Market",
+		"entity": "k3"
+	},
 	"0x990babF76399A3fd73FBFbdd4149B968CF0C2386": {
 		"name": "Plasma Trading Hub WXPL",
 		"description": "Component of the K3 Plasma Trading Hub Market",
