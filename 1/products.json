@@ -684,6 +684,20 @@
 			"0x9D4265a05a6A0C7F3EcB179F4BA5C3197CBb8F16"
 		]
 	},
+	"sentora-pyusd": {
+		"name": "Sentora PYUSD",
+		"description": "A market for supplying and borrowing PYUSD against bluechip assets. Governed by Sentora.",
+		"entity": "sentora",
+		"url": "https://sentora.com/platform/defi-strategies",
+		"vaults": [
+			"0xba98fC35C9dfd69178AD5dcE9FA29c64554783b5",
+			"0xAB2726DAf820Aa9270D14Db9B18c8d187cbF2f30",
+			"0x660750B98c3a53DD1303f2e43F543eF037d3F625",
+			"0xdB6165bd1F90cb507F30AbDb42c4596CE4D894f4",
+			"0xAe412543A3C78b420E0Fc6b50734e7E7Aeac63BF",
+			"0xdc3F589dc09cc120A1cCF359a3fED22b053eCEB7"
+		]
+	},
 	"9s-fxusd": {
 		"name": "9 Summits fxUSD flagship",
 		"description": "A market for supplying and borrowing fxUSD against and Aladdin DAO ecosystem and other bluechip assets. $FXN aligned curation by 9 Summits",
