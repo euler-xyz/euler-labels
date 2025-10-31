@@ -1,13 +1,4 @@
 {
-	"k3-bob": {
-		"name": "K3 Capital Cluster",
-		"entity": "k3-capital",
-		"vaults": [
-			"0x80E0d452da8eb37c8db9C8E89103DC92aD477773",
-			"0x6f421F025DD9e3EfF6097536b7991029859C888A",
-			"0xf168679179AA9b6E7772C8eCa4F8afB0B75ED346"
-		]
-	},
 	"re7-labs-bob": {
 		"name": "Re7 Labs Cluster",
 		"entity": "re7-labs",
@@ -15,16 +6,6 @@
 			"0xB615D3123410EE89542b027DC71e87b4Fc05EA80",
 			"0x33Cc3800574c4bEe6D7428e707Db82d1543d639D",
 			"0x11DA346d3Fdb62641BDbfebfd54b81CAA871aEf6"
-		]
-	},
-	"tulipa-saffron": {
-		"name": "Tulipa Saffron",
-		"description": "A market tailored to lending and borrowing BTC assets such as WBTC and LBTC on the BOB chain. Governed by Tulipa.",
-		"entity": "tulipa-capital",
-		"vaults": [
-			"0xced95f4cF51dE12F0a0af62F1b53828491d21Ca9",
-			"0xa61837d6745De6198456165191298075Eca0b9a0",
-			"0x1A681ED31eA68455A73D187929973e7095c31932"
 		]
 	},
 	"mev-capital-bob": {

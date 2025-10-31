@@ -1,19 +1,4 @@
 {
-	"0x80E0d452da8eb37c8db9C8E89103DC92aD477773": {
-		"name": "K3 Capital LBTC",
-		"description": "Component of the K3 Capital Cluster",
-		"entity": "k3-capital"
-	},
-	"0xf168679179AA9b6E7772C8eCa4F8afB0B75ED346": {
-		"name": "K3 Capital WBTC",
-		"description": "Component of the K3 Capital Cluster",
-		"entity": "k3-capital"
-	},
-	"0x6f421F025DD9e3EfF6097536b7991029859C888A": {
-		"name": "K3 Capital HybridBTC.pendle",
-		"description": "Component of the K3 Capital Cluster",
-		"entity": "k3-capital"
-	},
 	"0xB615D3123410EE89542b027DC71e87b4Fc05EA80": {
 		"name": "Re7 Labs SolvBTC.BBN",
 		"description": "Component of the Re7 Labs BOB Cluster",
@@ -28,21 +13,6 @@
 		"name": "Re7 Labs WBTC",
 		"description": "Component of the Re7 Labs BOB Cluster",
 		"entity": "re7-labs"
-	},
-	"0xced95f4cF51dE12F0a0af62F1b53828491d21Ca9": {
-		"name": "Saffron LBTC",
-		"description": "Saffron LBTC",
-		"entity": ["tulipa-capital"]
-	},
-	"0xa61837d6745De6198456165191298075Eca0b9a0": {
-		"name": "Saffron Hybrid BTC",
-		"description": "Saffron Hybrid BTC",
-		"entity": ["tulipa-capital"]
-	},
-	"0x1A681ED31eA68455A73D187929973e7095c31932": {
-		"name": "Saffron WBTC",
-		"description": "Saffron WBTC",
-		"entity": ["tulipa-capital"]
 	},
 	"0x615A898Ca1f70B1D15545DadE04b7d04ED856539": {
 		"name": "MEV Capital WBTC",
