@@ -281,13 +281,12 @@
 		],
 		"isGovernanceLimited": true
 	},
-	"frontier-yieldfi-vyusd": {
-		"name": "Alphaping YieldFi VYUSD",
+	"alphaping-yieldfi-vyusd": {
+		"name": "Alphaping YieldFi vyUSD",
 		"entity": ["euler-dao"],
 		"vaults": [
 			"0xbef0b4f89Ee840CE2aC4e96ea37e807aE4F35231",
 			"0x51d03b57f916EAf631892702A32a5378b93a6998"
-		],
-		"isGovernanceLimited": true
+		]
 	}
 }
