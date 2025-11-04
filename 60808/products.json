@@ -7,16 +7,5 @@
 			"0x33Cc3800574c4bEe6D7428e707Db82d1543d639D",
 			"0x11DA346d3Fdb62641BDbfebfd54b81CAA871aEf6"
 		]
-	},
-	"mev-capital-bob": {
-		"name": "MEV Capital BOB Cluster",
-		"description": "The MEV Capital BOB Cluster provides a set of liquid collateral markets with an optimized risk-adjusted return.",
-		"entity": "mev-capital",
-		"vaults": [
-			"0x77CE4B784b494c4b089ACa5fbD7938F9c6f5F37B",
-			"0x615A898Ca1f70B1D15545DadE04b7d04ED856539",
-			"0xc282E68852F52A9cf493b8A85dfF55B871f4757B",
-			"0xF004756AedD7375E4039E942BAB6CccFd1E165bB"
-		]
 	}
 }

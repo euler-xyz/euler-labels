@@ -13,25 +13,5 @@
 		"name": "Re7 Labs WBTC",
 		"description": "Component of the Re7 Labs BOB Cluster",
 		"entity": "re7-labs"
-	},
-	"0x615A898Ca1f70B1D15545DadE04b7d04ED856539": {
-		"name": "MEV Capital WBTC",
-		"description": "Component of the MEV Capital BOB Cluster",
-		"entity": "mev-capital"
-	},
-	"0x77CE4B784b494c4b089ACa5fbD7938F9c6f5F37B": {
-		"name": "MEV Capital LBTC",
-		"description": "Component of the MEV Capital BOB Cluster",
-		"entity": "mev-capital"
-	},
-	"0xc282E68852F52A9cf493b8A85dfF55B871f4757B": {
-		"name": "MEV Capital Hybrid BTC",
-		"description": "Component of the MEV Capital BOB Cluster",
-		"entity": "mev-capital"
-	},
-	"0xF004756AedD7375E4039E942BAB6CccFd1E165bB": {
-		"name": "MEV Capital satUSD",
-		"description": "Component of the MEV Capital BOB Cluster",
-		"entity": "mev-capital"
 	}
 }
