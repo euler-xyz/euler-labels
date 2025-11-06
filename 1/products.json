@@ -660,7 +660,7 @@
 		],
 		"isGovernanceLimited": true
 	},
-	"frontier-mhyper": {
+	"hyperithm-mhyper": {
 		"name": "Hyperithm mHYPER",
 		"entity": ["hyperithm"],
 		"vaults": [
