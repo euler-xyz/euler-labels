@@ -660,17 +660,15 @@
 		],
 		"isGovernanceLimited": true
 	},
-	"frontier-mhyper": {
-		"name": "Frontier mHYPER",
-		"description": "An isolated market dedicated to the mHYPER ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
+	"hyperithm-mhyper": {
+		"name": "Hyperithm mHYPER",
+		"entity": ["hyperithm"],
 		"vaults": [
 			"0x8aFF4fe319c30475D27eC623D7d44bD5eCFe9616",
 			"0xFa827C231062FA549143dF3C1b3584a016642630",
 			"0xf8C84D6A51Cf24c9AC79ABcE2823255FFA871145",
 			"0xad857E37bCdb3dD0712f5F3267D33ec1085F1a1d"
-		],
-		"isGovernanceLimited": true
+		]
 	},
 	"sentora-rlusd": {
 		"name": "Sentora RLUSD",
