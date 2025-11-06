@@ -233,7 +233,9 @@
 		"description": "Sentora provides the institutional-grade foundation for powering the next generation of DeFi solutions. Sentora's vault platform unlocks access to DeFi through sophisticated strategies, robust risk management, and enterprise-grade security.",
 		"url": "https://sentora.com/platform/defi-strategies",
 		"addresses": {
-			"0x9453ee262d7C95955e690AE7aBBD82a08B135685": "Sentora Vault Access Control Governor"
+			"0x9453ee262d7C95955e690AE7aBBD82a08B135685": "Sentora Vault Access Control Governor",
+			"0xFe69A4B5dc5cf0E1DC1B5De37EfbA5E55131c660": "Sentora Multisig",
+			"0x384ce10D6E54dc6A641784E7F0EA4286fccC1Ea7": "Sentora MPC Wallet"
 		},
 		"social": {
 			"twitter": "SentoraHQ"
