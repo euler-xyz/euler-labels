@@ -51,10 +51,10 @@
 			"0xb11FD944Cf5E8678B5Db42305aff03B7942A3CaB",
 			"0xA7ada0D422a8b5FA4A7947F2CB0eE2D32435647d",
 			"0x5464cC940BeFf4301eD21DF535761546F19De2D3",
-			"0x42267dC26FCece525F04E75dA3fA596f88ceDDe0",
-			"0x54A4dC1Df3861166c976EAA5A66b4d2DCc7E7f55"
+			"0x42267dC26FCece525F04E75dA3fA596f88ceDDe0"
 		],
-		"externalVaults": ["0xb135dcf653dafb5ddaa93f926d7000aa3222efee"]
+		"externalVaults": ["0xb135dcf653dafb5ddaa93f926d7000aa3222efee"],
+		"deprecatedVaults": ["0x54A4dC1Df3861166c976EAA5A66b4d2DCc7E7f55"]
 	},
 	"re7-labs-weth-cluster": {
 		"name": "Re7 Labs WETH Cluster",

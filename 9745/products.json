@@ -52,8 +52,11 @@
 	"re7labs-xusd": {
 		"name": "Re7 Labs xUSD",
 		"entity": ["re7-labs"],
-		"vaults": ["0x8AdB906421f65C27155f44f1829Ca1E5B024c3F6"],
-		"deprecatedVaults": ["0xF675FBe777E992f5D5D84AdF41161dC0f20104a6"]
+		"vaults": [],
+		"deprecatedVaults": [
+			"0xF675FBe777E992f5D5D84AdF41161dC0f20104a6",
+			"0x8AdB906421f65C27155f44f1829Ca1E5B024c3F6"
+		]
 	},
 	"k3-capital-usdai": {
 		"name": "K3 Capital USDai Market",
@@ -217,7 +220,8 @@
 	"frontier-elixir": {
 		"name": "Frontier Elixir",
 		"entity": ["euler-dao"],
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0x5EFb3B2899a76e013040E85438cbe308870f5F50",
 			"0xD59f6112375D60e45C2BA9dd5745870c1444362F",
 			"0x3799251bD81925cfcCF2992F10Af27A4e62Bf3F7"
@@ -227,7 +231,8 @@
 	"frontier-trevee": {
 		"name": "TelosC Trevee",
 		"entity": ["telosc"],
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0x93827c26602b0573500D2eC80dB19D54EEf76BaB",
 			"0x1aD2d433b5E95077EB2855EaB854B72eA9ee9d6c",
 			"0xb5526491742FEe67E9E0D0D8c619A95D422fd398",

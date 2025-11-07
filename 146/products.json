@@ -9,7 +9,10 @@
 			"0xeEb1DC1Ca7ffC5b54aD1cc4c1088Db4E5657Cb6c",
 			"0xEeb63D2d370C5318ef174D366A41507F9380f093",
 			"0xF3c631B979EB59d8333374baA7c58B5Aff5e24D2",
-			"0x2ad7546A19eb5D5eDb37EC88A4775995078d1CAd",
+			"0x2ad7546A19eb5D5eDb37EC88A4775995078d1CAd"
+		],
+		"deprecatedVaults": [
+			"0xEeb63D2d370C5318ef174D366A41507F9380f093",
 			"0x8537a336fC74EA742527E8300175A7b07a108c9E"
 		]
 	},
@@ -17,7 +20,8 @@
 		"name": "MEV Capital Sonic Cluster",
 		"entity": "mev-capital",
 		"description": "The MEV Capital Sonic Cluster provides a set of liquid collateral markets with an optimized risk-adjusted return",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0xa5cd24d9792F4F131f5976Af935A505D19c8Db2b",
 			"0x196F3C7443E940911EE2Bb88e019Fd71400349D9",
 			"0x0806af1762Bdd85B167825ab1a64E31CF9497038",
