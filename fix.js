@@ -117,6 +117,19 @@ function fixChain(chainId) {
 				product.vaults = fixedAddresses.map((a) => a.value);
 			}
 		}
+
+		if (product.deprecatedVaults) {
+			const fixedAddresses = fixAddressesInArray(
+				product.deprecatedVaults,
+				`deprecated vault address in products.${productId}`,
+			);
+			const productChanges = fixedAddresses.filter((a) => a.changed);
+			if (productChanges.length > 0) {
+				changes = true;
+				changesList.push(...productChanges.map((a) => a.message));
+				product.deprecatedVaults = fixedAddresses.map((a) => a.value);
+			}
+		}
 	}
 
 	// Fix points addresses
