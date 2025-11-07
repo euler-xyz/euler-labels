@@ -537,7 +537,8 @@
 		"name": "Frontier YieldFi",
 		"description": "An isolated market dedicated to the YieldFi ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
 		"entity": ["euler-dao", "gauntlet"],
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0xc727069c0eb261Be642272fe3848518192683fFc",
 			"0xd90f695D98b6E1fAA7BA516A777fF12cc3C111a4",
 			"0x3eD8f77Ca6FD9e5c6DBBcC9696BF93F30C3A2BA5",
@@ -618,7 +619,8 @@
 		"name": "TelosC Stream",
 		"description": "A market tailored to the Stream ecosystem. Governed and curated by TelosC.",
 		"entity": "telosc",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0xf1BA8c5Ca5aB011d06f31e64DaD313d204aCb9Eb",
 			"0xbBc4BC013F1C9Ed674098A6d156C02C0a21a285C",
 			"0x9B62c8D69AcB1397f585BA63eee2597c5Bd0f644",
