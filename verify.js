@@ -74,6 +74,7 @@ function validateChain(chainId) {
 	}
 
 	const vaultsSeenInProducts = {};
+	const deprecatedVaults = new Set();
 
 	for (const productId of Object.keys(products)) {
 		const product = products[productId];
@@ -93,6 +94,22 @@ function validateChain(chainId) {
 			vaultsSeenInProducts[addr] = true;
 		}
 
+		if (product.deprecatedVaults) {
+			for (const addr of product.deprecatedVaults) {
+				if (addr !== ethers.getAddress(addr))
+					throw Error(
+						`products: malformed deprecated vault address: ${ethers.getAddress(addr)}`,
+					);
+				if (!vaults[addr])
+					throw Error(`products: unknown deprecated vault: ${addr}`);
+				if (product.vaults.includes(addr))
+					throw Error(
+						`products: vault ${addr} cannot be both in vaults and deprecatedVaults: ${productId}`,
+					);
+				deprecatedVaults.add(addr);
+			}
+		}
+
 		for (const entity of getArray(product.entity)) {
 			if (!entities[entity]) throw Error(`products: no such entity ${entity}`);
 		}
@@ -102,7 +119,7 @@ function validateChain(chainId) {
 	}
 
 	for (const vaultId of Object.keys(vaults)) {
-		if (!vaultsSeenInProducts[vaultId])
+		if (!vaultsSeenInProducts[vaultId] && !deprecatedVaults.has(vaultId))
 			throw Error(`vault does not exist in product: ${vaultId}`);
 	}
 
