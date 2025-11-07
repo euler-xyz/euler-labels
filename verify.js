@@ -102,6 +102,10 @@ function validateChain(chainId) {
 					);
 				if (!vaults[addr])
 					throw Error(`products: unknown deprecated vault: ${addr}`);
+				if (product.vaults.includes(addr))
+					throw Error(
+						`products: vault ${addr} cannot be both in vaults and deprecatedVaults: ${productId}`,
+					);
 				deprecatedVaults.add(addr);
 			}
 		}
