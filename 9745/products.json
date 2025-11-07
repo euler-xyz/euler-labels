@@ -52,10 +52,8 @@
 	"re7labs-xusd": {
 		"name": "Re7 Labs xUSD",
 		"entity": ["re7-labs"],
-		"vaults": [
-			"0xF675FBe777E992f5D5D84AdF41161dC0f20104a6",
-			"0x8AdB906421f65C27155f44f1829Ca1E5B024c3F6"
-		]
+		"vaults": ["0x8AdB906421f65C27155f44f1829Ca1E5B024c3F6"],
+		"deprecatedVaults": ["0xF675FBe777E992f5D5D84AdF41161dC0f20104a6"]
 	},
 	"k3-capital-usdai": {
 		"name": "K3 Capital USDai Market",
@@ -109,12 +107,13 @@
 		"name": "TelosC Stream",
 		"description": "A market tailored to the Stream ecosystem. Governed and curated by TelosC.",
 		"entity": "telosc",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0x57c582346B7d49A46Af3745A8278917D1c1311b8",
 			"0xF90Cf999dE728A582e154F926876b70e93a747B7",
-			"0x27934d4879fc28a74703726eDae15F757E45A48a"
-		],
-		"deprecatedVaults": ["0x138c289Bb8b855CF271305C8bcf91DC31Ba30194"]
+			"0x27934d4879fc28a74703726eDae15F757E45A48a",
+			"0x138c289Bb8b855CF271305C8bcf91DC31Ba30194"
+		]
 	},
 	"edge-capital-core-cluster": {
 		"name": "Edge UltraYield Cluster",
