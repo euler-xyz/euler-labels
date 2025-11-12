@@ -110,6 +110,13 @@ function validateChain(chainId) {
 			}
 		}
 
+		if (product.deprecationReason !== undefined) {
+			if (typeof product.deprecationReason !== "string")
+				throw Error(
+					`products: deprecationReason must be a string: ${productId}`,
+				);
+		}
+
 		for (const entity of getArray(product.entity)) {
 			if (!entities[entity]) throw Error(`products: no such entity ${entity}`);
 		}

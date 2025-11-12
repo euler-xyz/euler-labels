@@ -40,6 +40,7 @@ Each entry in this object corresponds to a lending product, which is primarily a
 * `logo`: The filename of a logo stored in the `logo/` directory.
 * `vaults`: An array of the vault addresses (in checksumed hex format) that comprise the product. Each vault must exist in the `vaults.json` file.
 * `deprecatedVaults`: An optional array of vault addresses (in checksumed hex format) that were previously part of this product but are now deprecated.
+* `deprecationReason`: An optional string providing an explanation for why the product or its vaults have been deprecated.
 
 ### `points.json`
 
