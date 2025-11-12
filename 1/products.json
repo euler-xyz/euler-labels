@@ -628,7 +628,8 @@
 			"0x211711F277f146fC947D7053B41BB71BB5b5FC2C",
 			"0x038dd0Eb275B7DE3B07884f1Fa106eD6423C45F2",
 			"0x0f080Bf8Ba818001EcfB2f461708D8484323D0cE"
-		]
+		],
+		"deprecationReason": "This vault has been deprecated from the Euler UI because it has exposure to insolvent positions held by Stream. Please contact TelosC to find out more information about future redemption."
 	},
 	"horizon-clearstar": {
 		"name": "Horizon Clearstar",
