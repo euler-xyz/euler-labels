@@ -1703,5 +1703,20 @@
 		"name": "TelosC Almanak USDC",
 		"description": "An alUSD vault in the TelosC Almanak market",
 		"entity": "telosc"
+	},
+	"0x0087d6b548A98D8ADF93c9E1f9C0650c034B2C7f": {
+		"name": "Api3 USDC",
+		"description": "A USDC vault in the Api3 OEV-boosted market",
+		"entity": "api3-dao"
+	},
+	"0x360e51D29fAE7eAa8098D9A1A46DAc53dCFB5FbF": {
+		"name": "Api3 wstETH",
+		"description": "A wstETH vault in the Api3 OEV-boosted market",
+		"entity": "api3-dao"
+	},
+	"0xaD1BA129544cA6CDCA8926b2601C463B50675771": {
+		"name": "Api3 cbBTC",
+		"description": "A cbBTC vault in the Api3 OEV-boosted market",
+		"entity": "api3-dao"
 	}
 }
