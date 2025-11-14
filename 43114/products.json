@@ -66,17 +66,16 @@
 	"keyring-avalanche": {
 		"name": "Keyring zkVerified Cluster",
 		"entity": "keyring",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
+			"0x8f23Da78e3F31Ab5DEb75dC3282198bed630ffde",
+			"0x6De07D6Cbd0c4e8Fa93Da3d7BdaA1D1505651a1E",
 			"0xea534105c2ccC0582D82B285aA47A6B446383d44",
 			"0x67E0aC01425FA296169dBB5157349e668f6B4438",
 			"0xb032772229B2af29EaA026D1648bB9bC42bB0592",
 			"0x5FDb07efb2DafAc9186C8A7902332ce0F4B764C6",
 			"0x3050B75382aB718fAD92D83C5f99c7fDA1654529",
 			"0x2cBb39cdC3c0bA22F857A5A8cA54DEE6D7fD04bF"
-		],
-		"deprecatedVaults": [
-			"0x8f23Da78e3F31Ab5DEb75dC3282198bed630ffde",
-			"0x6De07D6Cbd0c4e8Fa93Da3d7BdaA1D1505651a1E"
 		]
 	},
 	"reservoir-labs-avalanche": {
