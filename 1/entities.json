@@ -268,7 +268,7 @@
 	},
 	"api3-dao": {
 		"name": "Api3",
-		"logo": "api3.svg",
+		"logo": "api3.png",
 		"description": "Api3 operates first-party OEV-enabled oracles. Our markets provide increased yield via the recaptured OEV. This approach enhances returns without introducing exposure to higher-risk or exotic assets.",
 		"url": "https://api3.org/",
 		"addresses": {
