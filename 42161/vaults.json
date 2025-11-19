@@ -164,6 +164,16 @@
 		"description": "Component of the K3 Capital USDai Cluster",
 		"entity": "k3-capital"
 	},
+	"0x5F7f81Fb9a3CfBF35633349990BBc5001f365408": {
+		"name": "K3 Capital PT-USDai-19FEB2026",
+		"description": "Component of the K3 Capital USDai Cluster",
+		"entity": "k3-capital"
+	},
+	"0x878e12C1a1bBDF7645E28a8e9c420ccD595204aD": {
+		"name": "K3 Capital PT-sUSDai-19FEB2026",
+		"description": "Component of the K3 Capital USDai Cluster",
+		"entity": "k3-capital"
+	},
 	"0x44C10DA836d2aBe881b77bbB0b3DCE5f85C0C1Cc": {
 		"name": "Frontier Theo USDC",
 		"description": "Component of the Frontier Theo Cluster",
