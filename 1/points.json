@@ -109,11 +109,6 @@
 		"collateralVaults": ["0xc4984bB39465465432321519839c489F4275B164"]
 	},
 	{
-		"name": "30 Sats per eUSDe per day",
-		"logo": "ethena.png",
-		"collateralVaults": ["0x61aAC438453d6e3513C0c8dbb69F13860E2B5028"]
-	},
-	{
 		"name": "1x Ethereal points",
 		"logo": "ethereal.svg",
 		"collateralVaults": ["0x61aAC438453d6e3513C0c8dbb69F13860E2B5028"]
