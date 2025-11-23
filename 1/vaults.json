@@ -1,4 +1,10 @@
 {
+"0x441F07C871C2d40786a93E604C4d3D01b25864D9": {
+  "name": "ST USDC Earn",
+  "description": "A conservative USDC lending vault focusing on capital preservation and looping assets.",
+  "entity": "st-capital-partners",
+  "logo": "st-usdc-earn.png"
+},
 	"0xD8b27CF359b7D15710a5BE299AF6e7Bf904984C2": {
 		"name": "Euler Prime WETH",
 		"description": "A conservative WETH vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.",
