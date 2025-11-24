@@ -1,24 +1,4 @@
 {
-	"0xaAc212446EF7EA7bbFa85681aE4848bCB96a90E2": {
-		"name": "Euler Core AUSD-eUSD eUSD",
-		"description": "A conservative AUSD vault collateralized by other vaults in the Euler 2p AUSD-eUSD cluster.",
-		"entity": "euler-dao"
-	},
-	"0xd4A6B137251E77d3d4eE1826016DA4B1FFa00EA3": {
-		"name": "Euler Core AUSD-eUSD AUSD",
-		"description": "A conservative AUSD vault collateralized by other vaults in the Euler 2p AUSD-eUSD cluster.",
-		"entity": "euler-dao"
-	},
-	"0x1667c811e392F33BC6C48b88d15cFA28A05E5563": {
-		"name": "Euler Core USDC-eUSD USDC",
-		"description": "A conservative USDC vault collateralized by other vaults in the Euler 2p USDC-eUSD cluster.",
-		"entity": "euler-dao"
-	},
-	"0x80Ad83C9067b49547ab5dB6cAF4f1e3ae34892b1": {
-		"name": "Euler Core USDC-eUSD eUSD",
-		"description": "A conservative USDC vault collateralized by other vaults in the Euler 2p USDC-eUSD cluster.",
-		"entity": "euler-dao"
-	},
 	"0x240FcAFffF24AAa39e420B6F70ED5519847648b4": {
 		"name": "Euler Monad WBTC-AUSD AUSD",
 		"description": "A conservative WBTC vault collateralized by other vaults in the Euler 2p WBTC-AUSD cluster.",

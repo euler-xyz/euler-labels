@@ -1,24 +1,4 @@
 {
-	"euler-core-ausd": {
-		"name": "Euler 2p AUSD-eUSD",
-		"description": "A market tailored to borrowing stable assets against blue chip crypto assets. Governed by Euler DAO.",
-		"entity": ["euler-dao", "gauntlet"],
-		"url": "",
-		"vaults": [
-			"0xaAc212446EF7EA7bbFa85681aE4848bCB96a90E2",
-			"0xd4A6B137251E77d3d4eE1826016DA4B1FFa00EA3"
-		]
-	},
-	"euler-core-usdc": {
-		"name": "Euler 2p USDC-eUSD",
-		"description": "A market tailored to borrowing WETH and LST assets. Governed by Euler DAO.",
-		"entity": ["euler-dao", "gauntlet"],
-		"url": "",
-		"vaults": [
-			"0x1667c811e392F33BC6C48b88d15cFA28A05E5563",
-			"0x80Ad83C9067b49547ab5dB6cAF4f1e3ae34892b1"
-		]
-	},
 	"euler-monad-btc-ausd": {
 		"name": "Euler 2p WBTC-AUSD",
 		"description": "A market tailored to borrowing WBTC against AUSD. Governed by Euler DAO.",
