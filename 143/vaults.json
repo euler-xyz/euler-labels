@@ -1,7 +1,7 @@
 {
 	"0x240FcAFffF24AAa39e420B6F70ED5519847648b4": {
 		"name": "Euler Monad WBTC-AUSD AUSD",
-		"description": "A conservative WBTC vault collateralized by other vaults in the Euler 2p WBTC-AUSD cluster.",
+		"description": "A conservative AUSD vault collateralized by other vaults in the Euler 2p WBTC-AUSD cluster.",
 		"entity": "euler-dao"
 	},
 	"0x8f47D9D9d5A8202a5a37c4E41fbDd3146D88A579": {
@@ -16,17 +16,17 @@
 	},
 	"0xF19E8Ddc541dEE2F4D6796a79b1C1E10A415a0Da": {
 		"name": "Euler Monad WBTC-USDC USDC",
-		"description": "A conservative WBTC vault collateralized by other vaults in the Euler 2p WBTC-USDC cluster.",
+		"description": "A conservative USDC vault collateralized by other vaults in the Euler 2p WBTC-USDC cluster.",
 		"entity": "euler-dao"
 	},
 	"0x870E172C3C7Ea274Ce60fB8D19D86012edc3C043": {
 		"name": "Euler Monad wstETH-WETH-AUSD AUSD",
-		"description": "A conservative wstETH vault collateralized by other vaults in the Euler 3p wstETH-WETH-AUSD cluster.",
+		"description": "A conservative AUSD vault collateralized by other vaults in the Euler 3p wstETH-WETH-AUSD cluster.",
 		"entity": "euler-dao"
 	},
 	"0x8c75A7177D64167E6EbC65A1D25d03CbF726fc46": {
 		"name": "Euler Monad wstETH-WETH-AUSD WETH",
-		"description": "A conservative wstETH vault collateralized by other vaults in the Euler 3p wstETH-WETH-AUSD cluster.",
+		"description": "A conservative WETH vault collateralized by other vaults in the Euler 3p wstETH-WETH-AUSD cluster.",
 		"entity": "euler-dao"
 	},
 	"0xb72E0659417bbB1eA55869Ab2f81cb41e751938f": {
@@ -36,17 +36,107 @@
 	},
 	"0x1E4D67c666c2Ccf27A0aF980fE6c8e0f05aC8949": {
 		"name": "Euler Monad wstETH-WETH-USDC USDC",
-		"description": "A conservative wstETH vault collateralized by other vaults in the Euler 3p wstETH-WETH-USDC cluster.",
+		"description": "A conservative USDC vault collateralized by other vaults in the Euler 3p wstETH-WETH-USDC cluster.",
 		"entity": "euler-dao"
 	},
 	"0x502e4a0B61dEBA3015Eb9E51116B832003B22c2C": {
 		"name": "Euler Monad wstETH-WETH-USDC WETH",
-		"description": "A conservative wstETH vault collateralized by other vaults in the Euler 3p wstETH-WETH-USDC cluster.",
+		"description": "A conservative WETH vault collateralized by other vaults in the Euler 3p wstETH-WETH-USDC cluster.",
 		"entity": "euler-dao"
 	},
 	"0x61788859B923989dFeb995b8DE5CbBcD719475e9": {
 		"name": "Euler Monad wstETH-WETH-USDC wstETH",
 		"description": "A conservative wstETH vault collateralized by other vaults in the Euler 3p wstETH-WETH-USDC cluster.",
+		"entity": "euler-dao"
+	},
+	"0xd2f35c39A7187BBF55c0b05C52808d7A18eD62Ca": {
+		"name": "Euler Monad gMON-WMON-AUSD gMON",
+		"description": "A conservative gMON vault collateralized by other vaults in the Euler 3p gMON-WMON-AUSD cluster.",
+		"entity": "euler-dao"
+	},
+	"0x94A169ad76f75E32b5E4E716A0CAcfA28a619B66": {
+		"name": "Euler Monad gMON-WMON-AUSD WMON",
+		"description": "A conservative WMON vault collateralized by other vaults in the Euler 3p gMON-WMON-AUSD cluster.",
+		"entity": "euler-dao"
+	},
+	"0xD5fF5152eDBD0d921bbfF5EEf84dDa95c6c5A108": {
+		"name": "Euler Monad gMON-WMON-AUSD AUSD",
+		"description": "A conservative AUSD vault collateralized by other vaults in the Euler 3p gMON-WMON-AUSD cluster.",
+		"entity": "euler-dao"
+	},
+	"0xb181030fF0767c24D83c65527BD42146486F415E": {
+		"name": "Euler Monad gMON-WMON-USDC gMON",
+		"description": "A conservative gMON vault collateralized by other vaults in the Euler 3p gMON-WMON-USDC cluster.",
+		"entity": "euler-dao"
+	},
+	"0x5E1534Af364De6f789B67dAB52aBDC154AB48757": {
+		"name": "Euler Monad gMON-WMON-USDC WMON",
+		"description": "A conservative WMON vault collateralized by other vaults in the Euler 3p gMON-WMON-USDC cluster.",
+		"entity": "euler-dao"
+	},
+	"0xF2acB868eaf64ef36BC0D3B4BA93aF00fC3167cF": {
+		"name": "Euler Monad gMON-WMON-USDC USDC",
+		"description": "A conservative USDC vault collateralized by other vaults in the Euler 3p gMON-WMON-USDC cluster.",
+		"entity": "euler-dao"
+	},
+	"0x6661a2b4008b70f22Ff84c2134ac6F51534E162d": {
+		"name": "Euler Monad shMON-WMON-AUSD shMON",
+		"description": "A conservative shMON vault collateralized by other vaults in the Euler 3p shMON-WMON-AUSD cluster.",
+		"entity": "euler-dao"
+	},
+	"0x28bD4F19C812CBF9e33A206f87125f14E65dc8aA": {
+		"name": "Euler Monad shMON-WMON-AUSD WMON",
+		"description": "A conservative WMON vault collateralized by other vaults in the Euler 3p shMON-WMON-AUSD cluster.",
+		"entity": "euler-dao"
+	},
+	"0x6E06ce28a6C28bffa274Ead5cb715992033E351A": {
+		"name": "Euler Monad shMON-WMON-AUSD AUSD",
+		"description": "A conservative AUSD vault collateralized by other vaults in the Euler 3p shMON-WMON-AUSD cluster.",
+		"entity": "euler-dao"
+	},
+	"0xb6A4db1FeF7831F65827d9aF2Cb1e69F764eC123": {
+		"name": "Euler Monad shMON-WMON-USDC shMON",
+		"description": "A conservative shMON vault collateralized by other vaults in the Euler 3p shMON-WMON-USDC cluster.",
+		"entity": "euler-dao"
+	},
+	"0x7B4BcAEAC5Eb67ae947903F24BBa660eE06A5231": {
+		"name": "Euler Monad shMON-WMON-USDC WMON",
+		"description": "A conservative WMON vault collateralized by other vaults in the Euler 3p shMON-WMON-USDC cluster.",
+		"entity": "euler-dao"
+	},
+	"0x5792753b66Eb5213E416755546abBcC1AEF1008A": {
+		"name": "Euler Monad shMON-WMON-USDC USDC",
+		"description": "A conservative USDC vault collateralized by other vaults in the Euler 3p shMON-WMON-USDC cluster.",
+		"entity": "euler-dao"
+	},
+	"0xA8f093Cfb04a536Dbc6aa9BB94A2D617305a48F3": {
+		"name": "Euler Monad sMON-WMON-AUSD sMON",
+		"description": "A conservative sMON vault collateralized by other vaults in the Euler 3p sMON-WMON-AUSD cluster.",
+		"entity": "euler-dao"
+	},
+	"0x9eA1b948186F9A8cfe375278d96363103f4fa42B": {
+		"name": "Euler Monad sMON-WMON-AUSD WMON",
+		"description": "A conservative WMON vault collateralized by other vaults in the Euler 3p sMON-WMON-AUSD cluster.",
+		"entity": "euler-dao"
+	},
+	"0x3fE40329061A40f95416da42bB69E15d8eb83740": {
+		"name": "Euler Monad sMON-WMON-AUSD AUSD",
+		"description": "A conservative AUSD vault collateralized by other vaults in the Euler 3p sMON-WMON-AUSD cluster.",
+		"entity": "euler-dao"
+	},
+	"0xDDffd6801a86b598077aDdda04F70aF08b6f8807": {
+		"name": "Euler Monad sMON-WMON-USDC sMON",
+		"description": "A conservative sMON vault collateralized by other vaults in the Euler 3p sMON-WMON-USDC cluster.",
+		"entity": "euler-dao"
+	},
+	"0x9109529c3a2EB36DE0AC3837baeA74044863C60a": {
+		"name": "Euler Monad sMON-WMON-USDC WMON",
+		"description": "A conservative WMON vault collateralized by other vaults in the Euler 3p sMON-WMON-USDC cluster.",
+		"entity": "euler-dao"
+	},
+	"0x36d0f0A4cB615C200310aE2c5b5D345189d01197": {
+		"name": "Euler Monad sMON-WMON-USDC USDC",
+		"description": "A conservative USDC vault collateralized by other vaults in the Euler 3p sMON-WMON-USDC cluster.",
 		"entity": "euler-dao"
 	}
 }
