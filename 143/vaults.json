@@ -248,5 +248,25 @@
 		"name": "Isolated XAUT-USDT USDT",
 		"description": "A risk-isolated USDT vault in the Euler Risk Isolated XAUT-USDT market.",
 		"entity": "euler-dao"
+	},
+	"0xd505ccE10571C1d07dd40D2D9001BEf22CDF0D71": {
+		"name": "Isolated XAUT-AUSD XAUT",
+		"description": "A risk-isolated XAUT vault in the Euler Risk Isolated XAUT-AUSD market.",
+		"entity": "euler-dao"
+	},
+	"0x048e7f7857c5297Cd7623244bbb4Fae65936996a": {
+		"name": "Isolated XAUT-AUSD AUSD",
+		"description": "A risk-isolated AUSD vault in the Euler Risk Isolated XAUT-AUSD market.",
+		"entity": "euler-dao"
+	},
+	"0x091298D908a216CfcA30729dB2B194Fe5f1d16be": {
+		"name": "Isolated XAUT-USDC XAUT",
+		"description": "A risk-isolated XAUT vault in the Euler Risk Isolated XAUT-USDC market.",
+		"entity": "euler-dao"
+	},
+	"0x289F801765B99B5E6263853859fE302dbecaB6d6": {
+		"name": "Isolated XAUT-USDC USDC",
+		"description": "A risk-isolated USDC vault in the Euler Risk Isolated XAUT-USDC market.",
+		"entity": "euler-dao"
 	}
 }

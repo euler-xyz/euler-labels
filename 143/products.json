@@ -181,5 +181,23 @@
 			"0x234d354b39a4Ca1274CB04972D3A9e03f1d8C4FF",
 			"0x50fe3eAc875Afbf5A121F2f792fFb7F9fb27629f"
 		]
+	},
+	"isolated-xaut-ausd": {
+		"name": "Isolated XAUT-AUSD",
+		"description": "An isolated market dedicated to XAUT and AUSD. Governed by Euler DAO.",
+		"entity": ["euler-dao", "gauntlet"],
+		"vaults": [
+			"0xd505ccE10571C1d07dd40D2D9001BEf22CDF0D71",
+			"0x048e7f7857c5297Cd7623244bbb4Fae65936996a"
+		]
+	},
+	"isolated-xaut-usdc": {
+		"name": "Isolated XAUT-USDC",
+		"description": "An isolated market dedicated to XAUT and USDC. Governed by Euler DAO.",
+		"entity": ["euler-dao", "gauntlet"],
+		"vaults": [
+			"0x091298D908a216CfcA30729dB2B194Fe5f1d16be",
+			"0x289F801765B99B5E6263853859fE302dbecaB6d6"
+		]
 	}
 }
