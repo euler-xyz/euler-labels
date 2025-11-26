@@ -203,5 +203,15 @@
 		"name": "AlphaGrowth USND Arbitrum Vault",
 		"description": "A borrowing-enabled USND vault managed by AlphaGrowth, enabling leveraged strategies with yUSND collateral.",
 		"entity": "alphagrowth"
+	},
+	"0x8Ca487811a5e7599A5c68F49Ac1fE348371e4c46": {
+		"name": "AlphaGrowth reUSD Arbitrum Vault",
+		"description": "A supply-only reUSD vault managed by AlphaGrowth.",
+		"entity": "alphagrowth"
+	},
+	"0x06b763aA769ad01F6859a56c5a856E47896e6a7F": {
+		"name": "AlphaGrowth USDC Arbitrum Vault",
+		"description": "A borrowing-enabled USDC vault managed by AlphaGrowth, enabling leveraged strategies with reUSD collateral.",
+		"entity": "alphagrowth"
 	}
 }

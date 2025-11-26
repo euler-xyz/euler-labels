@@ -74,7 +74,9 @@
 		"url": "https://alphagrowth.io/",
 		"vaults": [
 			"0x124BeC4d119bc4B5d250f0b0114f2087f8EeDB57",
-			"0x4aD21eBbB639c21ccd9F1eaF388Cd91D015E02ee"
+			"0x4aD21eBbB639c21ccd9F1eaF388Cd91D015E02ee",
+			"0x8Ca487811a5e7599A5c68F49Ac1fE348371e4c46",
+			"0x06b763aA769ad01F6859a56c5a856E47896e6a7F"
 		]
 	}
 }
