@@ -7,5 +7,14 @@
 			"0xbC5fd2cA51B0BCA8882246833B2ea8627A79bC59",
 			"0xDb53E5C7578cFB52E72728c89BA895692e49Aa45"
 		]
+	},
+	{
+		"name": "3x Magma Points",
+		"logo": "magma.svg",
+		"collateralVaults": [
+			"0xd2f35c39A7187BBF55c0b05C52808d7A18eD62Ca",
+			"0xb181030fF0767c24D83c65527BD42146486F415E",
+			"0x9020DbCA5a8CCfaB6116123e308204a44A5b93D4"
+		]
 	}
 ]
