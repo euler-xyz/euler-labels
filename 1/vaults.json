@@ -1469,11 +1469,6 @@
 		"description": "A USDT vault in the Horizon market.",
 		"entity": ["clearstar"]
 	},
-	"0x579aD59BB4AF72d732f45F67ef231E9f59EF9E4F": {
-		"name": "Horizon YUSD",
-		"description": "A YUSD vault in the Horizon market.",
-		"entity": ["clearstar"]
-	},
 	"0xa020DeE164D92c48eD064B163cC93B582197346A": {
 		"name": "Horizon RLP",
 		"description": "A RLP vault in the Horizon market.",
