@@ -1,5 +1,5 @@
 {
-	"euler-isolated-btc-ausd": {
+	"isolated-btc-ausd": {
 		"name": "Isolated WBTC-AUSD",
 		"description": "An isolated market dedicated to WBTC and AUSD. Governed by Euler DAO.",
 		"entity": ["euler-dao", "gauntlet"],
@@ -8,7 +8,7 @@
 			"0x8f47D9D9d5A8202a5a37c4E41fbDd3146D88A579"
 		]
 	},
-	"euler-isolated-btc-usdc": {
+	"isolated-btc-usdc": {
 		"name": "Isolated WBTC-USDC",
 		"description": "An isolated market dedicated to WBTC and USDC. Governed by Euler DAO.",
 		"entity": ["euler-dao", "gauntlet"],
@@ -17,7 +17,7 @@
 			"0xF19E8Ddc541dEE2F4D6796a79b1C1E10A415a0Da"
 		]
 	},
-	"euler-isolated-btc-usdt": {
+	"isolated-btc-usdt": {
 		"name": "Isolated WBTC-USDT",
 		"description": "An isolated market dedicated to WBTC and USDT. Governed by Euler DAO.",
 		"entity": ["euler-dao", "gauntlet"],
@@ -26,7 +26,7 @@
 			"0x8f79f6EE218826D5144b917f901B147D4354Bd74"
 		]
 	},
-	"euler-isolated-wsteth-weth-ausd": {
+	"isolated-wsteth-weth-ausd": {
 		"name": "Isolated wstETH-WETH-AUSD",
 		"description": "An isolated market dedicated to wstETH, WETH and AUSD. Governed by Euler DAO.",
 		"entity": ["euler-dao", "gauntlet"],
@@ -36,7 +36,7 @@
 			"0xb72E0659417bbB1eA55869Ab2f81cb41e751938f"
 		]
 	},
-	"euler-isolated-wsteth-weth-usdc": {
+	"isolated-wsteth-weth-usdc": {
 		"name": "Isolated wstETH-WETH-USDC",
 		"description": "An isolated market dedicated to wstETH, WETH and USDC. Governed by Euler DAO.",
 		"entity": ["euler-dao", "gauntlet"],
@@ -46,7 +46,7 @@
 			"0x61788859B923989dFeb995b8DE5CbBcD719475e9"
 		]
 	},
-	"euler-isolated-wsteth-weth-usdt": {
+	"isolated-wsteth-weth-usdt": {
 		"name": "Isolated wstETH-WETH-USDT",
 		"description": "An isolated market dedicated to wstETH, WETH and USDT. Governed by Euler DAO.",
 		"entity": ["euler-dao", "gauntlet"],
@@ -56,7 +56,7 @@
 			"0x57C5dfF5dDb1289c21Cc752a05330a12e3542578"
 		]
 	},
-	"euler-isolated-gmon-wmon-ausd": {
+	"isolated-gmon-wmon-ausd": {
 		"name": "Isolated gMON-WMON-AUSD",
 		"description": "An isolated market dedicated to gMON, WMON and AUSD. Governed by Euler DAO.",
 		"entity": ["euler-dao", "gauntlet"],
@@ -66,7 +66,7 @@
 			"0xD5fF5152eDBD0d921bbfF5EEf84dDa95c6c5A108"
 		]
 	},
-	"euler-isolated-gmon-wmon-usdc": {
+	"isolated-gmon-wmon-usdc": {
 		"name": "Isolated gMON-WMON-USDC",
 		"description": "An isolated market dedicated to gMON, WMON and USDC. Governed by Euler DAO.",
 		"entity": ["euler-dao", "gauntlet"],
@@ -76,7 +76,7 @@
 			"0xF2acB868eaf64ef36BC0D3B4BA93aF00fC3167cF"
 		]
 	},
-	"euler-isolated-gmon-wmon-usdt": {
+	"isolated-gmon-wmon-usdt": {
 		"name": "Isolated gMON-WMON-USDT",
 		"description": "An isolated market dedicated to gMON, WMON and USDT. Governed by Euler DAO.",
 		"entity": ["euler-dao", "gauntlet"],
@@ -86,7 +86,7 @@
 			"0xEe3EAEC5B3860aD40a767594f0990a74a32329e8"
 		]
 	},
-	"euler-isolated-shmon-wmon-ausd": {
+	"isolated-shmon-wmon-ausd": {
 		"name": "Isolated shMON-WMON-AUSD",
 		"description": "An isolated market dedicated to shMON, WMON and AUSD. Governed by Euler DAO.",
 		"entity": ["euler-dao", "gauntlet"],
@@ -96,7 +96,7 @@
 			"0x6E06ce28a6C28bffa274Ead5cb715992033E351A"
 		]
 	},
-	"euler-isolated-shmon-wmon-usdc": {
+	"isolated-shmon-wmon-usdc": {
 		"name": "Isolated shMON-WMON-USDC",
 		"description": "An isolated market dedicated to shMON, WMON and USDC. Governed by Euler DAO.",
 		"entity": ["euler-dao", "gauntlet"],
@@ -106,7 +106,7 @@
 			"0x5792753b66Eb5213E416755546abBcC1AEF1008A"
 		]
 	},
-	"euler-isolated-shmon-wmon-usdt": {
+	"isolated-shmon-wmon-usdt": {
 		"name": "Isolated shMON-WMON-USDT",
 		"description": "An isolated market dedicated to shMON, WMON and USDT. Governed by Euler DAO.",
 		"entity": ["euler-dao", "gauntlet"],
@@ -116,7 +116,7 @@
 			"0x2178894927657Fd5A464ce082e0b514CEb12720c"
 		]
 	},
-	"euler-isolated-smon-wmon-ausd": {
+	"isolated-smon-wmon-ausd": {
 		"name": "Isolated sMON-WMON-AUSD",
 		"description": "An isolated market dedicated to sMON, WMON and AUSD. Governed by Euler DAO.",
 		"entity": ["euler-dao", "gauntlet"],
@@ -126,7 +126,7 @@
 			"0x3fE40329061A40f95416da42bB69E15d8eb83740"
 		]
 	},
-	"euler-isolated-smon-wmon-usdc": {
+	"isolated-smon-wmon-usdc": {
 		"name": "Isolated sMON-WMON-USDC",
 		"description": "An isolated market dedicated to sMON, WMON and USDC. Governed by Euler DAO.",
 		"entity": ["euler-dao", "gauntlet"],
@@ -136,7 +136,7 @@
 			"0x36d0f0A4cB615C200310aE2c5b5D345189d01197"
 		]
 	},
-	"euler-isolated-smon-wmon-usdt": {
+	"isolated-smon-wmon-usdt": {
 		"name": "Isolated sMON-WMON-USDT",
 		"description": "An isolated market dedicated to sMON, WMON and USDT. Governed by Euler DAO.",
 		"entity": ["euler-dao", "gauntlet"],
@@ -146,7 +146,7 @@
 			"0x9190269F87BD30f0eB94dc3D6369b42A1A27eEfa"
 		]
 	},
-	"euler-isolated-lbtc-ausd": {
+	"isolated-lbtc-ausd": {
 		"name": "Isolated LBTC-AUSD",
 		"description": "An isolated market dedicated to LBTC and AUSD. Governed by Euler DAO.",
 		"entity": ["euler-dao", "gauntlet"],
@@ -155,7 +155,7 @@
 			"0x0709be7Bb77b25E398CcFD518770c0BAE31a38Df"
 		]
 	},
-	"euler-isolated-lbtc-usdc": {
+	"isolated-lbtc-usdc": {
 		"name": "Isolated LBTC-USDC",
 		"description": "An isolated market dedicated to LBTC and USDC. Governed by Euler DAO.",
 		"entity": ["euler-dao", "gauntlet"],
@@ -164,7 +164,7 @@
 			"0xf62C7CD4f71434f7C4d12A1142133d4Ed4aBaEc4"
 		]
 	},
-	"euler-isolated-lbtc-usdt": {
+	"isolated-lbtc-usdt": {
 		"name": "Isolated LBTC-USDT",
 		"description": "An isolated market dedicated to LBTC and USDT. Governed by Euler DAO.",
 		"entity": ["euler-dao", "gauntlet"],
@@ -173,7 +173,7 @@
 			"0x225e145C65031D39C3d9c58bDdAef47F8d9FaEc5"
 		]
 	},
-	"euler-isolated-xaut-usdt": {
+	"isolated-xaut-usdt": {
 		"name": "Isolated XAUT-USDT",
 		"description": "An isolated market dedicated to XAUT and USDT. Governed by Euler DAO.",
 		"entity": ["euler-dao", "gauntlet"],
