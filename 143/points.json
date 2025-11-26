@@ -1,1 +1,11 @@
-[]
+[
+	{
+		"name": "3x Lombard Lux",
+		"logo": "lombard.svg",
+		"collateralVaults": [
+			"0x1874f82AC9EF2Bd5603Cc946Cb6f3bCB9Dd2d66F",
+			"0xbC5fd2cA51B0BCA8882246833B2ea8627A79bC59",
+			"0xDb53E5C7578cFB52E72728c89BA895692e49Aa45"
+		]
+	}
+]
