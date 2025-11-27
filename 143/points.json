@@ -16,5 +16,23 @@
 			"0xb181030fF0767c24D83c65527BD42146486F415E",
 			"0x9020DbCA5a8CCfaB6116123e308204a44A5b93D4"
 		]
+	},
+	{
+		"name": "1.5x FastLane Points for using shMON as collateral",
+		"logo": "fastlane.png",
+		"collateralVaults": [
+			"0x6661a2b4008b70f22Ff84c2134ac6F51534E162d",
+			"0xb6A4db1FeF7831F65827d9aF2Cb1e69F764eC123",
+			"0x3Bcc41c9510A4B601bfBfa6dA8d933d50fd175E8"
+		]
+	},
+	{
+		"name": "3x FastLane Points for depositing MON",
+		"logo": "fastlane.png",
+		"collateralVaults": [
+			"0x28bD4F19C812CBF9e33A206f87125f14E65dc8aA",
+			"0x7B4BcAEAC5Eb67ae947903F24BBa660eE06A5231",
+			"0x87760787d770BC9f039843fEc7636f3B8Dd12206"
+		]
 	}
 ]
