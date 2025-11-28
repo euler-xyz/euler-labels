@@ -265,5 +265,14 @@
 		"social": {
 			"twitter": "nine_summits"
 		}
-	}
+	},
+	"st-capital-partners": {
+       "name": "ST Capital Partners",
+       "logo": "st-capital-partners.png",
+       "description": "ST Capital Partners is the governing entity behind the ST USDC Earn vault.",
+       "social": {},
+       "addresses": {
+       "0x99dDD6B6FE142b25824b4F31dB552aCCEb9e0384": "Governor multisig"
+    }
+  }
 }
