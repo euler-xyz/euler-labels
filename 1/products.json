@@ -607,14 +607,16 @@
 		"name": "Rezerve Markets",
 		"description": "An isolated market dedicated to the Rezerve ecosystem. Risk is curated by ZeroLend.",
 		"entity": "zerolend",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0xC42d337861878baa4dC820D9E6B6C667C2b57e8A",
 			"0x1ab9e92CFdE84f38868753d30fFc43F812B803C5",
 			"0xc364FD9637fe562A2d5a1cbc7d1Ab7F32bE900ef",
 			"0xBAfC1A885e25C6F594e06F12edaeB46858547724",
 			"0x0Aa836a55c7C3513D15795E7ec23378Ef511BB9f",
 			"0x3036155a3eD3e7F6FFf1E96e88f1FE51b6D2f3aD"
-		]
+		],
+		"deprecationReason": "This vault has been deprecated from the Euler UI because the governance has been transferred to an unrecognized entity without a notice. The Rezerve team claims to be the new risk curator."
 	},
 	"telosc-stream": {
 		"name": "TelosC Stream",
