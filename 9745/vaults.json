@@ -448,5 +448,20 @@
 		"name": "Alphaping YieldFi USDT0",
 		"description": "Component of the Alphaping YieldFi VYUSD Market",
 		"entity": "euler-dao"
+	},
+	"0x85F32053389E2dD343C6424125b3c7e287c86a56": {
+		"name": "Edge UltraYield PT-USDe-15JAN2026",
+		"description": "PT-USDe-15JAN2026 to collateralize other vaults in the Edge UltraYield Cluster.",
+		"entity": "edge-capital"
+	},
+	"0x2b52b5Fb4aDeB426258478B7Bb7D17135c71C813": {
+		"name": "Edge UltraYield PT-sUSDE-15JAN2026",
+		"description": "PT-sUSDE-15JAN2026 to collateralize other vaults in the Edge UltraYield Cluster.",
+		"entity": "edge-capital"
+	},
+	"0xC681E5B77796aA26838E7e5C0E26eA8bB53f1693": {
+		"name": "Edge UltraYield PT-syrupUSDT-29JAN2026",
+		"description": "PT-syrupUSDT-29JAN2026 to collateralize other vaults in the Edge UltraYield Cluster.",
+		"entity": "edge-capital"
 	}
 }
