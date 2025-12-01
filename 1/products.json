@@ -271,9 +271,9 @@
 		]
 	},
 	"alterscope-lrt": {
-		"name": "Alterscope LRT",
-		"description": "Vaults designed for advanced liquid restaking strategies.",
-		"entity": "alterscope",
+		"name": "YieldNest Max Vaults",
+		"description": "Merging DeFi's best strategies into single, unified, high-powered assets.",
+		"entity": "yieldnest",
 		"vaults": [
 			"0x29D824d54Fd5118543E81637b8f865d045191F30",
 			"0x6d18F74AAD8494B789aE34b5455816F79664d209",
