@@ -752,5 +752,15 @@
 			"0x6f61Cdfef82136F33bF20685CAACF83330F35649",
 			"0xB85313155Cfaa1bf592bB157B46c3554A7652b1F"
 		]
+	},
+	"api3-oev": {
+		"name": "Api3 OEV",
+		"description": "A lending market composed of conservative assets, optimized for low risk and high OEV-driven returns. Risk parameters are curated by Api3.",
+		"entity": "api3-dao",
+		"vaults": [
+			"0x0087d6b548A98D8ADF93c9E1f9C0650c034B2C7f",
+			"0x360e51D29fAE7eAa8098D9A1A46DAc53dCFB5FbF",
+			"0xaD1BA129544cA6CDCA8926b2601C463B50675771"
+		]
 	}
 }
