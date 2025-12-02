@@ -646,29 +646,29 @@
 		"entity": "alterscope"
 	},
 	"0x29D824d54Fd5118543E81637b8f865d045191F30": {
-		"name": "Alterscope LRT ynETH",
+		"name": "YieldNest LRT ynETH",
 		"description": "Vaults designed for advanced liquid restaking strategies.",
-		"entity": "alterscope"
+		"entity": "yieldnest"
 	},
 	"0x6d18F74AAD8494B789aE34b5455816F79664d209": {
-		"name": "Alterscope LRT ynETHx",
+		"name": "YieldNest Max Vault ynETHx",
 		"description": "Vaults designed for advanced liquid restaking strategies.",
-		"entity": "alterscope"
+		"entity": "yieldnest"
 	},
 	"0x91Fa3167591Fe29071F265d076B64c22A89Ae9AD": {
-		"name": "Alterscope LRT ynUSDx",
+		"name": "YieldNest Max Vault ynUSDx",
 		"description": "Vaults designed for advanced liquid restaking strategies.",
-		"entity": "alterscope"
+		"entity": "yieldnest"
 	},
 	"0x45c3B59d53e2e148Aaa6a857521059676D5c0489": {
-		"name": "Alterscope LRT YieldNest WETH",
+		"name": "YieldNest Max Vault WETH",
 		"description": "Vaults designed for advanced liquid restaking strategies for YieldNest products.",
-		"entity": "alterscope"
+		"entity": "yieldnest"
 	},
 	"0x05755D78caD24417c42960b93D3Bf821a92e4d82": {
-		"name": "Alterscope LRT USDC",
+		"name": "YieldNest Max Vault USDC",
 		"description": "Vaults designed for advanced liquid restaking strategies.",
-		"entity": "alterscope"
+		"entity": "yieldnest"
 	},
 	"0xc4984bB39465465432321519839c489F4275B164": {
 		"name": "MEV Capital Berastone Escrow",
