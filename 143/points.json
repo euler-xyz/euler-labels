@@ -34,5 +34,14 @@
 			"0x7B4BcAEAC5Eb67ae947903F24BBa660eE06A5231",
 			"0x87760787d770BC9f039843fEc7636f3B8Dd12206"
 		]
+	},
+	{
+		"name": "3x Kintsu Points ",
+		"logo": "kintsu.png",
+		"collateralVaults": [
+			"0xA8f093Cfb04a536Dbc6aa9BB94A2D617305a48F3",
+			"0x9eA1b948186F9A8cfe375278d96363103f4fa42B",
+			"0x3fE40329061A40f95416da42bB69E15d8eb83740"
+		]
 	}
 ]
