@@ -1584,11 +1584,6 @@
 		"description": "A conservative USDC vault collateralized by other vaults in the Sentora RLUSD cluster and escrow vaults.",
 		"entity": "sentora"
 	},
-	"0x9D4265a05a6A0C7F3EcB179F4BA5C3197CBb8F16": {
-		"name": "Sentora RLUSD PT_SUSDE_27NOV2025",
-		"description": "A conservative PT_SUSDE_27NOV2025 vault collateralized by other vaults in the Sentora RLUSD cluster and escrow vaults.",
-		"entity": "sentora"
-	},
 	"0x56B829e465170c3aCcAd33a3E0512b239b202242": {
 		"name": "Sentora RLUSD sUSDe",
 		"description": "A conservative sUSDe vault collateralized by other vaults in the Sentora RLUSD cluster and escrow vaults.",
@@ -1612,16 +1607,6 @@
 	"0xdB6165bd1F90cb507F30AbDb42c4596CE4D894f4": {
 		"name": "Sentora PYUSD sUSDe",
 		"description": "A conservative sUSDe vault collateralized by other vaults in the Sentora PYUSD cluster and escrow vaults.",
-		"entity": "sentora"
-	},
-	"0xAe412543A3C78b420E0Fc6b50734e7E7Aeac63BF": {
-		"name": "Sentora PYUSD PT_SUSDE_27NOV2025",
-		"description": "A conservative PT_SUSDE_27NOV2025 vault collateralized by other vaults in the Sentora PYUSD cluster and escrow vaults.",
-		"entity": "sentora"
-	},
-	"0xdc3F589dc09cc120A1cCF359a3fED22b053eCEB7": {
-		"name": "Sentora PYUSD PT_USDE_27NOV2025",
-		"description": "A conservative PT_USDE_27NOV2025 vault collateralized by other vaults in the Sentora PYUSD cluster and escrow vaults.",
 		"entity": "sentora"
 	},
 	"0xB6761Fb99062f6dBc09395f6F16dF239720017db": {
