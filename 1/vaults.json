@@ -279,6 +279,21 @@
 		"description": "A PT-stcUSD-29JAN2026 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
 		"entity": "euler-dao"
 	},
+	"0x3DE93DEc4d41ffE849F7ba75041a38f7EE843Bf3": {
+		"name": "Euler Yield PT-USDe-5FEB2026",
+		"description": "A PT-USDe-5FEB2026 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
+		"entity": "euler-dao"
+	},
+	"0xC532dB16Bc0530ed4920Aa84ee6F84bcf8f83EF0": {
+		"name": "Euler Yield PT-sUSDE-5FEB2026",
+		"description": "A PT-sUSDE-5FEB2026 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
+		"entity": "euler-dao"
+	},
+	"0x50e2D08603dB772ebC751B2d84F58D670976298d": {
+		"name": "Euler Yield PT-cUSDO-28MAY2026",
+		"description": "A PT-cUSDO-28MAY2026 escrowed collateral vault used by other vaults in the Euler Yield cluster.",
+		"entity": "euler-dao"
+	},
 	"0xEA79E49A076a75A9bF6013505C2B92eED69E4fe1": {
 		"name": "Euler RWA USDC",
 		"description": "A USDC vault collateralized by other vaults in the Euler RWA cluster",
@@ -640,29 +655,29 @@
 		"entity": "alterscope"
 	},
 	"0x29D824d54Fd5118543E81637b8f865d045191F30": {
-		"name": "Alterscope LRT ynETH",
+		"name": "YieldNest LRT ynETH",
 		"description": "Vaults designed for advanced liquid restaking strategies.",
-		"entity": "alterscope"
+		"entity": "yieldnest"
 	},
 	"0x6d18F74AAD8494B789aE34b5455816F79664d209": {
-		"name": "Alterscope LRT ynETHx",
+		"name": "YieldNest Max Vault ynETHx",
 		"description": "Vaults designed for advanced liquid restaking strategies.",
-		"entity": "alterscope"
+		"entity": "yieldnest"
 	},
 	"0x91Fa3167591Fe29071F265d076B64c22A89Ae9AD": {
-		"name": "Alterscope LRT ynUSDx",
+		"name": "YieldNest Max Vault ynUSDx",
 		"description": "Vaults designed for advanced liquid restaking strategies.",
-		"entity": "alterscope"
+		"entity": "yieldnest"
 	},
 	"0x45c3B59d53e2e148Aaa6a857521059676D5c0489": {
-		"name": "Alterscope LRT YieldNest WETH",
+		"name": "YieldNest Max Vault WETH",
 		"description": "Vaults designed for advanced liquid restaking strategies for YieldNest products.",
-		"entity": "alterscope"
+		"entity": "yieldnest"
 	},
 	"0x05755D78caD24417c42960b93D3Bf821a92e4d82": {
-		"name": "Alterscope LRT USDC",
+		"name": "YieldNest Max Vault USDC",
 		"description": "Vaults designed for advanced liquid restaking strategies.",
-		"entity": "alterscope"
+		"entity": "yieldnest"
 	},
 	"0xc4984bB39465465432321519839c489F4275B164": {
 		"name": "MEV Capital Berastone Escrow",

@@ -265,5 +265,17 @@
 		"social": {
 			"twitter": "nine_summits"
 		}
+	},
+	"yieldnest": {
+		"name": "YieldNest",
+		"logo": "yieldnest.svg",
+		"description": "YieldNest - Simple. Secure. Supercharged Yield protocol. Fine tunes and curates vaults across Defi to offer the best risk-adjusted returns.",
+		"url": "https://yieldnest.finance/",
+		"addresses": {
+			"0xfcad670592a3b24869C0b51a6c6FDED4F95D6975": "YieldNest YnSecurityCouncil Multisig"
+		},
+		"social": {
+			"twitter": "yieldnestfi"
+		}
 	}
 }

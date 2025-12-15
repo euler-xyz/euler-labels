@@ -320,24 +320,6 @@
 		]
 	},
 	{
-		"name": "Deposit with [OKX Wallet](https://web3.okx.com/earn/product/euler-ethereum-euler-earn-usdc-33704#source=activitypage&activitySourcePage=sui) for boosted rewards",
-		"logo": "okx.png",
-		"skipTooltipPrefix": true,
-		"collateralVaults": ["0x3B4802FDb0E5d74aA37d58FD77d63e93d4f9A4AF"]
-	},
-	{
-		"name": "Deposit with [OKX Wallet](https://web3.okx.com/earn/product/euler-ethereum-euler-earn-usdt-33706#source=activitypage&activitySourcePage=sui) for boosted rewards",
-		"logo": "okx.png",
-		"skipTooltipPrefix": true,
-		"collateralVaults": ["0xb072b2779F1EF1A6A9D2d5fAa1766F341B92aB3a"]
-	},
-	{
-		"name": "Deposit with [OKX Wallet](https://web3.okx.com/earn/product/euler-ethereum-euler-earn-weth-33705#source=activitypage&activitySourcePage=sui) for boosted rewards",
-		"logo": "okx.png",
-		"skipTooltipPrefix": true,
-		"collateralVaults": ["0x84fcb0eb9d7ab4EdFd26CCa8AD20AaB4c5aD49CD"]
-	},
-	{
 		"name": "10x Strata Points",
 		"logo": "strata.svg",
 		"collateralVaults": ["0xfa68974D007D755697Cc4D4E1e4057034EA666df"]

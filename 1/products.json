@@ -66,7 +66,10 @@
 			"0x50E6bBa3847357e5ee2Cc55Cc2F5F5E69FdaBE36",
 			"0xA655D6F7550B43B73948fEbdE6cDC7bD201Ba218",
 			"0xE067311975278b7e7b81Bf57d2a9e58E3eaD75b4",
-			"0xf8973F8cA6623D55ba6D9c3FEB6a83Ad2d96d9d5"
+			"0xf8973F8cA6623D55ba6D9c3FEB6a83Ad2d96d9d5",
+			"0x3DE93DEc4d41ffE849F7ba75041a38f7EE843Bf3",
+			"0xC532dB16Bc0530ed4920Aa84ee6F84bcf8f83EF0",
+			"0x50e2D08603dB772ebC751B2d84F58D670976298d"
 		],
 		"deprecatedVaults": [
 			"0x6DFC8ae855FA8Ab7bAbB81aB7c8a6DA7794f60fB",
@@ -270,10 +273,10 @@
 			"0xdFD25B2304f4F08031b4125ee49ea2Df6aB8B19b"
 		]
 	},
-	"alterscope-lrt": {
-		"name": "Alterscope LRT",
-		"description": "Vaults designed for advanced liquid restaking strategies.",
-		"entity": "alterscope",
+	"yieldnest-max": {
+		"name": "YieldNest Max Vaults",
+		"description": "Merging DeFi's best strategies into single, unified, high-powered assets.",
+		"entity": "yieldnest",
 		"vaults": [
 			"0x29D824d54Fd5118543E81637b8f865d045191F30",
 			"0x6d18F74AAD8494B789aE34b5455816F79664d209",
