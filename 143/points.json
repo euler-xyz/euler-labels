@@ -18,7 +18,7 @@
 		]
 	},
 	{
-		"name": "1.5x FastLane Points for using shMON as collateral",
+		"name": "1x FastLane Points for using shMON as collateral",
 		"logo": "fastlane.png",
 		"collateralVaults": [
 			"0x6661a2b4008b70f22Ff84c2134ac6F51534E162d",
