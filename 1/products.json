@@ -187,14 +187,16 @@
 		"description": "An isolated market dedicated to the Yala ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
 		"entity": ["euler-dao", "gauntlet"],
 		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
-		"vaults": [
+		"vaults": [],
+		"isGovernanceLimited": true,
+		"deprecatedVaults": [
 			"0x481D4909D7ca2eb27c4975f08dCE07DBeF0d3Fa7",
 			"0x2dF9753E62f46B299F59E632bd18EdfE4970922e",
 			"0x1F46186AF85A967416b17380800c69860B7C516F",
 			"0x0F93f35c0664A6a8231ccAe7E22f652c9c075b32",
 			"0xe47BABACfc9Ce5F85126fab7C7E211DA077d820E"
 		],
-		"isGovernanceLimited": true
+		"deprecationReason": "This vault has been deprecated following the Yala Redemption Plan announcement. Please refer to Yala's social media and Discord for more information."
 	},
 	"stablecoin-maxi": {
 		"name": "Stablecoin Maxi",
