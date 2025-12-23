@@ -49,6 +49,11 @@
 		"description": "A conservative sUSDC vault collateralized by other vaults in the Euler Unichain cluster.",
 		"entity": "euler-dao"
 	},
+	"0xeE85660f8bb7C020A69C20886D1C91e7F984006a": {
+		"name": "Euler Unichain PT-cUSD-29JAN2026",
+		"description": "A PT-cUSD-29JAN2026 escrowed collateral vault used by other vaults in the Euler Unichain cluster.",
+		"entity": "euler-dao"
+	},
 	"0x6Bc1f97f96Dd6834A86aCf412B77C9F464419436": {
 		"name": "Euler Unichain LST WETH",
 		"description": "WETH vault collateralized by other vaults in the Euler Unichain LST cluster.",
