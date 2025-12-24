@@ -81,15 +81,6 @@
 			"0x2cBb39cdC3c0bA22F857A5A8cA54DEE6D7fD04bF"
 		]
 	},
-	"reservoir-labs-avalanche": {
-		"name": "Reservoir Labs Cluster",
-		"entity": "reservoir-labs",
-		"description": "Group of BTC lending and borrowing products.",
-		"vaults": [
-			"0x04293b180bf9C57eD0923C99c784Cb571f0A9Ae9",
-			"0xA321a38b03a7218157668a724E186f3a81CF56c8"
-		]
-	},
 	"9summits-avalanche": {
 		"name": "9Summits Cluster",
 		"entity": "9summits",
