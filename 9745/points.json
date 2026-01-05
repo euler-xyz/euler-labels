@@ -70,12 +70,12 @@
 		]
 	},
 	{
-		"name": "Deposit earns 8x Juice from [Yuzu Money](https://yuzu.money/)",
+		"name": "8x Juice from [Yuzu Money](https://yuzu.money/)",
 		"logo": "yuzu-juice.svg",
 		"collateralVaults": ["0xDa33Ba72A303C26515edE275a2521b469F97D71b"]
 	},
 	{
-		"name": "Deposit earns 1x Juice from [Yuzu Money](https://yuzu.money/)",
+		"name": "1x Juice from [Yuzu Money](https://yuzu.money/)",
 		"logo": "yuzu-juice.svg",
 		"collateralVaults": [
 			"0x2F33b4AE409e86c6BEa9E2Bbe98361c19F2A1f0c",
@@ -83,7 +83,7 @@
 		]
 	},
 	{
-		"name": "Deposit earns 6x Juice from [Yuzu Money](https://yuzu.money/)",
+		"name": "6x Juice from [Yuzu Money](https://yuzu.money/)",
 		"logo": "yuzu-juice.svg",
 		"collateralVaults": [
 			"0x9d86B4fc23D8438fC4Aba58642DC35D5F64fE941",
@@ -91,7 +91,7 @@
 		]
 	},
 	{
-		"name": "Deposit earns 6x Juice from [Yuzu Money](https://yuzu.money/) pro-rata based on allocation.",
+		"name": "6x Juice from [Yuzu Money](https://yuzu.money/) pro-rata based on allocation.",
 		"logo": "yuzu-juice.svg",
 		"collateralVaults": [
 			"0xe818ad0D20D504C55601b9d5e0E137314414dec4",
