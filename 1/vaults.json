@@ -679,6 +679,21 @@
 		"description": "Vaults designed for advanced liquid restaking strategies.",
 		"entity": "yieldnest"
 	},
+	"0x69272D6E8B196247C5263FCdf5c7ED6A70d4e626": {
+		"name": "YieldNest Max Vault ynUSDx",
+		"description": "Vaults designed for advanced liquid restaking strategies.",
+		"entity": "yieldnest"
+	},
+	"0x3183893120bDaa00Fa4d5d812EA59C4237f32D22": {
+		"name": "YieldNest Max Vault ynRWAx",
+		"description": "Vaults designed for advanced liquid restaking strategies.",
+		"entity": "yieldnest"
+	},
+	"0x7fAb04FF2717d9A6B71A51c56c29697179597D40": {
+		"name": "YieldNest Max Vault USDC",
+		"description": "Vaults designed for advanced liquid restaking strategies.",
+		"entity": "yieldnest"
+	},
 	"0xc4984bB39465465432321519839c489F4275B164": {
 		"name": "MEV Capital Berastone Escrow",
 		"description": "Component of the MEV Capital wETH Cluster",
