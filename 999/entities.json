@@ -1,1 +1,24 @@
-{}
+{
+	"clearstar": {
+		"name": "ClearStar",
+		"logo": "clearstar.svg",
+		"description": "Designing and curating institutional-grade strategies across decentralized markets, underpinned by rigorous risk management.",
+		"url": "https://www.clearstar.xyz/",
+		"addresses": {
+			"0x65A067b5955F11F6202F14C3b9Cd64830C4170fB": "Clearstar Governor"
+		},
+		"social": {
+			"twitter": "ClearstarLabs"
+		}
+	},
+	"hypurrfi": {
+		"name": "HypurrFi",
+		"logo": "hypurrfi.svg",
+		"description": "A decentralized lending and borrowing protocol on HyperEVM.",
+		"url": "https://hypurr.fi/",
+		"addresses": {},
+		"social": {
+			"twitter": "hypurrfi"
+		}
+	}
+}
