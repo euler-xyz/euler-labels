@@ -1,2 +1,87 @@
 {
+    "0xc7e7861352df6919e7152c007832c48a777f2a4c": {
+		"name": "HypurrFi Yield WHYPE",
+		"description": "Yield-bearing HYPE leverage strategies, isolated from HypurrFi Prime Market",
+		"entity": "clearstar"
+	},
+	"0x97d30b40048ba3fc6b6628ce5e02e77f35b64fe0": {
+		"name": "HypurrFi Yield kHYPE",
+		"description": "Yield-bearing HYPE leverage strategies, isolated from HypurrFi Prime Market",
+		"entity": "clearstar"
+	},
+	"0x3403176f548400772c39e64564f2b148bcdfb65e": {
+		"name": "HypurrFi Yield PT-kHYPE",
+		"description": "Yield-bearing HYPE leverage strategies, isolated from HypurrFi Prime Market",
+		"entity": "clearstar"
+	},
+	"0x64a3052570f5a1c241c6c8cd32f8f9ad411e6990": {
+		"name": "HypurrFi Yield wstHYPE",
+		"description": "Yield-bearing HYPE leverage strategies, isolated from HypurrFi Prime Market",
+		"entity": "clearstar"
+	},
+	"0xcfba875b25305768ecd858c878d39313fa134fc5": {
+		"name": "HypurrFi Yield lstHYPE",
+		"description": "Yield-bearing HYPE leverage strategies, isolated from HypurrFi Prime Market",
+		"entity": "clearstar"
+	},
+	"0x5f82b7b512b46e776307387d04adca8e161e2af2": {
+		"name": "HypurrFi Yield beHYPE",
+		"description": "Yield-bearing HYPE leverage strategies, isolated from HypurrFi Prime Market",
+		"entity": "clearstar"
+	},
+	"0x77d16e59e789efa0a803c6858d47d20a1384cf07": {
+		"name": "HypurrFi Yield UBTC",
+		"description": "Yield-bearing HYPE leverage strategies, isolated from HypurrFi Prime Market",
+		"entity": "clearstar"
+	},
+	"0xd32e1759cecfce42b281c3eddd88ae112703ba2d": {
+		"name": "HypurrFi Yield UETH",
+		"description": "Yield-bearing HYPE leverage strategies, isolated from HypurrFi Prime Market",
+		"entity": "clearstar"
+	},
+	"0xb45b6b481f2558fd6347031696b13575a9a43c93": {
+		"name": "HypurrFi Yield USDH",
+		"description": "Yield-bearing HYPE leverage strategies, isolated from HypurrFi Prime Market",
+		"entity": "clearstar"
+	},
+	"0xeb46b1fd74990eb4e804aa50e21671ec02c460a0": {
+		"name": "HypurrFi Yield USDT0",
+		"description": "Yield-bearing HYPE leverage strategies, isolated from HypurrFi Prime Market",
+		"entity": "clearstar"
+	},
+	"0x67df1cfb790c042eb9b21eb9b63dd02505b5888b": {
+		"name": "HypurrFi Yield USDC",
+		"description": "Yield-bearing HYPE leverage strategies, isolated from HypurrFi Prime Market",
+		"entity": "clearstar"
+	},
+	"0xf73c654d468f5485bf15f3470b78851a49257704": {
+		"name": "HypurrFi Prime WHYPE",
+		"description": "Fully cross-collateralized cluster for highly liquid assets on HyperEVM",
+		"entity": "clearstar"
+	},
+	"0x443100d1149d6d925edb044248bbe32c5c7ae955": {
+		"name": "HypurrFi Prime kHYPE",
+		"description": "Fully cross-collateralized cluster for highly liquid assets on HyperEVM",
+		"entity": "clearstar"
+	},
+	"0x8a4545827df5446ba120b904e5306e58acca4e89": {
+		"name": "HypurrFi Prime UBTC",
+		"description": "Fully cross-collateralized cluster for highly liquid assets on HyperEVM",
+		"entity": "clearstar"
+	},
+	"0xc200aab602cd7046389b5c8fb088884323f8dd0f": {
+		"name": "HypurrFi Prime USDC",
+		"description": "Fully cross-collateralized cluster for highly liquid assets on HyperEVM",
+		"entity": "clearstar"
+	},
+	"0x28fca2611d1dd8109c26f748cd2cf3bb4fc6d2cd": {
+		"name": "HypurrFi Prime USDT0",
+		"description": "Fully cross-collateralized cluster for highly liquid assets on HyperEVM",
+		"entity": "clearstar"
+	},
+	"0x83c34784e355ad2670db77623b845273844fa480": {
+		"name": "HypurrFi Prime USDH",
+		"description": "Fully cross-collateralized cluster for highly liquid assets on HyperEVM",
+		"entity": "clearstar"
+	}
 }
