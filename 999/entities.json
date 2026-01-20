@@ -4,9 +4,7 @@
 		"logo": "https://app.hypurr.fi/hypurr-paw.svg",
 		"description": "HypurrFi is a DeFi platform on HyperEVM providing yield optimization strategies.",
 		"url": "https://app.hypurr.fi/",
-		"addresses": {
-			"0x30988479c2e6a03e7fb65138b94762d41a733458": "HypurrFi Capital Allocator"
-		},
+		"addresses": {},
 		"social": {
 			"twitter": "HypurrFi"
 		}
@@ -18,7 +16,7 @@
 		"url": "https://www.clearstar.xyz/",
 		"addresses": {
 			"0x65A067b5955F11F6202F14C3b9Cd64830C4170fB": "ClearStar Governor",
-                        "0x30988479C2E6a03E7fB65138b94762D41a733458": "Curator Wallet 1 (ForDeFi MPC)"
+            "0x30988479C2E6a03E7fB65138b94762D41a733458": "Curator Wallet 1 (ForDeFi MPC)"
 		},
 		"social": {
 			"twitter": "ClearstarLabs"
