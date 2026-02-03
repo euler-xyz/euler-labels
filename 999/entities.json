@@ -36,6 +36,7 @@
 	},
 	"hyperwave": {
 		"name": "Hyperwave",
+        "logo": "https://hyperwavefi.xyz/logo.svg",
 		"description": "Hyperwave is a liquid staking protocol on HyperEVM.",
 		"url": "https://hyperwavefi.xyz/",
 		"addresses": {},
