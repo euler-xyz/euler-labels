@@ -16,7 +16,7 @@
 		"url": "https://www.clearstar.xyz/",
 		"addresses": {
 			"0x65A067b5955F11F6202F14C3b9Cd64830C4170fB": "ClearStar Governor",
-            "0x30988479C2E6a03E7fB65138b94762D41a733458": "Curator Wallet 1 (ForDeFi MPC)"
+			"0x30988479C2E6a03E7fB65138b94762D41a733458": "Curator Wallet 1 (ForDeFi MPC)"
 		},
 		"social": {
 			"twitter": "ClearstarLabs"
@@ -33,5 +33,12 @@
 		"social": {
 			"twitter": "Re7Capital"
 		}
+	},
+	"hyperwave": {
+		"name": "Hyperwave",
+		"description": "Hyperwave is a liquid staking protocol on HyperEVM.",
+		"url": "https://hyperwavefi.xyz/",
+		"addresses": {},
+		"social": {}
 	}
 }
