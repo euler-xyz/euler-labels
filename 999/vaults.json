@@ -88,5 +88,25 @@
 		"name": "HypurrFi Prime USDH",
 		"description": "Fully cross-collateralized cluster for highly liquid assets on HyperEVM",
 		"entity": "clearstar"
+	},
+	"0xF38eA9DE758a8F6be08B6E65bc0Ff2f3e3aB741b": {
+		"name": "HypurrFi Earn USDH",
+		"description": "Earn vaults curated by Clearstar for HypurrFi on HyperEVM",
+		"entity": "clearstar"
+	},
+	"0xe8b10461ea0b04FF30F4cBfc3E93957Cac00DEd4": {
+		"name": "HypurrFi Earn WHYPE",
+		"description": "Earn vaults curated by Clearstar for HypurrFi on HyperEVM",
+		"entity": "clearstar"
+	},
+	"0x6dd448d5cb73DC96788d5BE605DD3C5c83864a36": {
+		"name": "HypurrFi Earn USDT0",
+		"description": "Earn vaults curated by Clearstar for HypurrFi on HyperEVM",
+		"entity": "clearstar"
+	},
+	"0xF868A2B30854FE13e26F7AB7a92609cCb6b9c0e1": {
+		"name": "HypurrFi Earn USDC",
+		"description": "Earn vaults curated by Clearstar for HypurrFi on HyperEVM",
+		"entity": "clearstar"
 	}
 }
