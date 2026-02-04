@@ -39,5 +39,23 @@
 			"0x085178078796Da17B191f9081b5E2fCCc79A7eE7",
 			"0xF3BB6b0a9bEAF9240D7F4a91341d5Df6bF37cAea"
 		]
+	},
+	{
+		"name": "extra YO tokens via [Merkl](https://app.merkl.xyz/opportunities/base/ERC20LOGPROCESSOR/0xbCbc8cb4D1e8ED048a6276a5E94A3e952660BcbC)",
+		"logo": "yo.png",
+		"collateralVaults": ["0xFab9aF50F7A1Cfe201CAE1c15fCFdDaE7705ccD3"]
+	},
+	{
+		"name": "extra YO tokens via [Merkl](https://app.merkl.xyz/opportunities/base/ERC20LOGPROCESSOR/0x3A43AEC53490CB9Fa922847385D82fe25d0E9De7)",
+		"logo": "yo.png",
+		"collateralVaults": [
+			"0xf4480166d66CFb9c5E12C843A8F844F512989289",
+			"0xdbDC9c3EdBD401109c83b333c16A0251806b3330"
+		]
+	},
+	{
+		"name": "extra YO tokens via [Merkl](https://app.merkl.xyz/opportunities/base/ERC20LOGPROCESSOR/0x0000000f2eB9f69274678c76222B35eEc7588a65)",
+		"logo": "yo.png",
+		"collateralVaults": ["0x990d616ca6E7192625d1B7C41Fb67b5758DF7CF2"]
 	}
 ]
