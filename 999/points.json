@@ -22,5 +22,11 @@
 			"0x94F5C76A93F12057d73991AE5B4f70e9287b5b28",
 			"0xF9BB65e113418292d1a3555515fBd64637a0BE18"
 		]
+	},
+	{
+		"name": "3x HypurrFi Points (HP)",
+		"logo": "hypurr-paw.svg",
+		"entity": ["hypurrfi"],
+		"collateralVaults": ["0xBb7DC37dbc108d40BcdD60403EF7bFDD6489071E"]
 	}
 ]
