@@ -1649,6 +1649,26 @@
 		"description": "A conservative sUSDe vault collateralized by other vaults in the Sentora PYUSD cluster and escrow vaults.",
 		"entity": "sentora"
 	},
+	"0x69ebF644533655B5D3b6455e8E47ddE21b5993f1": {
+		"name": "Sentora Ondo Global Markets PYUSD",
+		"description": "A market to supply PYUSD borrowed by loans with RWA collateral from Ondo global markets.",
+		"entity": "sentora"
+	},
+	"0xAD31be884B0A20237077820318a74a02A449095C": {
+		"name": "Sentora Ondo Global Markets TSLAon",
+		"description": "A market using tokenized Tesla equity as collateral for stablecoin loans.",
+		"entity": "sentora"
+	},
+	"0x5344b18BdCEE6A2DcC5f0627b5f06751dB2e5A8e": {
+		"name": "Sentora Ondo Global Markets SPYon",
+		"description": "A market using tokenized S&P 500 ETF as collateral for stablecoin loans.",
+		"entity": "sentora"
+	},
+	"0x4Fab48EDdA433E240F1c2A2E85Ee5cF38d4A6180": {
+		"name": "Sentora Ondo Global Markets QQQon",
+		"description": "A market using tokenized Nasdaq 100 ETF as collateral for stablecoin loans.",
+		"entity": "sentora"
+	},
 	"0xB6761Fb99062f6dBc09395f6F16dF239720017db": {
 		"name": "9 Summits Aladdin DAO fxUSD",
 		"description": "A fxUSD vault collateralized by other vaults in the Aladdin DAO excosystem",
