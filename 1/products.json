@@ -710,6 +710,18 @@
 			"0xdB6165bd1F90cb507F30AbDb42c4596CE4D894f4"
 		]
 	},
+	"sentora-ondo": {
+		"name": "Sentora Ondo Global Markets",
+		"description": "A market for borrowing against Ondo tokenized equities and ETFs. Governed by Sentora.",
+		"entity": "sentora",
+		"url": "https://sentora.com/platform/defi-strategies",
+		"vaults": [
+			"0x69ebF644533655B5D3b6455e8E47ddE21b5993f1",
+			"0xAD31be884B0A20237077820318a74a02A449095C",
+			"0x5344b18BdCEE6A2DcC5f0627b5f06751dB2e5A8e",
+			"0x4Fab48EDdA433E240F1c2A2E85Ee5cF38d4A6180"
+		]
+	},
 	"9s-fxusd": {
 		"name": "9 Summits fxUSD flagship",
 		"description": "A market for supplying and borrowing fxUSD against and Aladdin DAO ecosystem and other bluechip assets. $FXN aligned curation by 9 Summits",
