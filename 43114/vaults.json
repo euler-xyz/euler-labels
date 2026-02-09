@@ -293,5 +293,15 @@
 		"name": "9Summits WETH.e",
 		"description": "Component of the 9Summits Avalanche Cluster",
 		"entity": "9summits"
+	},
+	"0xA9B21f76a3CD97F3e886Bf299abc5F7cCca58d5f": {
+		"name": "Turtle USDC",
+		"description": "Component of the Turtle Avalanche Cluster",
+		"entity": "turtle"
+	},
+	"0x5Db7b0dbcDa67E4Ff1B4D9b17a1cf2e6416BCC81": {
+		"name": "Turtle savUSD",
+		"description": "Component of the Turtle Avalanche Cluster",
+		"entity": "turtle"
 	}
 }

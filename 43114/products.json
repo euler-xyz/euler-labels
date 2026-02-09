@@ -102,5 +102,13 @@
 			"0xf3aCc3Fc22E376fa3dD21CF883B60DDE9cf4E34f",
 			"0x6b640afFdE7cFa8322cA5c7F8bB7d276de3d30A3"
 		]
+	},
+	"turtle-avalanche": {
+		"name": "Turtle Cluster",
+		"entity": "turtle",
+		"vaults": [
+			"0xA9B21f76a3CD97F3e886Bf299abc5F7cCca58d5f",
+			"0x5Db7b0dbcDa67E4Ff1B4D9b17a1cf2e6416BCC81"
+		]
 	}
 }

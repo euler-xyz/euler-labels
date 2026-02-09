@@ -72,5 +72,17 @@
 		"social": {
 			"twitter": "nine_summits"
 		}
+	},
+	"turtle": {
+		"name": "Turtle",
+		"logo": "turtle.png",
+		"description": "Turtle is a liquidity distribution protocol connecting liquidity providers to yield-generating opportunities.",
+		"url": "https://turtle.xyz/",
+		"addresses": {
+			"0x2631b5260715ec9F1211EF0Fb10c702922038B63": "Turtle Multisig"
+		},
+		"social": {
+			"twitter": "turtledotxyz"
+		}
 	}
 }
