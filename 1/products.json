@@ -1,727 +1,727 @@
 {
-	"euler-prime": {
-		"name": "Euler Prime",
-		"description": "A market tailored to borrowing stable assets against blue chip crypto assets. Governed by Euler DAO.",
-		"entity": ["euler-dao", "gauntlet"],
-		"url": "https://forum.euler.finance/t/expanding-euler-prime/1137",
-		"vaults": [
-			"0xD8b27CF359b7D15710a5BE299AF6e7Bf904984C2",
-			"0xbC4B4AC47582c3E38Ce5940B80Da65401F4628f1",
-			"0x7338d86137052F0dF6e9048d6D23e09735a99585",
-			"0xe846ca062aB869b66aE8DcD811973f628BA82eAf",
-			"0x797DD80692c3b2dAdabCe8e30C07fDE5307D48a9",
-			"0x313603FA690301b0CaeEf8069c065862f9162162",
-			"0x07F9A54Dc5135B9878d6745E267625BF0E206840",
-			"0x1e548CfcE5FCF17247E024eF06d32A01841fF404",
-			"0x9c6e67fA86138Ab49359F595BfE4Fb163D0f16cc",
-			"0x998D761eC1BAdaCeb064624cc3A1d37A46C88bA4",
-			"0x056f3a2E41d2778D3a0c0714439c53af2987718E",
-			"0xbC35161043EE2D74816d421EfD6a45fDa73B050A",
-			"0xE88e44C2C7dfc9bcb86e380d29375ccD6cd85406",
-			"0x0D1B386187be8e96680bbddBf7Bc05FC737f81b8",
-			"0x1924D7fab80d0623f0836Cbf5258a7fa734EE9D9",
-			"0xA28C23a459fF8773EB4dBe0e7250d93F79F1Fe2B",
-			"0x328646cdfBaD730432620d845B8F5A2f7D786C01",
-			"0xc2d36F41841B420937643dcccbEa8163D4F59B6c",
-			"0x22eed7C25A35D40255cd80d3B67A2F8742f94443",
-			"0x6bE9e82B25987Ce66AcD89130fEe494EDd0473AE",
-			"0xee944C7Dd107617550EC11AFCF652e14E7670A37",
-			"0x5A96128c18018a2cEf539f46Bbed037DAD3cAAe8",
-			"0xa96B72470f4193a4E637dE8BcC6a009d1DD360A2"
-		]
-	},
-	"euler-yield": {
-		"name": "Euler Yield",
-		"description": "A market tailored to borrowing stablecoins against tokenised yield strategies. Governed by Euler DAO.",
-		"entity": ["euler-dao", "gauntlet"],
-		"url": "https://forum.euler.finance/t/creation-of-euler-yield-market/1163",
-		"vaults": [
-			"0xe0a80d35bB6618CBA260120b279d357978c42BCE",
-			"0x7c280DBDEf569e96c7919251bD2B0edF0734C5A8",
-			"0x6121591077Dc6898Ffd7216eA1b56cb890b3F84d",
-			"0xe1Ce9AF672f8854845E5474400B6ddC7AE458a10",
-			"0x48Afe17cB6363fD1aaeA50a8CB652C5978972c96",
-			"0x6D671B9c618D5486814FEb777552BA723F1A235C",
-			"0x2daCa71Cb58285212Dc05D65Cfd4f59A82BC4cF6",
-			"0x498c014dE23f19700F51e85a384AB1B059F0672e",
-			"0x61aAC438453d6e3513C0c8dbb69F13860E2B5028",
-			"0x8d1A625517eD9120a8bA66d22db66ddf7fBC6c52",
-			"0xe0f8c07282bDc7831bAea448c2F6bFEc8eeBDcA7",
-			"0xa626c933E9fc8d37Cf2d8217F49309FDb0AA21c5",
-			"0xaabc07A47D2a63a9b06A7924a0780c2F3cAE7bf9",
-			"0xb53b4B2590457bE63E1DCdAffa6a18ECd44D96D2",
-			"0xA9902f9210059171C52b2721424E00f48821dcf3",
-			"0xbF34Cf6F1C098231E16D7Be38a2aE13EfE9b92d3",
-			"0x2f94Bbe20ECa1e3f9332aA93A90920a0a5be0728",
-			"0xF21cB5fA9242De8270526F1C9717A9b91dd44F03",
-			"0x20622fcD4476fbc9d5Ef36EBd371307a56d9028c",
-			"0xfB7E8A3BbB8EB242Ce46EAC2a9E8E77F2d423667",
-			"0xbFAE1f099e9EBD8481c127dc1D2EaDc7Faf636b3",
-			"0x57d74318f938404B2fE1416b9E9ba5D380f505AF",
-			"0x72DAAb3F36D2070718A13FC2e2dc3E3181f0DE10",
-			"0xcA814720257b3C9fd2a446D53f0b6acD7aaa0Be0",
-			"0x0391d9029713B1E9Ee1e241CB53D6BC89bAf299d",
-			"0xACdee5667866cdDD287E1F49837D1B6D2ba8BD45",
-			"0x1B7712be0AB4ED3f0aFb830d26B10C50a252B82F",
-			"0x50E6bBa3847357e5ee2Cc55Cc2F5F5E69FdaBE36",
-			"0xA655D6F7550B43B73948fEbdE6cDC7bD201Ba218",
-			"0xE067311975278b7e7b81Bf57d2a9e58E3eaD75b4",
-			"0xf8973F8cA6623D55ba6D9c3FEB6a83Ad2d96d9d5",
-			"0x3DE93DEc4d41ffE849F7ba75041a38f7EE843Bf3",
-			"0xC532dB16Bc0530ed4920Aa84ee6F84bcf8f83EF0",
-			"0x50e2D08603dB772ebC751B2d84F58D670976298d",
-			"0x4f4Afcdd8E418f5AA9130BA53af23Cb7bf47F467",
-			"0x2DA35f6e88Eaba4E705Bff7154B259859C353953"
-		],
-		"deprecatedVaults": [
-			"0x6DFC8ae855FA8Ab7bAbB81aB7c8a6DA7794f60fB",
-			"0x16d84F98765Ed86501a052D47E76BFefb2D36206"
-		]
-	},
-	"euler-rwa": {
-		"name": "Euler RWA",
-		"description": "A market tailored to borrowing against real-world assets. Governed by Euler DAO.",
-		"entity": ["euler-dao", "gauntlet"],
-		"vaults": [
-			"0xEA79E49A076a75A9bF6013505C2B92eED69E4fe1",
-			"0xabBe766f216f689818C3A1f98647cE4E41495325",
-			"0x155d4A34938dcB27486f5Bbf6a19d19D0ef0DD8A",
-			"0xC51e90b48FD7fBfF316502b85A71e0EBb1ee5238"
-		]
-	},
-	"eulswap": {
-		"name": "EUL Lending",
-		"description": "An isolated market dedicated to EUL token swaps. EUL Lending market is not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao"],
-		"vaults": [
-			"0x74034eb8d5B2E480825263A975E4CF82A081c959",
-			"0xBEf0c894aB4020DCD533FD753BF427662F3F7ABe"
-		],
-		"isGovernanceLimited": true
-	},
-	"frontier-renzo": {
-		"name": "Frontier Renzo",
-		"description": "An isolated market dedicated to the Renzo ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
-		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
-		"vaults": [
-			"0xdc1aeF6cF0F13267281a0D3547D205eA32287e49",
-			"0x0c01F00e419977CF452e78AaE35ffB95C47d9534"
-		],
-		"isGovernanceLimited": true
-	},
-	"frontier-medge": {
-		"name": "Frontier mEDGE",
-		"description": "An isolated market dedicated to the mEDGE ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
-		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
-		"vaults": [
-			"0x09136DAC538B54994170a6905507a74562A80ed3",
-			"0x122e9eA082D8c060Bb1a3476aa18B9E739fBbAAf",
-			"0xD53f83c7CA5189007C09b5D867a8116bC0540724",
-			"0x94EdbB8F7543593FF1B8D2871eC4730B59c97888",
-			"0x561fF99A243868fdf755705b1B83e6C4E8B8B0dF",
-			"0xa586Cb265563ff36dc1f912Ad9b06F7124BC6185"
-		],
-		"isGovernanceLimited": true
-	},
-	"frontier-mmev": {
-		"name": "Frontier mMEV",
-		"description": "An isolated market dedicated to the mMEV ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
-		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
-		"vaults": [
-			"0x98281466aBcF48eAAD8c6E22dEdD18A3426A93b4",
-			"0x75E695C60aF0780F8c9FA79e37946a02f4481c09",
-			"0x3F7CcadEd39Fd9D06Eb0498ABEb7EAAB569E79Ad",
-			"0x819662Ab6Fe32B52100fa32aE3e0e8b36B4C5638",
-			"0xdc685C0b34eDd19f702a8ad4cD4d8279F6452AC8",
-			"0x0DBaDdDF25ED581D0b8AccE9567be0D160fd05f9"
-		],
-		"isGovernanceLimited": true
-	},
-	"frontier-level": {
-		"name": "Frontier Level",
-		"description": "An isolated market dedicated to the Level ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
-		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
-		"vaults": [
-			"0xF4Bc4239eDca81ed0d305701CB18A5Fd82cd06Ca",
-			"0x3bFA6657982A9Ada1388CF798F3f211711Daf4E5",
-			"0xfc6f3A2Badb53973F69449Da690Cfef84dc4a359",
-			"0x1e0b68A83Ef062CDE687351C472cFd0E9300A06d",
-			"0xF2ec2d8fE1351bAFF31643855C0f4D1E63Bd1ce4",
-			"0x889b0ab73A262759e1Da530eA027268Fd9C2B35f"
-		],
-		"isGovernanceLimited": true
-	},
-	"frontier-falcon": {
-		"name": "Frontier Falcon",
-		"description": "An isolated market dedicated to the Falcon ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
-		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
-		"vaults": [
-			"0x3573A84Bee11D49A1CbCe2b291538dE7a7dD81c6",
-			"0xbFdc482616787b420BC6C710212fE3167E7198e9",
-			"0x412D0E31790D77b6e7a7872a9fd6967B6E640229",
-			"0x2F849ba554C1ea2eDe9C240Bbe9d247dd6eC8A6B",
-			"0xE415952f5ee06f8A548F4f7D5bE18FBf144b4E4D",
-			"0xa7A064f56FbcA60cBeD47eD3e13C4B945DEf7eC3",
-			"0xFBCc21fedd4C4e9097Ef1Baa65B7Ad386b59512D"
-		],
-		"isGovernanceLimited": true
-	},
-	"frontier-inverse": {
-		"name": "Frontier Inverse",
-		"description": "An isolated market dedicated to the Inverse ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
-		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
-		"vaults": [
-			"0x81f8ac1a4756BfE9D7ce138C0C3baD2Cb5E8a582",
-			"0x77710edfeDfB7e9186CBA71b258C75ea2AED5f84",
-			"0xE668c3F45D126A72cf696Ff46054918Cf1337786",
-			"0x3152EC91ec776f918Cc2090F58319A5a614536e0"
-		],
-		"isGovernanceLimited": true
-	},
-	"frontier-yala": {
-		"name": "Frontier Yala",
-		"description": "An isolated market dedicated to the Yala ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
-		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
-		"vaults": [],
-		"isGovernanceLimited": true,
-		"deprecatedVaults": [
-			"0x481D4909D7ca2eb27c4975f08dCE07DBeF0d3Fa7",
-			"0x2dF9753E62f46B299F59E632bd18EdfE4970922e",
-			"0x1F46186AF85A967416b17380800c69860B7C516F",
-			"0x0F93f35c0664A6a8231ccAe7E22f652c9c075b32",
-			"0xe47BABACfc9Ce5F85126fab7C7E211DA077d820E"
-		],
-		"deprecationReason": "This vault has been deprecated following the Yala Redemption Plan announcement. Please refer to Yala's social media and Discord for more information."
-	},
-	"stablecoin-maxi": {
-		"name": "Stablecoin Maxi",
-		"entity": "re7-labs",
-		"vaults": [
-			"0xce45EF0414dE3516cAF1BCf937bF7F2Cf67873De",
-			"0x8dDE384022D4dE1D6C67891a8865f551c444dc4C",
-			"0xAc73efA7696DC1c1617BbC20aeC64422c8b70EDa",
-			"0xe3eb096CD9A87c271567b0134f6dE061c112A9E7",
-			"0x586719300c3966130B3Ce15F563b1080271193E8",
-			"0x117576B8854a03aB7C3dF1Cf1cd8E04767BfA866",
-			"0xBd9A8701B0F56b758bCd4aCe08DAF097e236E0CB",
-			"0xe3b66cA897B4B844d5a8ee7A30982FAc0d126760",
-			"0xcf47fBe97aaE77B8ABEa5e1F59c9bcb808A8d47d",
-			"0x940FCa4Be8e0d43Be75Acc8136342f936f2179E8",
-			"0x6173b0709dEA144CC3662894870B57C53564cfA2",
-			"0xa8CC68e15D50c1c586b5B0D6e1D4D0Ef620fdd10"
-		]
-	},
-	"re7-labs-basic": {
-		"name": "Re7 Labs Cluster",
-		"entity": "re7-labs",
-		"vaults": [
-			"0x67e4e4e73947257Ca62D118E0FBC56D06f11d96F",
-			"0xc41252D4F61D25658cD83Cc39942c49776E1B0C5",
-			"0xeE8693c11acE62839bB96beaE86696c1e78Aba3F",
-			"0x27052EA5E307B6e8566D9eE560231C6742a6c03c",
-			"0x82c710B9B225B43C0c90f097DB31f5f10a7F86FA",
-			"0x631D8E808f2c4177a8147Eaa39a4F57C47634dE8",
-			"0xa992d3777282c44ee980E9B0ca9Bd0c0E4f737aF",
-			"0xc40A68b5E536632b6572283F996B830B34607d01",
-			"0xAb254591B63138247eCcDF82170Eb64890d36b1B",
-			"0xea0C048c728578b1510EBDF9b692E8936D6Fbc90",
-			"0xcAd0be6e135C3d2859EA0c872cCD510C962765b7"
-		]
-	},
-	"apostro-lido-ecosystem": {
-		"name": "Apostro Lido Ecosystem",
-		"entity": "apostro",
-		"vaults": [
-			"0x315F93a074D0948E4D068e98a34092750ea8A38C",
-			"0xf9a23b059858CdD0e3ED0DDE89864BB82B88aa19"
-		]
-	},
-	"alterscope-bedrock": {
-		"name": "Alterscope Bedrock",
-		"description": "Foundational vaults designed for maximium market stability.",
-		"entity": "alterscope",
-		"vaults": [
-			"0x9167Ff08C18Ea05d70D5CBf0c576A33DCeE6de06",
-			"0x25C538cc5c5B4cDdf9a9A656f90d2d8129E841B2",
-			"0xD1552d878FE4869539ba4D03D207B54913a5C273",
-			"0xFc323C1727853872A85098EA89a6882853B708dd",
-			"0xd6506dB835B465d5d823add8667362d7b86cFe5F",
-			"0x5a0064007ddDEa2C8d6547A7B1E862c619500994",
-			"0x41722452C0348501825C494ec6C1579e9c32D277",
-			"0xF69FF7901E199AE4Fc354048DA09C23c7699716c",
-			"0xEd667E0DE292C040CF2183302c8DBDe1C06447d7",
-			"0xB77e25555C2b3e6BCe5329D83eFD248534A907Aa",
-			"0x1987c2DCf5674Cf90bEceBAd502714c357ce126a",
-			"0x28c6F8D44179ac93a5EBAe24189d887eeEF38cea",
-			"0x6fc6BeCAe0fFAA08f699ec072f31983821a4D7ce",
-			"0xaE4D563FC348e0FC3697Ed940b23a86779e095C8",
-			"0xb4f7761C459D09f414e1190df275be3E24535750",
-			"0xd005125E525664feC9394CEE5466Da15262fFe01",
-			"0xa2f045eC60C624c46F1075FC589Df0f936F822C2"
-		]
-	},
-	"alterscope-ascend": {
-		"name": "Alterscope Ascend",
-		"description": "The Ascend vaults diversify collateralization options and achieve higher returns while ensuring high market stability.",
-		"entity": "alterscope",
-		"vaults": [
-			"0x99ba39845C4A12341C4B8cCEba1F11F4f6f84046",
-			"0xE5b9686c0cc4Be8a47eb4ed265d4203EA8232f94",
-			"0xdFD25B2304f4F08031b4125ee49ea2Df6aB8B19b"
-		]
-	},
-	"yieldnest-max": {
-		"name": "YieldNest Max Vaults",
-		"description": "Merging DeFi's best strategies into single, unified, high-powered assets.",
-		"entity": "yieldnest",
-		"vaults": [
-			"0x29D824d54Fd5118543E81637b8f865d045191F30",
-			"0x6d18F74AAD8494B789aE34b5455816F79664d209",
-			"0x45c3B59d53e2e148Aaa6a857521059676D5c0489",
-			"0x05755D78caD24417c42960b93D3Bf821a92e4d82",
-			"0x91Fa3167591Fe29071F265d076B64c22A89Ae9AD",
-			"0x7fAb04FF2717d9A6B71A51c56c29697179597D40",
-			"0x69272D6E8B196247C5263FCdf5c7ED6A70d4e626",
-			"0x3183893120bDaa00Fa4d5d812EA59C4237f32D22"
-		]
-	},
-	"idle-credit-vaults": {
-		"name": "Idle DAO Credit Vaults",
-		"entity": "idle",
-		"vaults": [
-			"0xd820C8129a853a04dC7e42C64aE62509f531eE5A",
-			"0x166d8B62E1748D04eDf39d0078F1Fe4aA01D475E"
-		]
-	},
-	"mev-capital-weth": {
-		"name": "MEV Capital wETH Cluster",
-		"entity": "mev-capital",
-		"vaults": [
-			"0xc4984bB39465465432321519839c489F4275B164",
-			"0x6b6976aA97CD2473B388fA9b9eEb8Cca4F5a77a4",
-			"0x6C37d34a895456AA29CABe0caCB60FC56309C7ac",
-			"0x9426C7a40d5C9DD709cbc2894a7E6481f265B6Bb",
-			"0x01d1a1cd5955B2feFb167e8bc200A00BfAda8977",
-			"0x0DE3821015518a6179A51d27Bc7ed4a0a3C45b52",
-			"0xb07bf05AF5a13D357AA1220c661BB0FB791beDcb",
-			"0xE3ea69f8661FFac04E269f99C14ba73e2Bb10633",
-			"0x9913790dD5d3d8389f682a15e4Fa90a22891ff49",
-			"0xc5Ff8Dde483903ffd2fbE5bf54a02B80F2baE7F7",
-			"0xFc1b4e3D8291746CCdEb813805C8912BBE0a7316",
-			"0xe00A44e1210BAe0EACEeeaF202c349d4B16480FE",
-			"0x463Af6Add7b5806cF0EA30ec30F2030bF4F05175",
-			"0xe2D6A2a16ff6d3bbc4C90736A7e6F7Cc3C9B8fa9",
-			"0x1334d0E5ca5855A803998fcC78548142BEF36e3B",
-			"0x2306e17C7198282985a95b1cE0f63820846d0290"
-		]
-	},
-	"swaap-labs": {
-		"name": "Swaap Lend",
-		"entity": ["swaap-labs"],
-		"vaults": [
-			"0x716bF454066a84F39A2F78b5707e79a9d64f1225",
-			"0xf2f826c190D020A6D1EC422bF2269E63b8b315E0",
-			"0x19756be2473A9C3351A426568FF9630c9D67f300",
-			"0x57995a00bA1e3E17BCF08BA775BF225cA1f5F25e",
-			"0xd45a56F5b67eBA836295B4c95fd6EA48D1334938",
-			"0x49aEC2e6137615f0cf1CAE334B5f3211953144bE"
-		]
-	},
-	"apostro-btc-cluster": {
-		"name": "Apostro BTCfi",
-		"entity": "apostro",
-		"vaults": [
-			"0xE0c1bdab9A7d487c4fEcd402cb9b4f8B347e73c3",
-			"0x29A9E5A004002Ff9E960bb8BB536E076F53cbDF1",
-			"0x82D2CE1f71cbe391c05E21132811e5172d51A6EE",
-			"0xC605471aE09e0b7daA9e8813707d0DDbf9429Ad2",
-			"0xA2038a5B7Ce1C195F0C52b77134c5369CCfe0148",
-			"0xBc99605074737d36266f45E0d192dDe6CFDFd72a",
-			"0xD7B67cF0e7EDA8268b0f42de82dF87DfCC9a8537",
-			"0x396fD980c0463Ccb285d3ec6830978D5D97976EC"
-		]
-	},
-	"resolv": {
-		"name": "Resolv",
-		"entity": "apostro",
-		"vaults": [
-			"0xcBC9B61177444A793B85442D3a953B90f6170b7D",
-			"0x9f12d29c7CC72bb3d237E2D042A6D890421f9899",
-			"0x3A8992754E2EF51D8F90620d2766278af5C59b90",
-			"0xe11a462235A39C90921C4a59D4E8B2707330BCf2",
-			"0x7f1d29e70C644c387ded640B28E106e29E349074",
-			"0x81fa50cBe6C7Ed61961fE601B7c5AC334c2c84bB",
-			"0xc60400289B32E840909795a063aeccFb093E0b47",
-			"0xc27B9587414f7d725e89b989aA63948a93f8DB71",
-			"0xe3Fd841FE4701bBA147e478CfBc46889116B7d3d",
-			"0xd9bf69f6228edDd2BeC11A32ed400F36C794E111",
-			"0x34BCe3856cF4b614649fb0eA022BfbD393601509",
-			"0x87d99f04082f56Ad480889D53ECA913318a1876B",
-			"0xAA341D82e914117b4082d03f11AF05CfD4C4B007",
-			"0x771b3E45383c878bBf0b291268344f9CC0011a04"
-		]
-	},
-	"tulipa-resolv": {
-		"name": "Tulipa Resolv",
-		"description": "A market tailored to borrowing stablecoins against the Resolv ecosystem. Governed by Tulipa Capital.",
-		"entity": "tulipa-capital",
-		"vaults": [
-			"0x3b028b4b6c567eF5f8Ca1144Da4FbaA0D973F228",
-			"0x6707Fe1A8a2F9B8a10441778ac6F6Be2Ed991aE7",
-			"0xDe60b6090570C87d9ED0eF164C381469184758eB"
-		]
-	},
-	"usual-stability-loan": {
-		"name": "Usual Stability Loan",
-		"description": "The Usual Stability Loan enables users to leverage their USD0++ to arbitrage when it depegs, by borrowing USD0 at a fixed interest rate.",
-		"entity": "usual",
-		"url": "https://snapshot.box/#/s:usualmoney.eth/proposal/0x1b081d3b3dd611094e96b690dc5d981d86bb724cce5ef562d9eecbe580b535c2",
-		"vaults": [
-			"0xd001f0a15D272542687b2677BA627f48A4333b5d",
-			"0xF037eeEBA7729c39114B9711c75FbccCa4A343C8"
-		]
-	},
-	"usual-pt-usd0-plus-plus-vault": {
-		"name": "Usual's PT USD0++ vault",
-		"description": "Usual's PT USD0++ vault lets you borrow USD0 at a fixed rate using Pendle PTs as collateral, unlocking leveraged yield opportunities with stable borrowing costs and minimized rate volatility.",
-		"entity": "usual",
-		"url": "https://app.pendle.finance/trade/markets/0xf8094570485b124b4f2abe98909a87511489c162/swap?view=pt&chain=ethereum",
-		"vaults": [
-			"0x77633305032b6bDf3eBdB373b3bADcCb2786ce2f",
-			"0xcC45184138c6De9AA4e15d6F83fC737a363Bd739"
-		]
-	},
-	"openeden": {
-		"name": "OpenEden",
-		"description": "A market tailored to borrowing stablecoins against the OpenEden ecosystem. Governed by Ouroboros Capital.",
-		"entity": "ouroboros-capital",
-		"vaults": [
-			"0xE27A96f4c9528e3d32E6f31c6aCa9281EbEA0338",
-			"0x738bC1e2F68F5ec58ea456fb4269B4b3f51714b5",
-			"0x75f66ed34c274eaD52CFA25De9388E98e12Edb33"
-		]
-	},
-	"tulipa-tac": {
-		"name": "Tulipa TAC",
-		"description": "A market tailored to lending and borrowing against the TAC Summoning Assets. Governed by Tulipa Capital.",
-		"entity": "tulipa-capital",
-		"vaults": [
-			"0x056575e43A440D49B14E94022Be9FAD85679D138",
-			"0xf6066FAFd24880879448867CFD683337146F4335",
-			"0x41d2d958fE1eBd8b19078E8B52A32C427C91BBca",
-			"0x7C6eeE35BE1f1f25CEf65E01D1a63c994c7b6978",
-			"0x303AD748D7981e10F362eF5721890BCB449b3ec6",
-			"0xCC029aE7dFF547fA893F831BB4A0E99B6BCb6aE0",
-			"0x9D1c3A8A70c1f586256117399304e6a48f657838"
-		]
-	},
-	"tulipa-noon": {
-		"name": "Noon",
-		"description": "A market tailored to lending and borrowing against the Noon ecosystem. Governed by Tulipa Capital.",
-		"entity": "tulipa-capital",
-		"vaults": [
-			"0x53208e965EB66841598fB8f983a41936EeE6d774",
-			"0xc7d526eFefa2e3073531f9e054F5c8cD1d0eC636",
-			"0xc1fF5490651B9B8d0400B0146E7fb174B90E315B",
-			"0x89963076d2aBCf6b3C449A8f0f69439C47C0464d",
-			"0xC6C60104eD3db10074537B30489A0b744AdD9545",
-			"0x87331E9540175B65184972B59943A9877541903e"
-		]
-	},
-	"zerolend-openeden": {
-		"name": "ZeroLend OpenEden",
-		"description": "A market tailored to lending and borrowing with OpenEden Products. Governed by ZeroLend.",
-		"entity": "zerolend",
-		"vaults": [
-			"0xc455D77597353264E4BA9BED7Ac9daF8e05029C9",
-			"0x50588aEA583A9dF5076EE990329871296618eD58",
-			"0x2CDdF87973007150A7aC3AF45F89Dc37C7123Ec6"
-		]
-	},
-	"k3-liquity-hub": {
-		"name": "Liquity Hub",
-		"description": "A stablecoin cluster designed to support the Liquity ecosystem.",
-		"entity": "k3",
-		"vaults": [
-			"0x9ee58f0618D2Bf130b73F2d843c45C69548B981B",
-			"0xc6137BC1378c2396051e06417704d31615F77Cb9",
-			"0xC1C51C5c9EfaF0c485Aa1097AE9690B5e102975A",
-			"0xEc91B109817b20d4Ebd364A181666327194763F0",
-			"0x5e4CfCe564d741373bD0078CB256E94696354C46",
-			"0x5BcA378719Ad01BB8e490d09e2326EDfEe66b954"
-		]
-	},
-	"keyring": {
-		"name": "Keyring zkVerified Cluster",
-		"entity": "keyring",
-		"vaults": [
-			"0x10e0B2B42874ADF8c29D5F900c0D18b61f048ffb",
-			"0xB6c9363DB7D651106Da38C68F34253688Fa25cda",
-			"0x33e97864E44631e6d31b81051DAABcD4C31bF792",
-			"0x8B5b205aE1E241974d06695a1f09612069B46d6B",
-			"0x5d0C14A46eBb659dDccd5b8F5e9707a5714857a0",
-			"0xbB118Aa3Ee6eE1941fC33eeb3889d41c639736C6",
-			"0x879aEC0aAE98AC89598ae8F765EB9A9ee307d16f",
-			"0xb41B0F1e5873784067db2bf3F63090B5452f0818",
-			"0x67695A8e976E25D5939aD31297DFCFfC8d050eA0",
-			"0x54Fcb10F9506cf8d16D75346e398539F029240Bd"
-		]
-	},
-	"frontier-upshift": {
-		"name": "Frontier Upshift",
-		"description": "An isolated market dedicated to the Upshift ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
-		"url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/10?u=upshift.fi",
-		"vaults": [
-			"0x87c414825aB3d1E9bdC773e9B1fD968822c9CF51",
-			"0x3F714090F7648139043349f599A48904187d76D0",
-			"0x18337806b02b02099209b05589E6db85acD4345C"
-		],
-		"isGovernanceLimited": true
-	},
-	"frontier-bedrock": {
-		"name": "Frontier Bedrock",
-		"description": "An isolated market dedicated to the Bedrock ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
-		"url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/24?u=eulerlabs",
-		"vaults": [
-			"0xf4Be316983b70B5fF8dc8C0DDd62156EF2DCa454",
-			"0x154ED44b252c58e5768f022C5143929329b28Ed9",
-			"0x759B703efc8932E0d8404583A2e1FeD68A726071"
-		],
-		"isGovernanceLimited": true
-	},
-	"frontier-puffer": {
-		"name": "Frontier Puffer",
-		"description": "An isolated market dedicated to the Puffer ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
-		"url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/11",
-		"vaults": [
-			"0xc2c4aBae84fbb5b7bAAB52301A924b1F986C66bd",
-			"0x46BC453666BA11b4b08B0804E49A9D797546ee7D"
-		],
-		"isGovernanceLimited": true
-	},
-	"frontier-pareto": {
-		"name": "Frontier Pareto",
-		"description": "An isolated market dedicated to the Pareto ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
-		"url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/2",
-		"vaults": [
-			"0xa94F9CE821C7bD57cc12991CB46ca19f5789278F",
-			"0xF2ef3e32FCF4BfE21266727281B73F95Cd520411",
-			"0xa3e0943d0196F76db58d3549C9a7528Ef4ac335F"
-		],
-		"isGovernanceLimited": true
-	},
-	"frontier-reservoir": {
-		"name": "Frontier Reservoir",
-		"description": "An isolated market dedicated to the Reservoir ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
-		"vaults": [
-			"0x15A60a5300c1D9179d4c0e2B49bac6146794Ae1F",
-			"0x607589437A3b52f536706642a9b7c70192C37940",
-			"0xACD489AdEC33cd7c46FC448cf77376f1EaF5f3ab",
-			"0xb5c0EC2b53b87720f2D99B75c01C6d4Da0e724F8"
-		],
-		"isGovernanceLimited": true
-	},
-	"frontier-spark": {
-		"name": "Frontier Spark",
-		"description": "An isolated market dedicated to the Spark ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
-		"vaults": [
-			"0x58CD6Ae0Bd452d3219366C7ddD37cA1A12d2ff59",
-			"0x7fD46A66b5Ed6dC395603678cf9BE8846e01Fe25",
-			"0x13a2322907cea4CE62525476f9dAc191f0B590Db",
-			"0x00011d9A1EB3d7278b8DF2391e2E32f6f9bcF293"
-		],
-		"isGovernanceLimited": true
-	},
-	"frontier-yieldfi": {
-		"name": "Frontier YieldFi",
-		"description": "An isolated market dedicated to the YieldFi ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
-		"vaults": [
-			"0xc727069c0eb261Be642272fe3848518192683fFc",
-			"0xd90f695D98b6E1fAA7BA516A777fF12cc3C111a4",
-			"0x3eD8f77Ca6FD9e5c6DBBcC9696BF93F30C3A2BA5",
-			"0xb76e9E04d4356756c9b8E002Cc4dabFA4e02BD93"
-		],
-		"isGovernanceLimited": true
-	},
-	"re7-hyperwave": {
-		"name": "Re7 Hyperwave",
-		"description": "An isolated market dedicated to the Hyperwave ecosystem. Risk is curated by Re7 Labs.",
-		"entity": "re7-labs",
-		"vaults": [
-			"0x3C75C170671acb394804DfAf63e4F9891C121625",
-			"0x22cC732cbca457F6811295bCE75B01822544bA52",
-			"0x4f36Bebf5dDb4b804F9C72644aEe82BAd165BFfc",
-			"0x9c6bDF412723ADF2798B163638083783506B26e3"
-		]
-	},
-	"frontier-strata": {
-		"name": "Frontier Strata",
-		"description": "An isolated market dedicated to the Strata ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
-		"vaults": [
-			"0x53AfE3343f322c4189Ab69E0D048efd154259419",
-			"0x09FcE883cC16894274802c01e3b9cD90EAE4e43d",
-			"0x6331D36C27D967c4261D59a8f80d58d03089810A",
-			"0xBd360BB80E6CBe86e533B672Df6BFc054602ADBD",
-			"0xCfC6a55Aa72DCF3755A515aE8B82552028b63D2A",
-			"0xF0ee6229CB0c3ed8DA93cA49191c7261566783AF",
-			"0xDa8A66A3BD832B02f331330CCCC94D8e8987E9C7",
-			"0xfa68974D007D755697Cc4D4E1e4057034EA666df",
-			"0x32eeB44e99195622290eC1BD229Cd5E766DA251C"
-		],
-		"isGovernanceLimited": true
-	},
-	"frontier-cap": {
-		"name": "Frontier Cap",
-		"description": "An isolated market dedicated to the Cap Money ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
-		"vaults": [
-			"0x6Fe7Fa90756434645F0b0428fDff78E99Dda0FBc",
-			"0x35d4f830543700B7280084280ae3236f178E88e3",
-			"0x55F9bACE2C864aC0D3392Ea9fa654b605F21A3d3",
-			"0xb7522C867B8AFae5e89638b59fb38f31B0821795",
-			"0x97C72647be549C6079dC95235271A9a0Fe7ECc21",
-			"0x69a2fAD6AC96DDa502f7d240fB4EC88f85217705"
-		],
-		"isGovernanceLimited": true
-	},
-	"frontier-asymmetry": {
-		"name": "Frontier Asymmetry",
-		"description": "An isolated market dedicated to the Asymmetry Finance ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
-		"vaults": [
-			"0x477d7feE2d9dca0bA8F7CbEAa7da219b5bb2d1a7",
-			"0x51147D1af05AEb441dE62db292f46580084c8380",
-			"0x46DEA62E4D631ce3FaC68ECeC2b1C4bA1500075A",
-			"0x209C28798CD14Dda47F384Df102a24da0e76e0d4",
-			"0x580478CcDB9C001B71E2f08f0eCeA1c8bf62dbF6",
-			"0xb02b07429477ed07a9fE70e24A6E2e2408C2D432"
-		],
-		"isGovernanceLimited": true
-	},
-	"rezerve-vaults": {
-		"name": "Rezerve Markets",
-		"description": "An isolated market dedicated to the Rezerve ecosystem. Risk is curated by ZeroLend.",
-		"entity": "zerolend",
-		"vaults": [
-			"0xBAfC1A885e25C6F594e06F12edaeB46858547724",
-			"0x3036155a3eD3e7F6FFf1E96e88f1FE51b6D2f3aD"
-		],
-		"deprecatedVaults": [
-			"0xC42d337861878baa4dC820D9E6B6C667C2b57e8A",
-			"0x1ab9e92CFdE84f38868753d30fFc43F812B803C5",
-			"0xc364FD9637fe562A2d5a1cbc7d1Ab7F32bE900ef",
-			"0x0Aa836a55c7C3513D15795E7ec23378Ef511BB9f"
-		],
-		"deprecationReason": "This vault has been deprecated from the Euler UI because the governance has been transferred to an unrecognized entity without a notice. The Rezerve team claims to be the new risk curator."
-	},
-	"telosc-stream": {
-		"name": "TelosC Stream",
-		"description": "A market tailored to the Stream ecosystem. Governed and curated by TelosC.",
-		"entity": "telosc",
-		"vaults": [],
-		"deprecatedVaults": [
-			"0xf1BA8c5Ca5aB011d06f31e64DaD313d204aCb9Eb",
-			"0xbBc4BC013F1C9Ed674098A6d156C02C0a21a285C",
-			"0x9B62c8D69AcB1397f585BA63eee2597c5Bd0f644",
-			"0x01864aE3c7d5f507cC4c24cA67B4CABbDdA37EcD",
-			"0x211711F277f146fC947D7053B41BB71BB5b5FC2C",
-			"0x038dd0Eb275B7DE3B07884f1Fa106eD6423C45F2",
-			"0x0f080Bf8Ba818001EcfB2f461708D8484323D0cE"
-		],
-		"deprecationReason": "This vault has been deprecated from the Euler UI because it has exposure to insolvent positions held by Stream. Please contact TelosC to find out more information about future redemption."
-	},
-	"horizon-clearstar": {
-		"name": "Horizon Clearstar",
-		"description": "A market designed to lend against a mix of assets targeting moderate risk exposure and high returns. Risk is curated by Clearstar Labs.",
-		"entity": "clearstar",
-		"vaults": [
-			"0x47e2ab1392e04C1d86E696012D0544aedBDA6Ddb",
-			"0x9f936cD7bC9c7aA90Bbb27Ce1B961655434754cB",
-			"0x43BC56b2E10AcAd2b0dc021F1C9866DB259CEb5B",
-			"0x14d777665EA3bb224f222E69c85bcA890557d078",
-			"0x63f6505E0525e9b91595d997549C5F50e061AD3C",
-			"0xC063BDd3181356f973c3085dB60074262462A8F3",
-			"0x579aD59BB4AF72d732f45F67ef231E9f59EF9E4F",
-			"0xa020DeE164D92c48eD064B163cC93B582197346A",
-			"0x66BfA41C915f86AC9Cf63D413d2e2E4f0EbBaB2D",
-			"0xE27dC1Bdc3F47E44DdA0B90901F3ee61E43Ffe77",
-			"0xeBA46a9219297cFE7cDAbF41172BaD25a8785d96",
-			"0xC68BC0a9b0544F0B4AA28Ce253f9e1B28038F2cD",
-			"0xe2b187502b655BE77BF04261f879c5cF3fc0639F"
-		]
-	},
-	"frontier-mapollo": {
-		"name": "Frontier mAPOLLO",
-		"description": "An isolated market dedicated to the mAPOLLO ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
-		"vaults": [
-			"0x2a356443FeE07703266066c6Bb1B11b82d8246AD",
-			"0xC11d6b78D8c609A6cbf66E89DBfea06b011B0AEf",
-			"0x49d9fd20f1d61648Fa9434a8c0C33174F5614eB8",
-			"0xF75D18F76859764aBe4D13cA2eBaCeFF0b90b262"
-		],
-		"isGovernanceLimited": true
-	},
-	"hyperithm-mhyper": {
-		"name": "Hyperithm mHYPER",
-		"entity": ["hyperithm"],
-		"vaults": [
-			"0x8aFF4fe319c30475D27eC623D7d44bD5eCFe9616",
-			"0xFa827C231062FA549143dF3C1b3584a016642630",
-			"0xf8C84D6A51Cf24c9AC79ABcE2823255FFA871145",
-			"0xad857E37bCdb3dD0712f5F3267D33ec1085F1a1d"
-		]
-	},
-	"sentora-rlusd": {
-		"name": "Sentora RLUSD",
-		"description": "A market for supplying and borrowing RLUSD against bluechip assets. Governed by Sentora.",
-		"entity": "sentora",
-		"url": "https://sentora.com/platform/defi-strategies",
-		"vaults": [
-			"0xaF5372792a29dC6b296d6FFD4AA3386aff8f9BB2",
-			"0x9bD52F2805c6aF014132874124686e7b248c2Cbb",
-			"0x56B829e465170c3aCcAd33a3E0512b239b202242"
-		]
-	},
-	"sentora-pyusd": {
-		"name": "Sentora PYUSD",
-		"description": "A market for supplying and borrowing PYUSD against bluechip assets. Governed by Sentora.",
-		"entity": "sentora",
-		"url": "https://sentora.com/platform/defi-strategies",
-		"vaults": [
-			"0xba98fC35C9dfd69178AD5dcE9FA29c64554783b5",
-			"0xAB2726DAf820Aa9270D14Db9B18c8d187cbF2f30",
-			"0x660750B98c3a53DD1303f2e43F543eF037d3F625",
-			"0xdB6165bd1F90cb507F30AbDb42c4596CE4D894f4"
-		]
-	},
-	"sentora-ondo": {
-		"name": "Sentora Ondo Global Markets",
-		"description": "A market for borrowing against Ondo tokenized equities and ETFs. Governed by Sentora.",
-		"entity": "sentora",
-		"url": "https://sentora.com/platform/defi-strategies",
-		"vaults": [
-			"0x69ebF644533655B5D3b6455e8E47ddE21b5993f1",
-			"0xAD31be884B0A20237077820318a74a02A449095C",
-			"0x5344b18BdCEE6A2DcC5f0627b5f06751dB2e5A8e",
-			"0x4Fab48EDdA433E240F1c2A2E85Ee5cF38d4A6180"
-		],
-     "block": [
+  "euler-prime": {
+    "name": "Euler Prime",
+    "description": "A market tailored to borrowing stable assets against blue chip crypto assets. Governed by Euler DAO.",
+    "entity": ["euler-dao", "gauntlet"],
+    "url": "https://forum.euler.finance/t/expanding-euler-prime/1137",
+    "vaults": [
+      "0xD8b27CF359b7D15710a5BE299AF6e7Bf904984C2",
+      "0xbC4B4AC47582c3E38Ce5940B80Da65401F4628f1",
+      "0x7338d86137052F0dF6e9048d6D23e09735a99585",
+      "0xe846ca062aB869b66aE8DcD811973f628BA82eAf",
+      "0x797DD80692c3b2dAdabCe8e30C07fDE5307D48a9",
+      "0x313603FA690301b0CaeEf8069c065862f9162162",
+      "0x07F9A54Dc5135B9878d6745E267625BF0E206840",
+      "0x1e548CfcE5FCF17247E024eF06d32A01841fF404",
+      "0x9c6e67fA86138Ab49359F595BfE4Fb163D0f16cc",
+      "0x998D761eC1BAdaCeb064624cc3A1d37A46C88bA4",
+      "0x056f3a2E41d2778D3a0c0714439c53af2987718E",
+      "0xbC35161043EE2D74816d421EfD6a45fDa73B050A",
+      "0xE88e44C2C7dfc9bcb86e380d29375ccD6cd85406",
+      "0x0D1B386187be8e96680bbddBf7Bc05FC737f81b8",
+      "0x1924D7fab80d0623f0836Cbf5258a7fa734EE9D9",
+      "0xA28C23a459fF8773EB4dBe0e7250d93F79F1Fe2B",
+      "0x328646cdfBaD730432620d845B8F5A2f7D786C01",
+      "0xc2d36F41841B420937643dcccbEa8163D4F59B6c",
+      "0x22eed7C25A35D40255cd80d3B67A2F8742f94443",
+      "0x6bE9e82B25987Ce66AcD89130fEe494EDd0473AE",
+      "0xee944C7Dd107617550EC11AFCF652e14E7670A37",
+      "0x5A96128c18018a2cEf539f46Bbed037DAD3cAAe8",
+      "0xa96B72470f4193a4E637dE8BcC6a009d1DD360A2"
+    ]
+  },
+  "euler-yield": {
+    "name": "Euler Yield",
+    "description": "A market tailored to borrowing stablecoins against tokenised yield strategies. Governed by Euler DAO.",
+    "entity": ["euler-dao", "gauntlet"],
+    "url": "https://forum.euler.finance/t/creation-of-euler-yield-market/1163",
+    "vaults": [
+      "0xe0a80d35bB6618CBA260120b279d357978c42BCE",
+      "0x7c280DBDEf569e96c7919251bD2B0edF0734C5A8",
+      "0x6121591077Dc6898Ffd7216eA1b56cb890b3F84d",
+      "0xe1Ce9AF672f8854845E5474400B6ddC7AE458a10",
+      "0x48Afe17cB6363fD1aaeA50a8CB652C5978972c96",
+      "0x6D671B9c618D5486814FEb777552BA723F1A235C",
+      "0x2daCa71Cb58285212Dc05D65Cfd4f59A82BC4cF6",
+      "0x498c014dE23f19700F51e85a384AB1B059F0672e",
+      "0x61aAC438453d6e3513C0c8dbb69F13860E2B5028",
+      "0x8d1A625517eD9120a8bA66d22db66ddf7fBC6c52",
+      "0xe0f8c07282bDc7831bAea448c2F6bFEc8eeBDcA7",
+      "0xa626c933E9fc8d37Cf2d8217F49309FDb0AA21c5",
+      "0xaabc07A47D2a63a9b06A7924a0780c2F3cAE7bf9",
+      "0xb53b4B2590457bE63E1DCdAffa6a18ECd44D96D2",
+      "0xA9902f9210059171C52b2721424E00f48821dcf3",
+      "0xbF34Cf6F1C098231E16D7Be38a2aE13EfE9b92d3",
+      "0x2f94Bbe20ECa1e3f9332aA93A90920a0a5be0728",
+      "0xF21cB5fA9242De8270526F1C9717A9b91dd44F03",
+      "0x20622fcD4476fbc9d5Ef36EBd371307a56d9028c",
+      "0xfB7E8A3BbB8EB242Ce46EAC2a9E8E77F2d423667",
+      "0xbFAE1f099e9EBD8481c127dc1D2EaDc7Faf636b3",
+      "0x57d74318f938404B2fE1416b9E9ba5D380f505AF",
+      "0x72DAAb3F36D2070718A13FC2e2dc3E3181f0DE10",
+      "0xcA814720257b3C9fd2a446D53f0b6acD7aaa0Be0",
+      "0x0391d9029713B1E9Ee1e241CB53D6BC89bAf299d",
+      "0xACdee5667866cdDD287E1F49837D1B6D2ba8BD45",
+      "0x1B7712be0AB4ED3f0aFb830d26B10C50a252B82F",
+      "0x50E6bBa3847357e5ee2Cc55Cc2F5F5E69FdaBE36",
+      "0xA655D6F7550B43B73948fEbdE6cDC7bD201Ba218",
+      "0xE067311975278b7e7b81Bf57d2a9e58E3eaD75b4",
+      "0xf8973F8cA6623D55ba6D9c3FEB6a83Ad2d96d9d5",
+      "0x3DE93DEc4d41ffE849F7ba75041a38f7EE843Bf3",
+      "0xC532dB16Bc0530ed4920Aa84ee6F84bcf8f83EF0",
+      "0x50e2D08603dB772ebC751B2d84F58D670976298d",
+      "0x4f4Afcdd8E418f5AA9130BA53af23Cb7bf47F467",
+      "0x2DA35f6e88Eaba4E705Bff7154B259859C353953"
+    ],
+    "deprecatedVaults": [
+      "0x6DFC8ae855FA8Ab7bAbB81aB7c8a6DA7794f60fB",
+      "0x16d84F98765Ed86501a052D47E76BFefb2D36206"
+    ]
+  },
+  "euler-rwa": {
+    "name": "Euler RWA",
+    "description": "A market tailored to borrowing against real-world assets. Governed by Euler DAO.",
+    "entity": ["euler-dao", "gauntlet"],
+    "vaults": [
+      "0xEA79E49A076a75A9bF6013505C2B92eED69E4fe1",
+      "0xabBe766f216f689818C3A1f98647cE4E41495325",
+      "0x155d4A34938dcB27486f5Bbf6a19d19D0ef0DD8A",
+      "0xC51e90b48FD7fBfF316502b85A71e0EBb1ee5238"
+    ]
+  },
+  "eulswap": {
+    "name": "EUL Lending",
+    "description": "An isolated market dedicated to EUL token swaps. EUL Lending market is not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+    "entity": ["euler-dao"],
+    "vaults": [
+      "0x74034eb8d5B2E480825263A975E4CF82A081c959",
+      "0xBEf0c894aB4020DCD533FD753BF427662F3F7ABe"
+    ],
+    "isGovernanceLimited": true
+  },
+  "frontier-renzo": {
+    "name": "Frontier Renzo",
+    "description": "An isolated market dedicated to the Renzo ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+    "entity": ["euler-dao", "gauntlet"],
+    "url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
+    "vaults": [
+      "0xdc1aeF6cF0F13267281a0D3547D205eA32287e49",
+      "0x0c01F00e419977CF452e78AaE35ffB95C47d9534"
+    ],
+    "isGovernanceLimited": true
+  },
+  "frontier-medge": {
+    "name": "Frontier mEDGE",
+    "description": "An isolated market dedicated to the mEDGE ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+    "entity": ["euler-dao", "gauntlet"],
+    "url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
+    "vaults": [
+      "0x09136DAC538B54994170a6905507a74562A80ed3",
+      "0x122e9eA082D8c060Bb1a3476aa18B9E739fBbAAf",
+      "0xD53f83c7CA5189007C09b5D867a8116bC0540724",
+      "0x94EdbB8F7543593FF1B8D2871eC4730B59c97888",
+      "0x561fF99A243868fdf755705b1B83e6C4E8B8B0dF",
+      "0xa586Cb265563ff36dc1f912Ad9b06F7124BC6185"
+    ],
+    "isGovernanceLimited": true
+  },
+  "frontier-mmev": {
+    "name": "Frontier mMEV",
+    "description": "An isolated market dedicated to the mMEV ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+    "entity": ["euler-dao", "gauntlet"],
+    "url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
+    "vaults": [
+      "0x98281466aBcF48eAAD8c6E22dEdD18A3426A93b4",
+      "0x75E695C60aF0780F8c9FA79e37946a02f4481c09",
+      "0x3F7CcadEd39Fd9D06Eb0498ABEb7EAAB569E79Ad",
+      "0x819662Ab6Fe32B52100fa32aE3e0e8b36B4C5638",
+      "0xdc685C0b34eDd19f702a8ad4cD4d8279F6452AC8",
+      "0x0DBaDdDF25ED581D0b8AccE9567be0D160fd05f9"
+    ],
+    "isGovernanceLimited": true
+  },
+  "frontier-level": {
+    "name": "Frontier Level",
+    "description": "An isolated market dedicated to the Level ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+    "entity": ["euler-dao", "gauntlet"],
+    "url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
+    "vaults": [
+      "0xF4Bc4239eDca81ed0d305701CB18A5Fd82cd06Ca",
+      "0x3bFA6657982A9Ada1388CF798F3f211711Daf4E5",
+      "0xfc6f3A2Badb53973F69449Da690Cfef84dc4a359",
+      "0x1e0b68A83Ef062CDE687351C472cFd0E9300A06d",
+      "0xF2ec2d8fE1351bAFF31643855C0f4D1E63Bd1ce4",
+      "0x889b0ab73A262759e1Da530eA027268Fd9C2B35f"
+    ],
+    "isGovernanceLimited": true
+  },
+  "frontier-falcon": {
+    "name": "Frontier Falcon",
+    "description": "An isolated market dedicated to the Falcon ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+    "entity": ["euler-dao", "gauntlet"],
+    "url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
+    "vaults": [
+      "0x3573A84Bee11D49A1CbCe2b291538dE7a7dD81c6",
+      "0xbFdc482616787b420BC6C710212fE3167E7198e9",
+      "0x412D0E31790D77b6e7a7872a9fd6967B6E640229",
+      "0x2F849ba554C1ea2eDe9C240Bbe9d247dd6eC8A6B",
+      "0xE415952f5ee06f8A548F4f7D5bE18FBf144b4E4D",
+      "0xa7A064f56FbcA60cBeD47eD3e13C4B945DEf7eC3",
+      "0xFBCc21fedd4C4e9097Ef1Baa65B7Ad386b59512D"
+    ],
+    "isGovernanceLimited": true
+  },
+  "frontier-inverse": {
+    "name": "Frontier Inverse",
+    "description": "An isolated market dedicated to the Inverse ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+    "entity": ["euler-dao", "gauntlet"],
+    "url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
+    "vaults": [
+      "0x81f8ac1a4756BfE9D7ce138C0C3baD2Cb5E8a582",
+      "0x77710edfeDfB7e9186CBA71b258C75ea2AED5f84",
+      "0xE668c3F45D126A72cf696Ff46054918Cf1337786",
+      "0x3152EC91ec776f918Cc2090F58319A5a614536e0"
+    ],
+    "isGovernanceLimited": true
+  },
+  "frontier-yala": {
+    "name": "Frontier Yala",
+    "description": "An isolated market dedicated to the Yala ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+    "entity": ["euler-dao", "gauntlet"],
+    "url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
+    "vaults": [],
+    "isGovernanceLimited": true,
+    "deprecatedVaults": [
+      "0x481D4909D7ca2eb27c4975f08dCE07DBeF0d3Fa7",
+      "0x2dF9753E62f46B299F59E632bd18EdfE4970922e",
+      "0x1F46186AF85A967416b17380800c69860B7C516F",
+      "0x0F93f35c0664A6a8231ccAe7E22f652c9c075b32",
+      "0xe47BABACfc9Ce5F85126fab7C7E211DA077d820E"
+    ],
+    "deprecationReason": "This vault has been deprecated following the Yala Redemption Plan announcement. Please refer to Yala's social media and Discord for more information."
+  },
+  "stablecoin-maxi": {
+    "name": "Stablecoin Maxi",
+    "entity": "re7-labs",
+    "vaults": [
+      "0xce45EF0414dE3516cAF1BCf937bF7F2Cf67873De",
+      "0x8dDE384022D4dE1D6C67891a8865f551c444dc4C",
+      "0xAc73efA7696DC1c1617BbC20aeC64422c8b70EDa",
+      "0xe3eb096CD9A87c271567b0134f6dE061c112A9E7",
+      "0x586719300c3966130B3Ce15F563b1080271193E8",
+      "0x117576B8854a03aB7C3dF1Cf1cd8E04767BfA866",
+      "0xBd9A8701B0F56b758bCd4aCe08DAF097e236E0CB",
+      "0xe3b66cA897B4B844d5a8ee7A30982FAc0d126760",
+      "0xcf47fBe97aaE77B8ABEa5e1F59c9bcb808A8d47d",
+      "0x940FCa4Be8e0d43Be75Acc8136342f936f2179E8",
+      "0x6173b0709dEA144CC3662894870B57C53564cfA2",
+      "0xa8CC68e15D50c1c586b5B0D6e1D4D0Ef620fdd10"
+    ]
+  },
+  "re7-labs-basic": {
+    "name": "Re7 Labs Cluster",
+    "entity": "re7-labs",
+    "vaults": [
+      "0x67e4e4e73947257Ca62D118E0FBC56D06f11d96F",
+      "0xc41252D4F61D25658cD83Cc39942c49776E1B0C5",
+      "0xeE8693c11acE62839bB96beaE86696c1e78Aba3F",
+      "0x27052EA5E307B6e8566D9eE560231C6742a6c03c",
+      "0x82c710B9B225B43C0c90f097DB31f5f10a7F86FA",
+      "0x631D8E808f2c4177a8147Eaa39a4F57C47634dE8",
+      "0xa992d3777282c44ee980E9B0ca9Bd0c0E4f737aF",
+      "0xc40A68b5E536632b6572283F996B830B34607d01",
+      "0xAb254591B63138247eCcDF82170Eb64890d36b1B",
+      "0xea0C048c728578b1510EBDF9b692E8936D6Fbc90",
+      "0xcAd0be6e135C3d2859EA0c872cCD510C962765b7"
+    ]
+  },
+  "apostro-lido-ecosystem": {
+    "name": "Apostro Lido Ecosystem",
+    "entity": "apostro",
+    "vaults": [
+      "0x315F93a074D0948E4D068e98a34092750ea8A38C",
+      "0xf9a23b059858CdD0e3ED0DDE89864BB82B88aa19"
+    ]
+  },
+  "alterscope-bedrock": {
+    "name": "Alterscope Bedrock",
+    "description": "Foundational vaults designed for maximium market stability.",
+    "entity": "alterscope",
+    "vaults": [
+      "0x9167Ff08C18Ea05d70D5CBf0c576A33DCeE6de06",
+      "0x25C538cc5c5B4cDdf9a9A656f90d2d8129E841B2",
+      "0xD1552d878FE4869539ba4D03D207B54913a5C273",
+      "0xFc323C1727853872A85098EA89a6882853B708dd",
+      "0xd6506dB835B465d5d823add8667362d7b86cFe5F",
+      "0x5a0064007ddDEa2C8d6547A7B1E862c619500994",
+      "0x41722452C0348501825C494ec6C1579e9c32D277",
+      "0xF69FF7901E199AE4Fc354048DA09C23c7699716c",
+      "0xEd667E0DE292C040CF2183302c8DBDe1C06447d7",
+      "0xB77e25555C2b3e6BCe5329D83eFD248534A907Aa",
+      "0x1987c2DCf5674Cf90bEceBAd502714c357ce126a",
+      "0x28c6F8D44179ac93a5EBAe24189d887eeEF38cea",
+      "0x6fc6BeCAe0fFAA08f699ec072f31983821a4D7ce",
+      "0xaE4D563FC348e0FC3697Ed940b23a86779e095C8",
+      "0xb4f7761C459D09f414e1190df275be3E24535750",
+      "0xd005125E525664feC9394CEE5466Da15262fFe01",
+      "0xa2f045eC60C624c46F1075FC589Df0f936F822C2"
+    ]
+  },
+  "alterscope-ascend": {
+    "name": "Alterscope Ascend",
+    "description": "The Ascend vaults diversify collateralization options and achieve higher returns while ensuring high market stability.",
+    "entity": "alterscope",
+    "vaults": [
+      "0x99ba39845C4A12341C4B8cCEba1F11F4f6f84046",
+      "0xE5b9686c0cc4Be8a47eb4ed265d4203EA8232f94",
+      "0xdFD25B2304f4F08031b4125ee49ea2Df6aB8B19b"
+    ]
+  },
+  "yieldnest-max": {
+    "name": "YieldNest Max Vaults",
+    "description": "Merging DeFi's best strategies into single, unified, high-powered assets.",
+    "entity": "yieldnest",
+    "vaults": [
+      "0x29D824d54Fd5118543E81637b8f865d045191F30",
+      "0x6d18F74AAD8494B789aE34b5455816F79664d209",
+      "0x45c3B59d53e2e148Aaa6a857521059676D5c0489",
+      "0x05755D78caD24417c42960b93D3Bf821a92e4d82",
+      "0x91Fa3167591Fe29071F265d076B64c22A89Ae9AD",
+      "0x7fAb04FF2717d9A6B71A51c56c29697179597D40",
+      "0x69272D6E8B196247C5263FCdf5c7ED6A70d4e626",
+      "0x3183893120bDaa00Fa4d5d812EA59C4237f32D22"
+    ]
+  },
+  "idle-credit-vaults": {
+    "name": "Idle DAO Credit Vaults",
+    "entity": "idle",
+    "vaults": [
+      "0xd820C8129a853a04dC7e42C64aE62509f531eE5A",
+      "0x166d8B62E1748D04eDf39d0078F1Fe4aA01D475E"
+    ]
+  },
+  "mev-capital-weth": {
+    "name": "MEV Capital wETH Cluster",
+    "entity": "mev-capital",
+    "vaults": [
+      "0xc4984bB39465465432321519839c489F4275B164",
+      "0x6b6976aA97CD2473B388fA9b9eEb8Cca4F5a77a4",
+      "0x6C37d34a895456AA29CABe0caCB60FC56309C7ac",
+      "0x9426C7a40d5C9DD709cbc2894a7E6481f265B6Bb",
+      "0x01d1a1cd5955B2feFb167e8bc200A00BfAda8977",
+      "0x0DE3821015518a6179A51d27Bc7ed4a0a3C45b52",
+      "0xb07bf05AF5a13D357AA1220c661BB0FB791beDcb",
+      "0xE3ea69f8661FFac04E269f99C14ba73e2Bb10633",
+      "0x9913790dD5d3d8389f682a15e4Fa90a22891ff49",
+      "0xc5Ff8Dde483903ffd2fbE5bf54a02B80F2baE7F7",
+      "0xFc1b4e3D8291746CCdEb813805C8912BBE0a7316",
+      "0xe00A44e1210BAe0EACEeeaF202c349d4B16480FE",
+      "0x463Af6Add7b5806cF0EA30ec30F2030bF4F05175",
+      "0xe2D6A2a16ff6d3bbc4C90736A7e6F7Cc3C9B8fa9",
+      "0x1334d0E5ca5855A803998fcC78548142BEF36e3B",
+      "0x2306e17C7198282985a95b1cE0f63820846d0290"
+    ]
+  },
+  "swaap-labs": {
+    "name": "Swaap Lend",
+    "entity": ["swaap-labs"],
+    "vaults": [
+      "0x716bF454066a84F39A2F78b5707e79a9d64f1225",
+      "0xf2f826c190D020A6D1EC422bF2269E63b8b315E0",
+      "0x19756be2473A9C3351A426568FF9630c9D67f300",
+      "0x57995a00bA1e3E17BCF08BA775BF225cA1f5F25e",
+      "0xd45a56F5b67eBA836295B4c95fd6EA48D1334938",
+      "0x49aEC2e6137615f0cf1CAE334B5f3211953144bE"
+    ]
+  },
+  "apostro-btc-cluster": {
+    "name": "Apostro BTCfi",
+    "entity": "apostro",
+    "vaults": [
+      "0xE0c1bdab9A7d487c4fEcd402cb9b4f8B347e73c3",
+      "0x29A9E5A004002Ff9E960bb8BB536E076F53cbDF1",
+      "0x82D2CE1f71cbe391c05E21132811e5172d51A6EE",
+      "0xC605471aE09e0b7daA9e8813707d0DDbf9429Ad2",
+      "0xA2038a5B7Ce1C195F0C52b77134c5369CCfe0148",
+      "0xBc99605074737d36266f45E0d192dDe6CFDFd72a",
+      "0xD7B67cF0e7EDA8268b0f42de82dF87DfCC9a8537",
+      "0x396fD980c0463Ccb285d3ec6830978D5D97976EC"
+    ]
+  },
+  "resolv": {
+    "name": "Resolv",
+    "entity": "apostro",
+    "vaults": [
+      "0xcBC9B61177444A793B85442D3a953B90f6170b7D",
+      "0x9f12d29c7CC72bb3d237E2D042A6D890421f9899",
+      "0x3A8992754E2EF51D8F90620d2766278af5C59b90",
+      "0xe11a462235A39C90921C4a59D4E8B2707330BCf2",
+      "0x7f1d29e70C644c387ded640B28E106e29E349074",
+      "0x81fa50cBe6C7Ed61961fE601B7c5AC334c2c84bB",
+      "0xc60400289B32E840909795a063aeccFb093E0b47",
+      "0xc27B9587414f7d725e89b989aA63948a93f8DB71",
+      "0xe3Fd841FE4701bBA147e478CfBc46889116B7d3d",
+      "0xd9bf69f6228edDd2BeC11A32ed400F36C794E111",
+      "0x34BCe3856cF4b614649fb0eA022BfbD393601509",
+      "0x87d99f04082f56Ad480889D53ECA913318a1876B",
+      "0xAA341D82e914117b4082d03f11AF05CfD4C4B007",
+      "0x771b3E45383c878bBf0b291268344f9CC0011a04"
+    ]
+  },
+  "tulipa-resolv": {
+    "name": "Tulipa Resolv",
+    "description": "A market tailored to borrowing stablecoins against the Resolv ecosystem. Governed by Tulipa Capital.",
+    "entity": "tulipa-capital",
+    "vaults": [
+      "0x3b028b4b6c567eF5f8Ca1144Da4FbaA0D973F228",
+      "0x6707Fe1A8a2F9B8a10441778ac6F6Be2Ed991aE7",
+      "0xDe60b6090570C87d9ED0eF164C381469184758eB"
+    ]
+  },
+  "usual-stability-loan": {
+    "name": "Usual Stability Loan",
+    "description": "The Usual Stability Loan enables users to leverage their USD0++ to arbitrage when it depegs, by borrowing USD0 at a fixed interest rate.",
+    "entity": "usual",
+    "url": "https://snapshot.box/#/s:usualmoney.eth/proposal/0x1b081d3b3dd611094e96b690dc5d981d86bb724cce5ef562d9eecbe580b535c2",
+    "vaults": [
+      "0xd001f0a15D272542687b2677BA627f48A4333b5d",
+      "0xF037eeEBA7729c39114B9711c75FbccCa4A343C8"
+    ]
+  },
+  "usual-pt-usd0-plus-plus-vault": {
+    "name": "Usual's PT USD0++ vault",
+    "description": "Usual's PT USD0++ vault lets you borrow USD0 at a fixed rate using Pendle PTs as collateral, unlocking leveraged yield opportunities with stable borrowing costs and minimized rate volatility.",
+    "entity": "usual",
+    "url": "https://app.pendle.finance/trade/markets/0xf8094570485b124b4f2abe98909a87511489c162/swap?view=pt&chain=ethereum",
+    "vaults": [
+      "0x77633305032b6bDf3eBdB373b3bADcCb2786ce2f",
+      "0xcC45184138c6De9AA4e15d6F83fC737a363Bd739"
+    ]
+  },
+  "openeden": {
+    "name": "OpenEden",
+    "description": "A market tailored to borrowing stablecoins against the OpenEden ecosystem. Governed by Ouroboros Capital.",
+    "entity": "ouroboros-capital",
+    "vaults": [
+      "0xE27A96f4c9528e3d32E6f31c6aCa9281EbEA0338",
+      "0x738bC1e2F68F5ec58ea456fb4269B4b3f51714b5",
+      "0x75f66ed34c274eaD52CFA25De9388E98e12Edb33"
+    ]
+  },
+  "tulipa-tac": {
+    "name": "Tulipa TAC",
+    "description": "A market tailored to lending and borrowing against the TAC Summoning Assets. Governed by Tulipa Capital.",
+    "entity": "tulipa-capital",
+    "vaults": [
+      "0x056575e43A440D49B14E94022Be9FAD85679D138",
+      "0xf6066FAFd24880879448867CFD683337146F4335",
+      "0x41d2d958fE1eBd8b19078E8B52A32C427C91BBca",
+      "0x7C6eeE35BE1f1f25CEf65E01D1a63c994c7b6978",
+      "0x303AD748D7981e10F362eF5721890BCB449b3ec6",
+      "0xCC029aE7dFF547fA893F831BB4A0E99B6BCb6aE0",
+      "0x9D1c3A8A70c1f586256117399304e6a48f657838"
+    ]
+  },
+  "tulipa-noon": {
+    "name": "Noon",
+    "description": "A market tailored to lending and borrowing against the Noon ecosystem. Governed by Tulipa Capital.",
+    "entity": "tulipa-capital",
+    "vaults": [
+      "0x53208e965EB66841598fB8f983a41936EeE6d774",
+      "0xc7d526eFefa2e3073531f9e054F5c8cD1d0eC636",
+      "0xc1fF5490651B9B8d0400B0146E7fb174B90E315B",
+      "0x89963076d2aBCf6b3C449A8f0f69439C47C0464d",
+      "0xC6C60104eD3db10074537B30489A0b744AdD9545",
+      "0x87331E9540175B65184972B59943A9877541903e"
+    ]
+  },
+  "zerolend-openeden": {
+    "name": "ZeroLend OpenEden",
+    "description": "A market tailored to lending and borrowing with OpenEden Products. Governed by ZeroLend.",
+    "entity": "zerolend",
+    "vaults": [
+      "0xc455D77597353264E4BA9BED7Ac9daF8e05029C9",
+      "0x50588aEA583A9dF5076EE990329871296618eD58",
+      "0x2CDdF87973007150A7aC3AF45F89Dc37C7123Ec6"
+    ]
+  },
+  "k3-liquity-hub": {
+    "name": "Liquity Hub",
+    "description": "A stablecoin cluster designed to support the Liquity ecosystem.",
+    "entity": "k3",
+    "vaults": [
+      "0x9ee58f0618D2Bf130b73F2d843c45C69548B981B",
+      "0xc6137BC1378c2396051e06417704d31615F77Cb9",
+      "0xC1C51C5c9EfaF0c485Aa1097AE9690B5e102975A",
+      "0xEc91B109817b20d4Ebd364A181666327194763F0",
+      "0x5e4CfCe564d741373bD0078CB256E94696354C46",
+      "0x5BcA378719Ad01BB8e490d09e2326EDfEe66b954"
+    ]
+  },
+  "keyring": {
+    "name": "Keyring zkVerified Cluster",
+    "entity": "keyring",
+    "vaults": [
+      "0x10e0B2B42874ADF8c29D5F900c0D18b61f048ffb",
+      "0xB6c9363DB7D651106Da38C68F34253688Fa25cda",
+      "0x33e97864E44631e6d31b81051DAABcD4C31bF792",
+      "0x8B5b205aE1E241974d06695a1f09612069B46d6B",
+      "0x5d0C14A46eBb659dDccd5b8F5e9707a5714857a0",
+      "0xbB118Aa3Ee6eE1941fC33eeb3889d41c639736C6",
+      "0x879aEC0aAE98AC89598ae8F765EB9A9ee307d16f",
+      "0xb41B0F1e5873784067db2bf3F63090B5452f0818",
+      "0x67695A8e976E25D5939aD31297DFCFfC8d050eA0",
+      "0x54Fcb10F9506cf8d16D75346e398539F029240Bd"
+    ]
+  },
+  "frontier-upshift": {
+    "name": "Frontier Upshift",
+    "description": "An isolated market dedicated to the Upshift ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+    "entity": ["euler-dao", "gauntlet"],
+    "url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/10?u=upshift.fi",
+    "vaults": [
+      "0x87c414825aB3d1E9bdC773e9B1fD968822c9CF51",
+      "0x3F714090F7648139043349f599A48904187d76D0",
+      "0x18337806b02b02099209b05589E6db85acD4345C"
+    ],
+    "isGovernanceLimited": true
+  },
+  "frontier-bedrock": {
+    "name": "Frontier Bedrock",
+    "description": "An isolated market dedicated to the Bedrock ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+    "entity": ["euler-dao", "gauntlet"],
+    "url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/24?u=eulerlabs",
+    "vaults": [
+      "0xf4Be316983b70B5fF8dc8C0DDd62156EF2DCa454",
+      "0x154ED44b252c58e5768f022C5143929329b28Ed9",
+      "0x759B703efc8932E0d8404583A2e1FeD68A726071"
+    ],
+    "isGovernanceLimited": true
+  },
+  "frontier-puffer": {
+    "name": "Frontier Puffer",
+    "description": "An isolated market dedicated to the Puffer ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+    "entity": ["euler-dao", "gauntlet"],
+    "url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/11",
+    "vaults": [
+      "0xc2c4aBae84fbb5b7bAAB52301A924b1F986C66bd",
+      "0x46BC453666BA11b4b08B0804E49A9D797546ee7D"
+    ],
+    "isGovernanceLimited": true
+  },
+  "frontier-pareto": {
+    "name": "Frontier Pareto",
+    "description": "An isolated market dedicated to the Pareto ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+    "entity": ["euler-dao", "gauntlet"],
+    "url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/2",
+    "vaults": [
+      "0xa94F9CE821C7bD57cc12991CB46ca19f5789278F",
+      "0xF2ef3e32FCF4BfE21266727281B73F95Cd520411",
+      "0xa3e0943d0196F76db58d3549C9a7528Ef4ac335F"
+    ],
+    "isGovernanceLimited": true
+  },
+  "frontier-reservoir": {
+    "name": "Frontier Reservoir",
+    "description": "An isolated market dedicated to the Reservoir ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+    "entity": ["euler-dao", "gauntlet"],
+    "vaults": [
+      "0x15A60a5300c1D9179d4c0e2B49bac6146794Ae1F",
+      "0x607589437A3b52f536706642a9b7c70192C37940",
+      "0xACD489AdEC33cd7c46FC448cf77376f1EaF5f3ab",
+      "0xb5c0EC2b53b87720f2D99B75c01C6d4Da0e724F8"
+    ],
+    "isGovernanceLimited": true
+  },
+  "frontier-spark": {
+    "name": "Frontier Spark",
+    "description": "An isolated market dedicated to the Spark ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+    "entity": ["euler-dao", "gauntlet"],
+    "vaults": [
+      "0x58CD6Ae0Bd452d3219366C7ddD37cA1A12d2ff59",
+      "0x7fD46A66b5Ed6dC395603678cf9BE8846e01Fe25",
+      "0x13a2322907cea4CE62525476f9dAc191f0B590Db",
+      "0x00011d9A1EB3d7278b8DF2391e2E32f6f9bcF293"
+    ],
+    "isGovernanceLimited": true
+  },
+  "frontier-yieldfi": {
+    "name": "Frontier YieldFi",
+    "description": "An isolated market dedicated to the YieldFi ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+    "entity": ["euler-dao", "gauntlet"],
+    "vaults": [
+      "0xc727069c0eb261Be642272fe3848518192683fFc",
+      "0xd90f695D98b6E1fAA7BA516A777fF12cc3C111a4",
+      "0x3eD8f77Ca6FD9e5c6DBBcC9696BF93F30C3A2BA5",
+      "0xb76e9E04d4356756c9b8E002Cc4dabFA4e02BD93"
+    ],
+    "isGovernanceLimited": true
+  },
+  "re7-hyperwave": {
+    "name": "Re7 Hyperwave",
+    "description": "An isolated market dedicated to the Hyperwave ecosystem. Risk is curated by Re7 Labs.",
+    "entity": "re7-labs",
+    "vaults": [
+      "0x3C75C170671acb394804DfAf63e4F9891C121625",
+      "0x22cC732cbca457F6811295bCE75B01822544bA52",
+      "0x4f36Bebf5dDb4b804F9C72644aEe82BAd165BFfc",
+      "0x9c6bDF412723ADF2798B163638083783506B26e3"
+    ]
+  },
+  "frontier-strata": {
+    "name": "Frontier Strata",
+    "description": "An isolated market dedicated to the Strata ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+    "entity": ["euler-dao", "gauntlet"],
+    "vaults": [
+      "0x53AfE3343f322c4189Ab69E0D048efd154259419",
+      "0x09FcE883cC16894274802c01e3b9cD90EAE4e43d",
+      "0x6331D36C27D967c4261D59a8f80d58d03089810A",
+      "0xBd360BB80E6CBe86e533B672Df6BFc054602ADBD",
+      "0xCfC6a55Aa72DCF3755A515aE8B82552028b63D2A",
+      "0xF0ee6229CB0c3ed8DA93cA49191c7261566783AF",
+      "0xDa8A66A3BD832B02f331330CCCC94D8e8987E9C7",
+      "0xfa68974D007D755697Cc4D4E1e4057034EA666df",
+      "0x32eeB44e99195622290eC1BD229Cd5E766DA251C"
+    ],
+    "isGovernanceLimited": true
+  },
+  "frontier-cap": {
+    "name": "Frontier Cap",
+    "description": "An isolated market dedicated to the Cap Money ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+    "entity": ["euler-dao", "gauntlet"],
+    "vaults": [
+      "0x6Fe7Fa90756434645F0b0428fDff78E99Dda0FBc",
+      "0x35d4f830543700B7280084280ae3236f178E88e3",
+      "0x55F9bACE2C864aC0D3392Ea9fa654b605F21A3d3",
+      "0xb7522C867B8AFae5e89638b59fb38f31B0821795",
+      "0x97C72647be549C6079dC95235271A9a0Fe7ECc21",
+      "0x69a2fAD6AC96DDa502f7d240fB4EC88f85217705"
+    ],
+    "isGovernanceLimited": true
+  },
+  "frontier-asymmetry": {
+    "name": "Frontier Asymmetry",
+    "description": "An isolated market dedicated to the Asymmetry Finance ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+    "entity": ["euler-dao", "gauntlet"],
+    "vaults": [
+      "0x477d7feE2d9dca0bA8F7CbEAa7da219b5bb2d1a7",
+      "0x51147D1af05AEb441dE62db292f46580084c8380",
+      "0x46DEA62E4D631ce3FaC68ECeC2b1C4bA1500075A",
+      "0x209C28798CD14Dda47F384Df102a24da0e76e0d4",
+      "0x580478CcDB9C001B71E2f08f0eCeA1c8bf62dbF6",
+      "0xb02b07429477ed07a9fE70e24A6E2e2408C2D432"
+    ],
+    "isGovernanceLimited": true
+  },
+  "rezerve-vaults": {
+    "name": "Rezerve Markets",
+    "description": "An isolated market dedicated to the Rezerve ecosystem. Risk is curated by ZeroLend.",
+    "entity": "zerolend",
+    "vaults": [
+      "0xBAfC1A885e25C6F594e06F12edaeB46858547724",
+      "0x3036155a3eD3e7F6FFf1E96e88f1FE51b6D2f3aD"
+    ],
+    "deprecatedVaults": [
+      "0xC42d337861878baa4dC820D9E6B6C667C2b57e8A",
+      "0x1ab9e92CFdE84f38868753d30fFc43F812B803C5",
+      "0xc364FD9637fe562A2d5a1cbc7d1Ab7F32bE900ef",
+      "0x0Aa836a55c7C3513D15795E7ec23378Ef511BB9f"
+    ],
+    "deprecationReason": "This vault has been deprecated from the Euler UI because the governance has been transferred to an unrecognized entity without a notice. The Rezerve team claims to be the new risk curator."
+  },
+  "telosc-stream": {
+    "name": "TelosC Stream",
+    "description": "A market tailored to the Stream ecosystem. Governed and curated by TelosC.",
+    "entity": "telosc",
+    "vaults": [],
+    "deprecatedVaults": [
+      "0xf1BA8c5Ca5aB011d06f31e64DaD313d204aCb9Eb",
+      "0xbBc4BC013F1C9Ed674098A6d156C02C0a21a285C",
+      "0x9B62c8D69AcB1397f585BA63eee2597c5Bd0f644",
+      "0x01864aE3c7d5f507cC4c24cA67B4CABbDdA37EcD",
+      "0x211711F277f146fC947D7053B41BB71BB5b5FC2C",
+      "0x038dd0Eb275B7DE3B07884f1Fa106eD6423C45F2",
+      "0x0f080Bf8Ba818001EcfB2f461708D8484323D0cE"
+    ],
+    "deprecationReason": "This vault has been deprecated from the Euler UI because it has exposure to insolvent positions held by Stream. Please contact TelosC to find out more information about future redemption."
+  },
+  "horizon-clearstar": {
+    "name": "Horizon Clearstar",
+    "description": "A market designed to lend against a mix of assets targeting moderate risk exposure and high returns. Risk is curated by Clearstar Labs.",
+    "entity": "clearstar",
+    "vaults": [
+      "0x47e2ab1392e04C1d86E696012D0544aedBDA6Ddb",
+      "0x9f936cD7bC9c7aA90Bbb27Ce1B961655434754cB",
+      "0x43BC56b2E10AcAd2b0dc021F1C9866DB259CEb5B",
+      "0x14d777665EA3bb224f222E69c85bcA890557d078",
+      "0x63f6505E0525e9b91595d997549C5F50e061AD3C",
+      "0xC063BDd3181356f973c3085dB60074262462A8F3",
+      "0x579aD59BB4AF72d732f45F67ef231E9f59EF9E4F",
+      "0xa020DeE164D92c48eD064B163cC93B582197346A",
+      "0x66BfA41C915f86AC9Cf63D413d2e2E4f0EbBaB2D",
+      "0xE27dC1Bdc3F47E44DdA0B90901F3ee61E43Ffe77",
+      "0xeBA46a9219297cFE7cDAbF41172BaD25a8785d96",
+      "0xC68BC0a9b0544F0B4AA28Ce253f9e1B28038F2cD",
+      "0xe2b187502b655BE77BF04261f879c5cF3fc0639F"
+    ]
+  },
+  "frontier-mapollo": {
+    "name": "Frontier mAPOLLO",
+    "description": "An isolated market dedicated to the mAPOLLO ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+    "entity": ["euler-dao", "gauntlet"],
+    "vaults": [
+      "0x2a356443FeE07703266066c6Bb1B11b82d8246AD",
+      "0xC11d6b78D8c609A6cbf66E89DBfea06b011B0AEf",
+      "0x49d9fd20f1d61648Fa9434a8c0C33174F5614eB8",
+      "0xF75D18F76859764aBe4D13cA2eBaCeFF0b90b262"
+    ],
+    "isGovernanceLimited": true
+  },
+  "hyperithm-mhyper": {
+    "name": "Hyperithm mHYPER",
+    "entity": ["hyperithm"],
+    "vaults": [
+      "0x8aFF4fe319c30475D27eC623D7d44bD5eCFe9616",
+      "0xFa827C231062FA549143dF3C1b3584a016642630",
+      "0xf8C84D6A51Cf24c9AC79ABcE2823255FFA871145",
+      "0xad857E37bCdb3dD0712f5F3267D33ec1085F1a1d"
+    ]
+  },
+  "sentora-rlusd": {
+    "name": "Sentora RLUSD",
+    "description": "A market for supplying and borrowing RLUSD against bluechip assets. Governed by Sentora.",
+    "entity": "sentora",
+    "url": "https://sentora.com/platform/defi-strategies",
+    "vaults": [
+      "0xaF5372792a29dC6b296d6FFD4AA3386aff8f9BB2",
+      "0x9bD52F2805c6aF014132874124686e7b248c2Cbb",
+      "0x56B829e465170c3aCcAd33a3E0512b239b202242"
+    ]
+  },
+  "sentora-pyusd": {
+    "name": "Sentora PYUSD",
+    "description": "A market for supplying and borrowing PYUSD against bluechip assets. Governed by Sentora.",
+    "entity": "sentora",
+    "url": "https://sentora.com/platform/defi-strategies",
+    "vaults": [
+      "0xba98fC35C9dfd69178AD5dcE9FA29c64554783b5",
+      "0xAB2726DAf820Aa9270D14Db9B18c8d187cbF2f30",
+      "0x660750B98c3a53DD1303f2e43F543eF037d3F625",
+      "0xdB6165bd1F90cb507F30AbDb42c4596CE4D894f4"
+    ]
+  },
+  "sentora-ondo": {
+    "name": "Sentora Ondo Global Markets",
+    "description": "A market for borrowing against Ondo tokenized equities and ETFs. Governed by Sentora.",
+    "entity": "sentora",
+    "url": "https://sentora.com/platform/defi-strategies",
+    "vaults": [
+      "0x69ebF644533655B5D3b6455e8E47ddE21b5993f1",
+      "0xAD31be884B0A20237077820318a74a02A449095C",
+      "0x5344b18BdCEE6A2DcC5f0627b5f06751dB2e5A8e",
+      "0x4Fab48EDdA433E240F1c2A2E85Ee5cF38d4A6180"
+    ],
+    "block": [
       "CA",
       "US",
       "BR",
@@ -761,55 +761,55 @@
       "LI",
       "NO"
     ]
-	},
-	"9s-fxusd": {
-		"name": "9 Summits fxUSD flagship",
-		"description": "A market for supplying and borrowing fxUSD against and Aladdin DAO ecosystem and other bluechip assets. $FXN aligned curation by 9 Summits",
-		"entity": "9summits",
-		"vaults": [
-			"0xB6761Fb99062f6dBc09395f6F16dF239720017db",
-			"0x85F948273BDc705BaCD29BF5A2c87067E8d9d63a"
-		]
-	},
-	"frontier-mevbtc": {
-		"name": "Frontier mevBTC",
-		"description": "An isolated market dedicated to the Midas mevBTC ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
-		"vaults": [
-			"0xbed968285CB7E32463dfc1324c329BA458dc650D",
-			"0xe01354f8A8fa44E87d96574D1E5Bcd78D61d6EbE",
-			"0x29118d7Bfe913Ad60ba296183Fc97bbba84f8b84"
-		],
-		"isGovernanceLimited": true
-	},
-	"frontier-mfarm": {
-		"name": "Frontier mFARM",
-		"description": "An isolated market dedicated to the Midas mFARM ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
-		"vaults": [
-			"0x6f2598c99722428563F852F49002C6826316c751",
-			"0x806EeA930A2D5395829275e498c3a90eD56a4E7E",
-			"0x1A5dd6D0A3B4F47d157f69365068d2e1df868825",
-			"0x5748534ffeBbaf42a8a180f0e745b44f629e85Df"
-		],
-		"isGovernanceLimited": true
-	},
-	"telosc-wormhole": {
-		"name": "TelosC Wormhole",
-		"description": "A market tailored to the Wormhole ecosystem. Governed and curated by TelosC.",
-		"entity": "telosc",
-		"vaults": [
-			"0x783431B152C3e83B0c4dCD602E62a2C55d442F9B",
-			"0x2e6Dff8907aFdA5D62A278e21B2e65c8595D746E"
-		]
-	},
-	"telosc-almanak": {
-		"name": "TelosC Almanak",
-		"description": "A market tailored to the Almanak ecosystem. Governed and curated by TelosC.",
-		"entity": "telosc",
-		"vaults": [
-			"0x6f61Cdfef82136F33bF20685CAACF83330F35649",
-			"0xB85313155Cfaa1bf592bB157B46c3554A7652b1F"
-		]
-	}
+  },
+  "9s-fxusd": {
+    "name": "9 Summits fxUSD flagship",
+    "description": "A market for supplying and borrowing fxUSD against and Aladdin DAO ecosystem and other bluechip assets. $FXN aligned curation by 9 Summits",
+    "entity": "9summits",
+    "vaults": [
+      "0xB6761Fb99062f6dBc09395f6F16dF239720017db",
+      "0x85F948273BDc705BaCD29BF5A2c87067E8d9d63a"
+    ]
+  },
+  "frontier-mevbtc": {
+    "name": "Frontier mevBTC",
+    "description": "An isolated market dedicated to the Midas mevBTC ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+    "entity": ["euler-dao", "gauntlet"],
+    "vaults": [
+      "0xbed968285CB7E32463dfc1324c329BA458dc650D",
+      "0xe01354f8A8fa44E87d96574D1E5Bcd78D61d6EbE",
+      "0x29118d7Bfe913Ad60ba296183Fc97bbba84f8b84"
+    ],
+    "isGovernanceLimited": true
+  },
+  "frontier-mfarm": {
+    "name": "Frontier mFARM",
+    "description": "An isolated market dedicated to the Midas mFARM ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+    "entity": ["euler-dao", "gauntlet"],
+    "vaults": [
+      "0x6f2598c99722428563F852F49002C6826316c751",
+      "0x806EeA930A2D5395829275e498c3a90eD56a4E7E",
+      "0x1A5dd6D0A3B4F47d157f69365068d2e1df868825",
+      "0x5748534ffeBbaf42a8a180f0e745b44f629e85Df"
+    ],
+    "isGovernanceLimited": true
+  },
+  "telosc-wormhole": {
+    "name": "TelosC Wormhole",
+    "description": "A market tailored to the Wormhole ecosystem. Governed and curated by TelosC.",
+    "entity": "telosc",
+    "vaults": [
+      "0x783431B152C3e83B0c4dCD602E62a2C55d442F9B",
+      "0x2e6Dff8907aFdA5D62A278e21B2e65c8595D746E"
+    ]
+  },
+  "telosc-almanak": {
+    "name": "TelosC Almanak",
+    "description": "A market tailored to the Almanak ecosystem. Governed and curated by TelosC.",
+    "entity": "telosc",
+    "vaults": [
+      "0x6f61Cdfef82136F33bF20685CAACF83330F35649",
+      "0xB85313155Cfaa1bf592bB157B46c3554A7652b1F"
+    ]
+  }
 }
