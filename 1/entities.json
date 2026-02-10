@@ -254,28 +254,28 @@
 			"twitter": "hyperithm"
 		}
 	},
-	"9summits": {
-		"name": "9 Summits",
-		"logo": "9summits.png",
-		"description": "By curating top-performing vaults, we empower our clients to access the best opportunities in decentralized finance with confidence and precision.",
-		"url": "https://9summits.io/",
+	"demo-entity2": {
+		"name": "Demo Entity",
+		"logo": "euler.svg",
+		"description": "",
+		"url": "",
 		"addresses": {
-			"0x23E6aecB76675462Ad8f2B31eC7C492060c2fAEF": "9 Summits vault Admin Multisig"
+			"0x7A7fa5CF58ebaF5a585d9c0144F901155fEE5e85": "Governor"
 		},
 		"social": {
-			"twitter": "nine_summits"
+			"twitter": "euler"
 		}
 	},
-	"yieldnest": {
-		"name": "YieldNest",
-		"logo": "yieldnest.svg",
-		"description": "YieldNest - Simple. Secure. Supercharged Yield protocol. Fine tunes and curates vaults across Defi to offer the best risk-adjusted returns.",
-		"url": "https://yieldnest.finance/",
+	"demo-entity": {
+		"name": "Demo Entity",
+		"logo": "euler.svg",
+		"description": "",
+		"url": "",
 		"addresses": {
-			"0xfcad670592a3b24869C0b51a6c6FDED4F95D6975": "YieldNest YnSecurityCouncil Multisig"
+			"0x75cFE4ef963232ae8313aC33e21fC39241338618": "Governor"
 		},
 		"social": {
-			"twitter": "yieldnestfi"
+			"twitter": "euler"
 		}
 	}
 }
