@@ -1,0 +1,11 @@
+{
+  "editor.formatOnSave": false,
+  "[json]": {
+    "editor.formatOnSave": false
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.fixAll.biome": false,
+    "source.fixAll.eslint": false
+  }
+}
