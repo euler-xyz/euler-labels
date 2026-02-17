@@ -1670,13 +1670,13 @@
 		"entity": "sentora"
 	},
 	"0xB6761Fb99062f6dBc09395f6F16dF239720017db": {
-		"name": "9 Summits Aladdin DAO fxUSD",
-		"description": "A fxUSD vault collateralized by other vaults in the Aladdin DAO excosystem",
+		"name": "9Summits Aladdin DAO fxUSD",
+		"description": "A fxUSD vault collateralized by other vaults in the Aladdin DAO ecosystem",
 		"entity": "9summits"
 	},
 	"0x85F948273BDc705BaCD29BF5A2c87067E8d9d63a": {
-		"name": "9 Summits Aladdin DAO fxSAVE",
-		"description": "A fxSAVE vault in the Aladdin DAO excosystem market",
+		"name": "9Summits Aladdin DAO fxSAVE",
+		"description": "A fxSAVE vault in the Aladdin DAO ecosystem market",
 		"entity": "9summits"
 	},
 	"0xbed968285CB7E32463dfc1324c329BA458dc650D": {
@@ -1749,4 +1749,9 @@
 		"description": "An alUSD vault in the TelosC Almanak market",
 		"entity": "telosc"
 	}
+		"0x7b03cbe6fb080761c3fbdc88fa65c7ff78eb1074": {
+		"name": "9Summits PT-fxSAVE-30APR2026",
+		"description": "A PT-fxSAVE-30APR2026 vault in the Aladdin DAO ecosystem market",
+		"entity": "9summits"
+	},
 }
