@@ -258,5 +258,10 @@
 		"name": "AlphaGrowth USDC Base Vault",
 		"description": "A borrowing-enabled USDC vault managed by AlphaGrowth, enabling leveraged strategies with reUSD collateral.",
 		"entity": "alphagrowth"
+	},
+	"0x55BaaAe6AabE8D40D6d591f993000De9CBd7958A": {
+		"name": "Edge UltraYield rETH",
+		"description": "rETH vault collateralized by other vaults in the Edge UltraYield Cluster.",
+		"entity": "edge-capital"
 	}
 }
