@@ -249,16 +249,6 @@
 		"description": "Component of the Keyring Avalanche Cluster",
 		"entity": "keyring"
 	},
-	"0x04293b180bf9C57eD0923C99c784Cb571f0A9Ae9": {
-		"name": "Reservoir Labs BTC.b",
-		"description": "Component of the Reservoir Labs Avalanche Cluster",
-		"entity": "reservoir-labs"
-	},
-	"0xA321a38b03a7218157668a724E186f3a81CF56c8": {
-		"name": "Reservoir Labs WBTC.e",
-		"description": "Component of the Reservoir Labs Avalanche Cluster",
-		"entity": "reservoir-labs"
-	},
 	"0x2cBb39cdC3c0bA22F857A5A8cA54DEE6D7fD04bF": {
 		"name": "Keyring xBTC.b",
 		"description": "Component of the Keyring Cluster",
