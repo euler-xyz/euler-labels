@@ -59,6 +59,11 @@
 		"description": "Yield-bearing HYPE leverage strategies, isolated from HypurrFi Prime Market",
 		"entity": "clearstar"
 	},
+	"0x23bf20b4d6E280eacA58826a541c9eE5401BD357": {
+		"name": "HypurrFi Yield lHYPE",
+		"description": "Yield-bearing HYPE leverage strategies, isolated from HypurrFi Prime Market",
+		"entity": "clearstar"
+	},
 	"0xF73c654d468f5485bF15F3470B78851a49257704": {
 		"name": "HypurrFi Prime WHYPE",
 		"description": "Fully cross-collateralized cluster for highly liquid assets on HyperEVM",
