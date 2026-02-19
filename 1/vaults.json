@@ -1748,5 +1748,25 @@
 		"name": "TelosC Almanak USDC",
 		"description": "An alUSD vault in the TelosC Almanak market",
 		"entity": "telosc"
+	},
+	"0x63bA834bFf27Dd1d80533a56cA27Aa058AAA1130": {
+		"name": "Cozy USDC",
+		"description": "A USDC vault managed by Cozy with an external Cozy Safety Module backstop for residual bad debt post-liquidation.",
+		"entity": "cozy-finance"
+	},
+	"0xCee57C0F5060063F6875CFF54225F814Db604150": {
+		"name": "Cozy WBTC",
+		"description": "A WBTC non-borrowable collateral vault managed by Cozy.",
+		"entity": "cozy-finance"
+	},
+	"0x0f3CC0aF08538A9ec551aF53e4F0a19fD7273ed9": {
+		"name": "Cozy cbBTC",
+		"description": "A cbBTC non-borrowable collateral vault managed by Cozy.",
+		"entity": "cozy-finance"
+	},
+	"0xfCF0461DD3E6Aa8Eb3fE45D87f20D44A7115EA97": {
+		"name": "Cozy wstETH",
+		"description": "A wstETH non-borrowable collateral vault managed by Cozy.",
+		"entity": "cozy-finance"
 	}
 }
