@@ -72,10 +72,11 @@
 		"description": "Cozy Finance builds modular on-chain risk infrastructure and financial primitives that enable protocols and vault managers to structure, price, and manage risk in a programmable way.",
 		"url": "https://www.cozy.finance/",
 		"addresses": {
-			"0xA2b11225539c704ABE29A0e0a51d8774408bd271": "Cozy Finance Euler Access Control Governor"
+			"0xA2b11225539c704ABE29A0e0a51d8774408bd271": "Cozy Finance Governor"
 		},
 		"social": {
-			"twitter": "cozyfinance"
+			"twitter": "cozyfinance",
+			"github": "Cozy-Finance"
 		}
 	},
 	"dinero": {

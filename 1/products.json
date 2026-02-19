@@ -790,9 +790,9 @@
 	},
 	"cozy-usdc": {
 		"name": "Cozy USDC",
-		"description": "A market tailored to borrowing USDC against BTC and ETH bluechip collateral. Curated and operated by Cozy. The USDC vault integrates a Cozy Safety Module backstop to cover residual bad debt post-liquidation.",
+		"description": "A market tailored to borrowing USDC against BTC and ETH bluechip collateral. Curated and operated by Cozy. The USDC vault integrates a Cozy Safety Module backstop to cover residual bad debt post-liquidation. For more details, please visit here: https://earn.cozy.finance/vault/1/0xd72fa8e1508da5d08b6597c8b901a5fe28a15109?vaultVariant=base.",
 		"entity": "cozy-finance",
-		"url": "https://www.cozy.finance/",
+		"url": "https://earn.cozy.finance/vault/1/0xd72fa8e1508da5d08b6597c8b901a5fe28a15109?vaultVariant=base",
 		"logo": "cozy.png",
 		"vaults": [
 			"0x63bA834bFf27Dd1d80533a56cA27Aa058AAA1130",
