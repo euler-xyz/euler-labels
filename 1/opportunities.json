@@ -3,5 +3,10 @@
 		"cozy": {
 			"safetyModule": "0xa1075fC5eF0fa5521D13B0EB6609138d736c1B5D"
 		}
+	},
+	"0x63bA834bFf27Dd1d80533a56cA27Aa058AAA1130": {
+		"cozy": {
+			"safetyModule": "0xd72fa8E1508Da5d08b6597C8b901a5fe28a15109"
+		}
 	}
 }
