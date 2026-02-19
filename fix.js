@@ -1,5 +1,7 @@
 const fs = require("node:fs");
-const { getAddress } = require("ethers");
+const {
+	utils: { getAddress },
+} = require("ethers");
 
 // Get all chain directories
 const chainDirs = fs.readdirSync(".").filter((dir) => /^\d+$/.test(dir));
