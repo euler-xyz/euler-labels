@@ -8,5 +8,19 @@
 			"0xdB6856e8478DB159c383a0c4b274E259AF83cB15",
 			"0xDAe9216E77Fef9CFaE15B57783d99C99b66dE0d1"
 		]
+	},
+	"kpk-securitize": {
+		"name": "kpk Securitize Market",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In feugiat leo ac dui consectetur, ut tincidunt mi ornare. Quisque dictum in lorem et vestibulum. Cras faucibus ante sed purus imperdiet, in feugiat nunc luctus. Nulla facilisi. Etiam id metus eu sapien suscipit blandit. Nullam euismod odio quis dictum porttitor. Etiam massa enim, convallis nec felis quis, tincidunt porta eros. Proin sed consequat ex.",
+		"entity": ["kpk", "securitize"],
+		"url": "",
+		"vaults": [
+			"0x2Ff596321782FE034102f55af5ad707A4Ce0d6a7",
+			"0x8b2d7534Ffcf6c2a9226f439CDaC26c6666E97a9",
+			"0x75e2DAbcfb2edb0e63445ac9F027e3048508eA2b",
+			"0x33c57482EeDb4f81F86A693e8F0CE5D369819edC",
+			"0x1cFC56665c2718454e8dDf975dC37aF0bc68B5aA",
+			"0xCf4846E0d8A8667c516B844EB72A4d6e7430101D"
+		]
 	}
 }

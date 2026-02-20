@@ -277,5 +277,29 @@
 		"social": {
 			"twitter": "euler"
 		}
+	},
+	"securitize": {
+		"name": "Securitize",
+		"logo": "securitize.png",
+		"description": "Securitize is the leader in real-world asset tokenization, bridging traditional finance and DeFi with institutional-grade infrastructure.",
+		"url": "https://securitize.io/",
+		"addresses": {
+			"0x22F53B51E4272F954f25BC377B1b759c6C5A528B": "Securitize MPC wallet"
+		},
+		"social": {
+			"twitter": "Securitize"
+		}
+	},
+	"kpk": {
+		"name": "kpk",
+		"logo": "kpk.png",
+		"description": "kpk helps organisations secure, manage, and grow their onchain assets. We're building the largest liquidity network in crypto to support your project's strategic goals.",
+		"url": "https://kpk.io/",
+		"addresses": {
+			"0x331D9C769185AE25233314859d53c2b9203a1204": "Temporary Governor"
+		},
+		"social": {
+			"twitter": "kpk_io"
+		}
 	}
 }
