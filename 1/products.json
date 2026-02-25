@@ -800,19 +800,5 @@
 			"0x0f3CC0aF08538A9ec551aF53e4F0a19fD7273ed9",
 			"0xfCF0461DD3E6Aa8Eb3fE45D87f20D44A7115EA97"
 		]
-	},
-"kpk-securitize": {
-  "name": "kpk Securitize Markets",
-  "description": "Borrow USDC against Securitize tokenised RWAs, including VBILL, STAC, and ACRED, with Securitize-managed compliant collateral vaults.",
-  "entity": ["kpk", "securitize"],
-  "url": "https://kpk.io/curation/",
-  "vaults": [
-    "0x2Ff596321782FE034102f55af5ad707A4Ce0d6a7",
-    "0x8b2d7534Ffcf6c2a9226f439CDaC26c6666E97a9",
-    "0x75e2DAbcfb2edb0e63445ac9F027e3048508eA2b",
-    "0xCf4846E0d8A8667c516B844EB72A4d6e7430101D",
-    "0x1cFC56665c2718454e8dDf975dC37aF0bc68B5aA",
-    "0x33c57482EeDb4f81F86A693e8F0CE5D369819edC"
-  ]
-}
+	}
 }
