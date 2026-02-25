@@ -291,6 +291,18 @@
 			"twitter": "yieldnestfi"
 		}
 	},
+	"securitize": {
+		"name": "Securitize",
+		"logo": "securitize.png",
+		"description": "Securitize is the leader in real-world asset tokenization, bridging traditional finance and DeFi with institutional-grade infrastructure.",
+		"url": "https://securitize.io/",
+		"addresses": {
+			"0x22F53B51E4272F954f25BC377B1b759c6C5A528B": "Securitize MPC wallet"
+		},
+		"social": {
+			"twitter": "Securitize"
+		}
+	},
 	"kpk": {
 		"name": "kpk",
 		"logo": "kpk.svg",
