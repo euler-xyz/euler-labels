@@ -1,3 +1,6 @@
 [
-  "0x2B47c128b35DDDcB66Ce2FA5B33c95314a7de245"
+  {
+    "address": "0x2B47c128b35DDDcB66Ce2FA5B33c95314a7de245",
+    "description": "Lend USDC against Securitize tokenised RWAs, including VBILL, STAC, and ACRED, with Securitize-managed compliant collateral vaults. Allocations are managed by kpk"
+  }
 ]

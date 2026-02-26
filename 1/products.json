@@ -9,18 +9,49 @@
 			"0xDAe9216E77Fef9CFaE15B57783d99C99b66dE0d1"
 		]
 	},
-	"kpk-securitize": {
-		"name": "kpk Securitize Markets",
-		"description": "Borrow USDC against Securitize tokenised RWAs, including VBILL, STAC, and ACRED, with Securitize-managed compliant collateral vaults.",
+	"kpk-securitize-vbill": {
+		"name": "kpk Securitize VBILL",
+		"description": "Borrow USDC against VBILL - Securitize tokenised RWA, with Securitize-managed compliant collateral vaults.",
 		"entity": ["kpk", "securitize"],
 		"url": "https://kpk.io/curation/",
 		"vaults": [
-			"0x2Ff596321782FE034102f55af5ad707A4Ce0d6a7",
-			"0x8b2d7534Ffcf6c2a9226f439CDaC26c6666E97a9",
-			"0x75e2DAbcfb2edb0e63445ac9F027e3048508eA2b",
 			"0xCf4846E0d8A8667c516B844EB72A4d6e7430101D",
+			"0x2Ff596321782FE034102f55af5ad707A4Ce0d6a7"
+		],
+		"vaultOverrides": {
+			"0x2Ff596321782FE034102f55af5ad707A4Ce0d6a7": {
+				"description": "Lend against Securitize asset VBILL, in a vault curated by kpk."
+			}
+		}
+	},
+	"kpk-securitize-stac": {
+		"name": "kpk Securitize STAC",
+		"description": "Borrow USDC against STAC - Securitize tokenised RWA, with Securitize-managed compliant collateral vaults.",
+		"entity": ["kpk", "securitize"],
+		"url": "https://kpk.io/curation/",
+		"vaults": [
 			"0x1cFC56665c2718454e8dDf975dC37aF0bc68B5aA",
-			"0x33c57482EeDb4f81F86A693e8F0CE5D369819edC"
-		]
+			"0x8b2d7534Ffcf6c2a9226f439CDaC26c6666E97a9"
+		],
+		"vaultOverrides": {
+			"0x8b2d7534Ffcf6c2a9226f439CDaC26c6666E97a9": {
+				"description": "Lend against Securitize asset STAC, in a vault curated by kpk."
+			}
+		}
+	},
+	"kpk-securitize-acred": {
+		"name": "kpk Securitize ACRED",
+		"description": "Borrow USDC against ACRED - Securitize tokenised RWA, with Securitize-managed compliant collateral vaults.",
+		"entity": ["kpk", "securitize"],
+		"url": "https://kpk.io/curation/",
+		"vaults": [
+			"0x33c57482EeDb4f81F86A693e8F0CE5D369819edC",
+			"0x75e2DAbcfb2edb0e63445ac9F027e3048508eA2b"
+		],
+		"vaultOverrides": {
+			"0x75e2DAbcfb2edb0e63445ac9F027e3048508eA2b": {
+				"description": "Lend against Securitize asset ACRED, in a vault curated by kpk."
+			}
+		}
 	}
 }
