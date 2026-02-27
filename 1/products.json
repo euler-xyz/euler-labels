@@ -1,13 +1,33 @@
 {
-	"testing-market": {
-		"name": "Testing Market",
-		"description": "Testing these vaults",
-		"entity": ["demo-entity", "demo-entity2"],
-		"url": "",
+	"sentora-ondo": {
+		"name": "Sentora Ondo Global Markets",
+		"description": "A market for borrowing against Ondo tokenized equities and ETFs. Governed by Sentora.",
+		"entity": "sentora",
+		"url": "https://sentora.com/platform/defi-strategies",
 		"vaults": [
-			"0xdB6856e8478DB159c383a0c4b274E259AF83cB15",
-			"0xDAe9216E77Fef9CFaE15B57783d99C99b66dE0d1"
-		]
+			"0x69ebF644533655B5D3b6455e8E47ddE21b5993f1",
+			"0xAD31be884B0A20237077820318a74a02A449095C",
+			"0x5344b18BdCEE6A2DcC5f0627b5f06751dB2e5A8e",
+			"0x4Fab48EDdA433E240F1c2A2E85Ee5cF38d4A6180"
+		],
+		"featuredVaults": [
+			"0x69ebF644533655B5D3b6455e8E47ddE21b5993f1",
+			"0xAD31be884B0A20237077820318a74a02A449095C",
+			"0x5344b18BdCEE6A2DcC5f0627b5f06751dB2e5A8e",
+			"0x4Fab48EDdA433E240F1c2A2E85Ee5cF38d4A6180"
+		],
+		"block": ["CA", "US"],
+		"vaultOverrides": {
+			"0xAD31be884B0A20237077820318a74a02A449095C": {
+				"restricted": ["EU", "EFTA", "BR", "HK", "MY", "SG", "GB"]
+			},
+			"0x5344b18BdCEE6A2DcC5f0627b5f06751dB2e5A8e": {
+				"restricted": ["EU", "EFTA", "BR", "HK", "MY", "SG", "GB"]
+			},
+			"0x4Fab48EDdA433E240F1c2A2E85Ee5cF38d4A6180": {
+				"restricted": ["EU", "EFTA", "BR", "HK", "MY", "SG", "GB"]
+			}
+		}
 	},
 	"kpk-securitize-vbill": {
 		"name": "kpk Securitize VBILL",
