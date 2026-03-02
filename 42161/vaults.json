@@ -199,6 +199,11 @@
 		"description": "Component of the Euler Theo Market",
 		"entity": ["euler-dao", "gauntlet"]
 	},
+	"0x27b3b7f97EF233912384d0B5b3844173710F4D3C": {
+		"name": "Euler Theo PT-thBILL-18JUN2026",
+		"description": "Component of the Euler Theo Market",
+		"entity": ["euler-dao", "gauntlet"]
+	},
 	"0x124BeC4d119bc4B5d250f0b0114f2087f8EeDB57": {
 		"name": "AlphaGrowth yUSND Arbitrum Vault",
 		"description": "A supply-only yUSND vault managed by AlphaGrowth.",
