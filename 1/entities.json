@@ -290,21 +290,5 @@
 		"social": {
 			"twitter": "yieldnestfi"
 		}
-	},
-	"kpk": {
-		"name": "kpk",
-		"logo": "kpk.svg",
-		"description": "kpk is a DeFi-native digital asset manager curating non-custodial vaults on major lending platforms, leveraging advanced automation to deliver superior risk-adjusted yields.",
-		"url": "https://kpk.io/",
-		"addresses": {
-			"0x1572063377a9a4f8065BD7bA0D7fa135cd13051F": "kpk Euler Curation Safe",
-			"0x354C92aF243d53A24feb3dFF20372Af7b7c47478": "kpk Security Council Safe",
-			"0xF0Cf1e3Ec6264b03241826f5b2aBda17B4352A75": "kpk Deployer 1",
-			"0x331D9C769185AE25233314859d53c2b9203a1204": "kpk Deployer 2"
-		},
-		"social": {
-			"twitter": "kpk_io",
-			"github": "karpatkey"
-		}
 	}
 }
