@@ -437,11 +437,13 @@
 		"name": "ZeroLend OpenEden",
 		"description": "A market tailored to lending and borrowing with OpenEden Products. Governed by ZeroLend.",
 		"entity": "zerolend",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0xc455D77597353264E4BA9BED7Ac9daF8e05029C9",
 			"0x50588aEA583A9dF5076EE990329871296618eD58",
 			"0x2CDdF87973007150A7aC3AF45F89Dc37C7123Ec6"
-		]
+		],
+		"deprecationReason": "This vault has been deprecated following an announcement from the curator: https://x.com/zerolendxyz/status/2023402141545791866"
 	},
 	"k3-liquity-hub": {
 		"name": "Liquity Hub",
@@ -615,11 +617,10 @@
 		"name": "Rezerve Markets",
 		"description": "An isolated market dedicated to the Rezerve ecosystem. Risk is curated by ZeroLend.",
 		"entity": "zerolend",
-		"vaults": [
-			"0xBAfC1A885e25C6F594e06F12edaeB46858547724",
-			"0x3036155a3eD3e7F6FFf1E96e88f1FE51b6D2f3aD"
-		],
+		"vaults": [],
 		"deprecatedVaults": [
+			"0xBAfC1A885e25C6F594e06F12edaeB46858547724",
+			"0x3036155a3eD3e7F6FFf1E96e88f1FE51b6D2f3aD",
 			"0xC42d337861878baa4dC820D9E6B6C667C2b57e8A",
 			"0x1ab9e92CFdE84f38868753d30fFc43F812B803C5",
 			"0xc364FD9637fe562A2d5a1cbc7d1Ab7F32bE900ef",

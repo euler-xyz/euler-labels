@@ -70,14 +70,16 @@
 		"name": "ZeroLend Prime Market",
 		"description": "A Berachain-focused market curated by ZeroLend.",
 		"entity": "zerolend",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0x28C96C7028451454729750171BD3Bb95D7261B5a",
 			"0x112B77A77753b092306b1c04Bd70215FeD4e00a1",
 			"0x1B33D24C4C78a61DA80Cfa2d0dB72ca0851d5fb1",
 			"0x2247B618251b8d913F3fD10B749e7bfa3E3a28db",
 			"0x401c4633dCa173bf75ac85F2D270d98c063F54CF",
 			"0x2Bf927248f86Bd78ce300d00C7c8A175e3e0B38a"
-		]
+		],
+		"deprecationReason": "This vault has been deprecated following an announcement from the curator: https://x.com/zerolendxyz/status/2023402141545791866"
 	},
 	"mev-capital-blue": {
 		"name": "MEV Capital Berachain Blue Cluster",
