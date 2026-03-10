@@ -67,5 +67,17 @@
 				"restricted": ["EU", "EFTA", "BR", "HK", "MY", "SG", "GB"]
 			}
 		}
+	},
+	"sentora-rlusd": {
+		"name": "Sentora RLUSD",
+		"description": "Sentora RLUSD vault exposed only through curated earn strategies.",
+		"entity": "sentora",
+		"url": "https://sentora.com/platform/defi-strategies",
+		"vaults": ["0x9bD52F2805c6aF014132874124686e7b248c2Cbb"],
+		"vaultOverrides": {
+			"0x9bD52F2805c6aF014132874124686e7b248c2Cbb": {
+				"exposureOnly": true
+			}
+		}
 	}
 }
