@@ -1,7 +1,7 @@
 {
 	"kpk-securitize-vbill": {
 		"name": "kpk Securitize VBILL",
-		"description": "Borrow USDC against VBILL - Securitize tokenised RWA, with Securitize-managed compliant collateral vaults.",
+		"description": "Borrow USDC against VBILL, a Securitize-issued tokenised US Treasury fund. kpk curates this Euler market, while the issuer-governed compliant collateral vault preserves transfer restrictions and allows VBILL to be used as collateral on Euler.<br>&nbsp;<br><b>Access</b>: Available to eligible, KYC-approved users.<br>&nbsp;<br>Contact Securitize to complete onboarding, or reach out to kpk for guidance.",
 		"entity": ["kpk", "securitize"],
 		"url": "https://kpk.io/curation/",
 		"vaults": [
