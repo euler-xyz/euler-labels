@@ -1,7 +1,7 @@
 {
 	"kpk-securitize-vbill": {
 		"name": "kpk Securitize",
-		"description": "",
+		"description": "Borrow USDC against Securitize tokenised RWAs, including VBILL, STAC, and ACRED, with Securitize-managed compliant collateral vaults.",
 		"entity": ["kpk", "securitize"],
 		"url": "https://kpk.io/curation/",
 		"vaults": [
