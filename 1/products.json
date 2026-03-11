@@ -1,46 +1,35 @@
 {
 	"kpk-securitize-vbill": {
-		"name": "kpk Securitize VBILL",
-		"description": "Borrow USDC against VBILL, a Securitize-issued tokenised US Treasury fund. kpk curates this Euler market, while the issuer-governed compliant collateral vault preserves transfer restrictions and allows VBILL to be used as collateral on Euler.<br>&nbsp;<br><b>Access</b>: Available to eligible, KYC-approved users.<br>&nbsp;<br>Contact Securitize to complete onboarding, or reach out to kpk for guidance.",
+		"name": "kpk Securitize",
+		"description": "",
 		"entity": ["kpk", "securitize"],
 		"url": "https://kpk.io/curation/",
 		"vaults": [
 			"0xCf4846E0d8A8667c516B844EB72A4d6e7430101D",
-			"0x2Ff596321782FE034102f55af5ad707A4Ce0d6a7"
-		],
-		"vaultOverrides": {
-			"0x2Ff596321782FE034102f55af5ad707A4Ce0d6a7": {
-				"description": "Lend against Securitize asset VBILL, in a vault curated by kpk."
-			}
-		}
-	},
-	"kpk-securitize-stac": {
-		"name": "kpk Securitize STAC",
-		"description": "Borrow USDC against STAC - Securitize tokenised RWA, with Securitize-managed compliant collateral vaults.",
-		"entity": ["kpk", "securitize"],
-		"url": "https://kpk.io/curation/",
-		"vaults": [
+			"0x2Ff596321782FE034102f55af5ad707A4Ce0d6a7",
 			"0x1cFC56665c2718454e8dDf975dC37aF0bc68B5aA",
-			"0x8b2d7534Ffcf6c2a9226f439CDaC26c6666E97a9"
-		],
-		"vaultOverrides": {
-			"0x8b2d7534Ffcf6c2a9226f439CDaC26c6666E97a9": {
-				"description": "Lend against Securitize asset STAC, in a vault curated by kpk."
-			}
-		}
-	},
-	"kpk-securitize-acred": {
-		"name": "kpk Securitize ACRED",
-		"description": "Borrow USDC against ACRED - Securitize tokenised RWA, with Securitize-managed compliant collateral vaults.",
-		"entity": ["kpk", "securitize"],
-		"url": "https://kpk.io/curation/",
-		"vaults": [
+			"0x8b2d7534Ffcf6c2a9226f439CDaC26c6666E97a9",
 			"0x33c57482EeDb4f81F86A693e8F0CE5D369819edC",
 			"0x75e2DAbcfb2edb0e63445ac9F027e3048508eA2b"
 		],
 		"vaultOverrides": {
+			"0xCf4846E0d8A8667c516B844EB72A4d6e7430101D": {
+				"description": "Borrow USDC against VBILL, a Securitize-issued tokenised US Treasury fund. kpk curates this Euler market, while the issuer-governed compliant collateral vault preserves transfer restrictions and allows VBILL to be used as collateral on Euler. \n\n**Access**: Available to eligible, KYC-approved users.\n\nContact Securitize to complete onboarding, or reach out to kpk for guidance."
+			},
+			"0x2Ff596321782FE034102f55af5ad707A4Ce0d6a7": {
+				"description": "Lend USDC directly in an isolated kpk-curated Euler vault where borrowers post VBILL, a Securitize-issued tokenised US Treasury fund, as collateral. Depositors earn yield from borrower interest."
+			},
+			"0x1cFC56665c2718454e8dDf975dC37aF0bc68B5aA": {
+				"description": "Borrow USDC against STAC, a Securitize-issued tokenised AAA CLO fund. kpk curates this Euler market, while the issuer-governed compliant collateral vault preserves transfer restrictions and allows STAC to be used as collateral on Euler.\n\n**Access**: Available to eligible, KYC-approved users.\n\nContact Securitize to complete onboarding, or reach out to kpk for guidance."
+			},
+			"0x8b2d7534Ffcf6c2a9226f439CDaC26c6666E97a9": {
+				"description": "Lend USDC directly in an isolated kpk-curated Euler vault where borrowers post STAC, a Securitize-issued tokenised AAA CLO fund, as collateral. Depositors earn yield from borrower interest."
+			},
+			"0x33c57482EeDb4f81F86A693e8F0CE5D369819edC": {
+				"description": "Borrow USDC against ACRED, a Securitize-issued tokenised diversified credit fund. kpk curates this Euler market, while the issuer-governed compliant collateral vault preserves transfer restrictions and allows ACRED to be used as collateral on Euler.\n\n**Access**: Available to eligible, KYC-approved users.\n\nContact Securitize to complete onboarding, or reach out to kpk for guidance."
+			},
 			"0x75e2DAbcfb2edb0e63445ac9F027e3048508eA2b": {
-				"description": "Lend against Securitize asset ACRED, in a vault curated by kpk."
+				"description": "Lend USDC directly in an isolated kpk-curated Euler vault where borrowers post ACRED, a Securitize-issued tokenised diversified credit fund, as collateral. Depositors earn yield from borrower interest."
 			}
 		}
 	},
