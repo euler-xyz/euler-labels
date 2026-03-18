@@ -1,0 +1,57 @@
+name: Sync to S3
+
+on:
+  push:
+    branches:
+      - master
+      - institutional
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Verify data
+        run: node verify.js
+
+      - name: Stage data for S3
+        run: |
+          mkdir -p _s3_stage
+          # Copy chain directories (numeric names)
+          for dir in [0-9]*/; do
+            [ -d "$dir" ] && cp -r "$dir" _s3_stage/
+          done
+          # Copy logo directory
+          [ -d logo ] && cp -r logo _s3_stage/
+
+      - name: Sync to S3
+        uses: jakejarvis/s3-sync-action@v0.5.1
+        with:
+          args: --follow-symlinks --delete
+        env:
+          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: ${{ secrets.AWS_REGION }}
+          SOURCE_DIR: _s3_stage
+          DEST_DIR: ${{ github.ref_name }}
+
+      - name: Notify Slack on failure
+        if: failure()
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          msg="❌ Sync to S3 failed for ${{ github.ref_name }} in ${{ github.repository }}. Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          payload=$(jq -n --arg text "$msg" '{text: $text}')
+          curl -X POST -H 'Content-type: application/json' --data "$payload" "$SLACK_WEBHOOK_URL"
