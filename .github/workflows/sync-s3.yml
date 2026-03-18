@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - institutional
+      - fix/fix_s3_upload
 
 jobs:
   sync:
