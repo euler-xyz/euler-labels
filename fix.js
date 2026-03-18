@@ -64,7 +64,6 @@ function fixChain(chainId) {
 	// Read all JSON files
 	const files = {
 		entities: JSON.parse(fs.readFileSync(`${chainId}/entities.json`, "utf8")),
-		vaults: JSON.parse(fs.readFileSync(`${chainId}/vaults.json`, "utf8")),
 		points: JSON.parse(fs.readFileSync(`${chainId}/points.json`, "utf8")),
 		products: JSON.parse(fs.readFileSync(`${chainId}/products.json`, "utf8")),
 		opportunities: JSON.parse(
@@ -89,18 +88,6 @@ function fixChain(chainId) {
 				entity.addresses = result;
 			}
 		}
-	}
-
-	// Fix vault addresses
-	const {
-		result: fixedVaults,
-		changes: vaultChanges,
-		changesList: vaultChangesList,
-	} = fixAddressesInObject(files.vaults, "vault");
-	if (vaultChanges) {
-		changes = true;
-		changesList.push(...vaultChangesList);
-		files.vaults = fixedVaults;
 	}
 
 	// Fix product vault addresses

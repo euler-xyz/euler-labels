@@ -35,7 +35,6 @@ console.log("OK");
 
 function validateChain(chainId) {
 	const entities = loadJsonFile(`${chainId}/entities.json`);
-	const vaults = loadJsonFile(`${chainId}/vaults.json`);
 	const products = loadJsonFile(`${chainId}/products.json`);
 	const points = loadJsonFile(`${chainId}/points.json`);
 	const opportunities = loadJsonFile(`${chainId}/opportunities.json`);
@@ -58,24 +57,6 @@ function validateChain(chainId) {
 			throw Error(`entities: logo not found: ${entity.logo}`);
 	}
 
-	for (const vaultId of Object.keys(vaults)) {
-		const vault = vaults[vaultId];
-
-		if (vaultId !== ethers.getAddress(vaultId))
-			throw Error(`vaults: malformed vaultId: ${vaultId}`);
-		if (!vault.name) throw Error(`vaults: missing name: ${vaultId}`);
-		if (!vault.description)
-			throw Error(`vaults: missing description: ${vaultId}`);
-
-		for (const entity of getArray(vault.entity)) {
-			if (!entities[entity])
-				throw Error(`vaults: no such entity ${vault.entity}`);
-		}
-	}
-
-	const vaultsSeenInProducts = {};
-	const deprecatedVaults = new Set();
-
 	for (const productId of Object.keys(products)) {
 		const product = products[productId];
 
@@ -88,10 +69,6 @@ function validateChain(chainId) {
 				throw Error(
 					`products: malformed vault address: ${ethers.getAddress(addr)}`,
 				);
-			if (!vaults[addr]) throw Error(`products: unknown vault: ${addr}`);
-			if (vaultsSeenInProducts[addr])
-				throw Error(`products: vault in multiple products: ${addr}`);
-			vaultsSeenInProducts[addr] = true;
 		}
 
 		if (product.deprecatedVaults) {
@@ -100,13 +77,10 @@ function validateChain(chainId) {
 					throw Error(
 						`products: malformed deprecated vault address: ${ethers.getAddress(addr)}`,
 					);
-				if (!vaults[addr])
-					throw Error(`products: unknown deprecated vault: ${addr}`);
 				if (product.vaults.includes(addr))
 					throw Error(
 						`products: vault ${addr} cannot be both in vaults and deprecatedVaults: ${productId}`,
 					);
-				deprecatedVaults.add(addr);
 			}
 		}
 
@@ -123,11 +97,6 @@ function validateChain(chainId) {
 
 		if (product.logo && !logos[product.logo])
 			throw Error(`products: logo not found: ${product.logo}`);
-	}
-
-	for (const vaultId of Object.keys(vaults)) {
-		if (!vaultsSeenInProducts[vaultId] && !deprecatedVaults.has(vaultId))
-			throw Error(`vault does not exist in product: ${vaultId}`);
 	}
 
 	for (const point of points) {
