@@ -805,5 +805,16 @@
 			"0x0f3CC0aF08538A9ec551aF53e4F0a19fD7273ed9",
 			"0xfCF0461DD3E6Aa8Eb3fE45D87f20D44A7115EA97"
 		]
+	},
+	"origin-arm-weth": {
+		"name": "Origin stETH ARM / WETH",
+		"description": "Borrow WETH against Origin's stETH ARM vault tokens.",
+		"entity": "alphagrowth",
+		"logo": "origin.png",
+		"url": "https://app.originprotocol.com/#/arm/",
+		"vaults": [
+			"0xbD858DCee56Df1F0CBa44e6F5a469FbfeC0246cd",
+			"0x2ff5F1Ca35f5100226ac58E1BFE5aac56919443B"
+		]
 	}
 }

@@ -1788,5 +1788,15 @@
 		"name": "Cozy wstETH",
 		"description": "A wstETH non-borrowable collateral vault managed by Cozy.",
 		"entity": "cozy-finance"
+	},
+	"0xbD858DCee56Df1F0CBa44e6F5a469FbfeC0246cd": {
+		"name": "ARM-WETH-stETH Collateral",
+		"description": "Origin stETH ARM vault token collateral vault. Accepts ARM-WETH-stETH shares as collateral for borrowing WETH.",
+		"entity": "alphagrowth"
+	},
+	"0x2ff5F1Ca35f5100226ac58E1BFE5aac56919443B": {
+		"name": "WETH Lending",
+		"description": "WETH lending vault for the Origin ARM market. Lenders deposit WETH to earn yield from ARM borrowers.",
+		"entity": "alphagrowth"
 	}
 }
