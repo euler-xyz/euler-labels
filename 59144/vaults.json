@@ -119,6 +119,11 @@
 		"description": "Component of the Re7 Labs USD Cluster",
 		"entity": "re7-labs"
 	},
+	"0x54A4dC1Df3861166c976EAA5A66b4d2DCc7E7f55": {
+		"name": "Re7 Labs USD Cluster yUSD",
+		"description": "Component of the Re7 Labs USD Cluster",
+		"entity": "re7-labs"
+	},
 	"0x90F0B8a5ba9E1248d3E4F69f4592123D6E8C918d": {
 		"name": "Avant Cluster savUSD",
 		"description": "Component of the Avant Cluster",
