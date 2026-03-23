@@ -5,7 +5,6 @@ on:
     branches:
       - master
       - institutional
-      - fix/s3_files_caching
 
 jobs:
   sync:
