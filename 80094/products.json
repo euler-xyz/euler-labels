@@ -79,7 +79,8 @@
 			"0x401c4633dCa173bf75ac85F2D270d98c063F54CF",
 			"0x2Bf927248f86Bd78ce300d00C7c8A175e3e0B38a"
 		],
-		"deprecationReason": "This vault has been deprecated following an announcement from the curator: https://x.com/zerolendxyz/status/2023402141545791866"
+		"deprecationReason": "Deprecated following an announcement from the curator: https://x.com/zerolendxyz/status/2023402141545791866",
+		"notExplorable": true
 	},
 	"mev-capital-blue": {
 		"name": "MEV Capital Berachain Blue Cluster",

@@ -1,0 +1,29 @@
+[
+	"0xe818ad0D20D504C55601b9d5e0E137314414dec4",
+	"0xf5C972B760dBa38Bf57Ddb2912244F856E4F6812",
+	"0x2AD9fD319B10bB59734e1dBBE42E0AD06869E2Fb",
+	{
+		"address": "0xa5EeD1615cd883dD6883ca3a385F525e3bEB4E79",
+		"deprecated": true,
+		"deprecationReason": "Deprecated due to exposure to the insolvent positions held by Stream.",
+		"notExplorable": true
+	},
+	{
+		"address": "0xa9C251F8304b1B3Fc2b9e8fcae78D94Eff82Ac66",
+		"deprecated": true,
+		"deprecationReason": "Deprecated due to exposure to the insolvent positions held by Stream.",
+		"notExplorable": true
+	},
+	{
+		"address": "0x66bE42a0BdA425A8C3b3c2cF4F4Cb9EDfcAEd21d",
+		"deprecated": true,
+		"deprecationReason": "Deprecated due to exposure to the insolvent positions held by Stream.",
+		"notExplorable": true
+	},
+	{
+		"address": "0x9c46EE1f01d2b551048F5fF99a4659D98d04BED1",
+		"deprecated": true,
+		"deprecationReason": "Deprecated due to exposure to the Resolv security incident.",
+		"notExplorable": true
+	}
+]

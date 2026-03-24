@@ -42,7 +42,8 @@
 			"0xf3C6598A9Bc60771dCd4dD448Fb56122B7f8588a",
 			"0x64623F8617F0019FC155a84c5061b472577d23d0"
 		],
-		"deprecationReason": "This vault has been deprecated following an announcement from the curator: https://x.com/zerolendxyz/status/2023402141545791866"
+		"deprecationReason": "Deprecated following an announcement from the curator: https://x.com/zerolendxyz/status/2023402141545791866",
+		"notExplorable": true
 	},
 	"re7-labs-usd-cluster": {
 		"name": "Re7 Labs USD Cluster",

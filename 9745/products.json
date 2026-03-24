@@ -95,7 +95,8 @@
 			"0x2beBDc03D4268247c205ECB6926332221EC612AC",
 			"0x4718484ac9dc07fbbC078561e8f8Ef29e2a369CD"
 		],
-		"deprecationReason": "This vault has been deprecated from the Euler UI because it has exposure to the Resolv security incident.",
+		"deprecationReason": "Deprecated due to exposure to the Resolv security incident.",
+		"notExplorable": true,
 		"isGovernanceLimited": true
 	},
 	"frontier-resolv-rlp": {
@@ -107,7 +108,8 @@
 			"0xbd2D9A3c34f866387a371035dc94Cbe94759E6d8",
 			"0x538f01e0BA3cf3aB5b3837A0d138a3F67b9b8235"
 		],
-		"deprecationReason": "This vault has been deprecated from the Euler UI because it has exposure to the Resolv security incident.",
+		"deprecationReason": "Deprecated due to exposure to the Resolv security incident.",
+		"notExplorable": true,
 		"isGovernanceLimited": true
 	},
 	"telosc-stream": {

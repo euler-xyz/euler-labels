@@ -161,7 +161,8 @@
 			"0x0F93f35c0664A6a8231ccAe7E22f652c9c075b32",
 			"0xe47BABACfc9Ce5F85126fab7C7E211DA077d820E"
 		],
-		"deprecationReason": "This vault has been deprecated following the Yala Redemption Plan announcement. Please refer to Yala's social media and Discord for more information."
+		"deprecationReason": "Deprecated following the Yala Redemption Plan announcement. Refer to Yala's social media and Discord for details.",
+		"notExplorable": true
 	},
 	"stablecoin-maxi": {
 		"name": "Stablecoin Maxi",
@@ -408,7 +409,8 @@
 			"0x50588aEA583A9dF5076EE990329871296618eD58",
 			"0x2CDdF87973007150A7aC3AF45F89Dc37C7123Ec6"
 		],
-		"deprecationReason": "This vault has been deprecated following an announcement from the curator: https://x.com/zerolendxyz/status/2023402141545791866"
+		"deprecationReason": "Deprecated following an announcement from the curator: https://x.com/zerolendxyz/status/2023402141545791866",
+		"notExplorable": true
 	},
 	"k3-liquity-hub": {
 		"name": "Liquity Hub",
@@ -591,7 +593,8 @@
 			"0xc364FD9637fe562A2d5a1cbc7d1Ab7F32bE900ef",
 			"0x0Aa836a55c7C3513D15795E7ec23378Ef511BB9f"
 		],
-		"deprecationReason": "This vault has been deprecated from the Euler UI because the governance has been transferred to an unrecognized entity without a notice. The Rezerve team claims to be the new risk curator."
+		"deprecationReason": "Deprecated due to governance transfer to an unrecognized entity. The Rezerve team claims to be the new risk curator.",
+		"notExplorable": true
 	},
 	"telosc-stream": {
 		"name": "TelosC Stream",
@@ -607,7 +610,8 @@
 			"0x038dd0Eb275B7DE3B07884f1Fa106eD6423C45F2",
 			"0x0f080Bf8Ba818001EcfB2f461708D8484323D0cE"
 		],
-		"deprecationReason": "This vault has been deprecated from the Euler UI because it has exposure to insolvent positions held by Stream. Please contact TelosC to find out more information about future redemption."
+		"deprecationReason": "Deprecated due to exposure to insolvent positions held by Stream. Contact TelosC for information about future redemption.",
+		"notExplorable": true
 	},
 	"horizon-clearstar": {
 		"name": "Horizon Clearstar",
