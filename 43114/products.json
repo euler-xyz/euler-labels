@@ -85,7 +85,8 @@
 			"0x2cBb39cdC3c0bA22F857A5A8cA54DEE6D7fD04bF"
 		],
 		"portfolioNotice": "Eligible users of impacted vaults can claim approximately 80% position recovery for a limited time. See the [Elixir announcement](https://x.com/elixir/status/2033922212986597612?s=20) for details on how to submit your claim.",
-		"notExplorable": true
+		"notExplorable": true,
+		"keyring": true
 	},
 	"reservoir-labs-avalanche": {
 		"name": "Reservoir Labs Cluster",

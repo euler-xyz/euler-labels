@@ -442,7 +442,8 @@
 			"0xb41B0F1e5873784067db2bf3F63090B5452f0818",
 			"0x67695A8e976E25D5939aD31297DFCFfC8d050eA0",
 			"0x54Fcb10F9506cf8d16D75346e398539F029240Bd"
-		]
+		],
+		"keyring": true
 	},
 	"frontier-upshift": {
 		"name": "Frontier Upshift",
