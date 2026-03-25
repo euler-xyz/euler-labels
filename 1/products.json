@@ -315,7 +315,8 @@
 	"resolv": {
 		"name": "Resolv",
 		"entity": "apostro",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0xcBC9B61177444A793B85442D3a953B90f6170b7D",
 			"0x9f12d29c7CC72bb3d237E2D042A6D890421f9899",
 			"0x3A8992754E2EF51D8F90620d2766278af5C59b90",
@@ -330,7 +331,9 @@
 			"0x87d99f04082f56Ad480889D53ECA913318a1876B",
 			"0xAA341D82e914117b4082d03f11AF05CfD4C4B007",
 			"0x771b3E45383c878bBf0b291268344f9CC0011a04"
-		]
+		],
+		"deprecationReason": "Deprecated due to exposure to the Resolv security incident.",
+		"notExplorable": true
 	},
 	"tulipa-resolv": {
 		"name": "Tulipa Resolv",
