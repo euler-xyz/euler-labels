@@ -19,36 +19,6 @@
 		],
 		"isGovernanceLimited": true
 	},
-	"re7labs-ethena": {
-		"name": "Re7 Labs Ethena",
-		"entity": ["re7-labs"],
-		"vaults": [
-			"0x36e62e73DF0fE8e68280a93AD2F2d20CA25D0eF3",
-			"0xa61dcB570c7C728F992417bf20e8F56f2669A46C"
-		],
-		"externalVaults": ["0x8Cd0DE6204176600918dA79eC70d0d9F4c2588e3"]
-	},
-	"re7labs-usdt0": {
-		"name": "Re7 Labs USDT0",
-		"entity": ["re7-labs"],
-		"vaults": [
-			"0x8Cd0DE6204176600918dA79eC70d0d9F4c2588e3",
-			"0x729b92Cfea63CB238199eA61a01eA510D80fa444"
-		],
-		"externalVaults": [
-			"0x36e62e73DF0fE8e68280a93AD2F2d20CA25D0eF3",
-			"0xa61dcB570c7C728F992417bf20e8F56f2669A46C",
-			"0x7760dBA44A3b9dC740F8Ac3e49AFb66f1EC46834"
-		]
-	},
-	"re7labs-weth": {
-		"name": "Re7 Labs WETH",
-		"entity": ["re7-labs"],
-		"vaults": [
-			"0x7760dBA44A3b9dC740F8Ac3e49AFb66f1EC46834",
-			"0xa4a52AF57D8FD82FC827E5E400007ab65CEf271b"
-		]
-	},
 	"re7labs-xusd": {
 		"name": "Re7 Labs xUSD",
 		"entity": ["re7-labs"],
@@ -281,14 +251,6 @@
 			"0x0a660B3Cbd7DF118501E7Bb0f2D6eC5E5e583Bf8",
 			"0xD833C4C39FDd2296DeB2f8fa451e0769909B4171",
 			"0x54Ff34EF2503b9636b0EbD31143b9edD124E262f"
-		]
-	},
-	"alphaping-yieldfi-vyusd": {
-		"name": "Alphaping YieldFi vyUSD",
-		"entity": ["euler-dao"],
-		"vaults": [
-			"0xbef0b4f89Ee840CE2aC4e96ea37e807aE4F35231",
-			"0x51d03b57f916EAf631892702A32a5378b93a6998"
 		]
 	}
 }

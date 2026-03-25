@@ -740,7 +740,8 @@
 		"name": "Frontier mFARM",
 		"description": "An isolated market dedicated to the Midas mFARM ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
 		"entity": ["euler-dao", "gauntlet"],
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0x6f2598c99722428563F852F49002C6826316c751",
 			"0x806EeA930A2D5395829275e498c3a90eD56a4E7E",
 			"0x1A5dd6D0A3B4F47d157f69365068d2e1df868825",
