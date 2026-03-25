@@ -232,6 +232,7 @@
 			"0xD59f6112375D60e45C2BA9dd5745870c1444362F",
 			"0x3799251bD81925cfcCF2992F10Af27A4e62Bf3F7"
 		],
+		"portfolioNotice": "Eligible users of impacted vaults can claim approximately 80% position recovery for a limited time. See the [Elixir announcement](https://x.com/elixir/status/2033922212986597612?s=20) for details on how to submit your claim.",
 		"isGovernanceLimited": true
 	},
 	"frontier-trevee": {
