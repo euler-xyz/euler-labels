@@ -56,7 +56,9 @@
 		"deprecatedVaults": [
 			"0xF675FBe777E992f5D5D84AdF41161dC0f20104a6",
 			"0x8AdB906421f65C27155f44f1829Ca1E5B024c3F6"
-		]
+		],
+		"deprecationReason": "Deprecated due to exposure to the insolvent positions held by Stream.",
+		"notExplorable": true
 	},
 	"k3-capital-usdai": {
 		"name": "K3 Capital USDai Market",
@@ -122,7 +124,9 @@
 			"0xF90Cf999dE728A582e154F926876b70e93a747B7",
 			"0x27934d4879fc28a74703726eDae15F757E45A48a",
 			"0x138c289Bb8b855CF271305C8bcf91DC31Ba30194"
-		]
+		],
+		"deprecationReason": "Deprecated due to exposure to the insolvent positions held by Stream.",
+		"notExplorable": true
 	},
 	"edge-capital-core-cluster": {
 		"name": "Edge UltraYield Cluster",
@@ -232,7 +236,9 @@
 			"0xD59f6112375D60e45C2BA9dd5745870c1444362F",
 			"0x3799251bD81925cfcCF2992F10Af27A4e62Bf3F7"
 		],
+		"deprecationReason": "Deprecated due to exposure to the insolvent positions held by Stream.",
 		"portfolioNotice": "Eligible users of impacted vaults can claim approximately 80% position recovery for a limited time. See the [Elixir announcement](https://x.com/elixir/status/2033922212986597612?s=20) for details on how to submit your claim.",
+		"notExplorable": true,
 		"isGovernanceLimited": true
 	},
 	"frontier-trevee": {
@@ -244,7 +250,9 @@
 			"0x1aD2d433b5E95077EB2855EaB854B72eA9ee9d6c",
 			"0xb5526491742FEe67E9E0D0D8c619A95D422fd398",
 			"0x15F6ba87440E77C3dB462dC0f6ab797a63B94db4"
-		]
+		],
+		"deprecationReason": "Deprecated due to exposure to the insolvent positions held by Stream.",
+		"notExplorable": true
 	},
 	"telosc-reservoir": {
 		"name": "TelosC Reservoir",
