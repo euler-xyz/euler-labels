@@ -89,7 +89,9 @@
 			"0x3ac88AfbC38Bb41443457eeB027b60e85B815538",
 			"0xCB9c9FE7d1509955d8b860E6831d91bf3F0B6240",
 			"0xfEb1D6259De6C052A0d0f986b4Df4D8Fd8B371F4"
-		]
+		],
+		"deprecationReason": "Deprecated due to exposure to the insolvent positions held Stables Labs (USDX).",
+		"notExplorable": true
 	},
 	"k3-bsc-aster": {
 		"name": "K3 Capital ASTERLIQUID",

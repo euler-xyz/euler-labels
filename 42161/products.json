@@ -33,12 +33,15 @@
 		"name": "Euler Arbitrum Yield",
 		"entity": ["euler-dao", "gauntlet"],
 		"url": "https://forum.euler.finance/t/creation-of-arbitrum-yield-market/1628",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0x05d28A86E057364F6ad1a88944297E58Fc6160b3",
 			"0xF2cf48e4932835c941cCCd27e450c71138df81Ca",
 			"0x5059ff3008ffE2b50980330A402ea5c59dA01AD7",
 			"0x46E57D0dE266638C8339689be04B038049Be3812"
-		]
+		],
+		"deprecationReason": "Deprecated due to exposure to the Resolv security incident.",
+		"notExplorable": true
 	},
 	"frontier-theo": {
 		"name": "Euler Theo",

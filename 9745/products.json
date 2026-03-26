@@ -19,36 +19,6 @@
 		],
 		"isGovernanceLimited": true
 	},
-	"re7labs-ethena": {
-		"name": "Re7 Labs Ethena",
-		"entity": ["re7-labs"],
-		"vaults": [
-			"0x36e62e73DF0fE8e68280a93AD2F2d20CA25D0eF3",
-			"0xa61dcB570c7C728F992417bf20e8F56f2669A46C"
-		],
-		"externalVaults": ["0x8Cd0DE6204176600918dA79eC70d0d9F4c2588e3"]
-	},
-	"re7labs-usdt0": {
-		"name": "Re7 Labs USDT0",
-		"entity": ["re7-labs"],
-		"vaults": [
-			"0x8Cd0DE6204176600918dA79eC70d0d9F4c2588e3",
-			"0x729b92Cfea63CB238199eA61a01eA510D80fa444"
-		],
-		"externalVaults": [
-			"0x36e62e73DF0fE8e68280a93AD2F2d20CA25D0eF3",
-			"0xa61dcB570c7C728F992417bf20e8F56f2669A46C",
-			"0x7760dBA44A3b9dC740F8Ac3e49AFb66f1EC46834"
-		]
-	},
-	"re7labs-weth": {
-		"name": "Re7 Labs WETH",
-		"entity": ["re7-labs"],
-		"vaults": [
-			"0x7760dBA44A3b9dC740F8Ac3e49AFb66f1EC46834",
-			"0xa4a52AF57D8FD82FC827E5E400007ab65CEf271b"
-		]
-	},
 	"re7labs-xusd": {
 		"name": "Re7 Labs xUSD",
 		"entity": ["re7-labs"],
@@ -56,7 +26,9 @@
 		"deprecatedVaults": [
 			"0xF675FBe777E992f5D5D84AdF41161dC0f20104a6",
 			"0x8AdB906421f65C27155f44f1829Ca1E5B024c3F6"
-		]
+		],
+		"deprecationReason": "Deprecated due to exposure to the insolvent positions held by Stream.",
+		"notExplorable": true
 	},
 	"k3-capital-usdai": {
 		"name": "K3 Capital USDai Market",
@@ -95,7 +67,8 @@
 			"0x2beBDc03D4268247c205ECB6926332221EC612AC",
 			"0x4718484ac9dc07fbbC078561e8f8Ef29e2a369CD"
 		],
-		"deprecationReason": "This vault has been deprecated from the Euler UI because it has exposure to the Resolv security incident.",
+		"deprecationReason": "Deprecated due to exposure to the Resolv security incident.",
+		"notExplorable": true,
 		"isGovernanceLimited": true
 	},
 	"frontier-resolv-rlp": {
@@ -107,7 +80,8 @@
 			"0xbd2D9A3c34f866387a371035dc94Cbe94759E6d8",
 			"0x538f01e0BA3cf3aB5b3837A0d138a3F67b9b8235"
 		],
-		"deprecationReason": "This vault has been deprecated from the Euler UI because it has exposure to the Resolv security incident.",
+		"deprecationReason": "Deprecated due to exposure to the Resolv security incident.",
+		"notExplorable": true,
 		"isGovernanceLimited": true
 	},
 	"telosc-stream": {
@@ -120,7 +94,9 @@
 			"0xF90Cf999dE728A582e154F926876b70e93a747B7",
 			"0x27934d4879fc28a74703726eDae15F757E45A48a",
 			"0x138c289Bb8b855CF271305C8bcf91DC31Ba30194"
-		]
+		],
+		"deprecationReason": "Deprecated due to exposure to the insolvent positions held by Stream.",
+		"notExplorable": true
 	},
 	"edge-capital-core-cluster": {
 		"name": "Edge UltraYield Cluster",
@@ -230,6 +206,9 @@
 			"0xD59f6112375D60e45C2BA9dd5745870c1444362F",
 			"0x3799251bD81925cfcCF2992F10Af27A4e62Bf3F7"
 		],
+		"deprecationReason": "Deprecated due to exposure to the insolvent positions held by Stream.",
+		"portfolioNotice": "Eligible users of impacted vaults can claim approximately 80% position recovery for a limited time. See the [Elixir announcement](https://x.com/elixir/status/2033922212986597612?s=20) for details on how to submit your claim.",
+		"notExplorable": true,
 		"isGovernanceLimited": true
 	},
 	"frontier-trevee": {
@@ -241,7 +220,9 @@
 			"0x1aD2d433b5E95077EB2855EaB854B72eA9ee9d6c",
 			"0xb5526491742FEe67E9E0D0D8c619A95D422fd398",
 			"0x15F6ba87440E77C3dB462dC0f6ab797a63B94db4"
-		]
+		],
+		"deprecationReason": "Deprecated due to exposure to the insolvent positions held by Stream.",
+		"notExplorable": true
 	},
 	"telosc-reservoir": {
 		"name": "TelosC Reservoir",
@@ -270,14 +251,6 @@
 			"0x0a660B3Cbd7DF118501E7Bb0f2D6eC5E5e583Bf8",
 			"0xD833C4C39FDd2296DeB2f8fa451e0769909B4171",
 			"0x54Ff34EF2503b9636b0EbD31143b9edD124E262f"
-		]
-	},
-	"alphaping-yieldfi-vyusd": {
-		"name": "Alphaping YieldFi vyUSD",
-		"entity": ["euler-dao"],
-		"vaults": [
-			"0xbef0b4f89Ee840CE2aC4e96ea37e807aE4F35231",
-			"0x51d03b57f916EAf631892702A32a5378b93a6998"
 		]
 	}
 }
