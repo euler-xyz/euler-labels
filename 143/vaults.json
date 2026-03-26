@@ -286,7 +286,7 @@
 	},
 	"0x144290085Da25E3078425C6F4A477fD8caB0c43e": {
 		"name": "Clearstar Reactor FXRP",
-		"description": "A FXRP vault in the Clearstar Reactor market.",
+		"description": "An FXRP vault in the Clearstar Reactor market.",
 		"entity": "clearstar"
 	}
 }
