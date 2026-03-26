@@ -268,5 +268,25 @@
 		"name": "Isolated XAUT-USDC USDC",
 		"description": "A risk-isolated USDC vault in the Euler Risk Isolated XAUT-USDC market.",
 		"entity": "euler-dao"
+	},
+	"0x1905EDDF5943ef6C92Ccf1469bd40fC2cB4A77b0": {
+		"name": "Clearstar Reactor USDC",
+		"description": "A USDC vault in the Clearstar Reactor market.",
+		"entity": "clearstar"
+	},
+	"0x2F13D29B4Eff12fC5E6b2560Ed5183354C38A82F": {
+		"name": "Clearstar Reactor USDT",
+		"description": "A USDT vault in the Clearstar Reactor market.",
+		"entity": "clearstar"
+	},
+	"0x1475D3dA9ca6a3aa14f76b7f5e9da0d0Bcf1b2f9": {
+		"name": "Clearstar Reactor AUSD",
+		"description": "An AUSD vault in the Clearstar Reactor market.",
+		"entity": "clearstar"
+	},
+	"0x144290085Da25E3078425C6F4A477fD8caB0c43e": {
+		"name": "Clearstar Reactor FXRP",
+		"description": "A FXRP vault in the Clearstar Reactor market.",
+		"entity": "clearstar"
 	}
 }

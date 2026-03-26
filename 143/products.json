@@ -199,5 +199,16 @@
 			"0x091298D908a216CfcA30729dB2B194Fe5f1d16be",
 			"0x289F801765B99B5E6263853859fE302dbecaB6d6"
 		]
+	},
+	"clearstar-reactor": {
+		"name": "Clearstar Reactor",
+		"description": "An Euler Cluster on Monad, curated by Clearstar Labs.",
+		"entity": "clearstar",
+		"vaults": [
+			"0x1905EDDF5943ef6C92Ccf1469bd40fC2cB4A77b0",
+			"0x2F13D29B4Eff12fC5E6b2560Ed5183354C38A82F",
+			"0x1475D3dA9ca6a3aa14f76b7f5e9da0d0Bcf1b2f9",
+			"0x144290085Da25E3078425C6F4A477fD8caB0c43e"
+		]
 	}
 }
