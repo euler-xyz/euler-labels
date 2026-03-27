@@ -290,5 +290,17 @@
 		"social": {
 			"twitter": "yieldnestfi"
 		}
+	},
+	"cassa": {
+		"name": "Cassa",
+		"logo": "cassa.png",
+		"description": "Cassa is building the risk layer of DeFi, enabling curated products to compete on risk-adjusted returns by making risk tradable, transparent, and composable on-chain.",
+		"url": "https://www.cassa.fyi/",
+		"addresses": {
+			"0x34a0d3333FF6028b5Fad62879A9d24d3C071E343": "Cassa Multisig"
+		},
+		"social": {
+			"twitter": "cassa_fyi"
+		}
 	}
 }
