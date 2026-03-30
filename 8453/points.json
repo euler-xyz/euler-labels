@@ -21,21 +21,10 @@
 		"skipValidation": true
 	},
 	{
-		"name": "20x Resolv Points",
-		"logo": "resolv.svg",
-		"collateralVaults": ["0x29Dbce367F5157B924Af5093617bb128477D7A5C"]
-	},
-	{
-		"name": "5x Resolv Points",
-		"logo": "resolv.svg",
-		"collateralVaults": ["0xC063C3b3625DF5F362F60f35B0bcd98e0fa650fb"]
-	},
-	{
 		"name": "3x YO Points",
 		"logo": "yo.png",
 		"collateralVaults": [
 			"0xe72eA97aAF905c5f10040f78887cc8dE8eAec7E4",
-			"0x774C08F8e78C47046d325C0331788954C35DF10a",
 			"0x085178078796Da17B191f9081b5E2fCCc79A7eE7",
 			"0xF3BB6b0a9bEAF9240D7F4a91341d5Df6bF37cAea"
 		]
@@ -48,10 +37,7 @@
 	{
 		"name": "extra YO tokens via [Merkl](https://app.merkl.xyz/opportunities/base/ERC20LOGPROCESSOR/0x3A43AEC53490CB9Fa922847385D82fe25d0E9De7)",
 		"logo": "yo.png",
-		"collateralVaults": [
-			"0xf4480166d66CFb9c5E12C843A8F844F512989289",
-			"0xdbDC9c3EdBD401109c83b333c16A0251806b3330"
-		]
+		"collateralVaults": ["0xf4480166d66CFb9c5E12C843A8F844F512989289"]
 	},
 	{
 		"name": "extra YO tokens via [Merkl](https://app.merkl.xyz/opportunities/base/ERC20LOGPROCESSOR/0x0000000f2eB9f69274678c76222B35eEc7588a65)",

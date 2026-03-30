@@ -72,20 +72,26 @@
 	"re7-labs-avant-cluster": {
 		"name": "Avant Cluster",
 		"entity": "re7-labs",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0x90F0B8a5ba9E1248d3E4F69f4592123D6E8C918d",
 			"0xae8DA9d4e0959108766Bf7cF48ede8248Be9eFFF"
-		]
+		],
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true
 	},
 	"edge-capital-core-cluster": {
 		"name": "Edge UltraYield Cluster",
 		"entity": "edge-capital",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0xE27C2571F6D1b942bBB438a37b0171C64B469e1F",
 			"0x4789D8066Cac17fd24F24206a49aBC72830604F1",
 			"0x3cc7963fa503fe32053f177c444855a71068A839",
 			"0x140bD9A62Ba84fbF78d9e3dd4A94FdaFC999FAF5",
 			"0x1dA14e692956382804A06Ce38B984f56DE457D7d"
-		]
+		],
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true
 	}
 }
