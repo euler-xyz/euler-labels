@@ -51,11 +51,14 @@
 		"name": "MEV Capital Beets Cluster",
 		"entity": "mev-capital",
 		"description": "The MEV Capital Beets Cluster provides a set of liquid collateral markets with an optimized stS looping",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0x90a804D316A06E00755444D56b9eF52e5C4F4D73",
 			"0x6832F3090867449c058e1e3088E552E12AB18F9E",
 			"0xb936137169D777fcB8B7Cf02329620B78FCcEC0A",
 			"0xF71B17cCF362B6dcC1b6917A05820477cF7802A0"
-		]
+		],
+		"deprecationReason": "Deprecated due low activity.",
+		"notExplorable": true
 	}
 }

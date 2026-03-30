@@ -1,1 +1,8 @@
-["0xe4783824593a50Bfe9dc873204CEc171ebC62dE0"]
+[
+	{
+		"address": "0xe4783824593a50Bfe9dc873204CEc171ebC62dE0",
+		"deprecated": true,
+		"deprecationReason": "Deprecated due to exposure to the Resolv security incident.",
+		"notExplorable": true
+	}
+]
