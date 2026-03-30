@@ -380,6 +380,7 @@
 		"name": "Tulipa Resolv",
 		"description": "A market tailored to borrowing stablecoins against the Resolv ecosystem. Governed by Tulipa Capital.",
 		"entity": "tulipa-capital",
+		"vaults": [],
 		"deprecatedVaults": [
 			"0x3b028b4b6c567eF5f8Ca1144Da4FbaA0D973F228",
 			"0x6707Fe1A8a2F9B8a10441778ac6F6Be2Ed991aE7",
@@ -393,6 +394,7 @@
 		"description": "The Usual Stability Loan enables users to leverage their USD0++ to arbitrage when it depegs, by borrowing USD0 at a fixed interest rate.",
 		"entity": "usual",
 		"url": "https://snapshot.box/#/s:usualmoney.eth/proposal/0x1b081d3b3dd611094e96b690dc5d981d86bb724cce5ef562d9eecbe580b535c2",
+		"vaults": [],
 		"deprecatedVaults": [
 			"0xd001f0a15D272542687b2677BA627f48A4333b5d",
 			"0xF037eeEBA7729c39114B9711c75FbccCa4A343C8"
@@ -513,6 +515,7 @@
 		"description": "An isolated market dedicated to the Bedrock ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
 		"entity": ["euler-dao", "gauntlet"],
 		"url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/24?u=eulerlabs",
+		"vaults": [],
 		"deprecatedVaults": [
 			"0xf4Be316983b70B5fF8dc8C0DDd62156EF2DCa454",
 			"0x154ED44b252c58e5768f022C5143929329b28Ed9",
@@ -549,6 +552,7 @@
 		"name": "Frontier Reservoir",
 		"description": "An isolated market dedicated to the Reservoir ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
 		"entity": ["euler-dao", "gauntlet"],
+		"vaults": [],
 		"deprecatedVaults": [
 			"0x15A60a5300c1D9179d4c0e2B49bac6146794Ae1F",
 			"0x607589437A3b52f536706642a9b7c70192C37940",
