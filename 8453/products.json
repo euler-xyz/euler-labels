@@ -96,5 +96,14 @@
 			"0x81744B5B5527852832F2dd3554C191d3B1342108",
 			"0x4C1aeda9B43EfcF1da1d1755b18802aAbe90f61E"
 		]
+	},
+	"clearstar-rwa": {
+		"name": "Clearstar RWA",
+		"description": "A market focused on real-world assets. Curated by Clearstar Labs.",
+		"entity": "clearstar",
+		"vaults": [
+			"0x401e8E12bDe318772b73709D8101e76E8586c124",
+			"0xEaA709fDb7CCcfbBF5185feBf183F0138cDe5983"
+		]
 	}
 }
