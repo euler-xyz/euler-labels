@@ -178,5 +178,15 @@
 		"name": "AlphaGrowth USDC Base Vault",
 		"description": "A borrowing-enabled USDC vault managed by AlphaGrowth, enabling leveraged strategies with reUSD collateral.",
 		"entity": "alphagrowth"
+	},
+	"0x401e8E12bDe318772b73709D8101e76E8586c124": {
+		"name": "Clearstar RWA USDC",
+		"description": "USDC vault in the Clearstar RWA market.",
+		"entity": "clearstar"
+	},
+	"0xEaA709fDb7CCcfbBF5185feBf183F0138cDe5983": {
+		"name": "Clearstar RWA deJAAA (Centrifuge)",
+		"description": "deJAAA vault in the Clearstar RWA market.",
+		"entity": "clearstar"
 	}
 }
