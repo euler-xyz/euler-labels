@@ -88,5 +88,18 @@
 		"social": {
 			"twitter": "alphagrowth1"
 		}
+	},
+	"clearstar": {
+		"name": "Clearstar",
+		"logo": "clearstar.svg",
+		"description": "Designing and curating institutional-grade strategies across decentralized markets, underpinned by rigorous risk management.",
+		"url": "https://www.clearstar.xyz/",
+		"addresses": {
+			"0x30988479C2E6a03E7fB65138b94762D41a733458": "Curator Wallet (ForDeFi MPC)",
+			"0xb3CF59A5f12cA319861376C5e63Eef4790a42B44": "Curator Multisig"
+		},
+		"social": {
+			"twitter": "ClearstarLabs"
+		}
 	}
 }
