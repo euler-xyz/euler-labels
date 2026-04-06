@@ -188,5 +188,10 @@
 		"name": "Clearstar RWA deJAAA (Centrifuge)",
 		"description": "deJAAA vault in the Clearstar RWA market.",
 		"entity": "clearstar"
+	},
+	"0x0a6Af3A75BB350Fb1a402B70138B9820Cf0CA0Cb": {
+		"name": "Clearstar RWA deSPXA (Centrifuge)",
+		"description": "deSPXA vault in the Clearstar RWA market.",
+		"entity": "clearstar"
 	}
 }
