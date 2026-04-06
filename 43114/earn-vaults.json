@@ -5,18 +5,21 @@
 		"address": "0x70c329D6F06b33fa6b75E335B35168B1de84217b",
 		"deprecated": true,
 		"deprecationReason": "Deprecated due to exposure to the insolvent positions held by Stream.",
+		"portfolioNotice": "Eligible users of impacted vaults can claim approximately 80% position recovery for a limited time. See the [Elixir announcement](https://x.com/elixir/status/2033922212986597612?s=20) for details on how to submit your claim.",
 		"notExplorable": true
 	},
 	{
 		"address": "0xEAF77Df5D03306bCA4EE8b58B6821E6acA76309d",
 		"deprecated": true,
 		"deprecationReason": "Deprecated due to exposure to the insolvent positions held by Stream.",
+		"portfolioNotice": "Eligible users of impacted vaults can claim approximately 80% position recovery for a limited time. See the [Elixir announcement](https://x.com/elixir/status/2033922212986597612?s=20) for details on how to submit your claim.",
 		"notExplorable": true
 	},
 	{
 		"address": "0xE1A62FDcC6666847d5EA752634E45e134B2F824B",
 		"deprecated": true,
 		"deprecationReason": "Deprecated due to exposure to the insolvent positions held by Stream.",
+		"portfolioNotice": "Eligible users of impacted vaults can claim approximately 80% position recovery for a limited time. See the [Elixir announcement](https://x.com/elixir/status/2033922212986597612?s=20) for details on how to submit your claim.",
 		"notExplorable": true
 	}
 ]
