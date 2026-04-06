@@ -302,5 +302,10 @@
 		"social": {
 			"twitter": "cassa_fyi"
 		}
+	},
+	"infinifi": {
+		"name": "InfiniFi",
+		"description": "InfiniFi is a DeFi protocol offering structured USD yield products including staked USD (siUSD) and locked iUSD positions (liUSD) with fixed maturities.",
+		"url": "https://infinifi.xyz/"
 	}
 }

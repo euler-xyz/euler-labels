@@ -801,10 +801,10 @@
 			"0xfCF0461DD3E6Aa8Eb3fE45D87f20D44A7115EA97"
 		]
 	},
-	"cassa-infinifi": {
-		"name": "Cassa InfiniFi",
+	"infinifi": {
+		"name": "InfiniFi",
 		"description": "A set of markets for borrowing USDC against InfiniFi locked positions (liUSD) and staked USD (siUSD). Governed and curated by Cassa.",
-		"entity": "cassa",
+		"entity": "infinifi",
 		"vaults": [
 			"0x8bE237254C0832ff642aD0cB2bdfB8f79D7c7b1a",
 			"0xed059CB7Eb6251093FaE10a4483519Ab159e28D9",
