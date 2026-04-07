@@ -290,5 +290,15 @@
 		"social": {
 			"twitter": "yieldnestfi"
 		}
+	},
+	"alphagrowth": {
+		"name": "AlphaGrowth",
+		"logo": "alphagrowth.svg",
+		"description": "AlphaGrowth curates lending markets and structured DeFi products on Euler V2.",
+		"url": "https://alphagrowth.io/",
+		"addresses": {},
+		"social": {
+			"twitter": "alphagrowth1"
+		}
 	}
 }
