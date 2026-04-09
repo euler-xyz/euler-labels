@@ -297,7 +297,7 @@
 		"description": "AlphaGrowth curates lending markets and structured DeFi products on Euler V2.",
 		"url": "https://alphagrowth.io/",
 		"addresses": {
-			"0x5304ebB378186b081B99dbb8B6D17d9005eA0448": "Governor of AlphaGrowth Euler V2 vaults"
+			"0x4f894Bfc9481110278C356adE1473eBe2127Fd3C": "AlphaGrowth governor multisig (Gnosis Safe v1.3.0, 3-of-8)"
 		},
 		"social": {
 			"twitter": "alphagrowth1"
