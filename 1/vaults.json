@@ -1613,5 +1613,35 @@
 		"name": "Cozy wstETH",
 		"description": "A wstETH non-borrowable collateral vault managed by Cozy.",
 		"entity": "cozy-finance"
+	},
+	"0x8bE237254C0832ff642aD0cB2bdfB8f79D7c7b1a": {
+		"name": "InfiniFi 4w USDC",
+		"description": "A USDC vault in the InfiniFi 4-week market",
+		"entity": "infinifi"
+	},
+	"0xed059CB7Eb6251093FaE10a4483519Ab159e28D9": {
+		"name": "InfiniFi 13w USDC",
+		"description": "A USDC vault in the InfiniFi 13-week market",
+		"entity": "infinifi"
+	},
+	"0x93F9b0478d8030f7968617B8C305BF3413f7f2a2": {
+		"name": "InfiniFi siUSD USDC",
+		"description": "A USDC vault in the InfiniFi siUSD market",
+		"entity": "infinifi"
+	},
+	"0x28dc636aE2f48065AF67A7c92fAb195D6caCe8cB": {
+		"name": "InfiniFi 4w-liUSD",
+		"description": "A 4w-liUSD collateral vault in the InfiniFi 4-week market",
+		"entity": "infinifi"
+	},
+	"0xF230224626BbE12Bdb0e8538Cb4Bbe1eeC48689A": {
+		"name": "InfiniFi 13w-liUSD",
+		"description": "A 13w-liUSD collateral vault in the InfiniFi 13-week market",
+		"entity": "infinifi"
+	},
+	"0xdA3b2E94728f9585D95bF5770c2DCAaF92618045": {
+		"name": "InfiniFi siUSD",
+		"description": "A siUSD collateral vault in the InfiniFi siUSD market",
+		"entity": "infinifi"
 	}
 }

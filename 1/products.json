@@ -394,23 +394,33 @@
 		"description": "The Usual Stability Loan enables users to leverage their USD0++ to arbitrage when it depegs, by borrowing USD0 at a fixed interest rate.",
 		"entity": "usual",
 		"url": "https://snapshot.box/#/s:usualmoney.eth/proposal/0x1b081d3b3dd611094e96b690dc5d981d86bb724cce5ef562d9eecbe580b535c2",
-		"vaults": [],
-		"deprecatedVaults": [
+		"vaults": [
 			"0xd001f0a15D272542687b2677BA627f48A4333b5d",
 			"0xF037eeEBA7729c39114B9711c75FbccCa4A343C8"
 		],
 		"deprecationReason": "Deprecated due low activity.",
-		"notExplorable": true
+		"notExplorable": true,
+		"vaultOverrides": {
+			"0xd001f0a15D272542687b2677BA627f48A4333b5d": {
+				"notExplorableLend": true
+			}
+		}
 	},
 	"usual-pt-usd0-plus-plus-vault": {
 		"name": "Usual's PT USD0++ vault",
 		"description": "Usual's PT USD0++ vault lets you borrow USD0 at a fixed rate using Pendle PTs as collateral, unlocking leveraged yield opportunities with stable borrowing costs and minimized rate volatility.",
 		"entity": "usual",
 		"url": "https://app.pendle.finance/trade/markets/0xf8094570485b124b4f2abe98909a87511489c162/swap?view=pt&chain=ethereum",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0x77633305032b6bDf3eBdB373b3bADcCb2786ce2f",
 			"0xcC45184138c6De9AA4e15d6F83fC737a363Bd739"
-		]
+		],
+		"vaultOverrides": {
+			"0x77633305032b6bDf3eBdB373b3bADcCb2786ce2f": {
+				"notExplorableLend": true
+			}
+		}
 	},
 	"openeden": {
 		"name": "OpenEden",
@@ -862,6 +872,19 @@
 			"0xCee57C0F5060063F6875CFF54225F814Db604150",
 			"0x0f3CC0aF08538A9ec551aF53e4F0a19fD7273ed9",
 			"0xfCF0461DD3E6Aa8Eb3fE45D87f20D44A7115EA97"
+		]
+	},
+	"infinifi": {
+		"name": "InfiniFi",
+		"description": "A set of markets for borrowing USDC against InfiniFi locked positions (liUSD) and staked USD (siUSD). Governed and curated by Cassa.",
+		"entity": "infinifi",
+		"vaults": [
+			"0x8bE237254C0832ff642aD0cB2bdfB8f79D7c7b1a",
+			"0xed059CB7Eb6251093FaE10a4483519Ab159e28D9",
+			"0x93F9b0478d8030f7968617B8C305BF3413f7f2a2",
+			"0x28dc636aE2f48065AF67A7c92fAb195D6caCe8cB",
+			"0xF230224626BbE12Bdb0e8538Cb4Bbe1eeC48689A",
+			"0xdA3b2E94728f9585D95bF5770c2DCAaF92618045"
 		]
 	}
 }

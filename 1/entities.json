@@ -72,7 +72,8 @@
 		"description": "Cozy Finance builds modular on-chain risk infrastructure and financial primitives that enable protocols and vault managers to structure, price, and manage risk in a programmable way.",
 		"url": "https://www.cozy.finance/",
 		"addresses": {
-			"0xA2b11225539c704ABE29A0e0a51d8774408bd271": "Cozy Finance Governor"
+			"0xA2b11225539c704ABE29A0e0a51d8774408bd271": "Cozy Finance Governor",
+			"0x794592dde08Ee0d9a6D2693C55241dd24B58bb8e": "Cozy Multisig"
 		},
 		"social": {
 			"twitter": "cozyfinance",
@@ -289,6 +290,24 @@
 		},
 		"social": {
 			"twitter": "yieldnestfi"
+		}
+	},
+	"cassa": {
+		"name": "Cassa",
+		"logo": "cassa.png",
+		"description": "Cassa is building the risk layer of DeFi, enabling curated products to compete on risk-adjusted returns by making risk tradable, transparent, and composable on-chain.",
+		"url": "https://www.cassa.fyi/",
+		"social": {
+			"twitter": "cassa_fyi"
+		}
+	},
+	"infinifi": {
+		"name": "InfiniFi",
+		"logo": "infinifi.png",
+		"description": "InfiniFi is a DeFi protocol offering structured USD yield products including staked USD (siUSD) and locked iUSD positions (liUSD) with fixed maturities.",
+		"url": "https://infinifi.xyz/",
+		"addresses": {
+			"0x34a0d3333FF6028b5Fad62879A9d24d3C071E343": "InfiniFi Multisig"
 		}
 	}
 }
