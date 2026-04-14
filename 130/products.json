@@ -26,7 +26,7 @@
 			"0xe6806beA4eCDE065bB757c35032f2c625848D8e8",
 			"0x25e2ef0f957B61cdd26BBE954AFD5806A9DaDe49"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
 	"alphagrowth-unichain": {

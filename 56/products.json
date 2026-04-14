@@ -15,7 +15,7 @@
 			"0xd6F4Ee21c946071Cf13D773E2ab1e31d44a27a54",
 			"0x088241d1C5c951C59Fb66083b291b69E3cC27E8C"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
 	"apostro-bsc": {
@@ -35,7 +35,7 @@
 			"0x19C1d7E5a2b821D4e05fd9cFB8ba372C2cAA551B",
 			"0x3135551ce7945c03C18df7985E089DDBC763cEE8"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
 	"tulipa-bsc": {
@@ -52,7 +52,7 @@
 			"0xfd30377A3173f709d8224Fee7718E312A0868A34",
 			"0xc33c2A5f3c27bcB5559f17ff97A04F281f898f04"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
 	"k3-bsc-stable": {
