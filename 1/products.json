@@ -51,7 +51,7 @@
 			"0xabBe766f216f689818C3A1f98647cE4E41495325",
 			"0x155d4A34938dcB27486f5Bbf6a19d19D0ef0DD8A"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
 	"eulswap": {
@@ -74,7 +74,7 @@
 			"0xdc1aeF6cF0F13267281a0D3547D205eA32287e49",
 			"0x0c01F00e419977CF452e78AaE35ffB95C47d9534"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
 		"isGovernanceLimited": true
 	},
@@ -92,7 +92,7 @@
 			"0x561fF99A243868fdf755705b1B83e6C4E8B8B0dF",
 			"0xa586Cb265563ff36dc1f912Ad9b06F7124BC6185"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
 		"isGovernanceLimited": true
 	},
@@ -125,7 +125,7 @@
 			"0xF2ec2d8fE1351bAFF31643855C0f4D1E63Bd1ce4",
 			"0x889b0ab73A262759e1Da530eA027268Fd9C2B35f"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
 		"isGovernanceLimited": true
 	},
@@ -157,7 +157,7 @@
 			"0xE668c3F45D126A72cf696Ff46054918Cf1337786",
 			"0x3152EC91ec776f918Cc2090F58319A5a614536e0"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
 		"isGovernanceLimited": true
 	},
@@ -196,7 +196,7 @@
 			"0x6173b0709dEA144CC3662894870B57C53564cfA2",
 			"0xa8CC68e15D50c1c586b5B0D6e1D4D0Ef620fdd10"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
 	"re7-labs-basic": {
@@ -216,7 +216,7 @@
 			"0xea0C048c728578b1510EBDF9b692E8936D6Fbc90",
 			"0xcAd0be6e135C3d2859EA0c872cCD510C962765b7"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
 	"apostro-lido-ecosystem": {
@@ -227,7 +227,7 @@
 			"0x315F93a074D0948E4D068e98a34092750ea8A38C",
 			"0xf9a23b059858CdD0e3ED0DDE89864BB82B88aa19"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
 	"alterscope-bedrock": {
@@ -254,7 +254,7 @@
 			"0xd005125E525664feC9394CEE5466Da15262fFe01",
 			"0xa2f045eC60C624c46F1075FC589Df0f936F822C2"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
 	"alterscope-ascend": {
@@ -267,7 +267,7 @@
 			"0xE5b9686c0cc4Be8a47eb4ed265d4203EA8232f94",
 			"0xdFD25B2304f4F08031b4125ee49ea2Df6aB8B19b"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
 	"yieldnest-max": {
@@ -293,7 +293,7 @@
 			"0xd820C8129a853a04dC7e42C64aE62509f531eE5A",
 			"0x166d8B62E1748D04eDf39d0078F1Fe4aA01D475E"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
 	"mev-capital-weth": {
@@ -350,7 +350,7 @@
 			"0xD7B67cF0e7EDA8268b0f42de82dF87DfCC9a8537",
 			"0x396fD980c0463Ccb285d3ec6830978D5D97976EC"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
 	"resolv": {
@@ -386,7 +386,7 @@
 			"0x6707Fe1A8a2F9B8a10441778ac6F6Be2Ed991aE7",
 			"0xDe60b6090570C87d9ED0eF164C381469184758eB"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
 	"usual-stability-loan": {
@@ -398,8 +398,6 @@
 			"0xd001f0a15D272542687b2677BA627f48A4333b5d",
 			"0xF037eeEBA7729c39114B9711c75FbccCa4A343C8"
 		],
-		"deprecationReason": "Deprecated due low activity.",
-		"notExplorable": true,
 		"vaultOverrides": {
 			"0xd001f0a15D272542687b2677BA627f48A4333b5d": {
 				"notExplorableLend": true
@@ -416,11 +414,8 @@
 			"0x77633305032b6bDf3eBdB373b3bADcCb2786ce2f",
 			"0xcC45184138c6De9AA4e15d6F83fC737a363Bd739"
 		],
-		"vaultOverrides": {
-			"0x77633305032b6bDf3eBdB373b3bADcCb2786ce2f": {
-				"notExplorableLend": true
-			}
-		}
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true
 	},
 	"openeden": {
 		"name": "OpenEden",
@@ -432,7 +427,7 @@
 			"0x738bC1e2F68F5ec58ea456fb4269B4b3f51714b5",
 			"0x75f66ed34c274eaD52CFA25De9388E98e12Edb33"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
 	"tulipa-tac": {
@@ -449,7 +444,7 @@
 			"0xCC029aE7dFF547fA893F831BB4A0E99B6BCb6aE0",
 			"0x9D1c3A8A70c1f586256117399304e6a48f657838"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
 	"tulipa-noon": {
@@ -531,7 +526,7 @@
 			"0x154ED44b252c58e5768f022C5143929329b28Ed9",
 			"0x759B703efc8932E0d8404583A2e1FeD68A726071"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
 		"isGovernanceLimited": true
 	},
@@ -569,7 +564,7 @@
 			"0xACD489AdEC33cd7c46FC448cf77376f1EaF5f3ab",
 			"0xb5c0EC2b53b87720f2D99B75c01C6d4Da0e724F8"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
 		"isGovernanceLimited": true
 	},
@@ -584,7 +579,7 @@
 			"0x13a2322907cea4CE62525476f9dAc191f0B590Db",
 			"0x00011d9A1EB3d7278b8DF2391e2E32f6f9bcF293"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
 		"isGovernanceLimited": true
 	},
@@ -599,7 +594,7 @@
 			"0x3eD8f77Ca6FD9e5c6DBBcC9696BF93F30C3A2BA5",
 			"0xb76e9E04d4356756c9b8E002Cc4dabFA4e02BD93"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
 		"isGovernanceLimited": true
 	},
@@ -614,7 +609,7 @@
 			"0x4f36Bebf5dDb4b804F9C72644aEe82BAd165BFfc",
 			"0x9c6bDF412723ADF2798B163638083783506B26e3"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
 	"frontier-strata": {
@@ -661,7 +656,7 @@
 			"0x580478CcDB9C001B71E2f08f0eCeA1c8bf62dbF6",
 			"0xb02b07429477ed07a9fE70e24A6E2e2408C2D432"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
 		"isGovernanceLimited": true
 	},
@@ -718,7 +713,7 @@
 			"0xC68BC0a9b0544F0B4AA28Ce253f9e1B28038F2cD",
 			"0xe2b187502b655BE77BF04261f879c5cF3fc0639F"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
 	"frontier-mapollo": {
@@ -743,7 +738,7 @@
 			"0xf8C84D6A51Cf24c9AC79ABcE2823255FFA871145",
 			"0xad857E37bCdb3dD0712f5F3267D33ec1085F1a1d"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
 	"sentora-rlusd": {
@@ -812,7 +807,7 @@
 			"0xB6761Fb99062f6dBc09395f6F16dF239720017db",
 			"0x85F948273BDc705BaCD29BF5A2c87067E8d9d63a"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
 	"frontier-mevbtc": {
@@ -858,7 +853,7 @@
 			"0x6f61Cdfef82136F33bF20685CAACF83330F35649",
 			"0xB85313155Cfaa1bf592bB157B46c3554A7652b1F"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
 	"cozy-usdc": {

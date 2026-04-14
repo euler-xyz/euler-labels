@@ -54,7 +54,7 @@
 			"0xdbDC9c3EdBD401109c83b333c16A0251806b3330",
 			"0x38Df63F1986B80578B7357BCda3D4f71F129AfFf"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
 		"isGovernanceLimited": true
 	},
@@ -93,7 +93,7 @@
 			"0x78d6A3BC9d41B7C6Fd52FF2E85a2dF6d1F4F9B3a",
 			"0xA67A95971b8D010c16de4B33259D1c574d256121"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
 	"alphagrowth-base": {
