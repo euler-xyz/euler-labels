@@ -21,14 +21,6 @@ Each entry in this object corresponds to a company, organisation, or other entit
 * `addresses`: An object that indicates addresses controlled by this entity. Each key is a checksumed hex address, and each value is a human-meaningful description of what this address represents.
 * `social`: An object that indicates social media handles controlled by this entity. Each key is a name of a social media system, and each value is the entity-specific username/handle.
 
-### `vaults.json`
-
-Each entry in this object represents a vault. Each key is the 20-byte ethereum address, in checksumed hex format. Each vault has the following keys:
-
-* `name`: Name of the vault for display purposes, for example in table views. Maximum 40 characters. (Required)
-* `description`: Long-form description of the vault displayed on the vault's dedicated page.
-* `entity`: An entity ID that refers to the organisation responsible for governing and/or creating this vault, or a list of entity IDs if the vault is joint-managed.
-
 ### `products.json`
 
 Each entry in this object corresponds to a lending product, which is primarily a grouping of vaults under a particular branding umbrella. Each key is the **product ID**, which is a unique string per product. It should be in "URL slug" format (lowercase ASCII letters or numbers, separated by `-` characters).
@@ -38,9 +30,16 @@ Each entry in this object corresponds to a lending product, which is primarily a
 * `entity`: An entity ID that refers to the organisation responsible for governing and/or creating this vault, or a list of entity IDs if the vault is joint-managed.
 * `url`: Website where users can learn more about the product.
 * `logo`: The filename of a logo stored in the `logo/` directory.
-* `vaults`: An array of the vault addresses (in checksumed hex format) that comprise the product. Each vault must exist in the `vaults.json` file.
+* `vaults`: An array of the vault addresses (in checksumed hex format) that comprise the product. A vault may only appear in one product.
 * `deprecatedVaults`: An optional array of vault addresses (in checksumed hex format) that were previously part of this product but are now deprecated.
 * `deprecationReason`: An optional string providing an explanation for why the product or its vaults have been deprecated.
+* `portfolioNotice`: An optional string displayed as a notice in the user's portfolio view.
+* `notExplorable`: An optional boolean. If true, hides the product from discovery UI.
+* `isGovernanceLimited`: An optional boolean flag for governance-limited products.
+* `keyring`: An optional boolean flag for keyring-type products.
+* `block`: An optional array of country code strings where the product is blocked.
+* `featuredVaults`: An optional array of vault addresses to feature. Each must also be in `vaults`.
+* `vaultOverrides`: An optional object of per-vault configuration overrides, keyed by vault address. Each override can contain: `name` (string), `description` (string), `portfolioNotice` (string), `deprecationReason` (string), `block` (string[]), `restricted` (string[]), `notExplorableLend` (boolean), `notExplorableBorrow` (boolean), `keyring` (boolean).
 
 ### `points.json`
 
@@ -55,13 +54,6 @@ Each entry in this array corresponds to points available on deposits in a vault.
 * `collateralVaults`: An array of the vault addresses (in checksumed hex format) that offer these points. Each vault does not need to exist in the `vaults.json` file.
 * `liabilityVaults`: An array of the vault addresses (in checksumed hex format) that offer these points. Each vault does not need to exist in the `vaults.json` file.
 * `entity`: An entity ID that refers to the organisation responsible for governing and/or creating this vault, or a list of entity IDs if the vault is joint-managed.
-
-### `opportunities.json`
-
-Each entry in this object represents opportunities associated with specific vaults.
-
-* `{opportunityType}`: An object representing a specific opportunity type (e.g., "cozy"). Each opportunity type can contain:
-  * `safetyModule`: The address of the safety module associated with this opportunity, in checksumed hex format.
 
 ## Logos
 

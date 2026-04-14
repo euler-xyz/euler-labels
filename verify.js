@@ -24,6 +24,18 @@ for (const file of Object.keys(logos)) {
 		);
 }
 
+const VALID_VAULT_OVERRIDE_KEYS = new Set([
+	"name",
+	"description",
+	"portfolioNotice",
+	"deprecationReason",
+	"block",
+	"restricted",
+	"notExplorableLend",
+	"notExplorableBorrow",
+	"keyring",
+]);
+
 for (const file of fs.readdirSync(".")) {
 	if (!/^\d+$/.test(file)) continue;
 	validateChain(file);
@@ -35,10 +47,8 @@ console.log("OK");
 
 function validateChain(chainId) {
 	const entities = loadJsonFile(`${chainId}/entities.json`);
-	const vaults = loadJsonFile(`${chainId}/vaults.json`);
 	const products = loadJsonFile(`${chainId}/products.json`);
 	const points = loadJsonFile(`${chainId}/points.json`);
-	const opportunities = loadJsonFile(`${chainId}/opportunities.json`);
 
 	validateUniqueEntityAddresses(entities);
 
@@ -58,23 +68,7 @@ function validateChain(chainId) {
 			throw Error(`entities: logo not found: ${entity.logo}`);
 	}
 
-	for (const vaultId of Object.keys(vaults)) {
-		const vault = vaults[vaultId];
-
-		if (vaultId !== ethers.getAddress(vaultId))
-			throw Error(`vaults: malformed vaultId: ${vaultId}`);
-		if (!vault.name) throw Error(`vaults: missing name: ${vaultId}`);
-		if (!vault.description)
-			throw Error(`vaults: missing description: ${vaultId}`);
-
-		for (const entity of getArray(vault.entity)) {
-			if (!entities[entity])
-				throw Error(`vaults: no such entity ${vault.entity}`);
-		}
-	}
-
 	const vaultsSeenInProducts = {};
-	const deprecatedVaults = new Set();
 
 	for (const productId of Object.keys(products)) {
 		const product = products[productId];
@@ -83,12 +77,17 @@ function validateChain(chainId) {
 			throw Error(`products: invalid slug: ${productId}`);
 		if (!product.name) throw Error(`products: missing name: ${productId}`);
 
+		if (
+			product.description !== undefined &&
+			typeof product.description !== "string"
+		)
+			throw Error(`products: description must be a string: ${productId}`);
+
 		for (const addr of product.vaults) {
 			if (addr !== ethers.getAddress(addr))
 				throw Error(
 					`products: malformed vault address: ${ethers.getAddress(addr)}`,
 				);
-			if (!vaults[addr]) throw Error(`products: unknown vault: ${addr}`);
 			if (vaultsSeenInProducts[addr])
 				throw Error(`products: vault in multiple products: ${addr}`);
 			vaultsSeenInProducts[addr] = true;
@@ -100,13 +99,13 @@ function validateChain(chainId) {
 					throw Error(
 						`products: malformed deprecated vault address: ${ethers.getAddress(addr)}`,
 					);
-				if (!vaults[addr])
-					throw Error(`products: unknown deprecated vault: ${addr}`);
 				if (product.vaults.includes(addr))
 					throw Error(
 						`products: vault ${addr} cannot be both in vaults and deprecatedVaults: ${productId}`,
 					);
-				deprecatedVaults.add(addr);
+				if (vaultsSeenInProducts[addr])
+					throw Error(`products: vault in multiple products: ${addr}`);
+				vaultsSeenInProducts[addr] = true;
 			}
 		}
 
@@ -123,11 +122,149 @@ function validateChain(chainId) {
 
 		if (product.logo && !logos[product.logo])
 			throw Error(`products: logo not found: ${product.logo}`);
-	}
 
-	for (const vaultId of Object.keys(vaults)) {
-		if (!vaultsSeenInProducts[vaultId] && !deprecatedVaults.has(vaultId))
-			throw Error(`vault does not exist in product: ${vaultId}`);
+		if (
+			product.url !== undefined &&
+			product.url !== "" &&
+			!validUrl(product.url)
+		)
+			throw Error(`products: invalid url: ${productId}`);
+
+		if (product.portfolioNotice !== undefined) {
+			if (typeof product.portfolioNotice !== "string")
+				throw Error(`products: portfolioNotice must be a string: ${productId}`);
+		}
+
+		if (product.notExplorable !== undefined) {
+			if (typeof product.notExplorable !== "boolean")
+				throw Error(`products: notExplorable must be a boolean: ${productId}`);
+		}
+
+		if (product.isGovernanceLimited !== undefined) {
+			if (typeof product.isGovernanceLimited !== "boolean")
+				throw Error(
+					`products: isGovernanceLimited must be a boolean: ${productId}`,
+				);
+		}
+
+		if (product.keyring !== undefined) {
+			if (typeof product.keyring !== "boolean")
+				throw Error(`products: keyring must be a boolean: ${productId}`);
+		}
+
+		if (product.block !== undefined) {
+			if (!Array.isArray(product.block))
+				throw Error(`products: block must be an array: ${productId}`);
+			for (const code of product.block) {
+				if (typeof code !== "string")
+					throw Error(`products: block entries must be strings: ${productId}`);
+			}
+		}
+
+		if (product.featuredVaults) {
+			for (const addr of product.featuredVaults) {
+				if (addr !== ethers.getAddress(addr))
+					throw Error(`products: malformed featured vault address: ${addr}`);
+				if (!product.vaults.includes(addr))
+					throw Error(
+						`products: featured vault ${addr} not in vaults: ${productId}`,
+					);
+			}
+		}
+
+		if (product.vaultOverrides) {
+			const allProductVaults = [
+				...product.vaults,
+				...(product.deprecatedVaults || []),
+			];
+
+			for (const [addr, override] of Object.entries(product.vaultOverrides)) {
+				if (addr !== ethers.getAddress(addr))
+					throw Error(`products: malformed vaultOverrides address: ${addr}`);
+				if (!allProductVaults.includes(addr))
+					throw Error(
+						`products: vaultOverrides address ${addr} not in vaults or deprecatedVaults: ${productId}`,
+					);
+
+				for (const key of Object.keys(override)) {
+					if (!VALID_VAULT_OVERRIDE_KEYS.has(key))
+						throw Error(
+							`products: unknown vaultOverrides key "${key}" for ${addr}: ${productId}`,
+						);
+				}
+
+				if (override.name !== undefined && typeof override.name !== "string")
+					throw Error(
+						`products: vaultOverrides name must be a string for ${addr}: ${productId}`,
+					);
+				if (
+					override.description !== undefined &&
+					typeof override.description !== "string"
+				)
+					throw Error(
+						`products: vaultOverrides description must be a string for ${addr}: ${productId}`,
+					);
+				if (
+					override.portfolioNotice !== undefined &&
+					typeof override.portfolioNotice !== "string"
+				)
+					throw Error(
+						`products: vaultOverrides portfolioNotice must be a string for ${addr}: ${productId}`,
+					);
+				if (
+					override.deprecationReason !== undefined &&
+					typeof override.deprecationReason !== "string"
+				)
+					throw Error(
+						`products: vaultOverrides deprecationReason must be a string for ${addr}: ${productId}`,
+					);
+				if (
+					override.notExplorableLend !== undefined &&
+					typeof override.notExplorableLend !== "boolean"
+				)
+					throw Error(
+						`products: vaultOverrides notExplorableLend must be a boolean for ${addr}: ${productId}`,
+					);
+				if (
+					override.notExplorableBorrow !== undefined &&
+					typeof override.notExplorableBorrow !== "boolean"
+				)
+					throw Error(
+						`products: vaultOverrides notExplorableBorrow must be a boolean for ${addr}: ${productId}`,
+					);
+				if (
+					override.keyring !== undefined &&
+					typeof override.keyring !== "boolean"
+				)
+					throw Error(
+						`products: vaultOverrides keyring must be a boolean for ${addr}: ${productId}`,
+					);
+				if (override.block !== undefined) {
+					if (!Array.isArray(override.block))
+						throw Error(
+							`products: vaultOverrides block must be an array for ${addr}: ${productId}`,
+						);
+					for (const code of override.block) {
+						if (typeof code !== "string")
+							throw Error(
+								`products: vaultOverrides block entries must be strings for ${addr}: ${productId}`,
+							);
+					}
+				}
+				if (override.restricted !== undefined) {
+					if (!Array.isArray(override.restricted))
+						throw Error(
+							`products: vaultOverrides restricted must be an array for ${addr}: ${productId}`,
+						);
+					for (const code of override.restricted) {
+						if (typeof code !== "string")
+							throw Error(
+								`products: vaultOverrides restricted entries must be strings for ${addr}: ${productId}`,
+							);
+					}
+				}
+			}
+		}
 	}
 
 	for (const point of points) {
@@ -159,25 +296,6 @@ function validateChain(chainId) {
 				if (addr !== ethers.getAddress(addr))
 					throw Error(`points: malformed vault address: ${addr}`);
 			}
-		}
-	}
-
-	for (const vaultId of Object.keys(opportunities)) {
-		const vaultOpportunity = opportunities[vaultId];
-
-		if (vaultId !== ethers.getAddress(vaultId))
-			throw Error(`opportunities: malformed address: ${vaultId}`);
-
-		if (vaultOpportunity.cozy) {
-			if (!vaultOpportunity.cozy.safetyModule)
-				throw Error(`opportunities: missing safety module: ${vaultId}`);
-			if (
-				vaultOpportunity.cozy.safetyModule !==
-				ethers.getAddress(vaultOpportunity.cozy.safetyModule)
-			)
-				throw Error(
-					`opportunities: malformed safety module: ${vaultOpportunity.cozy.safetyModule}`,
-				);
 		}
 	}
 }
