@@ -89,12 +89,18 @@
 	},
 	"alphagrowth-base": {
 		"name": "AlphaGrowth Base Vaults",
-		"description": "A market tailored to borrowing against blue chip crypto assets. Governed by AlphaGrowth.",
+		"description": "A market tailored to borrowing against blue chip and emerging crypto assets. Governed by AlphaGrowth.",
 		"entity": ["alphagrowth"],
 		"url": "https://alphagrowth.io/",
 		"vaults": [
 			"0x81744B5B5527852832F2dd3554C191d3B1342108",
-			"0x4C1aeda9B43EfcF1da1d1755b18802aAbe90f61E"
+			"0x4C1aeda9B43EfcF1da1d1755b18802aAbe90f61E",
+			"0x21c8c8A56790A2b10370373fAcb94e925fD6a06E",
+			"0x68AAD2c78065E2D28d2B46f6A80c5a813461FFf4",
+			"0x4B6509B06f664eb8c8a4e9072655A4C6cafc1D9C",
+			"0xCB935d7916B20748e7f14C3B95931b8dcdA2472D",
+			"0xAf5F576396730C212A8C6056A00eaA58123d78B6",
+			"0x3Bd428B28C52f3534CC78075799CA798e4BcE5a8"
 		]
 	},
 	"clearstar-rwa": {
