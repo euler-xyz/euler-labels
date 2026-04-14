@@ -1643,15 +1643,5 @@
 		"name": "InfiniFi siUSD",
 		"description": "A siUSD collateral vault in the InfiniFi siUSD market",
 		"entity": "infinifi"
-	},
-	"0x99b42158986476Dc72D7688861bB9bE21993EBBb": {
-		"name": "TAU Labs pmUSD",
-		"description": "A pmUSD collateral vault for borrowing USDC against RAAC's pmUSD stablecoin.",
-		"entity": "tau-labs"
-	},
-	"0x5108b9a91132a3052963271CBc5c7c1484DA428e": {
-		"name": "TAU Labs pmUSD USDC",
-		"description": "A USDC lending vault collateralized by RAAC's pmUSD stablecoin.",
-		"entity": "tau-labs"
 	}
 }
