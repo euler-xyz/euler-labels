@@ -210,5 +210,14 @@
 			"0x1475D3dA9ca6a3aa14f76b7f5e9da0d0Bcf1b2f9",
 			"0x144290085Da25E3078425C6F4A477fD8caB0c43e"
 		]
+	},
+	"hyperithm-ahyperbtc": {
+		"name": "Hyperithm aHyperBTC",
+        "description": "An isolated market dedicated to aHyperBTC and other BTC correlated assets.",
+		"entity": ["hyperithm"],
+		"vaults": [
+			"0xfee7fd5d582d54b8feb724ec69f596db88424ce5",
+			"0x19ce855d819b2a753d4cecffff9dcaac721f1fbb"
+		]
 	}
 }
