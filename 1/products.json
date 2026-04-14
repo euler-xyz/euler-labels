@@ -792,5 +792,14 @@
 			"0xF230224626BbE12Bdb0e8538Cb4Bbe1eeC48689A",
 			"0xdA3b2E94728f9585D95bF5770c2DCAaF92618045"
 		]
+	},
+	"tau-pmusd": {
+		"name": "TAU Labs pmUSD",
+		"description": "A market for borrowing USDC against RAAC's pmUSD stablecoin.",
+		"entity": "tau-labs",
+		"vaults": [
+			"0x99b42158986476Dc72D7688861bB9bE21993EBBb",
+			"0x5108b9a91132a3052963271CBc5c7c1484DA428e"
+		]
 	}
 }
