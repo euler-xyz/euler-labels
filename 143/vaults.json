@@ -288,5 +288,15 @@
 		"name": "Clearstar Reactor FXRP",
 		"description": "An FXRP vault in the Clearstar Reactor market.",
 		"entity": "clearstar"
+	},
+	"0x9029815DfDe94E6EF95ADb7cB72fdEf157939dFa": {
+		"name": "Hyperithm mHyperBTC mHyperBTC",
+		"description": "An mHyperBTC vault in the Hyperithm mHyperBTC market.",
+		"entity": "hyperithm"
+	},
+	"0xE418FecB353f606e5DB72A35bf5147DfaAE6A0fE": {
+		"name": "Hyperithm mHyperBTC cbBTC",
+		"description": "An cbBTC vault in the Hyperithm mHyperBTC market.",
+		"entity": "hyperithm"
 	}
 }
