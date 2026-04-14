@@ -3,7 +3,8 @@
 		"name": "MEV Capital BNB Cluster",
 		"description": "The MEV Capital BNB Cluster provides a set of liquid collateral markets with an optimized risk-adjusted return.",
 		"entity": "mev-capital",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0x107a441C473517a37b03dcd8024C5B63E3Cc13DF",
 			"0x7593931d08e3BAA750cA3cB6A0d0fDe6acD65107",
 			"0x216f6D6C2ca15f83B656f3E9a8FcDf615DBC1710",
@@ -13,13 +14,16 @@
 			"0x777C95b204E2Ed3906885eF09f4531882587B52C",
 			"0xd6F4Ee21c946071Cf13D773E2ab1e31d44a27a54",
 			"0x088241d1C5c951C59Fb66083b291b69E3cC27E8C"
-		]
+		],
+		"deprecationReason": "Deprecated due low activity.",
+		"notExplorable": true
 	},
 	"apostro-bsc": {
 		"name": "Apostro BSC",
 		"description": "Money market on Binance Smart Chain (BSC), governed by Apostro, enabling seamless access to blue-chip assets with advanced trading strategies like leverage and carry trades.",
 		"entity": "apostro",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0xC6767dd1fFaA730f6fc90b353d5928E6e9d55C1b",
 			"0xa6282FfCDBC1d23dDAd65e97B9d033C4517Ec05E",
 			"0x6078b5dE9d10587cb466ECbBF55C95898AFe99C2",
@@ -30,13 +34,16 @@
 			"0xeEC4561f621C3629F2b36a07B207A7E06377e0D5",
 			"0x19C1d7E5a2b821D4e05fd9cFB8ba372C2cAA551B",
 			"0x3135551ce7945c03C18df7985E089DDBC763cEE8"
-		]
+		],
+		"deprecationReason": "Deprecated due low activity.",
+		"notExplorable": true
 	},
 	"tulipa-bsc": {
 		"name": "Tulipa",
 		"description": "A market tailored to lending and borrowing assets on the BSC chain. Governed by Tulipa.",
 		"entity": "tulipa-capital",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0x5fd02479F938929F6b9fE1b7Af6430cfD4afa6Aa",
 			"0xA9cA5c4bfF689afcFB249AE81565422fa78F82b4",
 			"0xEcD1F58B9DC4bbC3A32409961B8520B0A8fcd483",
@@ -44,7 +51,9 @@
 			"0xa6439FD63C19Cc4893EAcaD20320D11cfd0Ad12C",
 			"0xfd30377A3173f709d8224Fee7718E312A0868A34",
 			"0xc33c2A5f3c27bcB5559f17ff97A04F281f898f04"
-		]
+		],
+		"deprecationReason": "Deprecated due low activity.",
+		"notExplorable": true
 	},
 	"k3-bsc-stable": {
 		"name": "K3 Stablecoin Cluster",
@@ -73,11 +82,10 @@
 	"re7-labs-bsc": {
 		"name": "Re7 Labs Cluster",
 		"entity": "re7-labs",
-		"vaults": [
-			"0xF72aB1726e6f379891dDAE8114C75074d972FdAc",
-			"0xcCD520c8cE2aC576429bE0aD8cc14cDc0e3E44fc"
-		],
+		"vaults": [],
 		"deprecatedVaults": [
+			"0xF72aB1726e6f379891dDAE8114C75074d972FdAc",
+			"0xcCD520c8cE2aC576429bE0aD8cc14cDc0e3E44fc",
 			"0x69A93DbAB609266af96f05658b2e22d020de2E19",
 			"0xc4dB46B082B415c16C54c91c5750Df8e2f90EF36",
 			"0xC41f2Ba7102e9F9F2d603eb951F955aE205ed272",
