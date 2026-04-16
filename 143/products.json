@@ -26,7 +26,7 @@
 			"0x88927d35e37286805f343dC449b750F431E70a20",
 			"0x8f79f6EE218826D5144b917f901B147D4354Bd74"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
 	"isolated-wsteth-weth-ausd": {
@@ -59,7 +59,7 @@
 			"0xf048977215c8efD805f2d48B1d45304742D6aB58",
 			"0x57C5dfF5dDb1289c21Cc752a05330a12e3542578"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
 	"isolated-gmon-wmon-ausd": {
@@ -92,7 +92,7 @@
 			"0x850DaFb683743076F65d62D95e36EC9d04FB4B23",
 			"0xEe3EAEC5B3860aD40a767594f0990a74a32329e8"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
 	"isolated-shmon-wmon-ausd": {
@@ -125,7 +125,7 @@
 			"0x87760787d770BC9f039843fEc7636f3B8Dd12206",
 			"0x2178894927657Fd5A464ce082e0b514CEb12720c"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
 	"isolated-smon-wmon-ausd": {
@@ -158,7 +158,7 @@
 			"0xce67457A858dA99Bf19FF22d595cd60808F2E77d",
 			"0x9190269F87BD30f0eB94dc3D6369b42A1A27eEfa"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
 	"isolated-lbtc-ausd": {
@@ -188,7 +188,7 @@
 			"0xDb53E5C7578cFB52E72728c89BA895692e49Aa45",
 			"0x225e145C65031D39C3d9c58bDdAef47F8d9FaEc5"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
 	"isolated-xaut-usdt": {
@@ -200,7 +200,7 @@
 			"0x234d354b39a4Ca1274CB04972D3A9e03f1d8C4FF",
 			"0x50fe3eAc875Afbf5A121F2f792fFb7F9fb27629f"
 		],
-		"deprecationReason": "Deprecated due low activity.",
+		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
 	"isolated-xaut-ausd": {
