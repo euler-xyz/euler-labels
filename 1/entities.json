@@ -310,6 +310,16 @@
 			"0x34a0d3333FF6028b5Fad62879A9d24d3C071E343": "InfiniFi Multisig"
 		}
 	},
+	"alphagrowth": {
+		"name": "AlphaGrowth",
+		"logo": "alphagrowth.svg",
+		"description": "AlphaGrowth curates lending markets and structured DeFi products on Euler V2.",
+		"url": "https://alphagrowth.io/",
+		"addresses": {
+			"0x4f894Bfc9481110278C356adE1473eBe2127Fd3C": "AlphaGrowth governor multisig (Gnosis Safe, 3-of-8)"
+		},
+		"social": {
+			"twitter": "alphagrowth1"
 	"tau-labs": {
 		"name": "TAU Labs",
 		"logo": "tau-labs.png",
