@@ -887,5 +887,35 @@
 				"name": "InfiniFi siUSD USDC"
 			}
 		}
+	},
+	"origin-arm-weth": {
+		"name": "Origin stETH ARM / WETH",
+		"description": "Borrow WETH against Origin's stETH ARM vault tokens.",
+		"entity": "alphagrowth",
+		"logo": "origin.png",
+		"url": "https://app.originprotocol.com/#/arm/",
+		"vaults": [
+			"0xbD858DCee56Df1F0CBa44e6F5a469FbfeC0246cd",
+			"0x2ff5F1Ca35f5100226ac58E1BFE5aac56919443B"
+		],
+		"vaultOverrides": {
+			"0xbD858DCee56Df1F0CBa44e6F5a469FbfeC0246cd": {
+				"name": "ARM-WETH-stETH Collateral",
+				"description": "Origin stETH ARM vault token collateral vault. Accepts ARM-WETH-stETH shares as collateral for borrowing WETH."
+			},
+			"0x2ff5F1Ca35f5100226ac58E1BFE5aac56919443B": {
+				"name": "WETH Lending",
+				"description": "WETH lending vault for the Origin ARM market. Lenders deposit WETH to earn yield from ARM borrowers."
+			}
+		}
+	},
+	"tau-pmusd": {
+		"name": "TAU Labs pmUSD",
+		"description": "A market for borrowing USDC against RAAC's pmUSD stablecoin.",
+		"entity": "tau-labs",
+		"vaults": [
+			"0x99b42158986476Dc72D7688861bB9bE21993EBBb",
+			"0x5108b9a91132a3052963271CBc5c7c1484DA428e"
+		]
 	}
 }

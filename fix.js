@@ -64,12 +64,8 @@ function fixChain(chainId) {
 	// Read all JSON files
 	const files = {
 		entities: JSON.parse(fs.readFileSync(`${chainId}/entities.json`, "utf8")),
-		vaults: JSON.parse(fs.readFileSync(`${chainId}/vaults.json`, "utf8")),
 		points: JSON.parse(fs.readFileSync(`${chainId}/points.json`, "utf8")),
 		products: JSON.parse(fs.readFileSync(`${chainId}/products.json`, "utf8")),
-		opportunities: JSON.parse(
-			fs.readFileSync(`${chainId}/opportunities.json`, "utf8"),
-		),
 	};
 
 	let changes = false;
@@ -89,18 +85,6 @@ function fixChain(chainId) {
 				entity.addresses = result;
 			}
 		}
-	}
-
-	// Fix vault addresses
-	const {
-		result: fixedVaults,
-		changes: vaultChanges,
-		changesList: vaultChangesList,
-	} = fixAddressesInObject(files.vaults, "vault");
-	if (vaultChanges) {
-		changes = true;
-		changesList.push(...vaultChangesList);
-		files.vaults = fixedVaults;
 	}
 
 	// Fix product vault addresses
@@ -128,6 +112,35 @@ function fixChain(chainId) {
 				changes = true;
 				changesList.push(...productChanges.map((a) => a.message));
 				product.deprecatedVaults = fixedAddresses.map((a) => a.value);
+			}
+		}
+
+		if (product.featuredVaults) {
+			const fixedAddresses = fixAddressesInArray(
+				product.featuredVaults,
+				`featured vault address in products.${productId}`,
+			);
+			const productChanges = fixedAddresses.filter((a) => a.changed);
+			if (productChanges.length > 0) {
+				changes = true;
+				changesList.push(...productChanges.map((a) => a.message));
+				product.featuredVaults = fixedAddresses.map((a) => a.value);
+			}
+		}
+
+		if (product.vaultOverrides) {
+			const {
+				result: fixedOverrides,
+				changes: overrideChanges,
+				changesList: overrideChangesList,
+			} = fixAddressesInObject(
+				product.vaultOverrides,
+				`vaultOverrides in products.${productId}`,
+			);
+			if (overrideChanges) {
+				changes = true;
+				changesList.push(...overrideChangesList);
+				product.vaultOverrides = fixedOverrides;
 			}
 		}
 	}
@@ -161,18 +174,6 @@ function fixChain(chainId) {
 				}
 			}
 		}
-	}
-
-	const {
-		result: fixedOpportunities,
-		changes: opportunitiesChanges,
-		changesList: opportunitiesChangesList,
-	} = fixAddressesInObject(files.opportunities, "opportunities");
-
-	if (opportunitiesChanges) {
-		changes = true;
-		changesList.push(...opportunitiesChangesList);
-		files.opportunities = fixedOpportunities;
 	}
 
 	// Write back changes if any were made
