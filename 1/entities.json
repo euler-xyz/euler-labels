@@ -320,6 +320,16 @@
 		},
 		"social": {
 			"twitter": "alphagrowth1"
+	"tau-labs": {
+		"name": "TAU Labs",
+		"logo": "tau-labs.png",
+		"description": "TAU Labs is a risk curator and mechanism design lab",
+		"url": "https://www.628labs.xyz/",
+		"addresses": {
+			"0x028513ff6980f692e950f1cbfA481b6b0C504c13": "TAU Labs Deployer"
+		},
+		"social": {
+			"twitter": "628labs"
 		}
 	}
 }
