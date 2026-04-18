@@ -866,7 +866,7 @@
 	},
 	"infinifi": {
 		"name": "InfiniFi",
-		"description": "A set of markets for borrowing USDC against InfiniFi locked positions (liUSD) and staked USD (siUSD). Governed and curated by Cassa.",
+		"description": "A set of markets for borrowing USDC against InfiniFi locked positions (liUSD) and staked USD (siUSD). Product by InfiniFi, with infrastructure by Cassa.",
 		"entity": "infinifi",
 		"vaults": [
 			"0x8bE237254C0832ff642aD0cB2bdfB8f79D7c7b1a",
