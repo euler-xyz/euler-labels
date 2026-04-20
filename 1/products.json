@@ -14,12 +14,19 @@
 			"0x056f3a2E41d2778D3a0c0714439c53af2987718E",
 			"0xbC35161043EE2D74816d421EfD6a45fDa73B050A",
 			"0xE88e44C2C7dfc9bcb86e380d29375ccD6cd85406",
-			"0x1924D7fab80d0623f0836Cbf5258a7fa734EE9D9",
 			"0xA28C23a459fF8773EB4dBe0e7250d93F79F1Fe2B",
 			"0x328646cdfBaD730432620d845B8F5A2f7D786C01",
 			"0x5A96128c18018a2cEf539f46Bbed037DAD3cAAe8",
 			"0xa96B72470f4193a4E637dE8BcC6a009d1DD360A2"
-		]
+		],
+		"deprecatedVaults": ["0x1924D7fab80d0623f0836Cbf5258a7fa734EE9D9"],
+		"vaultOverrides": {
+			"0x1924D7fab80d0623f0836Cbf5258a7fa734EE9D9": {
+				"deprecationReason": "Deprecated due to Kelp DAO security incident.",
+				"notExplorableLend": true,
+				"notExplorableBorrow": true
+			}
+		}
 	},
 	"euler-yield": {
 		"name": "Euler Yield",
