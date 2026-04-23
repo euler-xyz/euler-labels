@@ -35,10 +35,34 @@ const VALID_VAULT_OVERRIDE_KEYS = new Set([
 	"keyring",
 ]);
 
+const VALID_ASSET_MATCH_KEYS = new Set([
+	"address",
+	"symbols",
+	"symbolRegex",
+	"names",
+	"nameRegex",
+]);
+const VALID_ASSET_KEYS = new Set([
+	...VALID_ASSET_MATCH_KEYS,
+	"block",
+	"restricted",
+]);
+// Caps mirrored from the client/server side (server/api/labels/[file].get.ts)
+// to keep locally-verified files in sync with what the proxy will accept.
+const MAX_ASSET_ENTRIES = 10000;
+const MAX_STRING_LEN = 16384;
+const MAX_SYMBOL_LEN = 64;
+const MAX_NAME_LEN = 256;
+const MAX_REGEX_LEN = 512;
+const COUNTRY_ALIASES = new Set(["EU", "EEA", "EFTA"]);
+const ISO_ALPHA2_RE = /^[A-Za-z]{2}$/;
+
 for (const file of fs.readdirSync(".")) {
 	if (!/^\d+$/.test(file)) continue;
 	validateChain(file);
 }
+
+validateGlobal();
 
 console.log("OK");
 
@@ -51,7 +75,7 @@ function validateChain(chainId) {
 	const assets = loadJsonFileIfExists(`${chainId}/assets.json`) || [];
 
 	validateUniqueEntityAddresses(entities);
-	validateAssets(chainId, assets);
+	validateAssets(`${chainId}/assets.json`, assets);
 
 	for (const entityId of Object.keys(entities)) {
 		const entity = entities[entityId];
@@ -340,47 +364,144 @@ function loadJsonFileIfExists(file) {
 	return loadJsonFile(file);
 }
 
-function validateAssets(chainId, assets) {
-	if (!Array.isArray(assets))
-		throw Error(`assets: ${chainId}/assets.json must be an array`);
+function validateGlobal() {
+	const assets = loadJsonFileIfExists("all/assets.json") || [];
+	validateAssets("all/assets.json", assets, { isGlobal: true });
+}
 
-	const seen = new Set();
+function validateAssets(fileLabel, assets, opts = {}) {
+	const isGlobal = opts.isGlobal === true;
+	const filePrefix = `assets (${fileLabel})`;
+
+	if (!Array.isArray(assets))
+		throw Error(`${filePrefix}: top-level value must be an array`);
+	if (assets.length > MAX_ASSET_ENTRIES)
+		throw Error(
+			`${filePrefix}: ${assets.length} entries exceeds cap of ${MAX_ASSET_ENTRIES}`,
+		);
+
+	const seenAddresses = new Set();
 	for (let i = 0; i < assets.length; i++) {
 		const entry = assets[i];
-		if (!entry || typeof entry !== "object")
-			throw Error(`assets: entry [${i}] must be an object`);
-		if (typeof entry.address !== "string" || !entry.address)
-			throw Error(`assets: entry [${i}] missing address`);
-		if (entry.address !== ethers.getAddress(entry.address))
-			throw Error(`assets: malformed address at [${i}]: ${entry.address}`);
-		if (seen.has(entry.address))
-			throw Error(`assets: duplicate address ${entry.address}`);
-		seen.add(entry.address);
+		const where = `${filePrefix}: entry #${i}`;
 
-		if (entry.block !== undefined) {
-			if (!Array.isArray(entry.block))
-				throw Error(`assets: block must be an array for ${entry.address}`);
-			for (const code of entry.block) {
-				if (typeof code !== "string")
-					throw Error(
-						`assets: block entries must be strings for ${entry.address}`,
-					);
+		if (!entry || typeof entry !== "object" || Array.isArray(entry))
+			throw Error(`${where} must be a plain object`);
+
+		for (const key of Object.keys(entry)) {
+			if (!VALID_ASSET_KEYS.has(key))
+				throw Error(`${where} has unknown key '${key}'`);
+		}
+
+		const hasAddress = entry.address !== undefined;
+		const hasSymbols = entry.symbols !== undefined;
+		const hasSymbolRegex = entry.symbolRegex !== undefined;
+		const hasNames = entry.names !== undefined;
+		const hasNameRegex = entry.nameRegex !== undefined;
+
+		if (hasAddress) {
+			if (typeof entry.address !== "string" || !entry.address)
+				throw Error(`${where} address must be a non-empty string`);
+			if (entry.address.length > MAX_STRING_LEN)
+				throw Error(`${where} address exceeds ${MAX_STRING_LEN} chars`);
+			if (entry.address !== ethers.getAddress(entry.address))
+				throw Error(
+					`${where} address ${entry.address} not in checksummed form`,
+				);
+			if (seenAddresses.has(entry.address))
+				throw Error(`${where} duplicate address ${entry.address}`);
+			seenAddresses.add(entry.address);
+			if (isGlobal) {
+				console.log(
+					`warn: ${where} uses address ${entry.address} in all/assets.json — addresses are chain-specific; prefer symbols/names patterns for cross-chain rules`,
+				);
 			}
 		}
-		if (entry.restricted !== undefined) {
-			if (!Array.isArray(entry.restricted))
-				throw Error(`assets: restricted must be an array for ${entry.address}`);
-			for (const code of entry.restricted) {
-				if (typeof code !== "string")
-					throw Error(
-						`assets: restricted entries must be strings for ${entry.address}`,
-					);
-			}
-		}
-		if (!entry.block?.length && !entry.restricted?.length)
-			throw Error(
-				`assets: entry ${entry.address} has no block or restricted rules`,
+
+		if (hasSymbols)
+			validateMatchArray(entry.symbols, "symbols", where, MAX_SYMBOL_LEN);
+		if (hasNames) validateMatchArray(entry.names, "names", where, MAX_NAME_LEN);
+		if (hasSymbolRegex) validateRegex(entry.symbolRegex, "symbolRegex", where);
+		if (hasNameRegex) validateRegex(entry.nameRegex, "nameRegex", where);
+
+		const hasPattern = hasSymbols || hasSymbolRegex || hasNames || hasNameRegex;
+		if (!hasAddress && !hasPattern) throw Error(`${where} has no match fields`);
+
+		if (hasAddress && hasPattern) {
+			console.log(
+				`warn: ${where} mixes address and pattern match fields; consider splitting into two entries so block/restricted can be scoped independently`,
 			);
+		}
+
+		validateCountryCodeArray(entry.block, "block", where);
+		validateCountryCodeArray(entry.restricted, "restricted", where);
+
+		const hasBlockRule = Array.isArray(entry.block) && entry.block.length > 0;
+		const hasRestrictedRule =
+			Array.isArray(entry.restricted) && entry.restricted.length > 0;
+		if (!hasBlockRule && !hasRestrictedRule)
+			throw Error(`${where} has neither block nor restricted`);
+	}
+}
+
+function validateMatchArray(value, field, where, maxItemLen) {
+	if (!Array.isArray(value)) throw Error(`${where} ${field} must be an array`);
+	if (value.length === 0)
+		throw Error(`${where} ${field} must be a non-empty array`);
+	for (let j = 0; j < value.length; j++) {
+		const item = value[j];
+		if (typeof item !== "string")
+			throw Error(`${where} ${field}[${j}] must be a string`);
+		if (!item || !item.trim())
+			throw Error(
+				`${where} ${field}[${j}] must be a non-empty, non-whitespace string`,
+			);
+		if (item.length > maxItemLen)
+			throw Error(
+				`${where} ${field}[${j}] '${item}' exceeds ${maxItemLen} chars`,
+			);
+		if (item.length > MAX_STRING_LEN)
+			throw Error(`${where} ${field}[${j}] exceeds ${MAX_STRING_LEN} chars`);
+	}
+}
+
+function validateRegex(value, field, where) {
+	if (typeof value !== "string" || !value)
+		throw Error(`${where} ${field} must be a non-empty string`);
+	if (value.length > MAX_STRING_LEN)
+		throw Error(`${where} ${field} exceeds ${MAX_STRING_LEN} chars`);
+	if (value.length > MAX_REGEX_LEN)
+		throw Error(`${where} ${field} exceeds ${MAX_REGEX_LEN} chars`);
+	try {
+		new RegExp(value, "i");
+	} catch (e) {
+		throw Error(`${where} ${field} does not compile: ${e.message}`);
+	}
+}
+
+function validateCountryCodeArray(value, field, where) {
+	if (value === undefined) return;
+	if (!Array.isArray(value)) throw Error(`${where} ${field} must be an array`);
+	const seen = new Set();
+	for (let j = 0; j < value.length; j++) {
+		const item = value[j];
+		if (typeof item !== "string")
+			throw Error(`${where} ${field}[${j}] must be a string`);
+		if (item.length > MAX_STRING_LEN)
+			throw Error(`${where} ${field}[${j}] exceeds ${MAX_STRING_LEN} chars`);
+		let canonical;
+		if (COUNTRY_ALIASES.has(item)) {
+			canonical = item;
+		} else if (ISO_ALPHA2_RE.test(item)) {
+			canonical = item.toUpperCase();
+		} else {
+			throw Error(
+				`${where} ${field}[${j}] '${item}' is not a valid country code (expected ISO 3166-1 alpha-2 or EU/EEA/EFTA)`,
+			);
+		}
+		if (seen.has(canonical))
+			throw Error(`${where} ${field} has duplicate '${item}'`);
+		seen.add(canonical);
 	}
 }
 

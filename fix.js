@@ -180,10 +180,12 @@ function fixChain(chainId) {
 		}
 	}
 
-	// Fix assets.json entry addresses
+	// Fix assets.json entry addresses. The `address` field is optional —
+	// pattern-only entries (symbols / names / regex) have nothing to fix.
 	if (files.assets) {
 		for (const entry of files.assets) {
-			if (!entry || typeof entry.address !== "string") continue;
+			if (!entry || typeof entry.address !== "string" || !entry.address)
+				continue;
 			const fixed = fixAddress(entry.address);
 			if (fixed !== entry.address) {
 				changes = true;
@@ -214,6 +216,36 @@ function fixChain(chainId) {
 	}
 }
 
+function fixGlobal() {
+	const assetsPath = "all/assets.json";
+	if (!fs.existsSync(assetsPath)) return;
+
+	console.log("\nProcessing global scope all/...");
+
+	const assets = JSON.parse(fs.readFileSync(assetsPath, "utf8"));
+	let changes = false;
+
+	for (const entry of assets) {
+		if (!entry || typeof entry.address !== "string" || !entry.address) continue;
+		const fixed = fixAddress(entry.address);
+		if (fixed !== entry.address) {
+			changes = true;
+			console.log(
+				`Fixing asset address in all/assets.json: ${entry.address} -> ${fixed}`,
+			);
+			entry.address = fixed;
+		}
+	}
+
+	if (changes) {
+		const content = JSON.stringify(assets, null, 2);
+		fs.writeFileSync(assetsPath, fixBiomeFormatting(content));
+		console.log(`- Updated ${assetsPath}`);
+	} else {
+		console.log("No malformed addresses found in all/assets.json");
+	}
+}
+
 // Process all chains
 for (const chainId of chainDirs) {
 	try {
@@ -222,6 +254,13 @@ for (const chainId of chainDirs) {
 		console.error(`Error processing chain ${chainId}:`, error);
 		process.exit(1);
 	}
+}
+
+try {
+	fixGlobal();
+} catch (error) {
+	console.error("Error processing global scope:", error);
+	process.exit(1);
 }
 
 console.log("\nAddress fixing complete!");
