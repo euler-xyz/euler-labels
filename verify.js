@@ -1,4 +1,3 @@
-const child_process = require("node:child_process");
 const fs = require("node:fs");
 
 const ethers = require("ethers");
