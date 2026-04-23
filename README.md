@@ -41,6 +41,20 @@ Each entry in this object corresponds to a lending product, which is primarily a
 * `featuredVaults`: An optional array of vault addresses to feature. Each must also be in `vaults`.
 * `vaultOverrides`: An optional object of per-vault configuration overrides, keyed by vault address. Each override can contain: `name` (string), `description` (string), `portfolioNotice` (string), `deprecationReason` (string), `block` (string[]), `restricted` (string[]), `notExplorableLend` (boolean), `notExplorableBorrow` (boolean), `keyring` (boolean).
 
+### `assets.json`
+
+This optional file lists per-asset geo-blocking rules, keyed by underlying asset address. An asset-level rule applies to every vault whose underlying asset matches, across all products. Use it when a restriction exists because of the asset itself (e.g. tokenized equities that cannot be sold to US residents). For restrictions that exist because of the *product* wrapping an asset (e.g. one product's USDC vault is blocked in a region while other USDC vaults are not), keep the rule in `products.json` as a product-level `block` or a `vaultOverrides[address].block` / `.restricted`.
+
+Each entry is an object with:
+
+* `address`: Checksummed hex address of the asset (ERC-20 token). (Required)
+* `block`: An optional array of country code strings where the asset is hard-blocked. Any vault using this asset is treated as blocked for users in those countries.
+* `restricted`: An optional array of country code strings where the asset is soft-restricted. Users can still reduce exposure to the asset but cannot acquire more via swap flows.
+
+At least one of `block` or `restricted` must be present. Country codes may be ISO 3166-1 alpha-2 codes (e.g. `US`, `CA`, `GB`) or group aliases (`EU`, `EEA`, `EFTA`).
+
+Asset-level and vault-level rules combine with OR semantics: a vault is blocked if either its underlying asset is blocked *or* the vault itself has a block. Asset rules act as a floor that vault rules can only add to.
+
 ### `points.json`
 
 Each entry in this array corresponds to points available on deposits in a vault. Either `collateralVaults` or `liabilityVaults` or both are required. Each item has the following

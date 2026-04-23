@@ -61,12 +61,16 @@ function fixBiomeFormatting(content) {
 function fixChain(chainId) {
 	console.log(`\nProcessing chain ${chainId}...`);
 
-	// Read all JSON files
+	// Read all JSON files (assets.json is optional per-chain)
 	const files = {
 		entities: JSON.parse(fs.readFileSync(`${chainId}/entities.json`, "utf8")),
 		points: JSON.parse(fs.readFileSync(`${chainId}/points.json`, "utf8")),
 		products: JSON.parse(fs.readFileSync(`${chainId}/products.json`, "utf8")),
 	};
+	const assetsPath = `${chainId}/assets.json`;
+	if (fs.existsSync(assetsPath)) {
+		files.assets = JSON.parse(fs.readFileSync(assetsPath, "utf8"));
+	}
 
 	let changes = false;
 	const changesList = [];
@@ -172,6 +176,21 @@ function fixChain(chainId) {
 					changesList.push(...pointChanges.map((a) => a.message));
 					point[field] = fixedAddresses.map((a) => a.value);
 				}
+			}
+		}
+	}
+
+	// Fix assets.json entry addresses
+	if (files.assets) {
+		for (const entry of files.assets) {
+			if (!entry || typeof entry.address !== "string") continue;
+			const fixed = fixAddress(entry.address);
+			if (fixed !== entry.address) {
+				changes = true;
+				const message = `Fixing asset address in assets: ${entry.address} -> ${fixed}`;
+				console.log(message);
+				changesList.push(message);
+				entry.address = fixed;
 			}
 		}
 	}

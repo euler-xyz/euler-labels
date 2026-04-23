@@ -49,8 +49,10 @@ function validateChain(chainId) {
 	const entities = loadJsonFile(`${chainId}/entities.json`);
 	const products = loadJsonFile(`${chainId}/products.json`);
 	const points = loadJsonFile(`${chainId}/points.json`);
+	const assets = loadJsonFileIfExists(`${chainId}/assets.json`) || [];
 
 	validateUniqueEntityAddresses(entities);
+	validateAssets(chainId, assets);
 
 	for (const entityId of Object.keys(entities)) {
 		const entity = entities[entityId];
@@ -332,6 +334,55 @@ function validateUniqueEntityAddresses(entities) {
 
 function loadJsonFile(file) {
 	return JSON.parse(fs.readFileSync(file).toString());
+}
+
+function loadJsonFileIfExists(file) {
+	if (!fs.existsSync(file)) return null;
+	return loadJsonFile(file);
+}
+
+function validateAssets(chainId, assets) {
+	if (!Array.isArray(assets))
+		throw Error(`assets: ${chainId}/assets.json must be an array`);
+
+	const seen = new Set();
+	for (let i = 0; i < assets.length; i++) {
+		const entry = assets[i];
+		if (!entry || typeof entry !== "object")
+			throw Error(`assets: entry [${i}] must be an object`);
+		if (typeof entry.address !== "string" || !entry.address)
+			throw Error(`assets: entry [${i}] missing address`);
+		if (entry.address !== ethers.getAddress(entry.address))
+			throw Error(`assets: malformed address at [${i}]: ${entry.address}`);
+		if (seen.has(entry.address))
+			throw Error(`assets: duplicate address ${entry.address}`);
+		seen.add(entry.address);
+
+		if (entry.block !== undefined) {
+			if (!Array.isArray(entry.block))
+				throw Error(`assets: block must be an array for ${entry.address}`);
+			for (const code of entry.block) {
+				if (typeof code !== "string")
+					throw Error(
+						`assets: block entries must be strings for ${entry.address}`,
+					);
+			}
+		}
+		if (entry.restricted !== undefined) {
+			if (!Array.isArray(entry.restricted))
+				throw Error(`assets: restricted must be an array for ${entry.address}`);
+			for (const code of entry.restricted) {
+				if (typeof code !== "string")
+					throw Error(
+						`assets: restricted entries must be strings for ${entry.address}`,
+					);
+			}
+		}
+		if (!entry.block?.length && !entry.restricted?.length)
+			throw Error(
+				`assets: entry ${entry.address} has no block or restricted rules`,
+			);
+	}
 }
 
 function validSlug(slug) {
