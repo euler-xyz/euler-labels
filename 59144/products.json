@@ -18,10 +18,13 @@
 	"euler-linea-ezeth": {
 		"name": "Euler Linea ezETH",
 		"entity": ["euler-dao", "gauntlet"],
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0x8bf8EdC911Ab3f0ea4a27c51Cb88b57ccE5356f1",
 			"0x873FEA936C29C8a9f3e0D7caCFC1Dc46E2A93e56"
-		]
+		],
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true
 	},
 	"euler-linea-wrseth": {
 		"name": "Euler Linea wrsETH",
