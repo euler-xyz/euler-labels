@@ -16,7 +16,7 @@
 			"0x29c85c752e854b0Cf2372e6B6c56f260755f5120"
 		],
 		"deprecationReason": "Deprecated due to low activity.",
-		"notExplorable": true
+		"notExplorable": false
 	},
 
 	"relend-network": {
