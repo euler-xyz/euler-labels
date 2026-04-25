@@ -1,5 +1,5 @@
 {
-	"euler-base": {
+	"euler-swell": {
 		"name": "Euler Swell",
 		"description": "A market tailored to executing ETH-based carry-trade strategies. Governed by Euler DAO.",
 		"entity": "euler-dao",
