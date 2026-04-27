@@ -17,6 +17,14 @@
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
+		"re7-labs-tac": {
+		"name": "TON Cluster",
+		"entity": "re7-labs",
+		"vaults": [
+			"0x27324c0d445f94550b53936dBAB7fD168634f192",
+			"0xc7F25f1c8FDB86DE3d14152034de4EB8B71eEC78"
+		]
+	},
 	"edge-capital-tac": {
 		"name": "Edge UltraYield Cluster",
 		"entity": "edge-capital",
