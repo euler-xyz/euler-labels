@@ -31,7 +31,7 @@
 	"euler-yield": {
 		"name": "Euler Yield",
 		"description": "A market tailored to borrowing stablecoins against tokenised yield strategies. Governed by Euler DAO.",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/creation-of-euler-yield-market/1163",
 		"vaults": [
 			"0xe0a80d35bB6618CBA260120b279d357978c42BCE",
@@ -50,7 +50,7 @@
 	"euler-rwa": {
 		"name": "Euler RWA",
 		"description": "A market tailored to borrowing against real-world assets. Governed by Euler DAO.",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"vaults": ["0xC51e90b48FD7fBfF316502b85A71e0EBb1ee5238"],
 		"deprecatedVaults": [
 			"0xEA79E49A076a75A9bF6013505C2B92eED69E4fe1",
@@ -73,7 +73,7 @@
 	"frontier-renzo": {
 		"name": "Frontier Renzo",
 		"description": "An isolated market dedicated to the Renzo ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
 		"vaults": [],
 		"deprecatedVaults": [
@@ -87,7 +87,7 @@
 	"frontier-medge": {
 		"name": "Frontier mEDGE",
 		"description": "An isolated market dedicated to the mEDGE ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
 		"vaults": [],
 		"deprecatedVaults": [
@@ -105,7 +105,7 @@
 	"frontier-mmev": {
 		"name": "Frontier mMEV",
 		"description": "An isolated market dedicated to the mMEV ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
 		"vaults": [],
 		"deprecatedVaults": [
@@ -122,7 +122,7 @@
 	"frontier-level": {
 		"name": "Frontier Level",
 		"description": "An isolated market dedicated to the Level ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
 		"vaults": [],
 		"deprecatedVaults": [
@@ -140,7 +140,7 @@
 	"frontier-falcon": {
 		"name": "Frontier Falcon",
 		"description": "An isolated market dedicated to the Falcon ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
 		"vaults": [
 			"0x3573A84Bee11D49A1CbCe2b291538dE7a7dD81c6",
@@ -155,7 +155,7 @@
 	"frontier-inverse": {
 		"name": "Frontier Inverse",
 		"description": "An isolated market dedicated to the Inverse ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
 		"vaults": [],
 		"deprecatedVaults": [
@@ -171,7 +171,7 @@
 	"frontier-yala": {
 		"name": "Frontier Yala",
 		"description": "An isolated market dedicated to the Yala ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
 		"vaults": [],
 		"isGovernanceLimited": true,
@@ -508,7 +508,7 @@
 	"frontier-upshift": {
 		"name": "Frontier Upshift",
 		"description": "An isolated market dedicated to the Upshift ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/10?u=upshift.fi",
 		"vaults": [],
 		"deprecatedVaults": [
@@ -523,7 +523,7 @@
 	"frontier-bedrock": {
 		"name": "Frontier Bedrock",
 		"description": "An isolated market dedicated to the Bedrock ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/24?u=eulerlabs",
 		"vaults": [],
 		"deprecatedVaults": [
@@ -538,7 +538,7 @@
 	"frontier-puffer": {
 		"name": "Frontier Puffer",
 		"description": "An isolated market dedicated to the Puffer ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/11",
 		"vaults": [],
 		"deprecatedVaults": [
@@ -552,7 +552,7 @@
 	"frontier-pareto": {
 		"name": "Frontier Pareto",
 		"description": "An isolated market dedicated to the Pareto ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/2",
 		"vaults": [],
 		"deprecatedVaults": [
@@ -567,7 +567,7 @@
 	"frontier-reservoir": {
 		"name": "Frontier Reservoir",
 		"description": "An isolated market dedicated to the Reservoir ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
 			"0x15A60a5300c1D9179d4c0e2B49bac6146794Ae1F",
@@ -582,7 +582,7 @@
 	"frontier-spark": {
 		"name": "Frontier Spark",
 		"description": "An isolated market dedicated to the Spark ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
 			"0x58CD6Ae0Bd452d3219366C7ddD37cA1A12d2ff59",
@@ -597,7 +597,7 @@
 	"frontier-yieldfi": {
 		"name": "Frontier YieldFi",
 		"description": "An isolated market dedicated to the YieldFi ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
 			"0xc727069c0eb261Be642272fe3848518192683fFc",
@@ -626,7 +626,7 @@
 	"frontier-strata": {
 		"name": "Frontier Strata",
 		"description": "An isolated market dedicated to the Strata ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
 			"0x53AfE3343f322c4189Ab69E0D048efd154259419",
@@ -646,7 +646,7 @@
 	"frontier-cap": {
 		"name": "Frontier Cap",
 		"description": "An isolated market dedicated to the Cap Money ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
 			"0x6Fe7Fa90756434645F0b0428fDff78E99Dda0FBc",
@@ -663,7 +663,7 @@
 	"frontier-asymmetry": {
 		"name": "Frontier Asymmetry",
 		"description": "An isolated market dedicated to the Asymmetry Finance ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
 			"0x477d7feE2d9dca0bA8F7CbEAa7da219b5bb2d1a7",
@@ -736,7 +736,7 @@
 	"frontier-mapollo": {
 		"name": "Frontier mAPOLLO",
 		"description": "An isolated market dedicated to the mAPOLLO ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"vaults": [
 			"0x2a356443FeE07703266066c6Bb1B11b82d8246AD",
 			"0xC11d6b78D8c609A6cbf66E89DBfea06b011B0AEf",
@@ -830,7 +830,7 @@
 	"frontier-mevbtc": {
 		"name": "Frontier mevBTC",
 		"description": "An isolated market dedicated to the Midas mevBTC ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
 			"0xbed968285CB7E32463dfc1324c329BA458dc650D",
@@ -843,7 +843,7 @@
 	"frontier-mfarm": {
 		"name": "Frontier mFARM",
 		"description": "An isolated market dedicated to the Midas mFARM ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
 			"0x6f2598c99722428563F852F49002C6826316c751",

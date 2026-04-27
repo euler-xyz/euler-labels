@@ -9,7 +9,7 @@
 			"0xfeE02E3904DfcF323851163E3b8847952f168b2e"
 		],
 		"deprecationReason": "Deprecated due to low activity.",
-		"notExplorable": false,
+		"notExplorable": true,
 		"isGovernanceLimited": true
 	},
 	"frontier-ethena": {
@@ -22,7 +22,7 @@
 			"0xB0004aD99F0e383cC413bA69ACff7c229D930112"
 		],
 		"deprecationReason": "Deprecated due to low activity.",
-		"notExplorable": false,
+		"notExplorable": true,
 		"isGovernanceLimited": true
 	},
 	"re7labs-xusd": {
@@ -55,7 +55,7 @@
 			"0x7f801a8f69C9D9BA52aF27A8fADde56FC33F9267"
 		],
 		"deprecationReason": "Deprecated due to low activity.",
-		"notExplorable": false,
+		"notExplorable": true,
 		"isGovernanceLimited": true
 	},
 	"frontier-maple": {
@@ -67,7 +67,7 @@
 			"0xFA00aBfF8E404B4Fe939115409035F708a109842"
 		],
 		"deprecationReason": "Deprecated due to low activity.",
-		"notExplorable": false,
+		"notExplorable": true,
 		"isGovernanceLimited": true
 	},
 	"frontier-resolv-wstusr": {
@@ -80,7 +80,7 @@
 			"0x4718484ac9dc07fbbC078561e8f8Ef29e2a369CD"
 		],
 		"deprecationReason": "Deprecated due to exposure to the Resolv security incident.",
-		"notExplorable": false,
+		"notExplorable": true,
 		"isGovernanceLimited": true
 	},
 	"frontier-resolv-rlp": {
@@ -93,7 +93,7 @@
 			"0x538f01e0BA3cf3aB5b3837A0d138a3F67b9b8235"
 		],
 		"deprecationReason": "Deprecated due to exposure to the Resolv security incident.",
-		"notExplorable": false,
+		"notExplorable": true,
 		"isGovernanceLimited": true
 	},
 	"telosc-stream": {
@@ -130,7 +130,7 @@
 			"0x0D10591241F67449102ACF05CD9c480CfE43154c"
 		],
 		"deprecationReason": "Deprecated due to low activity.",
-		"notExplorable": false,
+		"notExplorable": true,
 		"isGovernanceLimited": true
 	},
 	"frontier-pt-susde": {
@@ -143,7 +143,7 @@
 			"0x8073b76bBd1B40F1Fb2b6AEf7A920B1914Bb86AB"
 		],
 		"deprecationReason": "Deprecated due to low activity.",
-		"notExplorable": false,
+		"notExplorable": true,
 		"isGovernanceLimited": true
 	},
 	"frontier-pt-syrupusdt": {
@@ -155,7 +155,7 @@
 			"0xf0A1bDf7e678144702feC359fa1A0eb50b0B8845"
 		],
 		"deprecationReason": "Deprecated due to low activity.",
-		"notExplorable": false,
+		"notExplorable": true,
 		"isGovernanceLimited": true
 	},
 	"frontier-pt-usdai": {
@@ -168,7 +168,7 @@
 			"0x98d6863fa1C247d529c94e53f521897ae9A6EBf0"
 		],
 		"deprecationReason": "Deprecated due to low activity.",
-		"notExplorable": false,
+		"notExplorable": true,
 		"isGovernanceLimited": true
 	},
 	"frontier-pt-susdai": {
@@ -181,7 +181,7 @@
 			"0x66Ab62571Ccd31D911EeEfea85944895e30c0A3a"
 		],
 		"deprecationReason": "Deprecated due to low activity.",
-		"notExplorable": false,
+		"notExplorable": true,
 		"isGovernanceLimited": true
 	},
 	"frontier-yieldfi": {
@@ -193,7 +193,7 @@
 			"0xa1B911B8F60F87AE04Cdd4E0C4C362522927E06c"
 		],
 		"deprecationReason": "Deprecated due to low activity.",
-		"notExplorable": false,
+		"notExplorable": true,
 		"isGovernanceLimited": true
 	},
 	"telosc-fx": {

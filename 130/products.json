@@ -2,7 +2,7 @@
 	"euler-unichain": {
 		"name": "Euler Unichain",
 		"description": "A market tailored to borrowing stable assets against blue chip crypto assets. Governed by Euler DAO.",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"url": "",
 		"vaults": [
 			"0x1f3134C3f3f8AdD904B9635acBeFC0eA0D0E1ffC",
@@ -17,7 +17,7 @@
 	"euler-unichain-lst": {
 		"name": "Euler Unichain LST",
 		"description": "A market tailored to borrowing WETH and LST assets. Governed by Euler DAO.",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"url": "",
 		"vaults": [],
 		"deprecatedVaults": [

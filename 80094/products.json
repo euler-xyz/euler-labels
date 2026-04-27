@@ -3,7 +3,8 @@
 		"name": "MEV Capital Berachain Cluster",
 		"entity": "mev-capital",
 		"description": "The MEV Capital Berachain Cluster provides a set of liquid collateral markets with an optimized risk-adjusted return",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0xad9e5E2647EFb9137B6B8D688d4906fa51476870",
 			"0x6D976915bD9DE43De1A60C39e128e320dadda000",
 			"0xb758d6eC8111FEB9b0EC758A61B7874e5821dfFd",
@@ -19,7 +20,9 @@
 			"0xB8064453B25a91D7a4e8b7e7883A817D5742dE34",
 			"0x1dfB669DF5E70D4238F2Cc0a9EE3b1a21FF91bC0",
 			"0xBaBF4ce18FBab547Ad5939dEFf825f3E2f8d9402"
-		]
+		],
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true
 	},
 	"tulipa-hive": {
 		"name": "Tulipa Hive",
