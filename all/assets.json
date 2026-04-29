@@ -1,7 +1,0 @@
-[
-	{
-		"nameRegex": "ondo",
-		"block": ["CA", "US"],
-		"restricted": ["EU", "EFTA", "BR", "HK", "MY", "SG", "GB"]
-	}
-]

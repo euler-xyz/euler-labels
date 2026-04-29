@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - development
+      - base
 
 jobs:
   sync:
