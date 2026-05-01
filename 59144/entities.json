@@ -87,5 +87,17 @@
 		"social": {
 			"twitter": "mevcapital"
 		}
+	},
+	"alphagrowth": {
+		"name": "AlphaGrowth",
+		"logo": "alphagrowth.svg",
+		"description": "AlphaGrowth curates lending markets and structured DeFi products on Euler V2.",
+		"url": "https://alphagrowth.io/",
+		"addresses": {
+			"0x4f894Bfc9481110278C356adE1473eBe2127Fd3C": "AlphaGrowth governor multisig (Gnosis Safe, 3-of-8)"
+		},
+		"social": {
+			"twitter": "alphagrowth1"
+		}
 	}
 }
