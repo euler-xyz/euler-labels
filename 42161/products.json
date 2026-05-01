@@ -1,9 +1,8 @@
 {
-	"alphagrowth-arbitrum-market": {
-		"name": "AlphaGrowth Arbitrum Market",
-		"description": "A market tailored to facilitate common trades like blue chip lending, stablecoin borrowing, and LST/LRT looping. Governed by AlphaGrowth.",
-		"entity": ["alphagrowth"],
-		"url": "https://alphagrowth.io/",
+	"k3-arbitrum-market": {
+		"name": "K3 Capital Arbitrum Market",
+		"description": "A market tailored to facilitate common trades like blue chip lending, stablecoin borrowing, and LST/LRT looping. Governed by K3 Capital.",
+		"entity": ["k3-capital"],
 		"vaults": [
 			"0x0a1eCC5Fe8C9be3C809844fcBe615B46A869b899",
 			"0x37512F45B4ba8808910632323b73783Ca938CD51",
@@ -43,11 +42,10 @@
 		"deprecationReason": "Deprecated due to exposure to the Resolv security incident.",
 		"notExplorable": true
 	},
-	"alphagrowth-theo": {
-		"name": "Alphagrowth Theo",
-		"description": "An isolated Theo ecosystem market governed by AlphaGrowth.",
-		"entity": ["alphagrowth"],
-		"url": "https://alphagrowth.io/",
+	"k3-theo": {
+		"name": "K3 Capital Theo Market",
+		"description": "An isolated Theo ecosystem market governed by K3 Capital.",
+		"entity": ["k3-capital"],
 		"vaults": [
 			"0x44C10DA836d2aBe881b77bbB0b3DCE5f85C0C1Cc",
 			"0xEE074ceB44adA094391B9C71A7Fb8ba6962D492c",
