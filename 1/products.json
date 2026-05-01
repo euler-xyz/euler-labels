@@ -2,7 +2,7 @@
 	"euler-prime": {
 		"name": "Euler Prime",
 		"description": "A market tailored to borrowing stable assets against blue chip crypto assets. Governed by Euler DAO.",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/expanding-euler-prime/1137",
 		"vaults": [
 			"0xD8b27CF359b7D15710a5BE299AF6e7Bf904984C2",
@@ -30,7 +30,7 @@
 	"euler-yield": {
 		"name": "Euler Yield",
 		"description": "A market tailored to borrowing stablecoins against tokenised yield strategies. Governed by Euler DAO.",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/creation-of-euler-yield-market/1163",
 		"vaults": [
 			"0xe0a80d35bB6618CBA260120b279d357978c42BCE",
