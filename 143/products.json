@@ -231,5 +231,16 @@
 			"0x1475D3dA9ca6a3aa14f76b7f5e9da0d0Bcf1b2f9",
 			"0x144290085Da25E3078425C6F4A477fD8caB0c43e"
 		]
+	},
+	"valos-vusd-ausd": {
+		"name": "Valos vUSD/AUSD Market",
+		"description": "Euler market for Valos evUSD and eAUSD.",
+		"entity": "valos",
+		"url": "https://valos.io",
+		"logo": "valos.svg",
+		"vaults": [
+			"0xea4Be2705517b0Ee0BbabD5E73cEa3dC509d3C36",
+			"0xA7b8E775c9cfB5d9aD2dFB04Cb620AC307450b5D"
+		]
 	}
 }

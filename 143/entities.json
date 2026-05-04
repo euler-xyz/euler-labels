@@ -40,5 +40,11 @@
 		"social": {
 			"twitter": "gauntlet_xyz"
 		}
+	},
+	"valos": {
+		"name": "Valos",
+		"logo": "valos.svg",
+		"description": "Valos is a digital asset manager specialising in private credit strategies.",
+		"url": "https://valos.io"
 	}
 }
