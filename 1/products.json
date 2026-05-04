@@ -16,20 +16,13 @@
 			"0xE88e44C2C7dfc9bcb86e380d29375ccD6cd85406",
 			"0xA28C23a459fF8773EB4dBe0e7250d93F79F1Fe2B",
 			"0x328646cdfBaD730432620d845B8F5A2f7D786C01",
-			"0x5A96128c18018a2cEf539f46Bbed037DAD3cAAe8"
-		],
-		"deprecatedVaults": [
-			"0x1924D7fab80d0623f0836Cbf5258a7fa734EE9D9",
+			"0x5A96128c18018a2cEf539f46Bbed037DAD3cAAe8",
 			"0xa96B72470f4193a4E637dE8BcC6a009d1DD360A2"
 		],
+		"deprecatedVaults": ["0x1924D7fab80d0623f0836Cbf5258a7fa734EE9D9"],
 		"vaultOverrides": {
 			"0x1924D7fab80d0623f0836Cbf5258a7fa734EE9D9": {
 				"deprecationReason": "Deprecated due to Kelp DAO security incident.",
-				"notExplorableLend": true,
-				"notExplorableBorrow": true
-			},
-			"0xa96B72470f4193a4E637dE8BcC6a009d1DD360A2": {
-				"deprecationReason": "Deprecated due to low activity.",
 				"notExplorableLend": true,
 				"notExplorableBorrow": true
 			}
@@ -47,36 +40,12 @@
 			"0x2daCa71Cb58285212Dc05D65Cfd4f59A82BC4cF6",
 			"0x61aAC438453d6e3513C0c8dbb69F13860E2B5028",
 			"0x20622fcD4476fbc9d5Ef36EBd371307a56d9028c",
-			"0xD5F9aFc441ca3f72B22d0B60d53e55b966c8dE64"
-		],
-		"deprecatedVaults": [
+			"0xD5F9aFc441ca3f72B22d0B60d53e55b966c8dE64",
 			"0x9dfe82d2A2419b143d99A36789C405F2D8072c1E",
 			"0x57d74318f938404B2fE1416b9E9ba5D380f505AF",
 			"0x4f4Afcdd8E418f5AA9130BA53af23Cb7bf47F467",
 			"0x2DA35f6e88Eaba4E705Bff7154B259859C353953"
-		],
-		"vaultOverrides": {
-			"0x9dfe82d2A2419b143d99A36789C405F2D8072c1E": {
-				"deprecationReason": "Deprecated due to low activity.",
-				"notExplorableLend": true,
-				"notExplorableBorrow": true
-			},
-			"0x57d74318f938404B2fE1416b9E9ba5D380f505AF": {
-				"deprecationReason": "Deprecated due to low activity.",
-				"notExplorableLend": true,
-				"notExplorableBorrow": true
-			},
-			"0x4f4Afcdd8E418f5AA9130BA53af23Cb7bf47F467": {
-				"deprecationReason": "Deprecated due to low activity.",
-				"notExplorableLend": true,
-				"notExplorableBorrow": true
-			},
-			"0x2DA35f6e88Eaba4E705Bff7154B259859C353953": {
-				"deprecationReason": "Deprecated due to low activity.",
-				"notExplorableLend": true,
-				"notExplorableBorrow": true
-			}
-		}
+		]
 	},
 	"euler-rwa": {
 		"name": "Euler RWA",
@@ -178,27 +147,10 @@
 			"0x3573A84Bee11D49A1CbCe2b291538dE7a7dD81c6",
 			"0xbFdc482616787b420BC6C710212fE3167E7198e9",
 			"0x412D0E31790D77b6e7a7872a9fd6967B6E640229",
-			"0x2F849ba554C1ea2eDe9C240Bbe9d247dd6eC8A6B"
-		],
-		"deprecatedVaults": [
-			"0xE415952f5ee06f8A548F4f7D5bE18FBf144b4E4D",
+			"0x2F849ba554C1ea2eDe9C240Bbe9d247dd6eC8A6B",
 			"0xa7A064f56FbcA60cBeD47eD3e13C4B945DEf7eC3",
 			"0xFBCc21fedd4C4e9097Ef1Baa65B7Ad386b59512D"
-		],
-		"vaultOverrides": {
-			"0xE415952f5ee06f8A548F4f7D5bE18FBf144b4E4D": {
-				"notExplorableLend": true,
-				"notExplorableBorrow": true
-			},
-			"0xa7A064f56FbcA60cBeD47eD3e13C4B945DEf7eC3": {
-				"notExplorableLend": true,
-				"notExplorableBorrow": true
-			},
-			"0xFBCc21fedd4C4e9097Ef1Baa65B7Ad386b59512D": {
-				"notExplorableLend": true,
-				"notExplorableBorrow": true
-			}
-		}
+		]
 	},
 	"frontier-inverse": {
 		"name": "Frontier Inverse",
@@ -700,22 +652,10 @@
 			"0x6Fe7Fa90756434645F0b0428fDff78E99Dda0FBc",
 			"0x35d4f830543700B7280084280ae3236f178E88e3",
 			"0x55F9bACE2C864aC0D3392Ea9fa654b605F21A3d3",
-			"0xb7522C867B8AFae5e89638b59fb38f31B0821795"
-		],
-		"deprecatedVaults": [
+			"0xb7522C867B8AFae5e89638b59fb38f31B0821795",
 			"0x69a2fAD6AC96DDa502f7d240fB4EC88f85217705",
 			"0x97C72647be549C6079dC95235271A9a0Fe7ECc21"
-		],
-		"vaultOverrides": {
-			"0x69a2fAD6AC96DDa502f7d240fB4EC88f85217705": {
-				"notExplorableLend": true,
-				"notExplorableBorrow": true
-			},
-			"0x97C72647be549C6079dC95235271A9a0Fe7ECc21": {
-				"notExplorableLend": true,
-				"notExplorableBorrow": true
-			}
-		}
+		]
 	},
 	"frontier-asymmetry": {
 		"name": "Frontier Asymmetry",
@@ -798,16 +738,9 @@
 		"vaults": [
 			"0x2a356443FeE07703266066c6Bb1B11b82d8246AD",
 			"0xC11d6b78D8c609A6cbf66E89DBfea06b011B0AEf",
-			"0x49d9fd20f1d61648Fa9434a8c0C33174F5614eB8"
-		],
-		"deprecatedVaults": ["0xF75D18F76859764aBe4D13cA2eBaCeFF0b90b262"],
-		"vaultOverrides": {
-			"0xF75D18F76859764aBe4D13cA2eBaCeFF0b90b262": {
-				"deprecationReason": "Deprecated due to low activity.",
-				"notExplorableLend": true,
-				"notExplorableBorrow": true
-			}
-		}
+			"0x49d9fd20f1d61648Fa9434a8c0C33174F5614eB8",
+			"0xF75D18F76859764aBe4D13cA2eBaCeFF0b90b262"
+		]
 	},
 	"hyperithm-mhyper": {
 		"name": "Hyperithm mHYPER",
