@@ -66,21 +66,27 @@
 		"name": "Isolated gMON-WMON-AUSD",
 		"description": "An isolated market dedicated to gMON, WMON and AUSD. Governed by Euler DAO.",
 		"entity": ["euler-dao", "gauntlet"],
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0xd2f35c39A7187BBF55c0b05C52808d7A18eD62Ca",
 			"0x94A169ad76f75E32b5E4E716A0CAcfA28a619B66",
 			"0xD5fF5152eDBD0d921bbfF5EEf84dDa95c6c5A108"
-		]
+		],
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true
 	},
 	"isolated-gmon-wmon-usdc": {
 		"name": "Isolated gMON-WMON-USDC",
 		"description": "An isolated market dedicated to gMON, WMON and USDC. Governed by Euler DAO.",
 		"entity": ["euler-dao", "gauntlet"],
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0xb181030fF0767c24D83c65527BD42146486F415E",
 			"0x5E1534Af364De6f789B67dAB52aBDC154AB48757",
 			"0xF2acB868eaf64ef36BC0D3B4BA93aF00fC3167cF"
-		]
+		],
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true
 	},
 	"isolated-gmon-wmon-usdt": {
 		"name": "Isolated gMON-WMON-USDT",
@@ -109,11 +115,14 @@
 		"name": "Isolated shMON-WMON-USDC",
 		"description": "An isolated market dedicated to shMON, WMON and USDC. Governed by Euler DAO.",
 		"entity": ["euler-dao", "gauntlet"],
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0xb6A4db1FeF7831F65827d9aF2Cb1e69F764eC123",
 			"0x7B4BcAEAC5Eb67ae947903F24BBa660eE06A5231",
 			"0x5792753b66Eb5213E416755546abBcC1AEF1008A"
-		]
+		],
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true
 	},
 	"isolated-shmon-wmon-usdt": {
 		"name": "Isolated shMON-WMON-USDT",
@@ -142,11 +151,14 @@
 		"name": "Isolated sMON-WMON-USDC",
 		"description": "An isolated market dedicated to sMON, WMON and USDC. Governed by Euler DAO.",
 		"entity": ["euler-dao", "gauntlet"],
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0xDDffd6801a86b598077aDdda04F70aF08b6f8807",
 			"0x9109529c3a2EB36DE0AC3837baeA74044863C60a",
 			"0x36d0f0A4cB615C200310aE2c5b5D345189d01197"
-		]
+		],
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true
 	},
 	"isolated-smon-wmon-usdt": {
 		"name": "Isolated sMON-WMON-USDT",
@@ -165,19 +177,25 @@
 		"name": "Isolated LBTC-AUSD",
 		"description": "An isolated market dedicated to LBTC and AUSD. Governed by Euler DAO.",
 		"entity": ["euler-dao", "gauntlet"],
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0x1874f82AC9EF2Bd5603Cc946Cb6f3bCB9Dd2d66F",
 			"0x0709be7Bb77b25E398CcFD518770c0BAE31a38Df"
-		]
+		],
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true
 	},
 	"isolated-lbtc-usdc": {
 		"name": "Isolated LBTC-USDC",
 		"description": "An isolated market dedicated to LBTC and USDC. Governed by Euler DAO.",
 		"entity": ["euler-dao", "gauntlet"],
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0xbC5fd2cA51B0BCA8882246833B2ea8627A79bC59",
 			"0xf62C7CD4f71434f7C4d12A1142133d4Ed4aBaEc4"
-		]
+		],
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true
 	},
 	"isolated-lbtc-usdt": {
 		"name": "Isolated LBTC-USDT",
