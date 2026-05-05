@@ -1,17 +1,17 @@
 {
-	"isolated-btc-ausd": {
-		"name": "Isolated WBTC-AUSD",
-		"description": "An isolated market dedicated to WBTC and AUSD. Governed by Euler DAO.",
-		"entity": ["euler-dao", "gauntlet"],
+	"k3-isolated-btc-ausd": {
+		"name": "K3 Isolated WBTC-AUSD",
+		"description": "An isolated market dedicated to WBTC and AUSD. Governed by K3 Capital.",
+		"entity": ["k3-capital"],
 		"vaults": [
 			"0x240FcAFffF24AAa39e420B6F70ED5519847648b4",
 			"0x8f47D9D9d5A8202a5a37c4E41fbDd3146D88A579"
 		]
 	},
-	"isolated-btc-usdc": {
-		"name": "Isolated WBTC-USDC",
-		"description": "An isolated market dedicated to WBTC and USDC. Governed by Euler DAO.",
-		"entity": ["euler-dao", "gauntlet"],
+	"k3-isolated-btc-usdc": {
+		"name": "K3 Isolated WBTC-USDC",
+		"description": "An isolated market dedicated to WBTC and USDC. Governed by K3 Capital.",
+		"entity": ["k3-capital"],
 		"vaults": [
 			"0x52A59afAF5CB7CB09F94056fD631688D659A33B6",
 			"0xF19E8Ddc541dEE2F4D6796a79b1C1E10A415a0Da"
@@ -29,20 +29,20 @@
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
-	"isolated-wsteth-weth-ausd": {
-		"name": "Isolated wstETH-WETH-AUSD",
-		"description": "An isolated market dedicated to wstETH, WETH and AUSD. Governed by Euler DAO.",
-		"entity": ["euler-dao", "gauntlet"],
+	"k3-isolated-wsteth-weth-ausd": {
+		"name": "K3 Isolated wstETH-WETH-AUSD",
+		"description": "An isolated market dedicated to wstETH, WETH and AUSD. Governed by K3 Capital.",
+		"entity": ["k3-capital"],
 		"vaults": [
 			"0x870E172C3C7Ea274Ce60fB8D19D86012edc3C043",
 			"0x8c75A7177D64167E6EbC65A1D25d03CbF726fc46",
 			"0xb72E0659417bbB1eA55869Ab2f81cb41e751938f"
 		]
 	},
-	"isolated-wsteth-weth-usdc": {
-		"name": "Isolated wstETH-WETH-USDC",
-		"description": "An isolated market dedicated to wstETH, WETH and USDC. Governed by Euler DAO.",
-		"entity": ["euler-dao", "gauntlet"],
+	"k3-isolated-wsteth-weth-usdc": {
+		"name": "K3 Isolated wstETH-WETH-USDC",
+		"description": "An isolated market dedicated to wstETH, WETH and USDC. Governed by K3 Capital.",
+		"entity": ["k3-capital"],
 		"vaults": [
 			"0x1E4D67c666c2Ccf27A0aF980fE6c8e0f05aC8949",
 			"0x502e4a0B61dEBA3015Eb9E51116B832003B22c2C",
@@ -95,10 +95,10 @@
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
-	"isolated-shmon-wmon-ausd": {
-		"name": "Isolated shMON-WMON-AUSD",
-		"description": "An isolated market dedicated to shMON, WMON and AUSD. Governed by Euler DAO.",
-		"entity": ["euler-dao", "gauntlet"],
+	"k3-isolated-shmon-wmon-ausd": {
+		"name": "K3 Isolated shMON-WMON-AUSD",
+		"description": "An isolated market dedicated to shMON, WMON and AUSD. Governed by K3 Capital.",
+		"entity": ["k3-capital"],
 		"vaults": [
 			"0x6661a2b4008b70f22Ff84c2134ac6F51534E162d",
 			"0x28bD4F19C812CBF9e33A206f87125f14E65dc8aA",
@@ -128,10 +128,10 @@
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
-	"isolated-smon-wmon-ausd": {
-		"name": "Isolated sMON-WMON-AUSD",
-		"description": "An isolated market dedicated to sMON, WMON and AUSD. Governed by Euler DAO.",
-		"entity": ["euler-dao", "gauntlet"],
+	"k3-isolated-smon-wmon-ausd": {
+		"name": "K3 Isolated sMON-WMON-AUSD",
+		"description": "An isolated market dedicated to sMON, WMON and AUSD. Governed by K3 Capital.",
+		"entity": ["k3-capital"],
 		"vaults": [
 			"0xA8f093Cfb04a536Dbc6aa9BB94A2D617305a48F3",
 			"0x9eA1b948186F9A8cfe375278d96363103f4fa42B",
@@ -203,19 +203,19 @@
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
-	"isolated-xaut-ausd": {
-		"name": "Isolated XAUT-AUSD",
-		"description": "An isolated market dedicated to XAUT and AUSD. Governed by Euler DAO.",
-		"entity": ["euler-dao", "gauntlet"],
+	"k3-isolated-xaut-ausd": {
+		"name": "K3 Isolated XAUT-AUSD",
+		"description": "An isolated market dedicated to XAUT and AUSD. Governed by K3 Capital.",
+		"entity": ["k3-capital"],
 		"vaults": [
 			"0xd505ccE10571C1d07dd40D2D9001BEf22CDF0D71",
 			"0x048e7f7857c5297Cd7623244bbb4Fae65936996a"
 		]
 	},
-	"isolated-xaut-usdc": {
-		"name": "Isolated XAUT-USDC",
-		"description": "An isolated market dedicated to XAUT and USDC. Governed by Euler DAO.",
-		"entity": ["euler-dao", "gauntlet"],
+	"k3-isolated-xaut-usdc": {
+		"name": "K3 Isolated XAUT-USDC",
+		"description": "An isolated market dedicated to XAUT and USDC. Governed by K3 Capital.",
+		"entity": ["k3-capital"],
 		"vaults": [
 			"0x091298D908a216CfcA30729dB2B194Fe5f1d16be",
 			"0x289F801765B99B5E6263853859fE302dbecaB6d6"

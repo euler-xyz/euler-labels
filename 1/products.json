@@ -927,6 +927,7 @@
 		"vaults": [
 			"0x99b42158986476Dc72D7688861bB9bE21993EBBb",
 			"0x5108b9a91132a3052963271CBc5c7c1484DA428e"
-		]
+		],
+		"notExplorable": true
 	}
 }
