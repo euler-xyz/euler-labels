@@ -17,7 +17,7 @@
 	},
 	"euler-linea-ezeth": {
 		"name": "Euler Linea ezETH",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"vaults": [
 			"0x8bf8EdC911Ab3f0ea4a27c51Cb88b57ccE5356f1",
 			"0x873FEA936C29C8a9f3e0D7caCFC1Dc46E2A93e56"
@@ -27,7 +27,7 @@
 	},
 	"euler-linea-wrseth": {
 		"name": "Euler Linea wrsETH",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
 			"0x179DfD3eCDC6f5B8F8788584F3289D10c6F1afb8",
