@@ -1,15 +1,12 @@
 {
-	"isolated-btc-ausd": {
+	"k3-isolated-btc-ausd": {
 		"name": "Isolated WBTC-AUSD",
-		"description": "An isolated market dedicated to WBTC and AUSD. Governed by Euler DAO.",
-		"entity": ["euler-dao"],
-		"vaults": [],
-		"deprecatedVaults": [
+		"description": "An isolated market dedicated to WBTC and AUSD. Governed by K3 Capital.",
+		"entity": ["k3-capital"],
+		"vaults": [
 			"0x240FcAFffF24AAa39e420B6F70ED5519847648b4",
 			"0x8f47D9D9d5A8202a5a37c4E41fbDd3146D88A579"
-		],
-		"deprecationReason": "Deprecated due to low activity.",
-		"notExplorable": true
+		]
 	},
 	"k3-isolated-btc-usdc": {
 		"name": "K3 Isolated WBTC-USDC",
