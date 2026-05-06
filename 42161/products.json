@@ -30,7 +30,7 @@
 	},
 	"euler-arbitrum-yield": {
 		"name": "Euler Arbitrum Yield",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/creation-of-arbitrum-yield-market/1628",
 		"vaults": [],
 		"deprecatedVaults": [
