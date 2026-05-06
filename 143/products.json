@@ -114,18 +114,15 @@
 			"0x6E06ce28a6C28bffa274Ead5cb715992033E351A"
 		]
 	},
-	"isolated-shmon-wmon-usdc": {
-		"name": "Isolated shMON-WMON-USDC",
-		"description": "An isolated market dedicated to shMON, WMON and USDC. Governed by Euler DAO.",
-		"entity": ["euler-dao"],
-		"vaults": [],
-		"deprecatedVaults": [
+	"k3-isolated-shmon-wmon-usdc": {
+		"name": "K3 Isolated shMON-WMON-USDC",
+		"description": "An isolated market dedicated to shMON, WMON and USDC. Governed by K3 Capital.",
+		"entity": ["k3-capital"],
+		"vaults": [
 			"0xb6A4db1FeF7831F65827d9aF2Cb1e69F764eC123",
 			"0x7B4BcAEAC5Eb67ae947903F24BBa660eE06A5231",
 			"0x5792753b66Eb5213E416755546abBcC1AEF1008A"
-		],
-		"deprecationReason": "Deprecated due to low activity.",
-		"notExplorable": true
+		]
 	},
 	"isolated-shmon-wmon-usdt": {
 		"name": "Isolated shMON-WMON-USDT",
@@ -150,18 +147,15 @@
 			"0x3fE40329061A40f95416da42bB69E15d8eb83740"
 		]
 	},
-	"isolated-smon-wmon-usdc": {
-		"name": "Isolated sMON-WMON-USDC",
-		"description": "An isolated market dedicated to sMON, WMON and USDC. Governed by Euler DAO.",
-		"entity": ["euler-dao"],
-		"vaults": [],
-		"deprecatedVaults": [
+	"k3-isolated-smon-wmon-usdc": {
+		"name": "K3 Isolated sMON-WMON-USDC",
+		"description": "An isolated market dedicated to sMON, WMON and USDC. Governed by K3 Capital.",
+		"entity": ["k3-capital"],
+		"vaults": [
 			"0xDDffd6801a86b598077aDdda04F70aF08b6f8807",
 			"0x9109529c3a2EB36DE0AC3837baeA74044863C60a",
 			"0x36d0f0A4cB615C200310aE2c5b5D345189d01197"
-		],
-		"deprecationReason": "Deprecated due to low activity.",
-		"notExplorable": true
+		]
 	},
 	"isolated-smon-wmon-usdt": {
 		"name": "Isolated sMON-WMON-USDT",
