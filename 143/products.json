@@ -171,7 +171,8 @@
 		"name": "Isolated LBTC-AUSD",
 		"description": "An isolated market dedicated to LBTC and AUSD. Governed by Euler DAO.",
 		"entity": ["euler-dao"],
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0x1874f82AC9EF2Bd5603Cc946Cb6f3bCB9Dd2d66F",
 			"0x0709be7Bb77b25E398CcFD518770c0BAE31a38Df"
 		],
@@ -182,7 +183,8 @@
 		"name": "Isolated LBTC-USDC",
 		"description": "An isolated market dedicated to LBTC and USDC. Governed by Euler DAO.",
 		"entity": ["euler-dao"],
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0xbC5fd2cA51B0BCA8882246833B2ea8627A79bC59",
 			"0xf62C7CD4f71434f7C4d12A1142133d4Ed4aBaEc4"
 		],
