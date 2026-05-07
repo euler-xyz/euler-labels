@@ -2,7 +2,7 @@
 	"euler-dao": {
 		"name": "Euler DAO",
 		"logo": "euler.svg",
-		"description": "Euler DAO is responsible for the governance and development of the Euler protocol and related infrastructure.",
+		"description": "Euler DAO is responsible for the governance of the Euler protocol.",
 		"url": "https://euler.finance/",
 		"addresses": {
 			"0xdA3da5c8f93c0B7630412B8cd7dE571011Df8963": "Euler DAO Multisig",
