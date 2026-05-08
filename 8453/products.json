@@ -1,7 +1,7 @@
 {
 	"alphagrowth-base-market": {
 		"name": "AlphaGrowth Base",
-		"description": "A lending and borrowing market for stablecoin-denominated assets and selected crypto collateral, configured by AlphaGrowth.",
+		"description": "A lending and borrowing market for stablecoin-denominated assets and selected collateral, configured by AlphaGrowth.",
 		"entity": ["alphagrowth"],
 		"url": "https://alphagrowth.io/",
 		"vaults": [
@@ -96,7 +96,7 @@
 	},
 	"alphagrowth-base": {
 		"name": "AlphaGrowth Base Vaults",
-		"description": "A lending and borrowing market for selected crypto collateral, configured by AlphaGrowth.",
+		"description": "A lending and borrowing market for selected collateral, configured by AlphaGrowth.",
 		"entity": ["alphagrowth"],
 		"url": "https://alphagrowth.io/",
 		"vaults": [
@@ -116,7 +116,7 @@
 	},
 	"clearstar-eth-fusion": {
 		"name": "Clearstar ETH Fusion",
-		"description": "A market focused on cbAssets. Curated by Clearstar Labs.",
+		"description": "A market for cbAssets, configured by Clearstar Labs.",
 		"entity": "clearstar",
 		"vaults": [
 			"0x60C61a47804283a514bFCDF163138b7528720D0F",

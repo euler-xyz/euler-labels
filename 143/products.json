@@ -1,7 +1,7 @@
 {
 	"k3-isolated-btc-ausd": {
 		"name": "Isolated WBTC-AUSD",
-		"description": "An isolated market dedicated to WBTC and AUSD. Governed by K3 Capital.",
+		"description": "An isolated market for WBTC and AUSD, configured by K3 Capital.",
 		"entity": ["k3-capital"],
 		"vaults": [
 			"0x240FcAFffF24AAa39e420B6F70ED5519847648b4",
@@ -10,7 +10,7 @@
 	},
 	"k3-isolated-btc-usdc": {
 		"name": "K3 Isolated WBTC-USDC",
-		"description": "An isolated market dedicated to WBTC and USDC. Governed by K3 Capital.",
+		"description": "An isolated market for WBTC and USDC, configured by K3 Capital.",
 		"entity": ["k3-capital"],
 		"vaults": [
 			"0x52A59afAF5CB7CB09F94056fD631688D659A33B6",
@@ -31,7 +31,7 @@
 	},
 	"k3-isolated-wsteth-weth-ausd": {
 		"name": "K3 Isolated wstETH-WETH-AUSD",
-		"description": "An isolated market dedicated to wstETH, WETH and AUSD. Governed by K3 Capital.",
+		"description": "An isolated market for wstETH, WETH, and AUSD, configured by K3 Capital.",
 		"entity": ["k3-capital"],
 		"vaults": [
 			"0x870E172C3C7Ea274Ce60fB8D19D86012edc3C043",
@@ -41,7 +41,7 @@
 	},
 	"k3-isolated-wsteth-weth-usdc": {
 		"name": "K3 Isolated wstETH-WETH-USDC",
-		"description": "An isolated market dedicated to wstETH, WETH and USDC. Governed by K3 Capital.",
+		"description": "An isolated market for wstETH, WETH, and USDC, configured by K3 Capital.",
 		"entity": ["k3-capital"],
 		"vaults": [
 			"0x1E4D67c666c2Ccf27A0aF980fE6c8e0f05aC8949",
@@ -103,7 +103,7 @@
 	},
 	"k3-isolated-shmon-wmon-ausd": {
 		"name": "K3 Isolated shMON-WMON-AUSD",
-		"description": "An isolated market dedicated to shMON, WMON and AUSD. Governed by K3 Capital.",
+		"description": "An isolated market for shMON, WMON, and AUSD, configured by K3 Capital.",
 		"entity": ["k3-capital"],
 		"vaults": [
 			"0x6661a2b4008b70f22Ff84c2134ac6F51534E162d",
@@ -113,7 +113,7 @@
 	},
 	"k3-isolated-shmon-wmon-usdc": {
 		"name": "K3 Isolated shMON-WMON-USDC",
-		"description": "An isolated market dedicated to shMON, WMON and USDC. Governed by K3 Capital.",
+		"description": "An isolated market for shMON, WMON, and USDC, configured by K3 Capital.",
 		"entity": ["k3-capital"],
 		"vaults": [
 			"0xb6A4db1FeF7831F65827d9aF2Cb1e69F764eC123",
@@ -136,7 +136,7 @@
 	},
 	"k3-isolated-smon-wmon-ausd": {
 		"name": "K3 Isolated sMON-WMON-AUSD",
-		"description": "An isolated market dedicated to sMON, WMON and AUSD. Governed by K3 Capital.",
+		"description": "An isolated market for sMON, WMON, and AUSD, configured by K3 Capital.",
 		"entity": ["k3-capital"],
 		"vaults": [
 			"0xA8f093Cfb04a536Dbc6aa9BB94A2D617305a48F3",
@@ -146,7 +146,7 @@
 	},
 	"k3-isolated-smon-wmon-usdc": {
 		"name": "K3 Isolated sMON-WMON-USDC",
-		"description": "An isolated market dedicated to sMON, WMON and USDC. Governed by K3 Capital.",
+		"description": "An isolated market for sMON, WMON, and USDC, configured by K3 Capital.",
 		"entity": ["k3-capital"],
 		"vaults": [
 			"0xDDffd6801a86b598077aDdda04F70aF08b6f8807",

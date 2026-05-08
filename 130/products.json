@@ -1,7 +1,7 @@
 {
 	"alphagrowth-unichain-market": {
 		"name": "AlphaGrowth Unichain Market",
-		"description": "A market tailored to borrowing stable assets against blue chip crypto assets. Governed by AlphaGrowth.",
+		"description": "A lending and borrowing market for stablecoin-denominated assets and selected collateral, configured by AlphaGrowth.",
 		"entity": ["alphagrowth"],
 		"url": "https://alphagrowth.io/",
 		"vaults": [
@@ -31,7 +31,7 @@
 	},
 	"alphagrowth-unichain": {
 		"name": "AlphaGrowth Unichain Vaults",
-		"description": "A lending and borrowing market for selected crypto collateral, configured by AlphaGrowth.",
+		"description": "A lending and borrowing market for selected collateral, configured by AlphaGrowth.",
 		"entity": ["alphagrowth"],
 		"url": "https://alphagrowth.io/",
 		"vaults": [
