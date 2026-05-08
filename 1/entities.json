@@ -2,7 +2,7 @@
 	"euler-dao": {
 		"name": "Euler DAO",
 		"logo": "euler.svg",
-		"description": "The Euler DAO is the organisation responsible for the creation of the Euler lending/borrowing platform.",
+		"description": "Euler DAO is responsible for the governance of the Euler protocol.",
 		"url": "https://euler.finance/",
 		"addresses": {
 			"0xcAD001c30E96765aC90307669d578219D4fb1DCe": "Euler DAO Multisig",
@@ -19,7 +19,7 @@
 	"re7-labs": {
 		"name": "Re7 Labs",
 		"logo": "re7labs.png",
-		"description": "Re7 Labs is the innovation arm of digital asset investment firm Re7 Capital, taking the practical experience of DeFi risk management to on-chain vaults.",
+		"description": "Re7 Labs is a third-party curator using Euler infrastructure to configure onchain vaults and lending markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://www.re7labs.xyz/",
 		"addresses": {
 			"0x184d597Be309e11650ca6c935B483DcC05551578": "Re7 Labs Euler Multisig",
@@ -32,7 +32,7 @@
 	"apostro": {
 		"name": "Apostro",
 		"logo": "apostro.png",
-		"description": "Building a better way to self-regulate markets to avoid oracle attacks.",
+		"description": "Apostro is a third-party curator using Euler infrastructure to configure markets with a focus on oracle-risk management. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://www.apostro.xyz/",
 		"addresses": {
 			"0x05591B3aFE2239Ff3669BCfD715815d2ba8A24a4": "Apostro Timelock",
@@ -45,7 +45,7 @@
 	"alterscope": {
 		"name": "Alterscope",
 		"logo": "alterscope_wb.png",
-		"description": "Alterscope provides the platform for processing and modelling risk in real-time across chains, protocols, and liquidity pools.",
+		"description": "Alterscope is a third-party curator using Euler infrastructure to configure markets informed by risk modeling and monitoring tools. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://www.alterscope.org/",
 		"addresses": {
 			"0x2e571f334fe06A6a2741dd0E4cb5Bc7C1F8Af808": "Alterscope Multisig"
@@ -57,7 +57,7 @@
 	"cozy-finance": {
 		"name": "Cozy Finance",
 		"logo": "cozy.png",
-		"description": "Cozy Finance builds modular on-chain risk infrastructure and financial primitives that enable protocols and vault managers to structure, price, and manage risk in a programmable way.",
+		"description": "Cozy Finance is a third-party curator using Euler infrastructure to configure markets using modular onchain risk infrastructure. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://www.cozy.finance/",
 		"addresses": {
 			"0xA2b11225539c704ABE29A0e0a51d8774408bd271": "Cozy Finance Governor",
@@ -71,7 +71,7 @@
 	"dinero": {
 		"name": "Dinero",
 		"logo": "dinero.png",
-		"description": "The yield baseplate of Ethereum. Providing a suite of products that scale yield for protocols and users.",
+		"description": "Dinero is a DeFi protocol using Euler infrastructure to configure vaults connected to Dinero ecosystem assets.",
 		"addresses": {
 			"0x66301F68E8EdE19C0EcD1AB0b3Ee6FdE9cb143Fb": "Dinero Protocol Timelock Controller"
 		}
@@ -79,7 +79,7 @@
 	"idle": {
 		"name": "Idle DAO",
 		"logo": "idle.png",
-		"description": "Idle DAO empowers the DeFi market with robust yield automation and hedging instruments, facilitating its expansion and establishing the foundation for a sustainable credit financial ecosystem via a more efficient and risk-adjusted capital allocation.",
+		"description": "Idle DAO is a third-party curator using Euler infrastructure to configure vaults connected to automated DeFi allocation strategies. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://idle.finance/",
 		"addresses": {
 			"0xFb3bD022D5DAcF95eE28a6B07825D4Ff9C5b3814": "Idle DAO Multisig",
@@ -92,7 +92,7 @@
 	"mev-capital": {
 		"name": "MEV Capital",
 		"logo": "mev-capital.svg",
-		"description": "MEV Capital is a digital asset manager that focuses on finding and extracting value from the nascent DeFi markets. The strategies are conducted following a stable asset exposure mandate supported by well-defined benchmarks. The operations mainly consist of risk curations and liquidity provisioning to a set of public protocols. These protocols are selected to reflect internal risk management rules, fit regulatory criteria, and answer investor needs. MEV Capital aims to achieve consistent returns for the investors, while operating in a highly liquid environment and battle-tested security framework.",
+		"description": "MEV Capital is a third-party curator using Euler infrastructure to configure vaults across selected DeFi markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://mevcapital.com/",
 		"addresses": {
 			"0x38afC3aA2c76b4cA1F8e1DabA68e998e1F4782DB": "MEV Capital Multisig"
@@ -104,7 +104,7 @@
 	"k3": {
 		"name": "K3 Capital",
 		"logo": "k3.svg",
-		"description": "K3 Capital provide leading institutional asset and risk management in decentralized finance.",
+		"description": "K3 Capital is a third-party curator using Euler infrastructure to configure vaults across selected DeFi markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://k3.capital/",
 		"addresses": {
 			"0xdD84A24eeddE63F10Ec3e928f1c8302A47538b6B": "K3 Capital Multisig"
@@ -116,7 +116,7 @@
 	"swaap-labs": {
 		"name": "Swaap labs",
 		"logo": "swaap.png",
-		"description": "Swaap Labs builds and operates onchain financial primitives, with a special focus on risk management and onchain market making",
+		"description": "Swaap Labs is a third-party curator using Euler infrastructure to configure markets with a focus on onchain financial primitives. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://www.swaap.finance/",
 		"addresses": {
 			"0xD6Ff6aBb93EF058A474769f0d05C7fEF440920F8": "Swaap Multisig"
@@ -128,7 +128,7 @@
 	"tulipa-capital": {
 		"name": "Tulipa Capital",
 		"logo": "tulipacapital.png",
-		"description": "At Tulipa Capital, we leverage cutting-edge technology and innovative financial strategies to maximize yields while implementing rigorous risk management practices.",
+		"description": "Tulipa Capital is a third-party curator using Euler infrastructure to configure vaults across selected DeFi strategies. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://www.tulipa.capital/",
 		"addresses": {
 			"0xF53eAeB7e6f15CBb6dB990eaf2A26702e1D986d8": "Tulipa Capital Multisig",
@@ -141,7 +141,7 @@
 	"usual": {
 		"name": "Usual",
 		"logo": "usual.svg",
-		"description": "Usual is a decentralized finance framework centered around USD0, a stablecoin designed as a liquid deposit token. It embodies the principle of redistributing value generated by users through a revenue-based token, USUAL. This approach enables users to access yields while simultaneously gaining exposure to the protocol's growth and long-term success.",
+		"description": "Usual is a DeFi protocol using Euler infrastructure to configure markets connected to the USD0 ecosystem.",
 		"url": "https://www.usual.money/",
 		"addresses": {
 			"0xdd82875f0840AAD58a455A70B88eEd9F59ceC7c7": "Usual Collateral Treasury",
@@ -157,7 +157,7 @@
 	"ouroboros-capital": {
 		"name": "Ouroboros Capital",
 		"logo": "ouroboroscap.png",
-		"description": "Ouroboros Capital curates yield strategies through rigorous risk management and in-depth market analysis to optimize risk-adjusted returns.",
+		"description": "Ouroboros Capital is a third-party curator using Euler infrastructure to configure vaults across selected DeFi lending strategies. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://www.ourocap.io/",
 		"addresses": {
 			"0x8B5EB629Dc1d56B101cD340CA87Ea2506c551379": "Ouroboros Capital Multisig"
@@ -169,7 +169,7 @@
 	"zerolend": {
 		"name": "ZeroLend",
 		"logo": "zerolend.jpg",
-		"description": "ZeroLend is a decentralized lending market curating vaults for LRTs, Real World Assets (RWAs), BTCFi, and promising tokens.",
+		"description": "ZeroLend is a third-party curator using Euler infrastructure to configure lending markets for selected asset categories. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://zerolend.xyz/",
 		"addresses": {
 			"0x54061E18cd88D2de9af3D3D7FDF05472253B29E0": "ZeroLend Multisig",
@@ -182,7 +182,7 @@
 	"keyring": {
 		"name": "Keyring",
 		"logo": "keyring.svg",
-		"description": "Enhanced depositor protection with instant zkVerification.",
+		"description": "Keyring provides identity and access-control infrastructure that may be used to configure permissioned market access on Euler.",
 		"url": "https://keyring.network/",
 		"addresses": {
 			"0x69cC425B1E5f302e7Db4E5d125ab984EC5186364": "Keyring Multisig"
@@ -195,7 +195,7 @@
 	"telosc": {
 		"name": "TelosC",
 		"logo": "telosc.svg",
-		"description": "Engineered growth for crypto. Incentives, risk frameworks, and GTM for DeFi. Driving real users, TVL & revenue.",
+		"description": "TelosC is a third-party curator using Euler infrastructure to configure markets and incentive-related DeFi strategies. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://telosc.com/",
 		"addresses": {
 			"0x7d07BFdd01422D7b655B333157eB551B9712dCd8": "TelosC Multisig"
@@ -207,7 +207,7 @@
 	"clearstar": {
 		"name": "Clearstar",
 		"logo": "clearstar.svg",
-		"description": "Designing and curating institutional-grade strategies across decentralized markets, underpinned by rigorous risk management.",
+		"description": "Clearstar is a third-party curator using Euler infrastructure to configure vaults across selected decentralized markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://www.clearstar.xyz/",
 		"addresses": {
 			"0x30988479C2E6a03E7fB65138b94762D41a733458": "Curator Wallet 1 (ForDeFi MPC)",
@@ -220,7 +220,7 @@
 	"tidcapital": {
 		"name": "TID Capital",
 		"logo": "TIDCapProfile.png",
-		"description": "Research Driven Farming and Trading arm of Today in DeFi",
+		"description": "TID Capital is a third-party curator using Euler infrastructure to configure markets informed by DeFi research. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://tid.capital",
 		"addresses": {
 			"0x0dc6598fA1D16e6650D4673bf8Aac6b42e72527F": "TID Capital Multisig"
@@ -232,7 +232,7 @@
 	"sentora": {
 		"name": "Sentora",
 		"logo": "sentora.svg",
-		"description": "Sentora provides the institutional-grade foundation for powering the next generation of DeFi solutions. Sentora's vault platform unlocks access to DeFi through sophisticated strategies, robust risk management, and enterprise-grade security.",
+		"description": "Sentora is a third-party curator using Euler infrastructure to configure vaults and DeFi market strategies. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://sentora.com/platform/defi-strategies",
 		"addresses": {
 			"0x9453ee262d7C95955e690AE7aBBD82a08B135685": "Sentora Vault Access Control Governor",
@@ -246,7 +246,7 @@
 	"hyperithm": {
 		"name": "Hyperithm",
 		"logo": "hyperithm.png",
-		"description": "Hyperithm maximizes yield by swiftly integrating unique collaterals, providing borrowers with high-return opportunities through active optimization while ensuring effective risk management.",
+		"description": "Hyperithm is a third-party curator using Euler infrastructure to configure markets involving selected collateral assets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://www.hyperithm.com/",
 		"addresses": {
 			"0x75178137D3B4B9A0F771E0e149b00fB8167BA325": "Hyperithm MPC wallet",
@@ -259,7 +259,7 @@
 	"9summits": {
 		"name": "9 Summits",
 		"logo": "9summits.png",
-		"description": "By curating top-performing vaults, we empower our clients to access the best opportunities in decentralized finance with confidence and precision.",
+		"description": "9 Summits is a third-party curator using Euler infrastructure to configure vaults across selected DeFi markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://9summits.io/",
 		"addresses": {
 			"0x23E6aecB76675462Ad8f2B31eC7C492060c2fAEF": "9 Summits vault Admin Multisig"
@@ -271,7 +271,7 @@
 	"yieldnest": {
 		"name": "YieldNest",
 		"logo": "yieldnest.svg",
-		"description": "YieldNest - Simple. Secure. Supercharged Yield protocol. Fine tunes and curates vaults across Defi to offer the best risk-adjusted returns.",
+		"description": "YieldNest is a third-party curator using Euler infrastructure to configure vaults across selected DeFi lending strategies. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://yieldnest.finance/",
 		"addresses": {
 			"0xfcad670592a3b24869C0b51a6c6FDED4F95D6975": "YieldNest YnSecurityCouncil Multisig"
@@ -283,7 +283,7 @@
 	"cassa": {
 		"name": "Cassa",
 		"logo": "cassa.png",
-		"description": "Cassa is building the risk layer of DeFi, enabling curated products to compete on risk-adjusted returns by making risk tradable, transparent, and composable on-chain.",
+		"description": "Cassa is a third-party curator using Euler infrastructure to configure vaults and market structures for DeFi risk markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://www.cassa.fyi/",
 		"social": {
 			"twitter": "cassa_fyi"
@@ -292,7 +292,7 @@
 	"infinifi": {
 		"name": "InfiniFi",
 		"logo": "infinifi.png",
-		"description": "InfiniFi is a DeFi protocol offering structured USD yield products including staked USD (siUSD) and locked iUSD positions (liUSD) with fixed maturities.",
+		"description": "InfiniFi is a DeFi protocol using Euler infrastructure to configure markets connected to its USD products.",
 		"url": "https://infinifi.xyz/",
 		"addresses": {
 			"0x34a0d3333FF6028b5Fad62879A9d24d3C071E343": "InfiniFi Multisig"
@@ -301,7 +301,7 @@
 	"alphagrowth": {
 		"name": "AlphaGrowth",
 		"logo": "alphagrowth.svg",
-		"description": "AlphaGrowth curates lending markets and structured DeFi products on Euler V2.",
+		"description": "AlphaGrowth is a third-party curator using Euler infrastructure to configure lending markets and structured DeFi products. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://alphagrowth.io/",
 		"addresses": {
 			"0x4f894Bfc9481110278C356adE1473eBe2127Fd3C": "AlphaGrowth governor multisig (Gnosis Safe, 3-of-8)"
@@ -313,7 +313,7 @@
 	"tau-labs": {
 		"name": "TAU Labs",
 		"logo": "tau-labs.png",
-		"description": "TAU Labs is a risk curator and mechanism design lab",
+		"description": "TAU Labs is a third-party curator using Euler infrastructure to configure markets informed by risk and mechanism-design work. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://www.628labs.xyz/",
 		"addresses": {
 			"0x028513ff6980f692e950f1cbfA481b6b0C504c13": "TAU Labs Deployer"

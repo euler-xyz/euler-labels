@@ -2,7 +2,7 @@
 	"euler-dao": {
 		"name": "Euler DAO",
 		"logo": "euler.svg",
-		"description": "The Euler DAO is the organisation responsible for the creation of the Euler lending/borrowing platform.",
+		"description": "Euler DAO is responsible for the governance of the Euler protocol.",
 		"url": "https://euler.finance/",
 		"addresses": {
 			"0xe55798d71193bAA789031415b668A992F2e566EE": "Euler DAO Multisig",
@@ -20,7 +20,7 @@
 	"k3-capital": {
 		"name": "K3 Capital",
 		"logo": "k3.svg",
-		"description": "K3 Capital provide leading institutional asset and risk management in decentralized finance.",
+		"description": "K3 Capital is a third-party curator using Euler infrastructure to configure vaults across selected DeFi markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://k3.capital/",
 		"addresses": {
 			"0x060DB084bF41872861f175d83f3cb1B5566dfEA3": "K3 Fireblocks wallet"
@@ -32,7 +32,7 @@
 	"alphagrowth": {
 		"name": "AlphaGrowth",
 		"logo": "alphagrowth.svg",
-		"description": "Real stewardship, real growth. AlphaGrowth drives the blockchain industry forward by expanding token utility and accessibility through strategic partnerships and integrations.",
+		"description": "AlphaGrowth is a third-party curator using Euler infrastructure to configure lending markets and structured DeFi products. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://alphagrowth.io/",
 		"addresses": {
 			"0x4f894Bfc9481110278C356adE1473eBe2127Fd3C": "Reservoir DAO Multisig"

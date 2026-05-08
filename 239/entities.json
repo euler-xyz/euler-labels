@@ -2,7 +2,7 @@
 	"re7-labs": {
 		"name": "Re7 Labs",
 		"logo": "re7labs.png",
-		"description": "Re7 Labs is the innovation arm of digital asset investment firm Re7 Capital, taking the practical experience of DeFi risk management to on-chain vaults.",
+		"description": "Re7 Labs is a third-party curator using Euler infrastructure to configure onchain vaults and lending markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://www.re7labs.xyz/",
 		"addresses": {
 			"0x6D3AB84Fb7Fc04961a15663C980feC275b889402": "Re7 Labs Euler Multisig"
@@ -14,7 +14,7 @@
 	"edge-capital": {
 		"name": "Edge UltraYield",
 		"logo": "edge.png",
-		"description": "Edge Capital is a leading market-neutral hedge fund that manages capital for largest fund of funds, institutional investors and leading crypto foundations and treasuries since 2020",
+		"description": "Edge UltraYield is a third-party curator using Euler infrastructure to configure vaults across selected DeFi markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://edgecapital.xyz/",
 		"addresses": {
 			"0x1280e86Cd7787FfA55d37759C0342F8CD3c7594a": "Edge Capital Multisig"
