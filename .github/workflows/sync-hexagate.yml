@@ -103,6 +103,7 @@ jobs:
         env:
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
+          tmp="$(mktemp)"
           {
             echo "# Hexagate sync — failed"
             echo ""
@@ -115,7 +116,8 @@ jobs:
               echo ""
               echo "</details>"
             fi
-          } > sync-output.md
+          } > "$tmp"
+          mv "$tmp" sync-output.md
 
       - name: Comment PR with diff
         if: always() && github.event_name == 'pull_request_target'
