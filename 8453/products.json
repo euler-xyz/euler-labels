@@ -45,7 +45,7 @@
 	"frontier-yo-yoeth": {
 		"name": "Frontier YO yoETH Market",
 		"description": "An isolated market dedicated to the YO yoETH ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/3",
 		"vaults": [],
 		"deprecatedVaults": [

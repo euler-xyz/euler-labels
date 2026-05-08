@@ -1,0 +1,111 @@
+name: Sync Hexagate
+
+on:
+  pull_request:
+    branches:
+      - master
+      - development
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Run mode"
+        required: true
+        default: "dry-run"
+        type: choice
+        options:
+          - dry-run
+          - apply
+      only:
+        description: "Optional comma-separated chainId list (leave blank for all chains)"
+        required: false
+        default: ""
+        type: string
+
+concurrency:
+  group: hexagate-sync-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Verify data
+        run: node verify.js
+
+      - name: Resolve sync mode
+        id: mode
+        run: |
+          case "${{ github.event_name }}" in
+            pull_request)     mode="--dry-run" ;;
+            push)             mode="--apply" ;;
+            workflow_dispatch) mode="--${{ github.event.inputs.mode }}" ;;
+            *)                mode="--dry-run" ;;
+          esac
+          only=""
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ -n "${{ github.event.inputs.only }}" ]; then
+            only="--only=${{ github.event.inputs.only }}"
+          fi
+          echo "args=${mode} ${only}" >> "$GITHUB_OUTPUT"
+
+      - name: Run Hexagate sync
+        run: node hexagate-sync.js ${{ steps.mode.outputs.args }} > sync-output.md
+        env:
+          HEXAGATE_API_KEY: ${{ secrets.HEXAGATE_API_KEY }}
+
+      - name: Build failure comment
+        if: failure() && github.event_name == 'pull_request'
+        env:
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          {
+            echo "# Hexagate sync — failed"
+            echo ""
+            echo "Workflow run failed. See [the run logs]($RUN_URL) for details."
+            if [ -s sync-output.md ]; then
+              echo ""
+              echo "<details><summary>Partial output</summary>"
+              echo ""
+              cat sync-output.md
+              echo ""
+              echo "</details>"
+            fi
+          } > sync-output.md
+
+      - name: Comment PR with diff
+        if: always() && github.event_name == 'pull_request'
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: hexagate-sync
+          path: sync-output.md
+
+      - name: Upload sync summary
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: sync-output
+          path: sync-output.md
+
+      - name: Append sync summary to job summary
+        if: always()
+        run: |
+          if [ -f sync-output.md ]; then
+            cat sync-output.md >> "$GITHUB_STEP_SUMMARY"
+          fi

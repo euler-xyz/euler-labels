@@ -3,6 +3,7 @@
 	"version": "1.0.0",
 	"scripts": {
 		"verify": "node verify.js",
+		"sync:hexagate": "node hexagate-sync.js",
 		"fix": "node fix.js && npm run biome:fix",
 		"biome:fix": "biome check --write",
 		"prepare": "husky install",
