@@ -1,7 +1,7 @@
 {
 	"euler-prime": {
 		"name": "Euler Prime",
-		"description": "A lending and borrowing market for stablecoin-denominated assets and selected crypto collateral, configured by Euler DAO and Gauntlet.",
+		"description": "A lending and borrowing market for stablecoin-denominated assets and selected collateral, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/expanding-euler-prime/1137",
 		"vaults": [
@@ -140,7 +140,7 @@
 	},
 	"alphagrowth-falcon": {
 		"name": "AlphaGrowth Falcon",
-		"description": "An isolated market dedicated to the Falcon ecosystem. Managed by AlphaGrowth.",
+		"description": "An isolated market for Falcon ecosystem assets, configured by AlphaGrowth.",
 		"entity": ["alphagrowth"],
 		"url": "https://alphagrowth.io/",
 		"vaults": [
@@ -279,7 +279,7 @@
 	},
 	"yieldnest-max": {
 		"name": "YieldNest Max Vaults",
-		"description": "A set of vaults for selected YieldNest asset exposures, configured by YieldNest.",
+		"description": "A set of vaults for selected DeFi collateral, configured by YieldNest.",
 		"entity": "yieldnest",
 		"vaults": [
 			"0x7fAb04FF2717d9A6B71A51c56c29697179597D40",
@@ -645,7 +645,7 @@
 	},
 	"alphagrowth-cap": {
 		"name": "AlphaGrowth Cap",
-		"description": "An isolated market dedicated to the Cap Money ecosystem. Managed by AlphaGrowth.",
+		"description": "An isolated market for Cap Money ecosystem assets, configured by AlphaGrowth.",
 		"entity": ["alphagrowth"],
 		"url": "https://alphagrowth.io/",
 		"vaults": [
@@ -732,7 +732,7 @@
 	},
 	"alphagrowth-mapollo": {
 		"name": "AlphaGrowth mAPOLLO",
-		"description": "An isolated market dedicated to the mAPOLLO ecosystem. Managed by AlphaGrowth.",
+		"description": "An isolated market for mAPOLLO ecosystem assets, configured by AlphaGrowth.",
 		"entity": ["alphagrowth"],
 		"url": "https://alphagrowth.io/",
 		"vaults": [
@@ -757,7 +757,7 @@
 	},
 	"sentora-rlusd": {
 		"name": "Sentora RLUSD",
-		"description": "A lending and borrowing market for RLUSD and selected crypto collateral, configured by Sentora.",
+		"description": "A lending and borrowing market for RLUSD and selected collateral, configured by Sentora.",
 		"entity": "sentora",
 		"url": "https://sentora.com/platform/defi-strategies",
 		"vaults": [
@@ -770,7 +770,7 @@
 	},
 	"sentora-pyusd": {
 		"name": "Sentora PYUSD",
-		"description": "A lending and borrowing market for PYUSD and selected crypto collateral, configured by Sentora.",
+		"description": "A lending and borrowing market for PYUSD and selected collateral, configured by Sentora.",
 		"entity": "sentora",
 		"url": "https://sentora.com/platform/defi-strategies",
 		"vaults": [
