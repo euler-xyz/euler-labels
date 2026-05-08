@@ -19,7 +19,7 @@
 	},
 	"isolated-btc-usdt": {
 		"name": "Isolated WBTC-USDT",
-		"description": "An isolated market for WBTC and USDT, configured by Euler DAO and Gauntlet.",
+		"description": "An isolated market for WBTC and USDT, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -51,7 +51,7 @@
 	},
 	"isolated-wsteth-weth-usdt": {
 		"name": "Isolated wstETH-WETH-USDT",
-		"description": "An isolated market for wstETH, WETH, and USDT, configured by Euler DAO and Gauntlet.",
+		"description": "An isolated market for wstETH, WETH, and USDT, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -64,7 +64,7 @@
 	},
 	"isolated-gmon-wmon-ausd": {
 		"name": "Isolated gMON-WMON-AUSD",
-		"description": "An isolated market for gMON, WMON, and AUSD, configured by Euler DAO and Gauntlet.",
+		"description": "An isolated market for gMON, WMON, and AUSD, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -77,7 +77,7 @@
 	},
 	"isolated-gmon-wmon-usdc": {
 		"name": "Isolated gMON-WMON-USDC",
-		"description": "An isolated market for gMON, WMON, and USDC, configured by Euler DAO and Gauntlet.",
+		"description": "An isolated market for gMON, WMON, and USDC, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -90,7 +90,7 @@
 	},
 	"isolated-gmon-wmon-usdt": {
 		"name": "Isolated gMON-WMON-USDT",
-		"description": "An isolated market for gMON, WMON, and USDT, configured by Euler DAO and Gauntlet.",
+		"description": "An isolated market for gMON, WMON, and USDT, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -123,7 +123,7 @@
 	},
 	"isolated-shmon-wmon-usdt": {
 		"name": "Isolated shMON-WMON-USDT",
-		"description": "An isolated market for shMON, WMON, and USDT, configured by Euler DAO and Gauntlet.",
+		"description": "An isolated market for shMON, WMON, and USDT, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -156,7 +156,7 @@
 	},
 	"isolated-smon-wmon-usdt": {
 		"name": "Isolated sMON-WMON-USDT",
-		"description": "An isolated market for sMON, WMON, and USDT, configured by Euler DAO and Gauntlet.",
+		"description": "An isolated market for sMON, WMON, and USDT, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -169,7 +169,7 @@
 	},
 	"isolated-lbtc-ausd": {
 		"name": "Isolated LBTC-AUSD",
-		"description": "An isolated market for LBTC and AUSD, configured by Euler DAO and Gauntlet.",
+		"description": "An isolated market for LBTC and AUSD, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -181,7 +181,7 @@
 	},
 	"isolated-lbtc-usdc": {
 		"name": "Isolated LBTC-USDC",
-		"description": "An isolated market for LBTC and USDC, configured by Euler DAO and Gauntlet.",
+		"description": "An isolated market for LBTC and USDC, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -193,7 +193,7 @@
 	},
 	"isolated-lbtc-usdt": {
 		"name": "Isolated LBTC-USDT",
-		"description": "An isolated market for LBTC and USDT, configured by Euler DAO and Gauntlet.",
+		"description": "An isolated market for LBTC and USDT, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -205,7 +205,7 @@
 	},
 	"isolated-xaut-usdt": {
 		"name": "Isolated XAUT-USDT",
-		"description": "An isolated market for XAUT and USDT, configured by Euler DAO and Gauntlet.",
+		"description": "An isolated market for XAUT and USDT, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -217,7 +217,7 @@
 	},
 	"isolated-xaut-ausd": {
 		"name": "Isolated XAUT-AUSD",
-		"description": "An isolated market for XAUT and AUSD, configured by Euler DAO and Gauntlet.",
+		"description": "An isolated market for XAUT and AUSD, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -229,7 +229,7 @@
 	},
 	"isolated-xaut-usdc": {
 		"name": "Isolated XAUT-USDC",
-		"description": "An isolated market for XAUT and USDC, configured by Euler DAO and Gauntlet.",
+		"description": "An isolated market for XAUT and USDC, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [

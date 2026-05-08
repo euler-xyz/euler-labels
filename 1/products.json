@@ -1,7 +1,7 @@
 {
 	"euler-prime": {
 		"name": "Euler Prime",
-		"description": "A lending and borrowing market for stablecoin-denominated assets and selected collateral, configured by Euler DAO and Gauntlet.",
+		"description": "A lending and borrowing market for stablecoin-denominated assets and selected collateral, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/expanding-euler-prime/1137",
 		"vaults": [
@@ -30,7 +30,7 @@
 	},
 	"euler-yield": {
 		"name": "Euler Yield",
-		"description": "A lending and borrowing market for stablecoins and tokenized strategy collateral, configured by Euler DAO and Gauntlet.",
+		"description": "A lending and borrowing market for stablecoins and tokenized strategy collateral, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/creation-of-euler-yield-market/1163",
 		"vaults": [
@@ -49,7 +49,7 @@
 	},
 	"euler-rwa": {
 		"name": "Euler RWA",
-		"description": "A lending and borrowing market for real-world asset collateral, configured by Euler DAO and Gauntlet.",
+		"description": "A lending and borrowing market for real-world asset collateral, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": ["0xC51e90b48FD7fBfF316502b85A71e0EBb1ee5238"],
 		"deprecatedVaults": [
@@ -72,7 +72,7 @@
 	},
 	"frontier-renzo": {
 		"name": "Frontier Renzo",
-		"description": "A market for Renzo ecosystem assets, configured by Euler DAO and Gauntlet.",
+		"description": "A market for Renzo ecosystem assets, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
 		"vaults": [],
@@ -86,7 +86,7 @@
 	},
 	"frontier-medge": {
 		"name": "Frontier mEDGE",
-		"description": "A market for mEDGE ecosystem assets, configured by Euler DAO and Gauntlet.",
+		"description": "A market for mEDGE ecosystem assets, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
 		"vaults": [],
@@ -104,7 +104,7 @@
 	},
 	"frontier-mmev": {
 		"name": "Frontier mMEV",
-		"description": "A market for mMEV ecosystem assets, configured by Euler DAO and Gauntlet. Frontier markets may have limited or no active risk management; users should review market parameters, collateral, liquidity, and risks independently.",
+		"description": "A market for mMEV ecosystem assets, configured by Euler DAO. Frontier markets may have limited or no active risk management; users should review market parameters, collateral, liquidity, and risks independently.",
 		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
 		"vaults": [],
@@ -122,7 +122,7 @@
 	},
 	"frontier-level": {
 		"name": "Frontier Level",
-		"description": "A market for Level ecosystem assets, configured by Euler DAO and Gauntlet.",
+		"description": "A market for Level ecosystem assets, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
 		"vaults": [],
@@ -154,7 +154,7 @@
 	},
 	"frontier-inverse": {
 		"name": "Frontier Inverse",
-		"description": "A market for Inverse ecosystem assets, configured by Euler DAO and Gauntlet.",
+		"description": "A market for Inverse ecosystem assets, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
 		"vaults": [],
@@ -170,7 +170,7 @@
 	},
 	"frontier-yala": {
 		"name": "Frontier Yala",
-		"description": "A market for Yala ecosystem assets, configured by Euler DAO and Gauntlet.",
+		"description": "A market for Yala ecosystem assets, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
 		"vaults": [],
@@ -507,7 +507,7 @@
 	},
 	"frontier-upshift": {
 		"name": "Frontier Upshift",
-		"description": "A market for Upshift ecosystem assets, configured by Euler DAO and Gauntlet. Frontier markets may have limited or no active risk management; users should review market parameters, collateral, liquidity, and risks independently.",
+		"description": "A market for Upshift ecosystem assets, configured by Euler DAO. Frontier markets may have limited or no active risk management; users should review market parameters, collateral, liquidity, and risks independently.",
 		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/10?u=upshift.fi",
 		"vaults": [],
@@ -522,7 +522,7 @@
 	},
 	"frontier-bedrock": {
 		"name": "Frontier Bedrock",
-		"description": "A market for Bedrock ecosystem assets, configured by Euler DAO and Gauntlet.",
+		"description": "A market for Bedrock ecosystem assets, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/24?u=eulerlabs",
 		"vaults": [],
@@ -537,7 +537,7 @@
 	},
 	"frontier-puffer": {
 		"name": "Frontier Puffer",
-		"description": "A market for Puffer ecosystem assets, configured by Euler DAO and Gauntlet. Frontier markets may have limited or no active risk management; users should review market parameters, collateral, liquidity, and risks independently.",
+		"description": "A market for Puffer ecosystem assets, configured by Euler DAO. Frontier markets may have limited or no active risk management; users should review market parameters, collateral, liquidity, and risks independently.",
 		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/11",
 		"vaults": [],
@@ -551,7 +551,7 @@
 	},
 	"frontier-pareto": {
 		"name": "Frontier Pareto",
-		"description": "A market for Pareto ecosystem assets, configured by Euler DAO and Gauntlet. Frontier markets may have limited or no active risk management; users should review market parameters, collateral, liquidity, and risks independently.",
+		"description": "A market for Pareto ecosystem assets, configured by Euler DAO. Frontier markets may have limited or no active risk management; users should review market parameters, collateral, liquidity, and risks independently.",
 		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/2",
 		"vaults": [],
@@ -566,7 +566,7 @@
 	},
 	"frontier-reservoir": {
 		"name": "Frontier Reservoir",
-		"description": "A market for Reservoir ecosystem assets, configured by Euler DAO and Gauntlet.",
+		"description": "A market for Reservoir ecosystem assets, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -581,7 +581,7 @@
 	},
 	"frontier-spark": {
 		"name": "Frontier Spark",
-		"description": "A market for Spark ecosystem assets, configured by Euler DAO and Gauntlet.",
+		"description": "A market for Spark ecosystem assets, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -596,7 +596,7 @@
 	},
 	"frontier-yieldfi": {
 		"name": "Frontier YieldFi",
-		"description": "A market for YieldFi ecosystem assets, configured by Euler DAO and Gauntlet.",
+		"description": "A market for YieldFi ecosystem assets, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -625,7 +625,7 @@
 	},
 	"frontier-strata": {
 		"name": "Frontier Strata",
-		"description": "A market for Strata ecosystem assets, configured by Euler DAO and Gauntlet. Frontier markets may have limited or no active risk management; users should review market parameters, collateral, liquidity, and risks independently.",
+		"description": "A market for Strata ecosystem assets, configured by Euler DAO. Frontier markets may have limited or no active risk management; users should review market parameters, collateral, liquidity, and risks independently.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -659,7 +659,7 @@
 	},
 	"frontier-asymmetry": {
 		"name": "Frontier Asymmetry",
-		"description": "A market for Asymmetry Finance ecosystem assets, configured by Euler DAO and Gauntlet.",
+		"description": "A market for Asymmetry Finance ecosystem assets, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -815,7 +815,7 @@
 	},
 	"frontier-mevbtc": {
 		"name": "Frontier mevBTC",
-		"description": "A market for mevBTC ecosystem assets, configured by Euler DAO and Gauntlet. Frontier markets may have limited or no active risk management; users should review market parameters, collateral, liquidity, and risks independently.",
+		"description": "A market for mevBTC ecosystem assets, configured by Euler DAO. Frontier markets may have limited or no active risk management; users should review market parameters, collateral, liquidity, and risks independently.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -829,7 +829,7 @@
 	},
 	"frontier-mfarm": {
 		"name": "Frontier mFARM",
-		"description": "A market for Midas mFARM ecosystem assets, configured by Euler DAO and Gauntlet.",
+		"description": "A market for Midas mFARM ecosystem assets, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
