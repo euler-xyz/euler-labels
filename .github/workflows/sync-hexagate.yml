@@ -1,7 +1,7 @@
 name: Sync Hexagate
 
 on:
-  pull_request:
+  pull_request_target:
     branches:
       - master
       - development
@@ -31,12 +31,15 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    environment: hexagate-sync
     permissions:
       pull-requests: write
       contents: read
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -45,7 +48,7 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: npm ci
+        run: npm ci --ignore-scripts
 
       - name: Verify data
         run: node verify.js
@@ -54,7 +57,7 @@ jobs:
         id: mode
         run: |
           case "${{ github.event_name }}" in
-            pull_request)     mode="--dry-run" ;;
+            pull_request_target) mode="--dry-run" ;;
             push)             mode="--apply" ;;
             workflow_dispatch) mode="--${{ github.event.inputs.mode }}" ;;
             *)                mode="--dry-run" ;;
@@ -71,7 +74,7 @@ jobs:
           HEXAGATE_API_KEY: ${{ secrets.HEXAGATE_API_KEY }}
 
       - name: Build failure comment
-        if: failure() && github.event_name == 'pull_request'
+        if: failure() && github.event_name == 'pull_request_target'
         env:
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
@@ -90,14 +93,14 @@ jobs:
           } > sync-output.md
 
       - name: Comment PR with diff
-        if: always() && github.event_name == 'pull_request'
+        if: always() && github.event_name == 'pull_request_target'
         uses: marocchino/sticky-pull-request-comment@v2
         with:
           header: hexagate-sync
           path: sync-output.md
 
       - name: Upload sync summary
-        if: github.event_name != 'pull_request'
+        if: github.event_name != 'pull_request_target'
         uses: actions/upload-artifact@v4
         with:
           name: sync-output
