@@ -2,7 +2,9 @@
 	"re7-labs-sonic": {
 		"name": "Re7 Labs Cluster",
 		"entity": "re7-labs",
-		"vaults": ["0xF3c631B979EB59d8333374baA7c58B5Aff5e24D2"],
+		"vaults": [
+			"0xF3c631B979EB59d8333374baA7c58B5Aff5e24D2"
+		],
 		"deprecatedVaults": [
 			"0xEeb63D2d370C5318ef174D366A41507F9380f093",
 			"0x8537a336fC74EA742527E8300175A7b07a108c9E",

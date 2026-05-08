@@ -136,5 +136,10 @@
 		"name": "5x Ethena Points",
 		"logo": "ethena.png",
 		"collateralVaults": ["0xfa68974D007D755697Cc4D4E1e4057034EA666df"]
+	},
+	{
+		"name": "2x InfiniFi Points",
+		"logo": "infinifi.png",
+		"collateralVaults": ["0xB4a2fC3adAF3BfA8FCBA2A6FDAA200De106B8825"]
 	}
 ]

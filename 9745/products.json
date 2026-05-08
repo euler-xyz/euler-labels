@@ -1,7 +1,9 @@
 {
 	"frontier-etherfi": {
 		"name": "Frontier Ether.fi",
-		"entity": ["euler-dao"],
+		"entity": [
+			"euler-dao"
+		],
 		"vaults": [],
 		"deprecatedVaults": [
 			"0xE220d93e73D22e72Cb3f7B2496B4c2e6DfEd8B72",
@@ -14,7 +16,9 @@
 	},
 	"frontier-ethena": {
 		"name": "Frontier Ethena",
-		"entity": ["euler-dao"],
+		"entity": [
+			"euler-dao"
+		],
 		"vaults": [],
 		"deprecatedVaults": [
 			"0x87Ca725845824903B29a03ADFDF1548Cd1D30a4f",
@@ -27,7 +31,9 @@
 	},
 	"re7labs-xusd": {
 		"name": "Re7 Labs xUSD",
-		"entity": ["re7-labs"],
+		"entity": [
+			"re7-labs"
+		],
 		"vaults": [],
 		"deprecatedVaults": [
 			"0xF675FBe777E992f5D5D84AdF41161dC0f20104a6",
@@ -47,7 +53,9 @@
 	},
 	"frontier-plasma": {
 		"name": "Frontier Plasma",
-		"entity": ["euler-dao"],
+		"entity": [
+			"euler-dao"
+		],
 		"vaults": [],
 		"deprecatedVaults": [
 			"0x79C86345c5132465DdebB7dC90de0f826Fb905b1",
@@ -60,7 +68,9 @@
 	},
 	"frontier-maple": {
 		"name": "Frontier Maple",
-		"entity": ["euler-dao"],
+		"entity": [
+			"euler-dao"
+		],
 		"vaults": [],
 		"deprecatedVaults": [
 			"0x5398657d46499D31863A404bbedc738bDa812424",
@@ -72,7 +82,9 @@
 	},
 	"frontier-resolv-wstusr": {
 		"name": "Frontier Resolv wstUSR",
-		"entity": ["euler-dao"],
+		"entity": [
+			"euler-dao"
+		],
 		"vaults": [],
 		"deprecatedVaults": [
 			"0xAc40D41aB11b0eb991a7D34D55DbDbB7849e92EF",
@@ -85,7 +97,9 @@
 	},
 	"frontier-resolv-rlp": {
 		"name": "Frontier Resolv RLP",
-		"entity": ["euler-dao"],
+		"entity": [
+			"euler-dao"
+		],
 		"vaults": [],
 		"deprecatedVaults": [
 			"0x0a39a99f1639a9e26ED9F7c096165A41FDEb5E63",
@@ -122,7 +136,9 @@
 	},
 	"frontier-pt-usde": {
 		"name": "Frontier PT-USDe",
-		"entity": ["euler-dao"],
+		"entity": [
+			"euler-dao"
+		],
 		"vaults": [],
 		"deprecatedVaults": [
 			"0x75C4D639067ddAf77f6BEc440e68DDdFab2C47eE",
@@ -135,7 +151,9 @@
 	},
 	"frontier-pt-susde": {
 		"name": "Frontier PT-sUSDe",
-		"entity": ["euler-dao"],
+		"entity": [
+			"euler-dao"
+		],
 		"vaults": [],
 		"deprecatedVaults": [
 			"0xc3fF7A69A232239ce306dB50d63Ab2737053e24C",
@@ -148,7 +166,9 @@
 	},
 	"frontier-pt-syrupusdt": {
 		"name": "Frontier PT-syrupUSDT",
-		"entity": ["euler-dao"],
+		"entity": [
+			"euler-dao"
+		],
 		"vaults": [],
 		"deprecatedVaults": [
 			"0x0bB995211462d10495136C6F2eCc367435481c2d",
@@ -160,7 +180,9 @@
 	},
 	"frontier-pt-usdai": {
 		"name": "Frontier PT-USDai",
-		"entity": ["euler-dao"],
+		"entity": [
+			"euler-dao"
+		],
 		"vaults": [],
 		"deprecatedVaults": [
 			"0x5DccE5f1eDdf4c1Ada8Bcf2da89d4bc7fB9Dd5d2",
@@ -173,7 +195,9 @@
 	},
 	"frontier-pt-susdai": {
 		"name": "Frontier PT-sUSDai",
-		"entity": ["euler-dao"],
+		"entity": [
+			"euler-dao"
+		],
 		"vaults": [],
 		"deprecatedVaults": [
 			"0xCe7120C69A77E90615A9D65C581FDAc1fd311cDC",
@@ -186,7 +210,9 @@
 	},
 	"frontier-yieldfi": {
 		"name": "Frontier YieldFi",
-		"entity": ["euler-dao"],
+		"entity": [
+			"euler-dao"
+		],
 		"vaults": [],
 		"deprecatedVaults": [
 			"0x1c3073EE0d6890400D2a4c7e5338001F9bf04B3D",
@@ -198,7 +224,9 @@
 	},
 	"telosc-fx": {
 		"name": "TelosC f(x)",
-		"entity": ["telosc"],
+		"entity": [
+			"telosc"
+		],
 		"vaults": [],
 		"deprecatedVaults": [
 			"0xC87097cc3f4633e13DADb2adaee14145cAfB348e",
@@ -209,7 +237,9 @@
 	},
 	"k3-capital-pendlend": {
 		"name": "K3 Capital Pendlend",
-		"entity": ["k3"],
+		"entity": [
+			"k3"
+		],
 		"vaults": [
 			"0x8Aec278c2fD4cc07B10A8865AEd33775f93EACe6",
 			"0x527295f09Ff7c411B213B29a0DE8c816a669b3fe",
@@ -224,7 +254,9 @@
 	},
 	"k3-plasma-trading-hub": {
 		"name": "Plasma Trading Hub",
-		"entity": ["k3"],
+		"entity": [
+			"k3"
+		],
 		"vaults": [],
 		"deprecatedVaults": [
 			"0x990babF76399A3fd73FBFbdd4149B968CF0C2386",
@@ -235,7 +267,9 @@
 	},
 	"frontier-elixir": {
 		"name": "Frontier Elixir",
-		"entity": ["euler-dao"],
+		"entity": [
+			"euler-dao"
+		],
 		"vaults": [],
 		"deprecatedVaults": [
 			"0x5EFb3B2899a76e013040E85438cbe308870f5F50",
@@ -249,7 +283,9 @@
 	},
 	"frontier-trevee": {
 		"name": "TelosC Trevee",
-		"entity": ["telosc"],
+		"entity": [
+			"telosc"
+		],
 		"vaults": [],
 		"deprecatedVaults": [
 			"0x93827c26602b0573500D2eC80dB19D54EEf76BaB",
@@ -274,7 +310,9 @@
 	},
 	"k3-yuzu": {
 		"name": "Yuzu Money Cluster",
-		"entity": ["k3"],
+		"entity": [
+			"k3"
+		],
 		"vaults": [
 			"0x9d86B4fc23D8438fC4Aba58642DC35D5F64fE941",
 			"0x2F33b4AE409e86c6BEa9E2Bbe98361c19F2A1f0c",
@@ -285,7 +323,9 @@
 	},
 	"hyperithm-usdt0": {
 		"name": "Hyperithm USDT0",
-		"entity": ["hyperithm"],
+		"entity": [
+			"hyperithm"
+		],
 		"vaults": [
 			"0x0a660B3Cbd7DF118501E7Bb0f2D6eC5E5e583Bf8",
 			"0xD833C4C39FDd2296DeB2f8fa451e0769909B4171",
