@@ -40,5 +40,14 @@
 		"social": {
 			"twitter": "k3_capital"
 		}
+	},
+	"valos": {
+		"name": "Valos",
+		"logo": "valos.svg",
+		"description": "Valos is a digital asset manager specialising in private credit strategies.",
+		"url": "https://valos.io",
+		"addresses": {
+			"0x87eF01F2F53de60C98a3337BC17Dc75798526C05": "Euler Vault Governor"
+		}
 	}
 }
