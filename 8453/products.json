@@ -1,12 +1,22 @@
 {
 	"clearstar-rwa": {
 		"name": "Clearstar RWA",
-		"description": "A market focused on real-world assets. Curated by Clearstar Labs.",
+		"description": "A market for real-world asset collateral, configured by Clearstar Labs.",
 		"entity": "clearstar",
 		"vaults": [
 			"0x401e8E12bDe318772b73709D8101e76E8586c124",
 			"0xEaA709fDb7CCcfbBF5185feBf183F0138cDe5983",
 			"0x0a6Af3A75BB350Fb1a402B70138B9820Cf0CA0Cb"
+		]
+	},
+	"clearstar-eth-fusion": {
+		"name": "Clearstar ETH Fusion",
+		"description": "A market for cbAssets, configured by Clearstar Labs.",
+		"entity": "clearstar",
+		"vaults": [
+			"0x60C61a47804283a514bFCDF163138b7528720D0F",
+			"0xDc4eFB20ce286B421F6361734a2A006a1f24Af8D",
+			"0x91A9ED5d4368499B1fE41f721aB13e64760B3F05"
 		]
 	}
 }
