@@ -17,18 +17,6 @@
 			"github": "euler-xyz"
 		}
 	},
-	"gauntlet": {
-		"name": "Gauntlet",
-		"logo": "gauntlet.svg",
-		"description": "Gauntlet is a third-party curator using Euler infrastructure to configure markets informed by risk modeling and parameter analysis. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
-		"url": "https://www.gauntlet.xyz/",
-		"addresses": {
-			"0xaB08F1986685A47eA2bDA6C02f74286517Fb615C": "Euler Vault Access Control Governor"
-		},
-		"social": {
-			"twitter": "gauntlet_xyz"
-		}
-	},
 	"k3-capital": {
 		"name": "K3 Capital",
 		"logo": "k3.svg",
