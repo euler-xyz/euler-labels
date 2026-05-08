@@ -1,7 +1,7 @@
 {
 	"alphagrowth-base-market": {
 		"name": "AlphaGrowth Base",
-		"description": "A market tailored to borrowing stable assets against blue chip crypto assets. Governed by AlphaGrowth.",
+		"description": "A lending and borrowing market for stablecoin-denominated assets and selected crypto collateral, configured by AlphaGrowth.",
 		"entity": ["alphagrowth"],
 		"url": "https://alphagrowth.io/",
 		"vaults": [
@@ -34,7 +34,7 @@
 	},
 	"frontier-yo-yobtc": {
 		"name": "AlphaGrowth YO yoBTC Market",
-		"description": "An isolated market dedicated to the YO yoBTC ecosystem. Managed by AlphaGrowth.",
+		"description": "A market for YO yoBTC ecosystem assets, configured by AlphaGrowth.",
 		"entity": ["alphagrowth"],
 		"url": "https://alphagrowth.io/",
 		"vaults": [
@@ -44,7 +44,7 @@
 	},
 	"frontier-yo-yoeth": {
 		"name": "Frontier YO yoETH Market",
-		"description": "An isolated market dedicated to the YO yoETH ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"description": "A market for YO yoETH ecosystem assets, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao", "gauntlet"],
 		"url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/3",
 		"vaults": [],
@@ -59,7 +59,7 @@
 	},
 	"alphagrowth-yo-yousd": {
 		"name": "AlphaGrowth YO yoUSD Market",
-		"description": "An isolated market dedicated to the YO yoUSD ecosystem. Managed by AlphaGrowth.",
+		"description": "A market for YO yoUSD ecosystem assets, configured by AlphaGrowth.",
 		"entity": ["alphagrowth"],
 		"url": "https://alphagrowth.io/",
 		"vaults": [
@@ -70,7 +70,7 @@
 	},
 	"alterscope-lrt": {
 		"name": "Alterscope LRT",
-		"description": "Vaults designed for advanced liquid restaking strategies.",
+		"description": "A set of vaults for LRT-related assets, configured by Alterscope.",
 		"entity": "alterscope",
 		"vaults": [
 			"0xf4480166d66CFb9c5E12C843A8F844F512989289",
@@ -96,7 +96,7 @@
 	},
 	"alphagrowth-base": {
 		"name": "AlphaGrowth Base Vaults",
-		"description": "A market tailored to borrowing against blue chip crypto assets. Governed by AlphaGrowth.",
+		"description": "A lending and borrowing market for selected crypto collateral, configured by AlphaGrowth.",
 		"entity": ["alphagrowth"],
 		"url": "https://alphagrowth.io/",
 		"vaults": [
@@ -106,7 +106,7 @@
 	},
 	"clearstar-rwa": {
 		"name": "Clearstar RWA",
-		"description": "A market focused on real-world assets. Curated by Clearstar Labs.",
+		"description": "A market for real-world asset collateral, configured by Clearstar Labs.",
 		"entity": "clearstar",
 		"vaults": [
 			"0x401e8E12bDe318772b73709D8101e76E8586c124",

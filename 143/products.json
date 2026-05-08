@@ -1,7 +1,7 @@
 {
 	"isolated-btc-ausd": {
 		"name": "Isolated WBTC-AUSD",
-		"description": "An isolated market dedicated to WBTC and AUSD. Governed by Euler DAO.",
+		"description": "An isolated market for WBTC and AUSD, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao", "gauntlet"],
 		"vaults": [
 			"0x240FcAFffF24AAa39e420B6F70ED5519847648b4",
@@ -10,7 +10,7 @@
 	},
 	"isolated-btc-usdc": {
 		"name": "Isolated WBTC-USDC",
-		"description": "An isolated market dedicated to WBTC and USDC. Governed by Euler DAO.",
+		"description": "An isolated market for WBTC and USDC, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao", "gauntlet"],
 		"vaults": [
 			"0x52A59afAF5CB7CB09F94056fD631688D659A33B6",
@@ -19,7 +19,7 @@
 	},
 	"isolated-btc-usdt": {
 		"name": "Isolated WBTC-USDT",
-		"description": "An isolated market dedicated to WBTC and USDT. Governed by Euler DAO.",
+		"description": "An isolated market for WBTC and USDT, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao", "gauntlet"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -31,7 +31,7 @@
 	},
 	"isolated-wsteth-weth-ausd": {
 		"name": "Isolated wstETH-WETH-AUSD",
-		"description": "An isolated market dedicated to wstETH, WETH and AUSD. Governed by Euler DAO.",
+		"description": "An isolated market for wstETH, WETH, and AUSD, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao", "gauntlet"],
 		"vaults": [
 			"0x870E172C3C7Ea274Ce60fB8D19D86012edc3C043",
@@ -41,7 +41,7 @@
 	},
 	"isolated-wsteth-weth-usdc": {
 		"name": "Isolated wstETH-WETH-USDC",
-		"description": "An isolated market dedicated to wstETH, WETH and USDC. Governed by Euler DAO.",
+		"description": "An isolated market for wstETH, WETH, and USDC, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao", "gauntlet"],
 		"vaults": [
 			"0x1E4D67c666c2Ccf27A0aF980fE6c8e0f05aC8949",
@@ -51,7 +51,7 @@
 	},
 	"isolated-wsteth-weth-usdt": {
 		"name": "Isolated wstETH-WETH-USDT",
-		"description": "An isolated market dedicated to wstETH, WETH and USDT. Governed by Euler DAO.",
+		"description": "An isolated market for wstETH, WETH, and USDT, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao", "gauntlet"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -64,7 +64,7 @@
 	},
 	"isolated-gmon-wmon-ausd": {
 		"name": "Isolated gMON-WMON-AUSD",
-		"description": "An isolated market dedicated to gMON, WMON and AUSD. Governed by Euler DAO.",
+		"description": "An isolated market for gMON, WMON, and AUSD, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao", "gauntlet"],
 		"vaults": [
 			"0xd2f35c39A7187BBF55c0b05C52808d7A18eD62Ca",
@@ -74,7 +74,7 @@
 	},
 	"isolated-gmon-wmon-usdc": {
 		"name": "Isolated gMON-WMON-USDC",
-		"description": "An isolated market dedicated to gMON, WMON and USDC. Governed by Euler DAO.",
+		"description": "An isolated market for gMON, WMON, and USDC, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao", "gauntlet"],
 		"vaults": [
 			"0xb181030fF0767c24D83c65527BD42146486F415E",
@@ -84,7 +84,7 @@
 	},
 	"isolated-gmon-wmon-usdt": {
 		"name": "Isolated gMON-WMON-USDT",
-		"description": "An isolated market dedicated to gMON, WMON and USDT. Governed by Euler DAO.",
+		"description": "An isolated market for gMON, WMON, and USDT, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao", "gauntlet"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -97,7 +97,7 @@
 	},
 	"isolated-shmon-wmon-ausd": {
 		"name": "Isolated shMON-WMON-AUSD",
-		"description": "An isolated market dedicated to shMON, WMON and AUSD. Governed by Euler DAO.",
+		"description": "An isolated market for shMON, WMON, and AUSD, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao", "gauntlet"],
 		"vaults": [
 			"0x6661a2b4008b70f22Ff84c2134ac6F51534E162d",
@@ -107,7 +107,7 @@
 	},
 	"isolated-shmon-wmon-usdc": {
 		"name": "Isolated shMON-WMON-USDC",
-		"description": "An isolated market dedicated to shMON, WMON and USDC. Governed by Euler DAO.",
+		"description": "An isolated market for shMON, WMON, and USDC, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao", "gauntlet"],
 		"vaults": [
 			"0xb6A4db1FeF7831F65827d9aF2Cb1e69F764eC123",
@@ -117,7 +117,7 @@
 	},
 	"isolated-shmon-wmon-usdt": {
 		"name": "Isolated shMON-WMON-USDT",
-		"description": "An isolated market dedicated to shMON, WMON and USDT. Governed by Euler DAO.",
+		"description": "An isolated market for shMON, WMON, and USDT, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao", "gauntlet"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -130,7 +130,7 @@
 	},
 	"isolated-smon-wmon-ausd": {
 		"name": "Isolated sMON-WMON-AUSD",
-		"description": "An isolated market dedicated to sMON, WMON and AUSD. Governed by Euler DAO.",
+		"description": "An isolated market for sMON, WMON, and AUSD, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao", "gauntlet"],
 		"vaults": [
 			"0xA8f093Cfb04a536Dbc6aa9BB94A2D617305a48F3",
@@ -140,7 +140,7 @@
 	},
 	"isolated-smon-wmon-usdc": {
 		"name": "Isolated sMON-WMON-USDC",
-		"description": "An isolated market dedicated to sMON, WMON and USDC. Governed by Euler DAO.",
+		"description": "An isolated market for sMON, WMON, and USDC, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao", "gauntlet"],
 		"vaults": [
 			"0xDDffd6801a86b598077aDdda04F70aF08b6f8807",
@@ -150,7 +150,7 @@
 	},
 	"isolated-smon-wmon-usdt": {
 		"name": "Isolated sMON-WMON-USDT",
-		"description": "An isolated market dedicated to sMON, WMON and USDT. Governed by Euler DAO.",
+		"description": "An isolated market for sMON, WMON, and USDT, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao", "gauntlet"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -163,7 +163,7 @@
 	},
 	"isolated-lbtc-ausd": {
 		"name": "Isolated LBTC-AUSD",
-		"description": "An isolated market dedicated to LBTC and AUSD. Governed by Euler DAO.",
+		"description": "An isolated market for LBTC and AUSD, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao", "gauntlet"],
 		"vaults": [
 			"0x1874f82AC9EF2Bd5603Cc946Cb6f3bCB9Dd2d66F",
@@ -172,7 +172,7 @@
 	},
 	"isolated-lbtc-usdc": {
 		"name": "Isolated LBTC-USDC",
-		"description": "An isolated market dedicated to LBTC and USDC. Governed by Euler DAO.",
+		"description": "An isolated market for LBTC and USDC, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao", "gauntlet"],
 		"vaults": [
 			"0xbC5fd2cA51B0BCA8882246833B2ea8627A79bC59",
@@ -181,7 +181,7 @@
 	},
 	"isolated-lbtc-usdt": {
 		"name": "Isolated LBTC-USDT",
-		"description": "An isolated market dedicated to LBTC and USDT. Governed by Euler DAO.",
+		"description": "An isolated market for LBTC and USDT, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao", "gauntlet"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -193,7 +193,7 @@
 	},
 	"isolated-xaut-usdt": {
 		"name": "Isolated XAUT-USDT",
-		"description": "An isolated market dedicated to XAUT and USDT. Governed by Euler DAO.",
+		"description": "An isolated market for XAUT and USDT, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao", "gauntlet"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -205,7 +205,7 @@
 	},
 	"isolated-xaut-ausd": {
 		"name": "Isolated XAUT-AUSD",
-		"description": "An isolated market dedicated to XAUT and AUSD. Governed by Euler DAO.",
+		"description": "An isolated market for XAUT and AUSD, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao", "gauntlet"],
 		"vaults": [
 			"0xd505ccE10571C1d07dd40D2D9001BEf22CDF0D71",
@@ -214,7 +214,7 @@
 	},
 	"isolated-xaut-usdc": {
 		"name": "Isolated XAUT-USDC",
-		"description": "An isolated market dedicated to XAUT and USDC. Governed by Euler DAO.",
+		"description": "An isolated market for XAUT and USDC, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao", "gauntlet"],
 		"vaults": [
 			"0x091298D908a216CfcA30729dB2B194Fe5f1d16be",
@@ -223,7 +223,7 @@
 	},
 	"clearstar-reactor": {
 		"name": "Clearstar Reactor",
-		"description": "An Euler Cluster on Monad, curated by Clearstar Labs.",
+		"description": "A Monad market cluster configured by Clearstar Labs.",
 		"entity": "clearstar",
 		"vaults": [
 			"0x1905EDDF5943ef6C92Ccf1469bd40fC2cB4A77b0",

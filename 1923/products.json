@@ -1,7 +1,7 @@
 {
 	"euler-base": {
 		"name": "Euler Swell",
-		"description": "A market tailored to executing ETH-based carry-trade strategies. Governed by Euler DAO.",
+		"description": "A market for ETH-related assets on Swell, configured by Euler DAO.",
 		"entity": "euler-dao",
 		"url": "",
 		"vaults": [],
@@ -21,7 +21,7 @@
 
 	"relend-network": {
 		"name": "Relend Network Swell",
-		"description": "A market to borrow stablecoin on Swell. Governed by Relend Network.",
+		"description": "A market for borrowing stablecoins on Swell, configured by Relend Network.",
 		"entity": "relend-network",
 		"url": "https://relend.network/",
 		"vaults": [],

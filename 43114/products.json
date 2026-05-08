@@ -32,7 +32,7 @@
 	"mev-capital-avalanche": {
 		"name": "MEV Capital Avalanche Cluster",
 		"entity": "mev-capital",
-		"description": "The MEV Capital Avalanche Cluster provides a set of liquid collateral markets with an optimized risk-adjusted return",
+		"description": "A set of Avalanche collateral markets configured by MEV Capital.",
 		"vaults": [],
 		"deprecatedVaults": [
 			"0xA429273b892c2c90b1d90778f4786e6470F402eC",
@@ -94,7 +94,7 @@
 	"reservoir-labs-avalanche": {
 		"name": "Reservoir Labs Cluster",
 		"entity": "reservoir-labs",
-		"description": "Group of BTC lending and borrowing products.",
+		"description": "A set of BTC lending and borrowing markets configured by Reservoir Labs.",
 		"vaults": [],
 		"deprecatedVaults": [
 			"0x04293b180bf9C57eD0923C99c784Cb571f0A9Ae9",
@@ -106,7 +106,7 @@
 	"9summits-avalanche": {
 		"name": "9Summits Cluster",
 		"entity": "9summits",
-		"description": "The 9 Summits Avalanche Cluster delivers the optimal risk adjusted strategies with user centric approach.",
+		"description": "A set of Avalanche markets configured by 9 Summits.",
 		"vaults": [
 			"0x37ca03aD51B8ff79aAD35FadaCBA4CEDF0C3e74e",
 			"0x3F96e387eC6462DFBe9F05838943D19307dD2752",
