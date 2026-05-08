@@ -645,7 +645,7 @@
 	},
 	"alphagrowth-cap": {
 		"name": "AlphaGrowth Cap",
-		"description": "An isolated market for Cap Money ecosystem assets, configured by AlphaGrowth.",
+		"description": "An isolated market for Cap ecosystem assets, configured by AlphaGrowth.",
 		"entity": ["alphagrowth"],
 		"url": "https://alphagrowth.io/",
 		"vaults": [
