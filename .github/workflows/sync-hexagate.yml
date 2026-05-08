@@ -31,15 +31,17 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    environment: hexagate-sync
     permissions:
       pull-requests: write
       contents: read
 
     steps:
+      # Always check out the BASE repository — trusted scripts, lockfile, configs.
+      # PR-controlled code (hexagate-sync.js, verify.js, package*.json, etc.) is
+      # NEVER placed where node will execute it with HEXAGATE_API_KEY in scope.
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          persist-credentials: false
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -47,8 +49,31 @@ jobs:
           node-version: "20"
           cache: npm
 
-      - name: Install dependencies
+      - name: Install dependencies (trusted lockfile)
         run: npm ci --ignore-scripts
+
+      # On PR: check out the PR head into an isolated path so we can copy ONLY
+      # the data directories ([0-9]+/, all/, logo/) out of it. JS, package.json,
+      # package-lock.json, biome.json, etc. are deliberately discarded.
+      - name: Stage PR head in isolated path
+        if: github.event_name == 'pull_request_target'
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          path: __pr
+          persist-credentials: false
+
+      - name: Overlay PR data directories (passive data only)
+        if: github.event_name == 'pull_request_target'
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          for src in __pr/[0-9]*/ __pr/all/ __pr/logo/; do
+            name=$(basename "$src")
+            rm -rf "./$name"
+            cp -R "$src" "./$name"
+          done
+          rm -rf __pr
 
       - name: Verify data
         run: node verify.js
