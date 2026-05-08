@@ -1,7 +1,7 @@
 {
 	"k3-arbitrum-market": {
 		"name": "K3 Capital Arbitrum Market",
-		"description": "A market tailored to facilitate common trades like blue chip lending, stablecoin borrowing, and LST/LRT looping. Governed by K3 Capital.",
+		"description": "A lending and borrowing market for selected stablecoin, LST, LRT, and collateral assets, configured by K3 Capital.",
 		"entity": ["k3-capital"],
 		"vaults": [
 			"0x0a1eCC5Fe8C9be3C809844fcBe615B46A869b899",
@@ -48,7 +48,7 @@
 	},
 	"k3-theo": {
 		"name": "K3 Capital Theo Market",
-		"description": "An isolated Theo ecosystem market governed by K3 Capital.",
+		"description": "An isolated market for Theo ecosystem assets, configured by K3 Capital.",
 		"entity": ["k3-capital"],
 		"vaults": [
 			"0x44C10DA836d2aBe881b77bbB0b3DCE5f85C0C1Cc",
@@ -59,7 +59,7 @@
 	},
 	"alphagrowth-arbitrum": {
 		"name": "AlphaGrowth Arbitrum Vaults",
-		"description": "A market tailored to borrowing against blue chip crypto assets. Governed by AlphaGrowth.",
+		"description": "A lending and borrowing market for selected collateral, configured by AlphaGrowth.",
 		"entity": ["alphagrowth"],
 		"url": "https://alphagrowth.io/",
 		"vaults": [

@@ -1,7 +1,7 @@
 {
 	"k3-isolated-btc-ausd": {
 		"name": "Isolated WBTC-AUSD",
-		"description": "An isolated market dedicated to WBTC and AUSD. Governed by K3 Capital.",
+		"description": "An isolated market for WBTC and AUSD, configured by K3 Capital.",
 		"entity": ["k3-capital"],
 		"vaults": [
 			"0x240FcAFffF24AAa39e420B6F70ED5519847648b4",
@@ -10,7 +10,7 @@
 	},
 	"k3-isolated-btc-usdc": {
 		"name": "K3 Isolated WBTC-USDC",
-		"description": "An isolated market dedicated to WBTC and USDC. Governed by K3 Capital.",
+		"description": "An isolated market for WBTC and USDC, configured by K3 Capital.",
 		"entity": ["k3-capital"],
 		"vaults": [
 			"0x52A59afAF5CB7CB09F94056fD631688D659A33B6",
@@ -19,7 +19,7 @@
 	},
 	"isolated-btc-usdt": {
 		"name": "Isolated WBTC-USDT",
-		"description": "An isolated market dedicated to WBTC and USDT. Governed by Euler DAO.",
+		"description": "An isolated market for WBTC and USDT, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -31,7 +31,7 @@
 	},
 	"k3-isolated-wsteth-weth-ausd": {
 		"name": "K3 Isolated wstETH-WETH-AUSD",
-		"description": "An isolated market dedicated to wstETH, WETH and AUSD. Governed by K3 Capital.",
+		"description": "An isolated market for wstETH, WETH, and AUSD, configured by K3 Capital.",
 		"entity": ["k3-capital"],
 		"vaults": [
 			"0x870E172C3C7Ea274Ce60fB8D19D86012edc3C043",
@@ -41,7 +41,7 @@
 	},
 	"k3-isolated-wsteth-weth-usdc": {
 		"name": "K3 Isolated wstETH-WETH-USDC",
-		"description": "An isolated market dedicated to wstETH, WETH and USDC. Governed by K3 Capital.",
+		"description": "An isolated market for wstETH, WETH, and USDC, configured by K3 Capital.",
 		"entity": ["k3-capital"],
 		"vaults": [
 			"0x1E4D67c666c2Ccf27A0aF980fE6c8e0f05aC8949",
@@ -51,7 +51,7 @@
 	},
 	"isolated-wsteth-weth-usdt": {
 		"name": "Isolated wstETH-WETH-USDT",
-		"description": "An isolated market dedicated to wstETH, WETH and USDT. Governed by Euler DAO.",
+		"description": "An isolated market for wstETH, WETH, and USDT, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -64,7 +64,7 @@
 	},
 	"isolated-gmon-wmon-ausd": {
 		"name": "Isolated gMON-WMON-AUSD",
-		"description": "An isolated market dedicated to gMON, WMON and AUSD. Governed by Euler DAO.",
+		"description": "An isolated market for gMON, WMON, and AUSD, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -77,7 +77,7 @@
 	},
 	"isolated-gmon-wmon-usdc": {
 		"name": "Isolated gMON-WMON-USDC",
-		"description": "An isolated market dedicated to gMON, WMON and USDC. Governed by Euler DAO.",
+		"description": "An isolated market for gMON, WMON, and USDC, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -90,7 +90,7 @@
 	},
 	"isolated-gmon-wmon-usdt": {
 		"name": "Isolated gMON-WMON-USDT",
-		"description": "An isolated market dedicated to gMON, WMON and USDT. Governed by Euler DAO.",
+		"description": "An isolated market for gMON, WMON, and USDT, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -103,7 +103,7 @@
 	},
 	"k3-isolated-shmon-wmon-ausd": {
 		"name": "K3 Isolated shMON-WMON-AUSD",
-		"description": "An isolated market dedicated to shMON, WMON and AUSD. Governed by K3 Capital.",
+		"description": "An isolated market for shMON, WMON, and AUSD, configured by K3 Capital.",
 		"entity": ["k3-capital"],
 		"vaults": [
 			"0x6661a2b4008b70f22Ff84c2134ac6F51534E162d",
@@ -113,7 +113,7 @@
 	},
 	"k3-isolated-shmon-wmon-usdc": {
 		"name": "K3 Isolated shMON-WMON-USDC",
-		"description": "An isolated market dedicated to shMON, WMON and USDC. Governed by K3 Capital.",
+		"description": "An isolated market for shMON, WMON, and USDC, configured by K3 Capital.",
 		"entity": ["k3-capital"],
 		"vaults": [
 			"0xb6A4db1FeF7831F65827d9aF2Cb1e69F764eC123",
@@ -123,7 +123,7 @@
 	},
 	"isolated-shmon-wmon-usdt": {
 		"name": "Isolated shMON-WMON-USDT",
-		"description": "An isolated market dedicated to shMON, WMON and USDT. Governed by Euler DAO.",
+		"description": "An isolated market for shMON, WMON, and USDT, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -136,7 +136,7 @@
 	},
 	"k3-isolated-smon-wmon-ausd": {
 		"name": "K3 Isolated sMON-WMON-AUSD",
-		"description": "An isolated market dedicated to sMON, WMON and AUSD. Governed by K3 Capital.",
+		"description": "An isolated market for sMON, WMON, and AUSD, configured by K3 Capital.",
 		"entity": ["k3-capital"],
 		"vaults": [
 			"0xA8f093Cfb04a536Dbc6aa9BB94A2D617305a48F3",
@@ -146,7 +146,7 @@
 	},
 	"k3-isolated-smon-wmon-usdc": {
 		"name": "K3 Isolated sMON-WMON-USDC",
-		"description": "An isolated market dedicated to sMON, WMON and USDC. Governed by K3 Capital.",
+		"description": "An isolated market for sMON, WMON, and USDC, configured by K3 Capital.",
 		"entity": ["k3-capital"],
 		"vaults": [
 			"0xDDffd6801a86b598077aDdda04F70aF08b6f8807",
@@ -156,7 +156,7 @@
 	},
 	"isolated-smon-wmon-usdt": {
 		"name": "Isolated sMON-WMON-USDT",
-		"description": "An isolated market dedicated to sMON, WMON and USDT. Governed by Euler DAO.",
+		"description": "An isolated market for sMON, WMON, and USDT, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -169,7 +169,7 @@
 	},
 	"isolated-lbtc-ausd": {
 		"name": "Isolated LBTC-AUSD",
-		"description": "An isolated market dedicated to LBTC and AUSD. Governed by Euler DAO.",
+		"description": "An isolated market for LBTC and AUSD, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -181,7 +181,7 @@
 	},
 	"isolated-lbtc-usdc": {
 		"name": "Isolated LBTC-USDC",
-		"description": "An isolated market dedicated to LBTC and USDC. Governed by Euler DAO.",
+		"description": "An isolated market for LBTC and USDC, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -193,7 +193,7 @@
 	},
 	"isolated-lbtc-usdt": {
 		"name": "Isolated LBTC-USDT",
-		"description": "An isolated market dedicated to LBTC and USDT. Governed by Euler DAO.",
+		"description": "An isolated market for LBTC and USDT, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -205,7 +205,7 @@
 	},
 	"isolated-xaut-usdt": {
 		"name": "Isolated XAUT-USDT",
-		"description": "An isolated market dedicated to XAUT and USDT. Governed by Euler DAO.",
+		"description": "An isolated market for XAUT and USDT, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -217,7 +217,7 @@
 	},
 	"isolated-xaut-ausd": {
 		"name": "Isolated XAUT-AUSD",
-		"description": "An isolated market dedicated to XAUT and AUSD. Governed by Euler DAO.",
+		"description": "An isolated market for XAUT and AUSD, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -229,7 +229,7 @@
 	},
 	"isolated-xaut-usdc": {
 		"name": "Isolated XAUT-USDC",
-		"description": "An isolated market dedicated to XAUT and USDC. Governed by Euler DAO.",
+		"description": "An isolated market for XAUT and USDC, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -241,13 +241,24 @@
 	},
 	"clearstar-reactor": {
 		"name": "Clearstar Reactor",
-		"description": "An Euler Cluster on Monad, curated by Clearstar Labs.",
+		"description": "A Monad market cluster configured by Clearstar Labs.",
 		"entity": "clearstar",
 		"vaults": [
 			"0x1905EDDF5943ef6C92Ccf1469bd40fC2cB4A77b0",
 			"0x2F13D29B4Eff12fC5E6b2560Ed5183354C38A82F",
 			"0x1475D3dA9ca6a3aa14f76b7f5e9da0d0Bcf1b2f9",
 			"0x144290085Da25E3078425C6F4A477fD8caB0c43e"
+		]
+	},
+	"valos-vusd-ausd": {
+		"name": "Valos vUSD/AUSD Market",
+		"description": "Euler market for Valos evUSD and eAUSD.",
+		"entity": "valos",
+		"url": "https://valos.io",
+		"logo": "valos.svg",
+		"vaults": [
+			"0xD8ec5b4917FeF9058545e7D1dc2aC17F1D26305D",
+			"0x9E3500649e16EBE295277EC030e42FAbacFa870E"
 		]
 	}
 }
