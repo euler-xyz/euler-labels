@@ -47,8 +47,7 @@
 		"description": "Valos is a digital asset manager specialising in private credit strategies.",
 		"url": "https://valos.io",
 		"addresses": {
-			"0x87eF01F2F53de60C98a3337BC17Dc75798526C05": "Euler Vault Governor",
-			"0x4bD29a9EBa6a6A5C338b02ED246A5116FD567AF3": "Oracle Router Governor"
+			"0x87eF01F2F53de60C98a3337BC17Dc75798526C05": "Euler Vault Governor"
 		}
 	}
 }
