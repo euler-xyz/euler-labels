@@ -1,9 +1,9 @@
 {
-	"euler-unichain": {
-		"name": "Euler Unichain",
-		"description": "A market tailored to borrowing stable assets against blue chip crypto assets. Governed by Euler DAO.",
-		"entity": ["euler-dao", "gauntlet"],
-		"url": "",
+	"alphagrowth-unichain-market": {
+		"name": "AlphaGrowth Unichain Market",
+		"description": "A market tailored to borrowing stable assets against blue chip crypto assets. Governed by AlphaGrowth.",
+		"entity": ["alphagrowth"],
+		"url": "https://alphagrowth.io/",
 		"vaults": [
 			"0x1f3134C3f3f8AdD904B9635acBeFC0eA0D0E1ffC",
 			"0x54ff502df96CD9B9585094EaCd86AAfCe902d06A",
@@ -17,7 +17,7 @@
 	"euler-unichain-lst": {
 		"name": "Euler Unichain LST",
 		"description": "A market tailored to borrowing WETH and LST assets. Governed by Euler DAO.",
-		"entity": ["euler-dao", "gauntlet"],
+		"entity": ["euler-dao"],
 		"url": "",
 		"vaults": [],
 		"deprecatedVaults": [
