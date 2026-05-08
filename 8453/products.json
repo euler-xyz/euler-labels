@@ -44,7 +44,7 @@
 	},
 	"frontier-yo-yoeth": {
 		"name": "Frontier YO yoETH Market",
-		"description": "A market for YO yoETH ecosystem assets, configured by Euler DAO and Gauntlet.",
+		"description": "A market for YO yoETH ecosystem assets, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/3",
 		"vaults": [],

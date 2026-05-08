@@ -16,7 +16,7 @@
 	},
 	"euler-unichain-lst": {
 		"name": "Euler Unichain LST",
-		"description": "A lending and borrowing market for WETH and LST assets, configured by Euler DAO and Gauntlet.",
+		"description": "A lending and borrowing market for WETH and LST assets, configured by Euler DAO.",
 		"entity": ["euler-dao"],
 		"url": "",
 		"vaults": [],
