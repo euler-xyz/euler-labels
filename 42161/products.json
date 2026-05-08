@@ -59,7 +59,7 @@
 	},
 	"alphagrowth-arbitrum": {
 		"name": "AlphaGrowth Arbitrum Vaults",
-		"description": "A market tailored to borrowing against blue chip crypto assets. Governed by AlphaGrowth.",
+		"description": "A lending and borrowing market for selected crypto collateral, configured by AlphaGrowth.",
 		"entity": ["alphagrowth"],
 		"url": "https://alphagrowth.io/",
 		"vaults": [

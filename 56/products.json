@@ -1,7 +1,7 @@
 {
 	"mev-capital-bob": {
 		"name": "MEV Capital BNB Cluster",
-		"description": "The MEV Capital BNB Cluster provides a set of liquid collateral markets with an optimized risk-adjusted return.",
+		"description": "A set of BNB Chain collateral markets configured by MEV Capital.",
 		"entity": "mev-capital",
 		"vaults": [],
 		"deprecatedVaults": [
@@ -20,7 +20,7 @@
 	},
 	"apostro-bsc": {
 		"name": "Apostro BSC",
-		"description": "Money market on Binance Smart Chain (BSC), governed by Apostro, enabling seamless access to blue-chip assets with advanced trading strategies like leverage and carry trades.",
+		"description": "A BSC lending and borrowing market for supported assets, configured by Apostro.",
 		"entity": "apostro",
 		"vaults": [],
 		"deprecatedVaults": [
@@ -40,7 +40,7 @@
 	},
 	"tulipa-bsc": {
 		"name": "Tulipa",
-		"description": "A market tailored to lending and borrowing assets on the BSC chain. Governed by Tulipa.",
+		"description": "A BSC lending and borrowing market for supported assets, configured by Tulipa Capital.",
 		"entity": "tulipa-capital",
 		"vaults": [],
 		"deprecatedVaults": [

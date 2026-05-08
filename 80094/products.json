@@ -2,7 +2,7 @@
 	"mev-capital-bera": {
 		"name": "MEV Capital Berachain Cluster",
 		"entity": "mev-capital",
-		"description": "The MEV Capital Berachain Cluster provides a set of liquid collateral markets with an optimized risk-adjusted return",
+		"description": "A set of Berachain collateral markets configured by MEV Capital.",
 		"vaults": [
 			"0xad9e5E2647EFb9137B6B8D688d4906fa51476870",
 			"0x6D976915bD9DE43De1A60C39e128e320dadda000",
@@ -23,7 +23,7 @@
 	},
 	"tulipa-hive": {
 		"name": "Tulipa Hive",
-		"description": "A market tailored to lending and borrowing assets such as WBTC, LBTC, Honey, USDC, BERA and NECT on the Bera chain. Governed by Tulipa.",
+		"description": "A Berachain lending and borrowing market for supported assets including WBTC, LBTC, HONEY, USDC, BERA, and NECT, configured by Tulipa Capital.",
 		"entity": "tulipa-capital",
 		"vaults": [],
 		"deprecatedVaults": [
@@ -53,7 +53,7 @@
 	},
 	"tulipa-folding-hive": {
 		"name": "Tulipa Folding Hive",
-		"description": "A collaboration between Origami Finance and Tulipa Capital on folding oriBGT. Governed by Tulipa.",
+		"description": "A Berachain market for oriBGT-related folding, configured by Tulipa Capital.",
 		"entity": "tulipa-capital",
 		"vaults": [
 			"0xac0476A04c567EBcd49Db0A5b8b294A119d7849D",
@@ -63,7 +63,7 @@
 	"mev-capital-red": {
 		"name": "MEV Capital Berachain Red Cluster",
 		"entity": "mev-capital",
-		"description": "The MEV Capital Berachain Red Cluster provides a set of native collateral markets with an optimized risk-adjusted return",
+		"description": "A set of Berachain native collateral markets configured by MEV Capital.",
 		"vaults": [],
 		"deprecatedVaults": [
 			"0x028b1F7a949a7a862C3f93987296be30d71f7F97",
@@ -77,7 +77,7 @@
 	},
 	"zerolend-bera-party": {
 		"name": "ZeroLend Prime Market",
-		"description": "A Berachain-focused market curated by ZeroLend.",
+		"description": "A Berachain-focused market configured by ZeroLend.",
 		"entity": "zerolend",
 		"vaults": [],
 		"deprecatedVaults": [
@@ -94,7 +94,7 @@
 	"mev-capital-blue": {
 		"name": "MEV Capital Berachain Blue Cluster",
 		"entity": "mev-capital",
-		"description": "The MEV Capital Berachain Blue Cluster provides a set of native collateral markets with an optimized risk-adjusted return",
+		"description": "A set of Berachain native collateral markets configured by MEV Capital.",
 		"vaults": [],
 		"deprecatedVaults": [
 			"0x34018ac9DC4B114036Ca148Aa18C8f75594E5e95",

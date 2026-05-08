@@ -1,7 +1,7 @@
 {
 	"euler-prime": {
 		"name": "Euler Prime",
-		"description": "A market tailored to borrowing stable assets against blue chip crypto assets. Governed by Euler DAO.",
+		"description": "A lending and borrowing market for stablecoin-denominated assets and selected crypto collateral, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/expanding-euler-prime/1137",
 		"vaults": [
@@ -30,7 +30,7 @@
 	},
 	"euler-yield": {
 		"name": "Euler Yield",
-		"description": "A market tailored to borrowing stablecoins against tokenised yield strategies. Governed by Euler DAO.",
+		"description": "A lending and borrowing market for stablecoins and tokenized strategy collateral, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/creation-of-euler-yield-market/1163",
 		"vaults": [
@@ -49,7 +49,7 @@
 	},
 	"euler-rwa": {
 		"name": "Euler RWA",
-		"description": "A market tailored to borrowing against real-world assets. Governed by Euler DAO.",
+		"description": "A lending and borrowing market for real-world asset collateral, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao"],
 		"vaults": ["0xC51e90b48FD7fBfF316502b85A71e0EBb1ee5238"],
 		"deprecatedVaults": [
@@ -62,7 +62,7 @@
 	},
 	"eulswap": {
 		"name": "EUL Lending",
-		"description": "An isolated market dedicated to EUL token swaps. EUL Lending market is not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"description": "An isolated market for EUL token swaps, configured by Euler DAO. This market has limited active risk management.",
 		"entity": ["euler-dao"],
 		"vaults": [
 			"0x74034eb8d5B2E480825263A975E4CF82A081c959",
@@ -72,7 +72,7 @@
 	},
 	"frontier-renzo": {
 		"name": "Frontier Renzo",
-		"description": "An isolated market dedicated to the Renzo ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"description": "A market for Renzo ecosystem assets, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
 		"vaults": [],
@@ -86,7 +86,7 @@
 	},
 	"frontier-medge": {
 		"name": "Frontier mEDGE",
-		"description": "An isolated market dedicated to the mEDGE ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"description": "A market for mEDGE ecosystem assets, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
 		"vaults": [],
@@ -104,7 +104,7 @@
 	},
 	"frontier-mmev": {
 		"name": "Frontier mMEV",
-		"description": "An isolated market dedicated to the mMEV ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"description": "A market for mMEV ecosystem assets, configured by Euler DAO and Gauntlet. Frontier markets may have limited or no active risk management; users should review market parameters, collateral, liquidity, and risks independently.",
 		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
 		"vaults": [],
@@ -122,7 +122,7 @@
 	},
 	"frontier-level": {
 		"name": "Frontier Level",
-		"description": "An isolated market dedicated to the Level ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"description": "A market for Level ecosystem assets, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
 		"vaults": [],
@@ -154,7 +154,7 @@
 	},
 	"frontier-inverse": {
 		"name": "Frontier Inverse",
-		"description": "An isolated market dedicated to the Inverse ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"description": "A market for Inverse ecosystem assets, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
 		"vaults": [],
@@ -170,7 +170,7 @@
 	},
 	"frontier-yala": {
 		"name": "Frontier Yala",
-		"description": "An isolated market dedicated to the Yala ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"description": "A market for Yala ecosystem assets, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
 		"vaults": [],
@@ -239,7 +239,7 @@
 	},
 	"alterscope-bedrock": {
 		"name": "Alterscope Bedrock",
-		"description": "Foundational vaults designed for maximium market stability.",
+		"description": "A set of vaults configured by Alterscope.",
 		"entity": "alterscope",
 		"vaults": [],
 		"deprecatedVaults": [
@@ -266,7 +266,7 @@
 	},
 	"alterscope-ascend": {
 		"name": "Alterscope Ascend",
-		"description": "The Ascend vaults diversify collateralization options and achieve higher returns while ensuring high market stability.",
+		"description": "A set of vaults configured by Alterscope.",
 		"entity": "alterscope",
 		"vaults": [],
 		"deprecatedVaults": [
@@ -279,7 +279,7 @@
 	},
 	"yieldnest-max": {
 		"name": "YieldNest Max Vaults",
-		"description": "Merging DeFi's best strategies into single, unified, high-powered assets.",
+		"description": "A set of vaults for selected YieldNest asset exposures, configured by YieldNest.",
 		"entity": "yieldnest",
 		"vaults": [
 			"0x7fAb04FF2717d9A6B71A51c56c29697179597D40",
@@ -380,7 +380,7 @@
 	},
 	"tulipa-resolv": {
 		"name": "Tulipa Resolv",
-		"description": "A market tailored to borrowing stablecoins against the Resolv ecosystem. Governed by Tulipa Capital.",
+		"description": "A lending and borrowing market for stablecoins and Resolv ecosystem collateral, configured by Tulipa Capital.",
 		"entity": "tulipa-capital",
 		"vaults": [],
 		"deprecatedVaults": [
@@ -393,7 +393,7 @@
 	},
 	"usual-stability-loan": {
 		"name": "Usual Stability Loan",
-		"description": "The Usual Stability Loan enables users to leverage their USD0++ to arbitrage when it depegs, by borrowing USD0 at a fixed interest rate.",
+		"description": "A market for borrowing USD0 against USD0++ collateral, configured by Usual.",
 		"entity": "usual",
 		"url": "https://snapshot.box/#/s:usualmoney.eth/proposal/0x1b081d3b3dd611094e96b690dc5d981d86bb724cce5ef562d9eecbe580b535c2",
 		"vaults": [
@@ -408,7 +408,7 @@
 	},
 	"usual-pt-usd0-plus-plus-vault": {
 		"name": "Usual's PT USD0++ vault",
-		"description": "Usual's PT USD0++ vault lets you borrow USD0 at a fixed rate using Pendle PTs as collateral, unlocking leveraged yield opportunities with stable borrowing costs and minimized rate volatility.",
+		"description": "A market for borrowing USD0 against Pendle PT USD0++ collateral, configured by Usual.",
 		"entity": "usual",
 		"url": "https://app.pendle.finance/trade/markets/0xf8094570485b124b4f2abe98909a87511489c162/swap?view=pt&chain=ethereum",
 		"vaults": [],
@@ -421,7 +421,7 @@
 	},
 	"openeden": {
 		"name": "OpenEden",
-		"description": "A market tailored to borrowing stablecoins against the OpenEden ecosystem. Governed by Ouroboros Capital.",
+		"description": "A lending and borrowing market for stablecoins and OpenEden ecosystem collateral, configured by Ouroboros Capital.",
 		"entity": "ouroboros-capital",
 		"vaults": [],
 		"deprecatedVaults": [
@@ -434,7 +434,7 @@
 	},
 	"tulipa-tac": {
 		"name": "Tulipa TAC",
-		"description": "A market tailored to lending and borrowing against the TAC Summoning Assets. Governed by Tulipa Capital.",
+		"description": "A lending and borrowing market for TAC Summoning Assets, configured by Tulipa Capital.",
 		"entity": "tulipa-capital",
 		"vaults": [],
 		"deprecatedVaults": [
@@ -451,7 +451,7 @@
 	},
 	"tulipa-noon": {
 		"name": "Noon",
-		"description": "A market tailored to lending and borrowing against the Noon ecosystem. Governed by Tulipa Capital.",
+		"description": "A lending and borrowing market for Noon ecosystem assets, configured by Tulipa Capital.",
 		"entity": "tulipa-capital",
 		"vaults": [
 			"0x53208e965EB66841598fB8f983a41936EeE6d774",
@@ -464,7 +464,7 @@
 	},
 	"zerolend-openeden": {
 		"name": "ZeroLend OpenEden",
-		"description": "A market tailored to lending and borrowing with OpenEden Products. Governed by ZeroLend.",
+		"description": "A lending and borrowing market for OpenEden assets, configured by ZeroLend.",
 		"entity": "zerolend",
 		"vaults": [],
 		"deprecatedVaults": [
@@ -477,7 +477,7 @@
 	},
 	"k3-liquity-hub": {
 		"name": "Liquity Hub",
-		"description": "A stablecoin cluster designed to support the Liquity ecosystem.",
+		"description": "A stablecoin-focused market cluster for the Liquity ecosystem, configured by K3.",
 		"entity": "k3",
 		"vaults": [
 			"0x9ee58f0618D2Bf130b73F2d843c45C69548B981B",
@@ -507,7 +507,7 @@
 	},
 	"frontier-upshift": {
 		"name": "Frontier Upshift",
-		"description": "An isolated market dedicated to the Upshift ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"description": "A market for Upshift ecosystem assets, configured by Euler DAO and Gauntlet. Frontier markets may have limited or no active risk management; users should review market parameters, collateral, liquidity, and risks independently.",
 		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/10?u=upshift.fi",
 		"vaults": [],
@@ -522,7 +522,7 @@
 	},
 	"frontier-bedrock": {
 		"name": "Frontier Bedrock",
-		"description": "An isolated market dedicated to the Bedrock ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"description": "A market for Bedrock ecosystem assets, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/24?u=eulerlabs",
 		"vaults": [],
@@ -537,7 +537,7 @@
 	},
 	"frontier-puffer": {
 		"name": "Frontier Puffer",
-		"description": "An isolated market dedicated to the Puffer ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"description": "A market for Puffer ecosystem assets, configured by Euler DAO and Gauntlet. Frontier markets may have limited or no active risk management; users should review market parameters, collateral, liquidity, and risks independently.",
 		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/11",
 		"vaults": [],
@@ -551,7 +551,7 @@
 	},
 	"frontier-pareto": {
 		"name": "Frontier Pareto",
-		"description": "An isolated market dedicated to the Pareto ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"description": "A market for Pareto ecosystem assets, configured by Euler DAO and Gauntlet. Frontier markets may have limited or no active risk management; users should review market parameters, collateral, liquidity, and risks independently.",
 		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/2",
 		"vaults": [],
@@ -566,7 +566,7 @@
 	},
 	"frontier-reservoir": {
 		"name": "Frontier Reservoir",
-		"description": "An isolated market dedicated to the Reservoir ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"description": "A market for Reservoir ecosystem assets, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -581,7 +581,7 @@
 	},
 	"frontier-spark": {
 		"name": "Frontier Spark",
-		"description": "An isolated market dedicated to the Spark ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"description": "A market for Spark ecosystem assets, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -596,7 +596,7 @@
 	},
 	"frontier-yieldfi": {
 		"name": "Frontier YieldFi",
-		"description": "An isolated market dedicated to the YieldFi ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"description": "A market for YieldFi ecosystem assets, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -611,7 +611,7 @@
 	},
 	"re7-hyperwave": {
 		"name": "Re7 Hyperwave",
-		"description": "An isolated market dedicated to the Hyperwave ecosystem. Risk is curated by Re7 Labs.",
+		"description": "A market for Hyperwave ecosystem assets, configured by Re7 Labs.",
 		"entity": "re7-labs",
 		"vaults": [],
 		"deprecatedVaults": [
@@ -625,7 +625,7 @@
 	},
 	"frontier-strata": {
 		"name": "Frontier Strata",
-		"description": "An isolated market dedicated to the Strata ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"description": "A market for Strata ecosystem assets, configured by Euler DAO and Gauntlet. Frontier markets may have limited or no active risk management; users should review market parameters, collateral, liquidity, and risks independently.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -659,7 +659,7 @@
 	},
 	"frontier-asymmetry": {
 		"name": "Frontier Asymmetry",
-		"description": "An isolated market dedicated to the Asymmetry Finance ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"description": "A market for Asymmetry Finance ecosystem assets, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -676,7 +676,7 @@
 	},
 	"rezerve-vaults": {
 		"name": "Rezerve Markets",
-		"description": "An isolated market dedicated to the Rezerve ecosystem. Risk is curated by ZeroLend.",
+		"description": "A market for Rezerve ecosystem assets, configured by ZeroLend.",
 		"entity": "zerolend",
 		"vaults": [],
 		"deprecatedVaults": [
@@ -692,7 +692,7 @@
 	},
 	"telosc-stream": {
 		"name": "TelosC Stream",
-		"description": "A market tailored to the Stream ecosystem. Governed and curated by TelosC.",
+		"description": "A market for Stream ecosystem assets, configured by TelosC.",
 		"entity": "telosc",
 		"vaults": [],
 		"deprecatedVaults": [
@@ -709,7 +709,7 @@
 	},
 	"horizon-clearstar": {
 		"name": "Horizon Clearstar",
-		"description": "A market designed to lend against a mix of assets targeting moderate risk exposure and high returns. Risk is curated by Clearstar Labs.",
+		"description": "A lending and borrowing market for selected assets, configured by Clearstar Labs.",
 		"entity": "clearstar",
 		"vaults": [],
 		"deprecatedVaults": [
@@ -757,7 +757,7 @@
 	},
 	"sentora-rlusd": {
 		"name": "Sentora RLUSD",
-		"description": "A market for supplying and borrowing RLUSD against bluechip assets. Governed by Sentora.",
+		"description": "A lending and borrowing market for RLUSD and selected crypto collateral, configured by Sentora.",
 		"entity": "sentora",
 		"url": "https://sentora.com/platform/defi-strategies",
 		"vaults": [
@@ -770,7 +770,7 @@
 	},
 	"sentora-pyusd": {
 		"name": "Sentora PYUSD",
-		"description": "A market for supplying and borrowing PYUSD against bluechip assets. Governed by Sentora.",
+		"description": "A lending and borrowing market for PYUSD and selected crypto collateral, configured by Sentora.",
 		"entity": "sentora",
 		"url": "https://sentora.com/platform/defi-strategies",
 		"vaults": [
@@ -784,7 +784,7 @@
 	},
 	"sentora-ondo": {
 		"name": "Sentora Ondo Global Markets",
-		"description": "A market for borrowing against Ondo tokenized equities and ETFs. Governed by Sentora.",
+		"description": "A market for borrowing against Ondo Global Markets assets, configured by Sentora. Availability may depend on jurisdiction and market configuration.",
 		"entity": "sentora",
 		"url": "https://sentora.com/platform/defi-strategies",
 		"vaults": [
@@ -803,7 +803,7 @@
 	},
 	"9s-fxusd": {
 		"name": "9 Summits fxUSD flagship",
-		"description": "A market for supplying and borrowing fxUSD against and Aladdin DAO ecosystem and other bluechip assets. $FXN aligned curation by 9 Summits",
+		"description": "A lending and borrowing market for fxUSD, Aladdin DAO ecosystem assets, and selected collateral, configured by 9 Summits.",
 		"entity": "9summits",
 		"vaults": [],
 		"deprecatedVaults": [
@@ -815,7 +815,7 @@
 	},
 	"frontier-mevbtc": {
 		"name": "Frontier mevBTC",
-		"description": "An isolated market dedicated to the Midas mevBTC ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"description": "A market for mevBTC ecosystem assets, configured by Euler DAO and Gauntlet. Frontier markets may have limited or no active risk management; users should review market parameters, collateral, liquidity, and risks independently.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -829,7 +829,7 @@
 	},
 	"frontier-mfarm": {
 		"name": "Frontier mFARM",
-		"description": "An isolated market dedicated to the Midas mFARM ecosystem. Frontier markets are not actively risk managed. Please ensure you are comfortable with the risk exposure before lending.",
+		"description": "A market for Midas mFARM ecosystem assets, configured by Euler DAO and Gauntlet.",
 		"entity": ["euler-dao"],
 		"vaults": [],
 		"deprecatedVaults": [
@@ -843,7 +843,7 @@
 	},
 	"telosc-wormhole": {
 		"name": "TelosC Wormhole",
-		"description": "A market tailored to the Wormhole ecosystem. Governed and curated by TelosC.",
+		"description": "A market for Wormhole ecosystem assets, configured by TelosC.",
 		"entity": "telosc",
 		"vaults": [
 			"0x783431B152C3e83B0c4dCD602E62a2C55d442F9B",
@@ -852,7 +852,7 @@
 	},
 	"telosc-almanak": {
 		"name": "TelosC Almanak",
-		"description": "A market tailored to the Almanak ecosystem. Governed and curated by TelosC.",
+		"description": "A market for Almanak ecosystem assets, configured by TelosC.",
 		"entity": "telosc",
 		"vaults": [],
 		"deprecatedVaults": [
@@ -864,7 +864,7 @@
 	},
 	"cozy-usdc": {
 		"name": "Cozy USDC",
-		"description": "A market tailored to borrowing USDC against BTC and ETH bluechip collateral. Curated and operated by Cozy. The USDC vault integrates a Cozy Safety Module backstop to cover residual bad debt post-liquidation. For more details, please visit here: https://earn.cozy.finance/vault/1/0xd72fa8e1508da5d08b6597c8b901a5fe28a15109?vaultVariant=base.",
+		"description": "A lending and borrowing market for USDC, BTC, and ETH collateral, configured by Cozy Finance.",
 		"entity": "cozy-finance",
 		"url": "https://earn.cozy.finance/vault/1/0xd72fa8e1508da5d08b6597c8b901a5fe28a15109?vaultVariant=base",
 		"logo": "cozy.png",
@@ -877,7 +877,7 @@
 	},
 	"infinifi": {
 		"name": "InfiniFi",
-		"description": "A set of markets for borrowing USDC against InfiniFi locked positions (liUSD) and staked USD (siUSD). Product by InfiniFi, with infrastructure by Cassa.",
+		"description": "A set of markets for borrowing USDC against InfiniFi locked positions and staked USD assets, configured by InfiniFi with infrastructure support from Cassa.",
 		"entity": "infinifi",
 		"vaults": [
 			"0x8bE237254C0832ff642aD0cB2bdfB8f79D7c7b1a",
@@ -901,7 +901,7 @@
 	},
 	"origin-arm-weth": {
 		"name": "Origin stETH ARM / WETH",
-		"description": "Borrow WETH against Origin's stETH ARM vault tokens.",
+		"description": "A market for Origin stETH ARM and WETH-related vaults, configured by AlphaGrowth.",
 		"entity": "alphagrowth",
 		"logo": "origin.png",
 		"url": "https://app.originprotocol.com/#/arm/",
@@ -922,7 +922,7 @@
 	},
 	"tau-pmusd": {
 		"name": "TAU Labs pmUSD",
-		"description": "A market for borrowing USDC against RAAC's pmUSD stablecoin.",
+		"description": "A market for borrowing USDC against RAAC pmUSD collateral, configured by TAU Labs.",
 		"entity": "tau-labs",
 		"vaults": [
 			"0x99b42158986476Dc72D7688861bB9bE21993EBBb",
