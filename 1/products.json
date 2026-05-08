@@ -913,5 +913,18 @@
 			"0x99b42158986476Dc72D7688861bB9bE21993EBBb",
 			"0x5108b9a91132a3052963271CBc5c7c1484DA428e"
 		]
+	},
+	"cass-rwa": {
+		"name": "Cassa RWA",
+		"description": "A set of markets for borrowing AUSD against tokenised real-world assets. Risk curated by Cassa.",
+		"entity": "cassa",
+		"vaults": [
+			"0x7b3cae4eace26ff56ac03ce6ad0e389f007375ea",
+			"0xe9ba91e5efddda4ee1ce99d4c7a8938924d47e7c",
+			"0x297f75783451d8896662d9adf382d4ec1f226c59",
+			"0xd5b4cd50dd2a7dbc74347e572f730fe1eb286a67",
+			"0x61332fe07ee0faa8a087ba00f43d581871441139",
+			"0xdfa6451eac51c913003bfeb52418f55376996a64"
+		]
 	}
 }
