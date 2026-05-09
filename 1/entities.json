@@ -68,14 +68,6 @@
 			"github": "Cozy-Finance"
 		}
 	},
-	"dinero": {
-		"name": "Dinero",
-		"logo": "dinero.png",
-		"description": "Dinero is a DeFi protocol using Euler infrastructure to configure vaults connected to Dinero ecosystem assets.",
-		"addresses": {
-			"0x66301F68E8EdE19C0EcD1AB0b3Ee6FdE9cb143Fb": "Dinero Protocol Timelock Controller"
-		}
-	},
 	"idle": {
 		"name": "Idle DAO",
 		"logo": "idle.png",
