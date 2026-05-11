@@ -930,7 +930,7 @@
 		],
 		"notExplorable": true
 	},
-	"cass-rwa": {
+	"cassa-rwa": {
 		"name": "Cassa RWA",
 		"description": "A set of markets for borrowing AUSD against tokenised RWAs. Curated by Cassa.",
 		"entity": "cassa",
