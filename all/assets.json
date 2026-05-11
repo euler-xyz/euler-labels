@@ -1,6 +1,6 @@
 [
 	{
-		"nameRegex": "ondo",
+		"nameRegex": "^ondo($| )|\\(ondo tokenized\\)",
 		"block": ["CA", "US"],
 		"restricted": ["EU", "EFTA", "BR", "HK", "MY", "SG", "GB"]
 	},
@@ -11,6 +11,16 @@
 	},
 	{
 		"nameRegex": "uspc",
+		"block": ["CA", "US"],
+		"restricted": ["EU", "EFTA", "BR", "HK", "MY", "SG", "GB"]
+	},
+	{
+		"nameRegex": "^(wrapped )?backed ",
+		"block": ["CA", "US"],
+		"restricted": ["EU", "EFTA", "BR", "HK", "MY", "SG", "GB"]
+	},
+	{
+		"nameRegex": " - dinari$",
 		"block": ["CA", "US"],
 		"restricted": ["EU", "EFTA", "BR", "HK", "MY", "SG", "GB"]
 	}
