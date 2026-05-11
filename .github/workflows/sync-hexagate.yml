@@ -1,0 +1,141 @@
+name: Sync Hexagate
+
+on:
+  pull_request_target:
+    branches:
+      - master
+      - development
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Run mode"
+        required: true
+        default: "dry-run"
+        type: choice
+        options:
+          - dry-run
+          - apply
+      only:
+        description: "Optional comma-separated chainId list (leave blank for all chains)"
+        required: false
+        default: ""
+        type: string
+
+concurrency:
+  group: hexagate-sync-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      contents: read
+
+    steps:
+      # Always check out the BASE repository — trusted scripts, lockfile, configs.
+      # PR-controlled code (hexagate-sync.js, verify.js, package*.json, etc.) is
+      # NEVER placed where node will execute it with HEXAGATE_API_KEY in scope.
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies (trusted lockfile)
+        run: npm ci --ignore-scripts
+
+      # On PR: check out the PR head into an isolated path so we can copy ONLY
+      # the data directories ([0-9]+/, all/, logo/) out of it. JS, package.json,
+      # package-lock.json, biome.json, etc. are deliberately discarded.
+      - name: Stage PR head in isolated path
+        if: github.event_name == 'pull_request_target'
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          path: __pr
+          persist-credentials: false
+
+      - name: Overlay PR data directories (passive data only)
+        if: github.event_name == 'pull_request_target'
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          for src in __pr/[0-9]*/ __pr/all/ __pr/logo/; do
+            name=$(basename "$src")
+            rm -rf "./$name"
+            cp -R "$src" "./$name"
+          done
+          rm -rf __pr
+
+      - name: Verify data
+        run: node verify.js
+
+      - name: Resolve sync mode
+        id: mode
+        run: |
+          case "${{ github.event_name }}" in
+            pull_request_target) mode="--dry-run" ;;
+            push)             mode="--apply" ;;
+            workflow_dispatch) mode="--${{ github.event.inputs.mode }}" ;;
+            *)                mode="--dry-run" ;;
+          esac
+          only=""
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ -n "${{ github.event.inputs.only }}" ]; then
+            only="--only=${{ github.event.inputs.only }}"
+          fi
+          echo "args=${mode} ${only}" >> "$GITHUB_OUTPUT"
+
+      - name: Run Hexagate sync
+        run: node hexagate-sync.js ${{ steps.mode.outputs.args }} > sync-output.md
+        env:
+          HEXAGATE_API_KEY: ${{ secrets.HEXAGATE_API_KEY }}
+
+      - name: Build failure comment
+        if: failure() && github.event_name == 'pull_request_target'
+        env:
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          tmp="$(mktemp)"
+          {
+            echo "# Hexagate sync — failed"
+            echo ""
+            echo "Workflow run failed. See [the run logs]($RUN_URL) for details."
+            if [ -s sync-output.md ]; then
+              echo ""
+              echo "<details><summary>Partial output</summary>"
+              echo ""
+              cat sync-output.md
+              echo ""
+              echo "</details>"
+            fi
+          } > "$tmp"
+          mv "$tmp" sync-output.md
+
+      - name: Comment PR with diff
+        if: always() && github.event_name == 'pull_request_target'
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: hexagate-sync
+          path: sync-output.md
+
+      - name: Upload sync summary
+        if: github.event_name != 'pull_request_target'
+        uses: actions/upload-artifact@v4
+        with:
+          name: sync-output
+          path: sync-output.md
+
+      - name: Append sync summary to job summary
+        if: always()
+        run: |
+          if [ -f sync-output.md ]; then
+            cat sync-output.md >> "$GITHUB_STEP_SUMMARY"
+          fi

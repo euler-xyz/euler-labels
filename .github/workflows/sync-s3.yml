@@ -17,9 +17,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
+          cache: npm
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Verify data
         run: node verify.js
@@ -31,6 +32,8 @@ jobs:
           for dir in [0-9]*/; do
             [ -d "$dir" ] && cp -r "$dir" _s3_stage/
           done
+          # Copy cross-chain rules directory (e.g. all/assets.json)
+          [ -d all ] && cp -r all _s3_stage/
           # Copy logo directory
           [ -d logo ] && cp -r logo _s3_stage/
 

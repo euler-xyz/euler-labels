@@ -98,7 +98,7 @@
 	},
 	"telosc-stream": {
 		"name": "TelosC Stream",
-		"description": "A market tailored to the Stream ecosystem. Governed and curated by TelosC.",
+		"description": "A market for Stream ecosystem assets, configured by TelosC.",
 		"entity": "telosc",
 		"vaults": [],
 		"deprecatedVaults": [
@@ -262,7 +262,7 @@
 	},
 	"telosc-reservoir": {
 		"name": "TelosC Reservoir",
-		"description": "A market tailored to the Reservoir ecosystem. Governed and curated by TelosC.",
+		"description": "A market for Reservoir ecosystem assets, configured by TelosC.",
 		"entity": "telosc",
 		"vaults": [],
 		"deprecatedVaults": [

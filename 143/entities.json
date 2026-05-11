@@ -2,7 +2,7 @@
 	"euler-dao": {
 		"name": "Euler DAO",
 		"logo": "euler.svg",
-		"description": "The Euler DAO is the organisation responsible for the creation of the Euler lending/borrowing platform.",
+		"description": "Euler DAO is responsible for the governance of the Euler protocol.",
 		"url": "https://euler.finance/",
 		"addresses": {
 			"0xdA3da5c8f93c0B7630412B8cd7dE571011Df8963": "Euler DAO Multisig",
@@ -19,7 +19,7 @@
 	"clearstar": {
 		"name": "Clearstar",
 		"logo": "clearstar.svg",
-		"description": "Designing and curating institutional-grade strategies across decentralized markets, underpinned by rigorous risk management.",
+		"description": "Clearstar is a third-party curator using Euler infrastructure to configure vaults across selected decentralized markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://www.clearstar.xyz/",
 		"addresses": {
 			"0x30988479C2E6a03E7fB65138b94762D41a733458": "Curator Wallet (ForDeFi MPC)",
@@ -29,16 +29,25 @@
 			"twitter": "ClearstarLabs"
 		}
 	},
-	"gauntlet": {
-		"name": "Gauntlet",
-		"logo": "gauntlet.svg",
-		"description": "Gauntlet's applied research and optimization teams model market risk, economic incentives, and drive sustainable growth for crypto's top protocols, chains, and onchain treasuries.",
-		"url": "https://www.gauntlet.xyz/",
+	"k3-capital": {
+		"name": "K3 Capital",
+		"logo": "k3.svg",
+		"description": "K3 Capital provide leading institutional asset and risk management in decentralized finance.",
+		"url": "https://k3.capital/",
 		"addresses": {
-			"0x6d0C01848041031EAd6f6126cFF1beC0aDCea742": "Euler Vault Access Control Governor"
+			"0x060DB084bF41872861f175d83f3cb1B5566dfEA3": "K3 Fireblocks wallet"
 		},
 		"social": {
-			"twitter": "gauntlet_xyz"
+			"twitter": "k3_capital"
+		}
+	},
+	"valos": {
+		"name": "Valos",
+		"logo": "valos.svg",
+		"description": "Valos is a digital asset manager specialising in private credit strategies.",
+		"url": "https://valos.io",
+		"addresses": {
+			"0x87eF01F2F53de60C98a3337BC17Dc75798526C05": "Euler Vault Governor"
 		}
 	},
 	"hyperithm": {

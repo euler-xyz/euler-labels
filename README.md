@@ -8,6 +8,8 @@ If you have created a vault and wish to have it included in this database, pleas
 
 Each network has a directory, named after its numeric `chainId`. For example, the Ethereum mainnet data is stored in directory `1/`.
 
+There is also an optional top-level `all/` directory for cross-chain rules. Today only `all/assets.json` is consumed — see the [`assets.json`](#assetsjson) schema.
+
 Inside each network's directory are JSON files that correspond to the following schemas. All keys are optional unless indicated as required.
 
 ### `entities.json`
@@ -40,6 +42,34 @@ Each entry in this object corresponds to a lending product, which is primarily a
 * `block`: An optional array of country code strings where the product is blocked.
 * `featuredVaults`: An optional array of vault addresses to feature. Each must also be in `vaults`.
 * `vaultOverrides`: An optional object of per-vault configuration overrides, keyed by vault address. Each override can contain: `name` (string), `description` (string), `portfolioNotice` (string), `deprecationReason` (string), `block` (string[]), `restricted` (string[]), `notExplorableLend` (boolean), `notExplorableBorrow` (boolean), `keyring` (boolean).
+
+### `assets.json`
+
+This optional file lists asset-level geo-blocking rules. An asset-level rule applies to every asset that matches — and therefore to every vault whose underlying asset matches — across all products. Use it when a restriction exists because of the asset itself (e.g. tokenized equities that cannot be sold to US residents). For restrictions that exist because of the *product* wrapping an asset (e.g. one product's USDC vault is blocked in a region while other USDC vaults are not), keep the rule in `products.json` as a product-level `block` or a `vaultOverrides[address].block` / `.restricted`.
+
+There are two locations:
+
+* **Per-chain** — `<chainId>/assets.json`. Applies only to assets on that chain. Best for rules anchored to a concrete deployment address.
+* **Global (cross-chain)** — `all/assets.json`. Applies on every chain. Best for pattern rules driven by an issuer's symbol/name convention that spans chains (e.g. every token whose name contains a given brand). Entries from `all/assets.json` are transparently unioned with the per-chain file at query time.
+
+Each entry is an object with at least one **match field** and at least one **rule field**.
+
+**Match fields** (OR-composed within an entry — an asset matches the entry if *any* populated match field matches):
+
+* `address`: Checksummed hex address of the asset (ERC-20 token). Exact address match. In `all/assets.json` the same literal address matches on every chain, which is rarely what you want — prefer pattern fields for cross-chain rules.
+* `symbols`: Array of token symbols. Case-insensitive exact match against the asset's symbol.
+* `symbolRegex`: Regular expression string. Compiled with the case-insensitive (`i`) flag and matched against the asset's symbol. Max length 512 chars; must compile.
+* `names`: Array of token names. Case-insensitive exact match against the asset's name.
+* `nameRegex`: Regular expression string. Compiled with the case-insensitive (`i`) flag and matched against the asset's name. Max length 512 chars; must compile.
+
+**Rule fields** (at least one required):
+
+* `block`: Array of country code strings where matching assets are hard-blocked. Any vault using a matching asset is treated as blocked for users in those countries.
+* `restricted`: Array of country code strings where matching assets are soft-restricted. Users can still reduce exposure to a matching asset but cannot acquire more via swap flows.
+
+Country codes may be ISO 3166-1 alpha-2 codes (e.g. `US`, `CA`, `GB`) or group aliases (`EU`, `EEA`, `EFTA`).
+
+Asset-level and vault-level rules combine with OR semantics: a vault is blocked if its underlying asset is blocked by *any* asset-level entry (per-chain or global) *or* the vault itself has a vault-level block. Asset rules act as a floor that vault rules can only add to.
 
 ### `points.json`
 

@@ -1,11 +1,9 @@
 {
-	"re7-labs-tac": {
+	"re7-labs-tac-deprecated": {
 		"name": "Re7 Labs Cluster",
 		"entity": "re7-labs",
 		"vaults": [],
 		"deprecatedVaults": [
-			"0x27324c0d445f94550b53936dBAB7fD168634f192",
-			"0xc7F25f1c8FDB86DE3d14152034de4EB8B71eEC78",
 			"0x4ac2478eb1DDf574b0ffF297a25BB496af1fA207",
 			"0x2eF66758705426e7BF598669AEf23eE9b9CC3088",
 			"0x15794A8e1708511DABeC3d356aDDbE7128E90D8F",
@@ -16,6 +14,14 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
+	},
+	"re7-labs-tac": {
+		"name": "TON Cluster",
+		"entity": "re7-labs",
+		"vaults": [
+			"0x27324c0d445f94550b53936dBAB7fD168634f192",
+			"0xc7F25f1c8FDB86DE3d14152034de4EB8B71eEC78"
+		]
 	},
 	"edge-capital-tac": {
 		"name": "Edge UltraYield Cluster",
