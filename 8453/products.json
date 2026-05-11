@@ -68,10 +68,10 @@
 			"0x24D633664Aea3F551B2Fa34fA66Dd1BA52a33933"
 		]
 	},
-	"alterscope-lrt": {
-		"name": "Alterscope LRT",
-		"description": "A set of vaults for LRT-related assets, configured by Alterscope.",
-		"entity": "alterscope",
+	"clearstar-lrt": {
+		"name": "Clearstar LRT",
+		"description": "A set of vaults for LRT-related assets, configured by Clearstar.",
+		"entity": "clearstar",
 		"vaults": [
 			"0xf4480166d66CFb9c5E12C843A8F844F512989289",
 			"0xF3BB6b0a9bEAF9240D7F4a91341d5Df6bF37cAea"
