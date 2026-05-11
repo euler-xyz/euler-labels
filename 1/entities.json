@@ -283,8 +283,11 @@
 	"cassa": {
 		"name": "Cassa",
 		"logo": "cassa.png",
-		"description": "Cassa is a third-party curator using Euler infrastructure to configure vaults and market structures for DeFi risk markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+		"description": "Cassa is a third-party curator using Euler infrastructure to configure vaults focused on RWAs products. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://www.cassa.fyi/",
+		"addresses": {
+			"0xeeF44faf5fE0cc1FAB04Bb052Bff750Cf37A7fC4": "Cassa Multisig"
+		},
 		"social": {
 			"twitter": "cassa_fyi"
 		}
