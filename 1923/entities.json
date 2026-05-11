@@ -2,7 +2,7 @@
 	"euler-dao": {
 		"name": "Euler DAO",
 		"logo": "euler.svg",
-		"description": "The Euler DAO is the organisation responsible for the creation of the Euler lending/borrowing platform.",
+		"description": "Euler DAO is responsible for the governance of the Euler protocol.",
 		"url": "https://euler.finance/",
 		"addresses": {
 			"0x8c2EceEe32359af9eec2326f841d187FaA8A5Ce2": "Euler DAO Multisig",
@@ -16,11 +16,10 @@
 			"github": "euler-xyz"
 		}
 	},
-
 	"relend-network": {
 		"name": "Relend Network",
 		"logo": "relend.png",
-		"description": "Relend Network relends money market liquidity to L1s and L2s.",
+		"description": "Relend Network is a third-party curator using Euler infrastructure to configure markets for relending liquidity across networks. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://relend.network/",
 		"addresses": {
 			"0xbC15B3DB21311707b5e315e22A6F139f6205d2Ed": "Relend Network Multisig on Swell",
