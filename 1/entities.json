@@ -283,7 +283,7 @@
 	"cassa": {
 		"name": "Cassa",
 		"logo": "cassa.png",
-		"description": "Cassa is a new deterministic on-chain infrastructure that turns DeFi risk into liquid and tradable markets. Policies are enforced algorithmically with no governance or human arbiters, while an AMM continuously reprices risk and enables streaming payouts, secondary-market liquidity, and real-time hedging for vaults, lenders, stakers, and stablecoin issuers.",
+		"description": "Cassa is a third-party curator using Euler infrastructure to configure vaults focused on RWAs products. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://www.cassa.fyi/",
 		"addresses": {
 			"0xeeF44faf5fE0cc1FAB04Bb052Bff750Cf37A7fC4": "Cassa Multisig"
