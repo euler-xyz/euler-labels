@@ -929,5 +929,18 @@
 			"0x5108b9a91132a3052963271CBc5c7c1484DA428e"
 		],
 		"notExplorable": true
+	},
+	"cassa-rwa": {
+		"name": "Cassa RWA",
+		"description": "A set of markets for borrowing AUSD against tokenised RWAs. Curated by Cassa.",
+		"entity": "cassa",
+		"vaults": [
+			"0x7b3CAE4eACE26fF56Ac03cE6AD0e389f007375eA",
+			"0xe9BA91e5EfDDdA4eE1ce99d4C7a8938924d47E7C",
+			"0x9D341Dd568DA14F00f10CdEDa6c5cAFae916262b",
+			"0xD5b4cd50dd2a7dbC74347E572f730fE1eB286a67",
+			"0x61332fE07Ee0faa8a087ba00f43d581871441139",
+			"0xdFa6451EAC51c913003bfeb52418F55376996A64"
+		]
 	}
 }
