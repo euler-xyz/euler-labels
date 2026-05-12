@@ -186,13 +186,15 @@ function validateChain(chainId) {
 			}
 		}
 
-		if (product.featuredVaults) {
-			for (const addr of product.featuredVaults) {
+		if (product.recentlyAddedVaults) {
+			for (const addr of product.recentlyAddedVaults) {
 				if (addr !== ethers.getAddress(addr))
-					throw Error(`products: malformed featured vault address: ${addr}`);
+					throw Error(
+						`products: malformed recently-added vault address: ${addr}`,
+					);
 				if (!product.vaults.includes(addr))
 					throw Error(
-						`products: featured vault ${addr} not in vaults: ${productId}`,
+						`products: recently-added vault ${addr} not in vaults: ${productId}`,
 					);
 			}
 		}
