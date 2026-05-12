@@ -1,4 +1,109 @@
 {
+	"alphagrowth-base-market": {
+		"name": "AlphaGrowth Base",
+		"description": "A lending and borrowing market for stablecoin-denominated assets and selected collateral, configured by AlphaGrowth.",
+		"entity": ["alphagrowth"],
+		"url": "https://alphagrowth.io/",
+		"vaults": [
+			"0x859160DB5841E5cfB8D3f144C6b3381A85A4b410",
+			"0x7b181d6509DEabfbd1A23aF1E65fD46E89572609",
+			"0x358f25F82644eaBb441d0df4AF8746614fb9ea49",
+			"0xd4A805261B28f375fc9c3d89EcD2C952Cd130d14",
+			"0x0A1a3b5f2041F33522C4efc754a7D096f880eE16",
+			"0x882018411Bc4A020A879CEE183441fC9fa5D7f8B",
+			"0x3f0d3Fd87A42BDaa3dfCC13ADA42eA922e638a7A",
+			"0x5Fe2DE3E565a6a501a4Ec44AAB8664b1D674ac25"
+		]
+	},
+	"apostro-resolv": {
+		"name": "Apostro Resolv",
+		"entity": "apostro",
+		"vaults": [],
+		"deprecatedVaults": [
+			"0xC063C3b3625DF5F362F60f35B0bcd98e0fa650fb",
+			"0x29Dbce367F5157B924Af5093617bb128477D7A5C",
+			"0x1E2F1e8A97E96a2FDD6A8Da427603Ed1c8b3847F",
+			"0x3F131Ac9D408926a8B36C1e03ce105f44DCD26Af",
+			"0x5ce15fC058E762A6F9722fC6521A0c0F5eECD9BA",
+			"0x34ABB4501419b1E5f836567C58300c861164101A",
+			"0xEdCc195Ca09c9FCC1DD30b152C0b82045Ff2F91f",
+			"0x596dBb33131fa2991cf5651cB57e4b15682C7F93"
+		],
+		"deprecationReason": "Deprecated due to exposure to the Resolv security incident.",
+		"notExplorable": true
+	},
+	"frontier-yo-yobtc": {
+		"name": "AlphaGrowth YO yoBTC Market",
+		"description": "A market for YO yoBTC ecosystem assets, configured by AlphaGrowth.",
+		"entity": ["alphagrowth"],
+		"url": "https://alphagrowth.io/",
+		"vaults": [
+			"0xe72eA97aAF905c5f10040f78887cc8dE8eAec7E4",
+			"0xFab9aF50F7A1Cfe201CAE1c15fCFdDaE7705ccD3"
+		]
+	},
+	"frontier-yo-yoeth": {
+		"name": "Frontier YO yoETH Market",
+		"description": "A market for YO yoETH ecosystem assets, configured by Euler DAO.",
+		"entity": ["euler-dao"],
+		"url": "https://forum.euler.finance/t/community-requests-for-frontier-markets/1433/3",
+		"vaults": [],
+		"deprecatedVaults": [
+			"0x774C08F8e78C47046d325C0331788954C35DF10a",
+			"0xdbDC9c3EdBD401109c83b333c16A0251806b3330",
+			"0x38Df63F1986B80578B7357BCda3D4f71F129AfFf"
+		],
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true,
+		"isGovernanceLimited": true
+	},
+	"alphagrowth-yo-yousd": {
+		"name": "AlphaGrowth YO yoUSD Market",
+		"description": "A market for YO yoUSD ecosystem assets, configured by AlphaGrowth.",
+		"entity": ["alphagrowth"],
+		"url": "https://alphagrowth.io/",
+		"vaults": [
+			"0x085178078796Da17B191f9081b5E2fCCc79A7eE7",
+			"0x990d616ca6E7192625d1B7C41Fb67b5758DF7CF2",
+			"0x24D633664Aea3F551B2Fa34fA66Dd1BA52a33933"
+		]
+	},
+	"alterscope-lrt": {
+		"name": "Alterscope LRT",
+		"description": "A set of vaults for LRT-related assets, configured by Alterscope.",
+		"entity": "alterscope",
+		"vaults": [
+			"0xf4480166d66CFb9c5E12C843A8F844F512989289",
+			"0xF3BB6b0a9bEAF9240D7F4a91341d5Df6bF37cAea"
+		]
+	},
+	"edge-capital-core-cluster": {
+		"name": "Edge UltraYield Cluster",
+		"entity": "edge-capital",
+		"vaults": [],
+		"deprecatedVaults": [
+			"0x611745c9107d0197f161556691c5129fD9B898D1",
+			"0x614bD506051a8CCfCBc57C34aEdcf6CaffCd5d17",
+			"0x1Fd3A242a549D595431442F898FDbb374F15B885",
+			"0x85114A78c512872Df273CA12f35FBE4Cf0749616",
+			"0xBC46393223990D024fcb2b0Ff2f5A4cd52602ea2",
+			"0xD7c286712bd46aa8acBec4EA99d3018b32Edb190",
+			"0x78d6A3BC9d41B7C6Fd52FF2E85a2dF6d1F4F9B3a",
+			"0xA67A95971b8D010c16de4B33259D1c574d256121"
+		],
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true
+	},
+	"alphagrowth-base": {
+		"name": "AlphaGrowth Base Vaults",
+		"description": "A lending and borrowing market for selected collateral, configured by AlphaGrowth.",
+		"entity": ["alphagrowth"],
+		"url": "https://alphagrowth.io/",
+		"vaults": [
+			"0x81744B5B5527852832F2dd3554C191d3B1342108",
+			"0x4C1aeda9B43EfcF1da1d1755b18802aAbe90f61E"
+		]
+	},
 	"clearstar-rwa": {
 		"name": "Clearstar RWA",
 		"description": "A market for real-world asset collateral, configured by Clearstar Labs.",
