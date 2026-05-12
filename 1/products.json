@@ -941,6 +941,17 @@
 			"0xD5b4cd50dd2a7dbC74347E572f730fE1eB286a67",
 			"0x61332fE07Ee0faa8a087ba00f43d581871441139",
 			"0xdFa6451EAC51c913003bfeb52418F55376996A64"
-		]
+		],
+		"vaultOverrides": {
+			"0xe9BA91e5EfDDdA4eE1ce99d4C7a8938924d47E7C": {
+				"name": "AUSD - USPC"
+			},
+			"0xD5b4cd50dd2a7dbC74347E572f730fE1eB286a67": {
+				"name": "AUSD - wSPYx"
+			},
+			"0xdFa6451EAC51c913003bfeb52418F55376996A64": {
+				"name": "AUSD - wSTRCx"
+			}
+		}
 	}
 }
