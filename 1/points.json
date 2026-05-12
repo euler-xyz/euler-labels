@@ -165,7 +165,6 @@
 	{
 		"name": "Turtle Shells",
 		"logo": "turtle.png",
-		"collateralVaults": ["0xBc79C4DA0452152D2C329ADE328C79705a964CEE"],
-		"isTurtleClub": true
+		"collateralVaults": ["0xBc79C4DA0452152D2C329ADE328C79705a964CEE"]
 	}
 ]
