@@ -952,6 +952,7 @@
 			"0xdFa6451EAC51c913003bfeb52418F55376996A64": {
 				"name": "AUSD - wSTRCx"
 			}
-		}
+		},
+		"block": ["CA", "US"]
 	}
 }
