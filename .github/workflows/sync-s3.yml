@@ -6,15 +6,22 @@ on:
       - master
       - development
 
+permissions:
+  contents: read
+
 jobs:
-  sync:
+  stage:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        with:
+          persist-credentials: false
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: "20"
           cache: npm
@@ -27,43 +34,109 @@ jobs:
 
       - name: Stage data for S3
         run: |
+          set -euo pipefail
           mkdir -p _s3_stage
-          # Copy chain directories (numeric names)
-          for dir in [0-9]*/; do
-            [ -d "$dir" ] && cp -r "$dir" _s3_stage/
+
+          for dir in [0-9]*/ all/ logo/; do
+            [ -e "$dir" ] || continue
+            if [ -L "${dir%/}" ]; then
+              echo "::error::Symlinked deploy directory is not allowed: ${dir%/}"
+              exit 1
+            fi
+            if find "$dir" -type l -print -quit | grep -q .; then
+              echo "::error::Symlinks are not allowed in deploy data: ${dir%/}"
+              exit 1
+            fi
           done
-          # Copy cross-chain rules directory (e.g. all/assets.json)
-          [ -d all ] && cp -r all _s3_stage/
-          # Copy logo directory
-          [ -d logo ] && cp -r logo _s3_stage/
+
+          shopt -s nullglob
+          for dir in [0-9]*/; do
+            mkdir -p "_s3_stage/${dir%/}"
+            for file in entities.json products.json points.json assets.json earn-vaults.json; do
+              [ -f "$dir$file" ] && cp "$dir$file" "_s3_stage/${dir%/}/$file"
+            done
+          done
+
+          mkdir -p _s3_stage/all
+          [ -f all/assets.json ] && cp all/assets.json _s3_stage/all/assets.json
+
+          mkdir -p _s3_stage/logo
+          for file in logo/*; do
+            [ -f "$file" ] || continue
+            cp "$file" "_s3_stage/logo/$(basename "$file")"
+          done
+
+      - name: Upload S3 deploy data
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: s3-stage
+          include-hidden-files: false
+          if-no-files-found: error
+          path: _s3_stage/
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: stage
+    environment: s3-sync
+    permissions:
+      contents: read
+      id-token: write
+
+    steps:
+      - name: Download S3 deploy data
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: s3-stage
+          path: _s3_stage
+
+      - name: Verify deploy artifact
+        run: |
+          set -euo pipefail
+          if find _s3_stage -type l -print -quit | grep -q .; then
+            echo "::error::Symlinks are not allowed in deploy artifact"
+            exit 1
+          fi
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@7474bc4690e29a8392af63c5b98e7449536d5c3a # v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
+          aws-region: ${{ secrets.AWS_REGION }}
 
       - name: Sync to S3
-        uses: jakejarvis/s3-sync-action@v0.5.1
-        with:
-          args: --follow-symlinks --delete
+        run: aws s3 sync _s3_stage "s3://${AWS_S3_BUCKET}/${DEST_DIR}" --no-follow-symlinks --delete
         env:
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_REGION: ${{ secrets.AWS_REGION }}
           SOURCE_DIR: _s3_stage
           DEST_DIR: ${{ github.ref_name }}
 
       - name: Invalidate CloudFront cache
         run: |
           aws cloudfront create-invalidation \
-            --distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} \
-            --paths "/${{ github.ref_name }}/*"
+            --distribution-id "$CLOUDFRONT_DISTRIBUTION_ID" \
+            --paths "$CLOUDFRONT_PATH"
         env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_REGION: ${{ secrets.AWS_REGION }}
+          CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
+          CLOUDFRONT_PATH: /${{ github.ref_name }}/*
 
+  notify:
+    runs-on: ubuntu-latest
+    needs:
+      - stage
+      - deploy
+    if: always() && (needs.stage.result == 'failure' || needs.deploy.result == 'failure')
+    permissions:
+      contents: read
+
+    steps:
       - name: Notify Slack on failure
-        if: failure()
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          STAGE_RESULT: ${{ needs.stage.result }}
+          DEPLOY_RESULT: ${{ needs.deploy.result }}
         run: |
+          set -euo pipefail
           msg="❌ Sync to S3 failed for ${{ github.ref_name }} in ${{ github.repository }}. Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          msg="$msg Stage: $STAGE_RESULT. Deploy: $DEPLOY_RESULT."
           payload=$(jq -n --arg text "$msg" '{text: $text}')
           curl -X POST -H 'Content-type: application/json' --data "$payload" "$SLACK_WEBHOOK_URL"
