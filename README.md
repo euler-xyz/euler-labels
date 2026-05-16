@@ -40,7 +40,7 @@ Each entry in this object corresponds to a lending product, which is primarily a
 * `isGovernanceLimited`: An optional boolean flag for governance-limited products.
 * `keyring`: An optional boolean flag for keyring-type products.
 * `block`: An optional array of country code strings where the product is blocked.
-* `featuredVaults`: An optional array of vault addresses to feature. Each must also be in `vaults`.
+* `recentlyAddedVaults`: An optional array of vault addresses to mark as recently added (sorted to the top of discovery tables). Each must also be in `vaults`.
 * `vaultOverrides`: An optional object of per-vault configuration overrides, keyed by vault address. Each override can contain: `name` (string), `description` (string), `portfolioNotice` (string), `deprecationReason` (string), `block` (string[]), `restricted` (string[]), `notExplorableLend` (boolean), `notExplorableBorrow` (boolean), `keyring` (boolean).
 
 ### `assets.json`
