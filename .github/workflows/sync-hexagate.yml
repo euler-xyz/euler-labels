@@ -54,12 +54,15 @@ jobs:
           node-version-file: .nvmrc
           cache: npm
 
+      - name: Use pinned npm
+        run: npm install -g npm@11.12.1
+
       - name: Install dependencies (trusted lockfile)
         run: npm ci --ignore-scripts
 
       # On PR: check out the PR head into an isolated path so we can copy ONLY
-      # the data directories ([0-9]+/, all/, logo/) out of it. JS, package.json,
-      # package-lock.json, biome.json, etc. are deliberately discarded.
+      # the data directories needed for Hexagate ([0-9]+/, all/) out of it. JS,
+      # package.json, package-lock.json, biome.json, logos, etc. are discarded.
       - name: Stage PR head in isolated path
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
@@ -71,7 +74,7 @@ jobs:
         run: |
           set -euo pipefail
           shopt -s nullglob
-          for src in __pr/[0-9]*/ __pr/all/ __pr/logo/; do
+          for src in __pr/[0-9]*/ __pr/all/; do
             name=$(basename "$src")
             if [ -L "${src%/}" ]; then
               echo "::error::Symlinked PR data directory is not allowed: $name"
@@ -146,6 +149,9 @@ jobs:
         with:
           node-version-file: .nvmrc
           cache: npm
+
+      - name: Use pinned npm
+        run: npm install -g npm@11.12.1
 
       - name: Install dependencies (trusted lockfile)
         run: npm ci --ignore-scripts
