@@ -22,7 +22,6 @@
 			"biome check --write --no-errors-on-unmatched"
 		]
 	},
-	"packageManager": "npm@11.12.1",
 	"engines": {
 		"node": ">=24"
 	}
