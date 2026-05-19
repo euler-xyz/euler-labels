@@ -1,7 +1,7 @@
 {
-	"hypurrfi-earn": {
+	"clearstar-earn": {
 		"name": "HypurrFi Earn",
-		"description": "Earn vaults curated by Clearstar for HypurrFi on HyperEVM.",
+		"description": "A set of Earn vaults on HyperEVM, configured by Clearstar.",
 		"entity": ["clearstar"],
 		"url": "https://hypurrfi.com/",
 		"vaults": [
@@ -12,9 +12,9 @@
 			"0x9522133c663ba8C2a8A7b4F63Dd2aC8DccCe1505"
 		]
 	},
-	"hypurrfi-prime": {
+	"clearstar-prime": {
 		"name": "HypurrFi Prime",
-		"description": "Fully cross-collateralized cluster for highly liquid assets.",
+		"description": "A cross-collateralized set of HyperEVM markets, configured by Clearstar.",
 		"entity": ["clearstar"],
 		"url": "https://hypurrfi.com/",
 		"vaults": [
@@ -27,9 +27,9 @@
 			"0x8D0Dc42992597dc4e46dFCB74990341FD5BaEE9d"
 		]
 	},
-	"hypurrfi-yield": {
+	"clearstar-yield": {
 		"name": "HypurrFi Yield",
-		"description": "Yield-bearing HYPE leverage strategies, isolated from HypurrFi Prime Market.",
+		"description": "An isolated set of HyperEVM markets for HYPE-related assets, configured by Clearstar.",
 		"entity": ["clearstar"],
 		"url": "https://hypurrfi.com/",
 		"vaults": [
@@ -54,9 +54,9 @@
 			"0x57E0c24599c504F10EEe6E996d2679D2C510B5Bb"
 		]
 	},
-	"hypurrfi-scale": {
+	"clearstar-scale": {
 		"name": "HypurrFi Scale",
-		"description": "USDXL-centric cluster enabling borrowing against exotic HyperEVM-native collaterals.",
+		"description": "A set of HyperEVM markets centered on USDXL and HyperEVM-native collateral assets, configured by Clearstar.",
 		"entity": ["clearstar"],
 		"url": "https://hypurrfi.com/",
 		"vaults": [

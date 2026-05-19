@@ -2,7 +2,7 @@
 	"clearstar": {
 		"name": "ClearStar",
 		"logo": "clearstar.svg",
-		"description": "Designing and curating institutional-grade strategies across decentralized markets, underpinned by rigorous risk management.",
+		"description": "Clearstar is a third-party curator using Euler infrastructure to configure vaults focused on decentralized markets.",
 		"url": "https://www.clearstar.xyz/",
 		"addresses": {
 			"0x65A067b5955F11F6202F14C3b9Cd64830C4170fB": "ClearStar Governor",
