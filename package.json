@@ -14,7 +14,7 @@
 		"image-size": "1.2.1"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "1.9.0",
+		"@biomejs/biome": "2.4.15",
 		"husky": "9.1.7"
 	},
 	"lint-staged": {
