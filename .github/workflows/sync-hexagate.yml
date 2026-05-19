@@ -44,7 +44,7 @@ jobs:
       # Always check out the BASE repository — trusted scripts, lockfile, configs.
       # PR-controlled code (hexagate-sync.js, verify.js, package*.json, etc.) is
       # NEVER placed where node will execute it with HEXAGATE_API_KEY in scope.
-      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           persist-credentials: false
 
@@ -74,7 +74,7 @@ jobs:
       # the passive data directories ([0-9]+/, all/, logo/) out of it. JS,
       # package.json, package-lock.json, biome.json, etc. are discarded.
       - name: Stage PR head in isolated path
-        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           path: __pr
@@ -150,7 +150,7 @@ jobs:
       contents: read
 
     steps:
-      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           persist-credentials: false
 
