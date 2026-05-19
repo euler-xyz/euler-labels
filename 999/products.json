@@ -1,6 +1,6 @@
 {
 	"clearstar-earn": {
-		"name": "HypurrFi Earn",
+		"name": "Clearstar Earn",
 		"description": "A set of Earn vaults on HyperEVM, configured by Clearstar.",
 		"entity": ["clearstar"],
 		"url": "https://hypurrfi.com/",
@@ -13,7 +13,7 @@
 		]
 	},
 	"clearstar-prime": {
-		"name": "HypurrFi Prime",
+		"name": "Clearstar Prime",
 		"description": "A cross-collateralized set of HyperEVM markets, configured by Clearstar.",
 		"entity": ["clearstar"],
 		"url": "https://hypurrfi.com/",
@@ -28,7 +28,7 @@
 		]
 	},
 	"clearstar-yield": {
-		"name": "HypurrFi Yield",
+		"name": "Clearstar Yield",
 		"description": "An isolated set of HyperEVM markets for HYPE-related assets, configured by Clearstar.",
 		"entity": ["clearstar"],
 		"url": "https://hypurrfi.com/",
@@ -55,7 +55,7 @@
 		]
 	},
 	"clearstar-scale": {
-		"name": "HypurrFi Scale",
+		"name": "Clearstar Scale",
 		"description": "A set of HyperEVM markets centered on USDXL and HyperEVM-native collateral assets, configured by Clearstar.",
 		"entity": ["clearstar"],
 		"url": "https://hypurrfi.com/",
