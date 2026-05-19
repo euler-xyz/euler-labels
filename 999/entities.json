@@ -1,14 +1,4 @@
 {
-	"hypurrfi": {
-		"name": "HypurrFi",
-		"logo": "hypurr-paw.svg",
-		"description": "HypurrFi is a DeFi platform on HyperEVM providing yield optimization strategies.",
-		"url": "https://app.hypurrfi.com/",
-		"addresses": {},
-		"social": {
-			"twitter": "HypurrFi"
-		}
-	},
 	"clearstar": {
 		"name": "ClearStar",
 		"logo": "clearstar.svg",
@@ -21,25 +11,5 @@
 		"social": {
 			"twitter": "ClearstarLabs"
 		}
-	},
-	"re7-labs": {
-		"name": "Re7 Labs",
-		"logo": "re7labs.png",
-		"description": "Re7 Labs is a research-driven crypto investment firm focused on yield strategies and risk management.",
-		"url": "https://www.re7.capital/",
-		"addresses": {
-			"0xd27c32372cA1353c96915a05b558489aa054ef14": "Re7 Labs HyperEVM Governor"
-		},
-		"social": {
-			"twitter": "Re7Capital"
-		}
-	},
-	"hyperwave": {
-		"name": "Hyperwave",
-		"logo": "hyperwave.svg",
-		"description": "Hyperwave is a liquid staking protocol on HyperEVM.",
-		"url": "https://hyperwavefi.xyz/",
-		"addresses": {},
-		"social": {}
 	}
 }
