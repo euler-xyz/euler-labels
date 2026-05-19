@@ -10,7 +10,7 @@
 		"biome": "biome check"
 	},
 	"dependencies": {
-		"ethers": "6.13.5",
+		"ethers": "6.16.0",
 		"image-size": "1.2.1"
 	},
 	"devDependencies": {
