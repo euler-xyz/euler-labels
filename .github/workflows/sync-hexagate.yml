@@ -51,15 +51,28 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
-          node-version: "20"
+          node-version-file: .nvmrc
           cache: npm
+
+      - name: Check npm release-age support
+        run: |
+          version="$(npm --version)"
+          node -e '
+            const version = process.argv[1];
+            const [major, minor] = version.split(".").map(Number);
+            if (major < 11 || (major === 11 && minor < 10)) {
+              console.error(`npm >=11.10.0 is required for min-release-age; got ${version}`);
+              process.exit(1);
+            }
+            console.log(`npm ${version} supports min-release-age`);
+          ' "$version"
 
       - name: Install dependencies (trusted lockfile)
         run: npm ci --ignore-scripts
 
       # On PR: check out the PR head into an isolated path so we can copy ONLY
-      # the data directories ([0-9]+/, all/, logo/) out of it. JS, package.json,
-      # package-lock.json, biome.json, etc. are deliberately discarded.
+      # the passive data directories ([0-9]+/, all/, logo/) out of it. JS,
+      # package.json, package-lock.json, biome.json, etc. are discarded.
       - name: Stage PR head in isolated path
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
@@ -144,8 +157,21 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
-          node-version: "20"
+          node-version-file: .nvmrc
           cache: npm
+
+      - name: Check npm release-age support
+        run: |
+          version="$(npm --version)"
+          node -e '
+            const version = process.argv[1];
+            const [major, minor] = version.split(".").map(Number);
+            if (major < 11 || (major === 11 && minor < 10)) {
+              console.error(`npm >=11.10.0 is required for min-release-age; got ${version}`);
+              process.exit(1);
+            }
+            console.log(`npm ${version} supports min-release-age`);
+          ' "$version"
 
       - name: Install dependencies (trusted lockfile)
         run: npm ci --ignore-scripts
