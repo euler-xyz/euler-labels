@@ -1,0 +1,16 @@
+[
+	{
+		"name": "2x HypurrFi Points (HP)",
+		"logo": "hypurr-paw.svg",
+		"entity": ["hypurrfi"],
+		"liabilityVaults": [],
+		"skipValidation": true
+	},
+	{
+		"name": "3x HypurrFi Points (HP)",
+		"logo": "hypurr-paw.svg",
+		"entity": ["hypurrfi"],
+		"collateralVaults": [],
+		"skipValidation": true
+	}
+]
