@@ -1,17 +1,4 @@
 {
-	"clearstar-earn": {
-		"name": "Clearstar Earn",
-		"description": "A set of Earn vaults on HyperEVM, configured by Clearstar.",
-		"entity": ["clearstar"],
-		"url": "https://hypurrfi.com/",
-		"vaults": [
-			"0xF38eA9DE758a8F6be08B6E65bc0Ff2f3e3aB741b",
-			"0xe8b10461ea0b04FF30F4cBfc3E93957Cac00DEd4",
-			"0x6dd448d5cb73DC96788d5BE605DD3C5c83864a36",
-			"0xF868A2B30854FE13e26F7AB7a92609cCb6b9c0e1",
-			"0x9522133c663ba8C2a8A7b4F63Dd2aC8DccCe1505"
-		]
-	},
 	"clearstar-prime": {
 		"name": "Clearstar Prime",
 		"description": "A cross-collateralized set of HyperEVM markets, configured by Clearstar.",
