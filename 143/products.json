@@ -121,6 +121,15 @@
 			"0x5792753b66Eb5213E416755546abBcC1AEF1008A"
 		]
 	},
+	"k3-isolated-yzprime-usdc": {
+		"name": "K3 Isolated yzPrime-USDC",
+		"description": "An isolated market for yzPrime and USDC, configured by K3 Capital.",
+		"entity": ["k3-capital"],
+		"vaults": [
+			"0x21Bf777668Bae755f00e49fb1D58112094AD4855",
+			"0xa3B64e2674463c98CbD21807055D8C1E008b6e79"
+		]
+	},
 	"isolated-shmon-wmon-usdt": {
 		"name": "Isolated shMON-WMON-USDT",
 		"description": "An isolated market for shMON, WMON, and USDT, configured by Euler DAO.",

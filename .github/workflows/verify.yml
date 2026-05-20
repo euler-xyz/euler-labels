@@ -6,22 +6,43 @@ on:
       - master
       - development
 
+permissions:
+  contents: read
+
 jobs:
   verify:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        with:
+          persist-credentials: false
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
-          node-version: 20
+          node-version-file: .nvmrc
           cache: npm
 
+      - name: Check npm release-age support
+        run: |
+          version="$(npm --version)"
+          node -e '
+            const version = process.argv[1];
+            const [major, minor] = version.split(".").map(Number);
+            if (major < 11 || (major === 11 && minor < 10)) {
+              console.error(`npm >=11.10.0 is required for min-release-age; got ${version}`);
+              process.exit(1);
+            }
+            console.log(`npm ${version} supports min-release-age`);
+          ' "$version"
+
       - name: Install dependencies
-        run: npm ci
+        run: npm ci --ignore-scripts
+
+      - name: Audit dependencies
+        run: npm audit --audit-level high
 
       - name: Run verify.js
         run: node verify.js
