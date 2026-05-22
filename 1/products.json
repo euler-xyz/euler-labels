@@ -964,7 +964,7 @@
 		"vaultOverrides": {
 			"0x2B47c128b35DDDcB66Ce2FA5B33c95314a7de245": {
 				"name": "KPK USDC Prime RWA",
-				"description": "USDC lending vault for KPK-curated RWA markets. Lenders earn yield from borrowers using Securitize-issued tokenised RWA collateral."
+				"description": "USDC lending vault for KPK-curated RWA markets, with a focus on the Securitize ecosystem. Lenders earn yield from borrowers using tokenised RWA collateral."
 			},
 			"0xCf4846E0d8A8667c516B844EB72A4d6e7430101D": {
 				"name": "VBILL Collateral Vault",
