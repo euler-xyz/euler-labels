@@ -320,7 +320,7 @@
 	"kpk": {
 		"name": "KPK",
 		"logo": "kpk.svg",
-		"description": "KPK is a non-custodial onchain asset manager and third-party Euler curator. Asset owners retain full custody while KPK executes scoped strategies through Safe-based, permissioned architectures. KPK is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+		"description": "KPK is a third-party curator using Euler infrastructure to configure vaults across selected RWA markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://kpk.io/",
 		"addresses": {
 			"0x1572063377a9a4f8065BD7bA0D7fa135cd13051F": "KPK Euler RWA Curation Safe",
@@ -334,7 +334,7 @@
 	"securitize": {
 		"name": "Securitize",
 		"logo": "securitize.png",
-		"description": "Securitize is a tokenisation platform for real-world assets, providing issuer-governed compliant collateral vaults that preserve transfer restrictions and enable tokenised RWAs to be used as collateral on Euler.",
+		"description": "Securitize is a tokenisation platform for real-world assets, providing issuer-governed collateral vaults that preserve transfer restrictions and enable tokenised RWAs to be used as collateral on Euler.",
 		"url": "https://securitize.io/",
 		"addresses": {
 			"0x22F53B51E4272F954f25BC377B1b759c6C5A528B": "Securitize MPC wallet"
