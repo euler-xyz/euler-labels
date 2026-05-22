@@ -316,5 +316,33 @@
 		"social": {
 			"twitter": "628labs"
 		}
+	},
+	"kpk": {
+		"name": "KPK",
+		"logo": "kpk.svg",
+		"description": "KPK is a third-party curator using Euler infrastructure to configure non-custodial vaults backed by automated, agent-powered execution. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+		"url": "https://kpk.io/",
+		"addresses": {
+			"0x1572063377a9a4f8065BD7bA0D7fa135cd13051F": "KPK Euler Curation Safe",
+			"0x354C92aF243d53A24feb3dFF20372Af7b7c47478": "KPK Security Council Safe",
+			"0xF0Cf1e3Ec6264b03241826f5b2aBda17B4352A75": "KPK Deployer 1",
+			"0x331D9C769185AE25233314859d53c2b9203a1204": "KPK Deployer 2"
+		},
+		"social": {
+			"twitter": "kpk_io",
+			"github": "karpatkey"
+		}
+	},
+	"securitize": {
+		"name": "Securitize",
+		"logo": "securitize.png",
+		"description": "Securitize is a tokenisation platform for real-world assets, providing issuer-governed compliant collateral vaults that preserve transfer restrictions and enable tokenised RWAs to be used as collateral on Euler.",
+		"url": "https://securitize.io/",
+		"addresses": {
+			"0x22F53B51E4272F954f25BC377B1b759c6C5A528B": "Securitize MPC wallet"
+		},
+		"social": {
+			"twitter": "Securitize"
+		}
 	}
 }

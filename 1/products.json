@@ -948,5 +948,31 @@
 				"name": "AUSD - wSTRCx"
 			}
 		}
+	},
+	"kpk-securitize": {
+		"name": "KPK x Securitize RWA Markets",
+		"description": "Markets for borrowing against, or lending to, Securitize-issued tokenised RWAs. Curated by KPK.",
+		"entity": ["kpk", "securitize"],
+		"url": "https://kpk.io/curation/",
+		"vaults": [
+			"0xCf4846E0d8A8667c516B844EB72A4d6e7430101D",
+			"0x2Ff596321782FE034102f55af5ad707A4Ce0d6a7",
+			"0x1cFC56665c2718454e8dDf975dC37aF0bc68B5aA",
+			"0x8b2d7534Ffcf6c2a9226f439CDaC26c6666E97a9"
+		],
+		"vaultOverrides": {
+			"0xCf4846E0d8A8667c516B844EB72A4d6e7430101D": {
+				"description": "Borrow USDC against VBILL, a Securitize-issued tokenised US Treasury fund. KPK curates this Euler market, while the issuer-governed compliant collateral vault preserves transfer restrictions and allows VBILL to be used as collateral on Euler.\n\n**Access**: Available to eligible, KYC-approved users.\n\nContact Securitize to complete onboarding, or reach out to KPK for guidance."
+			},
+			"0x2Ff596321782FE034102f55af5ad707A4Ce0d6a7": {
+				"description": "Lend USDC directly in an isolated KPK-curated Euler vault where borrowers post VBILL, a Securitize-issued tokenised US Treasury fund, as collateral. Depositors earn yield from borrower interest."
+			},
+			"0x1cFC56665c2718454e8dDf975dC37aF0bc68B5aA": {
+				"description": "Borrow USDC against STAC, a Securitize-issued tokenised AAA CLO fund. KPK curates this Euler market, while the issuer-governed compliant collateral vault preserves transfer restrictions and allows STAC to be used as collateral on Euler.\n\n**Access**: Available to eligible, KYC-approved users.\n\nContact Securitize to complete onboarding, or reach out to KPK for guidance."
+			},
+			"0x8b2d7534Ffcf6c2a9226f439CDaC26c6666E97a9": {
+				"description": "Lend USDC directly in an isolated KPK-curated Euler vault where borrowers post STAC, a Securitize-issued tokenised AAA CLO fund, as collateral. Depositors earn yield from borrower interest."
+			}
+		}
 	}
 }
