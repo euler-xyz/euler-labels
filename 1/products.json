@@ -951,7 +951,7 @@
 	},
 	"kpk-securitize": {
 		"name": "KPK x Securitize RWA Markets",
-		"description": "Markets for borrowing against, or lending to, Securitize-issued tokenised RWAs. Curated by KPK.",
+		"description": "A set of markets for borrowing against, or lending to, Securitize-issued tokenised RWAs. Curated by KPK.",
 		"entity": ["kpk", "securitize"],
 		"url": "https://kpk.io/vaults",
 		"vaults": [
@@ -964,23 +964,23 @@
 		"vaultOverrides": {
 			"0x2B47c128b35DDDcB66Ce2FA5B33c95314a7de245": {
 				"name": "KPK USDC Prime RWA",
-				"description": "Earn yield on USDC from overcollateralised lending against tokenised RWA collateral, with a focus on the Securitize ecosystem."
+				"description": "USDC lending vault for KPK-curated RWA markets. Lenders earn yield from borrowers using Securitize-issued tokenised RWA collateral."
 			},
 			"0xCf4846E0d8A8667c516B844EB72A4d6e7430101D": {
 				"name": "VBILL Collateral Vault",
-				"description": "Securitize-issued compliant collateral vault for VBILL, a tokenised US Treasury fund. Holders deposit VBILL to mint shares that can be posted as collateral in the VBILL/USDC market on Euler. Governed by Securitize; access is limited to eligible, KYC-approved users."
+				"description": "Securitize-issued collateral vault for VBILL, a tokenised US Treasury fund. Holders deposit VBILL to mint shares that can be posted as collateral in the VBILL/USDC market on Euler. Governed by Securitize; access is limited to eligible, KYC-approved users."
 			},
 			"0x2Ff596321782FE034102f55af5ad707A4Ce0d6a7": {
 				"name": "KPK VBILL/USDC Lend",
-				"description": "Lend USDC directly in an isolated KPK-curated Euler vault where borrowers post VBILL, a Securitize-issued tokenised US Treasury fund, as collateral. Depositors earn yield from borrower interest."
+				"description": "USDC lending vault for the KPK VBILL market. Borrowers post VBILL, a Securitize-issued tokenised US Treasury fund, as collateral."
 			},
 			"0x1cFC56665c2718454e8dDf975dC37aF0bc68B5aA": {
 				"name": "STAC Collateral Vault",
-				"description": "Securitize-issued compliant collateral vault for STAC, a tokenised AAA CLO fund. Holders deposit STAC to mint shares that can be posted as collateral in the STAC/USDC market on Euler. Governed by Securitize; access is limited to eligible, KYC-approved users."
+				"description": "Securitize-issued collateral vault for STAC, a tokenised AAA CLO fund. Holders deposit STAC to mint shares that can be posted as collateral in the STAC/USDC market on Euler. Governed by Securitize; access is limited to eligible, KYC-approved users."
 			},
 			"0x8b2d7534Ffcf6c2a9226f439CDaC26c6666E97a9": {
 				"name": "KPK STAC/USDC Lend",
-				"description": "Lend USDC directly in an isolated KPK-curated Euler vault where borrowers post STAC, a Securitize-issued tokenised AAA CLO fund, as collateral. Depositors earn yield from borrower interest."
+				"description": "USDC lending vault for the KPK STAC market. Borrowers post STAC, a Securitize-issued tokenised AAA CLO fund, as collateral."
 			}
 		}
 	}
