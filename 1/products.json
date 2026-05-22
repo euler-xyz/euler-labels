@@ -953,7 +953,7 @@
 		"name": "KPK x Securitize RWA Markets",
 		"description": "Markets for borrowing against, or lending to, Securitize-issued tokenised RWAs. Curated by KPK.",
 		"entity": ["kpk", "securitize"],
-		"url": "https://kpk.io/curation/",
+		"url": "https://kpk.io/vaults",
 		"vaults": [
 			"0x2B47c128b35DDDcB66Ce2FA5B33c95314a7de245",
 			"0xCf4846E0d8A8667c516B844EB72A4d6e7430101D",
