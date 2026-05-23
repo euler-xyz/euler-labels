@@ -1,0 +1,58 @@
+{
+	"clearstar-prime": {
+		"name": "Clearstar Prime",
+		"description": "A cross-collateralized set of HyperEVM markets, configured by Clearstar.",
+		"entity": ["clearstar"],
+		"url": "https://hypurrfi.com/",
+		"vaults": [
+			"0xF73c654d468f5485bF15F3470B78851a49257704",
+			"0x443100d1149D6d925Edb044248BBE32c5C7Ae955",
+			"0x8A4545827DF5446Ba120B904e5306e58acCA4E89",
+			"0xC200AaB602Cd7046389B5C8FB088884323F8dD0f",
+			"0x28fCa2611d1Dd8109c26F748Cd2CF3BB4fC6D2cD",
+			"0x83c34784e355ad2670dB77623B845273844FA480",
+			"0x8D0Dc42992597dc4e46dFCB74990341FD5BaEE9d"
+		]
+	},
+	"clearstar-yield": {
+		"name": "Clearstar Yield",
+		"description": "An isolated set of HyperEVM markets for HYPE-related assets, configured by Clearstar.",
+		"entity": ["clearstar"],
+		"url": "https://hypurrfi.com/",
+		"vaults": [
+			"0xc7e7861352df6919e7152C007832C48A777f2a4c",
+			"0x97d30B40048bA3fC6b6628cE5E02E77f35B64fE0",
+			"0x3403176f548400772c39E64564f2b148bcdFb65e",
+			"0x64a3052570F5A1c241C6c8cd32F8F9aD411e6990",
+			"0x1739105522e4fc9675f857C859223d24DFE7593C",
+			"0xcAAA9A6e543b9af588Dce91E6c35Cb5fa1c7734C",
+			"0x61Cb3b093b7125D593CCfa135C6e4E9D52D2e697",
+			"0x06bf901Ce21450Bab46ceA74C4Bb6F07E6859CD6",
+			"0x09a6ad87Eff280755BdF3E2C863358D27d81262D",
+			"0x94F5C76A93F12057d73991AE5B4f70e9287b5b28",
+			"0xF9BB65e113418292d1a3555515fBd64637a0BE18",
+			"0xBb7DC37dbc108d40BcdD60403EF7bFDD6489071E",
+			"0x23bf20b4d6E280eacA58826a541c9eE5401BD357",
+			"0xAc207FFa0bfcE194Db18D1820902D48a2d948968",
+			"0x05A9b35B8426aFf614aB563BBf9AB3905705432c",
+			"0x38f039aA19E2759D2bb88803401F17aF5F83bb5A",
+			"0xEFC561c796AEB24D09CC35B2029881b483fc1c9e",
+			"0x43b8C2EBd6916DC95b40514Db1B08bE0c6fc327c",
+			"0x57E0c24599c504F10EEe6E996d2679D2C510B5Bb"
+		]
+	},
+	"clearstar-scale": {
+		"name": "Clearstar Scale",
+		"description": "A set of HyperEVM markets centered on USDXL and HyperEVM-native collateral assets, configured by Clearstar.",
+		"entity": ["clearstar"],
+		"url": "https://hypurrfi.com/",
+		"vaults": [
+			"0xD62e7C9e6b1E43Cb06e1ba46243b128c81bC918c",
+			"0x0e8724954A5b2cA41146f11bd6008FbEeAe50603",
+			"0xb2D7b74FF64e5f4908256E1c17487939F2435155",
+			"0x1ba03AF962C99b36297e31f56B41bE31C37452d5",
+			"0x6E02C17eb84e2b02A4cb93c086091D50eE74c16E",
+			"0x8231b0c73a265D745e6810BffeED83B6eD1501fB"
+		]
+	}
+}
