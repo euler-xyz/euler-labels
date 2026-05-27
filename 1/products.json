@@ -981,5 +981,25 @@
 				"description": "USDC lending vault for the KPK STAC market. Borrowers post STAC, a Securitize-issued tokenised AAA CLO fund, as collateral."
 			}
 		}
+	},
+	"kpk-eth-yield-term": {
+		"name": "KPK ETH Yield Term",
+		"description": "Fixed-rate WETH borrowing markets for LST/LRT looping, with borrow rates set monthly from a benchmark ETH staking rate. Curated by KPK.",
+		"entity": ["kpk"],
+		"url": "https://kpk.io/vaults",
+		"vaults": [
+			"0xf55B46C10138782aDE3275D81e44B8464100eAfF",
+			"0xB5fa20eb3c1A146E1090F24CF3c7D60263Dafa71"
+		],
+		"vaultOverrides": {
+			"0xf55B46C10138782aDE3275D81e44B8464100eAfF": {
+				"name": "KPK wstETH Term Borrow",
+				"description": "Fixed-rate WETH borrowing against wstETH collateral, on a calendar-aligned monthly term. Supply is routed through the KPK ETH Yield Term Earn vault."
+			},
+			"0xB5fa20eb3c1A146E1090F24CF3c7D60263Dafa71": {
+				"name": "KPK tETH Term Borrow",
+				"description": "Fixed-rate WETH borrowing against tETH collateral, on a calendar-aligned monthly term. Supply is routed through the KPK ETH Yield Term Earn vault."
+			}
+		}
 	}
 }
