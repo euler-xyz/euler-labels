@@ -984,7 +984,7 @@
 	},
 	"kpk-eth-yield-term": {
 		"name": "KPK ETH Yield Term",
-		"description": "Fixed-rate WETH borrowing markets for LST/LRT looping, with borrow rates set monthly from a benchmark ETH staking rate. Curated by KPK.",
+		"description": "Fixed-rate WETH borrowing markets designed for LST/LRT-backed strategies, with borrow rates set monthly from a benchmark ETH staking rate. Curated by KPK.",
 		"entity": ["kpk"],
 		"url": "https://kpk.io/vaults",
 		"vaults": [
