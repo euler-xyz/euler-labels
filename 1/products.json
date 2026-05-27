@@ -12,12 +12,9 @@
 			"0x313603FA690301b0CaeEf8069c065862f9162162",
 			"0x998D761eC1BAdaCeb064624cc3A1d37A46C88bA4",
 			"0x056f3a2E41d2778D3a0c0714439c53af2987718E",
-			"0xbC35161043EE2D74816d421EfD6a45fDa73B050A",
-			"0xE88e44C2C7dfc9bcb86e380d29375ccD6cd85406",
 			"0xA28C23a459fF8773EB4dBe0e7250d93F79F1Fe2B",
 			"0x328646cdfBaD730432620d845B8F5A2f7D786C01",
-			"0x5A96128c18018a2cEf539f46Bbed037DAD3cAAe8",
-			"0xa96B72470f4193a4E637dE8BcC6a009d1DD360A2"
+			"0x5A96128c18018a2cEf539f46Bbed037DAD3cAAe8"
 		],
 		"deprecatedVaults": ["0x1924D7fab80d0623f0836Cbf5258a7fa734EE9D9"],
 		"vaultOverrides": {
@@ -839,10 +836,13 @@
 		"name": "TelosC Wormhole",
 		"description": "A market for Wormhole ecosystem assets, configured by TelosC.",
 		"entity": "telosc",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0x783431B152C3e83B0c4dCD602E62a2C55d442F9B",
 			"0x2e6Dff8907aFdA5D62A278e21B2e65c8595D746E"
-		]
+		],
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true
 	},
 	"telosc-almanak": {
 		"name": "TelosC Almanak",
@@ -899,7 +899,8 @@
 		"entity": "alphagrowth",
 		"logo": "origin.png",
 		"url": "https://app.originprotocol.com/#/arm/",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0xbD858DCee56Df1F0CBa44e6F5a469FbfeC0246cd",
 			"0x2ff5F1Ca35f5100226ac58E1BFE5aac56919443B"
 		],
@@ -912,7 +913,9 @@
 				"name": "WETH Lending",
 				"description": "WETH lending vault for the Origin ARM market. Lenders deposit WETH to earn yield from ARM borrowers."
 			}
-		}
+		},
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true
 	},
 	"tau-pmusd": {
 		"name": "TAU Labs pmUSD",
@@ -976,6 +979,26 @@
 			"0x8b2d7534Ffcf6c2a9226f439CDaC26c6666E97a9": {
 				"name": "KPK STAC/USDC Lend",
 				"description": "USDC lending vault for the KPK STAC market. Borrowers post STAC, a Securitize-issued tokenised AAA CLO fund, as collateral."
+			}
+		}
+	},
+	"kpk-eth-yield-term": {
+		"name": "KPK ETH Yield Term",
+		"description": "Fixed-rate WETH borrowing markets for LST/LRT looping, with borrow rates set monthly from a benchmark ETH staking rate. Curated by KPK.",
+		"entity": ["kpk"],
+		"url": "https://kpk.io/vaults",
+		"vaults": [
+			"0xf55B46C10138782aDE3275D81e44B8464100eAfF",
+			"0xB5fa20eb3c1A146E1090F24CF3c7D60263Dafa71"
+		],
+		"vaultOverrides": {
+			"0xf55B46C10138782aDE3275D81e44B8464100eAfF": {
+				"name": "KPK wstETH Term Borrow",
+				"description": "Fixed-rate WETH borrowing against wstETH collateral, on a calendar-aligned monthly term. Supply is routed through the KPK ETH Yield Term Earn vault."
+			},
+			"0xB5fa20eb3c1A146E1090F24CF3c7D60263Dafa71": {
+				"name": "KPK tETH Term Borrow",
+				"description": "Fixed-rate WETH borrowing against tETH collateral, on a calendar-aligned monthly term. Supply is routed through the KPK ETH Yield Term Earn vault."
 			}
 		}
 	}
