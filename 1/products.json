@@ -994,12 +994,15 @@
 		"vaultOverrides": {
 			"0xf55B46C10138782aDE3275D81e44B8464100eAfF": {
 				"name": "KPK wstETH Term Borrow",
-				"description": "Fixed-rate WETH borrowing against wstETH collateral, on a calendar-aligned monthly term. Supply is routed through the KPK ETH Yield Term Earn vault."
+				"description": "Fixed-rate WETH borrowing against wstETH collateral, on a calendar-aligned monthly term. Supply is routed through the KPK ETH Yield Term Earn vault.",
+				"notExplorableLend": true
 			},
 			"0xB5fa20eb3c1A146E1090F24CF3c7D60263Dafa71": {
 				"name": "KPK tETH Term Borrow",
-				"description": "Fixed-rate WETH borrowing against tETH collateral, on a calendar-aligned monthly term. Supply is routed through the KPK ETH Yield Term Earn vault."
+				"description": "Fixed-rate WETH borrowing against tETH collateral, on a calendar-aligned monthly term. Supply is routed through the KPK ETH Yield Term Earn vault.",
+				"notExplorableLend": true
 			}
-		}
+		},
+		"tags": ["access control"]
 	}
 }
