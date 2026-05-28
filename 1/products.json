@@ -500,7 +500,7 @@
 			"0x67695A8e976E25D5939aD31297DFCFfC8d050eA0",
 			"0x54Fcb10F9506cf8d16D75346e398539F029240Bd"
 		],
-		"keyring": true
+		"tags": ["keyring"]
 	},
 	"frontier-upshift": {
 		"name": "Frontier Upshift",

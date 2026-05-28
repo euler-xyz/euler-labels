@@ -32,7 +32,7 @@ const VALID_VAULT_OVERRIDE_KEYS = new Set([
 	"restricted",
 	"notExplorableLend",
 	"notExplorableBorrow",
-	"keyring",
+	"tags",
 ]);
 
 const VALID_ASSET_MATCH_KEYS = new Set([
@@ -172,9 +172,13 @@ function validateChain(chainId) {
 				);
 		}
 
-		if (product.keyring !== undefined) {
-			if (typeof product.keyring !== "boolean")
-				throw Error(`products: keyring must be a boolean: ${productId}`);
+		if (product.tags !== undefined) {
+			if (!Array.isArray(product.tags))
+				throw Error(`products: tags must be an array: ${productId}`);
+			for (const tag of product.tags) {
+				if (typeof tag !== "string")
+					throw Error(`products: tags entries must be strings: ${productId}`);
+			}
 		}
 
 		if (product.block !== undefined) {
@@ -259,13 +263,18 @@ function validateChain(chainId) {
 					throw Error(
 						`products: vaultOverrides notExplorableBorrow must be a boolean for ${addr}: ${productId}`,
 					);
-				if (
-					override.keyring !== undefined &&
-					typeof override.keyring !== "boolean"
-				)
-					throw Error(
-						`products: vaultOverrides keyring must be a boolean for ${addr}: ${productId}`,
-					);
+				if (override.tags !== undefined) {
+					if (!Array.isArray(override.tags))
+						throw Error(
+							`products: vaultOverrides tags must be an array for ${addr}: ${productId}`,
+						);
+					for (const tag of override.tags) {
+						if (typeof tag !== "string")
+							throw Error(
+								`products: vaultOverrides tags entries must be strings for ${addr}: ${productId}`,
+							);
+					}
+				}
 				if (override.block !== undefined) {
 					if (!Array.isArray(override.block))
 						throw Error(
