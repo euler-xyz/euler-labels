@@ -9,7 +9,10 @@
 	"0xB4a2fC3adAF3BfA8FCBA2A6FDAA200De106B8825",
 	"0xBc79C4DA0452152D2C329ADE328C79705a964CEE",
 	"0x2B47c128b35DDDcB66Ce2FA5B33c95314a7de245",
-	"0xB6D6D89ad4b4D61C15a293e28b74f77F6817fF48",
+	{
+		"address": "0xB6D6D89ad4b4D61C15a293e28b74f77F6817fF48",
+		"description": "Earn yield on WETH through KPK-curated fixed-rate ETH term markets, with borrow rates set monthly from a benchmark ETH staking rate, plus a complementary variable-rate allocation for withdrawal liquidity."
+	},
 	{
 		"address": "0x49C5733d71511A78a3E12925ea832f49031c97e9",
 		"deprecated": true,
