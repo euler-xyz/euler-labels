@@ -125,7 +125,7 @@
 		]
 	},
 	"clearstar-susn": {
-		"name": "Clearstar sUSN",
+		"name": "Clearstar Noon",
 		"description": "An isolated market for Noon sUSN collateral, configured by Clearstar Labs.",
 		"entity": "clearstar",
 		"vaults": [
