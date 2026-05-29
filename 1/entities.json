@@ -99,7 +99,8 @@
 		"description": "K3 Capital is a third-party curator using Euler infrastructure to configure vaults across selected DeFi markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://k3.capital/",
 		"addresses": {
-			"0xdD84A24eeddE63F10Ec3e928f1c8302A47538b6B": "K3 Capital Multisig"
+			"0xdD84A24eeddE63F10Ec3e928f1c8302A47538b6B": "K3 Capital Multisig",
+			"0x060DB084bF41872861f175d83f3cb1B5566dfEA3": "K3 Capital Multisig"
 		},
 		"social": {
 			"twitter": "k3_capital"
