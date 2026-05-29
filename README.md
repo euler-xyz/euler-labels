@@ -43,6 +43,29 @@ Each entry in this object corresponds to a lending product, which is primarily a
 * `recentlyAddedVaults`: An optional array of vault addresses to mark as recently added (sorted to the top of discovery tables). Each must also be in `vaults`.
 * `vaultOverrides`: An optional object of per-vault configuration overrides, keyed by vault address. Each override can contain: `name` (string), `description` (string), `portfolioNotice` (string), `deprecationReason` (string), `block` (string[]), `restricted` (string[]), `notExplorableLend` (boolean), `notExplorableBorrow` (boolean), `tags` (string[]).
 
+### `earn-vaults.json`
+
+This optional file lists EulerEarn aggregator vaults on the chain. Unlike `products.json`, which groups EVK lending vaults under a branded product, `earn-vaults.json` is a flat allowlist of standalone earn vaults that the dApp should surface in discovery. Vaults that do not appear here are not shown in earn views.
+
+The top-level value is an array. Each entry is either:
+
+* A checksummed hex address string — equivalent to an object with only `address` set.
+* An object with an `address` field and optional metadata fields described below.
+
+**Entry fields:**
+
+* `address`: Checksummed hex address of the earn vault. (Required)
+* `recentlyAdded`: An optional boolean. If true, the vault is marked as recently added and sorted to the top of earn discovery tables.
+* `deprecated`: An optional boolean. If true, the vault is marked as deprecated in the UI.
+* `deprecationReason`: An optional string explaining why the vault was deprecated. Surfaced alongside the deprecation badge.
+* `description`: An optional long-form description of the vault, displayed on the vault's page.
+* `portfolioNotice`: An optional string displayed as a notice on the vault's portfolio view.
+* `notExplorable`: An optional boolean. If true, hides the vault from earn discovery UI (it stays reachable by direct link, so existing depositors can still manage their position).
+* `block`: An optional array of country code strings where the vault is hard-blocked. Same semantics and country-code grammar as the product-level `block` field (see [`assets.json`](#assetsjson)).
+* `restricted`: An optional array of country code strings where the vault is soft-restricted. Users in those regions can reduce exposure but cannot acquire more.
+
+Earn vaults are not subject to the per-product uniqueness rule applied to lending vaults — they exist independently of `products.json`.
+
 ### `assets.json`
 
 This optional file lists asset-level geo-blocking rules. An asset-level rule applies to every asset that matches — and therefore to every vault whose underlying asset matches — across all products. Use it when a restriction exists because of the asset itself (e.g. tokenized equities that cannot be sold to US residents). For restrictions that exist because of the *product* wrapping an asset (e.g. one product's USDC vault is blocked in a region while other USDC vaults are not), keep the rule in `products.json` as a product-level `block` or a `vaultOverrides[address].block` / `.restricted`.

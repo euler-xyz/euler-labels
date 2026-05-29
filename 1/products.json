@@ -1,9 +1,9 @@
 {
-	"euler-prime": {
-		"name": "Euler Prime",
-		"description": "A lending and borrowing market for stablecoin-denominated assets and selected collateral, configured by Euler DAO.",
-		"entity": ["euler-dao"],
-		"url": "https://forum.euler.finance/t/expanding-euler-prime/1137",
+	"k3-prime": {
+		"name": "K3 Capital Prime Market",
+		"description": "A lending and borrowing market for stablecoin-denominated assets and selected collateral, configured by K3 Capital",
+		"entity": ["k3"],
+		"url": "",
 		"vaults": [
 			"0xD8b27CF359b7D15710a5BE299AF6e7Bf904984C2",
 			"0xbC4B4AC47582c3E38Ce5940B80Da65401F4628f1",
@@ -25,11 +25,11 @@
 			}
 		}
 	},
-	"euler-yield": {
-		"name": "Euler Yield",
-		"description": "A lending and borrowing market for stablecoins and tokenized strategy collateral, configured by Euler DAO.",
-		"entity": ["euler-dao"],
-		"url": "https://forum.euler.finance/t/creation-of-euler-yield-market/1163",
+	"k3-yield": {
+		"name": "K3 Capital Yield Market",
+		"description": "A lending and borrowing market for stablecoins and tokenized strategy collateral, configured by K3 Capital.",
+		"entity": ["k3"],
+		"url": "",
 		"vaults": [
 			"0xe0a80d35bB6618CBA260120b279d357978c42BCE",
 			"0x7c280DBDEf569e96c7919251bD2B0edF0734C5A8",
@@ -980,7 +980,13 @@
 				"name": "KPK STAC/USDC Lend",
 				"description": "USDC lending vault for the KPK STAC market. Borrowers post STAC, a Securitize-issued tokenised AAA CLO fund, as collateral."
 			}
-		}
+		},
+		"recentlyAddedVaults": [
+			"0xCf4846E0d8A8667c516B844EB72A4d6e7430101D",
+			"0x2Ff596321782FE034102f55af5ad707A4Ce0d6a7",
+			"0x1cFC56665c2718454e8dDf975dC37aF0bc68B5aA",
+			"0x8b2d7534Ffcf6c2a9226f439CDaC26c6666E97a9"
+		]
 	},
 	"kpk-eth-yield-term": {
 		"name": "KPK ETH Yield Term",
