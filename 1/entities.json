@@ -325,6 +325,7 @@
 		"url": "https://kpk.io/",
 		"addresses": {
 			"0x1572063377a9a4f8065BD7bA0D7fa135cd13051F": "KPK Euler RWA Curation Safe",
+			"0x715f757146846E6D63929bd2c1b334b18B8A1841": "KPK Euler ETH Yield Term Curator Safe",
 			"0x354C92aF243d53A24feb3dFF20372Af7b7c47478": "KPK Security Council Safe"
 		},
 		"social": {

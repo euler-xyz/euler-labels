@@ -500,7 +500,7 @@
 			"0x67695A8e976E25D5939aD31297DFCFfC8d050eA0",
 			"0x54Fcb10F9506cf8d16D75346e398539F029240Bd"
 		],
-		"keyring": true
+		"tags": ["keyring"]
 	},
 	"frontier-upshift": {
 		"name": "Frontier Upshift",
@@ -987,5 +987,28 @@
 			"0x1cFC56665c2718454e8dDf975dC37aF0bc68B5aA",
 			"0x8b2d7534Ffcf6c2a9226f439CDaC26c6666E97a9"
 		]
+	},
+	"kpk-eth-yield-term": {
+		"name": "KPK ETH Yield Term",
+		"description": "Fixed-rate WETH borrowing markets designed for LST/LRT-backed strategies, with borrow rates set monthly from a benchmark ETH staking rate. Curated by KPK.",
+		"entity": ["kpk"],
+		"url": "https://kpk.io/vaults",
+		"vaults": [
+			"0xf55B46C10138782aDE3275D81e44B8464100eAfF",
+			"0xB5fa20eb3c1A146E1090F24CF3c7D60263Dafa71"
+		],
+		"vaultOverrides": {
+			"0xf55B46C10138782aDE3275D81e44B8464100eAfF": {
+				"name": "KPK wstETH Term Borrow",
+				"description": "Fixed-rate WETH borrowing against wstETH collateral, on a calendar-aligned monthly term. Supply is routed through the KPK ETH Yield Term Earn vault.",
+				"notExplorableLend": true
+			},
+			"0xB5fa20eb3c1A146E1090F24CF3c7D60263Dafa71": {
+				"name": "KPK tETH Term Borrow",
+				"description": "Fixed-rate WETH borrowing against tETH collateral, on a calendar-aligned monthly term. Supply is routed through the KPK ETH Yield Term Earn vault.",
+				"notExplorableLend": true
+			}
+		},
+		"tags": ["access control"]
 	}
 }

@@ -38,10 +38,10 @@ Each entry in this object corresponds to a lending product, which is primarily a
 * `portfolioNotice`: An optional string displayed as a notice in the user's portfolio view.
 * `notExplorable`: An optional boolean. If true, hides the product from discovery UI.
 * `isGovernanceLimited`: An optional boolean flag for governance-limited products.
-* `keyring`: An optional boolean flag for keyring-type products.
+* `tags`: An optional array of string tags that classify the product. Recognised values include `keyring` (vaults gated by Keyring identity verification) and `access control` (vaults gated by an access-control allowlist hook). Consumers may use tags to render badges and explanatory copy.
 * `block`: An optional array of country code strings where the product is blocked.
 * `recentlyAddedVaults`: An optional array of vault addresses to mark as recently added (sorted to the top of discovery tables). Each must also be in `vaults`.
-* `vaultOverrides`: An optional object of per-vault configuration overrides, keyed by vault address. Each override can contain: `name` (string), `description` (string), `portfolioNotice` (string), `deprecationReason` (string), `block` (string[]), `restricted` (string[]), `notExplorableLend` (boolean), `notExplorableBorrow` (boolean), `keyring` (boolean).
+* `vaultOverrides`: An optional object of per-vault configuration overrides, keyed by vault address. Each override can contain: `name` (string), `description` (string), `portfolioNotice` (string), `deprecationReason` (string), `block` (string[]), `restricted` (string[]), `notExplorableLend` (boolean), `notExplorableBorrow` (boolean), `tags` (string[]).
 
 ### `earn-vaults.json`
 
