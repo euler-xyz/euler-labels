@@ -37,11 +37,11 @@ Each entry in this object corresponds to a lending product, which is primarily a
 * `deprecationReason`: An optional string providing an explanation for why the product or its vaults have been deprecated.
 * `portfolioNotice`: An optional string displayed as a notice in the user's portfolio view.
 * `notExplorable`: An optional boolean. If true, hides the product from discovery UI.
-* `isGovernanceLimited`: An optional boolean flag for governance-limited products.
-* `tags`: An optional array of string tags that classify the product. Recognised values include `keyring` (vaults gated by Keyring identity verification) and `access control` (vaults gated by an access-control allowlist hook). Consumers may use tags to render badges and explanatory copy.
+* `tags`: An optional array of string tags that classify the product. Recognised values include `keyring` (vaults gated by Keyring identity verification), `access control` (vaults gated by an access-control allowlist hook), and `governance limited` (products with limited active risk management). Consumers may use tags to render badges and explanatory copy.
 * `block`: An optional array of country code strings where the product is blocked.
-* `recentlyAddedVaults`: An optional array of vault addresses to mark as recently added (sorted to the top of discovery tables). Each must also be in `vaults`.
-* `vaultOverrides`: An optional object of per-vault configuration overrides, keyed by vault address. Each override can contain: `name` (string), `description` (string), `portfolioNotice` (string), `deprecationReason` (string), `block` (string[]), `restricted` (string[]), `notExplorableLend` (boolean), `notExplorableBorrow` (boolean), `tags` (string[]).
+* `vaultOverrides`: An optional object of per-vault configuration overrides, keyed by vault address. Each override can contain: `name` (string), `description` (string), `portfolioNotice` (string), `deprecationReason` (string), `block` (string[]), `restricted` (string[]), `notExplorableLend` (boolean), `notExplorableBorrow` (boolean), `tags` (string[]). Use the `recently added` tag on an override to mark one product vault as recently added and sort it to the top of discovery tables.
+
+This is a clean-cut tags schema: legacy marker fields such as `isGovernanceLimited` and `recentlyAddedVaults` are rejected by verification and should not be used.
 
 ### `earn-vaults.json`
 
@@ -55,7 +55,7 @@ The top-level value is an array. Each entry is either:
 **Entry fields:**
 
 * `address`: Checksummed hex address of the earn vault. (Required)
-* `recentlyAdded`: An optional boolean. If true, the vault is marked as recently added and sorted to the top of earn discovery tables.
+* `tags`: An optional array of string tags that classify the earn vault. Use the `recently added` tag to mark the vault as recently added and sort it to the top of earn discovery tables.
 * `deprecated`: An optional boolean. If true, the vault is marked as deprecated in the UI.
 * `deprecationReason`: An optional string explaining why the vault was deprecated. Surfaced alongside the deprecation badge.
 * `description`: An optional long-form description of the vault, displayed on the vault's page.
@@ -65,6 +65,8 @@ The top-level value is an array. Each entry is either:
 * `restricted`: An optional array of country code strings where the vault is soft-restricted. Users in those regions can reduce exposure but cannot acquire more.
 
 Earn vaults are not subject to the per-product uniqueness rule applied to lending vaults — they exist independently of `products.json`.
+
+This is a clean-cut tags schema: legacy marker fields such as `recentlyAdded` are rejected by verification and should not be used.
 
 ### `assets.json`
 

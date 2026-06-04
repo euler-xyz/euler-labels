@@ -55,7 +55,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"alphagrowth-yo-yousd": {
 		"name": "AlphaGrowth YO yoUSD Market",
