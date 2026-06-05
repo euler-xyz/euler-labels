@@ -982,6 +982,6 @@
 				"notExplorableLend": true
 			}
 		},
-		"tags": ["access control"]
+		"tags": ["access control", "cyclical note"]
 	}
 }
