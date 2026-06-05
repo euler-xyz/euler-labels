@@ -52,7 +52,7 @@
 			"0x74034eb8d5B2E480825263A975E4CF82A081c959",
 			"0xBEf0c894aB4020DCD533FD753BF427662F3F7ABe"
 		],
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-renzo": {
 		"name": "Frontier Renzo",
@@ -66,7 +66,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-medge": {
 		"name": "Frontier mEDGE",
@@ -84,7 +84,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-mmev": {
 		"name": "Frontier mMEV",
@@ -102,7 +102,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-level": {
 		"name": "Frontier Level",
@@ -120,7 +120,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"alphagrowth-falcon": {
 		"name": "AlphaGrowth Falcon",
@@ -147,7 +147,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-yala": {
 		"name": "Frontier Yala",
@@ -155,7 +155,6 @@
 		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
 		"vaults": [],
-		"isGovernanceLimited": true,
 		"deprecatedVaults": [
 			"0x481D4909D7ca2eb27c4975f08dCE07DBeF0d3Fa7",
 			"0x2dF9753E62f46B299F59E632bd18EdfE4970922e",
@@ -164,7 +163,8 @@
 			"0xe47BABACfc9Ce5F85126fab7C7E211DA077d820E"
 		],
 		"deprecationReason": "Deprecated following the Yala Redemption Plan announcement. Refer to Yala's social media and Discord for details.",
-		"notExplorable": true
+		"notExplorable": true,
+		"tags": ["governance limited"]
 	},
 	"stablecoin-maxi": {
 		"name": "Stablecoin Maxi",
@@ -499,7 +499,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-bedrock": {
 		"name": "Frontier Bedrock",
@@ -514,7 +514,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-puffer": {
 		"name": "Frontier Puffer",
@@ -528,7 +528,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-pareto": {
 		"name": "Frontier Pareto",
@@ -543,7 +543,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-reservoir": {
 		"name": "Frontier Reservoir",
@@ -558,7 +558,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-spark": {
 		"name": "Frontier Spark",
@@ -573,7 +573,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-yieldfi": {
 		"name": "Frontier YieldFi",
@@ -588,7 +588,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"re7-hyperwave": {
 		"name": "Re7 Hyperwave",
@@ -622,7 +622,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"alphagrowth-cap": {
 		"name": "AlphaGrowth Cap",
@@ -650,7 +650,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"rezerve-vaults": {
 		"name": "Rezerve Markets",
@@ -794,7 +794,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-mfarm": {
 		"name": "Frontier mFARM",
@@ -807,8 +807,8 @@
 			"0x1A5dd6D0A3B4F47d157f69365068d2e1df868825",
 			"0x5748534ffeBbaf42a8a180f0e745b44f629e85Df"
 		],
-		"isGovernanceLimited": true,
-		"notExplorable": true
+		"notExplorable": true,
+		"tags": ["governance limited"]
 	},
 	"telosc-wormhole": {
 		"name": "TelosC Wormhole",
@@ -932,6 +932,7 @@
 		"description": "A set of markets for borrowing against, or lending to, Securitize-issued tokenised RWAs. Curated by KPK.",
 		"entity": ["kpk", "securitize"],
 		"url": "https://kpk.io/vaults",
+		"tags": ["suppress high utilisation warning"],
 		"vaults": [
 			"0xCf4846E0d8A8667c516B844EB72A4d6e7430101D",
 			"0x2Ff596321782FE034102f55af5ad707A4Ce0d6a7",
@@ -941,27 +942,25 @@
 		"vaultOverrides": {
 			"0xCf4846E0d8A8667c516B844EB72A4d6e7430101D": {
 				"name": "VBILL Collateral Vault",
-				"description": "Securitize-issued collateral vault for VBILL, a tokenised US Treasury fund. Holders deposit VBILL to mint shares that can be posted as collateral in the VBILL/USDC market on Euler. Governed by Securitize; access is limited to eligible, KYC-approved users."
+				"description": "Securitize-issued collateral vault for VBILL, a tokenised US Treasury fund. Holders deposit VBILL to mint shares that can be posted as collateral in the VBILL/USDC market on Euler. Governed by Securitize; access is limited to eligible, KYC-approved users.",
+				"tags": ["recently added"]
 			},
 			"0x2Ff596321782FE034102f55af5ad707A4Ce0d6a7": {
 				"name": "KPK VBILL/USDC Lend",
-				"description": "USDC lending vault for the KPK VBILL market. Borrowers post VBILL, a Securitize-issued tokenised US Treasury fund, as collateral."
+				"description": "USDC lending vault for the KPK VBILL market. Borrowers post VBILL, a Securitize-issued tokenised US Treasury fund, as collateral.",
+				"tags": ["recently added"]
 			},
 			"0x1cFC56665c2718454e8dDf975dC37aF0bc68B5aA": {
 				"name": "STAC Collateral Vault",
-				"description": "Securitize-issued collateral vault for STAC, a tokenised AAA CLO fund. Holders deposit STAC to mint shares that can be posted as collateral in the STAC/USDC market on Euler. Governed by Securitize; access is limited to eligible, KYC-approved users."
+				"description": "Securitize-issued collateral vault for STAC, a tokenised AAA CLO fund. Holders deposit STAC to mint shares that can be posted as collateral in the STAC/USDC market on Euler. Governed by Securitize; access is limited to eligible, KYC-approved users.",
+				"tags": ["recently added"]
 			},
 			"0x8b2d7534Ffcf6c2a9226f439CDaC26c6666E97a9": {
 				"name": "KPK STAC/USDC Lend",
-				"description": "USDC lending vault for the KPK STAC market. Borrowers post STAC, a Securitize-issued tokenised AAA CLO fund, as collateral."
+				"description": "USDC lending vault for the KPK STAC market. Borrowers post STAC, a Securitize-issued tokenised AAA CLO fund, as collateral.",
+				"tags": ["recently added"]
 			}
-		},
-		"recentlyAddedVaults": [
-			"0xCf4846E0d8A8667c516B844EB72A4d6e7430101D",
-			"0x2Ff596321782FE034102f55af5ad707A4Ce0d6a7",
-			"0x1cFC56665c2718454e8dDf975dC37aF0bc68B5aA",
-			"0x8b2d7534Ffcf6c2a9226f439CDaC26c6666E97a9"
-		]
+		}
 	},
 	"kpk-eth-yield-term": {
 		"name": "KPK ETH Yield Term",
@@ -984,6 +983,6 @@
 				"notExplorableLend": true
 			}
 		},
-		"tags": ["access control"]
+		"tags": ["access control", "cyclical note"]
 	}
 }

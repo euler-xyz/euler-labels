@@ -72,9 +72,11 @@ function validateChain(chainId) {
 	const entities = loadJsonFile(`${chainId}/entities.json`);
 	const products = loadJsonFile(`${chainId}/products.json`);
 	const points = loadJsonFile(`${chainId}/points.json`);
+	const earnVaults = loadJsonFileIfExists(`${chainId}/earn-vaults.json`) || [];
 	const assets = loadJsonFileIfExists(`${chainId}/assets.json`) || [];
 
 	validateUniqueEntityAddresses(entities);
+	validateEarnVaults(`${chainId}/earn-vaults.json`, earnVaults);
 	validateAssets(`${chainId}/assets.json`, assets);
 
 	for (const entityId of Object.keys(entities)) {
@@ -166,20 +168,12 @@ function validateChain(chainId) {
 		}
 
 		if (product.isGovernanceLimited !== undefined) {
-			if (typeof product.isGovernanceLimited !== "boolean")
-				throw Error(
-					`products: isGovernanceLimited must be a boolean: ${productId}`,
-				);
+			throw Error(
+				`products: isGovernanceLimited has migrated to tags: ${productId}`,
+			);
 		}
 
-		if (product.tags !== undefined) {
-			if (!Array.isArray(product.tags))
-				throw Error(`products: tags must be an array: ${productId}`);
-			for (const tag of product.tags) {
-				if (typeof tag !== "string")
-					throw Error(`products: tags entries must be strings: ${productId}`);
-			}
-		}
+		validateTags(product.tags, "products: tags", productId);
 
 		if (product.block !== undefined) {
 			if (!Array.isArray(product.block))
@@ -191,16 +185,9 @@ function validateChain(chainId) {
 		}
 
 		if (product.recentlyAddedVaults) {
-			for (const addr of product.recentlyAddedVaults) {
-				if (addr !== ethers.getAddress(addr))
-					throw Error(
-						`products: malformed recently-added vault address: ${addr}`,
-					);
-				if (!product.vaults.includes(addr))
-					throw Error(
-						`products: recently-added vault ${addr} not in vaults: ${productId}`,
-					);
-			}
+			throw Error(
+				`products: recentlyAddedVaults has migrated to vaultOverrides tags: ${productId}`,
+			);
 		}
 
 		if (product.vaultOverrides) {
@@ -263,18 +250,11 @@ function validateChain(chainId) {
 					throw Error(
 						`products: vaultOverrides notExplorableBorrow must be a boolean for ${addr}: ${productId}`,
 					);
-				if (override.tags !== undefined) {
-					if (!Array.isArray(override.tags))
-						throw Error(
-							`products: vaultOverrides tags must be an array for ${addr}: ${productId}`,
-						);
-					for (const tag of override.tags) {
-						if (typeof tag !== "string")
-							throw Error(
-								`products: vaultOverrides tags entries must be strings for ${addr}: ${productId}`,
-							);
-					}
-				}
+				validateTags(
+					override.tags,
+					`products: vaultOverrides tags for ${addr}`,
+					productId,
+				);
 				if (override.block !== undefined) {
 					if (!Array.isArray(override.block))
 						throw Error(
@@ -331,6 +311,74 @@ function validateChain(chainId) {
 			for (const addr of point.liabilityVaults) {
 				if (addr !== ethers.getAddress(addr))
 					throw Error(`points: malformed vault address: ${addr}`);
+			}
+		}
+	}
+}
+
+function validateTags(tags, context, id) {
+	if (tags === undefined) return;
+	if (!Array.isArray(tags)) throw Error(`${context} must be an array: ${id}`);
+	for (const tag of tags) {
+		if (typeof tag !== "string")
+			throw Error(`${context} entries must be strings: ${id}`);
+	}
+}
+
+function validateEarnVaults(fileName, earnVaults) {
+	if (!Array.isArray(earnVaults))
+		throw Error(`${fileName}: top-level value must be an array`);
+
+	const seen = new Set();
+	for (const entry of earnVaults) {
+		const address = typeof entry === "string" ? entry : entry?.address;
+		if (address !== ethers.getAddress(address))
+			throw Error(`${fileName}: malformed earn vault address: ${address}`);
+		if (seen.has(address))
+			throw Error(`${fileName}: duplicate earn vault address: ${address}`);
+		seen.add(address);
+
+		if (typeof entry === "string") continue;
+		if (!entry || typeof entry !== "object")
+			throw Error(`${fileName}: earn vault entries must be strings or objects`);
+		if (entry.recentlyAdded !== undefined)
+			throw Error(
+				`${fileName}: recentlyAdded has migrated to tags: ${address}`,
+			);
+		if (entry.deprecated !== undefined && typeof entry.deprecated !== "boolean")
+			throw Error(`${fileName}: deprecated must be a boolean: ${address}`);
+		if (
+			entry.deprecationReason !== undefined &&
+			typeof entry.deprecationReason !== "string"
+		)
+			throw Error(
+				`${fileName}: deprecationReason must be a string: ${address}`,
+			);
+		if (
+			entry.description !== undefined &&
+			typeof entry.description !== "string"
+		)
+			throw Error(`${fileName}: description must be a string: ${address}`);
+		if (
+			entry.portfolioNotice !== undefined &&
+			typeof entry.portfolioNotice !== "string"
+		)
+			throw Error(`${fileName}: portfolioNotice must be a string: ${address}`);
+		if (
+			entry.notExplorable !== undefined &&
+			typeof entry.notExplorable !== "boolean"
+		)
+			throw Error(`${fileName}: notExplorable must be a boolean: ${address}`);
+		validateTags(entry.tags, `${fileName}: tags`, address);
+		for (const field of ["block", "restricted"]) {
+			if (entry[field] === undefined) continue;
+			if (!Array.isArray(entry[field]))
+				throw Error(`${fileName}: ${field} must be an array: ${address}`);
+			for (const code of entry[field]) {
+				if (typeof code !== "string")
+					throw Error(
+						`${fileName}: ${field} entries must be strings: ${address}`,
+					);
 			}
 		}
 	}
