@@ -10,7 +10,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-ethena": {
 		"name": "Frontier Ethena",
@@ -23,7 +23,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"re7labs-xusd": {
 		"name": "Re7 Labs xUSD",
@@ -56,7 +56,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-maple": {
 		"name": "Frontier Maple",
@@ -68,7 +68,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-resolv-wstusr": {
 		"name": "Frontier Resolv wstUSR",
@@ -81,7 +81,7 @@
 		],
 		"deprecationReason": "Deprecated due to exposure to the Resolv security incident.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-resolv-rlp": {
 		"name": "Frontier Resolv RLP",
@@ -94,7 +94,7 @@
 		],
 		"deprecationReason": "Deprecated due to exposure to the Resolv security incident.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"telosc-stream": {
 		"name": "TelosC Stream",
@@ -134,7 +134,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-pt-susde": {
 		"name": "Frontier PT-sUSDe",
@@ -147,7 +147,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-pt-syrupusdt": {
 		"name": "Frontier PT-syrupUSDT",
@@ -159,7 +159,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-pt-usdai": {
 		"name": "Frontier PT-USDai",
@@ -172,7 +172,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-pt-susdai": {
 		"name": "Frontier PT-sUSDai",
@@ -185,7 +185,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-yieldfi": {
 		"name": "Frontier YieldFi",
@@ -197,7 +197,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"telosc-fx": {
 		"name": "TelosC f(x)",
@@ -248,7 +248,7 @@
 		"deprecationReason": "Deprecated due to exposure to the insolvent positions held by Stream.",
 		"portfolioNotice": "Eligible users of impacted vaults can claim approximately 80% position recovery for a limited time. See the [Elixir announcement](https://x.com/elixir/status/2033922212986597612?s=20) for details on how to submit your claim.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-trevee": {
 		"name": "TelosC Trevee",
