@@ -957,7 +957,7 @@
 			"0x8b2d7534Ffcf6c2a9226f439CDaC26c6666E97a9": {
 				"name": "KPK STAC/USDC Lend",
 				"description": "USDC lending vault for the KPK STAC market. Borrowers post STAC, a Securitize-issued tokenised AAA CLO fund, as collateral.",
-				"tags": ["recently added"]
+				"tags": ["recently added", "suppress high utilisation warning"]
 			}
 		}
 	},
