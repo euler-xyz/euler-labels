@@ -121,7 +121,11 @@
 		"vaults": [
 			"0x60C61a47804283a514bFCDF163138b7528720D0F",
 			"0xDc4eFB20ce286B421F6361734a2A006a1f24Af8D",
-			"0x91A9ED5d4368499B1fE41f721aB13e64760B3F05"
+			"0x91A9ED5d4368499B1fE41f721aB13e64760B3F05",
+			"0x6d6021ff46b0d4B800c210Aab3aD10B9E3E53113",
+			"0x82d49919d3Ea4323cd96f9C6E41d9386F36439B2",
+			"0x779225f3d7b6feD3ae3B140815fD338BA974E2C6",
+			"0xB45e4F1003d11a563Bc4f7486edFaFd7dfaa8B4a"
 		]
 	},
 	"clearstar-noon": {
@@ -131,6 +135,15 @@
 		"vaults": [
 			"0xa6Ad67c0C6c2275B616Fcc81C55DDd76195fCF86",
 			"0x07954BEB7e137101A7cbb3e47864C684aEC50524"
+		]
+	},
+	"clearstar-re-isolated": {
+		"name": "Clearstar Re Isolated Cluster",
+		"description": "An isolated market for Re Protocol reUSD collateral, configured by Clearstar Labs.",
+		"entity": "clearstar",
+		"vaults": [
+			"0x16b4438011dbB876Ae004b9515435D732CeacbfD",
+			"0x7C1487bde1ec32B5AC47F4c3abA269Bf43Bf8F53"
 		]
 	}
 }
