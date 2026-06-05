@@ -136,5 +136,14 @@
 			"0xa6Ad67c0C6c2275B616Fcc81C55DDd76195fCF86",
 			"0x07954BEB7e137101A7cbb3e47864C684aEC50524"
 		]
+	},
+	"clearstar-re-isolated": {
+		"name": "Clearstar Re Isolated Cluster",
+		"description": "An isolated market for Re Protocol reUSD collateral, configured by Clearstar Labs.",
+		"entity": "clearstar",
+		"vaults": [
+			"0x16b4438011dbB876Ae004b9515435D732CeacbfD",
+			"0x7C1487bde1ec32B5AC47F4c3abA269Bf43Bf8F53"
+		]
 	}
 }
