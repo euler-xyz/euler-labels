@@ -94,14 +94,28 @@
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
-	"alphagrowth-base": {
-		"name": "AlphaGrowth Base Vaults",
-		"description": "A lending and borrowing market for selected collateral, configured by AlphaGrowth.",
+	"alphagrowth-base-rwa": {
+		"name": "AlphaGrowth Base RWA",
+		"description": "A Base market for reUSD and USDC, configured by AlphaGrowth.",
 		"entity": ["alphagrowth"],
 		"url": "https://alphagrowth.io/",
 		"vaults": [
 			"0x81744B5B5527852832F2dd3554C191d3B1342108",
 			"0x4C1aeda9B43EfcF1da1d1755b18802aAbe90f61E"
+		]
+	},
+	"alphagrowth-base-ai": {
+		"name": "AlphaGrowth Base AI",
+		"description": "A Base market for VVV, VIRTUAL, ZRO, AERO, WETH, and USDC, configured by AlphaGrowth.",
+		"entity": ["alphagrowth"],
+		"url": "https://alphagrowth.io/",
+		"vaults": [
+			"0x13632ED686495b1F5E7F81dcc5977AB55aAb98A4",
+			"0x6aE4eCc3C9467c587AA4953365E0d8454fe77EF1",
+			"0xcf8f0E47Cd510938FDD445Cf1A24108A681743A6",
+			"0x9F876520F1937D4B4f6F4DefE29fa5EA6d4526d0",
+			"0xC64FD6138f980a5587412dAC75E04363046aE32E",
+			"0xEef57677c2FC1a930eed234E3545e750C88f6743"
 		]
 	},
 	"clearstar-rwa": {
