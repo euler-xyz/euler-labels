@@ -33,5 +33,10 @@
 		"deprecated": true,
 		"deprecationReason": "Deprecated due to exposure to the insolvent positions held by Stream.",
 		"notExplorable": true
-	}
+	},
+	{
+  		"address": "0x018b...dc01",
+		"tags": ["recently added"],
+ 		"description": "Yield-bearing USDC vault curated by JPEG Trading. Deposits are lent into the JPEG Trading x Tenbin RWAs market, collateralized by Tenbin tGLD."
+}
 ]
