@@ -37,11 +37,36 @@ Each entry in this object corresponds to a lending product, which is primarily a
 * `deprecationReason`: An optional string providing an explanation for why the product or its vaults have been deprecated.
 * `portfolioNotice`: An optional string displayed as a notice in the user's portfolio view.
 * `notExplorable`: An optional boolean. If true, hides the product from discovery UI.
-* `isGovernanceLimited`: An optional boolean flag for governance-limited products.
-* `keyring`: An optional boolean flag for keyring-type products.
+* `tags`: An optional array of string tags that classify the product. Recognised values include `keyring` (vaults gated by Keyring identity verification), `access control` (vaults gated by an access-control allowlist hook), `governance limited` (products with limited active risk management), `suppress high utilisation warning` (vaults where the high-utilisation warning should be hidden while critical utilisation warnings remain visible), and `cyclical note` (fixed-rate vaults with recurring borrowing cycles). Consumers may use tags to render badges and explanatory copy.
 * `block`: An optional array of country code strings where the product is blocked.
-* `recentlyAddedVaults`: An optional array of vault addresses to mark as recently added (sorted to the top of discovery tables). Each must also be in `vaults`.
-* `vaultOverrides`: An optional object of per-vault configuration overrides, keyed by vault address. Each override can contain: `name` (string), `description` (string), `portfolioNotice` (string), `deprecationReason` (string), `block` (string[]), `restricted` (string[]), `notExplorableLend` (boolean), `notExplorableBorrow` (boolean), `keyring` (boolean).
+* `vaultOverrides`: An optional object of per-vault configuration overrides, keyed by vault address. Each override can contain: `name` (string), `description` (string), `portfolioNotice` (string), `deprecationReason` (string), `block` (string[]), `restricted` (string[]), `notExplorableLend` (boolean), `notExplorableBorrow` (boolean), `tags` (string[]). Use the `recently added` tag on an override to mark one product vault as recently added and sort it to the top of discovery tables. Use `suppress high utilisation warning` or `cyclical note` on an override when only one vault in the product should use that classification.
+
+Labels use a tags schema. Marker fields such as `isGovernanceLimited` and `recentlyAddedVaults` are rejected by verification and should not be used.
+
+### `earn-vaults.json`
+
+This optional file lists EulerEarn aggregator vaults on the chain. Unlike `products.json`, which groups EVK lending vaults under a branded product, `earn-vaults.json` is a flat allowlist of standalone earn vaults that the dApp should surface in discovery. Vaults that do not appear here are not shown in earn views.
+
+The top-level value is an array. Each entry is either:
+
+* A checksummed hex address string — equivalent to an object with only `address` set.
+* An object with an `address` field and optional metadata fields described below.
+
+**Entry fields:**
+
+* `address`: Checksummed hex address of the earn vault. (Required)
+* `tags`: An optional array of string tags that classify the earn vault. Use the `recently added` tag to mark the vault as recently added and sort it to the top of earn discovery tables.
+* `deprecated`: An optional boolean. If true, the vault is marked as deprecated in the UI.
+* `deprecationReason`: An optional string explaining why the vault was deprecated. Surfaced alongside the deprecation badge.
+* `description`: An optional long-form description of the vault, displayed on the vault's page.
+* `portfolioNotice`: An optional string displayed as a notice on the vault's portfolio view.
+* `notExplorable`: An optional boolean. If true, hides the vault from earn discovery UI (it stays reachable by direct link, so existing depositors can still manage their position).
+* `block`: An optional array of country code strings where the vault is hard-blocked. Same semantics and country-code grammar as the product-level `block` field (see [`assets.json`](#assetsjson)).
+* `restricted`: An optional array of country code strings where the vault is soft-restricted. Users in those regions can reduce exposure but cannot acquire more.
+
+Earn vaults are not subject to the per-product uniqueness rule applied to lending vaults — they exist independently of `products.json`.
+
+This is a clean-cut tags schema: legacy marker fields such as `recentlyAdded` are rejected by verification and should not be used.
 
 ### `assets.json`
 
