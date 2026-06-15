@@ -119,19 +119,6 @@ function fixChain(chainId) {
 			}
 		}
 
-		if (product.recentlyAddedVaults) {
-			const fixedAddresses = fixAddressesInArray(
-				product.recentlyAddedVaults,
-				`recently-added vault address in products.${productId}`,
-			);
-			const productChanges = fixedAddresses.filter((a) => a.changed);
-			if (productChanges.length > 0) {
-				changes = true;
-				changesList.push(...productChanges.map((a) => a.message));
-				product.recentlyAddedVaults = fixedAddresses.map((a) => a.value);
-			}
-		}
-
 		if (product.vaultOverrides) {
 			const {
 				result: fixedOverrides,
