@@ -26,7 +26,7 @@
 			"0x72F92a966f1874f74e1b601BEe7CF57031B53A03",
 			"0x9298D274A31803bb73c2A5E5EcDd101c581C4AfD"
 		],
-		"portfolioNotice": "Eligible users of impacted vaults can claim approximately 80% position recovery for a limited time. See the [Elixir announcement](https://x.com/elixir/status/2033922212986597612?s=20) for details on how to submit your claim.",
+		"portfolioNotice": "Eligible users of impacted vaults can claim approximately 80% position recovery for a limited time. See the [Eligible users of impacted vaults could have claimed approximately 80% position recovery for a [limited time](https://x.com/elixir/status/2033922212986597612?s=20). The claim period has expired. Please contact Elixir for more information.](https://x.com/elixir/status/2033922212986597612?s=20) for details on how to submit your claim.",
 		"notExplorable": true
 	},
 	"mev-capital-avalanche": {
@@ -69,7 +69,7 @@
 			"0x902714C7661697c873C76dEC426b63B2593ecc0a",
 			"0xa4284e26Ae6469aeE8eC38Aa9Db96fc62d6315A1"
 		],
-		"portfolioNotice": "Eligible users of impacted vaults can claim approximately 80% position recovery for a limited time. See the [Elixir announcement](https://x.com/elixir/status/2033922212986597612?s=20) for details on how to submit your claim.",
+		"portfolioNotice": "Eligible users of impacted vaults can claim approximately 80% position recovery for a limited time. See the [Eligible users of impacted vaults could have claimed approximately 80% position recovery for a [limited time](https://x.com/elixir/status/2033922212986597612?s=20). The claim period has expired. Please contact Elixir for more information.](https://x.com/elixir/status/2033922212986597612?s=20) for details on how to submit your claim.",
 		"notExplorable": true
 	},
 	"keyring-avalanche": {
@@ -87,7 +87,7 @@
 			"0x3050B75382aB718fAD92D83C5f99c7fDA1654529",
 			"0x2cBb39cdC3c0bA22F857A5A8cA54DEE6D7fD04bF"
 		],
-		"portfolioNotice": "Eligible users of impacted vaults can claim approximately 80% position recovery for a limited time. See the [Elixir announcement](https://x.com/elixir/status/2033922212986597612?s=20) for details on how to submit your claim.",
+		"portfolioNotice": "Eligible users of impacted vaults can claim approximately 80% position recovery for a limited time. See the [Eligible users of impacted vaults could have claimed approximately 80% position recovery for a [limited time](https://x.com/elixir/status/2033922212986597612?s=20). The claim period has expired. Please contact Elixir for more information.](https://x.com/elixir/status/2033922212986597612?s=20) for details on how to submit your claim.",
 		"notExplorable": true,
 		"tags": ["keyring"]
 	},
