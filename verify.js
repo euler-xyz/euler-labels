@@ -95,8 +95,6 @@ function validateChain(chainId) {
 			throw Error(`entities: logo not found: ${entity.logo}`);
 	}
 
-	const vaultsSeenInProducts = {};
-
 	for (const productId of Object.keys(products)) {
 		const product = products[productId];
 
@@ -115,9 +113,6 @@ function validateChain(chainId) {
 				throw Error(
 					`products: malformed vault address: ${ethers.getAddress(addr)}`,
 				);
-			if (vaultsSeenInProducts[addr])
-				throw Error(`products: vault in multiple products: ${addr}`);
-			vaultsSeenInProducts[addr] = true;
 		}
 
 		if (product.deprecatedVaults) {
@@ -130,9 +125,6 @@ function validateChain(chainId) {
 					throw Error(
 						`products: vault ${addr} cannot be both in vaults and deprecatedVaults: ${productId}`,
 					);
-				if (vaultsSeenInProducts[addr])
-					throw Error(`products: vault in multiple products: ${addr}`);
-				vaultsSeenInProducts[addr] = true;
 			}
 		}
 
