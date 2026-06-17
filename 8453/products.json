@@ -128,8 +128,8 @@
 			"0x0a6Af3A75BB350Fb1a402B70138B9820Cf0CA0Cb"
 		]
 	},
-	"clearstar-eth-fusion": {
-		"name": "Clearstar ETH Fusion",
+	"clearstar-fusion": {
+		"name": "Clearstar Fusion",
 		"description": "A market for cbAssets, configured by Clearstar Labs.",
 		"entity": "clearstar",
 		"vaults": [
@@ -142,6 +142,17 @@
 			"0xB45e4F1003d11a563Bc4f7486edFaFd7dfaa8B4a"
 		]
 	},
+	"clearstar-prime": {
+		"name": "Clearstar Prime",
+		"description": "A Prime market cluster configured by Clearstar Labs.",
+		"entity": "clearstar",
+		"vaults": [
+			"0x3A48aaaa90CF3938290f12F6A1E58C1aeb54699D",
+			"0x8A5FA36779693584E0e52246f05C5b0bF55Df1b1",
+			"0x60C61a47804283a514bFCDF163138b7528720D0F",
+			"0x6d6021ff46b0d4B800c210Aab3aD10B9E3E53113"
+		]
+	},
 	"clearstar-noon": {
 		"name": "Clearstar Noon",
 		"description": "An isolated market for Noon sUSN collateral, configured by Clearstar Labs.",
@@ -151,8 +162,8 @@
 			"0x07954BEB7e137101A7cbb3e47864C684aEC50524"
 		]
 	},
-	"clearstar-re-isolated": {
-		"name": "Clearstar Re Isolated Cluster",
+	"clearstar-re": {
+		"name": "Clearstar Re",
 		"description": "An isolated market for Re Protocol reUSD collateral, configured by Clearstar Labs.",
 		"entity": "clearstar",
 		"vaults": [
