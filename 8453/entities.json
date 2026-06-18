@@ -89,17 +89,5 @@
 		"social": {
 			"twitter": "ClearstarLabs"
 		}
-	},
-	"jpeg-trading": {
-		"name": "JPEG Trading",
-		"logo": "jpeg-trading.svg",
-		"description": "JPEG Trading is a third-party curator using Euler infrastructure to configure isolated lending markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
-		"url": "https://jpeg-trading.com/",
-		"addresses": {
-			"0xA219dee9B6B533992801D772ea444ED15074E60b": "JPEG Trading Vault & Oracle Router Governor"
-		},
-		"social": {
-			"twitter": "JPEGTrading"
-		}
 	}
 }

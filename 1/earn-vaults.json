@@ -35,8 +35,7 @@
 		"notExplorable": true
 	},
 	{
-  		"address": "0x018b86A893F57a632F90c4A8308353Ac938adc01",
-		"tags": ["recently added"],
- 		"description": "Yield-bearing USDC vault curated by JPEG Trading. Deposits are lent into the JPEG Trading x Tenbin RWAs market, collateralized by Tenbin tGLD."
-}
+		"address": "0x018b86A893F57a632F90c4A8308353Ac938adc01",
+		"description": "Yield-bearing USDC vault curated by JPEG Trading. Deposits are lent into the JPEG Trading x Tenbin RWAs market, collateralized by Tenbin tGLD."
+	}
 ]
