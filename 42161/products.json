@@ -45,7 +45,11 @@
 		],
 		"deprecationReason": "Deprecated due to exposure to the Resolv security incident.",
 		"notExplorable": true,
-		"tags": ["RLP redemption ToU"]
+		"vaultOverrides": {
+			"0x05d28A86E057364F6ad1a88944297E58Fc6160b3": {
+				"portfolioNotice": "(i) In winddown of Euler DAO managed markets the Euler Foundation observed the deficiency in an Euler managed vault.\n(ii) The Euler Foundation determined the most expedient response in this circumstance was to inject value to replace the defective collateral.\n(iii) This is not an admission of liability by the Euler Foundation and does not establish any precedent for any future circumstances relating to the Euler platform, protocol or token or any vault regardless of curator."
+			}
+		}
 	},
 	"k3-theo": {
 		"name": "K3 Capital Theo Market",
