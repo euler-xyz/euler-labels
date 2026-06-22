@@ -1,7 +1,7 @@
 const fs = require("node:fs");
 
 const ethers = require("ethers");
-const imageSize = require("image-size");
+const { imageSize } = require("image-size");
 
 const logos = {};
 
@@ -11,7 +11,7 @@ for (let i = 0; i < fs.readdirSync("logo/").length; i++) {
 }
 
 for (const file of Object.keys(logos)) {
-	const info = imageSize(`logo/${file}`);
+	const info = imageSize(fs.readFileSync(`logo/${file}`));
 
 	if (info.type !== "svg" && info.type !== "png" && info.type !== "jpg") {
 		throw Error(`logo file ${file} is not SVG/PNG/JPG`);
@@ -95,6 +95,8 @@ function validateChain(chainId) {
 			throw Error(`entities: logo not found: ${entity.logo}`);
 	}
 
+	const vaultsSeenInProducts = {};
+
 	for (const productId of Object.keys(products)) {
 		const product = products[productId];
 
@@ -113,6 +115,9 @@ function validateChain(chainId) {
 				throw Error(
 					`products: malformed vault address: ${ethers.getAddress(addr)}`,
 				);
+			if (vaultsSeenInProducts[addr])
+				throw Error(`products: vault in multiple products: ${addr}`);
+			vaultsSeenInProducts[addr] = true;
 		}
 
 		if (product.deprecatedVaults) {
@@ -125,6 +130,9 @@ function validateChain(chainId) {
 					throw Error(
 						`products: vault ${addr} cannot be both in vaults and deprecatedVaults: ${productId}`,
 					);
+				if (vaultsSeenInProducts[addr])
+					throw Error(`products: vault in multiple products: ${addr}`);
+				vaultsSeenInProducts[addr] = true;
 			}
 		}
 
