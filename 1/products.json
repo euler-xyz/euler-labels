@@ -989,5 +989,15 @@
 			}
 		},
 		"tags": ["access control", "cyclical note"]
+	},
+	"tgld-usdc": {
+		"name": "JPEG Trading x Tenbin RWAs",
+		"description": "A lending and borrowing market for USDC accepting Tenbin collateral, configured by JPEG Trading.",
+		"entity": "jpeg-trading",
+		"url": "http://jpeg-trading.com/",
+		"vaults": [
+			"0x0120c2748545a4D9C875CDdFB439f786d6f1B460",
+			"0xb57320b253363bf749D5CE6e66592FDC74cce6f7"
+		]
 	}
 }
