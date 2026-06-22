@@ -5,6 +5,10 @@ on:
     branches:
       - master
       - development
+    paths:
+      - "[0-9]*/**"
+      - "all/**"
+      - "logo/**"
   push:
     branches:
       - master
