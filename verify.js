@@ -1,7 +1,7 @@
 const fs = require("node:fs");
 
 const ethers = require("ethers");
-const imageSize = require("image-size");
+const { imageSize } = require("image-size");
 
 const logos = {};
 
@@ -11,7 +11,7 @@ for (let i = 0; i < fs.readdirSync("logo/").length; i++) {
 }
 
 for (const file of Object.keys(logos)) {
-	const info = imageSize(`logo/${file}`);
+	const info = imageSize(fs.readFileSync(`logo/${file}`));
 
 	if (info.type !== "svg" && info.type !== "png" && info.type !== "jpg") {
 		throw Error(`logo file ${file} is not SVG/PNG/JPG`);

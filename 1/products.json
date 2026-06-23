@@ -912,7 +912,9 @@
 			"0x9D341Dd568DA14F00f10CdEDa6c5cAFae916262b",
 			"0xD5b4cd50dd2a7dbC74347E572f730fE1eB286a67",
 			"0x61332fE07Ee0faa8a087ba00f43d581871441139",
-			"0xdFa6451EAC51c913003bfeb52418F55376996A64"
+			"0xdFa6451EAC51c913003bfeb52418F55376996A64",
+			"0x6876374E4AC054bfCA389109570Ae15b4d25e279",
+			"0xD5b786E64eB320940eEfB1570Fa4C82EC54dBf72"
 		],
 		"block": ["CA", "US"],
 		"vaultOverrides": {
@@ -924,6 +926,9 @@
 			},
 			"0xdFa6451EAC51c913003bfeb52418F55376996A64": {
 				"name": "AUSD - wSTRCx"
+			},
+			"0xD5b786E64eB320940eEfB1570Fa4C82EC54dBf72": {
+				"name": "AUSD - PT-reUSD-10DEC2026"
 			}
 		}
 	},
@@ -992,6 +997,14 @@
 		"vaults": [
 			"0xa10BDC927D70325326D71Fa7971F7B0e4aFFf702",
 			"0xF26c68e6D26F725858e7CC353Ee30E43AdF0b732"
+	"tgld-usdc": {
+		"name": "JPEG Trading x Tenbin RWAs",
+		"description": "A lending and borrowing market for USDC accepting Tenbin collateral, configured by JPEG Trading.",
+		"entity": "jpeg-trading",
+		"url": "http://jpeg-trading.com/",
+		"vaults": [
+			"0x0120c2748545a4D9C875CDdFB439f786d6f1B460",
+			"0xb57320b253363bf749D5CE6e66592FDC74cce6f7"
 		]
 	}
 }

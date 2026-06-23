@@ -128,8 +128,8 @@
 			"0x0a6Af3A75BB350Fb1a402B70138B9820Cf0CA0Cb"
 		]
 	},
-	"clearstar-eth-fusion": {
-		"name": "Clearstar ETH Fusion",
+	"clearstar-fusion": {
+		"name": "Clearstar Fusion",
 		"description": "A market for cbAssets, configured by Clearstar Labs.",
 		"entity": "clearstar",
 		"vaults": [
@@ -151,8 +151,8 @@
 			"0x07954BEB7e137101A7cbb3e47864C684aEC50524"
 		]
 	},
-	"clearstar-re-isolated": {
-		"name": "Clearstar Re Isolated Cluster",
+	"clearstar-re": {
+		"name": "Clearstar Re",
 		"description": "An isolated market for Re Protocol reUSD collateral, configured by Clearstar Labs.",
 		"entity": "clearstar",
 		"vaults": [

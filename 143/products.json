@@ -1,4 +1,34 @@
 {
+	"alphagrowth-ausd-pt": {
+		"name": "AlphaGrowth AUSD PT",
+		"description": "Borrow AUSD against isolated Pendle AUSD and earnAUSD principal-token collateral on Monad. Curated by AlphaGrowth.",
+		"entity": ["alphagrowth"],
+		"url": "https://alphagrowth.io/",
+		"vaults": [
+			"0x248C74aA002A571c340a3d894aAF294884A49bE1",
+			"0xf3E55a17c4c59Cb70EA44973795fA8F3c3BAad72",
+			"0x7cc566d100E81a9708fd23B18F6B92D3249430C9",
+			"0xC4fAbE0B5A280163aB47E3162689A278C81df3f9"
+		],
+		"vaultOverrides": {
+			"0x248C74aA002A571c340a3d894aAF294884A49bE1": {
+				"name": "AlphaGrowth Isolated AUSD/AUSD-PT",
+				"description": "Lend or borrow AUSD against PT-AUSD-8OCT2026 collateral."
+			},
+			"0xf3E55a17c4c59Cb70EA44973795fA8F3c3BAad72": {
+				"name": "AlphaGrowth Isolated AUSD/AUSD-PT",
+				"description": "Isolated Pendle AUSD principal-token collateral vault."
+			},
+			"0x7cc566d100E81a9708fd23B18F6B92D3249430C9": {
+				"name": "AlphaGrowth Isolated AUSD/earnAUSD-PT",
+				"description": "Lend or borrow AUSD against PT-earnAUSD-8OCT2026 collateral."
+			},
+			"0xC4fAbE0B5A280163aB47E3162689A278C81df3f9": {
+				"name": "AlphaGrowth Isolated AUSD/earnAUSD-PT",
+				"description": "Isolated Pendle earnAUSD principal-token collateral vault."
+			}
+		}
+	},
 	"k3-isolated-btc-ausd": {
 		"name": "Isolated WBTC-AUSD",
 		"description": "An isolated market for WBTC and AUSD, configured by K3 Capital.",
