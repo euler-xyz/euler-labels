@@ -997,6 +997,8 @@
 		"vaults": [
 			"0xa10BDC927D70325326D71Fa7971F7B0e4aFFf702",
 			"0xF26c68e6D26F725858e7CC353Ee30E43AdF0b732"
+		]
+	},
 	"tgld-usdc": {
 		"name": "JPEG Trading x Tenbin RWAs",
 		"description": "A lending and borrowing market for USDC accepting Tenbin collateral, configured by JPEG Trading.",
