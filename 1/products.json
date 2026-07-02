@@ -1,9 +1,9 @@
 {
-	"euler-prime": {
-		"name": "Euler Prime",
-		"description": "A lending and borrowing market for stablecoin-denominated assets and selected collateral, configured by Euler DAO.",
-		"entity": ["euler-dao"],
-		"url": "https://forum.euler.finance/t/expanding-euler-prime/1137",
+	"k3-prime": {
+		"name": "K3 Capital Prime Market",
+		"description": "A lending and borrowing market for stablecoin-denominated assets and selected collateral, configured by K3 Capital",
+		"entity": ["k3"],
+		"url": "",
 		"vaults": [
 			"0xD8b27CF359b7D15710a5BE299AF6e7Bf904984C2",
 			"0xbC4B4AC47582c3E38Ce5940B80Da65401F4628f1",
@@ -12,39 +12,23 @@
 			"0x313603FA690301b0CaeEf8069c065862f9162162",
 			"0x998D761eC1BAdaCeb064624cc3A1d37A46C88bA4",
 			"0x056f3a2E41d2778D3a0c0714439c53af2987718E",
-			"0xbC35161043EE2D74816d421EfD6a45fDa73B050A",
-			"0xE88e44C2C7dfc9bcb86e380d29375ccD6cd85406",
 			"0xA28C23a459fF8773EB4dBe0e7250d93F79F1Fe2B",
 			"0x328646cdfBaD730432620d845B8F5A2f7D786C01",
-			"0x5A96128c18018a2cEf539f46Bbed037DAD3cAAe8",
-			"0xa96B72470f4193a4E637dE8BcC6a009d1DD360A2"
-		],
-		"deprecatedVaults": ["0x1924D7fab80d0623f0836Cbf5258a7fa734EE9D9"],
-		"vaultOverrides": {
-			"0x1924D7fab80d0623f0836Cbf5258a7fa734EE9D9": {
-				"deprecationReason": "Deprecated due to Kelp DAO security incident.",
-				"notExplorableLend": true,
-				"notExplorableBorrow": true
-			}
-		}
+			"0x5A96128c18018a2cEf539f46Bbed037DAD3cAAe8"
+		]
 	},
-	"euler-yield": {
-		"name": "Euler Yield",
-		"description": "A lending and borrowing market for stablecoins and tokenized strategy collateral, configured by Euler DAO.",
-		"entity": ["euler-dao"],
-		"url": "https://forum.euler.finance/t/creation-of-euler-yield-market/1163",
+	"k3-yield": {
+		"name": "K3 Capital Yield Market",
+		"description": "A lending and borrowing market for stablecoins and tokenized strategy collateral, configured by K3 Capital.",
+		"entity": ["k3"],
+		"url": "",
 		"vaults": [
 			"0xe0a80d35bB6618CBA260120b279d357978c42BCE",
 			"0x7c280DBDEf569e96c7919251bD2B0edF0734C5A8",
 			"0xe1Ce9AF672f8854845E5474400B6ddC7AE458a10",
 			"0x2daCa71Cb58285212Dc05D65Cfd4f59A82BC4cF6",
 			"0x61aAC438453d6e3513C0c8dbb69F13860E2B5028",
-			"0x20622fcD4476fbc9d5Ef36EBd371307a56d9028c",
-			"0xD5F9aFc441ca3f72B22d0B60d53e55b966c8dE64",
-			"0x9dfe82d2A2419b143d99A36789C405F2D8072c1E",
-			"0x57d74318f938404B2fE1416b9E9ba5D380f505AF",
-			"0x4f4Afcdd8E418f5AA9130BA53af23Cb7bf47F467",
-			"0x2DA35f6e88Eaba4E705Bff7154B259859C353953"
+			"0xD5F9aFc441ca3f72B22d0B60d53e55b966c8dE64"
 		]
 	},
 	"euler-rwa": {
@@ -68,7 +52,7 @@
 			"0x74034eb8d5B2E480825263A975E4CF82A081c959",
 			"0xBEf0c894aB4020DCD533FD753BF427662F3F7ABe"
 		],
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-renzo": {
 		"name": "Frontier Renzo",
@@ -82,7 +66,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-medge": {
 		"name": "Frontier mEDGE",
@@ -100,7 +84,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-mmev": {
 		"name": "Frontier mMEV",
@@ -118,7 +102,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-level": {
 		"name": "Frontier Level",
@@ -136,7 +120,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"alphagrowth-falcon": {
 		"name": "AlphaGrowth Falcon",
@@ -145,11 +129,8 @@
 		"url": "https://alphagrowth.io/",
 		"vaults": [
 			"0x3573A84Bee11D49A1CbCe2b291538dE7a7dD81c6",
-			"0xbFdc482616787b420BC6C710212fE3167E7198e9",
 			"0x412D0E31790D77b6e7a7872a9fd6967B6E640229",
-			"0x2F849ba554C1ea2eDe9C240Bbe9d247dd6eC8A6B",
-			"0xa7A064f56FbcA60cBeD47eD3e13C4B945DEf7eC3",
-			"0xFBCc21fedd4C4e9097Ef1Baa65B7Ad386b59512D"
+			"0x2F849ba554C1ea2eDe9C240Bbe9d247dd6eC8A6B"
 		]
 	},
 	"frontier-inverse": {
@@ -166,7 +147,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-yala": {
 		"name": "Frontier Yala",
@@ -174,7 +155,6 @@
 		"entity": ["euler-dao"],
 		"url": "https://forum.euler.finance/t/frontier-markets-risk-isolated-looping-vaults/1405",
 		"vaults": [],
-		"isGovernanceLimited": true,
 		"deprecatedVaults": [
 			"0x481D4909D7ca2eb27c4975f08dCE07DBeF0d3Fa7",
 			"0x2dF9753E62f46B299F59E632bd18EdfE4970922e",
@@ -183,7 +163,8 @@
 			"0xe47BABACfc9Ce5F85126fab7C7E211DA077d820E"
 		],
 		"deprecationReason": "Deprecated following the Yala Redemption Plan announcement. Refer to Yala's social media and Discord for details.",
-		"notExplorable": true
+		"notExplorable": true,
+		"tags": ["governance limited"]
 	},
 	"stablecoin-maxi": {
 		"name": "Stablecoin Maxi",
@@ -503,7 +484,7 @@
 			"0x67695A8e976E25D5939aD31297DFCFfC8d050eA0",
 			"0x54Fcb10F9506cf8d16D75346e398539F029240Bd"
 		],
-		"keyring": true
+		"tags": ["keyring"]
 	},
 	"frontier-upshift": {
 		"name": "Frontier Upshift",
@@ -518,7 +499,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-bedrock": {
 		"name": "Frontier Bedrock",
@@ -533,7 +514,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-puffer": {
 		"name": "Frontier Puffer",
@@ -547,7 +528,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-pareto": {
 		"name": "Frontier Pareto",
@@ -562,7 +543,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-reservoir": {
 		"name": "Frontier Reservoir",
@@ -577,7 +558,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-spark": {
 		"name": "Frontier Spark",
@@ -592,7 +573,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-yieldfi": {
 		"name": "Frontier YieldFi",
@@ -607,7 +588,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"re7-hyperwave": {
 		"name": "Re7 Hyperwave",
@@ -641,20 +622,17 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"alphagrowth-cap": {
 		"name": "AlphaGrowth Cap",
-		"description": "An isolated market for Cap Money ecosystem assets, configured by AlphaGrowth.",
+		"description": "An isolated market for Cap ecosystem assets, configured by AlphaGrowth.",
 		"entity": ["alphagrowth"],
 		"url": "https://alphagrowth.io/",
 		"vaults": [
 			"0x6Fe7Fa90756434645F0b0428fDff78E99Dda0FBc",
-			"0x35d4f830543700B7280084280ae3236f178E88e3",
 			"0x55F9bACE2C864aC0D3392Ea9fa654b605F21A3d3",
-			"0xb7522C867B8AFae5e89638b59fb38f31B0821795",
-			"0x69a2fAD6AC96DDa502f7d240fB4EC88f85217705",
-			"0x97C72647be549C6079dC95235271A9a0Fe7ECc21"
+			"0xb7522C867B8AFae5e89638b59fb38f31B0821795"
 		]
 	},
 	"frontier-asymmetry": {
@@ -672,7 +650,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"rezerve-vaults": {
 		"name": "Rezerve Markets",
@@ -738,8 +716,7 @@
 		"vaults": [
 			"0x2a356443FeE07703266066c6Bb1B11b82d8246AD",
 			"0xC11d6b78D8c609A6cbf66E89DBfea06b011B0AEf",
-			"0x49d9fd20f1d61648Fa9434a8c0C33174F5614eB8",
-			"0xF75D18F76859764aBe4D13cA2eBaCeFF0b90b262"
+			"0x49d9fd20f1d61648Fa9434a8c0C33174F5614eB8"
 		]
 	},
 	"hyperithm-mhyper": {
@@ -764,8 +741,7 @@
 			"0xaF5372792a29dC6b296d6FFD4AA3386aff8f9BB2",
 			"0x9bD52F2805c6aF014132874124686e7b248c2Cbb",
 			"0x56B829e465170c3aCcAd33a3E0512b239b202242",
-			"0x4BC68f0CC010A0BedA0E3f63CfBEcDee5Ad55A18",
-			"0x343e9C605Acfcec8c2A872E3B0B6fCaD9d7AB4E6"
+			"0x4BC68f0CC010A0BedA0E3f63CfBEcDee5Ad55A18"
 		]
 	},
 	"sentora-pyusd": {
@@ -778,8 +754,7 @@
 			"0xAB2726DAf820Aa9270D14Db9B18c8d187cbF2f30",
 			"0x660750B98c3a53DD1303f2e43F543eF037d3F625",
 			"0xdB6165bd1F90cb507F30AbDb42c4596CE4D894f4",
-			"0xE1d2a34e34039711a655aC06Bc1dba6F7ab786B3",
-			"0xd816347C7e12f9649cFB94573035d581836A2030"
+			"0xE1d2a34e34039711a655aC06Bc1dba6F7ab786B3"
 		]
 	},
 	"sentora-ondo": {
@@ -819,7 +794,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"frontier-mfarm": {
 		"name": "Frontier mFARM",
@@ -832,17 +807,20 @@
 			"0x1A5dd6D0A3B4F47d157f69365068d2e1df868825",
 			"0x5748534ffeBbaf42a8a180f0e745b44f629e85Df"
 		],
-		"isGovernanceLimited": true,
-		"notExplorable": true
+		"notExplorable": true,
+		"tags": ["governance limited"]
 	},
 	"telosc-wormhole": {
 		"name": "TelosC Wormhole",
 		"description": "A market for Wormhole ecosystem assets, configured by TelosC.",
 		"entity": "telosc",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0x783431B152C3e83B0c4dCD602E62a2C55d442F9B",
 			"0x2e6Dff8907aFdA5D62A278e21B2e65c8595D746E"
-		]
+		],
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true
 	},
 	"telosc-almanak": {
 		"name": "TelosC Almanak",
@@ -934,8 +912,101 @@
 			"0x9D341Dd568DA14F00f10CdEDa6c5cAFae916262b",
 			"0xD5b4cd50dd2a7dbC74347E572f730fE1eB286a67",
 			"0x61332fE07Ee0faa8a087ba00f43d581871441139",
-			"0xdFa6451EAC51c913003bfeb52418F55376996A64"
+			"0xdFa6451EAC51c913003bfeb52418F55376996A64",
+			"0x6876374E4AC054bfCA389109570Ae15b4d25e279",
+			"0xD5b786E64eB320940eEfB1570Fa4C82EC54dBf72"
 		],
-		"block": ["CA", "US"]
+		"block": ["CA", "US"],
+		"vaultOverrides": {
+			"0xe9BA91e5EfDDdA4eE1ce99d4C7a8938924d47E7C": {
+				"name": "AUSD - USPC"
+			},
+			"0xD5b4cd50dd2a7dbC74347E572f730fE1eB286a67": {
+				"name": "AUSD - wSPYx"
+			},
+			"0xdFa6451EAC51c913003bfeb52418F55376996A64": {
+				"name": "AUSD - wSTRCx"
+			},
+			"0xD5b786E64eB320940eEfB1570Fa4C82EC54dBf72": {
+				"name": "AUSD - PT-reUSD-10DEC2026"
+			}
+		}
+	},
+	"kpk-securitize": {
+		"name": "KPK x Securitize RWA Markets",
+		"description": "A set of markets for borrowing against, or lending to, Securitize-issued tokenised RWAs. Curated by KPK.",
+		"entity": ["kpk", "securitize"],
+		"url": "https://kpk.io/vaults",
+		"tags": ["suppress high utilisation warning"],
+		"vaults": [
+			"0xCf4846E0d8A8667c516B844EB72A4d6e7430101D",
+			"0x2Ff596321782FE034102f55af5ad707A4Ce0d6a7",
+			"0x1cFC56665c2718454e8dDf975dC37aF0bc68B5aA",
+			"0x8b2d7534Ffcf6c2a9226f439CDaC26c6666E97a9"
+		],
+		"vaultOverrides": {
+			"0xCf4846E0d8A8667c516B844EB72A4d6e7430101D": {
+				"name": "VBILL Collateral Vault",
+				"description": "Securitize-issued collateral vault for VBILL, a tokenised US Treasury fund. Holders deposit VBILL to mint shares that can be posted as collateral in the VBILL/USDC market on Euler. Governed by Securitize; access is limited to eligible, KYC-approved users.",
+				"tags": ["recently added"]
+			},
+			"0x2Ff596321782FE034102f55af5ad707A4Ce0d6a7": {
+				"name": "KPK VBILL/USDC Lend",
+				"description": "USDC lending vault for the KPK VBILL market. Borrowers post VBILL, a Securitize-issued tokenised US Treasury fund, as collateral.",
+				"tags": ["recently added"]
+			},
+			"0x1cFC56665c2718454e8dDf975dC37aF0bc68B5aA": {
+				"name": "STAC Collateral Vault",
+				"description": "Securitize-issued collateral vault for STAC, a tokenised AAA CLO fund. Holders deposit STAC to mint shares that can be posted as collateral in the STAC/USDC market on Euler. Governed by Securitize; access is limited to eligible, KYC-approved users.",
+				"tags": ["recently added"]
+			},
+			"0x8b2d7534Ffcf6c2a9226f439CDaC26c6666E97a9": {
+				"name": "KPK STAC/USDC Lend",
+				"description": "USDC lending vault for the KPK STAC market. Borrowers post STAC, a Securitize-issued tokenised AAA CLO fund, as collateral.",
+				"tags": ["recently added"]
+			}
+		}
+	},
+	"kpk-eth-yield-term": {
+		"name": "KPK ETH Yield Term",
+		"description": "Fixed-rate WETH borrowing markets designed for LST/LRT-backed strategies, with borrow rates set monthly from a benchmark ETH staking rate. Curated by KPK.",
+		"entity": ["kpk"],
+		"url": "https://kpk.io/vaults",
+		"vaults": [
+			"0xf55B46C10138782aDE3275D81e44B8464100eAfF",
+			"0xB5fa20eb3c1A146E1090F24CF3c7D60263Dafa71"
+		],
+		"vaultOverrides": {
+			"0xf55B46C10138782aDE3275D81e44B8464100eAfF": {
+				"name": "KPK wstETH Term Borrow",
+				"description": "Fixed-rate WETH borrowing against wstETH collateral, on a calendar-aligned monthly term. Supply is routed through the KPK ETH Yield Term Earn vault.",
+				"notExplorableLend": true
+			},
+			"0xB5fa20eb3c1A146E1090F24CF3c7D60263Dafa71": {
+				"name": "KPK tETH Term Borrow",
+				"description": "Fixed-rate WETH borrowing against tETH collateral, on a calendar-aligned monthly term. Supply is routed through the KPK ETH Yield Term Earn vault.",
+				"notExplorableLend": true
+			}
+		},
+		"tags": ["access control", "cyclical note"]
+	},
+	"clearstar-openeden-hybond": {
+		"name": "Clearstar OpenEden Hybond",
+		"description": "An isolated market for OpenEden HYBOND bond-fund collateral, curated by Clearstar Labs.",
+		"entity": "clearstar",
+		"vaults": [
+			"0xa10BDC927D70325326D71Fa7971F7B0e4aFFf702",
+			"0xF26c68e6D26F725858e7CC353Ee30E43AdF0b732"
+		]
+	},
+	"tgld-usdc": {
+		"name": "JPEG Trading x Tenbin RWAs",
+		"description": "A lending and borrowing market for USDC accepting Tenbin collateral, configured by JPEG Trading.",
+		"entity": "jpeg-trading",
+		"url": "http://jpeg-trading.com/",
+		"vaults": [
+			"0x0120c2748545a4D9C875CDdFB439f786d6f1B460",
+			"0xb57320b253363bf749D5CE6e66592FDC74cce6f7"
+		]
 	}
 }

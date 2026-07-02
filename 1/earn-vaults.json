@@ -9,6 +9,14 @@
 	"0xB4a2fC3adAF3BfA8FCBA2A6FDAA200De106B8825",
 	"0xBc79C4DA0452152D2C329ADE328C79705a964CEE",
 	{
+		"address": "0x2B47c128b35DDDcB66Ce2FA5B33c95314a7de245",
+		"tags": ["recently added"]
+	},
+	{
+		"address": "0xB6D6D89ad4b4D61C15a293e28b74f77F6817fF48",
+		"description": "Earn yield on WETH through KPK-curated fixed-rate ETH term markets, with borrow rates set monthly from a benchmark ETH staking rate, plus a complementary variable-rate allocation for withdrawal liquidity.\n\nWithdrawals process when liquidity is available; most go through immediately, larger redemptions may need to wait until borrowers unwind at month-end. See the withdrawal mechanics on [docs.kpk.io](https://docs.kpk.io)."
+	},
+	{
 		"address": "0x49C5733d71511A78a3E12925ea832f49031c97e9",
 		"deprecated": true,
 		"deprecationReason": "Deprecated due to exposure to the insolvent positions held by Stream.",
@@ -25,5 +33,9 @@
 		"deprecated": true,
 		"deprecationReason": "Deprecated due to exposure to the insolvent positions held by Stream.",
 		"notExplorable": true
+	},
+	{
+		"address": "0x018b86A893F57a632F90c4A8308353Ac938adc01",
+		"description": "Yield-bearing USDC vault curated by JPEG Trading. Deposits are lent into the JPEG Trading x Tenbin RWAs market, collateralized by Tenbin tGLD."
 	}
 ]

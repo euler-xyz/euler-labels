@@ -44,7 +44,12 @@
 			"0x46E57D0dE266638C8339689be04B038049Be3812"
 		],
 		"deprecationReason": "Deprecated due to exposure to the Resolv security incident.",
-		"notExplorable": true
+		"notExplorable": true,
+		"vaultOverrides": {
+			"0x05d28A86E057364F6ad1a88944297E58Fc6160b3": {
+				"portfolioNotice": "(i) In winddown of Euler DAO managed markets the Euler Foundation observed the deficiency in an Euler managed vault.\n(ii) The Euler Foundation determined the most expedient response in this circumstance was to inject value to replace the defective collateral.\n(iii) This is not an admission of liability by the Euler Foundation and does not establish any precedent for any future circumstances relating to the Euler platform, protocol or token or any vault regardless of curator."
+			}
+		}
 	},
 	"k3-theo": {
 		"name": "K3 Capital Theo Market",
@@ -62,11 +67,14 @@
 		"description": "A lending and borrowing market for selected collateral, configured by AlphaGrowth.",
 		"entity": ["alphagrowth"],
 		"url": "https://alphagrowth.io/",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0x124BeC4d119bc4B5d250f0b0114f2087f8EeDB57",
 			"0x4aD21eBbB639c21ccd9F1eaF388Cd91D015E02ee",
 			"0x8Ca487811a5e7599A5c68F49Ac1fE348371e4c46",
 			"0x06b763aA769ad01F6859a56c5a856E47896e6a7F"
-		]
+		],
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true
 	}
 }

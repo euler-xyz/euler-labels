@@ -55,7 +55,7 @@
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true,
-		"isGovernanceLimited": true
+		"tags": ["governance limited"]
 	},
 	"alphagrowth-yo-yousd": {
 		"name": "AlphaGrowth YO yoUSD Market",
@@ -94,14 +94,28 @@
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
-	"alphagrowth-base": {
-		"name": "AlphaGrowth Base Vaults",
-		"description": "A lending and borrowing market for selected collateral, configured by AlphaGrowth.",
+	"alphagrowth-base-rwa": {
+		"name": "AlphaGrowth Base RWA",
+		"description": "A Base market for reUSD and USDC, configured by AlphaGrowth.",
 		"entity": ["alphagrowth"],
 		"url": "https://alphagrowth.io/",
 		"vaults": [
 			"0x81744B5B5527852832F2dd3554C191d3B1342108",
 			"0x4C1aeda9B43EfcF1da1d1755b18802aAbe90f61E"
+		]
+	},
+	"alphagrowth-base-ai": {
+		"name": "AlphaGrowth Base AI",
+		"description": "A Base market for VVV, VIRTUAL, ZRO, AERO, WETH, and USDC, configured by AlphaGrowth.",
+		"entity": ["alphagrowth"],
+		"url": "https://alphagrowth.io/",
+		"vaults": [
+			"0x13632ED686495b1F5E7F81dcc5977AB55aAb98A4",
+			"0x6aE4eCc3C9467c587AA4953365E0d8454fe77EF1",
+			"0xcf8f0E47Cd510938FDD445Cf1A24108A681743A6",
+			"0x9F876520F1937D4B4f6F4DefE29fa5EA6d4526d0",
+			"0xC64FD6138f980a5587412dAC75E04363046aE32E",
+			"0xEef57677c2FC1a930eed234E3545e750C88f6743"
 		]
 	},
 	"clearstar-rwa": {
@@ -114,14 +128,36 @@
 			"0x0a6Af3A75BB350Fb1a402B70138B9820Cf0CA0Cb"
 		]
 	},
-	"clearstar-eth-fusion": {
-		"name": "Clearstar ETH Fusion",
+	"clearstar-fusion": {
+		"name": "Clearstar Fusion",
 		"description": "A market for cbAssets, configured by Clearstar Labs.",
 		"entity": "clearstar",
 		"vaults": [
 			"0x60C61a47804283a514bFCDF163138b7528720D0F",
 			"0xDc4eFB20ce286B421F6361734a2A006a1f24Af8D",
-			"0x91A9ED5d4368499B1fE41f721aB13e64760B3F05"
+			"0x91A9ED5d4368499B1fE41f721aB13e64760B3F05",
+			"0x6d6021ff46b0d4B800c210Aab3aD10B9E3E53113",
+			"0x82d49919d3Ea4323cd96f9C6E41d9386F36439B2",
+			"0x779225f3d7b6feD3ae3B140815fD338BA974E2C6",
+			"0xB45e4F1003d11a563Bc4f7486edFaFd7dfaa8B4a"
+		]
+	},
+	"clearstar-noon": {
+		"name": "Clearstar Noon",
+		"description": "An isolated market for Noon sUSN collateral, configured by Clearstar Labs.",
+		"entity": "clearstar",
+		"vaults": [
+			"0xa6Ad67c0C6c2275B616Fcc81C55DDd76195fCF86",
+			"0x07954BEB7e137101A7cbb3e47864C684aEC50524"
+		]
+	},
+	"clearstar-re": {
+		"name": "Clearstar Re",
+		"description": "An isolated market for Re Protocol reUSD collateral, configured by Clearstar Labs.",
+		"entity": "clearstar",
+		"vaults": [
+			"0x16b4438011dbB876Ae004b9515435D732CeacbfD",
+			"0x7C1487bde1ec32B5AC47F4c3abA269Bf43Bf8F53"
 		]
 	}
 }
