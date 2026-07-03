@@ -48,10 +48,13 @@
 		"name": "EUL Lending",
 		"description": "An isolated market for EUL token swaps, configured by Euler DAO. This market has limited active risk management.",
 		"entity": ["euler-dao"],
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0x74034eb8d5B2E480825263A975E4CF82A081c959",
 			"0xBEf0c894aB4020DCD533FD753BF427662F3F7ABe"
 		],
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true,
 		"tags": ["governance limited"]
 	},
 	"frontier-renzo": {
