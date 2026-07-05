@@ -16,6 +16,18 @@
 			"github": "euler-xyz"
 		}
 	},
+	"alphagrowth": {
+		"name": "AlphaGrowth",
+		"logo": "alphagrowth.svg",
+		"description": "AlphaGrowth is a third-party curator using Euler infrastructure to configure lending markets and structured DeFi products. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+		"url": "https://alphagrowth.io/",
+		"addresses": {
+			"0x4f894Bfc9481110278C356adE1473eBe2127Fd3C": "AlphaGrowth governor multisig"
+		},
+		"social": {
+			"twitter": "alphagrowth1"
+		}
+	},
 	"clearstar": {
 		"name": "Clearstar",
 		"logo": "clearstar.svg",

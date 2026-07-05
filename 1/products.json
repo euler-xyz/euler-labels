@@ -48,10 +48,13 @@
 		"name": "EUL Lending",
 		"description": "An isolated market for EUL token swaps, configured by Euler DAO. This market has limited active risk management.",
 		"entity": ["euler-dao"],
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0x74034eb8d5B2E480825263A975E4CF82A081c959",
 			"0xBEf0c894aB4020DCD533FD753BF427662F3F7ABe"
 		],
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true,
 		"tags": ["governance limited"]
 	},
 	"frontier-renzo": {
@@ -989,5 +992,24 @@
 			}
 		},
 		"tags": ["access control", "cyclical note"]
+	},
+	"clearstar-openeden-hybond": {
+		"name": "Clearstar OpenEden Hybond",
+		"description": "An isolated market for OpenEden HYBOND bond-fund collateral, curated by Clearstar Labs.",
+		"entity": "clearstar",
+		"vaults": [
+			"0xa10BDC927D70325326D71Fa7971F7B0e4aFFf702",
+			"0xF26c68e6D26F725858e7CC353Ee30E43AdF0b732"
+		]
+	},
+	"tgld-usdc": {
+		"name": "JPEG Trading x Tenbin RWAs",
+		"description": "A lending and borrowing market for USDC accepting Tenbin collateral, configured by JPEG Trading.",
+		"entity": "jpeg-trading",
+		"url": "http://jpeg-trading.com/",
+		"vaults": [
+			"0x0120c2748545a4D9C875CDdFB439f786d6f1B460",
+			"0xb57320b253363bf749D5CE6e66592FDC74cce6f7"
+		]
 	}
 }

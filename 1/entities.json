@@ -204,7 +204,8 @@
 		"url": "https://www.clearstar.xyz/",
 		"addresses": {
 			"0x30988479C2E6a03E7fB65138b94762D41a733458": "Curator Wallet 1 (ForDeFi MPC)",
-			"0x72882eb5D27C7088DFA6DDE941DD42e5d184F0ef": "Curator Wallet 2 (ForDeFi MPC)"
+			"0x72882eb5D27C7088DFA6DDE941DD42e5d184F0ef": "Curator Wallet 2 (ForDeFi MPC)",
+			"0xb3CF59A5f12cA319861376C5e63Eef4790a42B44": "Curator Multisig"
 		},
 		"social": {
 			"twitter": "ClearstarLabs"
@@ -343,6 +344,18 @@
 		},
 		"social": {
 			"twitter": "Securitize"
+		}
+	},
+	"jpeg-trading": {
+		"name": "JPEG Trading",
+		"logo": "jpeg-trading.svg",
+		"description": "JPEG Trading is a third-party curator using Euler infrastructure to configure isolated lending markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+		"url": "https://jpeg-trading.com/",
+		"addresses": {
+			"0xA09029c70928233CB59bDbAa09C7bA09374A18D8": "JPEG Trading Vault & Oracle Router Governor"
+		},
+		"social": {
+			"twitter": "JPEGTrading"
 		}
 	}
 }
