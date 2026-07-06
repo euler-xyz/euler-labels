@@ -110,7 +110,7 @@
 		]
 	},
 	"poppie-ondo-bsc": {
-		"name": "Ondo Markets",
+		"name": "Poppie Ondo Markets",
 		"description": "A set of BSC lending markets for Ondo tokenized equity and ETF assets, configured by Poppie.",
 		"entity": "poppie",
 		"url": "https://poppie.io",
