@@ -63,7 +63,7 @@
 	"poppie": {
 		"name": "Poppie",
 		"logo": "poppie.svg",
-		"description": "Poppie Finance is a Euler curator that focuses on RWAs. The curator is responsible for oracle configuration, vault parameter management, and risk monitoring.",
+		"description": "Poppie is a third-party curator using Euler infrastructure to configure vaults focused on tokenized real-world assets. The curator is responsible for oracle configuration, vault parameters, and updates to its configured markets.",
 		"url": "https://poppie.io",
 		"addresses": {
 			"0x1Fd3aFC21f378eE279646e6C1a59EF57896646B9": "Poppie Governor",
