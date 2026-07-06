@@ -109,9 +109,9 @@
 			"0x95C5Fd8618C68D6156A739C1EAb5aA7c807ff148"
 		]
 	},
-	"poppie-ondo-bsc": {
-		"name": "Poppie Ondo Markets",
-		"description": "Lending markets for Ondo tokenized assets on BSC. Borrow USDT against tokenized US equities and ETFs.",
+	"-ondo-bsc": {
+		"name": " Ondo Markets",
+		"description": "A set of BSC lending markets for Ondo tokenized equity and ETF assets, configured by Poppie.",
 		"entity": "poppie",
 		"url": "https://poppie.io",
 		"vaults": [
