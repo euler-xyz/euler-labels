@@ -712,14 +712,20 @@
 		"notExplorable": true
 	},
 	"alphagrowth-mapollo": {
-		"name": "AlphaGrowth mAPOLLO",
-		"description": "An isolated market for mAPOLLO ecosystem assets, configured by AlphaGrowth.",
+		"name": "AlphaGrowth Mainnet RWA",
+		"description": "A lending and borrowing market for mAPOLLO, PAXG, reUSD, reUSDe, USDat, sUSDat, configured by AlphaGrowth.",
 		"entity": ["alphagrowth"],
 		"url": "https://alphagrowth.io/",
 		"vaults": [
 			"0x2a356443FeE07703266066c6Bb1B11b82d8246AD",
 			"0xC11d6b78D8c609A6cbf66E89DBfea06b011B0AEf",
-			"0x49d9fd20f1d61648Fa9434a8c0C33174F5614eB8"
+			"0x49d9fd20f1d61648Fa9434a8c0C33174F5614eB8",
+			"0x05E09415398659B19C5aeF202289270B37F1Fb31",
+			"0xd5020aad0CF1aB6F1c020Ba8b14B37e5Fb869F5B",
+			"0x7FDb59A3232F435c50B9108361E38674e25da87c",
+			"0x72a6D005374DB6B7975Fb5768A1802F5c0979474",
+			"0xF81b08Cb4669049049B9C2A38c7D27d480655Bb3",
+			"0xd4CCf87cBfe6c1f1390706667917b5FD3Ceb43BB"
 		]
 	},
 	"hyperithm-mhyper": {
