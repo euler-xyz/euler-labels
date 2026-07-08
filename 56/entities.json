@@ -59,5 +59,18 @@
 		"social": {
 			"twitter": "Re7Labs"
 		}
+	},
+	"poppie": {
+		"name": "Poppie",
+		"logo": "poppie.svg",
+		"description": "Poppie is a third-party curator using Euler infrastructure to configure vaults focused on tokenized real-world assets. The curator is responsible for oracle configuration, vault parameters, and updates to its configured markets.",
+		"url": "https://poppie.io",
+		"addresses": {
+			"0x1Fd3aFC21f378eE279646e6C1a59EF57896646B9": "Poppie Governor",
+			"0xd2e0d0Bf42F0f0bd094a587bB1Fa7e03Ff224E6d": "Poppie Safe"
+		},
+		"social": {
+			"twitter": "poppiefinance"
+		}
 	}
 }
