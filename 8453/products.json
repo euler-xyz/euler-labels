@@ -96,12 +96,15 @@
 	},
 	"alphagrowth-base-rwa": {
 		"name": "AlphaGrowth Base RWA",
-		"description": "A Base market for reUSD and USDC, configured by AlphaGrowth.",
+		"description": "A Base market for the selected RWA assets, configured by AlphaGrowth.",
 		"entity": ["alphagrowth"],
 		"url": "https://alphagrowth.io/",
 		"vaults": [
 			"0x81744B5B5527852832F2dd3554C191d3B1342108",
-			"0x4C1aeda9B43EfcF1da1d1755b18802aAbe90f61E"
+			"0x4C1aeda9B43EfcF1da1d1755b18802aAbe90f61E",
+			"0xd54d33dA9C326AEE7513cEFdedA5c93a41809caD",
+			"0xD864d46c62685A6062A722AFD7C8c978c410aAaF",
+			"0x2645CBAF62F2f336B0e988375d7e6bCAb66A296C"
 		]
 	},
 	"alphagrowth-base-ai": {
