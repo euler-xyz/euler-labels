@@ -636,7 +636,9 @@
 			"0x6Fe7Fa90756434645F0b0428fDff78E99Dda0FBc",
 			"0x55F9bACE2C864aC0D3392Ea9fa654b605F21A3d3",
 			"0xb7522C867B8AFae5e89638b59fb38f31B0821795"
-		]
+		],
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true
 	},
 	"frontier-asymmetry": {
 		"name": "Frontier Asymmetry",
