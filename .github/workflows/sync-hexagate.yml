@@ -44,7 +44,7 @@ jobs:
       # Always check out the BASE repository — trusted scripts, lockfile, configs.
       # PR-controlled code (hexagate-sync.js, verify.js, package*.json, etc.) is
       # NEVER placed where node will execute it with HEXAGATE_API_KEY in scope.
-      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           persist-credentials: false
 
@@ -74,7 +74,7 @@ jobs:
       # the passive data directories ([0-9]+/, all/, logo/) out of it. JS,
       # package.json, package-lock.json, biome.json, etc. are discarded.
       - name: Stage PR head in isolated path
-        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           path: __pr
@@ -130,7 +130,7 @@ jobs:
 
       - name: Comment PR with diff
         if: always()
-        uses: marocchino/sticky-pull-request-comment@0ea0beb66eb9baf113663a64ec522f60e49231c0 # v2
+        uses: marocchino/sticky-pull-request-comment@5770ad5eb8f42dd2c4f34da00c94c5381e49af88 # v2
         with:
           header: hexagate-sync
           path: sync-output.md
@@ -150,7 +150,7 @@ jobs:
       contents: read
 
     steps:
-      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           persist-credentials: false
 
