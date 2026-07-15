@@ -713,7 +713,7 @@
 	},
 	"alphagrowth-mapollo": {
 		"name": "AlphaGrowth Mainnet RWA",
-		"description": "A lending and borrowing market for mAPOLLO, PAXG, reUSD, reUSDe, and USDS, configured by AlphaGrowth.",
+		"description": "A lending and borrowing market for PAXG, mAPOLLO, reUSD, and reUSDe, configured by AlphaGrowth.",
 		"entity": ["alphagrowth"],
 		"url": "https://alphagrowth.io/",
 		"vaults": [
