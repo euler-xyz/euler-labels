@@ -318,5 +318,14 @@
 			"0x0F9bA9d0f2F9289efBC2b8505932b458C3CDCf64",
 			"0xa8120B07af194e724803e23F75AAfb2E0cD7caaA"
 		]
+	},
+	"k3-isolated-weeth-weth": {
+		"name": "K3 Isolated weETH-WETH",
+		"description": "An isolated market for weETH and WETH, configured by K3 Capital.",
+		"entity": ["k3-capital"],
+		"vaults": [
+			"0xB4f2BCd6dD41cE350d3C80d99F5a965867fBdff1",
+			"0xA5B409b5A930AfC49d016Da10BBfCcc183396Ca2"
+		]
 	}
 }
