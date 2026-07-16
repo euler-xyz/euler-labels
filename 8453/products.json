@@ -148,7 +148,8 @@
 		"entity": "clearstar",
 		"vaults": [
 			"0xa6Ad67c0C6c2275B616Fcc81C55DDd76195fCF86",
-			"0x07954BEB7e137101A7cbb3e47864C684aEC50524"
+			"0x07954BEB7e137101A7cbb3e47864C684aEC50524",
+			"0xb82FfabE9C1a95619ff24E21ccaf05A933c3b206"
 		]
 	},
 	"clearstar-re": {
