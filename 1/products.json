@@ -1017,5 +1017,17 @@
 			"0x0120c2748545a4D9C875CDdFB439f786d6f1B460",
 			"0xb57320b253363bf749D5CE6e66592FDC74cce6f7"
 		]
+	},
+	"keyring-institutional": {
+		"name": "Keyring Institutional Cluster",
+		"description": "A Keyring-gated lending market for institutional RWA collateral (mGLOBAL) against USDC and USDT.",
+		"entity": "keyring",
+		"url": "https://keyring.network/",
+		"vaults": [
+			"0x2BE1acAA1B37A769A4618bbfCd35d9ea54133065",
+			"0xa45EAc8E33168cefa0b225F500E6d93D43B8f1AF",
+			"0xAc193c221a2e22990f36Fd388C2974eE2eb0FF50"
+		],
+		"tags": ["keyring"]
 	}
 }
