@@ -636,7 +636,9 @@
 			"0x6Fe7Fa90756434645F0b0428fDff78E99Dda0FBc",
 			"0x55F9bACE2C864aC0D3392Ea9fa654b605F21A3d3",
 			"0xb7522C867B8AFae5e89638b59fb38f31B0821795"
-		]
+		],
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true
 	},
 	"frontier-asymmetry": {
 		"name": "Frontier Asymmetry",
@@ -712,14 +714,18 @@
 		"notExplorable": true
 	},
 	"alphagrowth-mapollo": {
-		"name": "AlphaGrowth mAPOLLO",
-		"description": "An isolated market for mAPOLLO ecosystem assets, configured by AlphaGrowth.",
+		"name": "AlphaGrowth Mainnet RWA",
+		"description": "A lending and borrowing market for PAXG, mAPOLLO, reUSD, and reUSDe, configured by AlphaGrowth.",
 		"entity": ["alphagrowth"],
 		"url": "https://alphagrowth.io/",
 		"vaults": [
 			"0x2a356443FeE07703266066c6Bb1B11b82d8246AD",
 			"0xC11d6b78D8c609A6cbf66E89DBfea06b011B0AEf",
-			"0x49d9fd20f1d61648Fa9434a8c0C33174F5614eB8"
+			"0x49d9fd20f1d61648Fa9434a8c0C33174F5614eB8",
+			"0x05E09415398659B19C5aeF202289270B37F1Fb31",
+			"0x72a6D005374DB6B7975Fb5768A1802F5c0979474",
+			"0xF81b08Cb4669049049B9C2A38c7D27d480655Bb3",
+			"0xd4CCf87cBfe6c1f1390706667917b5FD3Ceb43BB"
 		]
 	},
 	"hyperithm-mhyper": {
