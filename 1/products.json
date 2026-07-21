@@ -1021,6 +1021,7 @@
 			"0x2BE1acAA1B37A769A4618bbfCd35d9ea54133065",
 			"0xa45EAc8E33168cefa0b225F500E6d93D43B8f1AF",
 			"0xAc193c221a2e22990f36Fd388C2974eE2eb0FF50"
-		]
+		],
+		"tags": ["keyring"]
 	}
 }
