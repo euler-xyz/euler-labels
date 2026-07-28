@@ -105,6 +105,8 @@
 			"0xd54d33dA9C326AEE7513cEFdedA5c93a41809caD",
 			"0xD864d46c62685A6062A722AFD7C8c978c410aAaF",
 			"0x2645CBAF62F2f336B0e988375d7e6bCAb66A296C"
+		],
+		"block": ["GB", "US"]
 		]
 	},
 	"alphagrowth-base-ai": {
