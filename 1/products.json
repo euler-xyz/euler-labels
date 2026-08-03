@@ -475,7 +475,8 @@
 	"keyring": {
 		"name": "Keyring zkVerified Cluster",
 		"entity": "keyring",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0x10e0B2B42874ADF8c29D5F900c0D18b61f048ffb",
 			"0xB6c9363DB7D651106Da38C68F34253688Fa25cda",
 			"0x33e97864E44631e6d31b81051DAABcD4C31bF792",
@@ -487,6 +488,8 @@
 			"0x67695A8e976E25D5939aD31297DFCFfC8d050eA0",
 			"0x54Fcb10F9506cf8d16D75346e398539F029240Bd"
 		],
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true,
 		"tags": ["keyring"]
 	},
 	"frontier-upshift": {
