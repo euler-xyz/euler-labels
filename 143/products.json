@@ -298,6 +298,15 @@
 			"0x19CE855d819B2a753d4CEcfFff9dCAac721f1FbB"
 		]
 	},
+	"hyperithm-mhyperbtc": {
+		"name": "Hyperithm mHyperBTC",
+		"description": "An isolated market dedicated to mHyperBTC and other BTC correlated assets.",
+		"entity": ["hyperithm"],
+		"vaults": [
+			"0x7d05F99d19bc46215a0a2E2A421174B8F44772B5",
+			"0xa0752257825A6444c48d71796BF657B2AFb1A212"
+		]
+	},
 	"valos-vusd-ausd": {
 		"name": "Valos vUSD/AUSD Market",
 		"description": "Euler market for Valos evUSD and eAUSD.",
