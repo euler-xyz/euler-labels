@@ -80,7 +80,7 @@
 		"description": "Turtle is a third-party curator using Euler infrastructure to configure vaults connected to liquidity distribution strategies. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://turtle.xyz/",
 		"addresses": {
-			"0x2631b5260715ec9F1211EF0Fb10c702922038B63": "Turtle Multisig"
+			"0x2631b5260715ec9F1211EF0Fb10c702922038B63": "Turtle MPC wallet"
 		},
 		"social": {
 			"twitter": "turtledotxyz"

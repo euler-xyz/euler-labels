@@ -69,6 +69,7 @@
 		"url": "https://www.hyperithm.com/",
 		"addresses": {
 			"0x75178137D3B4B9A0F771E0e149b00fB8167BA325": "Hyperithm MPC wallet",
+			"0xEe7E9bb21D5589BF657b94083dB2fA349a3918C8": "Hyperithm Multi-sig",
 			"0xdE9014cEbbfe9575B321cbE0197Dce2D1f3Eb9A8": "Hyperithm 1-day Timelock Controller"
 		},
 		"social": {

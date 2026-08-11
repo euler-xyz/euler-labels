@@ -328,6 +328,15 @@
 			"0xa8120B07af194e724803e23F75AAfb2E0cD7caaA"
 		]
 	},
+	"k3-isolated-gausd-ausd": {
+		"name": "K3 Isolated gAUSD-AUSD",
+		"description": "An isolated market for gAUSD and AUSD, configured by K3 Capital.",
+		"entity": ["k3-capital"],
+		"vaults": [
+			"0xe04Dc24524Df8b25F341b9B451b89C91253BAa7a",
+			"0x4a798Ef3A5846Af8E04de317dD7F3612A47FFa99"
+		]
+	},
 	"k3-isolated-weeth-weth": {
 		"name": "K3 Isolated weETH-WETH",
 		"description": "An isolated market for weETH and WETH, configured by K3 Capital.",
