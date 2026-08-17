@@ -328,6 +328,15 @@
 			"0xA5B409b5A930AfC49d016Da10BBfCcc183396Ca2"
 		]
 	},
+	"k3-isolated-syzusd-usdt": {
+		"name": "K3 Isolated syzUSD-USDT0",
+		"description": "An isolated market for syzUSD and USDT0, configured by K3 Capital.",
+		"entity": ["k3-capital"],
+		"vaults": [
+			"0x0d2dd4B4e3527BCC65cAb3Dbd05B24c5f61be59f",
+			"0xCF450973deE1eE41cB708496BF73F34324180035"
+		]
+	},
 	"k3-isolated-pt-usdat-14jan2027-usdc": {
 		"name": "K3 Isolated PT-USDAT-14JAN2027-USDC",
 		"description": "An isolated market for PT-USDAT-14JAN2027 and USDC, configured by K3 Capital.",
