@@ -997,15 +997,21 @@
 		"vaultOverrides": {
 			"0xCf4846E0d8A8667c516B844EB72A4d6e7430101D": {
 				"name": "VBILL Collateral Vault",
-				"description": "Securitize-issued collateral vault for VBILL, a tokenised US Treasury fund. Holders deposit VBILL to mint shares that can be posted as collateral in the VBILL/USDC market on Euler. Governed by Securitize; access is limited to eligible, KYC-approved users."
+				"description": "Securitize-issued collateral vault for VBILL, a tokenised US Treasury fund. Holders deposit VBILL to mint shares that can be posted as collateral in the VBILL/USDC market on Euler. Governed by Securitize; access is limited to eligible, KYC-approved users.",
+				"notExplorableLend": true,
+				"notExplorableBorrow": true
 			},
 			"0x1cFC56665c2718454e8dDf975dC37aF0bc68B5aA": {
 				"name": "STAC Collateral Vault",
-				"description": "Securitize-issued collateral vault for STAC, a tokenised AAA CLO fund. Holders deposit STAC to mint shares that can be posted as collateral in the STAC/USDC market on Euler. Governed by Securitize; access is limited to eligible, KYC-approved users."
+				"description": "Securitize-issued collateral vault for STAC, a tokenised AAA CLO fund. Holders deposit STAC to mint shares that can be posted as collateral in the STAC/USDC market on Euler. Governed by Securitize; access is limited to eligible, KYC-approved users.",
+				"notExplorableLend": true,
+				"notExplorableBorrow": true
 			},
 			"0x4ab4bEab100d028deCB6835c8f6916031D73793e": {
 				"name": "HINC Collateral Vault",
 				"description": "Securitize-issued collateral vault for HINC, a tokenised high-yield credit fund sub-advised by Neuberger Berman. Holders deposit HINC to mint shares that can be posted as collateral in the HINC/USDC market on Euler. Access is limited to eligible, KYC-approved users, enforced by Securitize as transfer agent at the token level.",
+				"notExplorableLend": true,
+				"notExplorableBorrow": true,
 				"tags": ["recently added"]
 			}
 		}
