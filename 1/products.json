@@ -475,7 +475,8 @@
 	"keyring": {
 		"name": "Keyring zkVerified Cluster",
 		"entity": "keyring",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0x10e0B2B42874ADF8c29D5F900c0D18b61f048ffb",
 			"0xB6c9363DB7D651106Da38C68F34253688Fa25cda",
 			"0x33e97864E44631e6d31b81051DAABcD4C31bF792",
@@ -487,6 +488,8 @@
 			"0x67695A8e976E25D5939aD31297DFCFfC8d050eA0",
 			"0x54Fcb10F9506cf8d16D75346e398539F029240Bd"
 		],
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true,
 		"tags": ["keyring"]
 	},
 	"frontier-upshift": {
@@ -688,7 +691,18 @@
 			"0x0f080Bf8Ba818001EcfB2f461708D8484323D0cE"
 		],
 		"deprecationReason": "Deprecated due to exposure to insolvent positions held by Stream. Contact TelosC for information about future redemption.",
-		"notExplorable": true
+		"notExplorable": true,
+		"vaultOverrides": {
+			"0x01864aE3c7d5f507cC4c24cA67B4CABbDdA37EcD": {
+				"portfolioNotice": "Stream is collecting and confirming information regarding potential creditors and claimants. If you were exposed through this vault and have not already provided this information, [use Stream's updated form](https://forms.streamsoftrestructuring.com/) promptly and identify Euler/TelosC in your submission. Do not submit again if you already did. Submission does not establish or confirm any claim, entitlement, or right to payment."
+			},
+			"0x211711F277f146fC947D7053B41BB71BB5b5FC2C": {
+				"portfolioNotice": "Stream is collecting and confirming information regarding potential creditors and claimants. If you were exposed through this vault and have not already provided this information, [use Stream's updated form](https://forms.streamsoftrestructuring.com/) promptly and identify Euler/TelosC in your submission. Do not submit again if you already did. Submission does not establish or confirm any claim, entitlement, or right to payment."
+			},
+			"0x038dd0Eb275B7DE3B07884f1Fa106eD6423C45F2": {
+				"portfolioNotice": "Stream is collecting and confirming information regarding potential creditors and claimants. If you were exposed through this vault and have not already provided this information, [use Stream's updated form](https://forms.streamsoftrestructuring.com/) promptly and identify Euler/TelosC in your submission. Do not submit again if you already did. Submission does not establish or confirm any claim, entitlement, or right to payment."
+			}
+		}
 	},
 	"horizon-clearstar": {
 		"name": "Horizon Clearstar",
