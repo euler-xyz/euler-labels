@@ -35,11 +35,12 @@
 		"name": "Euler RWA",
 		"description": "A lending and borrowing market for real-world asset collateral, configured by Euler DAO.",
 		"entity": ["euler-dao"],
-		"vaults": ["0xC51e90b48FD7fBfF316502b85A71e0EBb1ee5238"],
+		"vaults": [],
 		"deprecatedVaults": [
 			"0xEA79E49A076a75A9bF6013505C2B92eED69E4fe1",
 			"0xabBe766f216f689818C3A1f98647cE4E41495325",
-			"0x155d4A34938dcB27486f5Bbf6a19d19D0ef0DD8A"
+			"0x155d4A34938dcB27486f5Bbf6a19d19D0ef0DD8A",
+			"0xC51e90b48FD7fBfF316502b85A71e0EBb1ee5238"
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
