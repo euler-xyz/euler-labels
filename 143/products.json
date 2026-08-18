@@ -354,5 +354,14 @@
 			"0x0d2dd4B4e3527BCC65cAb3Dbd05B24c5f61be59f",
 			"0xCF450973deE1eE41cB708496BF73F34324180035"
 		]
+	},
+	"k3-isolated-pt-usdat-14jan2027-usdc": {
+		"name": "K3 Isolated PT-USDAT-14JAN2027-USDC",
+		"description": "An isolated market for PT-USDAT-14JAN2027 and USDC, configured by K3 Capital.",
+		"entity": ["k3-capital"],
+		"vaults": [
+			"0xb9bb31debCE3F6a7a7d916AeF2E49810c9685CEe",
+			"0x06047833d9aAC144f7F4e9B8234D2c7DDA1a8BAf"
+		]
 	}
 }
