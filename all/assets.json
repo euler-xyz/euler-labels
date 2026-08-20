@@ -1,5 +1,30 @@
 [
 	{
+		"symbols": ["SPCXB", "MSFTB", "MUB", "NVDAB", "QQQB", "SNDKB", "SPYB"],
+		"block": ["CA", "US", "GU", "MP", "PR", "VI", "AS", "UM"],
+		"restricted": [
+			"EEA",
+			"GB",
+			"GG",
+			"JE",
+			"IM",
+			"GI",
+			"AX",
+			"AE",
+			"AU",
+			"BH",
+			"HK",
+			"ID",
+			"JP",
+			"KZ",
+			"NZ",
+			"PH",
+			"SG",
+			"TH",
+			"TR"
+		]
+	},
+	{
 		"nameRegex": "^ondo($| )|\\(ondo tokenized\\)",
 		"block": ["CA", "US"],
 		"restricted": ["EU", "EFTA", "BR", "HK", "MY", "SG", "GB"]
