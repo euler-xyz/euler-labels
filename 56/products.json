@@ -155,5 +155,75 @@
 			"0x4D49A899a79c771586956b1BBf57Db734A8436B1"
 		],
 		"block": ["CA", "US"]
+	},
+	"k3-isolated-spcxb-usdt": {
+		"name": "K3 Isolated SPCXB-USDT",
+		"description": "An isolated market for SPCXB and USDT, configured by K3 Capital.",
+		"entity": ["k3-capital"],
+		"vaults": [
+			"0x3e998937a4F956e3c93F67dE5f68384609E4046A",
+			"0x8575A2f53c7812D29813E959cbfE6f428A2bFCa5"
+		],
+		"block": ["CA", "US"]
+	},
+	"k3-isolated-msftb-usdt": {
+		"name": "K3 Isolated MSFTB-USDT",
+		"description": "An isolated market for MSFTB and USDT, configured by K3 Capital.",
+		"entity": ["k3-capital"],
+		"vaults": [
+			"0xDB321d29F388f231419518cD4023Fc57AE9fc668",
+			"0xeD12CE0Ac3EfFfBf3b277AB5B7Abc6E5f5B4DA98"
+		],
+		"block": ["CA", "US"]
+	},
+	"k3-isolated-mub-usdt": {
+		"name": "K3 Isolated MUB-USDT",
+		"description": "An isolated market for MUB and USDT, configured by K3 Capital.",
+		"entity": ["k3-capital"],
+		"vaults": [
+			"0x2f57F613CfcEDEaaAb893800B4e7202f34B6bC72",
+			"0x63BDBb68592D486DFa2Aefc18875Df285c56B976"
+		],
+		"block": ["CA", "US"]
+	},
+	"k3-isolated-nvdab-usdt": {
+		"name": "K3 Isolated NVDAB-USDT",
+		"description": "An isolated market for NVDAB and USDT, configured by K3 Capital.",
+		"entity": ["k3-capital"],
+		"vaults": [
+			"0x153cF5099966837ACf384F3d0cBd0dc47c11a8b8",
+			"0xDF4BDe3F4D501E447d899b35Ad4D654B6346fD67"
+		],
+		"block": ["CA", "US"]
+	},
+	"k3-isolated-qqqb-usdt": {
+		"name": "K3 Isolated QQQB-USDT",
+		"description": "An isolated market for QQQB and USDT, configured by K3 Capital.",
+		"entity": ["k3-capital"],
+		"vaults": [
+			"0x699616E145397400A90fa3d5f394BE6069d35B13",
+			"0xBC85eE10F320787c9F9d5898D8B6e13980a35E22"
+		],
+		"block": ["CA", "US"]
+	},
+	"k3-isolated-sndkb-usdt": {
+		"name": "K3 Isolated SNDKB-USDT",
+		"description": "An isolated market for SNDKB and USDT, configured by K3 Capital.",
+		"entity": ["k3-capital"],
+		"vaults": [
+			"0x0e6baA80060576405eA99E4cc78Fc9093EF80fA8",
+			"0x110305f4ab2E4D352aE19CC669f74800143FdB06"
+		],
+		"block": ["CA", "US"]
+	},
+	"k3-isolated-spyb-usdt": {
+		"name": "K3 Isolated SPYB-USDT",
+		"description": "An isolated market for SPYB and USDT, configured by K3 Capital.",
+		"entity": ["k3-capital"],
+		"vaults": [
+			"0x034b6738E4f1010ce1A7364e3DB32d9948c2e086",
+			"0x1eC4eDF4fB939131Dc1628aD61F24c2d3c60132B"
+		],
+		"block": ["CA", "US"]
 	}
 }
