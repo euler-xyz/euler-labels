@@ -108,7 +108,12 @@
 			"0x138c289Bb8b855CF271305C8bcf91DC31Ba30194"
 		],
 		"deprecationReason": "Deprecated due to exposure to the insolvent positions held by Stream.",
-		"notExplorable": true
+		"notExplorable": true,
+		"vaultOverrides": {
+			"0x57c582346B7d49A46Af3745A8278917D1c1311b8": {
+				"portfolioNotice": "Stream is collecting and confirming information regarding potential creditors and claimants. If you were exposed through this vault and have not already provided this information, [use Stream's updated form](https://forms.streamsoftrestructuring.com/) promptly and identify Euler/TelosC in your submission. Do not submit again if you already did. Submission does not establish or confirm any claim, entitlement, or right to payment."
+			}
+		}
 	},
 	"edge-capital-core-cluster": {
 		"name": "Edge UltraYield Cluster",

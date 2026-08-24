@@ -298,6 +298,15 @@
 			"0x19CE855d819B2a753d4CEcfFff9dCAac721f1FbB"
 		]
 	},
+	"hyperithm-mhyperbtc": {
+		"name": "Hyperithm mHyperBTC",
+		"description": "An isolated market dedicated to mHyperBTC and other BTC correlated assets.",
+		"entity": ["hyperithm"],
+		"vaults": [
+			"0x7d05F99d19bc46215a0a2E2A421174B8F44772B5",
+			"0xa0752257825A6444c48d71796BF657B2AFb1A212"
+		]
+	},
 	"valos-vusd-ausd": {
 		"name": "Valos vUSD/AUSD Market",
 		"description": "Euler market for Valos evUSD and eAUSD.",
@@ -319,6 +328,15 @@
 			"0xa8120B07af194e724803e23F75AAfb2E0cD7caaA"
 		]
 	},
+	"k3-isolated-gausd-ausd": {
+		"name": "K3 Isolated gAUSD-AUSD",
+		"description": "An isolated market for gAUSD and AUSD, configured by K3 Capital.",
+		"entity": ["k3-capital"],
+		"vaults": [
+			"0xe04Dc24524Df8b25F341b9B451b89C91253BAa7a",
+			"0x4a798Ef3A5846Af8E04de317dD7F3612A47FFa99"
+		]
+	},
 	"k3-isolated-weeth-weth": {
 		"name": "K3 Isolated weETH-WETH",
 		"description": "An isolated market for weETH and WETH, configured by K3 Capital.",
@@ -335,6 +353,15 @@
 		"vaults": [
 			"0x0d2dd4B4e3527BCC65cAb3Dbd05B24c5f61be59f",
 			"0xCF450973deE1eE41cB708496BF73F34324180035"
+		]
+	},
+	"k3-isolated-pt-usdat-14jan2027-usdc": {
+		"name": "K3 Isolated PT-USDAT-14JAN2027-USDC",
+		"description": "An isolated market for PT-USDAT-14JAN2027 and USDC, configured by K3 Capital.",
+		"entity": ["k3-capital"],
+		"vaults": [
+			"0xb9bb31debCE3F6a7a7d916AeF2E49810c9685CEe",
+			"0x06047833d9aAC144f7F4e9B8234D2c7DDA1a8BAf"
 		]
 	}
 }
