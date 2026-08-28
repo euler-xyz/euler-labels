@@ -6,5 +6,9 @@
 		"deprecated": true,
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
+	},
+	{
+		"address": "0x5D780CFaf3c1fAeA843FDfb79aC1288C94785D29",
+		"description": "Yield-bearing USDC vault curated by JPEG Trading. Deposits are lent into the JPEG Trading x Yieldpoint market, collateralized by Yieldpoint yUTY."
 	}
 ]
