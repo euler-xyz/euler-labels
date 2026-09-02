@@ -1068,6 +1068,7 @@
 			"0x71772F99e83ed7F7650BE9A2b8859B12F1aeC028",
 			"0xBe264Cece20D10bf0a64d0B91C21529C7fa02AA9"
 		],
-		"tags": ["keyring"]
+		"tags": ["keyring"],
+		"block": ["GB"]
 	}
 }
