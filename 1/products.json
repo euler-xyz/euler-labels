@@ -2,7 +2,7 @@
 	"k3-prime": {
 		"name": "K3 Capital Prime Market",
 		"description": "A lending and borrowing market for stablecoin-denominated assets and selected collateral, configured by K3 Capital",
-		"entity": ["k3"],
+		"entity": ["k3-capital"],
 		"url": "",
 		"vaults": [
 			"0xD8b27CF359b7D15710a5BE299AF6e7Bf904984C2",
@@ -20,7 +20,7 @@
 	"k3-yield": {
 		"name": "K3 Capital Yield Market",
 		"description": "A lending and borrowing market for stablecoins and tokenized strategy collateral, configured by K3 Capital.",
-		"entity": ["k3"],
+		"entity": ["k3-capital"],
 		"url": "",
 		"vaults": [
 			"0xe0a80d35bB6618CBA260120b279d357978c42BCE",
@@ -466,7 +466,7 @@
 	"k3-liquity-hub": {
 		"name": "Liquity Hub",
 		"description": "A stablecoin-focused market cluster for the Liquity ecosystem, configured by K3.",
-		"entity": "k3",
+		"entity": "k3-capital",
 		"vaults": [
 			"0x9ee58f0618D2Bf130b73F2d843c45C69548B981B",
 			"0xc6137BC1378c2396051e06417704d31615F77Cb9",

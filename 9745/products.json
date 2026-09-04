@@ -38,7 +38,7 @@
 	},
 	"k3-capital-usdai": {
 		"name": "K3 Capital USDai Market",
-		"entity": "k3",
+		"entity": "k3-capital",
 		"vaults": [
 			"0x767d33217e7d2670695FfE2a104548B780f4F5d8",
 			"0xAADEA03f6D6F198Bdc9229bD8113aceD19031773",
@@ -217,7 +217,7 @@
 	},
 	"k3-capital-pendlend": {
 		"name": "K3 Capital Pendlend",
-		"entity": ["k3"],
+		"entity": ["k3-capital"],
 		"vaults": [],
 		"deprecatedVaults.": [
 			"0x8Aec278c2fD4cc07B10A8865AEd33775f93EACe6",
@@ -235,7 +235,7 @@
 	},
 	"k3-plasma-trading-hub": {
 		"name": "Plasma Trading Hub",
-		"entity": ["k3"],
+		"entity": ["k3-capital"],
 		"vaults": [],
 		"deprecatedVaults": [
 			"0x990babF76399A3fd73FBFbdd4149B968CF0C2386",
@@ -285,7 +285,7 @@
 	},
 	"k3-yuzu": {
 		"name": "Yuzu Money Cluster",
-		"entity": ["k3"],
+		"entity": ["k3-capital"],
 		"vaults": [
 			"0x9d86B4fc23D8438fC4Aba58642DC35D5F64fE941",
 			"0x2F33b4AE409e86c6BEa9E2Bbe98361c19F2A1f0c",

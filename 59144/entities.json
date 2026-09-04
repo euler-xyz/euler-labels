@@ -22,7 +22,7 @@
 		"description": "ZeroLend is a third-party curator using Euler infrastructure to configure lending markets for selected asset categories. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://zerolend.xyz/",
 		"addresses": {
-			"0x54061E18cd88D2de9af3D3D7FDF05472253B29E0": "ZeroLend Governor"
+			"0x54061E18cd88D2de9af3D3D7FDF05472253B29E0": "ZeroLend Multisig"
 		},
 		"social": {
 			"twitter": "zerolendxyz"
@@ -82,7 +82,7 @@
 		"description": "AlphaGrowth curates lending markets and structured DeFi products on Euler V2.",
 		"url": "https://alphagrowth.io/",
 		"addresses": {
-			"0x4f894Bfc9481110278C356adE1473eBe2127Fd3C": "AlphaGrowth governor multisig (Gnosis Safe, 3-of-8)"
+			"0x4f894Bfc9481110278C356adE1473eBe2127Fd3C": "AlphaGrowth Multisig"
 		},
 		"social": {
 			"twitter": "alphagrowth1"

@@ -56,6 +56,11 @@ const MAX_NAME_LEN = 256;
 const MAX_REGEX_LEN = 512;
 const COUNTRY_ALIASES = new Set(["EU", "EEA", "EFTA"]);
 const ISO_ALPHA2_RE = /^[A-Za-z]{2}$/;
+// Entity addresses are chain-agnostic: one address belongs to exactly one
+// entity across every chain file, and the same entity address carries the same
+// label wherever it is listed. Registrations accumulate across validateChain
+// calls so conflicts between chain files are caught too.
+const entityAddressRegistry = new Map();
 
 for (const file of fs.readdirSync(".")) {
 	if (!/^\d+$/.test(file)) continue;
@@ -75,7 +80,7 @@ function validateChain(chainId) {
 	const earnVaults = loadJsonFileIfExists(`${chainId}/earn-vaults.json`) || [];
 	const assets = loadJsonFileIfExists(`${chainId}/assets.json`) || [];
 
-	validateUniqueEntityAddresses(entities);
+	registerEntityAddresses(chainId, entities);
 	validateEarnVaults(`${chainId}/earn-vaults.json`, earnVaults);
 	validateAssets(`${chainId}/assets.json`, assets);
 
@@ -385,11 +390,10 @@ function validateEarnVaults(fileName, earnVaults) {
 }
 
 /**
- * Validates that each Ethereum address is only referenced once across all entities
+ * Validates that each entity address belongs to one entity and carries one
+ * label across every chain file
  */
-function validateUniqueEntityAddresses(entities) {
-	const addressMap = new Map();
-
+function registerEntityAddresses(chainId, entities) {
 	for (const entityId of Object.keys(entities)) {
 		const entity = entities[entityId];
 
@@ -397,19 +401,29 @@ function validateUniqueEntityAddresses(entities) {
 
 		for (const address of Object.keys(entity.addresses)) {
 			const normalizedAddress = ethers.getAddress(address);
+			const label = entity.addresses[address];
+			const previous = entityAddressRegistry.get(normalizedAddress);
 
-			if (addressMap.has(normalizedAddress)) {
-				const previousEntity = addressMap.get(normalizedAddress);
-				// Allow for duplicates in gauntlet
-				if (previousEntity === "gauntlet" || entityId === "gauntlet") {
-					continue;
-				}
+			if (!previous) {
+				entityAddressRegistry.set(normalizedAddress, {
+					entityId,
+					label,
+					chainId,
+				});
+				continue;
+			}
+
+			if (previous.entityId !== entityId) {
 				throw Error(
-					`Duplicate address ${normalizedAddress} found in entities: ${previousEntity} and ${entityId}`,
+					`entities: address ${normalizedAddress} belongs to ${previous.entityId} (chain ${previous.chainId}) and ${entityId} (chain ${chainId}); an address may belong to one entity only`,
 				);
 			}
 
-			addressMap.set(normalizedAddress, entityId);
+			if (previous.label !== label) {
+				throw Error(
+					`entities: address ${normalizedAddress} of ${entityId} is labelled "${previous.label}" on chain ${previous.chainId} and "${label}" on chain ${chainId}; labels must match across chains`,
+				);
+			}
 		}
 	}
 }
