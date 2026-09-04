@@ -35,11 +35,12 @@
 		"name": "Euler RWA",
 		"description": "A lending and borrowing market for real-world asset collateral, configured by Euler DAO.",
 		"entity": ["euler-dao"],
-		"vaults": ["0xC51e90b48FD7fBfF316502b85A71e0EBb1ee5238"],
+		"vaults": [],
 		"deprecatedVaults": [
 			"0xEA79E49A076a75A9bF6013505C2B92eED69E4fe1",
 			"0xabBe766f216f689818C3A1f98647cE4E41495325",
-			"0x155d4A34938dcB27486f5Bbf6a19d19D0ef0DD8A"
+			"0x155d4A34938dcB27486f5Bbf6a19d19D0ef0DD8A",
+			"0xC51e90b48FD7fBfF316502b85A71e0EBb1ee5238"
 		],
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
@@ -437,14 +438,17 @@
 		"name": "Noon",
 		"description": "A lending and borrowing market for Noon ecosystem assets, configured by Tulipa Capital.",
 		"entity": "tulipa-capital",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0x53208e965EB66841598fB8f983a41936EeE6d774",
 			"0xc7d526eFefa2e3073531f9e054F5c8cD1d0eC636",
 			"0xc1fF5490651B9B8d0400B0146E7fb174B90E315B",
 			"0x89963076d2aBCf6b3C449A8f0f69439C47C0464d",
 			"0xC6C60104eD3db10074537B30489A0b744AdD9545",
 			"0x87331E9540175B65184972B59943A9877541903e"
-		]
+		],
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true
 	},
 	"zerolend-openeden": {
 		"name": "ZeroLend OpenEden",
@@ -475,7 +479,8 @@
 	"keyring": {
 		"name": "Keyring zkVerified Cluster",
 		"entity": "keyring",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0x10e0B2B42874ADF8c29D5F900c0D18b61f048ffb",
 			"0xB6c9363DB7D651106Da38C68F34253688Fa25cda",
 			"0x33e97864E44631e6d31b81051DAABcD4C31bF792",
@@ -487,6 +492,8 @@
 			"0x67695A8e976E25D5939aD31297DFCFfC8d050eA0",
 			"0x54Fcb10F9506cf8d16D75346e398539F029240Bd"
 		],
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true,
 		"tags": ["keyring"]
 	},
 	"frontier-upshift": {
@@ -632,7 +639,8 @@
 		"description": "An isolated market for Cap ecosystem assets, configured by AlphaGrowth.",
 		"entity": ["alphagrowth"],
 		"url": "https://alphagrowth.io/",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0x6Fe7Fa90756434645F0b0428fDff78E99Dda0FBc",
 			"0x55F9bACE2C864aC0D3392Ea9fa654b605F21A3d3",
 			"0xb7522C867B8AFae5e89638b59fb38f31B0821795"
@@ -688,7 +696,18 @@
 			"0x0f080Bf8Ba818001EcfB2f461708D8484323D0cE"
 		],
 		"deprecationReason": "Deprecated due to exposure to insolvent positions held by Stream. Contact TelosC for information about future redemption.",
-		"notExplorable": true
+		"notExplorable": true,
+		"vaultOverrides": {
+			"0x01864aE3c7d5f507cC4c24cA67B4CABbDdA37EcD": {
+				"portfolioNotice": "Stream is collecting and confirming information regarding potential creditors and claimants. If you were exposed through this vault and have not already provided this information, [use Stream's updated form](https://forms.streamsoftrestructuring.com/) promptly and identify Euler/TelosC in your submission. Do not submit again if you already did. Submission does not establish or confirm any claim, entitlement, or right to payment."
+			},
+			"0x211711F277f146fC947D7053B41BB71BB5b5FC2C": {
+				"portfolioNotice": "Stream is collecting and confirming information regarding potential creditors and claimants. If you were exposed through this vault and have not already provided this information, [use Stream's updated form](https://forms.streamsoftrestructuring.com/) promptly and identify Euler/TelosC in your submission. Do not submit again if you already did. Submission does not establish or confirm any claim, entitlement, or right to payment."
+			},
+			"0x038dd0Eb275B7DE3B07884f1Fa106eD6423C45F2": {
+				"portfolioNotice": "Stream is collecting and confirming information regarding potential creditors and claimants. If you were exposed through this vault and have not already provided this information, [use Stream's updated form](https://forms.streamsoftrestructuring.com/) promptly and identify Euler/TelosC in your submission. Do not submit again if you already did. Submission does not establish or confirm any claim, entitlement, or right to payment."
+			}
+		}
 	},
 	"horizon-clearstar": {
 		"name": "Horizon Clearstar",
@@ -771,12 +790,15 @@
 		"description": "A market for borrowing against Ondo Global Markets assets, configured by Sentora. Availability may depend on jurisdiction and market configuration.",
 		"entity": "sentora",
 		"url": "https://sentora.com/platform/defi-strategies",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0x69ebF644533655B5D3b6455e8E47ddE21b5993f1",
 			"0xAD31be884B0A20237077820318a74a02A449095C",
 			"0x5344b18BdCEE6A2DcC5f0627b5f06751dB2e5A8e",
 			"0x4Fab48EDdA433E240F1c2A2E85Ee5cF38d4A6180"
 		],
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true,
 		"block": ["CA", "US"]
 	},
 	"9s-fxusd": {
@@ -948,30 +970,52 @@
 		"url": "https://kpk.io/vaults",
 		"tags": ["suppress high utilisation warning"],
 		"vaults": [
-			"0xCf4846E0d8A8667c516B844EB72A4d6e7430101D",
 			"0x2Ff596321782FE034102f55af5ad707A4Ce0d6a7",
+			"0x8b2d7534Ffcf6c2a9226f439CDaC26c6666E97a9",
+			"0xd06836F33C9c3c1D372097952C0e60240B1a3fDE"
+		],
+		"vaultOverrides": {
+			"0x2Ff596321782FE034102f55af5ad707A4Ce0d6a7": {
+				"name": "KPK VBILL/USDC Lend",
+				"description": "USDC lending vault for the KPK VBILL market. Borrowers post VBILL, a Securitize-issued tokenised US Treasury fund, as collateral."
+			},
+			"0x8b2d7534Ffcf6c2a9226f439CDaC26c6666E97a9": {
+				"name": "KPK STAC/USDC Lend",
+				"description": "USDC lending vault for the KPK STAC market. Borrowers post STAC, a Securitize-issued tokenised AAA CLO fund, as collateral."
+			},
+			"0xd06836F33C9c3c1D372097952C0e60240B1a3fDE": {
+				"name": "KPK HINC/USDC Lend",
+				"description": "USDC lending vault for the KPK HINC market. Borrowers post HINC, a Securitize-issued tokenised high-yield credit fund, as collateral.",
+				"tags": ["recently added"]
+			}
+		}
+	},
+	"securitize": {
+		"name": "Securitize RWA Collateral",
+		"description": "Issuer-governed collateral vaults for Securitize-issued tokenised RWAs. Holders deposit Securitize fund tokens to mint shares that can be posted as collateral on Euler. Governed by Securitize; access is limited to eligible, KYC-approved users.",
+		"entity": ["securitize"],
+		"logo": "securitize.png",
+		"url": "https://securitize.io/",
+		"vaults": [
+			"0xCf4846E0d8A8667c516B844EB72A4d6e7430101D",
 			"0x1cFC56665c2718454e8dDf975dC37aF0bc68B5aA",
-			"0x8b2d7534Ffcf6c2a9226f439CDaC26c6666E97a9"
+			"0x4ab4bEab100d028deCB6835c8f6916031D73793e"
 		],
 		"vaultOverrides": {
 			"0xCf4846E0d8A8667c516B844EB72A4d6e7430101D": {
 				"name": "VBILL Collateral Vault",
 				"description": "Securitize-issued collateral vault for VBILL, a tokenised US Treasury fund. Holders deposit VBILL to mint shares that can be posted as collateral in the VBILL/USDC market on Euler. Governed by Securitize; access is limited to eligible, KYC-approved users.",
-				"tags": ["recently added"]
-			},
-			"0x2Ff596321782FE034102f55af5ad707A4Ce0d6a7": {
-				"name": "KPK VBILL/USDC Lend",
-				"description": "USDC lending vault for the KPK VBILL market. Borrowers post VBILL, a Securitize-issued tokenised US Treasury fund, as collateral.",
-				"tags": ["recently added"]
+				"notExplorableLend": true
 			},
 			"0x1cFC56665c2718454e8dDf975dC37aF0bc68B5aA": {
 				"name": "STAC Collateral Vault",
 				"description": "Securitize-issued collateral vault for STAC, a tokenised AAA CLO fund. Holders deposit STAC to mint shares that can be posted as collateral in the STAC/USDC market on Euler. Governed by Securitize; access is limited to eligible, KYC-approved users.",
-				"tags": ["recently added"]
+				"notExplorableLend": true
 			},
-			"0x8b2d7534Ffcf6c2a9226f439CDaC26c6666E97a9": {
-				"name": "KPK STAC/USDC Lend",
-				"description": "USDC lending vault for the KPK STAC market. Borrowers post STAC, a Securitize-issued tokenised AAA CLO fund, as collateral.",
+			"0x4ab4bEab100d028deCB6835c8f6916031D73793e": {
+				"name": "HINC Collateral Vault",
+				"description": "Securitize-issued collateral vault for HINC, a tokenised high-yield credit fund sub-advised by Neuberger Berman. Holders deposit HINC to mint shares that can be posted as collateral in the HINC/USDC market on Euler. Access is limited to eligible, KYC-approved users, enforced by Securitize as transfer agent at the token level.",
+				"notExplorableLend": true,
 				"tags": ["recently added"]
 			}
 		}
@@ -1027,8 +1071,11 @@
 		"vaults": [
 			"0x2BE1acAA1B37A769A4618bbfCd35d9ea54133065",
 			"0xa45EAc8E33168cefa0b225F500E6d93D43B8f1AF",
-			"0xAc193c221a2e22990f36Fd388C2974eE2eb0FF50"
+			"0xAc193c221a2e22990f36Fd388C2974eE2eb0FF50",
+			"0x71772F99e83ed7F7650BE9A2b8859B12F1aeC028",
+			"0xBe264Cece20D10bf0a64d0B91C21529C7fa02AA9"
 		],
-		"tags": ["keyring"]
+		"tags": ["keyring"],
+		"block": ["GB"]
 	}
 }

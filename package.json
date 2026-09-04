@@ -2,6 +2,7 @@
 	"name": "euler-labels",
 	"version": "1.0.0",
 	"scripts": {
+		"audit:ci": "node audit.js",
 		"verify": "node verify.js",
 		"sync:hexagate": "node hexagate-sync.js",
 		"fix": "node fix.js && npm run biome:fix",

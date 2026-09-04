@@ -58,10 +58,13 @@
 		"name": "Tulipa Folding Hive",
 		"description": "A Berachain market for oriBGT-related folding, configured by Tulipa Capital.",
 		"entity": "tulipa-capital",
-		"vaults": [
+		"deprecatedVaults": [
 			"0xac0476A04c567EBcd49Db0A5b8b294A119d7849D",
 			"0xCaa70d2aa873Ef057980844e18D9a9560bdfFcC0"
-		]
+		],
+		"vaults": [],
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true
 	},
 	"mev-capital-red": {
 		"name": "MEV Capital Berachain Red Cluster",

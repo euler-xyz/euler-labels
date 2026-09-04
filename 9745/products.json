@@ -108,7 +108,12 @@
 			"0x138c289Bb8b855CF271305C8bcf91DC31Ba30194"
 		],
 		"deprecationReason": "Deprecated due to exposure to the insolvent positions held by Stream.",
-		"notExplorable": true
+		"notExplorable": true,
+		"vaultOverrides": {
+			"0x57c582346B7d49A46Af3745A8278917D1c1311b8": {
+				"portfolioNotice": "Stream is collecting and confirming information regarding potential creditors and claimants. If you were exposed through this vault and have not already provided this information, [use Stream's updated form](https://forms.streamsoftrestructuring.com/) promptly and identify Euler/TelosC in your submission. Do not submit again if you already did. Submission does not establish or confirm any claim, entitlement, or right to payment."
+			}
+		}
 	},
 	"edge-capital-core-cluster": {
 		"name": "Edge UltraYield Cluster",
@@ -213,7 +218,8 @@
 	"k3-capital-pendlend": {
 		"name": "K3 Capital Pendlend",
 		"entity": ["k3"],
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults.": [
 			"0x8Aec278c2fD4cc07B10A8865AEd33775f93EACe6",
 			"0x527295f09Ff7c411B213B29a0DE8c816a669b3fe",
 			"0x45F4ccae775BEDd6d80c368ebA87f41D8EEf1067",
@@ -223,7 +229,9 @@
 			"0xA4e5C5B9C7685F900cf03E26340fE25af5B666C3",
 			"0x3665539E0968AE000eb9E761EA89dCd9B40926Cc",
 			"0xb33D091E800a731E8609E0058C67DCbcD5ad5240"
-		]
+		],
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true
 	},
 	"k3-plasma-trading-hub": {
 		"name": "Plasma Trading Hub",
