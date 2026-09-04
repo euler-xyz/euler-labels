@@ -2,7 +2,7 @@
 	"name": "euler-labels",
 	"version": "1.0.0",
 	"scripts": {
-		"audit:ci": "audit-ci --high --allowlist GHSA-w3rx-r6r6-pgpr GHSA-5p2g-fcmc-qvqq",
+		"audit:ci": "node audit.js",
 		"verify": "node verify.js",
 		"sync:hexagate": "node hexagate-sync.js",
 		"fix": "node fix.js && npm run biome:fix",
@@ -16,7 +16,6 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
-		"audit-ci": "7.1.0",
 		"husky": "9.1.7"
 	},
 	"lint-staged": {

@@ -46,33 +46,9 @@ jobs:
         # high-severity DoS advisories in parsers this repo never feeds
         # (ICNS/JXL/HEIF); allowlist them so the gate stays live for
         # everything else and self-heals once a patched release ships.
-        # Retry only transient registry/network errors; vulnerability findings
-        # and every other failure remain immediately blocking.
         env:
-          npm_config_fetch_retries: "1"
-          npm_config_fetch_retry_maxtimeout: "10000"
-          npm_config_fetch_retry_mintimeout: "1000"
-          npm_config_fetch_timeout: "60000"
-        run: |
-          for attempt in 1 2; do
-            set +e
-            output="$(npm run audit:ci 2>&1)"
-            status=$?
-            set -e
-            printf '%s\n' "$output"
-
-            if (( status == 0 )); then
-              exit 0
-            fi
-            if (( attempt == 2 )); then
-              exit "$status"
-            fi
-            case "$output" in
-              *"code undefined:"*|*"ENOTFOUND"*|*"EAI_AGAIN"*|*"ECONNRESET"*|*"ETIMEDOUT"*|*"FETCH_ERROR"*) ;;
-              *) exit "$status" ;;
-            esac
-            echo "npm audit hit a transient registry error; retrying once..."
-          done
+          GITHUB_TOKEN: ${{ github.token }}
+        run: npm run audit:ci
 
       - name: Run verify.js
         run: node verify.js
