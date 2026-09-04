@@ -39,14 +39,16 @@ jobs:
           ' "$version"
 
       - name: Install dependencies
-        run: npm ci --ignore-scripts
+        run: npm ci --ignore-scripts --no-audit
 
       - name: Audit dependencies
         # image-size <= 2.0.2 (the latest release) carries two unfixable
         # high-severity DoS advisories in parsers this repo never feeds
         # (ICNS/JXL/HEIF); allowlist them so the gate stays live for
         # everything else and self-heals once a patched release ships.
-        run: npx audit-ci@7.1.0 --high --allowlist GHSA-w3rx-r6r6-pgpr GHSA-5p2g-fcmc-qvqq
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: npm run audit:ci
 
       - name: Run verify.js
         run: node verify.js
