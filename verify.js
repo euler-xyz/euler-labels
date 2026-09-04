@@ -35,6 +35,23 @@ const VALID_VAULT_OVERRIDE_KEYS = new Set([
 	"tags",
 ]);
 
+const VALID_PRODUCT_KEYS = new Set([
+	"name",
+	"description",
+	"entity",
+	"url",
+	"logo",
+	"vaults",
+	"deprecatedVaults",
+	"externalVaults",
+	"deprecationReason",
+	"portfolioNotice",
+	"notExplorable",
+	"tags",
+	"block",
+	"vaultOverrides",
+]);
+
 const VALID_ASSET_MATCH_KEYS = new Set([
 	"address",
 	"symbols",
@@ -107,6 +124,10 @@ function validateChain(chainId) {
 
 		if (!validSlug(productId))
 			throw Error(`products: invalid slug: ${productId}`);
+		for (const key of Object.keys(product)) {
+			if (!VALID_PRODUCT_KEYS.has(key))
+				throw Error(`products: unknown key '${key}': ${productId}`);
+		}
 		if (!product.name) throw Error(`products: missing name: ${productId}`);
 
 		if (
