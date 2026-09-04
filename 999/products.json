@@ -46,13 +46,16 @@
 		"description": "A set of HyperEVM markets centered on USDXL and HyperEVM-native collateral assets, configured by Clearstar.",
 		"entity": ["clearstar"],
 		"url": "https://hypurrfi.com/",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0xD62e7C9e6b1E43Cb06e1ba46243b128c81bC918c",
 			"0x0e8724954A5b2cA41146f11bd6008FbEeAe50603",
 			"0xb2D7b74FF64e5f4908256E1c17487939F2435155",
 			"0x1ba03AF962C99b36297e31f56B41bE31C37452d5",
 			"0x6E02C17eb84e2b02A4cb93c086091D50eE74c16E",
 			"0x8231b0c73a265D745e6810BffeED83B6eD1501fB"
-		]
+		],
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true
 	}
 }

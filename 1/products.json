@@ -438,14 +438,17 @@
 		"name": "Noon",
 		"description": "A lending and borrowing market for Noon ecosystem assets, configured by Tulipa Capital.",
 		"entity": "tulipa-capital",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0x53208e965EB66841598fB8f983a41936EeE6d774",
 			"0xc7d526eFefa2e3073531f9e054F5c8cD1d0eC636",
 			"0xc1fF5490651B9B8d0400B0146E7fb174B90E315B",
 			"0x89963076d2aBCf6b3C449A8f0f69439C47C0464d",
 			"0xC6C60104eD3db10074537B30489A0b744AdD9545",
 			"0x87331E9540175B65184972B59943A9877541903e"
-		]
+		],
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true
 	},
 	"zerolend-openeden": {
 		"name": "ZeroLend OpenEden",
@@ -636,7 +639,8 @@
 		"description": "An isolated market for Cap ecosystem assets, configured by AlphaGrowth.",
 		"entity": ["alphagrowth"],
 		"url": "https://alphagrowth.io/",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0x6Fe7Fa90756434645F0b0428fDff78E99Dda0FBc",
 			"0x55F9bACE2C864aC0D3392Ea9fa654b605F21A3d3",
 			"0xb7522C867B8AFae5e89638b59fb38f31B0821795"
@@ -786,12 +790,15 @@
 		"description": "A market for borrowing against Ondo Global Markets assets, configured by Sentora. Availability may depend on jurisdiction and market configuration.",
 		"entity": "sentora",
 		"url": "https://sentora.com/platform/defi-strategies",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0x69ebF644533655B5D3b6455e8E47ddE21b5993f1",
 			"0xAD31be884B0A20237077820318a74a02A449095C",
 			"0x5344b18BdCEE6A2DcC5f0627b5f06751dB2e5A8e",
 			"0x4Fab48EDdA433E240F1c2A2E85Ee5cF38d4A6180"
 		],
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true,
 		"block": ["CA", "US"]
 	},
 	"9s-fxusd": {
