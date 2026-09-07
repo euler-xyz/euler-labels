@@ -20,7 +20,7 @@ Each entry in this object corresponds to a company, organisation, or other entit
 * `logo`: The filename of a logo stored in the `logo/` directory.
 * `description`: Long-form description of the entity, displayed on the entity's page.
 * `url`: Website where users can learn more about the entity.
-* `addresses`: An object that indicates addresses controlled by this entity. Each key is a checksumed hex address, and each value is a human-meaningful description of what this address represents.
+* `addresses`: An object that indicates addresses controlled by this entity. Each key is a checksumed hex address, and each value is a human-meaningful description of what this address represents. Addresses are chain-agnostic: an address listed under an entity in any chain file proves that entity's control on every chain, so one address may belong to only one entity across all chain files, and the same entity address must carry the same label wherever it is listed.
 * `social`: An object that indicates social media handles controlled by this entity. Each key is a name of a social media system, and each value is the entity-specific username/handle.
 
 ### `products.json`

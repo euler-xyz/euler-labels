@@ -93,7 +93,7 @@
 			"twitter": "mevcapital"
 		}
 	},
-	"k3": {
+	"k3-capital": {
 		"name": "K3 Capital",
 		"logo": "k3.svg",
 		"description": "K3 Capital is a third-party curator using Euler infrastructure to configure vaults across selected DeFi markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
@@ -203,7 +203,7 @@
 		"description": "Clearstar is a third-party curator using Euler infrastructure to configure vaults across selected decentralized markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://www.clearstar.xyz/",
 		"addresses": {
-			"0x30988479C2E6a03E7fB65138b94762D41a733458": "Curator Wallet 1 (ForDeFi MPC)",
+			"0x30988479C2E6a03E7fB65138b94762D41a733458": "Curator Wallet (ForDeFi MPC)",
 			"0x72882eb5D27C7088DFA6DDE941DD42e5d184F0ef": "Curator Wallet 2 (ForDeFi MPC)",
 			"0xb3CF59A5f12cA319861376C5e63Eef4790a42B44": "Curator Multisig"
 		},
@@ -301,7 +301,7 @@
 		"description": "AlphaGrowth is a third-party curator using Euler infrastructure to configure lending markets and structured DeFi products. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://alphagrowth.io/",
 		"addresses": {
-			"0x4f894Bfc9481110278C356adE1473eBe2127Fd3C": "AlphaGrowth governor multisig (Gnosis Safe, 3-of-8)"
+			"0x4f894Bfc9481110278C356adE1473eBe2127Fd3C": "AlphaGrowth Multisig"
 		},
 		"social": {
 			"twitter": "alphagrowth1"
