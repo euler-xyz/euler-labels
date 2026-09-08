@@ -761,9 +761,9 @@
 		"notExplorable": true
 	},
 	"sentora-rlusd": {
-		"name": "RLUSD Market (prev. Sentora RLUSD)",
-		"description": "A lending and borrowing market for RLUSD and selected collateral.",
-		"entity": ["euler-dao"],
+		"name": "K3 Capital RLUSD",
+		"description": "A lending and borrowing market for RLUSD and selected collateral. Previously known as Sentora RLUSD.",
+		"entity": ["k3-capital"],
 		"vaults": [
 			"0xaF5372792a29dC6b296d6FFD4AA3386aff8f9BB2",
 			"0x9bD52F2805c6aF014132874124686e7b248c2Cbb",
@@ -772,9 +772,9 @@
 		]
 	},
 	"sentora-pyusd": {
-		"name": "PYUSD Market (prev. Sentora PYUSD)",
-		"description": "A lending and borrowing market for PYUSD and selected collateral.",
-		"entity": ["euler-dao"],
+		"name": "K3 Capital PYUSD",
+		"description": "A lending and borrowing market for PYUSD and selected collateral. Previously known as Sentora PYUSD.",
+		"entity": ["k3-capital"],
 		"vaults": [
 			"0xba98fC35C9dfd69178AD5dcE9FA29c64554783b5",
 			"0xAB2726DAf820Aa9270D14Db9B18c8d187cbF2f30",
