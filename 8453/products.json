@@ -180,9 +180,6 @@
 		"entity": "jpeg-trading",
 		"url": "https://jpeg-trading.com/",
 		"tags": ["suppress high utilisation warning"],
-		"vaults": [
-			"0xFA493128d7D092A082571b92334574A0a529E799",
-			"0xcc639251bd612A0930990162c15227D1Ba996354"
-		]
+		"vaults": ["0xcc639251bd612A0930990162c15227D1Ba996354"]
 	}
 }
