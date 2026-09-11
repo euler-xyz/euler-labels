@@ -44,7 +44,7 @@
 	"k3-capital": {
 		"name": "K3 Capital",
 		"logo": "k3.svg",
-		"description": "K3 Capital provide leading institutional asset and risk management in decentralized finance.",
+		"description": "K3 Capital is a third-party curator using Euler infrastructure to configure vaults across selected DeFi markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://k3.capital/",
 		"addresses": {
 			"0x060DB084bF41872861f175d83f3cb1B5566dfEA3": "K3 Capital Multisig"
@@ -65,7 +65,7 @@
 	"hyperithm": {
 		"name": "Hyperithm",
 		"logo": "hyperithm.png",
-		"description": "Hyperithm maximizes yield by swiftly integrating unique collaterals, providing borrowers with high-return opportunities through active optimization while ensuring effective risk management.",
+		"description": "Hyperithm is a third-party curator using Euler infrastructure to configure markets involving selected collateral assets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://www.hyperithm.com/",
 		"addresses": {
 			"0x75178137D3B4B9A0F771E0e149b00fB8167BA325": "Hyperithm MPC wallet",

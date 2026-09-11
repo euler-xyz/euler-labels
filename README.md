@@ -16,6 +16,8 @@ Inside each network's directory are JSON files that correspond to the following 
 
 Each entry in this object corresponds to a company, organisation, or other entity. Each key is an **entity ID**, which is a unique string per entity. It should be in "URL slug" format (lowercase ASCII letters or numbers, separated by `-` characters).
 
+An entity ID identifies the same organisation on every chain. When an entity appears in several chain files, its `name`, `logo`, `description`, `url` and `social` must be identical in each of them; only `addresses` may differ per file. Verification rejects drift.
+
 * `name`: Full, official name of the entity. (Required)
 * `logo`: The filename of a logo stored in the `logo/` directory.
 * `description`: Long-form description of the entity, displayed on the entity's page.
@@ -29,7 +31,7 @@ Each entry in this object corresponds to a lending product, which is primarily a
 
 * `name`: Official name of the product. (Required)
 * `description`: Long-form description of the product, displayed on the product's page.
-* `entity`: An entity ID that refers to the organisation responsible for governing and/or creating this vault, or a list of entity IDs if the vault is joint-managed.
+* `entity`: An entity ID, or a list of entity IDs. The first (or only) entity is the organisation responsible for governing this product; any further entities are display-only co-brands (for example the issuer of the collateral a market is built on) and hold no governance role. Order matters, and every entry must be a distinct entity from `entities.json`.
 * `url`: Website where users can learn more about the product.
 * `logo`: The filename of a logo stored in the `logo/` directory.
 * `vaults`: An array of the vault addresses (in checksumed hex format) that comprise the product. A vault may only appear in one product.

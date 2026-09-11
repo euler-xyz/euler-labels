@@ -78,6 +78,10 @@ const ISO_ALPHA2_RE = /^[A-Za-z]{2}$/;
 // label wherever it is listed. Registrations accumulate across validateChain
 // calls so conflicts between chain files are caught too.
 const entityAddressRegistry = new Map();
+// Entity profiles are chain-agnostic too: the same entity ID must describe the
+// same organisation (name, logo, description, url, social) in every chain file.
+const ENTITY_PROFILE_FIELDS = ["name", "logo", "description", "url", "social"];
+const entityProfileRegistry = new Map();
 
 for (const file of fs.readdirSync(".")) {
 	if (!/^\d+$/.test(file)) continue;
@@ -98,6 +102,7 @@ function validateChain(chainId) {
 	const assets = loadJsonFileIfExists(`${chainId}/assets.json`) || [];
 
 	registerEntityAddresses(chainId, entities);
+	registerEntityProfiles(chainId, entities);
 	validateEarnVaults(`${chainId}/earn-vaults.json`, earnVaults);
 	validateAssets(`${chainId}/assets.json`, assets);
 
@@ -169,9 +174,7 @@ function validateChain(chainId) {
 				);
 		}
 
-		for (const entity of getArray(product.entity)) {
-			if (!entities[entity]) throw Error(`products: no such entity ${entity}`);
-		}
+		validateProductEntities(product.entity, entities, productId);
 
 		if (product.logo && !logos[product.logo])
 			throw Error(`products: logo not found: ${product.logo}`);
@@ -446,6 +449,51 @@ function registerEntityAddresses(chainId, entities) {
 				);
 			}
 		}
+	}
+}
+
+/**
+ * Validates that an entity ID describes the same organisation in every chain
+ * file. Addresses are checked separately by registerEntityAddresses.
+ */
+function registerEntityProfiles(chainId, entities) {
+	for (const entityId of Object.keys(entities)) {
+		const entity = entities[entityId];
+		const previous = entityProfileRegistry.get(entityId);
+
+		if (!previous) {
+			entityProfileRegistry.set(entityId, { chainId, entity });
+			continue;
+		}
+
+		for (const field of ENTITY_PROFILE_FIELDS) {
+			const before = JSON.stringify(previous.entity[field] ?? null);
+			const after = JSON.stringify(entity[field] ?? null);
+			if (before !== after)
+				throw Error(
+					`entities: ${entityId}.${field} differs between chain ${previous.chainId} and chain ${chainId}; entity profiles must match across chains`,
+				);
+		}
+	}
+}
+
+/**
+ * The first entity governs the product; any further entities are display-only
+ * co-brands. Every entry must be a distinct, known entity ID.
+ */
+function validateProductEntities(entity, entities, productId) {
+	const ids = getArray(entity);
+	if (ids.length === 0)
+		throw Error(
+			`products: entity must name at least one entity ID: ${productId}`,
+		);
+	const seen = new Set();
+	for (const entityId of ids) {
+		if (typeof entityId !== "string" || !entities[entityId])
+			throw Error(`products: no such entity ${entityId}: ${productId}`);
+		if (seen.has(entityId))
+			throw Error(`products: entity lists ${entityId} twice: ${productId}`);
+		seen.add(entityId);
 	}
 }
 
