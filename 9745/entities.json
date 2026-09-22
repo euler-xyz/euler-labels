@@ -17,7 +17,7 @@
 			"github": "euler-xyz"
 		}
 	},
-	"k3": {
+	"k3-capital": {
 		"name": "K3 Capital",
 		"logo": "k3.svg",
 		"description": "K3 Capital is a third-party curator using Euler infrastructure to configure vaults across selected DeFi markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
@@ -47,7 +47,7 @@
 		"description": "Re7 Labs is a third-party curator using Euler infrastructure to configure onchain vaults and lending markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://www.re7labs.xyz/",
 		"addresses": {
-			"0xddedB1F2d1dd0b0455Fe5277632c84f57f894011": "Re7 Labs Multisig"
+			"0xddedB1F2d1dd0b0455Fe5277632c84f57f894011": "Re7 Labs Euler Multisig"
 		},
 		"social": {
 			"twitter": "Re7Labs"
@@ -96,7 +96,7 @@
 		"description": "Clearstar is a third-party curator using Euler infrastructure to configure vaults across selected decentralized markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://www.clearstar.xyz/",
 		"addresses": {
-			"0x30988479C2E6a03E7fB65138b94762D41a733458": "Curator Wallet 1 (ForDeFi MPC)",
+			"0x30988479C2E6a03E7fB65138b94762D41a733458": "Curator Wallet (ForDeFi MPC)",
 			"0x72882eb5D27C7088DFA6DDE941DD42e5d184F0ef": "Curator Wallet 2 (ForDeFi MPC)"
 		},
 		"social": {

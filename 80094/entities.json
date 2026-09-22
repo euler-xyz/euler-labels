@@ -29,7 +29,7 @@
 		"description": "Re7 Labs is a third-party curator using Euler infrastructure to configure onchain vaults and lending markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
 		"url": "https://www.re7labs.xyz/",
 		"addresses": {
-			"0x3BA1566ED39F865bAf4c1Eb9acE53F3D2062bE65": "Re7 Labs Euler Berachain Multisig"
+			"0x3BA1566ED39F865bAf4c1Eb9acE53F3D2062bE65": "Re7 Labs Euler Multisig"
 		},
 		"social": {
 			"twitter": "Re7Labs"
