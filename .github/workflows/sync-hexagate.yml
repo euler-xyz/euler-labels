@@ -1,14 +1,8 @@
 name: Sync Hexagate
 
+# The Hexagate agreement expired and HEXAGATE_API_KEY is no longer available.
+# Automatic triggers are removed; manual dispatch is kept for re-enablement.
 on:
-  pull_request_target:
-    branches:
-      - master
-      - development
-  push:
-    branches:
-      - master
-      - development
   workflow_dispatch:
     inputs:
       mode:
