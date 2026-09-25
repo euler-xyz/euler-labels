@@ -756,7 +756,7 @@
 		"deprecationReason": "Deprecated due to low activity.",
 		"notExplorable": true
 	},
-	"sentora-rlusd": {
+	"k3-rlusd": {
 		"name": "K3 Capital RLUSD",
 		"description": "A lending and borrowing market for RLUSD and selected collateral. Previously known as Sentora RLUSD.",
 		"entity": ["k3-capital"],
@@ -767,7 +767,7 @@
 			"0x4BC68f0CC010A0BedA0E3f63CfBEcDee5Ad55A18"
 		]
 	},
-	"sentora-pyusd": {
+	"k3-pyusd": {
 		"name": "K3 Capital PYUSD",
 		"description": "A lending and borrowing market for PYUSD and selected collateral. Previously known as Sentora PYUSD.",
 		"entity": ["k3-capital"],
