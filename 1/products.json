@@ -1019,10 +1019,13 @@
 		"description": "Fixed-rate WETH borrowing markets designed for LST/LRT-backed strategies, with borrow rates set monthly from a benchmark ETH staking rate. Curated by KPK.",
 		"entity": ["kpk"],
 		"url": "https://kpk.io/vaults",
-		"vaults": [
+		"vaults": [],
+		"deprecatedVaults": [
 			"0xf55B46C10138782aDE3275D81e44B8464100eAfF",
 			"0xB5fa20eb3c1A146E1090F24CF3c7D60263Dafa71"
 		],
+		"deprecationReason": "Deprecated due to low activity.",
+		"notExplorable": true,
 		"vaultOverrides": {
 			"0xf55B46C10138782aDE3275D81e44B8464100eAfF": {
 				"name": "KPK wstETH Term Borrow",
