@@ -1,8 +1,9 @@
 # Euler Labels
 
-This repository contains a database of metadata about [Euler Vault Kit](https://docs.euler.finance/euler-vault-kit-white-paper/) vaults and related entities. This metadata is used to augment the [Euler dApp](https://app.euler.finance) UI by showing human-readable identifiers alongside vaults, and providing the information necessary to render custom pages for governors and packaged lending products.
+> [!IMPORTANT]
+> This repository is deprecated. Vaults are no longer labelled through pull requests here, and its files are no longer updated. To have a vault, product or entity labelled, or to change an existing label, reach out to the Euler team.
 
-If you have created a vault and wish to have it included in this database, please read the rest of this file, fork the repo, and create a pull request.
+This repository contained a database of metadata about [Euler Vault Kit](https://docs.euler.finance/euler-vault-kit-white-paper/) vaults and related entities. The metadata augmented the [Euler dApp](https://app.euler.finance) UI with human-readable identifiers alongside vaults, and provided the information needed to render custom pages for governors and packaged lending products. The schema below describes the files as they were left.
 
 ## Schema
 
@@ -125,11 +126,3 @@ The repository includes several npm scripts to help maintain the data:
 
 * `npm run verify`: Validates all JSON files against their schemas and ensures all Ethereum addresses are properly checksummed.
 * `npm run fix`: Normalizes all Ethereum addresses to their proper checksummed format and fixes Biome formatting issues (like trailing commas) across all chain files.
-
-## Verification
-
-Before making your pull request, please ensure that `verify.js` succeeds:
-
-    apt install -y npm jq
-    npm i
-    node verify.js
