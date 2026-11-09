@@ -1060,6 +1060,7 @@
 			"0xb57320b253363bf749D5CE6e66592FDC74cce6f7"
 		]
 	},
+	
 	"keyring-institutional": {
 		"name": "Keyring Institutional Cluster",
 		"description": "A zk-permissioned lending market for institutional tokenised assets (mGLOBAL, NGI+) collateralised against USDC and USDT.",
@@ -1074,5 +1075,27 @@
 		],
 		"tags": ["keyring"],
 		"block": ["GB"]
-	}
+	},
+
+    "weth-susd": {
+                "name": "WETH / sUSD Market",
+                "description": "A borrowing market using WETH and sUSD as collateral assets.",
+                "entity": ["weth-susd"],
+                "vaults": [
+                        "0xEA0D1Af991Fd8e738A67F2Db52cbB73A1586fEef",
+                        "0xb1B16DD4E2a63c1565F3eFdA97d046165098aA38"
+                ],
+                "vaultOverrides": {
+                        "0xEA0D1Af991Fd8e738A67F2Db52cbB73A1586fEef": {
+                                "name": "WETH Collateral Vault",
+                                "description": "WETH collateral vault.",
+                                "notExplorableLend": true
+                        },
+                        "0xb1B16DD4E2a63c1565F3eFdA97d046165098aA38": {
+                                "name": "sUSD Collateral Vault",
+                                "description": "sUSD collateral vault.",
+                                "notExplorableLend": true
+                        }
+                }
+        }
 }
